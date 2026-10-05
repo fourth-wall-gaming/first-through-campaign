@@ -260,3 +260,24 @@ def test_geography_prose_agrees_with_the_data_on_distance():
         assert f"{ly:.1f}" in body or f"{ly:.2f}" in body or str(round(ly)) in body, (
             f"{p.name} never states its own distance ({ly} ly)"
         )
+
+
+NON_LETHAL_WEAPON_WORDS = ("stunner", "shock baton", "restraint", "net", "gel")
+
+
+def test_the_tally_wants_prisoners_not_corpses():
+    """Spec section 12: the antagonist's own motive supplies the non-lethal rule.
+    If this entry ever loses that, the convention becomes a house rule again."""
+    p = ROOT / "lore/organizations/the-tally.md"
+    _, body = parse_frontmatter(p.read_text())
+    assert "manifest" in body.lower()
+    assert any(w in body.lower() for w in NON_LETHAL_WEAPON_WORDS)
+
+
+def test_the_kit_entry_explains_charge_without_naming_power_points():
+    """The mechanics wall: prose never contains rules vocabulary."""
+    p = ROOT / "lore/technology/a-first-throughs-kit.md"
+    _, body = parse_frontmatter(p.read_text())
+    assert "charge" in body.lower()
+    for banned in ("Power Point", "POW", "Boost", "Limit"):
+        assert banned not in body, f"the kit entry leaks the rules word {banned!r}"
