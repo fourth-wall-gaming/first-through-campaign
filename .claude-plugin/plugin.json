@@ -1,0 +1,16 @@
+{
+  "name": "first-through",
+  "displayName": "First Through",
+  "description": "A Mythras Imperative campaign for mythras-gm, built as a first roleplaying game for 10-15 year olds and set in the real stellar neighbourhood. Nine hundred and seventy-five years ago seedships carried anchor pairs out at a twentieth of lightspeed; where one arrived, a door opened, and that is the only way between stars. Two one-sitting entry points -- one investigation, one boarding action -- four pre-generated first-throughs, and a living world of 13 agendas and 24 beats. Nobody dies.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Fourth Wall Gaming",
+    "url": "https://github.com/fourth-wall-gaming"
+  },
+  "repository": "https://github.com/fourth-wall-gaming/first-through-campaign",
+  "homepage": "https://github.com/fourth-wall-gaming/first-through-campaign",
+  "license": "MIT",
+  "keywords": ["rpg", "mythras", "campaign", "gamemaster", "tabletop", "science-fiction", "kids"],
+  "dependencies": ["mythras-gm"],
+  "hooks": "./hooks/hooks.json"
+}

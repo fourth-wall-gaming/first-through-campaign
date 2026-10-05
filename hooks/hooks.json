@@ -1,0 +1,19 @@
+{
+  "description": "Report the state of the First Through save at session start. Never imports, never blocks.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/scripts/session-start.sh\"",
+            "timeout": 120000,
+            "statusMessage": "Checking the First Through save file",
+            "async": false
+          }
+        ]
+      }
+    ]
+  }
+}

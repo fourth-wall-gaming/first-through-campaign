@@ -1,0 +1,128 @@
+---
+description: Begin First Through — brief a new player, import the scenario, pick an entry point and a character, and open the first scene.
+---
+
+# Start First Through
+
+The zero-state path. Use this when the campaign has never been played on this
+machine. **If a game is already in progress, stop and use `/mythras-gm:play`
+instead** — step 4 checks, and it matters, because a start command that resets
+somebody's campaign is worse than no start command at all.
+
+Resolve the engine first; everything below needs it:
+
+```bash
+. "${CLAUDE_PLUGIN_ROOT}/scripts/engine.sh"   # sets GM_ROOT, GM_SKILL, GM_CLI, gm()
+[ -z "$GM_ROOT" ] && echo "mythras-gm is not installed: /plugin install mythras-gm@fourth-wall-gaming"
+```
+
+## 1. Is this their first roleplaying game? Brief them first
+
+**Ask. Do not assume.** If they have played before, say so in a line and move on.
+
+If they have not, read `lore/player-briefing/first-through-the-sixty-second-briefing.md`
+and give it **in your own words**, in about a minute. Three things and then stop:
+their skills are numbers out of a hundred and they roll under them; fights are
+short and avoidable and nobody dies; and Passions are the good bit.
+
+Do this **before** they choose a character. Knowing that Passions matter changes
+which one they pick, and a player who has been told *you do not need to learn
+any rules* relaxes.
+
+Do not read them the rulebook. There is no rulebook to read.
+
+## 2. Read `TABLE-ADDENDUM.md` before the first roll
+
+Three rules specific to this campaign, and all three change how you run it:
+
+- **Incapacitation, never death, in both directions.** Mythras unchanged; the
+  fiction resolves fatal wounds as knockouts, capture and being dragged clear.
+  This is the one that protects a child's first character from one bad exchange.
+- **When the player goes quiet, Tolk speaks** — never a menu.
+- **The player always chooses the special effect.**
+
+## 3. The engine and the database
+
+```bash
+gm init-db                                   # idempotent; stop and report if it fails
+```
+
+If this fails, say so plainly, do not narrate, do not roll, and do not tell the
+player anything was saved. Offer `/mythras-gm:setup`.
+
+## 4. Check the state of the save
+
+```bash
+gm get-campaign --campaign myth-campaign-first-through-s1
+```
+
+- **Not found** → carry on to step 5 and import.
+- **Found with `myth-session-number` of 0** → already imported, never started.
+  **Skip step 5.**
+- **Found with a session number above 0** → a game is in progress. **Stop.**
+  Tell the player what clock it is at and hand them `/mythras-gm:play`.
+  **Do not import**, do not re-seed, and do not offer to start over unless they
+  ask in so many words.
+
+## 5. Import
+
+```bash
+gm import-campaign --path "${CLAUDE_PLUGIN_ROOT}" --new-ids
+```
+
+Note the campaign id it returns; everything after this uses it.
+
+## 6. Offer the two entry points
+
+In the player's language, two sentences each, and let them choose. Both are one
+sitting. Both end in the same place.
+
+- **The Quiet Door** (`lore/entry-points/the-quiet-door.md`) — *A farming
+  settlement's only door has started stuttering, and there are four thousand
+  people on the far side of it. You go and find out why.* Investigation,
+  machinery and persuasion; one confrontation and it can be avoided entirely.
+- **Flare** (`lore/entry-points/flare.md`) — *A refinery crew have barricaded
+  their own corridor, their shelter is on the far side of it, and the stars
+  above them are about to do what they do.* A real fight on a real clock —
+  initiative, special effects, three waves — and everybody walks out.
+
+If they want to fight things, give them **Flare**. If they want to work
+something out, give them **The Quiet Door**. If they cannot decide, ask which
+sounds more like a story they want to be in, and do not explain further.
+
+## 7. Offer the four pre-gens
+
+One line each, from `lore/character-creation/choosing-a-first-through.md`:
+
+- **The Runner** — gets there. Climbs, carries, and has never been the slowest
+  person in a room.
+- **The Tinker** — opens things. Can tell a dying anchor from a sulking one.
+- **The Talker** — gets invited in. Reads people fast and is usually right.
+- **The Fieldhand** — knows what is alive. Raised behind a single door and has
+  watched people decide not to pack.
+
+Say plainly: **all four can finish either mission, and none of them has to hurt
+anybody.** They are not picking a difficulty setting.
+
+Then create them from the template:
+
+```bash
+gm create-character --campaign <id> --template <template-id> --type pc --name "<their name>"
+```
+
+Let them name the character. Read them their three Passions and ask if they
+want to change one — that single question does more for a first session than
+anything else in this file.
+
+## 8. Set the scene, then narrate
+
+```bash
+gm set-scene --campaign <id> --scene "<where they are, what is in front of them>"
+```
+
+**Not before.** The ready room at the Nine, Calloway standing up because they do
+not sit down for this one, and Tolk on the table with opinions.
+
+Then run the kit check as the guaranteed early success — a Very Easy call on
+something they are already good at — so the first mechanics block they ever see
+is one that worked.
