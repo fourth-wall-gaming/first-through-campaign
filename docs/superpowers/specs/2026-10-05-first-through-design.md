@@ -113,35 +113,43 @@ station, hung in the glare of an A1V star with a white dwarf for a second sun.
 
 The shipping map. `Opened` = 975 − (ly × 20), in years before the present.
 
+**Figures below are the design-time values; `data/systems.json` is authoritative.**
+Distances are computed from SIMBAD parallaxes as `3261.5638 / plx_mas` and the
+door dates from `975 - round(ly * 20)`, so the table is regenerated from the
+data rather than maintained by hand. Where a Wikipedia figure and SIMBAD
+disagreed the larger discrepancies were Sirius (8.71 vs **8.60**), Gliese 65
+(8.77 vs **8.87**) and Alpha Centauri (4.25 vs **4.39**); SIMBAD wins.
+
+
 | System | ly | Opened | What is really there |
 |---|---|---|---|
 | **Sol** | 0 | launch site | The oldest launch site. The old country, sidelined. |
-| **Alpha Centauri** | 4.25 | 890 yr | Triple. Proxima b in the habitable zone of a vicious flare star; Proxima d; a Saturn-mass candidate at α Cen A. The first door ever opened; old money. |
+| **Alpha Centauri** | 4.39 | 887 yr | Triple. Proxima b in the habitable zone of a vicious flare star; Proxima d; a Saturn-mass candidate at α Cen A. The first door ever opened; old money. |
 | **Barnard's Star** | 5.96 | 856 yr | Nearest single star — and four scorched sub-Earth pebbles, no habitable zone at all. A famous disappointment, now heavy industry. Largest proper motion of any star: it visibly moves. |
-| **Luhman 16** | 6.51 | 845 yr | Two brown dwarfs and *no star*. Mapped storm bands, real weather. A sunless world. |
+| **Luhman 16** | 6.5 | 845 yr | Two brown dwarfs and *no star*. Mapped storm bands, real weather. A sunless world. |
 | **WISE 0855−0714** | 7.43 | 826 yr | Coldest known object outside the solar system, ~270 K, a few Jupiter masses, water-ice clouds. A dark drifter. |
 | **Wolf 359** | 7.86 | 818 yr | Violent flare star, candidate planet. |
-| **Lalande 21185** | 8.30 | 809 yr | Two planets, one a cold gas giant on an eight-year orbit. |
-| **Sirius** | 8.71 | 801 yr | A1V glare plus the hottest white dwarf nearby. No planets, so it is all station. **Home: the Nine.** |
-| **Gliese 65 (BL/UV Ceti)** | 8.77 | 800 yr | The archetypal flare stars, twinned. The sky here kills you on a schedule. |
-| **Epsilon Eridani** | 10.47 | 766 yr | Young K2V with two asteroid belts and a Kuiper analogue, plus a Jupiter-mass planet. A shooting gallery. |
+| **Lalande 21185** | 8.3 | 809 yr | Two planets, one a cold gas giant on an eight-year orbit. |
+| **Sirius** | 8.6 | 803 yr | A1V glare plus the hottest white dwarf nearby. No planets, so it is all station. **Home: the Nine.** |
+| **Gliese 65 (BL/UV Ceti)** | 8.87 | 798 yr | The archetypal flare stars, twinned. The sky here kills you on a schedule. |
+| **Epsilon Eridani** | 10.5 | 765 yr | Young K2V with two asteroid belts and a Kuiper analogue, plus a Jupiter-mass planet. A shooting gallery. |
 | **Gliese 887** | 10.72 | 761 yr | **GJ 887 d** — habitable-zone super-Earth, confirmed March 2026, around an unusually *quiet* red dwarf. Four planets total. The best real living world near home. |
 | **Ross 128** | 11.01 | 755 yr | Quiet red dwarf, one temperate planet. |
-| **61 Cygni** | 11.40 | 747 yr | The first star whose distance humans ever measured. Where the Threshold trains. |
+| **61 Cygni** | 11.4 | 747 yr | The first star whose distance humans ever measured. Where the Threshold trains. |
 | **Procyon** | 11.46 | 746 yr | F5 subgiant plus white dwarf. The largest object within 20 ly. |
 | **Gl 725 (Struve 2398)** | 11.49 | 745 yr | **Gl 725 B c** — habitable-zone super-Earth, confirmed August 2026, the second-closest known. Binary red dwarfs. |
 | **Epsilon Indi** | 11.87 | 738 yr | K5 primary, a confirmed cold Jupiter, and *two brown dwarfs*. |
 | **Tau Ceti** | 11.91 | 737 yr | Sun-like — and a debris disk ten times ours. A good star in a shooting gallery. |
-| **YZ Ceti** | 12.13 | 732 yr | Radio aurorae from star–planet interaction: the first planetary magnetic field ever measured. A system that *sings*. |
-| **Teegarden's Star** | 12.50 | 725 yr | Very quiet M7 with two Earth-mass planets, both possibly habitable. |
+| **YZ Ceti** | 12.12 | 733 yr | Radio aurorae from star–planet interaction: the first planetary magnetic field ever measured. A system that *sings*. |
+| **Teegarden's Star** | 12.5 | 725 yr | Very quiet M7 with two Earth-mass planets, both possibly habitable. |
 | **van Maanen's Star** | 14.07 | 694 yr | Nearest solitary white dwarf, atmosphere polluted with iron, calcium and magnesium — it is **eating its own shattered planets**. A graveyard. |
 | **Gliese 876** | 15.24 | 670 yr | Four planets in a Laplace resonance chain. A clockwork system. |
 | **40 Eridani** | 16.34 | 648 yr | Triple: a K dwarf, a white dwarf, and a red flare star. |
 | **TRAPPIST-1** | 40.66 | 162 yr | Seven tidally-locked planets, three in the habitable zone. The frontier jewel, opened within institutional memory. |
-| **HD 69830** | 40.7 | 161 yr | Three Neptunes and a thick warm asteroid belt. A door that opened into rubble. |
-| **55 Cancri** | 41.0 | 155 yr | Five planets including a lava super-Earth, plus a red dwarf companion. |
-| **HD 40307** | 42.0 | 135 yr | Six super-Earths, one temperate. |
-| **GJ 1214** | 47.5 | 25 yr | The famous hazy water-world sub-Neptune. The most recent door, and a cautionary precedent. |
+| **HD 69830** | 41.03 | 154 yr | Three Neptunes and a thick warm asteroid belt. A door that opened into rubble. |
+| **55 Cancri** | 41.05 | 154 yr | Five planets including a lava super-Earth, plus a red dwarf companion. |
+| **HD 40307** | 42.18 | 131 yr | Six super-Earths, one temperate. |
+| **GJ 1214** | 47.75 | 20 yr | The famous hazy water-world sub-Neptune. The most recent door, and a cautionary precedent. |
 | **LHS 1140** | 48.8 | **opens in ~1 year** | **The spine of the campaign.** The best known rocky habitable-zone planet outside the solar system; a JWST water-world candidate. Its arrival has been computed for centuries. |
 
 **The edges are a separate deliverable.** The table above is the node set; the

@@ -1,0 +1,569 @@
+{
+  "sol": {
+    "name": "Sol",
+    "distance_ly": 0.0,
+    "ra_deg": 0.0,
+    "dec_deg": 0.0,
+    "spectral": "G2V",
+    "components": [
+      "Sol"
+    ],
+    "planets": [
+      "eight"
+    ],
+    "note": "The oldest launch site. The old country, sidelined.",
+    "opened_years_ago": null,
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sun"
+    ]
+  },
+  "alpha-centauri": {
+    "name": "Alpha Centauri",
+    "distance_ly": 4.39,
+    "ra_deg": 219.90206,
+    "dec_deg": -60.83399,
+    "spectral": "G2V",
+    "components": [
+      "Alpha Centauri A",
+      "Alpha Centauri B",
+      "Proxima Centauri"
+    ],
+    "planets": [
+      "Proxima Centauri b",
+      "Proxima Centauri d",
+      "Alpha Centauri Ab (candidate)"
+    ],
+    "note": "Triple. Proxima b sits in the habitable zone of a vicious flare star; a Saturn-mass candidate orbits Alpha Centauri A. The first door ever opened; old money.",
+    "opened_years_ago": 887,
+    "sources": [
+      "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Cen%20A",
+      "https://en.wikipedia.org/wiki/Alpha_Centauri"
+    ]
+  },
+  "barnards-star": {
+    "name": "Barnard's Star",
+    "distance_ly": 5.96,
+    "ra_deg": 269.45208,
+    "dec_deg": 4.69336,
+    "spectral": "M4V",
+    "components": [
+      "Barnard's Star"
+    ],
+    "planets": [
+      "Barnard b",
+      "Barnard c",
+      "Barnard d",
+      "Barnard e"
+    ],
+    "note": "The nearest single star, and four scorched sub-Earths with no habitable zone at all. A famous disappointment, now heavy industry. Largest proper motion of any star: it visibly moves.",
+    "opened_years_ago": 856,
+    "sources": [
+      "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=NAME%20Barnard%27s%20star",
+      "https://en.wikipedia.org/wiki/Barnard%27s_Star"
+    ]
+  },
+  "luhman-16": {
+    "name": "Luhman 16",
+    "distance_ly": 6.5,
+    "ra_deg": 162.32881,
+    "dec_deg": -53.31947,
+    "spectral": "L7.5+T0.5",
+    "components": [
+      "Luhman 16A",
+      "Luhman 16B"
+    ],
+    "planets": [],
+    "note": "Two brown dwarfs and no star at all. Mapped storm bands and genuine weather. A sunless world.",
+    "opened_years_ago": 845,
+    "sources": [
+      "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=NAME%20Luhman%2016",
+      "https://en.wikipedia.org/wiki/Luhman_16"
+    ]
+  },
+  "wise-0855": {
+    "name": "WISE 0855-0714",
+    "distance_ly": 7.43,
+    "ra_deg": 133.81891,
+    "dec_deg": -7.24705,
+    "spectral": "Y2",
+    "components": [
+      "WISE 0855-0714"
+    ],
+    "planets": [],
+    "note": "The coldest known object outside the solar system, about 270 K and a few Jupiter masses, with water-ice clouds. A dark drifter.",
+    "opened_years_ago": 826,
+    "sources": [
+      "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=WISEA%20J085510.74-071442.5",
+      "https://en.wikipedia.org/wiki/WISE_0855-0714"
+    ]
+  },
+  "wolf-359": {
+    "name": "Wolf 359",
+    "distance_ly": 7.86,
+    "ra_deg": 164.1205,
+    "dec_deg": 7.01472,
+    "spectral": "dM6",
+    "components": [
+      "Wolf 359"
+    ],
+    "planets": [
+      "Wolf 359 b (candidate)",
+      "Wolf 359 c (candidate)"
+    ],
+    "note": "A violent flare star. Little here but the door and what the flares do to it.",
+    "opened_years_ago": 818,
+    "sources": [
+      "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=Wolf%20359",
+      "https://en.wikipedia.org/wiki/Wolf_359"
+    ]
+  },
+  "lalande-21185": {
+    "name": "Lalande 21185",
+    "distance_ly": 8.3,
+    "ra_deg": 165.83415,
+    "dec_deg": 35.96988,
+    "spectral": "M2+V",
+    "components": [
+      "Lalande 21185"
+    ],
+    "planets": [
+      "Lalande 21185 b",
+      "Lalande 21185 c"
+    ],
+    "note": "Two planets, the outer a cold gas giant on an eight-year orbit.",
+    "opened_years_ago": 809,
+    "sources": [
+      "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=HD%2095735",
+      "https://en.wikipedia.org/wiki/Lalande_21185"
+    ]
+  },
+  "sirius": {
+    "name": "Sirius",
+    "distance_ly": 8.6,
+    "ra_deg": 101.28716,
+    "dec_deg": -16.71612,
+    "spectral": "A0mA1Va",
+    "components": [
+      "Sirius A",
+      "Sirius B"
+    ],
+    "planets": [],
+    "note": "An A-type glare and the hottest white dwarf nearby. No planets are known, so everything here is station. Home of the Nine.",
+    "opened_years_ago": 803,
+    "sources": [
+      "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20CMa",
+      "https://en.wikipedia.org/wiki/Sirius"
+    ]
+  },
+  "gliese-65": {
+    "name": "Gliese 65",
+    "distance_ly": 8.87,
+    "ra_deg": 24.75574,
+    "dec_deg": -17.95072,
+    "spectral": "M5.5V",
+    "components": [
+      "BL Ceti",
+      "UV Ceti"
+    ],
+    "planets": [],
+    "note": "The archetypal flare stars, twinned. The sky here kills you on a schedule.",
+    "opened_years_ago": 798,
+    "sources": [
+      "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=G%20272-61A",
+      "https://en.wikipedia.org/wiki/Gliese_65"
+    ]
+  },
+  "epsilon-eridani": {
+    "name": "Epsilon Eridani",
+    "distance_ly": 10.5,
+    "ra_deg": 53.23269,
+    "dec_deg": -9.45826,
+    "spectral": "K2V",
+    "components": [
+      "Epsilon Eridani"
+    ],
+    "planets": [
+      "Epsilon Eridani b (AEgir)"
+    ],
+    "note": "Young, with two asteroid belts and a Kuiper analogue around a Jupiter-mass planet. A shooting gallery.",
+    "opened_years_ago": 765,
+    "sources": [
+      "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Eri",
+      "https://en.wikipedia.org/wiki/Epsilon_Eridani"
+    ]
+  },
+  "gliese-887": {
+    "name": "Gliese 887",
+    "distance_ly": 10.72,
+    "ra_deg": 346.46682,
+    "dec_deg": -35.85307,
+    "spectral": "M2V",
+    "components": [
+      "Gliese 887"
+    ],
+    "planets": [
+      "GJ 887 b",
+      "GJ 887 c",
+      "GJ 887 d",
+      "GJ 887 e"
+    ],
+    "note": "GJ 887 d is a habitable-zone super-Earth confirmed in March 2026, around an unusually quiet red dwarf. The best real living world near home.",
+    "opened_years_ago": 761,
+    "sources": [
+      "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=HD%20217987",
+      "https://en.wikipedia.org/wiki/Gliese_887"
+    ]
+  },
+  "ross-128": {
+    "name": "Ross 128",
+    "distance_ly": 11.01,
+    "ra_deg": 176.93499,
+    "dec_deg": 0.80456,
+    "spectral": "dM4",
+    "components": [
+      "Ross 128"
+    ],
+    "planets": [
+      "Ross 128 b"
+    ],
+    "note": "A quiet red dwarf with one temperate planet.",
+    "opened_years_ago": 755,
+    "sources": [
+      "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=Ross%20128",
+      "https://en.wikipedia.org/wiki/Ross_128"
+    ]
+  },
+  "61-cygni": {
+    "name": "61 Cygni",
+    "distance_ly": 11.4,
+    "ra_deg": 316.72475,
+    "dec_deg": 38.74942,
+    "spectral": "K5V",
+    "components": [
+      "61 Cygni A",
+      "61 Cygni B"
+    ],
+    "planets": [],
+    "note": "The first star whose distance humans ever measured. Where the Threshold trains its first-throughs.",
+    "opened_years_ago": 747,
+    "sources": [
+      "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%2061%20Cyg%20A",
+      "https://en.wikipedia.org/wiki/61_Cygni"
+    ]
+  },
+  "procyon": {
+    "name": "Procyon",
+    "distance_ly": 11.46,
+    "ra_deg": 114.8255,
+    "dec_deg": 5.22499,
+    "spectral": "F5IV-V+DQZ",
+    "components": [
+      "Procyon A",
+      "Procyon B"
+    ],
+    "planets": [],
+    "note": "An F-type subgiant with a white dwarf companion. The largest object within twenty light years.",
+    "opened_years_ago": 746,
+    "sources": [
+      "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20CMi",
+      "https://en.wikipedia.org/wiki/Procyon"
+    ]
+  },
+  "gl-725": {
+    "name": "Gl 725 (Struve 2398)",
+    "distance_ly": 11.49,
+    "ra_deg": 280.6946,
+    "dec_deg": 59.63039,
+    "spectral": "M3V",
+    "components": [
+      "Gl 725 A",
+      "Gl 725 B"
+    ],
+    "planets": [
+      "Gl 725 B c",
+      "Gl 725 B b (candidate)"
+    ],
+    "note": "Gl 725 B c is a habitable-zone super-Earth confirmed in August 2026, the second-closest known. Binary red dwarfs.",
+    "opened_years_ago": 745,
+    "sources": [
+      "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=HD%20173739",
+      "https://en.wikipedia.org/wiki/Struve_2398"
+    ]
+  },
+  "epsilon-indi": {
+    "name": "Epsilon Indi",
+    "distance_ly": 11.87,
+    "ra_deg": 330.84022,
+    "dec_deg": -56.78598,
+    "spectral": "K5V",
+    "components": [
+      "Epsilon Indi A",
+      "Epsilon Indi Ba",
+      "Epsilon Indi Bb"
+    ],
+    "planets": [
+      "Epsilon Indi Ab"
+    ],
+    "note": "A K-type primary, a confirmed cold Jupiter, and two brown dwarfs.",
+    "opened_years_ago": 738,
+    "sources": [
+      "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Ind",
+      "https://en.wikipedia.org/wiki/Epsilon_Indi"
+    ]
+  },
+  "tau-ceti": {
+    "name": "Tau Ceti",
+    "distance_ly": 11.91,
+    "ra_deg": 26.01701,
+    "dec_deg": -15.93748,
+    "spectral": "G8V",
+    "components": [
+      "Tau Ceti"
+    ],
+    "planets": [
+      "Tau Ceti g (candidate)",
+      "Tau Ceti h (candidate)",
+      "Tau Ceti e (candidate)",
+      "Tau Ceti f (candidate)"
+    ],
+    "note": "Sun-like, and wrapped in a debris disk ten times ours. A good star in a shooting gallery.",
+    "opened_years_ago": 737,
+    "sources": [
+      "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tau%20Cet",
+      "https://en.wikipedia.org/wiki/Tau_Ceti"
+    ]
+  },
+  "yz-ceti": {
+    "name": "YZ Ceti",
+    "distance_ly": 12.12,
+    "ra_deg": 18.12765,
+    "dec_deg": -16.99899,
+    "spectral": "M4.0Ve",
+    "components": [
+      "YZ Ceti"
+    ],
+    "planets": [
+      "YZ Ceti b",
+      "YZ Ceti c",
+      "YZ Ceti d"
+    ],
+    "note": "Radio aurorae from star-planet interaction gave the first indirect measurement of a planetary magnetic field. A system that sings.",
+    "opened_years_ago": 733,
+    "sources": [
+      "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=V%2A%20YZ%20Cet",
+      "https://en.wikipedia.org/wiki/YZ_Ceti"
+    ]
+  },
+  "teegardens-star": {
+    "name": "Teegarden's Star",
+    "distance_ly": 12.5,
+    "ra_deg": 43.25372,
+    "dec_deg": 16.88129,
+    "spectral": "dM6",
+    "components": [
+      "Teegarden's Star"
+    ],
+    "planets": [
+      "Teegarden b",
+      "Teegarden c",
+      "Teegarden d"
+    ],
+    "note": "A very quiet M-dwarf with two Earth-mass planets, both possibly habitable.",
+    "opened_years_ago": 725,
+    "sources": [
+      "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=NAME%20Teegarden%27s%20Star",
+      "https://en.wikipedia.org/wiki/Teegarden%27s_Star"
+    ]
+  },
+  "van-maanens-star": {
+    "name": "van Maanen's Star",
+    "distance_ly": 14.07,
+    "ra_deg": 12.29124,
+    "dec_deg": 5.38861,
+    "spectral": "DZ7.5",
+    "components": [
+      "van Maanen 2"
+    ],
+    "planets": [],
+    "note": "The nearest solitary white dwarf, its atmosphere polluted with iron, calcium and magnesium -- it is eating the wreckage of its own planets. A graveyard.",
+    "opened_years_ago": 694,
+    "sources": [
+      "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=Wolf%2028",
+      "https://en.wikipedia.org/wiki/Van_Maanen_2"
+    ]
+  },
+  "gliese-876": {
+    "name": "Gliese 876",
+    "distance_ly": 15.24,
+    "ra_deg": 343.31972,
+    "dec_deg": -14.2637,
+    "spectral": "M3.5V",
+    "components": [
+      "Gliese 876"
+    ],
+    "planets": [
+      "Gliese 876 b",
+      "Gliese 876 c",
+      "Gliese 876 d",
+      "Gliese 876 e"
+    ],
+    "note": "Four planets locked in a Laplace resonance chain. A clockwork system.",
+    "opened_years_ago": 670,
+    "sources": [
+      "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=BD-15%206290",
+      "https://en.wikipedia.org/wiki/Gliese_876"
+    ]
+  },
+  "40-eridani": {
+    "name": "40 Eridani",
+    "distance_ly": 16.34,
+    "ra_deg": 63.818,
+    "dec_deg": -7.65287,
+    "spectral": "K0V",
+    "components": [
+      "40 Eridani A",
+      "40 Eridani B",
+      "40 Eridani C"
+    ],
+    "planets": [],
+    "note": "Triple: a K dwarf, a white dwarf, and a red flare star.",
+    "opened_years_ago": 648,
+    "sources": [
+      "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20omi02%20Eri",
+      "https://en.wikipedia.org/wiki/40_Eridani"
+    ]
+  },
+  "trappist-1": {
+    "name": "TRAPPIST-1",
+    "distance_ly": 40.66,
+    "ra_deg": 346.62237,
+    "dec_deg": -5.0414,
+    "spectral": "M7.5e",
+    "components": [
+      "TRAPPIST-1"
+    ],
+    "planets": [
+      "TRAPPIST-1 b",
+      "TRAPPIST-1 c",
+      "TRAPPIST-1 d",
+      "TRAPPIST-1 e",
+      "TRAPPIST-1 f",
+      "TRAPPIST-1 g",
+      "TRAPPIST-1 h"
+    ],
+    "note": "Seven tidally-locked planets, three of them in the habitable zone. The frontier jewel, and the newest big door within institutional memory.",
+    "opened_years_ago": 162,
+    "sources": [
+      "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=TRAPPIST-1",
+      "https://en.wikipedia.org/wiki/TRAPPIST-1"
+    ]
+  },
+  "hd-69830": {
+    "name": "HD 69830",
+    "distance_ly": 41.03,
+    "ra_deg": 124.59978,
+    "dec_deg": -12.63217,
+    "spectral": "G8:V",
+    "components": [
+      "HD 69830"
+    ],
+    "planets": [
+      "HD 69830 b",
+      "HD 69830 c",
+      "HD 69830 d"
+    ],
+    "note": "Three Neptune-mass planets and a thick warm asteroid belt. A door that opened into rubble.",
+    "opened_years_ago": 154,
+    "sources": [
+      "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=HD%2069830",
+      "https://en.wikipedia.org/wiki/HD_69830"
+    ]
+  },
+  "55-cancri": {
+    "name": "55 Cancri",
+    "distance_ly": 41.05,
+    "ra_deg": 133.14921,
+    "dec_deg": 28.33082,
+    "spectral": "K0IV-V",
+    "components": [
+      "55 Cancri A",
+      "55 Cancri B"
+    ],
+    "planets": [
+      "55 Cancri b",
+      "55 Cancri c",
+      "55 Cancri d",
+      "55 Cancri e",
+      "55 Cancri f"
+    ],
+    "note": "Five planets including a lava super-Earth, with a red dwarf companion far out.",
+    "opened_years_ago": 154,
+    "sources": [
+      "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20rho01%20Cnc",
+      "https://en.wikipedia.org/wiki/55_Cancri"
+    ]
+  },
+  "hd-40307": {
+    "name": "HD 40307",
+    "distance_ly": 42.18,
+    "ra_deg": 88.51767,
+    "dec_deg": -60.02347,
+    "spectral": "K2.5V",
+    "components": [
+      "HD 40307"
+    ],
+    "planets": [
+      "HD 40307 b",
+      "HD 40307 c",
+      "HD 40307 d",
+      "HD 40307 e",
+      "HD 40307 f",
+      "HD 40307 g"
+    ],
+    "note": "Six super-Earths, the outermost temperate.",
+    "opened_years_ago": 131,
+    "sources": [
+      "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=HD%2040307",
+      "https://en.wikipedia.org/wiki/HD_40307"
+    ]
+  },
+  "gj-1214": {
+    "name": "GJ 1214",
+    "distance_ly": 47.75,
+    "ra_deg": 258.82889,
+    "dec_deg": 4.96391,
+    "spectral": "M4.5V",
+    "components": [
+      "GJ 1214"
+    ],
+    "planets": [
+      "GJ 1214 b"
+    ],
+    "note": "The famous hazy water-world sub-Neptune. The most recent door to open, and a cautionary precedent.",
+    "opened_years_ago": 20,
+    "sources": [
+      "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=G%20139-21",
+      "https://en.wikipedia.org/wiki/GJ_1214"
+    ]
+  },
+  "lhs-1140": {
+    "name": "LHS 1140",
+    "distance_ly": 48.8,
+    "ra_deg": 11.24721,
+    "dec_deg": -15.27154,
+    "spectral": "M4.5V",
+    "components": [
+      "LHS 1140"
+    ],
+    "planets": [
+      "LHS 1140 b",
+      "LHS 1140 c"
+    ],
+    "note": "The best known rocky habitable-zone planet outside the solar system, and a JWST water-world candidate. Its arrival has been computed for centuries. The door is not open yet.",
+    "opened_years_ago": -1,
+    "sources": [
+      "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=G%20268-38",
+      "https://en.wikipedia.org/wiki/LHS_1140"
+    ]
+  }
+}

@@ -50,3 +50,51 @@ def test_the_opening_scene_names_no_character_and_stops_the_gm():
     for name in ("Calloway", "Tolk", "Ferren", "Hale", "Sarn"):
         assert name not in scene, f"the seed's opening scene names {name}"
     assert "/first-through:start" in scene
+
+
+from content_rules import separation_ly, systems
+
+V1_SYSTEMS = {
+    "sol", "alpha-centauri", "barnards-star", "sirius", "gliese-65",
+    "gliese-887", "gl-725", "61-cygni", "van-maanens-star",
+    "trappist-1", "gj-1214", "lhs-1140",
+}
+
+
+def test_every_system_carries_a_real_source():
+    for slug, s in systems().items():
+        assert s.get("sources"), f"{slug} cites no source"
+        for url in s["sources"]:
+            assert url.startswith("https://"), f"{slug}: {url} is not a URL"
+
+
+def test_door_dates_match_the_seedship_arithmetic():
+    """The arithmetic in spec section 4 is the setting's load-bearing number.
+    If a door date drifts from it the map stops being self-consistent."""
+    for slug, s in systems().items():
+        if slug == "sol":
+            continue
+        expected = door_opened_years_ago(s["distance_ly"])
+        assert s["opened_years_ago"] == expected, (
+            f"{slug}: distance {s['distance_ly']} ly implies {expected}, "
+            f"file says {s['opened_years_ago']}"
+        )
+
+
+def test_lhs_1140_has_not_opened_yet():
+    """It is the campaign spine precisely because it is still inbound."""
+    assert systems()["lhs-1140"]["opened_years_ago"] < 0
+
+
+def test_the_v1_systems_are_all_present():
+    missing = V1_SYSTEMS - set(systems())
+    assert not missing, f"v1 needs these systems: {sorted(missing)}"
+
+
+def test_coordinates_reproduce_a_known_separation():
+    """Sirius and Procyon are about 5.2 ly apart. If the coordinate convention
+    is wrong (radians for degrees, or dec/ra swapped) this is the test that
+    notices, and every edge length in Task 3 depends on it."""
+    s = systems()
+    gap = separation_ly(s["sirius"], s["procyon"])
+    assert 4.5 < gap < 6.0, f"Sirius-Procyon came out {gap:.2f} ly"
