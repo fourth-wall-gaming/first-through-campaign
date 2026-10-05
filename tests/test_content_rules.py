@@ -349,3 +349,23 @@ def test_invented_life_is_flagged_and_placed():
     }
     for home in creature_homes - {None}:
         assert home in set(systems()), f"a creature is from {home!r}, not a real system"
+
+
+def test_locations_sit_in_a_known_system():
+    known = set(systems())
+    paths = sorted((ROOT / "locations").glob("*.md"))
+    assert paths, "no locations"
+    for p in paths:
+        meta, _ = parse_frontmatter(p.read_text())
+        assert re.match(r"^myth-loc-[0-9a-f]{12}$", str(meta.get("id", "")))
+        assert meta.get("system") in known, f"{p.name}: system {meta.get('system')!r}"
+
+
+def test_both_entry_points_have_somewhere_to_happen():
+    systems_used = {
+        parse_frontmatter(p.read_text())[0].get("system")
+        for p in (ROOT / "locations").glob("*.md")
+    }
+    assert "gliese-887" in systems_used, "entry point A has no location"
+    assert "gliese-65" in systems_used, "entry point B has no location"
+    assert "sirius" in systems_used, "the Nine has no location"
