@@ -41,6 +41,7 @@ These are binding on every lore entry, location, NPC and scenario we write.
    distance and physical oddity is a real, cited fact. We invent only what
    *people built there*. If a player looks up Teegarden's Star, everything the
    game told them checks out. Sources go in each lore entry's frontmatter.
+   **Invented life is the one exception, and it is constrained — see §11.**
 2. **No Douglas Hill intellectual property.** No Keill Randor, Glr, Moros,
    Veynaa, Overseers, Deathwing, or the Warlord. We inherit structure only.
 3. **Incapacitation, not death — in both directions.** The player's character
@@ -97,7 +98,7 @@ centuries. When one dies the world behind it is not destroyed, just
 explains, and nobody will say why.
 
 **One door is about to open, on schedule, and everyone knows it.** The campaign
-spine. See §9.
+spine. See §10.
 
 ### The Threshold
 
@@ -189,14 +190,63 @@ and wholly indifferent to the Threshold's chain of command.
 Tolk is also the **onboarding mechanism**, and this is the design's load-bearing
 trick. `TABLE.md §5` forbids option menus and forbids narrating the PC's
 interior — correctly, but a first-time player facing an open prompt will wait
-for a list. Tolk is an NPC physically present in every scene, so under §5 and
+for a list. Tolk is an NPC physically present in every scene, so under `TABLE.md` §5 and
 §6 Tolk may notice things aloud and ask *"well? what are we doing?"* That
 scaffolds a stuck beginner **without** a menu and without Claude writing the
 player's mind. The nudge comes from a character, not from the screen.
 
 Late-arc: Tolk's species was **built**, by whoever built the anchors.
 
-## 7. Onboarding without menus
+## 7. Powers: kit and conditioning
+
+Mythras Imperative's **Superpowers** framework is the right chassis and needs
+no modification, because it already has a branch for exactly this:
+
+> core powers = POW + (CON for altered physiology | **INT for tech/training**)
+
+So "powers" in First Through are **trained conditioning and worn kit**, keyed to
+INT, with nothing invented and no engine change.
+
+**The economy, as the player experiences it.** Power Points = POW, recovering
+one per minute of rest. In fiction that is two things at once: the **charge** in
+a first-through's kit, and the **breath** behind their conditioning. A typical
+fifteen-year-old PC (POW ~11, INT ~13) lands on the 21-30 row of the build
+table: **three core powers**, plus a Boost for taking a Limit.
+
+**Permitted core powers** — each one defensible as technology or training:
+
+| Power | What it is here |
+|---|---|
+| **Life Support** | The pressure-skin. Immunity to two environments: vacuum, cold, hard radiation, a toxic atmosphere. The single most setting-appropriate power in the book. |
+| **Inherent Armor** | The suit proper — CON/3 at every location. |
+| **Savant** | **The Threshold's training**, mechanically. Three skills sharing a characteristic, each one grade easier. Trained at 61 Cygni, which is already on the map. |
+| **Heightened Sense** | The sensor package: infrared, echo-sense, pressure-gradient. |
+| **Enhanced Reactions** | Neural tuning and drilled reflex. |
+| **Durability** | Conditioning — the body the Threshold built. |
+| **Enhanced Strength / Speed** | Exo-assist in the suit's limbs. |
+| **Combat Expert** | The action track's power. Drilled, not gifted. |
+| **Lucky** | Luck is not a physics claim. Permitted as-is. |
+
+**Excluded, and the exclusion is good fiction:** Flight, Vaporous Form,
+Animation, Elemental Control, Energy Blast — and above all **Teleport**.
+Personal teleportation is precisely the thing nobody in this setting can do.
+That is *why* the Causeway matters, why the anchors are irreplaceable, and why
+a door is worth a war. Excluding one power from the list is the load-bearing
+sentence of the whole setting.
+
+**Limits map onto the fiction for free,** and one of them is a gift:
+
+- **External Power Source** — your powers are in your kit, and the rules
+  already say a handheld source is vulnerable to **Disarm Weapon** and **Take
+  Weapon**. A kid trades a real mechanical bonus for the risk of being stripped
+  of their gear mid-mission, which is the best adventure hook in the framework.
+- **Activation Cost** — the charge has to be spent to spin the suit up.
+- **Vulnerability / Physical Limitation** — available, used sparingly.
+
+Each pre-gen in §6 ships with its powers, Limits and Boost already chosen, so
+the player picks a character rather than building one.
+
+## 8. Onboarding without menus
 
 What a first-timer actually needs is not dice, it is permission: the knowledge
 that they can say anything and the world will answer. Four devices, all in
@@ -213,7 +263,7 @@ campaign content, none requiring engine change:
 4. **One guaranteed early success** before the first real risk, so the first
    roll a player ever sees in the mechanics block is one that worked.
 
-## 8. Two entry points
+## 9. Two entry points
 
 Shipped side by side, chosen at `/first-through:start`. Same system, same
 pre-gens, same non-lethal rule — opposite appetites. Precedent: Purewater
@@ -241,7 +291,7 @@ the clock, not a body count, is the threat.
 Both are one-sitting missions and both end back at the Nine with a debrief that
 sets up Act 2.
 
-## 9. The five-act arc
+## 10. The five-act arc
 
 1. **The job.** Either entry point. Establish the Nine, Calloway, Tolk, and
    that stepping through means being alone.
@@ -270,9 +320,74 @@ sets up Act 2.
 The deepest layer stays loose on purpose: anchors are failing partly from plain
 entropy (true, and sad), and the people who could repair them were not human.
 
-## 10. Mechanics decisions
+## 11. Adversaries
+
+The arc supplies crises; a first RPG needs **faces to beat**. Five tiers, built
+so that none of them requires killing and the action track still has bodies to
+fight.
+
+### The Tally — the standing opposition
+An anchor is fixed, finite infrastructure, so whoever holds the station holds
+the door. The real power on the Causeway is therefore not a navy but a
+**tollkeeper**: the Tally counts what goes through, charges for it, and thereby
+governs. Its enforcers are **tallymen** — pressure armour, shock batons, and a
+manifest.
+
+This gives the non-lethal rule an antagonist-side motive instead of a house
+rule: **the Tally wants everybody alive, because a body is not a line on the
+manifest.** Prisoners, restraints and impounded kit are what winning against
+the player looks like. They are the opposition at LHS 1140, and they are what
+the action track fights.
+
+### Ferren — the rival
+Another first-through, nineteen, genuinely better, and always already there when
+the player arrives. Gets the postings the player wanted. Working for the Tally
+without yet admitting it. Present from Act 1, never killed, beatable — and for
+a ten-to-fifteen-year-old a rival is far more motivating than a villain.
+
+### Director Hale — the institution
+The Threshold's directorate has known for forty years that the anchors are
+failing and has managed the news to prevent panic. Hale is not evil; Hale is
+culpable. The Act 2 antagonist is a **decision**, with a face attached, and the
+player's weapon against it is disclosure rather than violence.
+
+### The Second Hand — the smugglers
+Pattern-transfer contraband (Act 3): scan, destroy, rebuild. They move people
+who are not allowed through doors, and they keep copies. Unsettling rather than
+gory, and the horror is conceptual, which is the right register for the age
+band.
+
+### The system itself
+For the low-violence track the adversary is not a person, and the real
+astronomy does the work: the flare clock at Gliese 65, debris at Epsilon
+Eridani and Tau Ceti, vacuum, pressure, and an anchor that is dying on its own.
+A kid should finish "The Quiet Door" having been genuinely frightened by
+physics.
+
+Held offstage until Act 5: whoever built anchors before the First Reach. Not a
+monster — an absence.
+
+### Creatures, and a correction to §3.1
+
+The action track needs xenofauna, and Tolk is already invented life, so §3.1 as
+first written was too strict. The corrected rule:
+
+> **Astronomy is real and fixed. Life is invented but constrained.** We may
+> place life only on bodies whose surfaces are genuinely unobserved, only
+> consistent with that system's actual temperature, insolation, tidal locking
+> and chemistry, and always flagged `invented: life` in the lore entry's
+> frontmatter.
+
+So a tidally-locked TRAPPIST-1 world may have terminator-band life, and
+Barnard's four scorched pebbles may not. This is the rule a working
+exobiologist would want, and it keeps the promise that anything a player looks
+up will check out.
+
+## 12. Mechanics decisions
 
 - **System `mythras`**, rules unchanged, no engine or schema work.
+- **Superpowers framework, INT (tech/training) branch**, with a permitted-power
+  whitelist and Teleport excluded by design (§7).
 - **Non-lethal convention** in campaign table guidance (§3.3), applied by
   Claude every time, both directions.
 - **Pre-gens as `templates/`**, created through the normal
@@ -286,7 +401,7 @@ entropy (true, and sad), and the people who could repair them were not human.
   are failing, so Act 2's reveal is computed from knowledge rather than
   remembered.
 
-## 11. Repo shape and deliverables
+## 13. Repo shape and deliverables
 
 Standard mythras-gm campaign export tree plus plugin wiring, modelled on
 `purewater-campaign-v2`:
@@ -305,12 +420,14 @@ lore/character-creation/        the four pre-gens explained in player language
 lore/cosmology/                 how anchors work; the arithmetic
 lore/geography/                 one entry per shipping system, with real sources
 lore/history/                   the First Reach, the Threshold, GJ 1214
-lore/technology/                stunners, pressure gear, anchor hardware
+lore/technology/                stunners, pressure gear, anchor hardware, and
+                                the kit that carries a first-through's powers
 lore/organizations/             the Threshold and the factions
 lore/entry-points/              "The Quiet Door" and "Flare"
 lore/gm-guide/ lore/gm-secret/  the arc, the reveals, the door nobody launched
 characters/{pcs,npcs,creatures}/
-templates/                      four pre-gens
+                                incl. Ferren, Hale, tallymen, and the bestiary
+templates/                      four pre-gens, powers and Limits pre-chosen
 locations/ factions/ encounters/
 agendas/ beats/ facts/ knowledge.json
 journal/events.json
@@ -322,18 +439,19 @@ repos), and a **fact-check test** that every astronomical claim in `lore/` cites
 a source in frontmatter — the hard content rule in §3.1 is only real if
 something enforces it.
 
-## 12. Success criteria
+## 14. Success criteria
 
 1. A newcomer installs the plugin and is in a scene within five minutes, having
    read nothing.
 2. Either entry point completes in one sitting.
 3. All four pre-gens can complete both entry points without killing anyone.
-4. Every astronomical statement in `lore/` is true as of October 2026 and cited.
+4. Every astronomical statement in `lore/` is true as of October 2026 and cited;
+   every invented organism is flagged and consistent with its real system.
 5. The engine is untouched: no changes to `mythras_engine.py`, the rules layer,
    or the schema. The repo's own Python is confined to `tests/`, as in
    `purewater-campaign-v2`.
 
-## 13. Open questions
+## 15. Open questions
 
 - Repo and campaign name: **"First Through"** is a working title, chosen because
   it names the job and the action. Easy to change before publication.
