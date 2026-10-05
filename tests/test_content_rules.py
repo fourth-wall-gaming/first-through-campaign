@@ -171,3 +171,63 @@ def test_the_graph_is_connected_from_sol():
 
 def test_lhs_1140_has_no_edge_yet():
     assert not [e for e in edges() if "lhs-1140" in (e["a"], e["b"])]
+
+
+import re
+
+from content_rules import lore_files
+
+HEX12 = re.compile(r"^myth-lore-[0-9a-f]{12}$")
+CITED_CATEGORIES = {"geography", "cosmology"}
+
+
+def test_every_lore_entry_has_a_well_formed_unique_id():
+    seen = {}
+    for p in lore_files():
+        meta, _ = parse_frontmatter(p.read_text())
+        assert HEX12.match(str(meta.get("id", ""))), f"{p.name}: bad id"
+        assert meta["id"] not in seen, f"{p.name} reuses the id of {seen.get(meta['id'])}"
+        seen[meta["id"]] = p.name
+
+
+def test_category_matches_the_directory():
+    for p in lore_files():
+        meta, _ = parse_frontmatter(p.read_text())
+        assert meta.get("category") == p.parent.name, (
+            f"{p.name}: category {meta.get('category')!r} in {p.parent.name}/"
+        )
+
+
+def test_gm_only_directories_are_never_player_visible():
+    """A player-visible gm-secret entry hands a child the ending."""
+    for p in lore_files():
+        if p.parent.name in {"gm-guide", "gm-secret"}:
+            meta, _ = parse_frontmatter(p.read_text())
+            assert meta.get("visibility") == "gm", f"{p.name} is not gm-only"
+
+
+def test_astronomical_categories_cite_their_sources():
+    for p in lore_files():
+        if p.parent.name not in CITED_CATEGORIES:
+            continue
+        meta, _ = parse_frontmatter(p.read_text())
+        assert meta.get("sources"), f"{p.name} makes astronomical claims uncited"
+
+
+def test_the_briefing_teaches_percentages_without_a_rules_lecture():
+    """Spec section 8: nothing to read before play, and the mechanics wall does
+    the teaching. The briefing must not grow into a rulebook."""
+    p = ROOT / "lore/player-briefing/first-through-the-sixty-second-briefing.md"
+    meta, body = parse_frontmatter(p.read_text())
+    assert meta["visibility"] == "player"
+    assert len(body.split()) < 400, "a sixty-second briefing is under 400 words"
+    assert "Passion" in body, "Passions are the good bit; say so"
+    for banned in ("d20", "Action Point", "difficulty grade"):
+        assert banned not in body, f"the briefing lectures about {banned}"
+
+
+def test_the_arithmetic_entry_states_the_load_bearing_number():
+    p = ROOT / "lore/cosmology/the-arithmetic-of-the-reach.md"
+    _, body = parse_frontmatter(p.read_text())
+    assert "975" in body and "twenty" in body.lower()
+    assert "48.7" in body or "48.8" in body, "the frontier distance must appear"
