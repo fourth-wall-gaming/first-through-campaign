@@ -1,0 +1,69 @@
+"""Shared helpers for the content gates.
+
+parse_frontmatter deliberately mirrors campaign_io._parse_md in the engine: it
+JSON-decodes each value and falls back to the raw string. Validating anything
+else would validate a document the importer never sees.
+"""
+import json
+import math
+import re
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+LAUNCH_YEARS_AGO = 975
+YEARS_PER_LIGHT_YEAR = 20
+
+
+def parse_frontmatter(text):
+    """Return (meta, body) from a frontmatter markdown document."""
+    m = re.match(r"^---\n(.*?)\n---\n?", text, re.S)
+    meta, body = {}, text
+    if m:
+        body = text[m.end():]
+        for line in m.group(1).splitlines():
+            if ":" not in line:
+                continue
+            k, _, v = line.partition(":")
+            try:
+                meta[k.strip()] = json.loads(v.strip())
+            except (json.JSONDecodeError, ValueError):
+                meta[k.strip()] = v.strip()
+    return meta, body.strip()
+
+
+def lore_files(category=None):
+    pattern = f"{category}/*.md" if category else "*/*.md"
+    return sorted((ROOT / "lore").glob(pattern))
+
+
+def systems():
+    return json.loads((ROOT / "data" / "systems.json").read_text())
+
+
+def edges():
+    return json.loads((ROOT / "data" / "edges.json").read_text())
+
+
+def door_opened_years_ago(distance_ly):
+    """Years before the present that a Sol-launched seedship's door opened.
+
+    Negative means the ship is still in flight.
+    """
+    return LAUNCH_YEARS_AGO - round(distance_ly * YEARS_PER_LIGHT_YEAR)
+
+
+def _xyz(s):
+    ra = math.radians(s["ra_deg"])
+    dec = math.radians(s["dec_deg"])
+    d = s["distance_ly"]
+    return (
+        d * math.cos(dec) * math.cos(ra),
+        d * math.cos(dec) * math.sin(ra),
+        d * math.sin(dec),
+    )
+
+
+def separation_ly(a, b):
+    """True 3-D separation between two systems, in light years."""
+    return math.dist(_xyz(a), _xyz(b))
