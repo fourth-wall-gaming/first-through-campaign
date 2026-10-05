@@ -1,0 +1,71 @@
+{
+  "id": "myth-char-2a29f000091b",
+  "name": "Ferren",
+  "type": "npc",
+  "status": "active",
+  "description": "Nineteen, another first-through, genuinely better than the player, and always already there when they arrive. Takes his orders from a voice he has never thought to question.",
+  "narrative": "Two intakes ahead, and the Yards still mention his record on the cold step. He\nis good -- not in the way people are described as good to make a rival\nthreatening, but actually good, faster and steadier and better briefed, and he\ngets the postings the player wanted because somebody keeps giving them to him.\n\nHe is also friendly, which is worse. He will help. He will share a brief he was\nnot supposed to share. He will tell you where the shelter is.\n\nHe does not know who signs his instructions, and it has not occurred to him to\nfind out.",
+  "characteristics": {
+    "STR": 14,
+    "CON": 14,
+    "SIZ": 12,
+    "DEX": 16,
+    "INT": 14,
+    "POW": 12,
+    "CHA": 14
+  },
+  "attributes": {
+    "action_points": 3,
+    "damage_modifier": "+0",
+    "experience_modifier": 1,
+    "healing_rate": 3,
+    "initiative_bonus": 14,
+    "luck_points": 2,
+    "magic_points": 12,
+    "movement": "6"
+  },
+  "skills": {
+    "Athletics": 80,
+    "Brawn": 58,
+    "Endurance": 74,
+    "Evade": 78,
+    "Willpower": 58,
+    "Conceal": 50,
+    "Deceit": 55,
+    "First Aid": 58,
+    "Influence": 62,
+    "Insight": 60,
+    "Locale": 55,
+    "Native Tongue": 60,
+    "Perception": 72,
+    "Sleight": 50,
+    "Stealth": 66,
+    "Unarmed": 68,
+    "Lore (Anchors)": 62,
+    "Mechanisms": 55,
+    "Engineering": 48
+  },
+  "combat_styles": {
+    "Threshold Drill (stunner, baton, unarmed)": 78
+  },
+  "passions": {
+    "I am the one they send": 80,
+    "Loyalty (whoever signs the postings)": 60,
+    "Love (the job, uncomplicatedly)": 65
+  },
+  "powers": [],
+  "equipment": [
+    "Threshold pressure suit, new issue (AP 3 all locations)",
+    "Stunner",
+    "Restraint loops, six",
+    "Sensor hood, current pattern"
+  ],
+  "extras": {
+    "pronouns": "he/him",
+    "age": 19,
+    "game_system": "mythras",
+    "character_type": "first-through",
+    "trained_at": "61-cygni"
+  },
+  "actor_notes": "Never a sneer. Ferren is pleasant, helpful and better, which is the whole engine -- a rival a child wants to beat rather than one they want to see punished. He is already at the location when the player arrives, roughly once per mission, and has usually done the easy half. He is never killed and never humiliated. If pressed on who assigns him, he answers honestly and the answer is a name on a form he has never queried."
+}

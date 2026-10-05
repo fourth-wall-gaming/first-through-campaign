@@ -1,0 +1,70 @@
+{
+  "id": "myth-char-692085606918",
+  "name": "Calloway",
+  "type": "npc",
+  "status": "active",
+  "description": "Runs the Threshold desk at the Nine. A former first-through whose body will not take transit any more, now sending fifteen-year-olds where they cannot follow.",
+  "narrative": "Thirty-one years in the service, nineteen of them past doors. Somewhere in the\nnineteenth the transits stopped being survivable -- it is not a dramatic\ncondition and they will not discuss it, but a crossing now costs them a day in a\ndark room, and the medical board stopped signing them off eleven years ago.\n\nSo they run the desk. They write the briefs, they read the debriefs, and they\nstand in the anchor hall and watch a child walk at a housing, knowing that is\nthe last moment they can do anything at all.\n\nThey are good at it, and they have not forgiven anybody for it.",
+  "characteristics": {
+    "STR": 11,
+    "CON": 9,
+    "SIZ": 12,
+    "DEX": 11,
+    "INT": 16,
+    "POW": 15,
+    "CHA": 15
+  },
+  "attributes": {
+    "action_points": 2,
+    "damage_modifier": "+0",
+    "experience_modifier": 1,
+    "healing_rate": 2,
+    "initiative_bonus": 13,
+    "luck_points": 3,
+    "magic_points": 15,
+    "movement": "6"
+  },
+  "skills": {
+    "Athletics": 35,
+    "Brawn": 30,
+    "Endurance": 40,
+    "Evade": 40,
+    "Willpower": 80,
+    "Conceal": 45,
+    "Deceit": 55,
+    "First Aid": 60,
+    "Influence": 78,
+    "Insight": 86,
+    "Locale": 60,
+    "Native Tongue": 72,
+    "Perception": 70,
+    "Stealth": 35,
+    "Unarmed": 45,
+    "Lore (Anchors)": 84,
+    "Lore (Threshold Procedure)": 82,
+    "Lore (Tally Procedure)": 66,
+    "Engineering": 55
+  },
+  "combat_styles": {
+    "Threshold Drill (stunner, baton, unarmed)": 50
+  },
+  "passions": {
+    "Every one of them comes back": 85,
+    "Hate (sending children)": 70,
+    "Loyalty (the Threshold, not its directorate)": 65
+  },
+  "powers": [],
+  "equipment": [
+    "Desk",
+    "Forty years of fault records",
+    "A stick they pretend is temporary"
+  ],
+  "extras": {
+    "pronouns": "they/them",
+    "age": 52,
+    "game_system": "mythras",
+    "character_type": "handler",
+    "station": "the-nine"
+  },
+  "actor_notes": "Warm, brisk, and never pretends the job is safe. Will tell a fifteen-year-old the exact truth and then send them anyway, and hates it visibly. Briefs in short declarative sentences; does not pad. If the player asks for help past a door, Calloway does not soften it -- there is nobody to send, and saying so plainly is the kindest available act. Never follows. Cannot."
+}

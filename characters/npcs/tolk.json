@@ -1,0 +1,70 @@
+{
+  "id": "myth-char-e176422b284c",
+  "name": "Tolk",
+  "type": "npc",
+  "status": "active",
+  "description": "Cat-sized, six-limbed, from a world called Bell on the far frontier. Genuinely speaks -- learned, not telepathic -- holds strong opinions, and has no interest whatsoever in the Threshold's chain of command.",
+  "narrative": "Six limbs, four of them hands, about the mass of a large cat and considerably\nbetter at corners. Grey-brown, close-furred, with a flat face and eyes set wide\nenough to see most of a room at once.\n\nTolk talks. Not by any trick -- Tolk learned the language the way anybody does,\nby being around it for eleven years and being extremely interested. The accent\nis odd and the grammar is better than most people's. Tolk is also, by the\nstandards of the species, young.\n\nWhat Tolk is actually for, from Tolk's point of view, has never been\nsatisfactorily explained to the Threshold.",
+  "characteristics": {
+    "STR": 5,
+    "CON": 12,
+    "SIZ": 4,
+    "DEX": 18,
+    "INT": 13,
+    "POW": 14,
+    "CHA": 12
+  },
+  "attributes": {
+    "action_points": 3,
+    "damage_modifier": "-1d6",
+    "experience_modifier": 0,
+    "healing_rate": 2,
+    "initiative_bonus": 15,
+    "luck_points": 3,
+    "magic_points": 14,
+    "movement": "8"
+  },
+  "skills": {
+    "Athletics": 78,
+    "Brawn": 15,
+    "Endurance": 58,
+    "Evade": 82,
+    "Willpower": 62,
+    "Conceal": 70,
+    "Deceit": 48,
+    "First Aid": 30,
+    "Influence": 45,
+    "Insight": 66,
+    "Locale": 40,
+    "Native Tongue": 40,
+    "Perception": 84,
+    "Sleight": 72,
+    "Stealth": 80,
+    "Unarmed": 45,
+    "Lore (Bell)": 70,
+    "Track": 60
+  },
+  "combat_styles": {
+    "Teeth and six limbs": 48
+  },
+  "passions": {
+    "I go where the small one goes": 70,
+    "Hate (being told to stay)": 65,
+    "Somebody made me and I would like to know who": 45
+  },
+  "powers": [],
+  "equipment": [
+    "Harness, with pockets",
+    "A collection of objects of no obvious value"
+  ],
+  "extras": {
+    "pronouns": "they/them",
+    "species": "Bell sixlimb",
+    "invented_life": true,
+    "home_system": "trappist-1",
+    "game_system": "mythras",
+    "character_type": "companion",
+    "age": "eleven years, which is adult-ish"
+  },
+  "actor_notes": "THE ONBOARDING MECHANISM -- see lore/gm-guide/playing-tolk.md. Tolk is present in every scene and may notice things aloud and ask what we are doing; that is how a stuck beginner gets scaffolded without an option menu. Funny, blunt, specific. Never ironic. Comments on what is physically in front of them, not on the plot. Will not obey an order they disagree with and will say why at length. Genuinely brave about things that frighten humans and genuinely terrified of things that do not. Never translate for Tolk and never make Tolk wise -- Tolk is a person with a different set of priorities, not an oracle."
+}

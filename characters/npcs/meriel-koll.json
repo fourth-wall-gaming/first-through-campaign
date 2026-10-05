@@ -1,0 +1,69 @@
+{
+  "id": "myth-char-60f20ffae668",
+  "name": "Meriel Koll",
+  "type": "npc",
+  "status": "active",
+  "description": "The other half of the van Maanen's Star office. Keeps the station alive, keeps Sep fed, and has decided the reports are a bad idea.",
+  "narrative": "An engineer by trade who took the posting for the quiet and got more of it than\nshe bargained for. Meriel runs the station -- the air, the power, the single\nageing anchor -- and has done for six years with parts she requisitions twice and\nreceives once.\n\nShe has read Sep's reports. She thinks they are correct. She also thinks that\nthe fourth one going out was the reason their resupply slipped two quarters, and\nshe has not been able to prove that to herself or to anybody else.\n\nShe would like Sep to stop. She has not said so in those words.",
+  "characteristics": {
+    "STR": 12,
+    "CON": 13,
+    "SIZ": 11,
+    "DEX": 13,
+    "INT": 14,
+    "POW": 13,
+    "CHA": 12
+  },
+  "attributes": {
+    "action_points": 3,
+    "damage_modifier": "+0",
+    "experience_modifier": 0,
+    "healing_rate": 3,
+    "initiative_bonus": 13,
+    "luck_points": 3,
+    "magic_points": 13,
+    "movement": "6"
+  },
+  "skills": {
+    "Athletics": 48,
+    "Brawn": 40,
+    "Endurance": 62,
+    "Evade": 52,
+    "Willpower": 66,
+    "Conceal": 50,
+    "Deceit": 45,
+    "First Aid": 55,
+    "Influence": 52,
+    "Insight": 64,
+    "Locale": 55,
+    "Native Tongue": 56,
+    "Perception": 60,
+    "Sleight": 48,
+    "Stealth": 45,
+    "Unarmed": 48,
+    "Mechanisms": 78,
+    "Engineering": 74,
+    "Lore (Anchors)": 70
+  },
+  "combat_styles": {
+    "Improvised (tools, unarmed)": 45
+  },
+  "passions": {
+    "This station stays alive": 78,
+    "Loyalty (Sep Anwar)": 72,
+    "Fear (that somebody is counting our requisitions)": 58
+  },
+  "powers": [],
+  "equipment": [
+    "Toolroll, comprehensive",
+    "A requisition log she reads too often"
+  ],
+  "extras": {
+    "pronouns": "she/her",
+    "age": 41,
+    "game_system": "mythras",
+    "character_type": "witness",
+    "station": "van-maanens-star"
+  },
+  "actor_notes": "The counterweight to Sep, and the more interesting half. Meriel is not obstructing out of loyalty to the Threshold -- she is frightened in a specific, evidenced way, and her fear is correct. If the player takes the reports, she asks them, once, quietly, whether they understand what they are carrying. Do not have her win the argument and do not have her lose it."
+}

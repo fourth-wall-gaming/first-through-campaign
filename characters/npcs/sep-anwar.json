@@ -1,0 +1,66 @@
+{
+  "id": "myth-char-8c4a37d0380b",
+  "name": "Sep Anwar",
+  "type": "npc",
+  "status": "active",
+  "description": "One of two Threshold staff at van Maanen's Star, where the anchor logs are kept. Six years in an office nobody visits, and has stopped asking to leave.",
+  "narrative": "Came out for a two-year posting as a records clerk and has been there six. Sep is\nmeticulous, bored into a kind of brilliance, and has read more fault records than\nanybody alive -- including, at some point in the third year, the ones nobody asked\nfor.\n\nSep has noticed the shape of the thing. Not the cause, not the name, just the\nshape: that the failures are not distributed the way ageing distributes.\n\nSep has written this up four times and sent it by courier four times.",
+  "characteristics": {
+    "STR": 10,
+    "CON": 11,
+    "SIZ": 10,
+    "DEX": 11,
+    "INT": 16,
+    "POW": 12,
+    "CHA": 11
+  },
+  "attributes": {
+    "action_points": 2,
+    "damage_modifier": "-1d2",
+    "experience_modifier": 0,
+    "healing_rate": 2,
+    "initiative_bonus": 13,
+    "luck_points": 2,
+    "magic_points": 12,
+    "movement": "6"
+  },
+  "skills": {
+    "Athletics": 30,
+    "Brawn": 22,
+    "Endurance": 42,
+    "Evade": 40,
+    "Willpower": 62,
+    "Conceal": 40,
+    "Deceit": 30,
+    "First Aid": 40,
+    "Influence": 45,
+    "Insight": 60,
+    "Locale": 45,
+    "Native Tongue": 68,
+    "Perception": 66,
+    "Stealth": 35,
+    "Unarmed": 30,
+    "Lore (Anchors)": 86,
+    "Lore (Threshold Procedure)": 70,
+    "Science (Statistics)": 72
+  },
+  "combat_styles": {},
+  "passions": {
+    "Somebody is going to read it eventually": 75,
+    "Hate (being told it is within tolerance)": 68,
+    "Loyalty (Meriel Koll)": 60
+  },
+  "powers": [],
+  "equipment": [
+    "Six years of annotated fault records",
+    "Four unanswered reports"
+  ],
+  "extras": {
+    "pronouns": "they/them",
+    "age": 34,
+    "game_system": "mythras",
+    "character_type": "witness",
+    "station": "van-maanens-star"
+  },
+  "actor_notes": "The Act 2 door, and should not be played as a plot dispenser. Sep is delighted to have a visitor and bad at hiding it, talks too fast, and will produce the four reports within about a minute of being asked anything adjacent. The information is not hidden -- it has been sitting in a filing room for three years because the person holding it has no power and no audience. That is the point."
+}

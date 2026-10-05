@@ -1,0 +1,70 @@
+{
+  "id": "myth-char-1f85203f9528",
+  "name": "Tallyman Captain Brace",
+  "type": "npc",
+  "status": "active",
+  "description": "The Tally's face in v1. Collects on impound orders, carries a shock baton and never a blade, and knows things before he should.",
+  "narrative": "Twenty-two years a tallyman, eleven of them a captain, and comfortable in grey.\nBrace is not cruel and is not interested in being obeyed for its own sake -- he\nis interested in the ledger balancing, and he has found that people balance it\nmore readily when he is standing there.\n\nHe took the Gliese 65 impound order to the refinery himself, which is beneath a\ncaptain, and he arrived with it the morning before it was issued.\n\nHe has not thought hard about that, and if a fifteen-year-old asks him the right\nway he will say it out loud once.",
+  "characteristics": {
+    "STR": 14,
+    "CON": 14,
+    "SIZ": 13,
+    "DEX": 12,
+    "INT": 13,
+    "POW": 12,
+    "CHA": 13
+  },
+  "attributes": {
+    "action_points": 2,
+    "damage_modifier": "+1d2",
+    "experience_modifier": 0,
+    "healing_rate": 3,
+    "initiative_bonus": 10,
+    "luck_points": 2,
+    "magic_points": 12,
+    "movement": "6"
+  },
+  "skills": {
+    "Athletics": 55,
+    "Brawn": 62,
+    "Endurance": 70,
+    "Evade": 52,
+    "Willpower": 64,
+    "Conceal": 45,
+    "Deceit": 58,
+    "First Aid": 50,
+    "Influence": 68,
+    "Insight": 66,
+    "Locale": 50,
+    "Native Tongue": 58,
+    "Perception": 62,
+    "Stealth": 40,
+    "Unarmed": 66,
+    "Lore (Tally Procedure)": 88,
+    "Lore (Anchors)": 48
+  },
+  "combat_styles": {
+    "Tally Drill (shock baton, restraints, unarmed)": 72
+  },
+  "passions": {
+    "The ledger balances": 80,
+    "Nobody dies on my manifest": 70,
+    "Loyalty (whoever countersigns)": 55
+  },
+  "powers": [],
+  "equipment": [
+    "Tally pressure armour, grey (AP 4 all locations)",
+    "Shock baton",
+    "Restraint loops, eight",
+    "Reader",
+    "Impound seals"
+  ],
+  "extras": {
+    "pronouns": "he/him",
+    "age": 46,
+    "game_system": "mythras",
+    "character_type": "antagonist-field",
+    "faction": "the-tally"
+  },
+  "actor_notes": "Carries NO lethal weapon, ever, and says why if asked: a body is not a line on a manifest. Wins by detaining, fining and impounding -- which is a real defeat and should feel like one. Professionally courteous, immovable on procedure, and capable of one moment of genuine unease when the player works out the timing of the impound order. That moment is the whole of Act 1's reveal: he says the word Quorum once, as a signature on a form, and cannot explain it."
+}

@@ -281,3 +281,71 @@ def test_the_kit_entry_explains_charge_without_naming_power_points():
     assert "charge" in body.lower()
     for banned in ("Power Point", "POW", "Boost", "Limit"):
         assert banned not in body, f"the kit entry leaks the rules word {banned!r}"
+
+
+import json as _json
+
+NAMED_CAST = {
+    "calloway", "tolk", "ferren", "director-hale",
+    "tallyman-captain-brace", "sep-anwar", "meriel-koll",
+}
+
+
+def test_the_named_cast_is_present():
+    have = {p.stem for p in (ROOT / "characters" / "npcs").glob("*.json")}
+    assert NAMED_CAST <= have, f"missing: {sorted(NAMED_CAST - have)}"
+
+
+def test_every_character_declares_pronouns():
+    """Guessing a character's pronouns from their name misgenders them in a way
+    the neutral default never does."""
+    for p in (ROOT / "characters").rglob("*.json"):
+        c = _json.loads(p.read_text())
+        assert (c.get("extras") or {}).get("pronouns"), f"{p.name} declares none"
+
+
+def test_no_hill_proper_nouns_anywhere_in_the_repo():
+    """Global Constraints: we inherit the shape, never the names."""
+    banned = ("Keill", "Randor", "Glr", "Moros", "Veynaa",
+              "Overseer", "Deathwing", "Galactic Warlord")
+    for p in list(ROOT.rglob("*.md")) + list(ROOT.rglob("*.json")):
+        if ".git" in p.parts or "docs" in p.parts or ".superpowers" in p.parts:
+            continue
+        text = p.read_text()
+        for word in banned:
+            assert word not in text, f"{p.relative_to(ROOT)} contains {word!r}"
+
+
+def test_v1_never_shows_the_quorum_his_face():
+    """Spec section 11: v1 ships only the bottom rung of the reveal ladder."""
+    for p in (ROOT / "characters").rglob("*.json"):
+        c = _json.loads(p.read_text())
+        assert c["name"] != "Sarn", "Sarn has no sheet in v1"
+    player_visible = [
+        p for p in lore_files()
+        if parse_frontmatter(p.read_text())[0].get("visibility") == "player"
+    ]
+    for p in player_visible:
+        body = p.read_text()
+        assert "pattern transfer" not in body.lower(), f"{p.name} leaks Act 3"
+        assert "copies of himself" not in body.lower()
+
+
+def test_invented_life_is_flagged_and_placed():
+    """Spec section 12's correction to 3.1: astronomy is fixed and real, life is
+    invented but constrained. An organism placed without a flag and a host system
+    is the one way this repo could quietly start making things up."""
+    organisms = [p for p in lore_files()
+                 if parse_frontmatter(p.read_text())[0].get("invented")]
+    for p in organisms:
+        meta, _ = parse_frontmatter(p.read_text())
+        assert meta["invented"] == "life", f"{p.name}: invented={meta['invented']!r}"
+        assert meta.get("system") in set(systems()), (
+            f"{p.name} places life in {meta.get('system')!r}, not a real system"
+        )
+    creature_homes = {
+        (_json.loads(p.read_text()).get("extras") or {}).get("home_system")
+        for p in (ROOT / "characters" / "creatures").glob("*.json")
+    }
+    for home in creature_homes - {None}:
+        assert home in set(systems()), f"a creature is from {home!r}, not a real system"
