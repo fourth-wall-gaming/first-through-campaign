@@ -1,0 +1,98 @@
+{
+  "id": "myth-tmpl-166a51d0a230",
+  "name": "The Talker",
+  "description": "A first-through who gets invited in. Fifteen, and the only candidate in Yards history to talk an instructor out of failing them, on the record, in front of the board.",
+  "narrative": "You read people the way the Tinker reads a coupling collar: fast, from the\noutside, and usually right. It has got you through two years of training that\nyour arms were never going to get you through.\n\nYou know the thing nobody says out loud about this job -- that almost every\ndisaster on the far side of a door is a person who decided something, and a\nperson who decided something can be talked to.",
+  "characteristics": {
+    "STR": 10,
+    "CON": 11,
+    "SIZ": 10,
+    "DEX": 12,
+    "INT": 13,
+    "POW": 13,
+    "CHA": 16
+  },
+  "attributes": {
+    "action_points": 3,
+    "damage_modifier": "-1d2",
+    "experience_modifier": 1,
+    "healing_rate": 2,
+    "initiative_bonus": 11,
+    "luck_points": 3,
+    "magic_points": 13,
+    "movement": "6"
+  },
+  "skills": {
+    "Athletics": 42,
+    "Brawn": 25,
+    "Endurance": 48,
+    "Evade": 52,
+    "Willpower": 64,
+    "Conceal": 42,
+    "Deceit": 68,
+    "First Aid": 40,
+    "Influence": 74,
+    "Insight": 72,
+    "Locale": 48,
+    "Native Tongue": 70,
+    "Perception": 54,
+    "Sleight": 44,
+    "Stealth": 42,
+    "Unarmed": 38,
+    "Customs": 58,
+    "Streetwise": 56,
+    "Lore (Anchors)": 35,
+    "Lore (Tally Procedure)": 52
+  },
+  "combat_styles": {
+    "Threshold Drill (stunner, baton, unarmed)": 42
+  },
+  "passions": {
+    "Nobody has to get hurt here": 70,
+    "Loyalty (Calloway)": 55,
+    "I will know what you are not saying": 58
+  },
+  "powers": [
+    {
+      "name": "Life Support",
+      "rule": "magic/power-life-support",
+      "boosts": [
+        "A toxic atmosphere and heat, both (2 PP)"
+      ],
+      "limits": [
+        "External Power Source -- the pressure-skin, and it can be taken"
+      ]
+    },
+    {
+      "name": "Enhanced Reactions",
+      "rule": "magic/power-enhanced-reactions",
+      "boosts": [],
+      "limits": [
+        "External Power Source -- the suit's neural tap, and it can be taken"
+      ]
+    },
+    {
+      "name": "Lucky",
+      "rule": "magic/power-lucky",
+      "boosts": [],
+      "limits": []
+    }
+  ],
+  "equipment": [
+    "Threshold pressure suit (AP 2 all locations)",
+    "Stunner, one charge spare",
+    "Restraint loops, four",
+    "Reader, Tally-pattern, obtained unofficially",
+    "Trauma patch"
+  ],
+  "extras": {
+    "age": 15,
+    "game_system": "mythras",
+    "character_type": "first-through",
+    "power_branch": "tech/training (INT)",
+    "trained_at": "61-cygni",
+    "pronouns": "they/them",
+    "charge": "Power Points = POW 13; recovers 1 per minute of rest",
+    "conditioning": "Lucky is theirs, not the suit's -- it survives the locker"
+  }
+}

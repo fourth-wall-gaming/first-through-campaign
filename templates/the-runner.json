@@ -1,0 +1,97 @@
+{
+  "id": "myth-tmpl-c1edca3b7692",
+  "name": "The Runner",
+  "description": "A first-through who gets there. Fifteen, quickest through the Yards in four intakes, and the only one of the intake who passed the cold step without stopping to think about it.",
+  "narrative": "You are built for the part of the job that happens in corridors. You climb what\nis not meant to be climbed, you carry people who cannot walk, and you have never\nonce been the slowest person in a room.\n\nThe instructors wrote the same note on you twice in two years: *goes first, and\nworks out why afterwards.* They did not mean it kindly and you have decided to\ntake it that way anyway.",
+  "characteristics": {
+    "STR": 13,
+    "CON": 14,
+    "SIZ": 11,
+    "DEX": 15,
+    "INT": 12,
+    "POW": 13,
+    "CHA": 11
+  },
+  "attributes": {
+    "action_points": 3,
+    "damage_modifier": "+0",
+    "experience_modifier": 0,
+    "healing_rate": 3,
+    "initiative_bonus": 12,
+    "luck_points": 3,
+    "magic_points": 13,
+    "movement": "6"
+  },
+  "skills": {
+    "Athletics": 72,
+    "Brawn": 55,
+    "Endurance": 68,
+    "Evade": 70,
+    "Willpower": 50,
+    "Conceal": 38,
+    "Deceit": 32,
+    "First Aid": 45,
+    "Influence": 36,
+    "Insight": 42,
+    "Locale": 38,
+    "Native Tongue": 50,
+    "Perception": 55,
+    "Sleight": 40,
+    "Stealth": 52,
+    "Unarmed": 58,
+    "Swim": 48,
+    "Lore (Anchors)": 35,
+    "Craft (Pressure Fitting)": 35
+  },
+  "combat_styles": {
+    "Threshold Drill (stunner, baton, unarmed)": 62
+  },
+  "passions": {
+    "I am the one who gets there": 70,
+    "Loyalty (Calloway)": 55,
+    "Hate (being told to wait outside)": 60
+  },
+  "powers": [
+    {
+      "name": "Life Support",
+      "rule": "magic/power-life-support",
+      "boosts": [
+        "Hard vacuum and hard cold, both (2 PP)"
+      ],
+      "limits": [
+        "External Power Source -- the pressure-skin, and it can be taken"
+      ]
+    },
+    {
+      "name": "Combat Expert",
+      "rule": "magic/power-combat-expert",
+      "boosts": [],
+      "limits": [
+        "External Power Source -- the suit's limb assist, and it can be taken"
+      ]
+    },
+    {
+      "name": "Durability",
+      "rule": "magic/power-durability",
+      "boosts": [],
+      "limits": []
+    }
+  ],
+  "equipment": [
+    "Threshold pressure suit (AP 2 all locations)",
+    "Stunner, two charges spare",
+    "Restraint loops, six",
+    "Line and descender",
+    "Trauma patch"
+  ],
+  "extras": {
+    "age": 15,
+    "game_system": "mythras",
+    "character_type": "first-through",
+    "power_branch": "tech/training (INT)",
+    "trained_at": "61-cygni",
+    "pronouns": "they/them",
+    "charge": "Power Points = POW 13; recovers 1 per minute of rest",
+    "conditioning": "Durability is trained, not worn -- it does not go in the locker with the suit"
+  }
+}
