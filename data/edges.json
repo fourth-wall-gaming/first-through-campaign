@@ -1,0 +1,184 @@
+[
+  {
+    "a": "sol",
+    "b": "sirius",
+    "opened_years_ago": 803,
+    "built_from": "sol",
+    "note": "The old direct route. Still the busiest door on the station and the least interesting."
+  },
+  {
+    "a": "sirius",
+    "b": "wise-0855",
+    "opened_years_ago": 803,
+    "built_from": "wise-0855",
+    "note": "Sirius's nearest neighbour at 4.7 ly. A door onto a dark drifter, kept open because it is cheap to keep open."
+  },
+  {
+    "a": "sirius",
+    "b": "procyon",
+    "opened_years_ago": 746,
+    "built_from": "sirius",
+    "note": "Two bright stars and two white dwarfs, five light years apart. The shortest hop a first-through is ever sent on."
+  },
+  {
+    "a": "sirius",
+    "b": "luhman-16",
+    "opened_years_ago": 803,
+    "built_from": "luhman-16",
+    "note": "The sunless route. Mate placed at Luhman 16 before Sirius had a door of its own."
+  },
+  {
+    "a": "sirius",
+    "b": "epsilon-eridani",
+    "opened_years_ago": 765,
+    "built_from": "sirius",
+    "note": "Into the debris. Transit is routine; everything after it is not."
+  },
+  {
+    "a": "sirius",
+    "b": "wolf-359",
+    "opened_years_ago": 803,
+    "built_from": "wolf-359",
+    "note": "A flare star eight light years off, and the Nine's standing reminder of what a bad sky does."
+  },
+  {
+    "a": "sirius",
+    "b": "alpha-centauri",
+    "opened_years_ago": 803,
+    "built_from": "alpha-centauri",
+    "note": "The Nine to the first door ever opened. Politically the most important edge on the Causeway."
+  },
+  {
+    "a": "sirius",
+    "b": "gliese-65",
+    "opened_years_ago": 798,
+    "built_from": "sirius",
+    "note": "The refinery run. Mate held at Sirius; the far half landed five years before Sirius's own."
+  },
+  {
+    "a": "sirius",
+    "b": "40-eridani",
+    "opened_years_ago": 648,
+    "built_from": "sirius",
+    "note": "The long southern hop, and the last mate Sirius placed."
+  },
+  {
+    "a": "sol",
+    "b": "barnards-star",
+    "opened_years_ago": 856,
+    "built_from": "sol",
+    "note": "Second door ever opened, and a famous disappointment behind it."
+  },
+  {
+    "a": "sol",
+    "b": "trappist-1",
+    "opened_years_ago": 162,
+    "built_from": "sol",
+    "note": "Eight hundred and thirteen years in flight. Seven worlds on the other side."
+  },
+  {
+    "a": "sol",
+    "b": "hd-69830",
+    "opened_years_ago": 154,
+    "built_from": "sol",
+    "note": "Opened into rubble, and the survey crews have never caught up."
+  },
+  {
+    "a": "sol",
+    "b": "55-cancri",
+    "opened_years_ago": 154,
+    "built_from": "sol",
+    "note": "A lava world and a red dwarf a long way out."
+  },
+  {
+    "a": "sol",
+    "b": "hd-40307",
+    "opened_years_ago": 131,
+    "built_from": "sol",
+    "note": "Six super-Earths, one of them temperate, and almost nobody there."
+  },
+  {
+    "a": "sol",
+    "b": "gj-1214",
+    "opened_years_ago": 20,
+    "built_from": "sol",
+    "note": "The most recent door on the Causeway. Twenty years old and still being argued about."
+  },
+  {
+    "a": "alpha-centauri",
+    "b": "lalande-21185",
+    "opened_years_ago": 809,
+    "built_from": "alpha-centauri",
+    "note": "Old money reaching out to a quiet neighbour."
+  },
+  {
+    "a": "alpha-centauri",
+    "b": "ross-128",
+    "opened_years_ago": 755,
+    "built_from": "alpha-centauri",
+    "note": "A temperate world, lightly held."
+  },
+  {
+    "a": "alpha-centauri",
+    "b": "epsilon-indi",
+    "opened_years_ago": 738,
+    "built_from": "alpha-centauri",
+    "note": "Out to a cold Jupiter and two brown dwarfs."
+  },
+  {
+    "a": "barnards-star",
+    "b": "61-cygni",
+    "opened_years_ago": 747,
+    "built_from": "barnards-star",
+    "note": "Industry to the training yards. Every first-through has walked this edge."
+  },
+  {
+    "a": "61-cygni",
+    "b": "gl-725",
+    "opened_years_ago": 745,
+    "built_from": "61-cygni",
+    "note": "Six light years, the closest pair of doors in the whole network."
+  },
+  {
+    "a": "61-cygni",
+    "b": "van-maanens-star",
+    "opened_years_ago": 694,
+    "built_from": "61-cygni",
+    "note": "The graveyard run. Two people on the far side and the anchor logs."
+  },
+  {
+    "a": "61-cygni",
+    "b": "gliese-876",
+    "opened_years_ago": 670,
+    "built_from": "61-cygni",
+    "note": "Out to the clockwork system."
+  },
+  {
+    "a": "gliese-65",
+    "b": "tau-ceti",
+    "opened_years_ago": 737,
+    "built_from": "gliese-65",
+    "note": "Three light years from a killing sky to a sun like home."
+  },
+  {
+    "a": "tau-ceti",
+    "b": "yz-ceti",
+    "opened_years_ago": 733,
+    "built_from": "tau-ceti",
+    "note": "A light and a half. The shortest edge that exists."
+  },
+  {
+    "a": "tau-ceti",
+    "b": "teegardens-star",
+    "opened_years_ago": 725,
+    "built_from": "tau-ceti",
+    "note": "Two Earth-mass worlds and a star that never flares."
+  },
+  {
+    "a": "epsilon-eridani",
+    "b": "gliese-887",
+    "opened_years_ago": 761,
+    "built_from": "epsilon-eridani",
+    "note": "The Coldwater run. Four thousand people on the far side of it."
+  }
+]

@@ -98,3 +98,76 @@ def test_coordinates_reproduce_a_known_separation():
     s = systems()
     gap = separation_ly(s["sirius"], s["procyon"])
     assert 4.5 < gap < 6.0, f"Sirius-Procyon came out {gap:.2f} ly"
+
+
+from content_rules import YEARS_PER_LIGHT_YEAR, edges
+
+
+def test_sirius_carries_exactly_nine_edges():
+    """The Nine is named for its edge count. If this drifts the station is
+    misnamed and the spec's first teaching image is wrong."""
+    count = sum(1 for e in edges() if "sirius" in (e["a"], e["b"]))
+    assert count == 9, f"Sirius carries {count} edges, not nine"
+
+
+def test_every_edge_endpoint_is_a_known_system():
+    known = set(systems())
+    for e in edges():
+        assert e["a"] in known, f"unknown endpoint {e['a']}"
+        assert e["b"] in known, f"unknown endpoint {e['b']}"
+        assert e["built_from"] in (e["a"], e["b"]), (
+            f"{e['a']}-{e['b']}: built_from {e['built_from']} is not an endpoint"
+        )
+
+
+def _door_date(slug, s):
+    """Sol is open from the launch itself; everywhere else has an arrival date."""
+    return LAUNCH_YEARS_AGO if slug == "sol" else s[slug]["opened_years_ago"]
+
+
+def test_every_edge_opens_when_its_later_half_lands():
+    """An anchor is a PAIR of independent devices. Every far half rode the one
+    great launch from Sol, which is why 975 - 20d holds for every system; what
+    varies is where the First Reach placed each half's mate. So a link comes
+    into service on the date its later half arrives -- the smaller years-ago of
+    its two endpoints -- and never before."""
+    s = systems()
+    for e in edges():
+        a, b = _door_date(e["a"], s), _door_date(e["b"], s)
+        assert e["opened_years_ago"] == min(a, b), (
+            f"{e['a']}-{e['b']}: later half lands {min(a, b)} yr ago, "
+            f"file says {e['opened_years_ago']}"
+        )
+        assert e["opened_years_ago"] > 0, f"{e['a']}-{e['b']} has not opened"
+
+
+def test_built_from_is_the_end_that_already_had_its_door():
+    """The mate has to be sitting there before the far half lands, so the node
+    holding it is always the end that opened first."""
+    s = systems()
+    for e in edges():
+        other = e["b"] if e["built_from"] == e["a"] else e["a"]
+        assert _door_date(e["built_from"], s) >= _door_date(other, s), (
+            f"{e['a']}-{e['b']}: built_from {e['built_from']} opened after "
+            f"{other}, so the mate was not there yet"
+        )
+
+
+def test_the_graph_is_connected_from_sol():
+    adj = {}
+    for e in edges():
+        adj.setdefault(e["a"], set()).add(e["b"])
+        adj.setdefault(e["b"], set()).add(e["a"])
+    seen, stack = {"sol"}, ["sol"]
+    while stack:
+        for n in adj.get(stack.pop(), ()):
+            if n not in seen:
+                seen.add(n)
+                stack.append(n)
+    unreachable = {k for k, v in systems().items() if v["opened_years_ago"]} - seen
+    unreachable = {u for u in unreachable if u in adj}
+    assert not unreachable, f"no route from Sol to {sorted(unreachable)}"
+
+
+def test_lhs_1140_has_no_edge_yet():
+    assert not [e for e in edges() if "lhs-1140" in (e["a"], e["b"])]

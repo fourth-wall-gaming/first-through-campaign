@@ -75,9 +75,18 @@ speed of light, *including radio*. Three consequences carry the whole setting:
   side and cannot follow, cannot call, cannot help. You and whoever is with you
   are the entire response. This is the core tension of every mission.
 
-It is a graph rather than spokes because second-generation ships were launched
-*from* the early nodes, so edges link star to star rather than everything to
-Sol.
+It is a graph rather than spokes because **an anchor is a pair of independent
+devices.** Every far half rode the one great launch from Sol -- which is why
+`975 - 20d` holds for every system without exception -- but the First Reach did
+not keep every *mate* at home. It distributed mates among its early nodes, so
+where a door leads is a matter of where its other half was placed, and a link
+comes into service on the date its later half lands.
+
+The result is that Sol holds seven doors and Sirius holds nine. The old country
+kept the original direct routes and the long shots to a frontier where there is
+still nothing; the junction ended up at Sirius because Sirius is physically the
+most central node in the neighbourhood, and eight of the Nine's edges are simply
+its own nearest neighbours.
 
 ### The arithmetic
 
