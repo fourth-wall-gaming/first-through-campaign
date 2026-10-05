@@ -95,3 +95,48 @@ def test_knowledge_edges_point_at_real_facts_and_knowers():
         assert e["fact"] in facts, f"knowledge edge cites unknown fact {e['fact']}"
         assert e["knower"] in chars, f"knowledge edge cites unknown knower {e['knower']}"
         assert e["certainty"] in ("knows", "believes", "suspects")
+
+
+import re
+
+WATCHES = ("dawn", "day", "dusk", "night")
+TIME_KEY = re.compile(r"^\s*d\s*(-?\d+)\s*/\s*([a-z]+)\s*$", re.I)
+
+
+def _parse_time_key(key):
+    """Mirrors mythras_engine.parse_time_key. A beat whose `when` does not
+    parse fails the whole import, not just itself -- which is how this was
+    found."""
+    m = TIME_KEY.match(key or "")
+    assert m, f"bad time key {key!r}: expected '<day>/<watch>', e.g. 'd-3/night'"
+    assert m.group(2).lower() in WATCHES, f"bad watch in {key!r}"
+    day = int(m.group(1))
+    index = (day + 16) * 4 + WATCHES.index(m.group(2).lower())
+    assert index >= 0, f"time key too early to represent: {key!r}"
+    return index
+
+
+def test_every_beat_when_parses_as_a_time_key():
+    for p in (ROOT / "beats").glob("*.md"):
+        meta, _ = parse_frontmatter(p.read_text())
+        _parse_time_key(meta["when"])
+
+
+def test_the_manifest_clock_agrees_with_its_own_game_date():
+    text = (ROOT / "campaign.yaml").read_text()
+    game_date = re.search(r'game_date: "([^"]+)"', text).group(1)
+    time_index = int(re.search(r"time_index: (\d+)", text).group(1))
+    assert _parse_time_key(game_date.split(" --")[0]) == time_index, (
+        f"game_date {game_date!r} and time_index {time_index} disagree"
+    )
+
+
+def test_no_beat_is_already_due_at_the_seed_clock():
+    """A seed whose beats are in the past fires them all on the first tick."""
+    text = (ROOT / "campaign.yaml").read_text()
+    start = int(re.search(r"time_index: (\d+)", text).group(1))
+    for p in (ROOT / "beats").glob("*.md"):
+        meta, _ = parse_frontmatter(p.read_text())
+        assert _parse_time_key(meta["when"]) > start, (
+            f"{p.name} is at or before the seed clock"
+        )
