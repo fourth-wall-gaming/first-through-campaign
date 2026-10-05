@@ -437,3 +437,18 @@ def test_the_action_track_hands_special_effects_to_the_player():
     p = ROOT / "lore/gm-guide/special-effects-are-the-players.md"
     _, body = parse_frontmatter(p.read_text())
     assert "never choose" in body.lower() or "the player chooses" in body.lower()
+
+
+def test_both_entry_points_give_a_guaranteed_early_success():
+    """Spec section 8, fourth onboarding device: one guaranteed success before
+    the first real risk, so the first mechanics block a player ever sees is one
+    that worked. It was implemented in The Quiet Door only -- and Flare is the
+    track an impulsive first-timer is more likely to pick."""
+    for p in lore_files("entry-points"):
+        _, body = parse_frontmatter(p.read_text())
+        # Prose wraps, so match on collapsed whitespace rather than the
+        # accident of where a line happened to break.
+        low = " ".join(body.lower().split())
+        assert "cannot fail" in low and "guaranteed" in low, (
+            f"{p.name} has no guaranteed early success"
+        )

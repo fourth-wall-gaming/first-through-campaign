@@ -47,12 +47,27 @@ Three or four of those and the player will feel the clock without being handed
 one. If they ask outright, the honest in-fiction answer is that nobody knows,
 and that is worse.
 
-## 2. Step through into the brownout
+## 2. The suit, and the guaranteed early success
+
+Before they step through, run the kit seal as a real roll the player **cannot
+fail** -- a Very Easy call on something they are already good at -- so the first
+mechanics block they ever see is one that *worked*. Calloway is holding the suit
+and there is no time, which is exactly why the drill is automatic.
+
+This is spec section 8's fourth onboarding device and it matters more on this
+track than on the other one. A player who picked Flare came for the dice. If the
+first roll they ever see is a failure, they learn that the dice are something
+that happens *to* them -- in the thirty seconds before their first fight, which
+is the worst possible moment to learn it.
+
+It costs half a minute. Do not skip it.
+
+## 3. Step through into the brownout
 
 Lights failing in a rhythm. Nobody in the anchor bay. A shock baton on the deck
 that somebody dropped and did not come back for.
 
-## 3. The Barricade
+## 4. The Barricade
 
 [[The Barricade]]: six metres of corridor emptied of a loading bay. The three
 affordances are in its description and they are the scenario — the **cargo
@@ -60,7 +75,7 @@ strap** cross-bracing, which a knife goes through; the **maintenance crawl**
 behind the left panel, which an adult cannot use and a fifteen-year-old can; and
 the **full drums**, which mean nobody can open this fast from either side.
 
-## 4. Why they built it
+## 5. Why they built it
 
 The crew are not hostile. [[Tallyman Captain Brace]] walked in that morning with
 an **impound order** on the refinery's transit rights, which means the crew are
@@ -73,7 +88,7 @@ nobody is.
 Twenty-two frightened people, four [[Tallyman]]s doing procedure, and a star
 getting ready.
 
-## 5. The fight, and it is a real one
+## 6. The fight, and it is a real one
 
 Three waves at most, escalating, each with a way through that is not fighting if
 the player finds it:
@@ -90,7 +105,7 @@ Run every exchange properly: ask how they are defending before you resolve,
 parry or evade, their choice, and hand them the special effect when they win it.
 A kid who came here to fight has come for exactly that moment.
 
-## 6. Everybody walks out
+## 7. Everybody walks out
 
 Nobody dies in this scenario, including the tallymen, and the reason is in
 [[The Tally]]: a body is not a line on a manifest. Stunners, batons, restraint
@@ -110,7 +125,7 @@ are real wins:
 - **The Fieldhand** gets the hands and the hurt moving before the fight starts
   and takes the crew's reason for barricading away from them.
 
-## 7. Debrief at the Nine
+## 8. Debrief at the Nine
 
 The flare comes. Everybody is behind mass. The refinery takes it and the player
 watches the lights go hard white through a shuttered window.

@@ -103,5 +103,19 @@ def test_import_then_export_round_trips_losslessly(tmp_path):
         tmpl_in = len(list((ROOT / "templates").glob("*.json")))
         tmpl_out = len(list((out / "templates").glob("*.json")))
         assert tmpl_out == tmpl_in, f"templates: {tmpl_in} in, {tmpl_out} out"
+
+        # knowledge.json is the only file keyed entirely on cross-references,
+        # so it is the one most likely to rot silently -- a dropped edge is a
+        # character who no longer knows the thing the plot needs them to know.
+        k_in = json.loads((ROOT / "knowledge.json").read_text())["knows"]
+        k_file = out / "knowledge.json"
+        k_out = json.loads(k_file.read_text())["knows"] if k_file.exists() else []
+        assert len(k_out) == len(k_in), (
+            f"knowledge edges: {len(k_in)} in, {len(k_out)} out"
+        )
+        assert ({e["certainty"] for e in k_out}
+                == {e["certainty"] for e in k_in}), (
+            "a certainty value did not survive the round trip"
+        )
     finally:
         _gm("delete-campaign", "--campaign", new_id, "--yes")
