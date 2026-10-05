@@ -413,3 +413,27 @@ def test_anyone_who_can_be_fought_carries_something_non_lethal():
         gear = " ".join(c.get("equipment", [])).lower()
         for lethal in ("rifle", "sidearm", "blade", "knife", "pistol", "sword"):
             assert lethal not in gear, f"{p.name}: {c['name']} carries a {lethal}"
+
+
+def test_both_entry_points_exist_and_declare_themselves():
+    found = {parse_frontmatter(p.read_text())[0].get("entry_point")
+             for p in lore_files("entry-points")}
+    assert found == ENTRY_POINTS, f"found {sorted(x for x in found if x)}"
+
+
+def test_flare_runs_on_a_clock_and_still_kills_nobody():
+    p = ROOT / "lore/entry-points/flare.md"
+    _, body = parse_frontmatter(p.read_text())
+    low = body.lower()
+    assert "clock" in low or "minutes" in low, "the flare must be on a timer"
+    for word in ("kill", "killed", "corpse", "dead"):
+        assert f" {word} " not in low, (
+            f"the action track must resolve in knockouts; found {word!r}"
+        )
+
+
+def test_the_action_track_hands_special_effects_to_the_player():
+    """TABLE.md section 7, and the whole reason a kid who came to fight stays."""
+    p = ROOT / "lore/gm-guide/special-effects-are-the-players.md"
+    _, body = parse_frontmatter(p.read_text())
+    assert "never choose" in body.lower() or "the player chooses" in body.lower()
