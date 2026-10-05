@@ -131,3 +131,45 @@ def test_the_hook_manifest_points_at_the_script():
     cmd = h["hooks"]["SessionStart"][0]["hooks"][0]["command"]
     assert "session-start.sh" in cmd
     assert "CLAUDE_PLUGIN_ROOT" in cmd
+
+
+def _embedded_python(text):
+    """Every `python3 -c '...'` snippet in a shell script."""
+    return re.findall(r"python3 -c '\n(.*?)\n' ", text, re.S)
+
+
+def test_embedded_python_in_the_hook_actually_compiles():
+    """The bug that made the hook lie. The snippet inherited from purewater used
+    \\" escapes inside an f-string expression, which is a SyntaxError -- so it
+    fell through to the fallback every time, took the in-progress branch, and
+    told the player NOT to run the start command. A broken snippet cannot be
+    seen by eye and leaves no trace at runtime, because stderr is discarded."""
+    text = (ROOT / "scripts" / "session-start.sh").read_text()
+    snippets = _embedded_python(text)
+    assert snippets, "no embedded python found; has the hook been restructured?"
+    for snip in snippets:
+        assert "'" not in snip, (
+            "a single quote inside a single-quoted shell string terminates it"
+        )
+        assert "\\" not in snip, (
+            "backslash escapes inside the snippet are what broke it before"
+        )
+        compile(snip, "session-start.sh snippet", "exec")
+
+
+def test_the_hook_reads_an_unstarted_seed_as_unstarted():
+    """Run the hook's own state snippet against the shape get-campaign really
+    returns, and require session 0 to come back as 0 rather than '?'."""
+    text = (ROOT / "scripts" / "session-start.sh").read_text()
+    snip = _embedded_python(text)[-1]
+    fixture = json.dumps({"success": True, "campaign": {
+        "id": SEED_ID,
+        "myth-game-date": "d0/dawn -- the morning of the player's first posting",
+        "myth-session-number": 0,
+    }})
+    r = subprocess.run(["python3", "-c", snip], input=fixture,
+                       capture_output=True, text=True)
+    assert r.returncode == 0, r.stderr
+    clock, _, session = r.stdout.strip().partition("|")
+    assert session == "0", f"session read as {session!r}; the hook would misreport"
+    assert clock.startswith("d0/dawn"), f"clock read as {clock!r}"

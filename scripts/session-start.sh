@@ -63,13 +63,20 @@ MSG
 fi
 
 if gm get-campaign --campaign "$SEED_ID" >/dev/null 2>&1; then
+  # NB: no backslashes and no single quotes inside this snippet. It is wrapped
+  # in a single-quoted shell string, and the version inherited from purewater
+  # used \" escapes inside an f-string expression -- which is a SyntaxError, so
+  # it silently fell through to "?|?" every time, took the in-progress branch,
+  # and told the player NOT to run the start command. Found by running it.
   STATE=$(gm get-campaign --campaign "$SEED_ID" 2>/dev/null | python3 -c '
 import json,sys
 try:
     c = json.load(sys.stdin).get("campaign") or {}
 except Exception:
     print("?|?"); raise SystemExit
-print(f"{c.get(\"myth-game-date\") or \"?\"}|{c.get(\"myth-session-number\")}")
+date = c.get("myth-game-date") or "?"
+session = c.get("myth-session-number")
+print("%s|%s" % (date, session))
 ' 2>/dev/null || echo "?|?")
   CLOCK="${STATE%%|*}"; SESSION="${STATE##*|}"
   if [ "${SESSION:-0}" = "0" ]; then
