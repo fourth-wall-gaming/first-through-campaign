@@ -100,8 +100,23 @@ def test_the_start_command_offers_both_entry_points_and_all_four_pregens():
     text = (ROOT / "commands" / "start.md").read_text()
     for slug in ("the-quiet-door", "flare"):
         assert slug in text, f"start does not offer {slug}"
-    for p in (ROOT / "templates").glob("*.json"):
+    for p in (ROOT / "characters" / "pcs").glob("*.json"):
         assert json.loads(p.read_text())["name"] in text
+
+
+def test_the_start_command_uses_a_cli_path_that_actually_exists():
+    """The bug that made v1 unplayable: start.md told the GM to run
+    `create-character --template`, and no such flag exists in the engine. A
+    start command must only name commands and flags the CLI really has."""
+    text = (ROOT / "commands" / "start.md").read_text()
+    assert "--template" not in text or "spawn" in text, (
+        "start.md uses --template; only `spawn --template` takes one, and spawn "
+        "makes an NPC and discards passions and powers"
+    )
+    assert "create-character --campaign <id> --template" not in text
+    assert "--played" not in text, (
+        "update-campaign has no --played flag in the shipped engine"
+    )
 
 
 def test_the_plugin_manifest_declares_the_engine_dependency():

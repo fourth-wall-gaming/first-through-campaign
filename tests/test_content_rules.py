@@ -386,7 +386,7 @@ def test_each_entry_point_names_all_four_pregens_as_viable():
     """Spec section 6: every scenario must be solvable by all four. An entry
     point that only lists two has quietly cut half the pre-gens."""
     names = {_json.loads(p.read_text())["name"]
-             for p in (ROOT / "templates").glob("*.json")}
+             for p in (ROOT / "characters" / "pcs").glob("*.json")}
     found = list(lore_files("entry-points"))
     assert found, "no entry points"
     for p in found:

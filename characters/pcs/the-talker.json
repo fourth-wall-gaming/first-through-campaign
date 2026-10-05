@@ -1,6 +1,8 @@
 {
-  "id": "myth-tmpl-166a51d0a230",
+  "id": "myth-char-166a51d0a230",
   "name": "The Talker",
+  "type": "pc",
+  "status": "active",
   "description": "A first-through who gets invited in. Fifteen, and the only candidate in Yards history to talk an instructor out of failing them, on the record, in front of the board.",
   "narrative": "You read people the way the Tinker reads a coupling collar: fast, from the\noutside, and usually right. It has got you through two years of training that\nyour arms were never going to get you through.\n\nYou know the thing nobody says out loud about this job -- that almost every\ndisaster on the far side of a door is a person who decided something, and a\nperson who decided something can be talked to.",
   "characteristics": {
@@ -85,6 +87,9 @@
     "Reader, Tally-pattern, obtained unofficially",
     "Trauma patch"
   ],
+  "fatigue": "Fresh",
+  "luck_current": 3,
+  "magic_current": 13,
   "extras": {
     "age": 15,
     "game_system": "mythras",
@@ -93,6 +98,9 @@
     "trained_at": "61-cygni",
     "pronouns": "they/them",
     "charge": "Power Points = POW 13; recovers 1 per minute of rest",
-    "conditioning": "Lucky is theirs, not the suit's -- it survives the locker"
-  }
+    "conditioning": "Lucky is theirs, not the suit's -- it survives the locker",
+    "pregen": true
+  },
+  "location": "myth-loc-71ceb7852898",
+  "actor_notes": "A PLAYABLE PRE-GEN. If the player chose this one, it is theirs -- never voice it, never decide what it notices (TABLE.md section 5). If they chose another, this one stays in the world as a fellow first-through in the same intake, run as an NPC, and should turn up at the Nine between missions."
 }

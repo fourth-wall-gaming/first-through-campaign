@@ -104,15 +104,45 @@ One line each, from `lore/character-creation/choosing-a-first-through.md`:
 Say plainly: **all four can finish either mission, and none of them has to hurt
 anybody.** They are not picking a difficulty setting.
 
-Then create them from the template:
+**They already exist in the save.** The four pre-gens import as real PCs, with
+their Passions and their kit and their powers, so there is nothing to build and
+nothing to roll. The player is choosing a person, not generating one.
+
+Do **not** run `create-character` and do **not** run `spawn`. There is no
+`--template` flag on `create-character`, and `spawn` makes an NPC and throws
+away Passions and powers -- which are the two things these characters are made
+of.
+
+Find their ids:
 
 ```bash
-gm create-character --campaign <id> --template <template-id> --type pc --name "<their name>"
+gm list-characters --campaign <id> --type pc
 ```
 
-Let them name the character. Read them their three Passions and ask if they
-want to change one — that single question does more for a first session than
-anything else in this file.
+Then put the chosen one where the scene is, and post the other three elsewhere:
+
+```bash
+gm move-character --id <chosen-pc-id> --location myth-loc-71ceb7852898      # the ready room
+gm move-character --id <other-1> --location myth-loc-2c575cc45375            # the Yards, 61 Cygni
+gm move-character --id <other-2> --location myth-loc-2c575cc45375
+gm move-character --id <other-3> --location myth-loc-2c575cc45375
+```
+
+The three they did not pick are **not deleted**. They are the rest of the
+intake, on other postings, and the world engine stages beats from recorded
+presence -- so moving them to the Yards is what keeps them out of the player's
+scenes while leaving them available to turn up at the Nine between missions. Say
+that to the player. It makes the choice feel less like a door closing, and it is
+true.
+
+Let them rename their character if they want to. Then read them their three
+Passions and ask whether they would change one -- that single question does more
+for a first session than anything else in this file.
+
+```bash
+gm update-campaign --campaign <id> --session-number 1
+gm log-event --campaign <id> --type session-start --summary "<entry point>, <character>"
+```
 
 ## 8. Set the scene, then narrate
 

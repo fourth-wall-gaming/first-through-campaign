@@ -4,7 +4,7 @@ id: "myth-campaign-first-through-s1"
 name: "First Through"
 description: "A Mythras Imperative campaign for a first-time roleplayer, set in the real stellar neighbourhood. Nine hundred and seventy-five years ago robotic seedships carried anchor pairs out at a twentieth of lightspeed; where one arrived, a door opened, and that is the only way between stars. Transit is instant, everything else obeys the speed of light, and the moment you step through nobody can reach you. You are a first-through: fifteen, newest the Threshold has taken in years. The old doors are failing faster than age explains, and the one everybody has waited nine centuries for opens in a year."
 game_date: "d0/dawn -- the morning of the player's first posting"
-current_scene: "NOTHING HAS BEGUN AND NO CHARACTER HAS BEEN CHOSEN. Run /first-through:start. Offer the two entry points in lore/entry-points/ -- 'The Quiet Door' (investigation and repair, one avoidable fight) and 'Flare' (a boarding action on a flare-star clock) -- and one of the four pre-gens in templates/. Do not narrate a scene until an entry point and a character are picked and set-scene has been called."
+current_scene: "NOTHING HAS BEGUN AND NO CHARACTER HAS BEEN CHOSEN. Run /first-through:start. Offer the two entry points in lore/entry-points/ -- 'The Quiet Door' (investigation and repair, one avoidable fight) and 'Flare' (a boarding action on a flare-star clock) -- and one of the four pre-gens, which already exist in the save as PCs -- do not create or spawn a character. Do not narrate a scene until an entry point and a character are picked and set-scene has been called."
 time_index: 64
 session_number: 0
 created_at: "2026-10-05T12:00:00"

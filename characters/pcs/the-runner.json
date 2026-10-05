@@ -1,6 +1,8 @@
 {
-  "id": "myth-tmpl-c1edca3b7692",
+  "id": "myth-char-c1edca3b7692",
   "name": "The Runner",
+  "type": "pc",
+  "status": "active",
   "description": "A first-through who gets there. Fifteen, quickest through the Yards in four intakes, and the only one of the intake who passed the cold step without stopping to think about it.",
   "narrative": "You are built for the part of the job that happens in corridors. You climb what\nis not meant to be climbed, you carry people who cannot walk, and you have never\nonce been the slowest person in a room.\n\nThe instructors wrote the same note on you twice in two years: *goes first, and\nworks out why afterwards.* They did not mean it kindly and you have decided to\ntake it that way anyway.",
   "characteristics": {
@@ -84,6 +86,9 @@
     "Line and descender",
     "Trauma patch"
   ],
+  "fatigue": "Fresh",
+  "luck_current": 3,
+  "magic_current": 13,
   "extras": {
     "age": 15,
     "game_system": "mythras",
@@ -92,6 +97,9 @@
     "trained_at": "61-cygni",
     "pronouns": "they/them",
     "charge": "Power Points = POW 13; recovers 1 per minute of rest",
-    "conditioning": "Durability is trained, not worn -- it does not go in the locker with the suit"
-  }
+    "conditioning": "Durability is trained, not worn -- it does not go in the locker with the suit",
+    "pregen": true
+  },
+  "location": "myth-loc-71ceb7852898",
+  "actor_notes": "A PLAYABLE PRE-GEN. If the player chose this one, it is theirs -- never voice it, never decide what it notices (TABLE.md section 5). If they chose another, this one stays in the world as a fellow first-through in the same intake, run as an NPC, and should turn up at the Nine between missions."
 }

@@ -1,0 +1,61 @@
+{
+  "id": "myth-tmpl-0015e7a040ff",
+  "name": "Tallyman",
+  "description": "Generic Tally enforcer: grey pressure armour, shock baton, restraint loops, and a reader. Carries nothing lethal, because a body is not a line on a manifest.",
+  "narrative": "Spawn these in twos and threes. They detain, they fine, they impound, and they\ndo not kill -- not from mercy but from bookkeeping, and they will say so.",
+  "characteristics": {
+    "STR": 13,
+    "CON": 13,
+    "SIZ": 12,
+    "DEX": 12,
+    "INT": 11,
+    "POW": 10,
+    "CHA": 10
+  },
+  "attributes": {
+    "action_points": 2,
+    "damage_modifier": "+0",
+    "experience_modifier": 0,
+    "healing_rate": 3,
+    "initiative_bonus": 11,
+    "luck_points": 1,
+    "magic_points": 10,
+    "movement": "6"
+  },
+  "skills": {
+    "Athletics": 50,
+    "Brawn": 55,
+    "Endurance": 58,
+    "Evade": 50,
+    "Willpower": 50,
+    "Conceal": 40,
+    "Deceit": 40,
+    "First Aid": 40,
+    "Influence": 48,
+    "Insight": 45,
+    "Locale": 40,
+    "Native Tongue": 48,
+    "Perception": 52,
+    "Stealth": 38,
+    "Unarmed": 55,
+    "Lore (Tally Procedure)": 60
+  },
+  "combat_styles": {
+    "Tally Drill (shock baton, restraints, unarmed)": 58
+  },
+  "equipment": [
+    "Tally pressure armour, grey (AP 4 all locations)",
+    "Shock baton",
+    "Restraint loops, six",
+    "Reader"
+  ],
+  "powers": [],
+  "passions": {},
+  "extras": {
+    "pronouns": "they/them",
+    "game_system": "mythras",
+    "character_type": "mook",
+    "faction": "the-tally",
+    "note": "spawn drops passions and powers; a tallyman has no powers and one passion, so nothing load-bearing is lost. Equipment and combat style survive, which is what a mook needs."
+  }
+}

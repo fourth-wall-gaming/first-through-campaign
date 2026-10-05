@@ -1,6 +1,8 @@
 {
-  "id": "myth-tmpl-13d3b09beb0d",
+  "id": "myth-char-13d3b09beb0d",
   "name": "The Tinker",
+  "type": "pc",
+  "status": "active",
   "description": "A first-through who opens things. Fifteen, two years in the Yards before anyone let them near a door, and the only one in their intake who can tell a failing anchor from a sulking one.",
   "narrative": "You were taken on because you fixed a pressure door nobody had asked you to\ntouch, and then explained what had been wrong with it. The Threshold has a word\nfor people who do that and the word is useful.\n\nYour suit is older than you are and you have improved it in four ways that are\nnot strictly permitted.",
   "characteristics": {
@@ -89,6 +91,9 @@
     "Restraint loops, four",
     "Setting gel, one canister"
   ],
+  "fatigue": "Fresh",
+  "luck_current": 3,
+  "magic_current": 13,
   "extras": {
     "age": 15,
     "game_system": "mythras",
@@ -97,6 +102,9 @@
     "trained_at": "61-cygni",
     "pronouns": "they/them",
     "charge": "Power Points = POW 13; recovers 1 per minute of rest",
-    "savant_skills": "Mechanisms, Engineering, Craft (Pressure Fitting) -- the INT three"
-  }
+    "savant_skills": "Mechanisms, Engineering, Craft (Pressure Fitting) -- the INT three",
+    "pregen": true
+  },
+  "location": "myth-loc-71ceb7852898",
+  "actor_notes": "A PLAYABLE PRE-GEN. If the player chose this one, it is theirs -- never voice it, never decide what it notices (TABLE.md section 5). If they chose another, this one stays in the world as a fellow first-through in the same intake, run as an NPC, and should turn up at the Nine between missions."
 }

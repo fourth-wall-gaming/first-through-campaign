@@ -1,6 +1,8 @@
 {
-  "id": "myth-tmpl-67f84ab4a64d",
+  "id": "myth-char-67f84ab4a64d",
   "name": "The Fieldhand",
+  "type": "pc",
+  "status": "active",
   "description": "A first-through who knows what is alive. Fifteen, raised on a farming holding behind a single door, and the only one of the intake who has watched a settlement nearly lose its anchor.",
   "narrative": "You grew up on the far side of one door, on a holding where everything -- the\nseed, the medicine, the spare parts, your mother -- came through it. You know\nexactly what a dying anchor does to people, because you have watched them decide\nnot to pack.\n\nThat is why you applied, and you have never pretended otherwise.",
   "characteristics": {
@@ -89,6 +91,9 @@
     "Sample cases",
     "Trauma patch, three"
   ],
+  "fatigue": "Fresh",
+  "luck_current": 3,
+  "magic_current": 13,
   "extras": {
     "age": 15,
     "game_system": "mythras",
@@ -98,6 +103,9 @@
     "pronouns": "they/them",
     "charge": "Power Points = POW 13; recovers 1 per minute of rest",
     "savant_skills": "First Aid, Healing, Lore (Biology) -- the INT three",
-    "home": "gliese-887"
-  }
+    "home": "gliese-887",
+    "pregen": true
+  },
+  "location": "myth-loc-71ceb7852898",
+  "actor_notes": "A PLAYABLE PRE-GEN. If the player chose this one, it is theirs -- never voice it, never decide what it notices (TABLE.md section 5). If they chose another, this one stays in the world as a fellow first-through in the same intake, run as an NPC, and should turn up at the Nine between missions."
 }
