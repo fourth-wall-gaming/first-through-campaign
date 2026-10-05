@@ -231,3 +231,32 @@ def test_the_arithmetic_entry_states_the_load_bearing_number():
     _, body = parse_frontmatter(p.read_text())
     assert "975" in body and "twenty" in body.lower()
     assert "48.7" in body or "48.8" in body, "the frontier distance must appear"
+
+
+def test_geography_entries_name_a_system_in_the_data():
+    known = set(systems())
+    found = set()
+    for p in lore_files("geography"):
+        meta, _ = parse_frontmatter(p.read_text())
+        if p.name == "the-causeway-map.md":
+            continue
+        slug = meta.get("system")
+        assert slug in known, f"{p.name}: system {slug!r} is not in data/systems.json"
+        found.add(slug)
+    assert V1_SYSTEMS - {"sol", "alpha-centauri", "gl-725"} <= found, (
+        f"v1 systems with no prose: {sorted(V1_SYSTEMS - found)}"
+    )
+
+
+def test_geography_prose_agrees_with_the_data_on_distance():
+    """Prose and data drifting apart is how a campaign starts lying to a kid
+    who looked it up."""
+    for p in lore_files("geography"):
+        meta, body = parse_frontmatter(p.read_text())
+        slug = meta.get("system")
+        if not slug:
+            continue
+        ly = systems()[slug]["distance_ly"]
+        assert f"{ly:.1f}" in body or f"{ly:.2f}" in body or str(round(ly)) in body, (
+            f"{p.name} never states its own distance ({ly} ly)"
+        )
