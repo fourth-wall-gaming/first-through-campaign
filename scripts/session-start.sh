@@ -45,18 +45,28 @@ if ! command -v uv >/dev/null 2>&1; then
   exit 0
 fi
 
-# init-db is NOT concurrency-safe, and the engine's own SessionStart hook calls
-# it at the same moment this one does. Run two together and whichever loses the
-# race exits 1 with a traceback -- so init-db's exit code is not evidence of
-# anything, and trusting it made this hook report PREFLIGHT FAILED on a perfectly
-# healthy install. Try it, then ask the only question that actually matters:
-# can we read the database? Retry once to let the winner finish starting it.
-gm init-db >/dev/null 2>&1 || true
-if ! PROBE=$(gm list-campaigns 2>&1); then
-  sleep 5
+# Do NOT call init-db here. It is not concurrency-safe -- run two together and
+# whichever loses the race exits 1 with a TypeDB commit conflict -- and the
+# engine's own SessionStart hook already calls it at this exact moment. When both
+# hooks called it, one of them always lost, and the loser told the player their
+# save file did not exist. Both halves of that were observed in a real session.
+#
+# So the engine owns bringing the database up, and this hook only waits for it to
+# become readable. init-db appears once, as a last resort, for the case where the
+# engine's hook did not run at all -- by which point nothing is racing us.
+DB_READY=""
+for _ in 1 2 3 4 5 6; do
+  if gm list-campaigns >/dev/null 2>&1; then DB_READY="yes"; break; fi
+  sleep 2
+done
+
+if [ -z "${DB_READY}" ]; then
   gm init-db >/dev/null 2>&1 || true
-  if ! PROBE=$(gm list-campaigns 2>&1); then
-    REMEDY=$(printf '%s' "$PROBE" | python3 -c '
+  PROBE=$(gm list-campaigns 2>&1) && DB_READY="yes"
+fi
+
+if [ -z "${DB_READY}" ]; then
+  REMEDY=$(printf '%s' "${PROBE:-}" | python3 -c '
 import json,sys
 try:
     d = json.load(sys.stdin)
@@ -64,8 +74,8 @@ except Exception:
     print(""); raise SystemExit
 print(d.get("remedy") or d.get("error") or "")
 ' 2>/dev/null || true)
-    [ -z "$REMEDY" ] && REMEDY="$PROBE"
-    cat <<MSG
+  [ -z "$REMEDY" ] && REMEDY="${PROBE:-the database did not become readable}"
+  cat <<MSG
 first-through: PREFLIGHT FAILED -- the game database is not usable, so there is
 no save file and no dice tower.
 
@@ -74,8 +84,7 @@ no save file and no dice tower.
 Do not narrate, do not roll, and do not tell the user anything was saved. Offer
 to run /mythras-gm:setup.
 MSG
-    exit 0
-  fi
+  exit 0
 fi
 
 if gm get-campaign --campaign "$SEED_ID" >/dev/null 2>&1; then

@@ -187,9 +187,13 @@ def test_the_hook_does_not_gate_on_init_db_exit_code():
     assert "if ! INIT=$(gm init-db" not in text, (
         "the hook gates on init-db's exit code, which is racy"
     )
+    assert text.count("gm init-db") == 1, (
+        "init-db should appear once, as a last resort only -- the engine's own "
+        "hook owns startup and calling it here races that hook"
+    )
     assert "gm init-db >/dev/null 2>&1 || true" in text, (
-        "init-db should be attempted and its exit code ignored"
+        "the last-resort init-db must ignore its own exit code"
     )
     assert "list-campaigns" in text, (
-        "the failure branch must probe whether the database is readable"
+        "readiness must be decided by whether the database can be read"
     )
