@@ -173,3 +173,23 @@ def test_the_hook_reads_an_unstarted_seed_as_unstarted():
     clock, _, session = r.stdout.strip().partition("|")
     assert session == "0", f"session read as {session!r}; the hook would misreport"
     assert clock.startswith("d0/dawn"), f"clock read as {clock!r}"
+
+
+def test_the_hook_does_not_gate_on_init_db_exit_code():
+    """init-db is not concurrency-safe, and the engine's own SessionStart hook
+    calls it at the same moment this one does. Run two together and whichever
+    loses the race exits 1 with a traceback -- which made this hook announce
+    PREFLIGHT FAILED on a healthy install, in a real session.
+
+    So the failure branch must be driven by whether the database can be READ,
+    not by init-db's exit status."""
+    text = (ROOT / "scripts" / "session-start.sh").read_text()
+    assert "if ! INIT=$(gm init-db" not in text, (
+        "the hook gates on init-db's exit code, which is racy"
+    )
+    assert "gm init-db >/dev/null 2>&1 || true" in text, (
+        "init-db should be attempted and its exit code ignored"
+    )
+    assert "list-campaigns" in text, (
+        "the failure branch must probe whether the database is readable"
+    )

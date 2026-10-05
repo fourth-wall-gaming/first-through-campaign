@@ -45,12 +45,27 @@ if ! command -v uv >/dev/null 2>&1; then
   exit 0
 fi
 
-# The engine's own hook normally has the database up already. Calling init-db
-# here too is cheap, idempotent, and removes any dependence on hook ordering.
-if ! INIT=$(gm init-db 2>&1); then
-  REMEDY=$(printf '%s' "$INIT" | python3 -c 'import json,sys; d=json.load(sys.stdin); print(d.get("remedy") or d.get("error") or "")' 2>/dev/null || true)
-  [ -z "$REMEDY" ] && REMEDY="$INIT"
-  cat <<MSG
+# init-db is NOT concurrency-safe, and the engine's own SessionStart hook calls
+# it at the same moment this one does. Run two together and whichever loses the
+# race exits 1 with a traceback -- so init-db's exit code is not evidence of
+# anything, and trusting it made this hook report PREFLIGHT FAILED on a perfectly
+# healthy install. Try it, then ask the only question that actually matters:
+# can we read the database? Retry once to let the winner finish starting it.
+gm init-db >/dev/null 2>&1 || true
+if ! PROBE=$(gm list-campaigns 2>&1); then
+  sleep 5
+  gm init-db >/dev/null 2>&1 || true
+  if ! PROBE=$(gm list-campaigns 2>&1); then
+    REMEDY=$(printf '%s' "$PROBE" | python3 -c '
+import json,sys
+try:
+    d = json.load(sys.stdin)
+except Exception:
+    print(""); raise SystemExit
+print(d.get("remedy") or d.get("error") or "")
+' 2>/dev/null || true)
+    [ -z "$REMEDY" ] && REMEDY="$PROBE"
+    cat <<MSG
 first-through: PREFLIGHT FAILED -- the game database is not usable, so there is
 no save file and no dice tower.
 
@@ -59,7 +74,8 @@ no save file and no dice tower.
 Do not narrate, do not roll, and do not tell the user anything was saved. Offer
 to run /mythras-gm:setup.
 MSG
-  exit 0
+    exit 0
+  fi
 fi
 
 if gm get-campaign --campaign "$SEED_ID" >/dev/null 2>&1; then
