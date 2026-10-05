@@ -41,7 +41,7 @@ These are binding on every lore entry, location, NPC and scenario we write.
    distance and physical oddity is a real, cited fact. We invent only what
    *people built there*. If a player looks up Teegarden's Star, everything the
    game told them checks out. Sources go in each lore entry's frontmatter.
-   **Invented life is the one exception, and it is constrained — see §11.**
+   **Invented life is the one exception, and it is constrained — see §12.**
 2. **No Douglas Hill intellectual property.** No Keill Randor, Glr, Moros,
    Veynaa, Overseers, Deathwing, or the Warlord. We inherit structure only.
 3. **Incapacitation, not death — in both directions.** The player's character
@@ -98,7 +98,7 @@ centuries. When one dies the world behind it is not destroyed, just
 explains, and nobody will say why.
 
 **One door is about to open, on schedule, and everyone knows it.** The campaign
-spine. See §10.
+spine. See §10, and §11 for who does not want it to open.
 
 ### The Threshold
 
@@ -299,7 +299,8 @@ sets up Act 2.
    **van Maanen's Star** — a real white dwarf visibly consuming the wreckage of
    its own planets, which is better imagery than anything invented, and true.
    Discovery: the Threshold has known for forty years and has been managing the
-   news.
+   news — and the paperwork carries a countersignature nobody will explain
+   (§11).
 3. **The frontier.** TRAPPIST-1 and the newest doors. Somebody is running
    **pattern transfer** — scan, destroy, rebuild from local matter — as
    contraband. It still needs an anchor, because the classical channel it
@@ -310,7 +311,8 @@ sets up Act 2.
 4. **The countdown.** LHS 1140's door opens in months. Every faction on the
    Causeway converges on the one anchor everybody has waited nine hundred and
    seventy-five years for.
-5. **Through.** What is on the other side — and **the door nobody launched.**
+5. **Through.** What is on the other side — and **the door nobody launched**,
+   which is where the Quorum keeps the body he started with.
    One edge in the network has no seedship, no launch record, and no
    explanation, which means somebody built anchors before the First Reach. Its
    mouths are relativistically offset, so crossing it moves you in time; that
@@ -320,7 +322,90 @@ sets up Act 2.
 The deepest layer stays loose on purpose: anchors are failing partly from plain
 entropy (true, and sad), and the people who could repair them were not human.
 
-## 11. Adversaries
+## 11. The Quorum
+
+The campaign needs one antagonist who looms, in the way Douglas Hill's Warlord
+looms: unseen for most of the run, felt through lieutenants, and wanting
+everything. He is built as the logical consequence of this setting's physics
+rather than imported into it.
+
+### Who he is
+
+A first-through named **Sarn** — the best the Threshold ever trained — solved
+the problem that defeats everyone here: you cannot be in two places, and nothing
+you send outruns a courier. He solved it with **pattern transfer**: scan,
+destroy, rebuild. He has been copying himself through the doors for sixty years,
+and he is now **the Quorum** — a title, not a name, because a quorum is the
+smallest number of you needed to decide.
+
+**His lieutenants are him.** Any tallyman captain, any station director, any
+courteous grey man across a table may be Sarn, and the player has no reliable
+way to tell. This deploys the antagonist into any scene at no cost, which is
+what Hill gets from the Deathwing and we get for free.
+
+### What he wants, and why it looks like entropy
+
+A network must be small enough for one mind to stay **synchronised** across it,
+and the Causeway is far too large. So he is pruning it. Every anchor he kills
+makes the survivors more valuable, but that is a side effect: the goal is a
+galaxy that fits inside him.
+
+**He is shrinking the human galaxy to the size of one mind.** Worlds go dark by
+isolation. Nobody is murdered. It reads as age on the Threshold's charts, which
+is exactly why §4's second crisis looked like entropy and §10's Act 2 reveal
+lands.
+
+### Lightspeed does the character work
+
+Because news travels only at courier speed, **his copies fall out of sync.**
+Some of him know about the player; some do not. Some have been out of contact
+for years and are quietly becoming different people. Two of them want
+incompatible things and have begun to work against each other. The Quorum can
+no longer reach quorum.
+
+This is not a metaphor bolted on. It is §4's own rule — nothing outruns a person
+— applied to a man, and it is the seam the player eventually prises open.
+
+### The reveal ladder
+
+| Act | What the player gets |
+|---|---|
+| 1 | A name on a manifest. No face. |
+| 2 | A tallyman captain who knows things he should not, and a countersignature on the cover-up's paperwork: *the Quorum*. |
+| 3 | They meet him. An ordinary, tired, courteous man in his sixties, who offers them a job. Hill's inversion: physically unimpressive, wholly in command. |
+| 4 | How many of him there are — and that two of him are at war. |
+| 5 | Behind the door nobody launched, the original body. And the real reveal: **the original died decades ago.** There is no Sarn. There is only the network. |
+
+### Why this ends the campaign correctly
+
+There is nothing to kill. So the non-lethal rule in §3.3 stops being a safety
+constraint and becomes the **thesis**: the player wins by **opening** a door,
+not closing one. LHS 1140 comes online on schedule, the Causeway grows past the
+size the Quorum can hold himself together across, and he comes apart into a
+hundred arguing strangers.
+
+**The player beats him with geometry.** For a ten-to-fifteen-year-old that is a
+better ending than a duel, and it is the one this setting was built to deliver.
+
+### How the other adversaries realign under him
+
+The tiers in §12 are not a flat list; they are his organisation, which tightens
+them rather than adding a sixth:
+
+- **The Tally** is his instrument — he founded the tollkeepers.
+- **The Second Hand** is his franchise, and the reason pattern transfer is
+  contraband is that he does not want competitors.
+- **Ferren** takes orders without knowing whose voice is giving them.
+- **Director Hale's** forty-year silence was **bought**.
+
+### What v1 must seed
+
+Acts 1-2 ship (§16), so v1 carries only the bottom of the ladder: the name on a
+manifest, the countersigned paperwork, and one tallyman captain who knows too
+much. No face, no copies, no explanation. Everything above that is documented in
+`lore/gm-secret/` so the arc is on record and the release is still finishable.
+
+## 12. Adversaries: his organisation
 
 The arc supplies crises; a first RPG needs **faces to beat**. Five tiers, built
 so that none of them requires killing and the action track still has bodies to
@@ -383,11 +468,13 @@ Barnard's four scorched pebbles may not. This is the rule a working
 exobiologist would want, and it keeps the promise that anything a player looks
 up will check out.
 
-## 12. Mechanics decisions
+## 13. Mechanics decisions
 
 - **System `mythras`**, rules unchanged, no engine or schema work.
 - **Superpowers framework, INT (tech/training) branch**, with a permitted-power
   whitelist and Teleport excluded by design (§7).
+- **The antagonist is unkillable by construction** (§11), so the non-lethal rule
+  and the arc's resolution are the same decision.
 - **Non-lethal convention** in campaign table guidance (§3.3), applied by
   Claude every time, both directions.
 - **Pre-gens as `templates/`**, created through the normal
@@ -401,7 +488,7 @@ up will check out.
   are failing, so Act 2's reveal is computed from knowledge rather than
   remembered.
 
-## 13. Repo shape and deliverables
+## 14. Repo shape and deliverables
 
 Standard mythras-gm campaign export tree plus plugin wiring, modelled on
 `purewater-campaign-v2`:
@@ -439,7 +526,7 @@ repos), and a **fact-check test** that every astronomical claim in `lore/` cites
 a source in frontmatter — the hard content rule in §3.1 is only real if
 something enforces it.
 
-## 14. Success criteria
+## 15. Success criteria
 
 1. A newcomer installs the plugin and is in a scene within five minutes, having
    read nothing.
@@ -451,7 +538,7 @@ something enforces it.
    or the schema. The repo's own Python is confined to `tests/`, as in
    `purewater-campaign-v2`.
 
-## 15. Open questions
+## 16. Open questions
 
 - Repo and campaign name: **"First Through"** is a working title, chosen because
   it names the job and the action. Easy to change before publication.
