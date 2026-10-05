@@ -369,3 +369,47 @@ def test_both_entry_points_have_somewhere_to_happen():
     assert "gliese-887" in systems_used, "entry point A has no location"
     assert "gliese-65" in systems_used, "entry point B has no location"
     assert "sirius" in systems_used, "the Nine has no location"
+
+
+ENTRY_POINTS = {"the-quiet-door", "flare"}
+
+
+def test_every_entry_point_declares_itself():
+    for p in lore_files("entry-points"):
+        meta, _ = parse_frontmatter(p.read_text())
+        assert meta.get("entry_point") in ENTRY_POINTS, (
+            f"{p.name} declares entry_point={meta.get('entry_point')!r}"
+        )
+
+
+def test_each_entry_point_names_all_four_pregens_as_viable():
+    """Spec section 6: every scenario must be solvable by all four. An entry
+    point that only lists two has quietly cut half the pre-gens."""
+    names = {_json.loads(p.read_text())["name"]
+             for p in (ROOT / "templates").glob("*.json")}
+    found = list(lore_files("entry-points"))
+    assert found, "no entry points"
+    for p in found:
+        body = p.read_text()
+        for n in names:
+            assert n in body, f"{p.name} never says how {n} solves it"
+
+
+def test_the_quiet_door_keeps_its_one_fight_optional():
+    p = ROOT / "lore/entry-points/the-quiet-door.md"
+    _, body = parse_frontmatter(p.read_text())
+    assert "avoid" in body.lower(), "the avoidable fight must be marked avoidable"
+
+
+def test_anyone_who_can_be_fought_carries_something_non_lethal():
+    """Review Focus 5, enforced in data rather than trusted to the GM. Equipment
+    lives on characters, not on encounters -- an encounter in this engine is live
+    combat state, created at the table."""
+    fightable = [p for p in (ROOT / "characters").rglob("*.json")
+                 if _json.loads(p.read_text()).get("combat_styles")]
+    assert fightable, "nobody in the cast can be fought"
+    for p in fightable:
+        c = _json.loads(p.read_text())
+        gear = " ".join(c.get("equipment", [])).lower()
+        for lethal in ("rifle", "sidearm", "blade", "knife", "pistol", "sword"):
+            assert lethal not in gear, f"{p.name}: {c['name']} carries a {lethal}"
