@@ -1,0 +1,70 @@
+{
+  "id": "myth-char-8034463db10e",
+  "name": "Garrow Teale",
+  "type": "npc",
+  "status": "active",
+  "description": "Maintenance foreman at the Coldwater Landing, and the man who will put himself between a fifteen-year-old and the jury-rig's isolator. Frightened, unarmed, and bigger than you.",
+  "narrative": "Twenty-six years on the Landing, nineteen of them running it. Garrow keeps the\nshed, the mast and the door, and he is the reason the door is still working at\nall -- and also the reason it is failing faster.\n\nHe signed off the jury-rig. His own engineer built it and he looked at it and he\nknew, in the way a man knows a thing he has decided not to know, and he said\nyes. Four thousand people. One door. He has been waiting four days for somebody\nfrom the Nine to walk in and ask him a direct question.\n\nHis hands are burned from the cabinet and he has not mentioned it.",
+  "characteristics": {
+    "STR": 15,
+    "CON": 15,
+    "SIZ": 14,
+    "DEX": 11,
+    "INT": 12,
+    "POW": 13,
+    "CHA": 12
+  },
+  "attributes": {
+    "action_points": 2,
+    "damage_modifier": "+1d2",
+    "experience_modifier": 0,
+    "healing_rate": 3,
+    "initiative_bonus": 10,
+    "luck_points": 3,
+    "magic_points": 13,
+    "movement": "6"
+  },
+  "skills": {
+    "Athletics": 52,
+    "Brawn": 70,
+    "Endurance": 72,
+    "Evade": 44,
+    "Willpower": 66,
+    "Conceal": 35,
+    "Deceit": 38,
+    "First Aid": 50,
+    "Influence": 55,
+    "Insight": 56,
+    "Locale": 74,
+    "Native Tongue": 54,
+    "Perception": 58,
+    "Stealth": 30,
+    "Unarmed": 62,
+    "Mechanisms": 60,
+    "Engineering": 52,
+    "Lore (Anchors)": 50,
+    "Craft (Pressure Fitting)": 58
+  },
+  "combat_styles": {
+    "Holding hands (fists, tools, a length of strap)": 55
+  },
+  "passions": {
+    "Nobody leaves Coldwater": 85,
+    "Hate (being the one who decided)": 70,
+    "Loyalty (the Holding)": 75
+  },
+  "powers": [],
+  "equipment": [
+    "Toolroll",
+    "Work gloves, burned through at the palms",
+    "A shed key he has never once used"
+  ],
+  "extras": {
+    "pronouns": "he/him",
+    "age": 51,
+    "game_system": "mythras",
+    "character_type": "obstacle",
+    "faction": "the-coldwater-holding"
+  },
+  "actor_notes": "NOT a villain and must never be played as one. He is a man who decided something terrible out of love and has been waiting to be caught. Carries nothing lethal. He grapples and blocks; he will not strike a child and will stop the moment somebody shows him the drift in writing. If the player is kind about his hands he will tell them everything. The scene is sad, not hostile."
+}

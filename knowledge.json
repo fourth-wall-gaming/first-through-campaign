@@ -1,0 +1,156 @@
+{
+  "knows": [
+    {
+      "fact": "myth-fact-dd488fac95f7",
+      "knower": "myth-char-8c4a37d0380b",
+      "knower_name": "Sep Anwar",
+      "since": 0,
+      "source": "deduced",
+      "certainty": "knows"
+    },
+    {
+      "fact": "myth-fact-dd488fac95f7",
+      "knower": "myth-char-de4ce1f46d85",
+      "knower_name": "Director Hale",
+      "since": 0,
+      "source": "told",
+      "certainty": "knows"
+    },
+    {
+      "fact": "myth-fact-dd488fac95f7",
+      "knower": "myth-char-60f20ffae668",
+      "knower_name": "Meriel Koll",
+      "since": 0,
+      "source": "told",
+      "certainty": "believes"
+    },
+    {
+      "fact": "myth-fact-dd488fac95f7",
+      "knower": "myth-char-692085606918",
+      "knower_name": "Calloway",
+      "since": 0,
+      "source": "deduced",
+      "certainty": "suspects"
+    },
+    {
+      "fact": "myth-fact-7d65cac1faca",
+      "knower": "myth-char-de4ce1f46d85",
+      "knower_name": "Director Hale",
+      "since": 0,
+      "source": "witnessed",
+      "certainty": "knows"
+    },
+    {
+      "fact": "myth-fact-6d3c6bf5d14c",
+      "knower": "myth-char-692085606918",
+      "knower_name": "Calloway",
+      "since": 0,
+      "source": "told",
+      "certainty": "believes"
+    },
+    {
+      "fact": "myth-fact-6d3c6bf5d14c",
+      "knower": "myth-char-8034463db10e",
+      "knower_name": "Garrow Teale",
+      "since": 0,
+      "source": "told",
+      "certainty": "believes"
+    },
+    {
+      "fact": "myth-fact-6d3c6bf5d14c",
+      "knower": "myth-char-2a29f000091b",
+      "knower_name": "Ferren",
+      "since": 0,
+      "source": "told",
+      "certainty": "believes"
+    },
+    {
+      "fact": "myth-fact-6d3c6bf5d14c",
+      "knower": "myth-char-1f85203f9528",
+      "knower_name": "Tallyman Captain Brace",
+      "since": 0,
+      "source": "told",
+      "certainty": "believes"
+    },
+    {
+      "fact": "myth-fact-a9a6b22b5f8c",
+      "knower": "myth-char-296a6cb219af",
+      "knower_name": "Nessa Ilt",
+      "since": 0,
+      "source": "deduced",
+      "certainty": "knows"
+    },
+    {
+      "fact": "myth-fact-a9a6b22b5f8c",
+      "knower": "myth-char-8034463db10e",
+      "knower_name": "Garrow Teale",
+      "since": 0,
+      "source": "deduced",
+      "certainty": "believes"
+    },
+    {
+      "fact": "myth-fact-a6db7c0ae7ce",
+      "knower": "myth-char-692085606918",
+      "knower_name": "Calloway",
+      "since": 0,
+      "source": "witnessed",
+      "certainty": "knows"
+    },
+    {
+      "fact": "myth-fact-a6db7c0ae7ce",
+      "knower": "myth-char-8034463db10e",
+      "knower_name": "Garrow Teale",
+      "since": 0,
+      "source": "witnessed",
+      "certainty": "knows"
+    },
+    {
+      "fact": "myth-fact-a6db7c0ae7ce",
+      "knower": "myth-char-de4ce1f46d85",
+      "knower_name": "Director Hale",
+      "since": 0,
+      "source": "witnessed",
+      "certainty": "knows"
+    },
+    {
+      "fact": "myth-fact-8e2caba88171",
+      "knower": "myth-char-1f85203f9528",
+      "knower_name": "Tallyman Captain Brace",
+      "since": 0,
+      "source": "witnessed",
+      "certainty": "knows"
+    },
+    {
+      "fact": "myth-fact-ed1f425191b0",
+      "knower": "myth-char-de4ce1f46d85",
+      "knower_name": "Director Hale",
+      "since": 0,
+      "source": "witnessed",
+      "certainty": "knows"
+    },
+    {
+      "fact": "myth-fact-592d959706bc",
+      "knower": "myth-char-8c4a37d0380b",
+      "knower_name": "Sep Anwar",
+      "since": 0,
+      "source": "deduced",
+      "certainty": "believes"
+    },
+    {
+      "fact": "myth-fact-592d959706bc",
+      "knower": "myth-char-de4ce1f46d85",
+      "knower_name": "Director Hale",
+      "since": 0,
+      "source": "witnessed",
+      "certainty": "knows"
+    },
+    {
+      "fact": "myth-fact-592d959706bc",
+      "knower": "myth-char-60f20ffae668",
+      "knower_name": "Meriel Koll",
+      "since": 0,
+      "source": "deduced",
+      "certainty": "suspects"
+    }
+  ]
+}

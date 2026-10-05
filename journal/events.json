@@ -1,0 +1,10 @@
+[
+  {
+    "id": "myth-event-77650691748b",
+    "type": "gm-note",
+    "summary": "Seed note. Nothing has been played. The clock stands at s-1/first shift: the player has qualified and has not yet been posted. Run /first-through:start to choose an entry point and a pre-gen. Both entry points are one sitting and both end on the same countersignature. Do not narrate before set-scene.",
+    "content": "This campaign has not begun. No character has been chosen and no scene has been set.\n\nTwo entry points, chosen at /first-through:start: 'The Quiet Door' (Gliese 887, diagnosis and persuasion, one avoidable confrontation) and 'Flare' (Gliese 65, a barricaded corridor on a flare-star clock). Four pre-gens in templates/, all four viable in both.\n\nRead TABLE-ADDENDUM.md before the first roll. Nobody in this campaign dies, in either direction.",
+    "time_index": 0,
+    "created_at": "2026-10-05T12:00:00"
+  }
+]
