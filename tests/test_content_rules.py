@@ -234,13 +234,16 @@ def test_the_arithmetic_entry_states_the_load_bearing_number():
 
 
 def test_geography_entries_name_a_system_in_the_data():
+    """A geography entry either names exactly one real system -- and is then held
+    to that system's distance -- or declares none and is a survey covering many.
+    The filename special-case this replaces only ever covered one survey."""
     known = set(systems())
     found = set()
     for p in lore_files("geography"):
         meta, _ = parse_frontmatter(p.read_text())
-        if p.name == "the-causeway-map.md":
-            continue
         slug = meta.get("system")
+        if slug is None:
+            continue
         assert slug in known, f"{p.name}: system {slug!r} is not in data/systems.json"
         found.add(slug)
     assert V1_SYSTEMS - {"sol", "alpha-centauri", "gl-725"} <= found, (
