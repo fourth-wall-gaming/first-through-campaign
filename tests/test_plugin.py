@@ -97,9 +97,14 @@ def test_the_addendum_puts_the_risk_on_the_table_before_the_dice():
     assert "never a lethal surprise" in low
 
 
-def test_the_start_command_offers_both_entry_points_and_all_four_pregens():
+def test_the_start_command_offers_every_entry_point_and_all_four_pregens():
+    """Derived from what is actually in lore/entry-points/, so retiring or adding
+    a scenario cannot leave the start command silently out of date -- which is
+    exactly what happened when the two v1 openers were replaced."""
     text = (ROOT / "commands" / "start.md").read_text()
-    for slug in ("the-quiet-door", "flare"):
+    slugs = [p.stem for p in (ROOT / "lore" / "entry-points").glob("*.md")]
+    assert slugs, "no entry points to offer"
+    for slug in slugs:
         assert slug in text, f"start does not offer {slug}"
     for p in (ROOT / "characters" / "pcs").glob("*.json"):
         assert json.loads(p.read_text())["name"] in text
