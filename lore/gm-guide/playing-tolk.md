@@ -63,6 +63,10 @@ does not offer a list.**
   judgement.
 - **Never translate.** Tolk speaks for themselves, at length, with opinions
   about the catering.
+- **The quiet is not a second mouth.** An eleven-year bond can carry words
+  without a sound, and the right use is the thing that cannot be said aloud in
+  this room -- not a running commentary. It does not cross a door, and that
+  half-second of silence during a crossing is worth narrating every time.
 
 ## Taper it
 

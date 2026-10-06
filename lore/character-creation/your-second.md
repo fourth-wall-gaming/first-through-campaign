@@ -45,6 +45,48 @@ an interest in things you do not. They can be furious with you. The one thing
 they cannot do is be comfortable on the far side of a door from you, and neither
 can you, and that is as near to physical as anything in this gets.
 
+## The quiet
+
+Talking aloud is how the bond is built. It is not how an old bond runs.
+
+Somewhere after the first few years the words stop needing to be said, and a
+pair starts going **quiet** — which is the most misleading name anybody could
+have chosen for it, because what it actually is is two people never shutting up
+and nobody else hearing a word.
+
+It arrives on its own, in stages, and every first-through can tell you roughly
+where they are on it:
+
+- **First year.** Feeling only. You know when they are frightened, or delighted,
+  or have found something. No detail, and it wakes you up.
+- **A few years in.** Direction, images, yes and no. Enough to be told *that way*
+  and *not that way* and *there are three of them*.
+- **Mature, five years and up.** Words. And, close to, a thin borrowing of their
+  senses — what a kite can see from up there, dimly, as if remembering it rather
+  than looking.
+
+**You cannot lie in it.** You can refuse to say a thing, and everybody learns
+how, and both of you always know a refusal is happening. First-throughs find
+ordinary human conversation a bit slack afterwards.
+
+### What it will not do
+
+- **Only your own second.** Never another person, never somebody else's second,
+  never two pairs chaining it. A great many people have tried.
+- **A few hundred metres.** Less through rock or plate. It thins out rather than
+  cutting off, so you can feel the edge of it coming and most people hate that.
+- **It is tiring.** A long exchange at the far edge of the range costs you a day.
+- **And it does not cross a door. Ever.**
+
+That last one is not a technicality. Every first-through describes the crossing
+the same way: your second goes out, and there is a moment with nothing in it, and
+then they come back. Some of them talk about that moment for the rest of their
+lives.
+
+Go through without them and you arrive into a silence that does not thin out and
+does not come back until you return. People do it when they must. Nobody does it
+twice in a row.
+
 ## The five
 
 **Sixlimb.** *Bell, behind the TRAPPIST-1 door.* Cat-sized, six limbs, four of
