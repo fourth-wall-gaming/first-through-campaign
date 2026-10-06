@@ -54,7 +54,8 @@ can look these are one behaviour in two bodies. One species carries. The other
 keeps. Neither can do the other's half.
 
 They evolved forty light years apart with nothing in common and no ancestor
-between them. Nobody made either of us. The xenobiologists call it **the
+between them -- and the sixlimbs are one of **five** such species, on five
+unrelated worlds, every one of them complementary to a human child. Nobody made either of us. The xenobiologists call it **the
 correspondence**, which is a name and not an explanation, and the standing paper
 on it has been standing for two hundred years.
 

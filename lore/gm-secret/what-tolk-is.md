@@ -69,8 +69,9 @@ Let an NPC give exactly that reply, smoothly, and move on. The player will notic
 
 ### What is actually open
 
-1. **Why is there a pair at all?** Two species, no contact, complementary halves
-   of one function. Convergence does not do this.
+1. **Why is there a pair at all?** Five species now, on five unrelated worlds, no
+   contact between any of them, every one a complementary half of one function.
+   Convergence does not do this five times.
 2. **Is the door part of it too?** Anchors act on living tissue, children open
    them, sixlimbs keep what passes. Three things that should not fit, fitting.
 3. **Who noticed first?** The First Reach launched before the TRAPPIST-1 door

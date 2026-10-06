@@ -68,6 +68,9 @@ damage. A sixlimb's body takes what is written into it and keeps it. One carries
 one keeps, neither can do the other's half, and the two species evolved forty
 light years apart with no ancestor in common.
 
+And it is not one coincidence. There are **five** such species that anybody has
+found, on five worlds with nothing in common, and every one of them fits us.
+
 Nobody designed this. The xenobiologists call it **the correspondence** and have
 had no theory for two hundred years. Most people never think about it. The ones
 who do tend to stop sleeping properly.
