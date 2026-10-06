@@ -50,6 +50,10 @@ outline, with no agendas, beats or facts behind them.
 uv run --with pytest pytest tests/ -q
 ```
 
+`maps/causeway_chart.py` regenerates `maps/the-causeway.svg` from `data/`. Every
+star is placed from its SIMBAD position, every door is a real edge, so the chart
+cannot drift from the worldbook. Re-run it after any change to `data/`.
+
 The suite is the content rules made enforceable: cited astronomy, the seedship
 arithmetic, the Causeway's causality, the power whitelist, seed invariants, and
 the three ways the plugin could ship broken.
