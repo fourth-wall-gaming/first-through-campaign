@@ -90,41 +90,135 @@ Go through without them and you arrive into a silence that does not thin out and
 does not come back until you return. People do it when they must. Nobody does it
 twice in a row.
 
-## The five
+## The five peoples
 
-**Sixlimb.** *Bell, behind the TRAPPIST-1 door.* Cat-sized, six limbs, four of
-them hands. The most fluent of the five by a distance, the largest payload, and
-the only one that will genuinely argue with you about politics. Climbers. Nest in
-wind-shadow. Can get into anything that has a gap.
+They are not companions. They are five sentient species who cannot cross a door
+without us, and we cannot hold a payload without them, and everything else about
+the arrangement has been negotiated over nine hundred years by people with their
+own reasons for showing up.
 
-**Kite.** *The cloud decks of Luhman 16.* A metre across and almost weightless,
-built for a sky that never stops moving. Flies, and drifts, and will not be
-indoors if it can help it. Faultless spatial memory — a kite that has been
-somewhere once can take you back to it in the dark, and knows the shape of a
-place you have not entered yet.
+Each of them has a culture, a language, a sense of humour, and a characteristic
+way of being insufferable.
 
-**Ward.** *The shelters of Tau Ceti.* Low, heavy, plated, unhurried. Bred by
-nobody and shaped by seven hundred thousand years of things falling out of the
-sky. A ward will put itself between its person and whatever is coming, and will
-come through pressure, fire and vacuum that would finish all five of you. Keeps a
-payload through anything. Cannot climb a step without thinking about it.
+### Sixlimbs — *Bell, behind the TRAPPIST-1 door*
 
-**Quill.** *The flare twins at Gliese 65.* Small enough to close a hand around,
-and nocturnal in a system where day is a hazard. Feels what is coming — pressure
-fronts, electrical fields, the rise before a flare — minutes before an instrument
-does, and tells you, insistently, and is right. Hides in places you will not find
-again without asking.
+Cat-sized, six limbs, four of them hands. Bell's sun has not moved in four
+billion years, so they have no day, no night, and **do not sleep at all, ever**,
+and they will sit up watching you do it and raise it the next morning.
 
-**Lymer.** *The belts of Epsilon Eridani.* Long, low, patient, with a chemical
-sense nobody has built an equal to. A lymer follows a person across a station by
-what they touched, finds a leak through a bulkhead, and knows which of two
-identical crates was opened this week.
+Everything in a sixlimb culture is conversation. Decisions are made by talking
+until everyone is too tired to object, privacy is a concept they can define and
+have never felt, and in a wind that never stops a group stays together by voice —
+so a sixlimb who has gone quiet is a sixlimb in trouble.
 
-## Choosing
+**They want:** everywhere. The most ambitious diaspora of the five, by a long
+way, and a sixlimb partnering with you has already worked out the four systems
+you might plausibly get them to.
 
-Most first-throughs bond with whatever their system has, and most systems have
-one. The Yards at 61 Cygni are the only place all five are in the same building,
-and the intakes that train there come out paired in ways that would not have
-happened anywhere else.
+**Their folly:** they hold grudges about *arguments*. Not injuries — arguments,
+eleven years old, which they can quote. And because silence reads to them as
+deceit, they distrust quiet people on principle, which is wrong about nine times
+in ten and catastrophic the tenth.
 
-Nobody chooses twice. If a fetch dies, that is the end of it.
+### Fathoms — *the cloud decks of Luhman 16*
+
+A metre of membrane and gas, almost weightless, from a sky with no ground and no
+sun in it. **Blind, and the concept does not interest them.** They feel
+electrical fields and sound instead, and map a room by charge the way you map one
+by eye.
+
+Their art is entirely sound and current. Human visual culture strikes them as a
+charming party trick that we have unaccountably built a civilisation on.
+
+**They want:** other skies. A fathom goes out to feel weather that is not the
+weather they were born in, and most of them are quietly looking for one specific
+thing they will not describe.
+
+**Their folly:** insufferable snobs about music, and will tell you so, in front
+of the musician. And being indoors makes them stupid and miserable, which they
+deny absolutely while making a run of terrible decisions.
+
+### Cairns — *the shelters of Tau Ceti*
+
+Low, dense, unhurried, about the mass of a full toolbag. Seven hundred thousand
+years of things falling out of the sky have made them patient in a way that is
+hard to be in a room with.
+
+They build. Everything is ceremony and workmanship and the long view, and a cairn
+can tell you who made a wall, roughly when, and what they were worried about.
+
+At need they **set** — mineral-rigid in four seconds, immovable for hours.
+Nothing hurts them. Nothing wakes them either.
+
+**They want:** methods. A cairn travels to see how other people build and carries
+it home, and they regard this as the only serious reason to go anywhere.
+
+**Their folly:** appalling snobbery about workmanship, delivered to your face, at
+length, in front of whoever built the thing. And they set involuntarily when
+badly frightened — then spend hours as a rock, and afterwards lie about why.
+
+### Glints — *the flare twins at Gliese 65*
+
+Small enough to close a hand around, from a system whose two stars try to kill
+everything several times a day. They shed radiation by going mirror-bright to
+absolute black in an instant, and their **language is light**.
+
+Speech is their second language and they are not especially good at it. Flashing
+is their first, and it is theatrical by grammar — emphasis, exaggeration and
+flourish are built into the structure rather than chosen.
+
+**They want:** an audience. Glints go out to be seen, and are entirely open about
+it, and find human embarrassment about ambition baffling.
+
+**Their folly:** they exaggerate constantly and do not experience it as lying,
+because in their own language nobody would be deceived. They will also upstage
+you at the exact moment you least need it, and apologise, and do it again.
+
+### Scatters — *the belts of Epsilon Eridani*
+
+Not one animal. Forty-odd small units moving as one thing, hard-vacuum tolerant,
+able to come apart on purpose and send a third of themselves somewhere you cannot
+go.
+
+A scatter is a **committee**. They have no singular pronoun for themselves in any
+of their languages, and the idea of a single indivisible mind strikes them as a
+terrifying disability that they are too polite to mention more than once a week.
+
+**They want:** to grow. More units, more reach, and anywhere with the materials
+to manage it.
+
+**Their folly:** they vote. On everything, including whether to help you, and the
+vote can go against you with no appeal. Divided they are slower and stupider and
+know it, and divide anyway, and a scatter that has split too often starts
+quietly forgetting things and blaming you for the gaps.
+
+## Partnering
+
+You do not choose a fetch off a list and they do not choose you for your
+qualities. Mostly it is proximity and need: they are going somewhere, you can get
+them there, and the two of you turn out to be able to stand each other.
+
+The Yards at 61 Cygni are the only place all five peoples are under one roof, so
+Threshold intakes come out paired in combinations that would never have happened
+anywhere else, and spend their careers explaining them.
+
+**And it is not for life.** Partnerships form, hold, drift and end, the way
+anything between two people does. A fetch whose route has dried up will go with
+somebody whose route has not, and say so, and be right to. You can be left. You
+can be the one who leaves, and have to look at them while you say it.
+
+The quiet goes with the partnership. It takes years to build, it is the best
+thing either of you has, and when you part it fades inside a year — which
+everybody knows going in and nobody really believes until it happens.
+
+## A note on the word
+
+**"Fetch" is ours, not theirs, and it is mildly rude.** Every one of the five
+peoples has its own name for itself: the sixlimbs' translates roughly as *the
+ones who are talking*, the cairns' as *those who wait*, and a glint's is a
+flash-pattern that does not survive being written down. Scatters have no singular
+form at all.
+
+The Threshold's paperwork says *second*. Some fetches find *fetch* affectionate.
+Some find it precisely as patronising as it sounds, and will tell you which
+camp they are in about four minutes after meeting you.
