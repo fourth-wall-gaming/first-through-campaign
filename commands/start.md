@@ -72,23 +72,19 @@ gm import-campaign --path "${CLAUDE_PLUGIN_ROOT}" --new-ids
 
 Note the campaign id it returns; everything after this uses it.
 
-## 6. Offer the two entry points
+## 6. The opener
 
-In the player's language, two sentences each, and let them choose. Both are one
-sitting. Both end in the same place.
+There is one, and it is `lore/entry-points/how-many.md`. Read it and its guide,
+`lore/gm-guide/running-how-many.md`, before you narrate anything.
 
-- **The Quiet Door** (`lore/entry-points/the-quiet-door.md`) — *A farming
-  settlement's only door has started stuttering, and there are four thousand
-  people on the far side of it. You go and find out why.* Investigation,
-  machinery and persuasion; one confrontation and it can be avoided entirely.
-- **Flare** (`lore/entry-points/flare.md`) — *A refinery crew have barricaded
-  their own corridor, their shelter is on the far side of it, and the stars
-  above them are about to do what they do.* A real fight on a real clock —
-  initiative, special effects, three waves — and everybody walks out.
+Pitch it to the player in two sentences and no more:
 
-If they want to fight things, give them **Flare**. If they want to work
-something out, give them **The Quiet Door**. If they cannot decide, ask which
-sounds more like a story they want to be in, and do not explain further.
+> *A door at the Nine has started stuttering, which means it is going to move.
+> There are sixty-one people on the far side of it and nineteen of them are
+> children, and you are the only person on this station who can bring anybody
+> back.*
+
+Then stop talking and let them pick a character.
 
 ## 7. Offer the four pre-gens
 
