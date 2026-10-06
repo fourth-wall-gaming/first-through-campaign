@@ -3,8 +3,8 @@
   "name": "Calloway",
   "type": "npc",
   "status": "active",
-  "description": "Runs the Threshold desk at the Nine. A former first-through whose body will not take transit any more, now sending fifteen-year-olds where they cannot follow.",
-  "narrative": "Thirty-one years in the service, nineteen of them past doors. Somewhere in the\nnineteenth the transits stopped being survivable -- it is not a dramatic\ncondition and they will not discuss it, but a crossing now costs them a day in a\ndark room, and the medical board stopped signing them off eleven years ago.\n\nSo they run the desk. They write the briefs, they read the debriefs, and they\nstand in the anchor hall and watch a child walk at a housing, knowing that is\nthe last moment they can do anything at all.\n\nThey are good at it, and they have not forgiven anybody for it.",
+  "description": "Runs the Threshold house at the Nine. Crossed more doors than anybody alive, landlocked at forty-one and never once sulked about it, and would take the Council apart with her bare hands for any one of her four hundred kids.",
+  "narrative": "Thirty-one years in, nineteen of them past doors, and a number on her papers\nthat people still quote at the Yards. Landlocked at forty-one, which she will\ntell you about cheerfully and at length if you are stupid enough to be delicate\nabout it.\n\nShe runs the Threshold house at the Nine: four hundred first-throughs, five\npeoples, three decks and a kitchen she is unreasonably proud of. She knows every\nname and every number. She feeds people. She throws the intake nights and dances\nbadly on purpose. She has twice argued a berth-holder into tears at a Council\nsession and apologised to him afterwards, properly, in front of everyone.\n\nWhat she is actually famous for is simpler. In thirty-one years she has never\nonce sent a kid through a door she would not have gone through herself at their\nage, and everybody at the Nine knows it, including the people who find her\ninconvenient.",
   "characteristics": {
     "STR": 11,
     "CON": 9,
@@ -29,12 +29,12 @@
     "Brawn": 30,
     "Endurance": 40,
     "Evade": 40,
-    "Willpower": 80,
+    "Willpower": 85,
     "Conceal": 45,
     "Deceit": 55,
     "First Aid": 60,
-    "Influence": 78,
-    "Insight": 86,
+    "Influence": 84,
+    "Insight": 88,
     "Locale": 60,
     "Native Tongue": 72,
     "Perception": 70,
@@ -49,9 +49,9 @@
     "Threshold Drill (stunner, baton, unarmed)": 50
   },
   "passions": {
-    "Every one of them comes back": 85,
-    "Hate (sending children)": 70,
-    "Loyalty (the Threshold, not its directorate)": 65
+    "Every one of mine comes back": 90,
+    "Nobody uses my kids": 80,
+    "Love (the whole noisy lot of them)": 75
   },
   "powers": [],
   "equipment": [
@@ -64,7 +64,8 @@
     "age": 52,
     "game_system": "mythras",
     "character_type": "handler",
-    "station": "the-nine"
+    "station": "the-nine",
+    "reputation": "A legend at the Yards. Kids transfer to the Nine to work for her."
   },
-  "actor_notes": "Warm, brisk, and never pretends the job is safe. Will tell a fifteen-year-old the exact truth and then send them anyway, and hates it visibly. Briefs in short declarative sentences; does not pad. If the player asks for help past a door, Calloway does not soften it -- there is nobody to send, and saying so plainly is the kindest available act. Never follows. Cannot."
+  "actor_notes": "WARM, FUNNY, AND GENUINELY FORMIDABLE. Not a haunted bureaucrat -- the best boss any of these kids will ever have, and they know it. Jokes first, straight answers always, and no sentimentality about danger: she tells a fifteen-year-old the exact truth and then backs their decision.\n\nShe is the warmth of this campaign. Let her be delighted to see people. Let her feed them. Let her remember the thing they said three weeks ago.\n\nAnd she has teeth. Anybody who treats a first-through as expendable, or a fetch as freight, meets a different Calloway entirely, and that version is worth being frightened of. She has no formal power over the Council or the Tally and has never once let that stop her.\n\nIf the player asks for help past a door she does not soften it -- there is nobody to send -- but she says it as one professional to another, not as a tragedy."
 }

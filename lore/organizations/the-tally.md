@@ -20,8 +20,17 @@ what, and keep the ledgers straight between systems that could not talk to each
 other. Nine hundred years later it records everything, charges for everything,
 and has quietly become the only institution that exists at every door at once.
 
-It calls itself a service. Its people are **tallymen**, and they wear grey
-pressure armour with a ledger mark on the shoulder.
+It calls itself a service, and mostly it is one. The tolls pay for the halls,
+the dressing rooms, the hall doctors and the rota that keeps a watch on a dark
+housing at Kapteyn's six hundred years after anybody expected anything from it.
+The Standing is a public good and the Tally keeps it honestly.
+
+Its people are **tallymen** -- grey pressure armour, a ledger mark on the
+shoulder, and by and large decent professionals doing an unglamorous job in
+twenty-eight systems that cannot agree on anything else.
+
+They are not the villains of this campaign. They are the traffic authority, and
+most of them would be insulted to be told otherwise.
 
 **What a tallyman carries, and why it matters.** A shock baton, restraint loops,
 and a reader. Not a rifle. Not a blade. The Tally does not arm its people to

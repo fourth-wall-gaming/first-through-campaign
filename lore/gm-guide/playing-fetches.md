@@ -113,15 +113,15 @@ Read a station's politics off its architecture:
 somebody's fetch. Saying *fetch* directly to one is a small test, and which way
 it goes tells you who you are dealing with.
 
-**And the live political fight,** which runs across twenty-eight governments that
-cannot talk to each other: on a Tally manifest, **is a fetch a passenger or is it
-freight?**
+**Fetches are people, and the Causeway settled that a long time ago.** They are
+crew, passengers, neighbours and colleagues, they appear on a manifest by name,
+and twenty-eight systems that agree on nothing agree on this.
 
-Every system has answered differently and none of them can be overruled. Barnard's
-says your vote is your shift — so does a fetch get a shift? YZ Ceti draws names by
-lot — do fetch names go in the jar? Alpha Centauri's courts have an inherited case
-about it that is two hundred years old and nobody wants decided.
+So there is no grinding civil-rights nightmare in the background of this
+campaign, and do not play one. What there is instead is much better for a story:
+**anybody who treats a fetch as freight is telling you exactly what they are.**
 
-A first-through crosses all of those in a week, with somebody beside them whose
-legal status changes at every door. That is the best ongoing argument in the
-setting and it belongs in the background of scenes, not in a lecture.
+It is a tell, not a system. The smuggler who books one as cargo, the captain who
+leaves one on the wrong side of a door, the outfit keeping unbonded ones as stock
+in a back room — those are crimes, everybody says so, and the player is entirely
+entitled to do something about it with the whole Threshold behind them.
