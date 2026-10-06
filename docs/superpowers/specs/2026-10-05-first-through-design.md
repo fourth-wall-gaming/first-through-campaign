@@ -1,7 +1,13 @@
 # First Through — campaign design
 
 **Date:** 2026-10-05
-**Status:** Design approved in conversation; awaiting written-spec review
+**Status: SUPERSEDED** by `2026-10-06-first-through-v2-design.md`.
+Kept as the design record of the first pass. Its premise (doors fail, nobody
+dies, powers are kit, fetches are a companion animal, the Tally is quietly
+sinister) was replaced wholesale in play-testing; see v2 section 11 for the
+audit of what changed and why.
+
+**Original status:** Design approved in conversation; awaiting written-spec review
 **Target repo:** `fourth-wall-gaming/first-through-campaign` (installs as plugin `first-through`)
 **Engine:** mythras-gm, system `mythras` (Mythras Imperative — *not* Classic Fantasy)
 **Campaign id:** `myth-campaign-first-through-s1`
