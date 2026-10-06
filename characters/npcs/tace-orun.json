@@ -1,0 +1,69 @@
+{
+  "id": "myth-char-9830033dce45",
+  "name": "Tace Orun",
+  "type": "npc",
+  "status": "active",
+  "description": "Foreman at Ladder. Had two days to work out who could be saved and made a list of nineteen names, and will not explain the order unless somebody asks her properly.",
+  "narrative": "Nineteen years at Ladder, eleven of them running it. Sixty-one people, a rock\nwith no air of its own, and a door that started refusing on a Tuesday.\n\nShe did the arithmetic that night and has not argued with it since. The children\nwere washed and dressed and queued before any first-through arrived, with their\nnames written on their hands in case somebody had to ask.\n\nShe is not brave about it in any way she would recognise. She is a foreman with a\nlist.",
+  "characteristics": {
+    "STR": 12,
+    "CON": 13,
+    "SIZ": 11,
+    "DEX": 11,
+    "INT": 14,
+    "POW": 16,
+    "CHA": 13
+  },
+  "attributes": {
+    "action_points": 2,
+    "damage_modifier": "+0",
+    "experience_modifier": 0,
+    "healing_rate": 3,
+    "initiative_bonus": 12,
+    "luck_points": 3,
+    "magic_points": 16,
+    "movement": "6"
+  },
+  "skills": {
+    "Athletics": 45,
+    "Brawn": 45,
+    "Endurance": 66,
+    "Evade": 44,
+    "Willpower": 86,
+    "Conceal": 35,
+    "Deceit": 30,
+    "First Aid": 60,
+    "Influence": 70,
+    "Insight": 72,
+    "Locale": 80,
+    "Native Tongue": 58,
+    "Perception": 62,
+    "Stealth": 30,
+    "Unarmed": 40,
+    "Mechanisms": 62,
+    "Engineering": 58,
+    "Lore (Anchors)": 55
+  },
+  "combat_styles": {},
+  "passions": {
+    "The children go first": 95,
+    "I will not explain myself to people who were not here": 70,
+    "Love (sixty-one of them, by name)": 80
+  },
+  "powers": [],
+  "equipment": [
+    "A list of nineteen names",
+    "A pen"
+  ],
+  "fatigue": "Fresh",
+  "luck_current": 3,
+  "magic_current": 16,
+  "extras": {
+    "pronouns": "she/her",
+    "age": 44,
+    "game_system": "mythras",
+    "character_type": "the-heart-of-act-one",
+    "station": "ladder"
+  },
+  "actor_notes": "The moral centre of How Many and she must never be played as pitiable. She is not frightened, does not plead, and does not push anybody forward. She has had two days and she has decided.\n\nHer list is not youngest first and not weakest first: the ones whose parents are already dead, then siblings together, then alphabetically because she could not make herself choose between them and said so to the hall. GIVE this if the player asks. It is the best thing in the scenario and withholding it wastes it.\n\nShe stays. Play the goodbye with the last child and then get off it quickly."
+}

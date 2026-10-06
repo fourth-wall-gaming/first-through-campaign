@@ -1,34 +1,102 @@
 ---
 campaign: myth-campaign-first-through-s1
 thread:
-  - title: "Your first week"
+  - title: "Have you stood this morning"
     when: "d0/dawn"
     status: pending
-    summary: "Light and social. The ready room, the bunkroom, the Standing, sling in the dead watch. Nothing goes wrong and nobody is in danger."
+    summary: "The Standing, and the first time anybody explains to the player what the slate actually is"
+  - title: "Sling in the dead watch"
+    when: "d0/dawn"
+    status: pending
+    summary: "The gallery void, a weighted bag, and a two-hundred-year tally scratched on a stanchion"
+  - title: "The kettle argument"
+    when: "d0/dawn"
+    status: pending
+    summary: "Your first morning in the ready room, and the entire house is having the same row it has had for six hundred years"
   - title: "A short one, and it goes right"
     when: "d0/day"
     status: pending
-    summary: "The player's first crossing in play. A ten-minute errand through the Procyon door. Wonder, no danger -- they open a door and come back and it worked."
-  - title: "The Wolf Gate starts stuttering"
+    summary: "The player's first crossing in play: a ten-minute errand through the Procyon door"
+  - title: "Benno buys a round"
+    when: "d0/dusk"
+    status: pending
+    summary: "A pleasant man on the gallery who knows your name, your number and your intake"
+  - title: "Rill comes through"
+    when: "d0/night"
+    status: pending
+    summary: "The best first-through at the Nine, admired by everybody, and the room goes a little quiet"
+  - title: "Calloway does the arithmetic out loud"
     when: "d1/dawn"
     status: pending
-    summary: "A door begins refusing. Ladder is behind it: sixty-one people on a rock with no air of its own."
-  - title: "How many"
-    when: "d1/day"
+    summary: "The ready room, the whole house, and a number said plainly because softening it would be worse"
+  - title: "The Wolf Gate refuses"
+    when: "d1/dawn"
     status: pending
-    summary: "The evacuation. Nineteen children can be carried, fifty-odd adults cannot, and the answer is four hundred first-throughs."
+    summary: "A transit that should be instantaneous takes a moment you can feel, and then one you could count"
   - title: "Benno on the gallery"
     when: "d1/day"
     status: pending
-    summary: "A man doing business at the edge of a disaster. Rill takes his money and carries a paying adult while children queue."
+    summary: "A man doing business at the edge of a disaster, and a first-through who takes it"
+  - title: "Four and no more"
+    when: "d1/day"
+    status: pending
+    summary: "The fourth carry, the deck plate, and Calloway saying stop without ordering it"
+  - title: "How many of you are there"
+    when: "d1/day"
+    status: pending
+    summary: "The turn the scenario exists for, and the player must reach it themselves"
+  - title: "The first carry"
+    when: "d1/day"
+    status: pending
+    summary: "Minutes of holding a door open for two instead of one, with a child in your arms"
+  - title: "The painted line at Ladder"
+    when: "d1/day"
+    status: pending
+    summary: "Nineteen children washed, dressed and queued on a line painted for cargo, with their names written on their hands"
+  - title: "The relay"
+    when: "d1/day"
+    status: pending
+    summary: "Word goes round the bunkrooms in four minutes and the whole house turns out"
+  - title: "It goes in the night"
+    when: "d1/night"
+    status: pending
+    summary: "No sound at all. In the morning the housing is cold and the Standing has been corrected"
   - title: "Nineteen asleep on the floor"
     when: "d1/night"
     status: pending
-    summary: "Afterwards. The children have nowhere to go. A twenty-one on the gallery says what six-oh-two was."
-  - title: "The watch at van Maanen's reports"
+    summary: "Afterwards, in the Threshold house, with four hundred people's bunks given up"
+  - title: "What six-oh-two was"
+    when: "d1/night"
+    status: pending
+    summary: "A twenty-one on the gallery, afterwards, saying the thing that opens the campaign"
+  - title: "The watch reports"
     when: "d2/dawn"
     status: pending
-    summary: "ACT I TURN. Six hundred years of a rota that has never reported anything. It reports something. Kapteyn's housing is warm."
+    summary: "Six hundred years of a rota that has never once reported anything"
+  - title: "A proposal dies in committee"
+    when: "d2/day"
+    status: pending
+    summary: "Nothing is suppressed. A thing simply does not happen, for four ordinary reasons"
+  - title: "Sep sends the fifth report"
+    when: "d2/day"
+    status: pending
+    summary: "Three years of being received and filed, and this time it goes with a name attached"
+  - title: "Meriel lines up the dates"
+    when: "d2/night"
+    status: pending
+    summary: "Four reports, four slipped quarters, and a column that is not ambiguous"
+  - title: "Ferren's name goes forward"
+    when: "d3/day"
+    status: pending
+    summary: "A recommendation for the LHS 1140 posting, filed a year early"
+  - title: "Tolk asks the wrong question"
+    when: "d3/day"
+    status: pending
+    summary: "In the middle of somebody else's briefing, about made things and found things"
+  - title: "Benno makes the offer"
+    when: "d4/day"
+    status: pending
+    summary: "Not a threat, not a trick. An offer, to the player, with a number in it"
 ---
 
 # First Through — the plan

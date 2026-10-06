@@ -1,0 +1,67 @@
+{
+  "id": "myth-char-de4ce1f46d85",
+  "name": "Councillor Hale",
+  "type": "npc",
+  "status": "active",
+  "description": "Holds the Wolf Gate berth on the Nine Council. Does not want stray forecasting made public, because a berth whose door might move is worth a great deal less than a berth whose door might not.",
+  "narrative": "Hale is not wicked and is not hiding a crime. Hale is a berth-holder with four\ngenerations of family money tied up in a door, who has understood for some years\nthat if anybody ever publishes a reliable way of predicting strays, every berth\non the Causeway is repriced overnight and some of them are worth nothing.\n\nSo Hale is quietly, persistently against the whole idea. Studies are not funded.\nClerks at van Maanen's do not get the courier slots they ask for. Nothing is\nsuppressed, exactly. Things simply do not happen, for ordinary reasons, one\ncommittee at a time.\n\nHe would be genuinely wounded to be told this makes him dangerous.",
+  "characteristics": {
+    "STR": 9,
+    "CON": 10,
+    "SIZ": 11,
+    "DEX": 10,
+    "INT": 17,
+    "POW": 13,
+    "CHA": 16
+  },
+  "attributes": {
+    "action_points": 2,
+    "damage_modifier": "-1d2",
+    "experience_modifier": 1,
+    "healing_rate": 2,
+    "initiative_bonus": 13,
+    "luck_points": 3,
+    "magic_points": 13,
+    "movement": "6"
+  },
+  "skills": {
+    "Athletics": 25,
+    "Brawn": 20,
+    "Endurance": 35,
+    "Evade": 35,
+    "Willpower": 76,
+    "Conceal": 70,
+    "Deceit": 82,
+    "First Aid": 30,
+    "Influence": 84,
+    "Insight": 74,
+    "Locale": 50,
+    "Native Tongue": 78,
+    "Perception": 55,
+    "Stealth": 25,
+    "Unarmed": 25,
+    "Lore (Threshold Procedure)": 90,
+    "Lore (Anchors)": 70,
+    "Lore (Tally Procedure)": 78
+  },
+  "combat_styles": {},
+  "passions": {
+    "The berth is the family": 80,
+    "Nothing is being suppressed": 70,
+    "Hate (being made to say it plainly)": 65
+  },
+  "powers": [],
+  "equipment": [
+    "Forty years of suppressed projections",
+    "A signature worth a great deal"
+  ],
+  "extras": {
+    "pronouns": "they/them",
+    "age": 67,
+    "game_system": "mythras",
+    "character_type": "antagonist-institutional",
+    "faction": "the-nine-council",
+    "berth": "the Wolf Gate"
+  },
+  "actor_notes": "NOT IN THE THRESHOLD. The Threshold is clean and the rot is outside it; Hale is a Council berth-holder protecting an asset, which is venal rather than sinister and far more believable.\n\nCourteous, reasonable, and genuinely persuasive. He does not threaten and never raises his voice. He defeats things by not funding them, and the player's weapon against him is publicity -- making him say out loud, in a room, what he is actually arguing for."
+}

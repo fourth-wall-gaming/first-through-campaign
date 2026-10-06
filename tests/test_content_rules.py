@@ -289,8 +289,9 @@ def test_the_kit_entry_explains_charge_without_naming_power_points():
 import json as _json
 
 NAMED_CAST = {
-    "calloway", "tolk", "ferren", "director-hale",
+    "calloway", "tolk", "ferren", "councillor-hale",
     "tallyman-captain-brace", "sep-anwar", "meriel-koll",
+    "tace-orun", "benno-raske", "rill",
 }
 
 

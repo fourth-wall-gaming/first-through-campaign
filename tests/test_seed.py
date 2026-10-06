@@ -46,8 +46,9 @@ def test_beats_reference_real_agendas_and_places():
         assert meta["place"] in places, f"{p.name}: place {meta['place']}"
 
 
-def test_both_entry_point_systems_have_a_living_world():
-    """A player who takes either route must still meet a world in motion."""
+def test_the_home_system_has_a_living_world():
+    """The beats must be concentrated where the story actually is. This replaces
+    a check against the two retired entry points' systems."""
     place_system = {}
     for p in (ROOT / "locations").glob("*.md"):
         meta, _ = parse_frontmatter(p.read_text())
@@ -57,18 +58,26 @@ def test_both_entry_point_systems_have_a_living_world():
         meta, _ = parse_frontmatter(p.read_text())
         s = place_system[meta["place"]]
         count[s] = count.get(s, 0) + 1
-    for s in ("gliese-887", "gliese-65"):
-        assert count.get(s, 0) >= 6, f"{s} has only {count.get(s, 0)} beats"
+    assert count.get("sirius", 0) >= 8, (
+        f"the Nine's system carries only {count.get('sirius', 0)} beats; "
+        "Act I happens there and the world should be in motion around it"
+    )
 
 
-def test_the_act_two_reveal_is_a_fact_not_a_memory():
-    """Spec section 13: the facts graph carries what the player has learned, so
-    the reveal is computed rather than improvised."""
+def test_the_inciting_incident_is_a_fact_that_cannot_fire_early():
+    """The campaign turns on one event, and the graph has to hold it as
+    not-yet-true so no GM can establish it before its beat. This replaces a check
+    for the superseded forty-year-cover-up reveal."""
     paths = sorted((ROOT / "facts").glob("*.md"))
     assert len(paths) >= 9, f"only {len(paths)} facts"
-    titles = [parse_frontmatter(p.read_text())[0]["title"].lower() for p in paths]
-    assert any("forty years" in t or "has known" in t for t in titles), (
-        "no fact records the Threshold's forty-year silence"
+    pending = [p for p in paths
+               if parse_frontmatter(p.read_text())[0]["status"] == "not-yet-true"]
+    assert pending, "nothing in the fact graph is held back as not-yet-true"
+    titles = " ".join(parse_frontmatter(p.read_text())[0]["title"].lower()
+                      for p in pending)
+    assert "kapteyn" in titles, (
+        "the Act I turn -- the Kapteyn's housing going warm -- is not held as a "
+        "not-yet-true fact, so it could be established early by accident"
     )
     for p in paths:
         meta, _ = parse_frontmatter(p.read_text())
