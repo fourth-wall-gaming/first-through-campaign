@@ -37,3 +37,17 @@ harness, with strong views about the catering.
 Nobody has a good explanation for how a brain that size does that. The
 Threshold's xenobiology note on the subject is two pages long and the second
 page is questions.
+
+**And they are where books come from.**
+
+A sixlimb's cells will take a written payload and hold it, perfectly, for a
+lifetime. That is not something a wild animal does by accident, and the reader's
+trade has known it since the TRAPPIST-1 door opened. Every book in human space --
+every placid palm-sized library a courier carries under their coat -- is a
+sixlimb, or was bred from one.
+
+The bred ones do not talk.
+
+Nobody in the trade likes being asked why. The usual answer is that the talking
+was selected out because a book that argues is not a book, which is true, and
+which is not an answer to the question that was asked.

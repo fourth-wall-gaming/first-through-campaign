@@ -42,12 +42,47 @@ live and both are good:
 This is recorded as an **authoring decision for a later release**, not an
 oversight. Spec section 16 names it as open and the author has not called it.
 
+## The question the setting now asks on its own
+
+Tolk's species is the wild form of the book. Every placid palm-sized library a
+courier carries is a sixlimb or bred from one, and **the bred ones do not talk.**
+
+A player will get there. It takes about four seconds once they are told what a
+book is, and the question lands with its full weight the first time somebody asks
+Tolk to carry something:
+
+*If Tolk is what a book is before you breed it, then what is a book?*
+
+**Do not answer this in v1 and do not let an NPC answer it either.** The reader's
+trade has a stock reply -- that the talking was selected out because a book which
+argues is not a book -- and it is true, and it is not an answer to the question
+that was asked. Let an NPC give exactly that reply, smoothly, and move on. The
+player will notice.
+
+Three readings are live and the author has not called it:
+
+1. **They were made as storage** by somebody with a very long reach, and the
+   talking is an accident nobody intended and nobody has switched off.
+2. **They were made as people** and the storage is what somebody later found a
+   use for, which makes the whole book trade something much worse than a trade.
+3. **They were not made at all** and the cells do what they do for reasons of
+   their own, and every assumption in the paragraph above is wrong.
+
+And the one that connects it to the arc: **information rides in genomes**, and
+[[The Quorum]] is information. A thing that can be written into a book can be
+written into a sixlimb, and a sixlimb goes where a first-through takes it.
+
+Do not spend that in v1. But know it, because the moment a player asks Tolk to
+carry a payload, you are one sentence away from it.
+
 ## What v1 is allowed to do
 
 Keep the thread live and answer nothing.
 
-- Tolk carries the passion *somebody made me and I would like to know who* at 45.
-  It is on the sheet from session one.
+- Tolk carries *somebody made me and I would like to know who* at 60, and
+  *nobody writes to me without asking* at 80. Both are on the sheet from session
+  one, and the second one is the live wire: the player will be in a room where
+  writing to Tolk solves the problem.
 - The agenda **Find out what Bell was** exists, is active, and advances from odd
   angles -- mostly Tolk asking an unexpected question in the middle of somebody
   else's scene. The beat at the Yards is the model.

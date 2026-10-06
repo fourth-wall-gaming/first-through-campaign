@@ -50,12 +50,17 @@ Because information does not have to be dead. Write it into a genome and it is
 in a living thing, and a living thing crosses.
 
 They are called **books**, and a book is an animal: palm-sized, placid, slow,
-bred for nothing but this, with a few hundred million years of reliable
-housekeeping doing the work of an archive. You feed it. You keep it warm. You
+bred for nothing but this. They come from the sixlimbs of [[Bell]], on the far
+side of the TRAPPIST-1 door, whose cells hold a written payload perfectly for a
+lifetime and who were doing so long before anybody arrived to notice. You feed it. You keep it warm. You
 hand it over at the far end and somebody who knows how reads it out.
 
 A courier with three books under their coat is carrying three libraries, and the
 books do not know and would not care.
+
+**And a book cannot cross alone either.** It is alive, so it can go -- but
+something has to open the way, which means every library in human space moves in
+the arms of a child, and has for nine hundred years.
 
 There is a whole profession of writing them and another of reading them, and the
 two trades do not like each other. Books can sicken. Books can be forged. A book
