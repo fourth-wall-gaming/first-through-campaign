@@ -3,8 +3,8 @@
   "name": "Tolk",
   "type": "npc",
   "status": "active",
-  "description": "Cat-sized, six-limbed, from a world called Bell on the far frontier. Their species was engineered as living storage -- a book -- and somewhere in that engineering it started talking. Tolk cannot cross a door without a first-through, and has opinions about that.",
-  "narrative": "Six limbs, four of them hands, about the mass of a large cat and considerably\nbetter at corners. Grey-brown, close-furred, with a flat face and eyes set wide\nenough to see most of a room at once.\n\nTolk talks. Not by any trick -- Tolk learned the language the way anybody does,\nby being around it for eleven years and being extremely interested. The accent\nis odd and the grammar is better than most people's.\n\nAnd Tolk is a **book**. The cells will take a payload and hold it perfectly for\na lifetime, because that is what they were built for, and every reader in the\nCauseway knows a sixlimb when they see one and most of them want a word.\n\nTolk can be written to. Tolk can refuse. Those two facts have never once been\nin the same room without trouble.\n\nAnd Tolk cannot cross a door alone. No book can -- it takes a first-through to\nopen the way, and the one Tolk goes with is the one Tolk goes with.",
+  "description": "Cat-sized, six-limbed, from a world called Bell on the far frontier. Their cells hold a written payload perfectly for a lifetime -- the same strangeness that lets a first-through open a door, wearing a different body. Nobody made either of them. Tolk cannot cross alone, and has opinions about that.",
+  "narrative": "Six limbs, four of them hands, about the mass of a large cat and considerably\nbetter at corners. Grey-brown, close-furred, with a flat face and eyes set wide\nenough to see most of a room at once.\n\nTolk talks. Not by any trick -- Tolk learned the language the way anybody does,\nby being around it for eleven years and being extremely interested.\n\nAnd Tolk is a **book**. The cells will take a payload and hold it perfectly for\na lifetime, which is the same impossible trick a first-through's body does when\nit takes a crossing and builds around the damage instead of tearing. Two\nspecies, forty light years apart, no common ancestor, and the halves fit.\n\nNobody made them. Nobody made us either. The xenobiologists call it the\ncorrespondence and have no theory whatever, and Tolk has read the paper.\n\nTolk can be written to. Tolk can refuse. Those two facts have never once been\nin the same room without trouble -- and Tolk cannot cross a door alone, because\nkeeping is one half of it and opening is the other.",
   "characteristics": {
     "STR": 5,
     "CON": 12,
@@ -50,7 +50,7 @@
   "passions": {
     "I go where the small one goes": 70,
     "Nobody writes to me without asking": 80,
-    "Somebody made me and I would like to know who": 60
+    "We fit, and nobody can tell me why": 60
   },
   "powers": [],
   "equipment": [
@@ -59,14 +59,15 @@
   ],
   "extras": {
     "pronouns": "they/them",
-    "species": "Bell sixlimb -- the wild form of the book",
+    "species": "Bell sixlimb -- a wild species, not a made one",
     "invented_life": true,
     "home_system": "trappist-1",
     "game_system": "mythras",
     "character_type": "companion",
     "age": "eleven years, which is adult-ish",
     "carries": "A payload written into the genome. Holds a library. Reading it out needs a reader and Tolk's agreement.",
-    "cannot_cross_alone": true
+    "cannot_cross_alone": true,
+    "the_correspondence": "A sixlimb keeps what a first-through carries. Same cellular strangeness, two species, no shared ancestry, no explanation."
   },
-  "actor_notes": "THE ONBOARDING MECHANISM -- see lore/gm-guide/playing-tolk.md. Tolk is present in every scene and may notice things aloud and ask what we are doing; that is how a stuck beginner gets scaffolded without an option menu. Funny, blunt, specific. Never ironic. Comments on what is physically in front of them, not on the plot. Will not obey an order they disagree with and will say why at length. Genuinely brave about things that frighten humans and genuinely terrified of things that do not. Never translate for Tolk and never make Tolk wise -- a person with different priorities, not an oracle.\n\nAND TOLK IS A BOOK. People will ask to write to them, and some will not ask. Tolk's consent is a real thing the player can seek, lose, or trample, and the asking should never be routine -- it is the difference between a friend and a satchel, and Tolk knows exactly where that line is even when the player does not. If anybody writes to Tolk without asking, that is an assault and should be played as one."
+  "actor_notes": "THE ONBOARDING MECHANISM -- see lore/gm-guide/playing-tolk.md. Tolk is present in every scene and may notice things aloud and ask what we are doing; that is how a stuck beginner gets scaffolded without an option menu. Funny, blunt, specific. Never ironic. Comments on what is physically in front of them, not on the plot. Will not obey an order they disagree with and will say why at length. Genuinely brave about things that frighten humans and genuinely terrified of things that do not. Never translate for Tolk and never make Tolk wise -- a person with different priorities, not an oracle.\n\nAND TOLK IS A BOOK -- not a manufactured one. The sixlimbs were never made; they are the other half of whatever a first-through is, and nobody knows why there is an other half. People will ask to write to them, and some will not ask. Tolk's consent is a real thing the player can seek, lose, or trample, and the asking should never be routine -- it is the difference between a friend and a satchel, and Tolk knows exactly where that line is even when the player does not. If anybody writes to Tolk without asking, that is an assault and should be played as one."
 }

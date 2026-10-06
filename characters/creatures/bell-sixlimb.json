@@ -3,8 +3,8 @@
   "name": "Bell Sixlimb",
   "type": "npc",
   "status": "active",
-  "description": "Tolk's species: cat-sized, six-limbed, four-handed, from the terminator band of a TRAPPIST-1 world. Genuinely language-capable, which should not be possible for a brain that size.",
-  "narrative": "Invented life, placed under the constraint in the gm-secret notes: the terminator\nband of a tidally-locked TRAPPIST-1 world is a real environment with real\nperpetual wind and a real survivable temperature ring, and nobody has observed\nits surface.\n\nSixlimbs brachiate, nest in wind-shadow, and are social in groups of five to\nnine. They acquire language -- actual syntax, not mimicry -- from whoever is\naround, and nobody has a satisfactory account of why a brain that size can do it.\n\nThat absence of an account is a thread, not a loose end.",
+  "description": "Tolk's species: cat-sized, six-limbed, four-handed, from the terminator band of a TRAPPIST-1 world. Wild, not made. Their cells keep a written payload for a lifetime, which is the same strangeness that lets a human child open a door.",
+  "narrative": "Invented life, placed under the constraint in the gm-secret notes: the terminator\nband of a tidally-locked TRAPPIST-1 world is a real environment with real\nperpetual wind and a real survivable temperature ring, and nobody has observed\nits surface.\n\nSixlimbs brachiate, nest in wind-shadow, and are social in groups of five to\nnine. They acquire language -- actual syntax, not mimicry -- from whoever is\naround.\n\nAnd their cells hold what is written into them, perfectly, for life. Which is\nthe same impossible housekeeping a first-through's body performs on the damage a\ncrossing does. Two species, forty light years apart, no common ancestor.\n\nNobody engineered this. That is the part that keeps people awake.",
   "characteristics": {
     "STR": 5,
     "CON": 11,
@@ -43,7 +43,8 @@
     "Teeth and six limbs": 45
   },
   "passions": {
-    "The group comes with me": 60
+    "The group comes with me": 60,
+    "We fit, and nobody can tell me why": 45
   },
   "powers": [],
   "equipment": [],
@@ -53,7 +54,8 @@
     "invented_life": true,
     "home_system": "trappist-1",
     "game_system": "mythras",
-    "character_type": "creature"
+    "character_type": "creature",
+    "the_correspondence": "Keeping and opening are halves of one phenomenon. A sixlimb cannot cross alone; a first-through cannot hold a payload."
   },
   "actor_notes": "Not a monster and not a pet. If a GM needs a second sixlimb, this is it. Never fight these as adversaries -- they are a people, and the campaign's one firm line about them is that nobody in it treats them as fauna without being wrong."
 }

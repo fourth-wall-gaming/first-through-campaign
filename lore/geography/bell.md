@@ -40,14 +40,23 @@ page is questions.
 
 **And they are where books come from.**
 
-A sixlimb's cells will take a written payload and hold it, perfectly, for a
-lifetime. That is not something a wild animal does by accident, and the reader's
-trade has known it since the TRAPPIST-1 door opened. Every book in human space --
-every placid palm-sized library a courier carries under their coat -- is a
-sixlimb, or was bred from one.
+A sixlimb's cells take a written payload and hold it, perfectly, for a lifetime.
+Every book in human space -- every placid palm-sized library a courier carries
+under their coat -- is a sixlimb, or bred from one, and the reader's trade has
+known it since the TRAPPIST-1 door opened.
 
-The bred ones do not talk.
+Here is the part nobody has a theory for.
 
-Nobody in the trade likes being asked why. The usual answer is that the talking
-was selected out because a book that argues is not a book, which is true, and
-which is not an answer to the question that was asked.
+**It is the same trick a human child does.** A first-through's body takes the
+damage a crossing does and builds around it instead of tearing, and a sixlimb's
+body takes what is written into it and keeps it, and at the level where anybody
+can look these are one behaviour in two bodies. One species carries. The other
+keeps. Neither can do the other's half.
+
+They evolved forty light years apart with nothing in common and no ancestor
+between them. Nobody made either of us. The xenobiologists call it **the
+correspondence**, which is a name and not an explanation, and the standing paper
+on it has been standing for two hundred years.
+
+A sixlimb cannot cross a door alone. A first-through cannot hold a payload. The
+pair can do both, and the pair is what the whole Causeway runs on.

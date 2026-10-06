@@ -74,8 +74,11 @@ for Tolk instead of learning the game.
 
 ## What Tolk is
 
-Not in v1, and not to the player: **somebody built this species.** A brain that
-size does not acquire syntax, and the Threshold's own xenobiology note is mostly
-questions. See `lore/gm-secret/what-tolk-is.md`. In v1 this is texture only —
-Tolk's passion *somebody made me and I would like to know who* exists so the
-thread is live from the first session, not so it gets answered.
+Not in v1, and not to the player: **nobody built this species, and that is the
+problem.** A sixlimb keeps what a first-through carries — the same cellular
+strangeness in two species that evolved forty light years apart with no ancestor
+in common. The xenobiologists call it the correspondence and have no theory. See
+`lore/gm-secret/what-tolk-is.md`.
+
+In v1 it is texture. Tolk's passion *we fit, and nobody can tell me why* exists
+so the thread is live from session one, not so it gets answered.

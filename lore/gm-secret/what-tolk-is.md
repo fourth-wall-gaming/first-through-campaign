@@ -42,45 +42,54 @@ live and both are good:
 This is recorded as an **authoring decision for a later release**, not an
 oversight. Spec section 16 names it as open and the author has not called it.
 
-## The question the setting now asks on its own
+## The correspondence
 
-Tolk's species is the wild form of the book. Every placid palm-sized library a
-courier carries is a sixlimb or bred from one, and **the bred ones do not talk.**
+**Nobody made the sixlimbs, and nobody made first-throughs.** Rule out the
+designer; it is the dull answer and the author has called it.
 
-A player will get there. It takes about four seconds once they are told what a
-book is, and the question lands with its full weight the first time somebody asks
-Tolk to carry something:
+What is true is stranger. A first-through's body takes the damage of a crossing
+and builds around it. A sixlimb's body takes a written payload and keeps it. At
+the level anybody can measure, those are the same behaviour in two species that
+evolved forty light years apart with no ancestor in common. One carries. One
+keeps. Neither can do the other's half, and together they are the only reason
+anything moves between stars.
 
-*If Tolk is what a book is before you breed it, then what is a book?*
+The xenobiologists call it the correspondence. There is a standing paper. It has
+been standing for two hundred years and it is two pages, and the second page is
+questions.
 
-**Do not answer this in v1 and do not let an NPC answer it either.** The reader's
-trade has a stock reply -- that the talking was selected out because a book which
-argues is not a book -- and it is true, and it is not an answer to the question
-that was asked. Let an NPC give exactly that reply, smoothly, and move on. The
-player will notice.
+### The question a player will ask
 
-Three readings are live and the author has not called it:
+If Tolk is what a book is before you breed it, what is a book?
 
-1. **They were made as storage** by somebody with a very long reach, and the
-   talking is an accident nobody intended and nobody has switched off.
-2. **They were made as people** and the storage is what somebody later found a
-   use for, which makes the whole book trade something much worse than a trade.
-3. **They were not made at all** and the cells do what they do for reasons of
-   their own, and every assumption in the paragraph above is wrong.
+**Do not answer this in v1 and do not let an NPC answer it.** The reader's trade
+has a stock reply -- a book that argues is not a book, so the talking was bred
+out -- and it is true, and it is not an answer to the question that was asked.
+Let an NPC give exactly that reply, smoothly, and move on. The player will notice.
 
-And the one that connects it to the arc: **information rides in genomes**, and
-[[The Quorum]] is information. A thing that can be written into a book can be
-written into a sixlimb, and a sixlimb goes where a first-through takes it.
+### What is actually open
 
-Do not spend that in v1. But know it, because the moment a player asks Tolk to
-carry a payload, you are one sentence away from it.
+1. **Why is there a pair at all?** Two species, no contact, complementary halves
+   of one function. Convergence does not do this.
+2. **Is the door part of it too?** Anchors act on living tissue, children open
+   them, sixlimbs keep what passes. Three things that should not fit, fitting.
+3. **Who noticed first?** The First Reach launched before the TRAPPIST-1 door
+   existed. They could not have known a sixlimb existed. And they built a network
+   that only works if both halves turn up.
+
+That third one is the thread. Do not pull it in v1.
+
+And the arc connection, held here and nowhere else: information rides in genomes,
+and [[The Quorum]] is information. A thing that can be written into a book can be
+written into a sixlimb, and a sixlimb goes where a first-through takes it. The
+moment a player asks Tolk to carry a payload you are one sentence away from it.
 
 ## What v1 is allowed to do
 
 Keep the thread live and answer nothing.
 
-- Tolk carries *somebody made me and I would like to know who* at 60, and
-  *nobody writes to me without asking* at 80. Both are on the sheet from session
+- Tolk carries *we fit, and nobody can tell me why* at 60, and *nobody writes to
+  me without asking* at 80. Both are on the sheet from session
   one, and the second one is the live wire: the player will be in a room where
   writing to Tolk solves the problem.
 - The agenda **Find out what Bell was** exists, is active, and advances from odd

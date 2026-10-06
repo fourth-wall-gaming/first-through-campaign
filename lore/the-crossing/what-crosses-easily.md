@@ -50,9 +50,9 @@ Because information does not have to be dead. Write it into a genome and it is
 in a living thing, and a living thing crosses.
 
 They are called **books**, and a book is an animal: palm-sized, placid, slow,
-bred for nothing but this. They come from the sixlimbs of [[Bell]], on the far
-side of the TRAPPIST-1 door, whose cells hold a written payload perfectly for a
-lifetime and who were doing so long before anybody arrived to notice. You feed it. You keep it warm. You
+bred for nothing but this. They come from the sixlimbs of [[Bell]], on the far side
+of the TRAPPIST-1 door, whose cells hold a written payload perfectly for a
+lifetime and were doing it long before anybody arrived to notice. You feed it. You keep it warm. You
 hand it over at the far end and somebody who knows how reads it out.
 
 A courier with three books under their coat is carrying three libraries, and the
@@ -61,6 +61,16 @@ books do not know and would not care.
 **And a book cannot cross alone either.** It is alive, so it can go -- but
 something has to open the way, which means every library in human space moves in
 the arms of a child, and has for nine hundred years.
+
+Which is stranger than it sounds, because it is the same strangeness twice. A
+first-through's body takes what a crossing does to it and builds around the
+damage. A sixlimb's body takes what is written into it and keeps it. One carries,
+one keeps, neither can do the other's half, and the two species evolved forty
+light years apart with no ancestor in common.
+
+Nobody designed this. The xenobiologists call it **the correspondence** and have
+had no theory for two hundred years. Most people never think about it. The ones
+who do tend to stop sleeping properly.
 
 There is a whole profession of writing them and another of reading them, and the
 two trades do not like each other. Books can sicken. Books can be forged. A book
