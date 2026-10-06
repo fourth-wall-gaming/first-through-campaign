@@ -1,11 +1,11 @@
 ---
 id: "myth-lore-8770c99bc8be"
-title: "The Remainder"
+title: "Earth"
 category: "geography"
 visibility: "player"
 system: "sol"
 sources: ["https://en.wikipedia.org/wiki/Sun", "https://en.wikipedia.org/wiki/Moon"]
-summary: "Earth, and what it is now. The world that paid for the Reach, still the largest population on the Causeway and by a long way the poorest. Nobody who lives on it uses the name."
+summary: "The world that paid for the Reach. Still the largest population on the Causeway and by a long way the poorest. Three names, and the one people actually say is the Garden."
 created_at: "2026-10-05T12:00:00"
 ---
 
@@ -62,15 +62,33 @@ People come a long way to stand in that room, and the Threshold runs a rota
 because otherwise the queue blocks the line. First-throughs go once, in training,
 and are told nothing about it beforehand.
 
-## The name
+## Its three names
 
-A remainder, on a Tally manifest, is the line at the bottom. Everything allocated
-has been taken out above it; the remainder is what is left over, carried forward
-to the next page, nobody's.
+**Earth**, which is its name, and which is what it is called on it.
 
+**The Remainder**, which is what it is called on paper. A remainder, on a Tally
+manifest, is the line at the bottom: everything allocated has been taken out
+above it, and what is left over is carried forward to the next page, nobody's.
 The usage started as clerks' shorthand about four hundred years ago. It was
 unkind then. It got used until it stopped being a joke and started being the
-address, and now it is on the forms — there is a field for it, and the field is
-not called Earth.
+address, and now there is a field for it on the forms, and the field is not
+called Earth.
 
-Nobody who lives there calls it that.
+**The Garden**, which is what people say.
+
+Because everything grows there. Because it is the only world with an outdoors —
+air nobody makes, water that falls out of the sky by itself, food that comes up
+without a lamp over it — and because none of that is worth anything. You cannot
+put weather through a door. You cannot sell an ocean to a station that needs
+coupling collars and gets two in three.
+
+A spacer says *the Garden* with a kind of fondness, the way you talk about
+somewhere you went once and would not live. Somebody from Earth says it flatly
+and the conversation moves on.
+
+And the word has got loose, the way words do. A holding that cannot pay its way,
+that is rich in the things that do not travel and poor in everything that does,
+is said to be **going garden**.
+
+People use it about [[Gliese 887, and the Coldwater Holding]]. They do not use
+it where the Coldwater people can hear.
