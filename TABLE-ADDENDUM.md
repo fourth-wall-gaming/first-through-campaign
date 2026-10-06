@@ -7,53 +7,54 @@ are specific to this campaign, and all three are load-bearing.
 
 ---
 
-## 1. Incapacitation, never death — in both directions
+## 1. Danger is real, and it is always visible first
 
-**Nobody in this campaign dies.** Not the player's character, not an NPC, not a
-tallyman, not a refinery hand.
+**People die in this campaign.** NPCs die. The player's character can die. The
+Mythras rules are unmodified and nothing is softened behind the screen — a major
+wound to the head is what the book says it is, and a hull is still thin.
 
-**Mythras rules are unchanged.** Roll everything honestly, through the CLI, with
-the real grades and the real damage. Hit locations happen. Major wounds happen.
-What changes is what the fiction does at the moment a wound would be fatal:
+A game where nothing can kill you is not frightening, and a ten-year-old knows
+it within one session. They have played games with death in them since they
+could hold a controller. What they have mostly *not* had is a death that was
+their own fault in a way they can point at, which is the thing this system does
+better than almost anything else.
 
-- A PC at death's door is **knocked out**, captured, dragged clear, or wakes in
-  a cell with their kit in a locker. They are **never killed**.
-- An NPC the player puts down is unconscious, restrained, or out of the fight.
-  Same rule, same mechanics.
+So the rule is not about outcomes. It is about information.
 
-**And it runs in both directions.** The second half matters as much as the
-first: **the player is never put in a position where killing is the expected
-solution.** No scenario in this campaign has a correct answer that ends in
-somebody's death, and if one appears to, that is a GM error and not a hard
-choice.
+### The duty: the risk is on the table before the dice are
 
-### Why this is the setting rather than a house rule
+**A character may die only from a risk the player could see when they chose it.**
+That is the whole of it, and it is a real constraint on you, not on them.
 
-You are not overriding the dice. You are applying four facts that are already
-written down, and you should feel free to say them out loud in the fiction:
+- **Name the danger in the fiction before it is live.** The drop is four storeys
+  onto deck plate. The man has a cutting bar and he is between you and the hatch.
+  The count is climbing and the shutter is open. Concrete, physical, said out
+  loud — and said *before* the player commits, not in the narration of the
+  consequence.
+- **Never a lethal surprise.** No unannounced trap that kills, no ambush from a
+  direction the player had no way to check, no poison that was never described.
+  Surprises may cost position, kit, time, blood and allies. They may not cost a
+  life that was not already on the table.
+- **If they ask how bad it is, tell them straight.** Calloway does. So do you.
+  An honest answer to *can this kill me* is always yes or no, never atmosphere.
+- **Luck Points are the player's and they should know they have them.** Say so
+  once, early, out of character. A child who dies holding three unspent Luck
+  Points was failed by the table, not by the dice.
+- **A death gets its weight.** Stop. Let it land. Do not narrate past it into the
+  next beat, and do not soften it afterwards into a coma. It happened.
 
-- **A hull is thin.** A weapon that reliably kills a person reliably opens a
-  wall, and the wall is the only thing between everybody and vacuum.
-- **A station is a closed volume.** Whatever you release into the air, you then
-  breathe.
-- **A corpse is paperwork nine light years long.** Nothing outruns a courier, so
-  a death is not resolved — it is carried, slowly, and argued about by people
-  who were not there.
-- **The Tally wants you alive**, because a body is not a line on a manifest.
-  Detention, a fine and an impound is what losing looks like. See
-  `lore/organizations/the-tally.md`.
+### What the Tally's motive still buys you
 
-So the standard tools are stunners, shock batons, restraint loops and setting
-gel. Losing a fight means you are on the floor and tied. That is a real defeat
-and it should feel like one.
+[[The Tally]] arms its people with shock batons and restraint loops and no
+blades, and the reason stands exactly as written: a body is not a line on a
+manifest, and a death is paperwork nine light years long. **That is an
+institutional preference, not a guarantee of your safety.** Tallymen try to take
+you alive. Frightened refinery hands with cutting bars do not try anything in
+particular, and a flare does not try at all.
 
-### The one thing this does not mean
-
-It does not mean the campaign is safe. Being captured, maimed, stranded behind a
-dying door, or responsible for a settlement losing its only way out are all
-available and all worse than a character sheet ending. Spend those freely.
-
----
+So the safest opponents in the setting are the professionals, and the dangerous
+ones are the civilians and the physics. That is the right way round and it is
+worth letting the player discover.
 
 ## 2. When the player goes quiet, Tolk speaks
 

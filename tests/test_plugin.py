@@ -86,14 +86,15 @@ def test_the_start_command_states_the_non_lethal_rule():
     assert "TABLE-ADDENDUM.md" in text
 
 
-def test_the_addendum_states_the_rule_in_both_directions():
-    text = (ROOT / "TABLE-ADDENDUM.md").read_text()
-    low = text.lower()
-    assert "never killed" in low or "not killed" in low
-    assert "knocked out" in low or "unconscious" in low
-    assert "both directions" in low, (
-        "the rule applies to what the PC does as well as what is done to them"
-    )
+def test_the_addendum_puts_the_risk_on_the_table_before_the_dice():
+    """Danger is real, so the protection a child gets is information, not a
+    guarantee. A character may die only from a risk the player could see when
+    they chose it -- which is a constraint on the GM, not on the player."""
+    low = " ".join((ROOT / "TABLE-ADDENDUM.md").read_text().lower().split())
+    assert "people die in this campaign" in low
+    assert "before the dice are" in low or "before it is taken" in low
+    assert "luck points" in low, "the player's out must be named"
+    assert "never a lethal surprise" in low
 
 
 def test_the_start_command_offers_both_entry_points_and_all_four_pregens():

@@ -52,18 +52,19 @@ place, and both can be finished by any of the four characters.
 invited in. **The Fieldhand** knows what is alive. No building, no arithmetic —
 pick one and read the three things your character cares about.
 
-## Nobody dies
+## Danger is real
 
-A character at death's door is knocked out, captured or dragged clear, never
-killed — and the rule runs in both directions, so you are never put in a
-position where killing is the expected solution. The Mythras rules are
-completely unchanged; this is a convention in the fiction, and the setting
-supplies the reasons: a hull is thin, a station is a closed volume, a corpse is
-paperwork nine light years long, and the tollkeepers want you alive because a
-body is not a line on a manifest.
+People die in this campaign, including yours. The Mythras rules are unmodified
+and nothing is softened behind the screen.
 
-Losing means you are on the floor and tied, with your kit in a locker. That is
-a real defeat. It is just not a dead child's first character.
+What the campaign promises instead is **information**: a character can only die
+from a risk that was named, in the fiction, before the player chose it. No
+unannounced trap, no ambush from a direction you had no way to check, and an
+honest answer every time you ask whether something can kill you.
+
+The tollkeepers carry shock batons and restraint loops and no blades, because a
+body is not a line on a manifest. That makes the professionals the safest people
+you will meet, and the frightened civilians and the physics the dangerous ones.
 
 ## The astronomy is real
 

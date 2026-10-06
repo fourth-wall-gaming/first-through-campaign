@@ -401,18 +401,20 @@ def test_the_quiet_door_keeps_its_one_fight_optional():
     assert "avoid" in body.lower(), "the avoidable fight must be marked avoidable"
 
 
-def test_anyone_who_can_be_fought_carries_something_non_lethal():
-    """Review Focus 5, enforced in data rather than trusted to the GM. Equipment
-    lives on characters, not on encounters -- an encounter in this engine is live
-    combat state, created at the table."""
-    fightable = [p for p in (ROOT / "characters").rglob("*.json")
-                 if _json.loads(p.read_text()).get("combat_styles")]
-    assert fightable, "nobody in the cast can be fought"
-    for p in fightable:
+def test_the_tally_alone_is_armed_non_lethally():
+    """Not a safety net -- a motive. The Tally wants prisoners because a body is
+    not a line on a manifest, which makes the professionals the safest people in
+    the setting and the frightened civilians the dangerous ones. That is the
+    right way round, and it only reads if the Tally's own gear says so."""
+    tally = [p for p in (ROOT / "characters").rglob("*.json")
+             if (_json.loads(p.read_text()).get("extras") or {}).get("faction") == "the-tally"]
+    assert tally, "no Tally characters to check"
+    for p in tally:
         c = _json.loads(p.read_text())
         gear = " ".join(c.get("equipment", [])).lower()
+        assert any(w in gear for w in ("baton", "restraint")), f"{p.name} carries no restraints"
         for lethal in ("rifle", "sidearm", "blade", "knife", "pistol", "sword"):
-            assert lethal not in gear, f"{p.name}: {c['name']} carries a {lethal}"
+            assert lethal not in gear, f"{p.name}: a tallyman carries a {lethal}"
 
 
 def test_both_entry_points_exist_and_declare_themselves():
@@ -421,15 +423,11 @@ def test_both_entry_points_exist_and_declare_themselves():
     assert found == ENTRY_POINTS, f"found {sorted(x for x in found if x)}"
 
 
-def test_flare_runs_on_a_clock_and_still_kills_nobody():
+def test_flare_runs_on_a_clock():
     p = ROOT / "lore/entry-points/flare.md"
     _, body = parse_frontmatter(p.read_text())
     low = body.lower()
     assert "clock" in low or "minutes" in low, "the flare must be on a timer"
-    for word in ("kill", "killed", "corpse", "dead"):
-        assert f" {word} " not in low, (
-            f"the action track must resolve in knockouts; found {word!r}"
-        )
 
 
 def test_the_action_track_hands_special_effects_to_the_player():
