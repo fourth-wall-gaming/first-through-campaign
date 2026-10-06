@@ -49,7 +49,9 @@ carries more of it than a library.
 Because information does not have to be dead. Write it into a genome and it is
 in a living thing, and a living thing crosses.
 
-They are called **books**, and a book is an animal: palm-sized, placid, slow,
+They are called **books**, and a book is an animal that nobody ever bonded with.
+A bonded one is a fetch, and belongs to somebody, and the difference between the
+two is the whole of it -- see [[Your Fetch]]. A book is: palm-sized, placid, slow,
 bred for nothing but this. They come from the sixlimbs of [[Bell]], on the far side
 of the TRAPPIST-1 door, whose cells hold a written payload perfectly for a
 lifetime and were doing it long before anybody arrived to notice. You feed it. You keep it warm. You

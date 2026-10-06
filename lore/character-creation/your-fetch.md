@@ -1,14 +1,17 @@
 ---
 id: "myth-lore-7755c4a9f7ed"
-title: "Your Second"
+title: "Your Fetch"
 category: "character-creation"
 visibility: "player"
-summary: "Every first-through has one. Five species on five unrelated worlds, all of them complementary to us, and the talking is how the bond forms. An unbonded one is a book. A bonded one is your second."
+summary: "Every first-through has one. Five species on five unrelated worlds, all of them complementary to us, and the talking is how the bond forms. An unbonded one is a book. A bonded one is your fetch -- the Threshold's forms say *second*, and nobody else ever does."
 created_at: "2026-10-05T12:00:00"
 ---
 
-You do not get a second. A second happens to you, usually within a year of the
+You do not get a fetch. A fetch happens to you, usually within a year of the
 hall test, and after that you are two.
+
+The Threshold's paperwork calls them *seconds*, which is accurate, dignified, and
+not a word anybody has ever said out loud to a twelve-year-old holding one.
 
 ## What they are
 
@@ -16,8 +19,8 @@ Five species that anybody has found, on five worlds with nothing in common, and
 every one of them does the thing described in [[What Crosses Easily]]: their
 cells take what is written into them and keep it, perfectly, for a lifetime.
 
-Where a first-through **carries**, a second **keeps**. Neither can do the other's
-half. A second cannot cross a door without you and you cannot hold a payload
+Where a first-through **carries**, a fetch **keeps**. Neither can do the other's
+half. A fetch cannot cross a door without you and you cannot hold a payload
 without them, and nobody has the faintest idea why the universe has arranged
 itself into halves that fit.
 
@@ -28,7 +31,7 @@ pages and the second page is questions.
 
 This is the part people get wrong, and it matters.
 
-A second does not talk because it is clever. It talks because it is **bonding**,
+A fetch does not talk because it is clever. It talks because it is **bonding**,
 and language is what the bond is made of — attention, back and forth, every day,
 for years. The grammar arrives with the bond. The jokes arrive a bit later.
 
@@ -40,7 +43,7 @@ with it and nothing was done to it.
 First-throughs do not like being in the room with the stock. They are not able to
 say why in a way that satisfies a reader, and readers have stopped asking.
 
-**The bond is not a leash.** Your second argues, refuses, wanders off and takes
+**The bond is not a leash.** Your fetch argues, refuses, wanders off and takes
 an interest in things you do not. They can be furious with you. The one thing
 they cannot do is be comfortable on the far side of a door from you, and neither
 can you, and that is as near to physical as anything in this gets.
@@ -71,7 +74,7 @@ ordinary human conversation a bit slack afterwards.
 
 ### What it will not do
 
-- **Only your own second.** Never another person, never somebody else's second,
+- **Only your own fetch.** Never another person, never somebody else's fetch,
   never two pairs chaining it. A great many people have tried.
 - **A few hundred metres.** Less through rock or plate. It thins out rather than
   cutting off, so you can feel the edge of it coming and most people hate that.
@@ -79,7 +82,7 @@ ordinary human conversation a bit slack afterwards.
 - **And it does not cross a door. Ever.**
 
 That last one is not a technicality. Every first-through describes the crossing
-the same way: your second goes out, and there is a moment with nothing in it, and
+the same way: your fetch goes out, and there is a moment with nothing in it, and
 then they come back. Some of them talk about that moment for the rest of their
 lives.
 
@@ -124,4 +127,4 @@ one. The Yards at 61 Cygni are the only place all five are in the same building,
 and the intakes that train there come out paired in ways that would not have
 happened anywhere else.
 
-Nobody chooses twice. If a second dies, that is the end of it.
+Nobody chooses twice. If a fetch dies, that is the end of it.
