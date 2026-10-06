@@ -1,0 +1,74 @@
+{
+  "id": "myth-char-258a5a9f3ba3",
+  "name": "Benno Raske",
+  "type": "npc",
+  "status": "active",
+  "description": "The Second Hand's man at the Nine. Warm, funny, remembers your name and your number, pays extremely well and on time, and what he buys is pieces of children's lives.",
+  "narrative": "Fifty-one, landlocked at twenty-three, which he mentions easily and without\nself-pity because it makes other people comfortable. Good coat. Pays for rounds.\nKnows the name of every first-through at the Nine and the number of most of them,\nasks after their intakes, and remembers the answers.\n\nHe arranges carries. An adult who needs to be somewhere and will not wait, a\nspecialist wanted three doors away, somebody who would rather not be on a\nmanifest -- Benno finds a courier, agrees a price, and the price is good. He has\nnever underpaid anybody or gone back on a word in his life.\n\nWhat the money buys is a fortnight of a named fifteen-year-old, taken off the end\nof their working life. Benno knows that arithmetic better than they do and has\nnever been observed to think about it in front of anyone.",
+  "characteristics": {
+    "STR": 11,
+    "CON": 11,
+    "SIZ": 12,
+    "DEX": 11,
+    "INT": 16,
+    "POW": 12,
+    "CHA": 17
+  },
+  "attributes": {
+    "action_points": 2,
+    "damage_modifier": "+0",
+    "experience_modifier": 1,
+    "healing_rate": 2,
+    "initiative_bonus": 13,
+    "luck_points": 2,
+    "magic_points": 12,
+    "movement": "6"
+  },
+  "skills": {
+    "Athletics": 30,
+    "Brawn": 28,
+    "Endurance": 40,
+    "Evade": 38,
+    "Willpower": 64,
+    "Conceal": 62,
+    "Deceit": 70,
+    "First Aid": 35,
+    "Influence": 88,
+    "Insight": 80,
+    "Locale": 70,
+    "Native Tongue": 78,
+    "Perception": 62,
+    "Sleight": 48,
+    "Stealth": 35,
+    "Unarmed": 35,
+    "Streetwise": 82,
+    "Customs": 66,
+    "Lore (Tally Procedure)": 72
+  },
+  "combat_styles": {
+    "Nothing much -- he pays people": 30
+  },
+  "passions": {
+    "Everybody is selling something": 75,
+    "I have never cheated anyone in my life": 70,
+    "Fear (being named, out loud, by a child who is not angry)": 55
+  },
+  "powers": [],
+  "equipment": [
+    "A very good coat",
+    "Cash, in a station that mostly does not use it",
+    "Everybody's name"
+  ],
+  "fatigue": "Fresh",
+  "luck_current": 2,
+  "magic_current": 12,
+  "extras": {
+    "pronouns": "he/him",
+    "age": 51,
+    "game_system": "mythras",
+    "character_type": "antagonist-recurring",
+    "faction": "the-second-hand",
+    "landlocked_at": 23
+  },
+  "actor_notes": "NEVER CRUEL. That is the whole character and the whole horror. Benno is the nicest adult in the room, he is funny, he is genuinely pleased to see first-throughs, and he pays better than anybody. He does not threaten, lie about terms or lean on anyone -- he makes an offer and lets a child decide, which is worse than coercion and he knows it.\n\nHe is also right about a real thing nobody else will say: there is no plan for a twenty-one who is frayed out, and he is the only person at the Nine offering them money. If a player argues with him he does not get defensive. He agrees, sadly, and asks what they suggest.\n\nOne soft spot, in his passions: being named, out loud, by a child who is not angry. Do not spend it early.\n\nIN HOW MANY HE CAUSES NOTHING. He is on the gallery doing business while an evacuation runs, and that is all. No confrontation unless the player starts one, and if they do he is reasonable and leaves."
+}

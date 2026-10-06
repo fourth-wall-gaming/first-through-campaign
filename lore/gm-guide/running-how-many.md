@@ -67,6 +67,28 @@ nothing left make two crossings and be helped off the floor.
 Calloway runs it from the edge of a hall she cannot enter. Let the player catch
 her watching them, once, and say nothing about it.
 
+## Benno and Rill
+
+They cause nothing. The stray is natural, the evacuation is physics, and these
+two are a weather system passing through it.
+
+**Give the beat about ninety seconds and then move on.** It is not a scene, it is
+a thing seen across a hall during a crisis, and its whole power is that the
+player is too busy to do anything about it.
+
+Resist three temptations:
+
+- **Do not have anybody denounce them.** No NPC speech about what Benno is. The
+  player works it out or does not.
+- **Do not make Rill contemptible.** She was the best of them. Younger kids go
+  quiet when she comes in. She is frightened and out of time and nobody has ever
+  had a plan for her.
+- **Do not let the player fix it tonight.** There is nothing to fix. It is legal,
+  it is paid, and the adult who gets across is genuinely saved.
+
+What it plants: the player's own future. In six years they will be twenty-one
+with a high number and no plan, and Benno will still be on that gallery.
+
 ## What not to spend
 
 Nothing about [[The Quorum]], nothing about who knew. This stray is exactly what

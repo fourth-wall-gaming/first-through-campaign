@@ -1,0 +1,88 @@
+{
+  "id": "myth-char-deff2d644739",
+  "name": "Rill",
+  "type": "npc",
+  "status": "active",
+  "description": "Twenty-one, two intakes above the player, once the best of them at the Yards, nearly landlocked -- and carrying for Benno Raske, because nobody has ever worked out what a frayed-out first-through is supposed to do next.",
+  "narrative": "There is a record scratched on a stanchion in the Yards with Rill's name against\nit and nobody has got near it in four years.\n\nTwenty-one now, and the hall doctor has started looking at the number instead of\nthe person. Maybe a year. Less if she keeps working, and she is working harder\nthan anybody, because it is the only thing she has ever been.\n\nShe takes Benno's carries. The money is real and it is the only money anyone has\noffered her for afterwards. She has done the sum on what each one costs and does\nthem anyway, and if you ask her she will tell you the truth in one sentence and\nthen change the subject.",
+  "characteristics": {
+    "STR": 12,
+    "CON": 12,
+    "SIZ": 11,
+    "DEX": 16,
+    "INT": 13,
+    "POW": 14,
+    "CHA": 13
+  },
+  "attributes": {
+    "action_points": 3,
+    "damage_modifier": "+0",
+    "experience_modifier": 0,
+    "healing_rate": 2,
+    "initiative_bonus": 14,
+    "luck_points": 3,
+    "magic_points": 14,
+    "movement": "6"
+  },
+  "skills": {
+    "Athletics": 84,
+    "Brawn": 52,
+    "Endurance": 78,
+    "Evade": 80,
+    "Willpower": 70,
+    "Conceal": 48,
+    "Deceit": 50,
+    "First Aid": 58,
+    "Influence": 58,
+    "Insight": 62,
+    "Locale": 60,
+    "Native Tongue": 60,
+    "Perception": 74,
+    "Sleight": 52,
+    "Stealth": 64,
+    "Unarmed": 66,
+    "Lore (Anchors)": 66,
+    "Mechanisms": 50
+  },
+  "combat_styles": {
+    "Threshold Drill (stunner, baton, unarmed)": 74
+  },
+  "passions": {
+    "I was the best of us": 80,
+    "There has to be something afterwards": 75,
+    "Do not look at me like that": 60
+  },
+  "powers": [
+    {
+      "name": "Enhanced Reactions",
+      "rule": "magic/power-enhanced-reactions",
+      "knack": "THE QUICK -- very deep, and deepening still",
+      "boosts": [],
+      "limits": []
+    },
+    {
+      "name": "Heightened Sense",
+      "rule": "magic/power-heightened-sense",
+      "knack": "THE LISTEN -- the best at the Nine, which is why Benno wants her",
+      "boosts": [],
+      "limits": []
+    }
+  ],
+  "equipment": [
+    "Boots from six systems",
+    "A stunner she has never drawn",
+    "Benno's money, mostly unspent"
+  ],
+  "fatigue": "Fresh",
+  "luck_current": 3,
+  "magic_current": 14,
+  "extras": {
+    "pronouns": "she/her",
+    "age": 21,
+    "game_system": "mythras",
+    "character_type": "antagonist-sympathetic",
+    "trained_at": "61-cygni",
+    "crossings": "very high -- a year left at most, and she knows it"
+  },
+  "actor_notes": "NOT A VILLAIN. A warning -- and the player will be standing exactly where she is standing in six years.\n\nRill is admired. Younger kids go quiet when she comes into a room. She is not bitter, not cruel and not a bully. She is frightened, and the only person at the Nine who has offered her a plan for afterwards is Benno Raske.\n\nShe does not defend herself. Asked directly why she takes the carries she answers honestly, in one sentence, and changes the subject, and the honesty is what makes it stick.\n\nIN HOW MANY she carries one paying adult off Ladder while nineteen children are still queuing. The player sees it. Nobody stops it, because it is not illegal. Do not let any NPC moralise about it -- the scene works precisely because nobody says anything.\n\nIf the player is kind to her, she remembers it for the whole campaign."
+}

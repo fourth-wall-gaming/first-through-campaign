@@ -131,6 +131,37 @@ them all.**
 And then the adults are still over there, and the door is still stuttering, and
 everybody at the Nine stands in the hall and does not leave until it goes.
 
+## 5a. The gallery, during the relay
+
+One beat, placed in the middle of the relay, and it is not a confrontation.
+
+**[[Benno Raske]] is on the gallery doing business.** Good coat, knows everyone's
+name, pleased to see people. He is offering cash -- real money, now, more than a
+first-through sees in a season -- to anybody willing to carry one specific adult
+off Ladder. Somebody's father. Somebody has paid him.
+
+He is not lying, not threatening anybody, and not doing anything illegal. He is
+offering to do the one thing every person in that hall desperately wants done,
+and the price is a fortnight of some particular kid's life, and the kid decides.
+
+**And [[Rill]] takes it.**
+
+Twenty-one, two intakes above the player, the name on the stanchion in the Yards
+that nobody has got near in four years, and nearly landlocked. She carries a
+paying adult across while nineteen children are still in the queue, and the
+player watches her do it with their own hands shaking from the fourth carry they
+did for nothing.
+
+**Nobody stops it, and nobody says anything.** Not Calloway, who has seen it
+before and has a face she makes. Not the hall. Do not let any NPC moralise -- the
+scene works because it is allowed to happen in silence.
+
+If the player confronts either of them, play it straight. Benno is reasonable,
+agrees with everything they say, asks what they suggest, and leaves. Rill answers
+the question honestly in one sentence and changes the subject.
+
+Neither of them caused anything tonight. That is the point.
+
 ## 6. When it goes
 
 It goes in the night, quietly, with no sound at all. In the morning the housing
@@ -139,6 +170,8 @@ set of coordinates against it.
 
 Nineteen children are asleep on the Threshold's floor and four hundred people
 have given up their bunks.
+
+And one adult got off Ladder, and is somebody's father, and paid for it.
 
 ## What the player should come away with
 
