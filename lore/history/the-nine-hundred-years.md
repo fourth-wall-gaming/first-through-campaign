@@ -77,10 +77,21 @@ require twenty-eight systems to agree on something.
 Eleven thousand people, a good world, a well-run holding of farms and foundries
 twelve and a half light years out.
 
-Its door strayed in the spring of 602 and has never been found. Not closed —
-**moved**, to somewhere that nothing since has opened onto. Three hundred and
-eighty expeditions have gone looking down other doors in the six centuries since,
-some of them very well funded, all of them unsuccessful.
+Its door strayed in the spring of 602 and went dark, and has stayed dark.
+
+For four hundred years that was read as loss. It is now read as something worse
+and better: by [[Straying]], a mouth that lands inside rock does not open at all.
+It is **closed, not destroyed**, and the far side is exactly where it always was.
+
+Which means Kapteyn's is not missing. **It is buried.** Eleven thousand people
+became some number of people, under a hill, on a world that is still there, and
+the door between us is a dark ring in a hall with a wall of stone on the other
+side of it.
+
+Three hundred and eighty expeditions have gone looking for where it went. If the
+current reading is right, every one of them was looking for the wrong thing.
+
+And a buried mouth can stray again.
 
 Kapteyn's Star is still there. On a clear watch at the Nine you can be shown
 which point it is, and people do show you, and the pointing is a thing visitors
@@ -88,6 +99,9 @@ find unbearable long before the residents do.
 
 Everybody alive has a version of the arithmetic: twenty-four generations, so
 whoever is there now is nobody's cousin exactly, and is still ours.
+
+The Threshold keeps a watch on that housing. It has been kept for six hundred
+years, it has never once reported anything, and the rota has never been cut.
 
 **The map has twenty-eight systems on it. It used to have twenty-nine.**
 

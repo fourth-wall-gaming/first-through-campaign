@@ -1,40 +1,68 @@
 ---
-id: "myth-lore-9339f140a4eb"
+id: "myth-lore-16eb77a71842"
 title: "How an Anchor Works"
 category: "cosmology"
 visibility: "player"
-summary: "An anchor is one half of a pair. Transit is instant between the two halves and impossible anywhere else, which is why a door cannot be moved, copied, or replaced."
-sources: ["https://en.wikipedia.org/wiki/List_of_nearest_stars_and_brown_dwarfs", "https://en.wikipedia.org/wiki/Speed_of_light"]
-created_at: "2026-10-05T12:00:00"
+summary: "A pair of entangled mouths, made together and married for life. Matter crosses instantly. No signal ever can -- which is not an engineering problem but a theorem, and it is why the whole species runs on couriers."
+sources: ["https://en.wikipedia.org/wiki/Quantum_entanglement", "https://en.wikipedia.org/wiki/No-communication_theorem"]
+created_at: "2026-10-06T12:00:00"
 ---
 
-An **anchor** is one half of a matched pair. It is a ring of dark housing about
-four metres across, sunk into rock or bolted to a station frame, and it does
-exactly one thing: anything that passes through it comes out of its mate.
+An anchor is half of a pair, and the pair is **entangled** — made together, in
+the same place, at the same moment, and bound at a level nothing since has been
+able to reach into.
 
-Not out of *an* anchor. Out of **its** mate. The pairing is physical and it was
-fixed when the two halves were made, nine hundred and seventy-five years ago and
-more. You cannot re-point an anchor at a different one, any more than you can
-re-point one end of a corridor. Nobody has ever paired a new one.
+That single fact decides almost everything about the world you live in.
 
-So a door is not a technology anybody owns. It is a **place**, and there are
-only as many as the First Reach made.
+## They are married for life
 
-**What transit is like.** Instant, and almost disappointingly undramatic. You
-walk at the housing, the light changes, and you are somewhere with a different
-gravity and a different smell. The thing that takes the adjustment is not the
-crossing. It is that the people you were standing next to are now unreachable.
+A mouth is bound to its own mate and to nothing else, ever. You cannot re-point
+one. You cannot introduce an anchor to a different anchor and talk them into it.
+You cannot cut a pair in half and make two new routes out of the pieces; people
+have tried, with everything from arc furnaces to centuries of patience, and all
+they have ever produced is scrap and two dead mouths.
 
-**What failing looks like.** An anchor does not break cleanly. It goes
-*intermittent*: a transit that should take no time takes a moment you can feel,
-then a moment you can count, then it refuses. Between refusals it works
-perfectly, which is the cruel part, because a settlement will convince itself
-the bad day was the exception right up until the last one.
+So a door is not a technology anybody owns. It is a **marriage**, and there are
+only as many as the Reach made.
 
-A first-through can clean a housing, re-seat a coupling, re-balance the load and
-buy a door months. A first-through cannot build one, pair one, or bring one
-back once it has gone quiet for good.
+## Matter crosses. Nothing else does, and never will.
 
-**And the far half can die on its own.** If the mate fails, your end still
-stands there, powered, humming, perfect — and leads nowhere at all. We call that
-an orphan, and there are more of them every decade.
+Walk at the housing and you arrive. No tunnel, no transit time, no distance in
+any sense you could measure.
+
+Now put a radio against it and shout.
+
+**Nothing happens, and nothing ever can.** Entanglement by itself carries no
+information — that is not a limit of our instruments, it is a theorem, proved
+before the Reach launched and never dented since. The correlation is perfect and
+it cannot be used to *say* anything. Light still crawls, every signal still obeys
+it, and the door is no help at all.
+
+Which is the whole shape of human civilisation. There is no telemetry, no
+warning, no calling through, no listening in. If you want something known on the
+other side of a door, a person carries it, in their arms, one at a time. See
+[[What Crosses Easily]].
+
+It also means **no door has ever been eavesdropped on.** There is nothing to tap.
+A thing said at the Nine is known at the Nine, and arrives anywhere else in the
+company of whoever decided to walk it there.
+
+## What the crossing does to you
+
+The mouth does not move you. It takes what you are, holds it, and lays it down
+again at the mate — and the laying down is very good and not perfect. The error
+is small, it never comes out again, and it is why only the young can cross and
+where the knacks come from. See [[What a Crossing Does]].
+
+And it does not do any of this by itself. A door is not a door until a
+first-through is standing in it, holding the crossing open while it happens.
+
+## What a first-through can actually repair
+
+Housings foul. Collars creep. Load beds drift and start fighting themselves.
+Those are maintenance and a competent fifteen-year-old with a toolroll handles
+all three.
+
+What nobody can do is build one, pair one, re-point one, or persuade a mouth to
+be anywhere other than where the physics has put it — which brings us to
+[[Straying]].
