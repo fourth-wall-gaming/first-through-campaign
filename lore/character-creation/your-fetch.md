@@ -192,6 +192,21 @@ vote can go against you with no appeal. Divided they are slower and stupider and
 know it, and divide anyway, and a scatter that has split too often starts
 quietly forgetting things and blaming you for the gaps.
 
+## And they cross for free
+
+You have to be held through a door. A fetch does not — they are the complementary
+half of what the door does, and they cross in the wake of the opening at no cost
+to you whatever.
+
+Which means your fetch is not luggage and is not dependent on you in the way it
+first appears. **They are the only kind of person in human space who can move
+freely**, they have relatives and interests in four systems, and the five peoples
+between them are far better informed than any human government. See [[Carrying]].
+
+They still cannot open a door. That is the half they need you for, and it is the
+whole basis of the arrangement — but do not mistake it for helplessness, and do
+not be surprised when yours turns out to have known something for a fortnight.
+
 ## Partnering
 
 You do not choose a fetch off a list and they do not choose you for your

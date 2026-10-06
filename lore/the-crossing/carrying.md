@@ -78,6 +78,63 @@ They are the only thing standing between a hall and somebody's knife, and that i
 the most sympathetic thing about [[The Tally]] and the reason nobody has ever
 seriously proposed abolishing them.
 
+## Fetches are free, and that changes everything
+
+A human passenger has to be **held** through, and that is where the cost comes
+from. A fetch does not fight the door. They are the other half of what it does —
+see [[Your Fetch]] — and they cross in the wake of the opening, at no cost to
+anybody at all.
+
+A first-through can bring their fetch through a hundred times and be no more
+frayed than if they had gone alone a hundred times. Nobody has ever found a
+limit.
+
+**So fetches are the only people in human space who move freely**, and the
+consequences of that are larger than most humans have thought about.
+
+### They are better connected than we are
+
+A sixlimb at the Nine has cousins on four worlds and hears from all of them. The
+five peoples have diasporas threaded through every system on the Standing, and
+their news moves by the same couriers ours does except that it never has to be
+rationed, because a fetch riding along costs nothing.
+
+Human institutions are twenty-eight separate conversations that can barely hear
+each other. **The peoples are one conversation**, and it has been running for six
+hundred years, and almost nothing about it is written down anywhere a human has
+read.
+
+When a cairn tells you something is happening three doors away, do not ask how
+they know. You will be told, at length, and it will be a list of relatives.
+
+### They carry, at no charge
+
+Everything in [[What Crosses Easily]] gets cheaper when you notice this. A
+payload written into a fetch moves for free, forever, as often as anybody is
+willing to open a door.
+
+The entire information economy of the species rests on a courtesy: that the
+person carrying it agreed to.
+
+### Which is the dangerous part
+
+A fetch can be approached. They are people with their own agendas, their own
+money, their own families to get to, and they can be hired, persuaded, lied to or
+leaned on **entirely independently of whoever they are partnered with.**
+
+A fetch can be carrying something nobody asked them about. A fetch can be going
+somewhere for a reason that is theirs. Both of those are ordinary and neither is
+sinister, and that is exactly why the one time it *is* sinister nobody notices.
+
+There is no inspection that finds a payload in a genome. There is no manifest
+entry for what somebody is thinking about. The tallymen who are very good at
+stopping a knife coming through a door have never once stopped anything that
+mattered going through in a fetch, and they know it, and they have stopped
+pretending otherwise.
+
+**If you wanted to move something across human space without anybody seeing it,
+you would not use a courier. You would use a courier's friend.**
+
 ## Which makes you the weak link in every plot
 
 To reach anybody on another star — to negotiate with them, to save them, or to
