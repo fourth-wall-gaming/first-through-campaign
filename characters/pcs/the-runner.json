@@ -57,6 +57,7 @@
     {
       "name": "Life Support",
       "rule": "magic/power-life-support",
+      "knack": "KIT -- the pressure-skin",
       "boosts": [
         "Hard vacuum and hard cold, both (2 PP)"
       ],
@@ -65,16 +66,16 @@
       ]
     },
     {
-      "name": "Combat Expert",
-      "rule": "magic/power-combat-expert",
+      "name": "Enhanced Reactions",
+      "rule": "magic/power-enhanced-reactions",
+      "knack": "THE QUICK -- reflex past what a body should manage, and it surfaced early",
       "boosts": [],
-      "limits": [
-        "External Power Source -- the suit's limb assist, and it can be taken"
-      ]
+      "limits": []
     },
     {
       "name": "Durability",
       "rule": "magic/power-durability",
+      "knack": "THE SET -- you take what should break you and get up",
       "boosts": [],
       "limits": []
     }
@@ -98,7 +99,9 @@
     "pronouns": "they/them",
     "charge": "Power Points = POW 13; recovers 1 per minute of rest",
     "conditioning": "Durability is trained, not worn -- it does not go in the locker with the suit",
-    "pregen": true
+    "pregen": true,
+    "crossings": 34,
+    "fray": "Raise crossings by one for every transit. A knack deepens as it climbs and so does the damage; they are one process. Landlocked is a long way off at this count, and the player should be told that once."
   },
   "location": "myth-loc-71ceb7852898",
   "actor_notes": "A PLAYABLE PRE-GEN. If the player chose this one, it is theirs -- never voice it, never decide what it notices (TABLE.md section 5). If they chose another, this one stays in the world as a fellow first-through in the same intake, run as an NPC, and should turn up at the Nine between missions."

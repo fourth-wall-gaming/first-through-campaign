@@ -58,6 +58,7 @@
     {
       "name": "Life Support",
       "rule": "magic/power-life-support",
+      "knack": "KIT -- the pressure-skin",
       "boosts": [
         "A toxic atmosphere and heat, both (2 PP)"
       ],
@@ -66,16 +67,16 @@
       ]
     },
     {
-      "name": "Enhanced Reactions",
-      "rule": "magic/power-enhanced-reactions",
+      "name": "Heightened Sense",
+      "rule": "magic/power-heightened-sense",
+      "knack": "THE READ -- you see what people are doing and about to do. Rare, resented, hard to live with.",
       "boosts": [],
-      "limits": [
-        "External Power Source -- the suit's neural tap, and it can be taken"
-      ]
+      "limits": []
     },
     {
       "name": "Lucky",
       "rule": "magic/power-lucky",
+      "knack": "Yours, not the suit's. It survives the locker.",
       "boosts": [],
       "limits": []
     }
@@ -99,7 +100,9 @@
     "pronouns": "they/them",
     "charge": "Power Points = POW 13; recovers 1 per minute of rest",
     "conditioning": "Lucky is theirs, not the suit's -- it survives the locker",
-    "pregen": true
+    "pregen": true,
+    "crossings": 18,
+    "fray": "Raise crossings by one for every transit. A knack deepens as it climbs and so does the damage; they are one process. Landlocked is a long way off at this count, and the player should be told that once."
   },
   "location": "myth-loc-71ceb7852898",
   "actor_notes": "A PLAYABLE PRE-GEN. If the player chose this one, it is theirs -- never voice it, never decide what it notices (TABLE.md section 5). If they chose another, this one stays in the world as a fellow first-through in the same intake, run as an NPC, and should turn up at the Nine between missions."

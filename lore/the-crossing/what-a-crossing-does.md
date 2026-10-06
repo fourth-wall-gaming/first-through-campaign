@@ -41,6 +41,16 @@ The numbers everybody knows, and every parent on the Causeway can recite:
 crosses twice a week is frayed at nineteen and a planet-bound child is clean at
 nineteen. The best first-throughs burn out soonest. Everybody knows this too.
 
+## And nothing goes through without one
+
+The fraying is not a side effect of travelling. It is the price of **opening**.
+
+A door does nothing on its own, and it will not work for somebody who cannot take
+it. A first-through holds the crossing open while it happens, and the holding is
+what writes the error into them. That is why a landlocked adult cannot simply be
+walked through by somebody else, and why the whole species moves at the speed of
+its children.
+
 ## Landlocked
 
 The day you can no longer cross, you are **landlocked**, and you are landlocked

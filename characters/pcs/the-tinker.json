@@ -59,6 +59,7 @@
     {
       "name": "Life Support",
       "rule": "magic/power-life-support",
+      "knack": "KIT -- the pressure-skin",
       "boosts": [
         "Hard vacuum and hard radiation, both (2 PP)"
       ],
@@ -69,18 +70,16 @@
     {
       "name": "Savant",
       "rule": "magic/power-savant",
+      "knack": "THE KNOWING -- you understand a mechanism by touching it (Mechanisms, Engineering, Craft)",
       "boosts": [],
-      "limits": [
-        "External Power Source -- the toolroll, and it can be taken"
-      ]
+      "limits": []
     },
     {
       "name": "Heightened Sense",
       "rule": "magic/power-heightened-sense",
+      "knack": "THE LISTEN -- something of the far side reaches you before you step through. Never a picture.",
       "boosts": [],
-      "limits": [
-        "External Power Source -- the sensor hood, and it can be taken"
-      ]
+      "limits": []
     }
   ],
   "equipment": [
@@ -103,7 +102,9 @@
     "pronouns": "they/them",
     "charge": "Power Points = POW 13; recovers 1 per minute of rest",
     "savant_skills": "Mechanisms, Engineering, Craft (Pressure Fitting) -- the INT three",
-    "pregen": true
+    "pregen": true,
+    "crossings": 21,
+    "fray": "Raise crossings by one for every transit. A knack deepens as it climbs and so does the damage; they are one process. Landlocked is a long way off at this count, and the player should be told that once."
   },
   "location": "myth-loc-71ceb7852898",
   "actor_notes": "A PLAYABLE PRE-GEN. If the player chose this one, it is theirs -- never voice it, never decide what it notices (TABLE.md section 5). If they chose another, this one stays in the world as a fellow first-through in the same intake, run as an NPC, and should turn up at the Nine between missions."
