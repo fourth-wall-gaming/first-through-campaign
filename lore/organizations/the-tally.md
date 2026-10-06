@@ -32,6 +32,11 @@ twenty-eight systems that cannot agree on anything else.
 They are not the villains of this campaign. They are the traffic authority, and
 most of them would be insulted to be told otherwise.
 
+**And the manifest is not paperwork.** Since one carried passenger is the only
+way force reaches between stars (see [[Carrying]]), a tallyman asking who you are
+bringing through is the single thing standing between that hall and somebody's
+knife. They are slow about it on purpose. They have earned the right to be.
+
 **What a tallyman carries, and why it matters.** A shock baton, restraint loops,
 and a reader. Not a rifle. Not a blade. The Tally does not arm its people to
 kill, and the reason is not kindness — it is bookkeeping.

@@ -115,13 +115,13 @@ way and paid for it out of themselves.
 
 ### Passengers
 
-A first-through can take somebody with them. It is much harder than going alone
-and it costs more.
+A first-through can take somebody through with them -- one person, in contact,
+and it takes minutes rather than seconds.
 
-Another young person will survive it. **An adult very probably will not** -- it
-is close enough to murder that both parties say so out loud before they do it,
-and it is done perhaps twice in a generation, for reasons that get written down
-and argued about for centuries afterwards.
+The cost falls on the carrier, not the carried, and it is heavy. It is also the
+reason envoys are rare, assassination is the only way anybody reaches across
+stars, and every conspiracy in human space needs a child who will agree to it.
+See [[Carrying]].
 
 ### What that actually means
 
