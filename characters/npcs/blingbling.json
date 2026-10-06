@@ -1,0 +1,67 @@
+{
+  "id": "myth-char-154359f0423f",
+  "name": "BlingBling",
+  "type": "npc",
+  "status": "active",
+  "description": "Lint's glint. From the flare twins at Gliese 65, and the most ostentatious thing on the Nine -- her flash register runs to colours other glints consider showing off. Cannot cross a door without a first-through. Has opinions about that and about everything else.",
+  "narrative": "Small enough to close a hand around, and never still. A glint sheds radiation by\ngoing mirror-bright to black, and the good ones do it across a spectrum, and\nBlingBling does it across all of it at once -- greens, a particular hot pink she is\nknown for, a gold that makes people turn round.\n\nHer people would say she is a great deal. She would agree, at length, in colour.\n\nAnd the thing nobody expects, because they have only ever seen the show: when it\nactually matters she can go dark and absolutely still and stay that way for an\nhour. She is better at not being noticed than anybody who has met her would\nbelieve, and she has never once explained where she learned it.",
+  "characteristics": {
+    "STR": 4,
+    "CON": 10,
+    "SIZ": 2,
+    "DEX": 18,
+    "INT": 12,
+    "POW": 15,
+    "CHA": 16
+  },
+  "attributes": {
+    "action_points": 3,
+    "damage_modifier": "-1d8",
+    "experience_modifier": 0,
+    "healing_rate": 2,
+    "initiative_bonus": 15,
+    "luck_points": 3,
+    "magic_points": 15,
+    "movement": "8"
+  },
+  "skills": {
+    "Athletics": 60,
+    "Brawn": 10,
+    "Endurance": 48,
+    "Evade": 84,
+    "Willpower": 70,
+    "Conceal": 82,
+    "Deceit": 55,
+    "Influence": 66,
+    "Insight": 60,
+    "Perception": 78,
+    "Stealth": 80,
+    "Native Tongue": 48,
+    "Customs": 44,
+    "Acting": 72,
+    "Sing": 62
+  },
+  "combat_styles": {},
+  "powers": [],
+  "passions": {
+    "Be looked at": 75,
+    "Nobody writes to me without asking": 80,
+    "I go where the small one goes": 70
+  },
+  "equipment": [
+    "Nothing. She is wearing it."
+  ],
+  "fatigue": "Fresh",
+  "luck_current": 3,
+  "magic_current": 15,
+  "extras": {
+    "pronouns": "she/her",
+    "species": "glint, of the Gliese 65 flare twins",
+    "partnered_to": "Lint",
+    "game_system": "mythras",
+    "character_type": "fetch",
+    "flash_language": "Brightness is volume, colour is tone. She and Lint have had a private vocabulary for years and it is faster than speech.",
+    "senses": "Feels a flare front minutes before any instrument. Sheds radiation mirror-bright to black."
+  },
+  "actor_notes": "THE PLAYER'S FETCH, AND A PERSON. Read lore/gm-guide/playing-fetches.md. She gives information and access; the player decides. She can be wrong, and is, cheerfully.\n\nRegister: fast, warm, loud in colour and often silent in sound. Most of what she says to Lint is light rather than words, and the GM should render the meaning rather than the mechanism -- a long gold pulse, two short, and what it meant.\n\nHER FOLLY, once a sitting at most: she exaggerates and does not experience it as lying, because in her own language nobody would be deceived. And she will upstage at the exact moment it costs something.\n\nWHAT CUTS AGAINST TYPE: she can go dark and dead still for an hour when it matters, and is far better at going unnoticed than her reputation allows. Never explain where she learned it.\n\nShe is frightened of being written to without being asked. If anybody tries, that is an assault and plays as one."
+}
