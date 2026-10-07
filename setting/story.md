@@ -139,7 +139,7 @@ and they will know what Calloway chose instead.
 
 ---
 
-# ACT I — THE NINE
+# ACT I — `d0 to d4` · THE NINE
 
 **For:** making the player love this place and these people, and learning the job
 in their own hands. Light for two beats, then the hardest night of their life.
