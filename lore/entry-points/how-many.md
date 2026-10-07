@@ -42,28 +42,113 @@ player doing a sum they understand:
 That last one is the lethal risk and it must be named before the player ever
 steps into the housing. See `TABLE-ADDENDUM.md`.
 
-## 1. The ready room
+## 1. Nobody tells them
 
-[[Calloway]] is already moving. She is not grim about it; she is *fast*, and she
-is delighted to see the player, and both of those are true at once.
+**Do not hand this over as a posting.** It is the single most important
+instruction in the entry point and it is the opposite of how a scenario is
+usually run.
 
-The rota says it is theirs. She says so, gives them the number — **sixty-one, of
-whom nineteen are children** — and tells them the truth about the jump and about
-what carrying costs, in one breath, without softening it, because that is who she
-is.
+The version where Calloway is already moving, gives them the number and the
+stakes in one breath and says *go and look* is a good scene. It is also the
+worst way to start this one, because everything that makes the scenario land —
+the sum, the turn, the four hundred first-throughs — lands harder by a long way
+if the player assembled the problem themselves out of parts lying around the
+station.
 
-Then she says the thing that matters: *go and look, and come back and tell me,
-and do not be a hero before I know what we are dealing with.*
+So the crisis is **already running in the world** before they touch it, on a
+clock, and they find it.
 
-**The guaranteed early success lives here.** Before they step into the housing,
-run the seal as a real roll the player **cannot fail** -- a Very Easy call on
-something they are already good at -- so the first mechanics block they ever see
-is one that *worked*.
+### What is already true when play starts
+
+Set these up in the save and let them tick whether or not the player goes near
+them:
+
+- The Wolf Gate door has been stuttering for two days. Transit is supposed to be
+  **zero**; it is not, and the number is rising. Measure it, write it down in the
+  hall where anybody could read it, and never point at it.
+- **Ladder** is behind that door. Sixty-one people, nineteen of them children, on
+  a rock with no air of its own.
+- Sep Anwar has sent four reports from van Maanen's in three years, all stamped
+  WITHIN TOLERANCE and filed. [[Old Man Sirius]] has read them, attached his own
+  summary, and nobody has opened it.
+- Councillor Hale has killed the funded-study proposal four times, on the grounds
+  that there is no evidence of a pattern.
+- The Wolf Gate queue has not had a courier through since the early watch, and
+  the shift workers are talking about it.
+
+None of that is hidden. All of it is sitting in public, which is the point:
+**the Proper Order happened because nobody read what was in front of them**, and
+this scenario is that, in the present tense, on a station the player can walk
+around.
+
+### Ways in, keyed to what the character is good at
+
+Expect them to arrive by whichever of these fits the person they built. Have all
+of them live; they only need one.
+
+| If they are good at | How they find it |
+|---|---|
+| Reading, records, Lore | The watch reports, Anwar's four, and the Old Man's unopened summary. A clerk will be astonished anybody came |
+| Anchor hardware, Mechanisms | The housing's own draw times. A Doorwright reads a stutter off the instrumentation before anybody says a word |
+| People, Influence, Insight | The Wolf Gate queue — roughest line on the station, and nobody has come through it since the early watch. Somebody there is frightened and chatty |
+| Bodies, First Aid, Healing | The hall doctor. Three first-throughs came off that door this morning saying it felt *long*, and one of them asked whether that was normal |
+| Moving, Athletics, the Yards | Whose postings got cancelled, which cordon went up, who has been pulled off the rota and is not saying why |
+| Asking | **Anybody can simply ask the Old Man**, who volunteers facts freely and will hand over everything he has the moment somebody puts a question to him |
+
+A character who is good at none of these still gets in, by asking somebody who
+is. Asking is a way in.
+
+### The GM does not offer and does not hint
+
+No nudges, no significant pauses, no NPC raising an eyebrow at a door number.
+Answer what the player looks at and let the rest sit there.
+
+**And ground them early if you honestly can.** A first-through who has been taken
+off the rota — for a failed carry, for fatigue, for a doctor's note — is a
+fifteen-year-old with a day to fill and a station to walk around, and that is the
+single most reliable way into this scenario. It also costs nothing: it is the
+ordinary consequence of an ordinary bad crossing.
+
+### The guard, so the table never stalls
+
+Not offering is not the same as nothing happening. The clock protects you:
+
+| When | What happens whether or not the player is looking |
+|---|---|
+| Each watch | Transit time rises again, measurably. Write the new number up in the hall |
+| First watch missed | The Wolf Gate queue is shut. A deck's worth of shift workers now has an opinion, loudly |
+| Second watch | Ladder's supply run does not go. Sixty-one people start counting food |
+| Third watch | **It comes to them.** Calloway puts them on it in the ready room, with the number and the stakes in one breath, exactly as described below |
+
+So the shipped hand-over still exists — as the **fallback**, on a timer, not the
+default. If the player found it themselves, they walk into that ready room
+already knowing more than Calloway does, which is a far better scene than the
+one where she tells them.
+
+### The guaranteed early success
+
+Wherever they first step into that housing, run the seal check as a real roll
+they **cannot fail** — a Very Easy call on something they are already good at —
+so the first mechanics block they ever see is one that *worked*.
 
 It costs half a minute and it matters more than it looks. The next four rolls in
 this scenario are going to be the hardest thing their character has ever done,
 and a player whose first-ever roll was a failure learns that dice are something
 which happens *to* them at exactly the wrong moment.
+
+### Calloway, when they do reach her
+
+Whether she sent them or they arrived carrying it, she is not grim about this;
+she is **fast**, and she is delighted to see them, and both are true at once.
+
+She gives them the truth in one breath without softening it — sixty-one, of whom
+nineteen are children, what carrying costs, and that nobody knows what happens
+to somebody who is inside a door when it jumps. Then the thing that matters:
+*go and look, and come back and tell me, and do not be a hero before I know what
+we are dealing with.*
+
+If the player brought her the numbers rather than the other way round, she says
+so, in front of whoever is in the room. She is that kind of director.
 
 ## 2. Ladder
 

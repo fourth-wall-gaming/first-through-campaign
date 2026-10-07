@@ -72,26 +72,66 @@ gm import-campaign --path "${CLAUDE_PLUGIN_ROOT}" --new-ids
 
 Note the campaign id it returns; everything after this uses it.
 
-## 6. The opener is light, and the hard thing comes on day two
+## 6. The opener is light, and nobody is told there is a crisis
 
-**Do not open on the emergency.** The first session is a morning in a ready room:
-a kettle argument, somebody's fetch being impossible, Calloway pleased to see
-them, one short crossing that works. The player learns the job by doing it while
-nothing is wrong, and learns the setting by living in it for an hour.
+Two rules, and they are the two that decide whether this campaign is any good.
 
-The hard one is `how-many` (`lore/entry-points/how-many.md`) and it arrives on
-**d1**, after the light beats have landed: a door at the Nine starts stuttering,
-sixty-one people are behind it, nineteen of them children, and adults cannot be
-carried. Pitch it then, in two sentences, and not before:
+### Rule one: the first day is social, and it is not throat-clearing
 
-> *A door at the Nine has started stuttering, which means it is going to move.
-> There are sixty-one people on the far side of it and nineteen of them are
-> children, and you are the only person on this station who can bring anybody
-> back.*
+A morning in the ready room — a kettle argument, somebody's fetch being
+impossible, Calloway pleased to see them — then one short crossing that works,
+then a game of sling in the gallery void. Nothing is wrong. Nobody is in danger.
 
-Act I's beats are already staged in the save in that order. Run `gm list-beats`
-and follow them; do not reach for `how-many` early because the table has gone
-quiet.
+The player learns the job by doing it while it works, and learns the setting by
+living in it for an hour, and meets five people.
+
+**Those five people are load-bearing.** Every relationship made on the quiet day
+is structural later: the kid who keeps the board, the deck engineer who controls
+which shutters open, the fathom nobody talks to, the nineteen-year-old who is
+better than you, the twenty-one-year-old who is nearly finished. Do not rush
+this to get to the plot. This *is* the plot, arriving early and in disguise.
+
+### Rule two: do not hand over the emergency
+
+The crisis — `how-many` — is **already running
+in the world** on a clock before the player touches it, and **they find it.**
+
+Read `lore/entry-points/how-many.md` section 1 and
+`lore/gm-guide/running-a-staged-crisis.md` before you run any of it. The short
+version:
+
+- Stage the beats on the clock with `add-beat --when`, and `tick` the world
+  whether or not the party is present.
+- Put every piece of evidence in **public** — a number on a board in the hall, an
+  unopened file in a records office, a frightened shift worker in a queue.
+  Nothing hidden, nothing gated behind a roll.
+- Several ways in, keyed to what the character is actually good at. Reading,
+  anchor hardware, people, bodies, moving, or simply **asking the Old Man**, who
+  hands over every fact he has the moment somebody puts a question to him.
+- **Then do not point at it.** No nudges, no significant pauses, no NPC raising
+  an eyebrow at a door number. Answer what they look at.
+
+### Ground them early. It is the best move available to you.
+
+If the player's first crossing goes badly — and the first one often does — take
+them off the rota for a day or three. Not as a punishment: it is what any
+director who has lost people does without being asked.
+
+A first-through with a day to fill and a station to walk around is the single
+most reliable way into this scenario, and everything they find that way is
+something they chose to look at.
+
+### And the clock stops the table stalling
+
+Refusing to offer is not the same as nothing happening. `how-many` section 1
+carries the escalation ladder: the transit time rises every watch, the queue
+shuts, Ladder's supply run fails, and at the bottom of the timer **it comes to
+them** — Calloway puts them on it in the ready room with the number and the
+stakes in one breath.
+
+So the hand-over scene still exists. It is the fallback, not the default. And if
+the player got there first, they walk into that room already knowing more than
+Calloway does, which is a much better scene than the one where she tells them.
 
 ## 7. Build a character — three stages, out loud
 
