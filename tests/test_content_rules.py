@@ -444,6 +444,11 @@ BANNED_IN_PROSE = [
     "arithmetic", "the calculus of", "the math of", "the ledger of it",
     "wallpaper", "nobody has ever asked me that", "cost her something to say",
     "tilts her head", "lets the silence do the work",
+    # Used twice in one session, two hours apart, for two different creatures.
+    # The guard only scans shipped files and cannot see live narration, which is
+    # where these actually land -- but banning it here at least stops it reaching
+    # the worldbook.
+    "pretending to be furniture",
 ]
 
 
