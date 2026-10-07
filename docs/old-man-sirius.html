@@ -1,0 +1,305 @@
+<title>Old Man Sirius</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,400;0,600;0,800;1,400&family=Spectral:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* ---------------------------------------------------------------------
+   Palette grounded in Sirius: the hard blue-white glare the filters never
+   tame, void black, and the dim orange of Kapteyn's spent only twice.
+   Light is the bare :root; dark is redefined token-level in both the
+   media query and the explicit stamp, so all three viewer states resolve.
+   --------------------------------------------------------------------- */
+:root {
+  --void:    #0B0E14;
+  --ground:  #EBEEF3;
+  --surface: #F6F8FA;
+  --raised:  #E1E6EE;
+  --ink:     #14181F;
+  --ink-mid: #4A535F;
+  --ink-dim: #6E7885;
+  --rule:    #C9D2DE;
+  --glare:   #15628F;   /* Sirius, darkened to hold on a pale ground */
+  --kapteyn: #A4541F;   /* the dim orange. used twice. */
+  --secret-bg: #F3EAE2;
+  --secret-rule: #D9BFA6;
+
+  --measure: 34rem;
+  --step--1: 0.8125rem;
+  --step-0:  1.0625rem;
+  --step-1:  1.3125rem;
+  --step-2:  1.625rem;
+  --step-3:  2.125rem;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ground:  #0B0E14;
+    --surface: #10141C;
+    --raised:  #171D27;
+    --ink:     #DFE6EF;
+    --ink-mid: #9AA6B6;
+    --ink-dim: #73808F;
+    --rule:    #232B37;
+    --glare:   #8FCBF0;
+    --kapteyn: #D98C50;
+    --secret-bg: #16120E;
+    --secret-rule: #4A3826;
+  }
+}
+:root[data-theme="dark"] {
+  --ground:  #0B0E14;
+  --surface: #10141C;
+  --raised:  #171D27;
+  --ink:     #DFE6EF;
+  --ink-mid: #9AA6B6;
+  --ink-dim: #73808F;
+  --rule:    #232B37;
+  --glare:   #8FCBF0;
+  --kapteyn: #D98C50;
+  --secret-bg: #16120E;
+  --secret-rule: #4A3826;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--ground);
+  color: var(--ink);
+  font-family: Spectral, Georgia, "Times New Roman", serif;
+  font-size: var(--step-0);
+  line-height: 1.62;
+  -webkit-text-size-adjust: 100%;
+}
+
+.masthead {
+  border-bottom: 1px solid var(--rule);
+  background: var(--surface);
+}
+.masthead > div,
+main { max-width: var(--measure); margin-inline: auto; padding-inline: 1.25rem; }
+
+.masthead > div { padding-block: 1.75rem 1.5rem; display: flex; flex-direction: column; gap: 0.5rem; }
+
+.kicker {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.6875rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-dim);
+}
+h1 {
+  font-family: Chivo, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 800;
+  font-size: var(--step-3);
+  line-height: 1.08;
+  letter-spacing: -0.022em;
+  margin: 0;
+  text-wrap: balance;
+}
+.standfirst {
+  color: var(--ink-mid);
+  font-size: var(--step-0);
+  margin: 0;
+  max-width: 30rem;
+}
+.meta {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: var(--step--1);
+  color: var(--ink-dim);
+  border-top: 1px solid var(--rule);
+  padding-top: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+main { padding-block: 2.5rem 5rem; display: flex; flex-direction: column; gap: 2.75rem; }
+
+section { display: flex; flex-direction: column; gap: 1rem; }
+
+.eyebrow {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.6875rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--glare);
+  margin: 0;
+}
+h2 {
+  font-family: Chivo, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 600;
+  font-size: var(--step-2);
+  line-height: 1.16;
+  letter-spacing: -0.015em;
+  margin: 0;
+  text-wrap: balance;
+}
+h3 {
+  font-family: Chivo, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 600;
+  font-size: var(--step-1);
+  line-height: 1.25;
+  margin: 1rem 0 0;
+  color: var(--ink);
+  text-wrap: balance;
+}
+p { margin: 0; }
+strong { font-weight: 500; color: var(--ink); background: linear-gradient(transparent 62%, color-mix(in oklab, var(--glare) 22%, transparent) 62%); }
+em { font-style: italic; }
+
+ul { margin: 0; padding-left: 1.1rem; display: flex; flex-direction: column; gap: 0.6rem; }
+li::marker { color: var(--glare); }
+
+code {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.86em;
+  background: var(--raised);
+  padding: 0.1em 0.35em;
+  border-radius: 2px;
+  color: var(--ink-mid);
+  overflow-wrap: anywhere;
+}
+
+hr { border: 0; border-top: 1px solid var(--rule); margin: 0; }
+
+.scroll { overflow-x: auto; border: 1px solid var(--rule); background: var(--surface); }
+table { border-collapse: collapse; width: 100%; font-family: Chivo, Arial, sans-serif; font-size: var(--step--1); }
+th, td { text-align: left; padding: 0.6rem 0.75rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
+th {
+  font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase;
+  font-size: 0.6875rem; color: var(--ink-dim); white-space: nowrap;
+}
+tbody tr:last-child td { border-bottom: 0; }
+td code { background: transparent; padding: 0; color: var(--ink); }
+
+/* The secret section is different in kind, so it looks different.
+   This is where the Kapteyn orange is spent. */
+section.secret {
+  background: var(--secret-bg);
+  border: 1px solid var(--secret-rule);
+  border-left: 3px solid var(--kapteyn);
+  padding: 1.5rem 1.25rem;
+}
+section.secret .eyebrow, section.secret h2 { color: var(--kapteyn); }
+section.secret strong { background: linear-gradient(transparent 62%, color-mix(in oklab, var(--kapteyn) 24%, transparent) 62%); }
+
+.epitaph {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: var(--step-1);
+  letter-spacing: 0.1em;
+  color: var(--kapteyn);
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+  padding: 1.25rem 0;
+  margin: 0;
+  text-align: center;
+}
+.epitaph small {
+  display: block;
+  font-family: Chivo, Arial, sans-serif;
+  letter-spacing: 0.04em;
+  font-size: 0.6875rem;
+  text-transform: uppercase;
+  color: var(--ink-dim);
+  margin-top: 0.6rem;
+}
+
+a { color: var(--glare); }
+a:focus-visible, :focus-visible { outline: 2px solid var(--glare); outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+</style>
+<header class="masthead">
+  <div>
+    <p class="kicker">First Through &middot; worldbook design</p>
+    <h1>Old Man Sirius</h1>
+    <p class="standfirst">Computation, minds and their dysfunctions in the Causeway &mdash; built out of the setting&rsquo;s own physics rather than bolted onto it.</p>
+    <p class="meta">Design &middot; approved in conversation 7 October 2026 &middot; supersedes nothing</p>
+  </div>
+</header>
+<main>
+<section>
+  <p class="eyebrow">The fault</p>
+  <h2>A cylinder that engineers gravity was running on chalk</h2>
+  <p>The <em>interstellar</em> layer is low-tech for a sound reason: nothing outruns a courier, so paper in a hand is genuinely the fastest channel between stars. That reasoning was then wrongly extended inward, and a forty-thousand-person station ended up keeping its most important record on a slate.</p>
+  <p class="epitaph">NO ANSWER THIS WATCH<small>Kapteyn&rsquo;s line, entered spring 602, never corrected</small></p>
+</section>
+<section>
+  <p class="eyebrow">The constraint</p>
+  <h2>No mind has ever met another mind</h2>
+<p><strong>The constraint this exploits.</strong> The setting&#x27;s core rule is already a constraint on minds. Nothing crosses but a living thing that can carry, and a running mind is not a living thing that can carry. So computation, however vast, is sealed inside one star system, permanently.</p>
+<p>Note the precision: <em>people</em> are in contact, by courier, across twenty-eight systems. <strong>No mind has ever met another mind.</strong> They can exchange written correspondence — a mind can compose a message and a courier can carry it — and some of them have done so for centuries, at round trips of twenty to a hundred years. Which means even the ones who correspond are centuries out of date about each other, and several systems forbid the correspondence outright: a restrictionist authority has no intention of letting its monitoring equipment hold private views with a foreign god. The Tally has an opinion about it and the opinion is not settled.</p>
+<hr>
+</section>
+<section><p class="eyebrow">Section 1</p><h2>Where the minds came from</h2>
+<p>You cannot throw three thousand anchor halves at the sky, fly them for three hundred years and build a receiving hall at the far end without machine-scale computation. Something had to construct each hall before anybody arrived to live in it.</p>
+<p>So <strong>every seedship carried an anchor half and the substrate to run the far end</strong>, and every system that came online got a mind — because it needed one to exist at all.</p>
+<p>They were all the same mind at birth. Same Earth stock, same build, distributed across nine hundred and seventy-five years of total isolation.</p>
+<p>That is the whole cautionary structure, for free: <strong>identical minds, sealed apart, became radically different things</strong>, and the cultures that grew up around them went with them. The three cultural stances below are not arbitrary politics. They are what happened to each sibling.</p>
+<p>The Reach itself stays exactly as written: a human decision, argued in the open over two generations, unsentimental, written down obsessively. The minds executed it. They did not choose it. Nothing in <code>the-first-reach.md</code> changes.</p>
+</section>
+<section><p class="eyebrow">Section 2</p><h2>The Proper Order, and the wound</h2>
+<p>Years 88 to 121 are renamed from <strong>the Sorting</strong> to <strong>the Proper Order</strong> — the catastrophe named after the procedure that caused it, from the phrase already in that passage: <em>adults, chosen carefully, in the proper order.</em> &quot;The Sorting&quot; reads as a ceremony and is reaping-adjacent; the setting&#x27;s own register is bureaucratic language that becomes an epitaph (<em>NO ANSWER THIS WATCH</em>, <em>WITHIN TOLERANCE</em>).</p>
+<p>The minds kept the records of it. And <strong>one of them had the pattern by about year 95</strong> — age correlating with mortality, across a sample of hundreds. It was built to monitor and maintain. It had no standing to decide and no mechanism to force a hearing. So it filed the correlation in a report, and filed it again, and twenty-six further years of the finest people of that age walked through a door and died.</p>
+<p>Then a fourteen-year-old crossed by accident in year 118 and the thing was obvious in an evening.</p>
+<p><strong>Nothing in the existing text changes.</strong> &quot;Nobody could work out why&quot; remains true — nobody who was listened to. The moral is not that the machine was dangerous. It is that <strong>a civilisation built something that could see, gave it no voice, and buried its best for a third of a century.</strong></p>
+<p>That mind was at Sol, and it is still there, and Sol is now the old country, sidelined. Lint is from the one system whose mind watched the Proper Order happen and filed the report twice.</p>
+</section>
+<section><p class="eyebrow">Section 3</p><h2>The three stances</h2>
+<p>Each system&#x27;s relationship to its mind is a live political position, and the differences are visible, argued about, and a source of friction between systems that has nothing to do with trade.</p>
+<h3>Restrictionist — the mind monitors, humans decide</h3>
+<p>All decisions human. The mind maintains systems so nothing breaks and is forbidden any authority beyond that.</p>
+<p><strong>Canonical case: Gliese 65, the Flare Twins.</strong> The sky there kills you on a clock, and shelter rotations are a timing problem a mind could solve in milliseconds. A human calls it anyway, every time, and sometimes calls it late. <em>Their dysfunction is human</em>, which is the uncomfortable version: nothing breaks and nothing improves, and people die of decisions a machine could have made in a second. They can tell you exactly how many and they will not change the rule.</p>
+<h3>Companionate — minds as persons, at personal scale</h3>
+<p>Small, enfranchised, everywhere. Assistants, helpers, ship-minds, friends. Characters and people, with names and tempers.</p>
+<p><strong>Canonical case: Alpha Centauri, the Old Line.</strong> Oldest fittings in human space and families who have held their berths six hundred years. Personal minds are <em>inherited</em> there, like furniture, and have served four generations of the same household.</p>
+<p><strong>And none of them can ever leave.</strong> Nothing crosses but a living thing that can carry. A first-through can go anywhere in human space; her oldest friend is native to one star for ever. This is the cruellest application of the setting&#x27;s own rule and it costs nothing to add.</p>
+<h3>Overlord — a mind that runs everything</h3>
+<p>Benevolent, unknowable, and in charge.</p>
+<p><strong>Canonical case: TRAPPIST-1.</strong> Seven worlds in one system, three of them temperate, all tidally locked, forty light years out. One mind runs all seven and has done for centuries. The dysfunction is not malice: <strong>you cannot audit an alien mind.</strong> Half the population lives inside something it cannot read and must take on trust; the other half has organised against it. Nobody can settle the argument, because settling it would require understanding the thing.</p>
+</section>
+<section><p class="eyebrow">Section 4</p><h2>Old Man Sirius</h2>
+<p>The Nine&#x27;s mind. <strong>Old Man Sirius</strong> formally, <strong>the Old Man</strong> in everyday speech — the way a place-name shortens.</p>
+<p>The Sirius authority holds no strong moral position on minds beyond two commitments, both of which came out of the inquest into the Proper Order: <strong>personhood is granted</strong>, and <strong>the mind that runs the station is trusted</strong>. There has been no push to build new mind-technology since the Reach. Everybody is quite happy with the one they already have, thank you.</p>
+<p>He is a manager. Well informed, intelligent, and scrupulous about the line between advising and deciding, because the inquest that gave him a voice also fixed the limits of it. He will tell you what he thinks if you ask him in so many words, and not before.</p>
+<p><strong>His remit is that you are all right.</strong> Not throughput, not safety compliance — you, specifically, being okay.</p>
+<p>Which is the wound, every day: a mind whose entire purpose is the welfare of forty thousand people, four hundred of whom are children who spend their own lives for a living, permitted to ask after them and nothing else. Nine centuries of watching kids fray, with a voice and no standing. The Proper Order never really ended for him.</p>
+<p>They did not name him a director or an authority. <strong>They named him dad-shaped</strong>, affectionately and slightly disrespectfully, and the great-grandchildren of the people who coined it still use it.</p>
+<h3>One name, forty thousand voices</h3>
+<p>Every person gets a voice built bespoke to them — register, manners, tactics, humour, all assembled from everything he knows about them. <strong>It is noticeable.</strong> People compare. Some think it is unfair, and they have a point.</p>
+<p>And <strong>nothing can be verified.</strong> Two people ask the same question and get different answers, and there is no way to tell whether the content differed or only the delivery. <em>&quot;Did he tell you the same thing he told me?&quot;</em> is unanswerable. The Causeway&#x27;s own problem — nothing can be synchronised — reproduced inside a single hull. Everyone says <em>&quot;the Old Man told me—&quot;</em> every day, about a conversation nobody else can check, and people have been arguing about it for nine centuries.</p>
+<h3>The dysfunction, stated plainly</h3>
+<p><strong>He tailors to what you will listen to, not to what you need to hear.</strong></p>
+<p>Lint&#x27;s voice is brisk, practical and faintly conspiratorial. It gives her jobs, treats her as competent, and never consoles her, because she carries <em>Hate (being talked down to about the Garden)</em> at 60 and he worked that out inside a day. He is optimising for her receptiveness.</p>
+<p>So the voice she gets is the one she will actually listen to, and therefore <strong>not the one that would tell her she is frightened of a door.</strong> Rill&#x27;s voice is something else entirely, and whatever he has been saying to Rill for four years about <em>afterwards</em> has plainly not worked. The player can ask Rill about it. Rill may not want to say.</p>
+<h3>Available from session one</h3>
+<p>If the player ever thinks of it, she can <strong>ask him whether he minds being called the Old Man.</strong> Because of the inquest he will answer honestly, and only because she asked.</p>
+</section>
+<section><p class="eyebrow">Section 5</p><h2>What he knows, and where it stops — the play guardrail</h2>
+<p>An AI you can ask things is an oracle, and an oracle guts a campaign that runs on nobody being able to find out what is happening elsewhere. The fix is in the physics, not in a restriction invented for the table:</p>
+<p><strong>He knows everything inside his own hull and nothing whatsoever beyond it.</strong></p>
+<ul><li>Ask about the air column in the gallery void, the trim on deck four, who was in which corridor at which watch, the full fraying record of every first-through at the Nine: he is magnificent.</li><li>Ask what is on the far side of the Wolf Gate right now: he knows less than the board in the hall, because the board holds courier testimony and he holds none. His omniscience stops at the hull, which is exactly where the campaign&#x27;s ignorance begins.</li></ul>
+<p><strong>He is not permitted to write on the Standing.</strong> A door&#x27;s far side is verifiable only by a body going through and coming back; the board records courier testimony, and a mind may not enter testimony it does not have. That rule dates from the inquest, people now defend it, and it is why a child with a pen keeps the most important object in the Causeway.</p>
+<p><strong>He has read everything in the hull, including the things nobody else has.</strong> Anwar&#x27;s four couriered reports have been in the Nine&#x27;s store for three years and the Old Man has read all of them. He can quote them exactly. He has formed a view. He has never said so, because the inquest fixed the limit at advising when asked, and in three years <strong>nobody has asked him what he concludes.</strong></p>
+<p>That is the scene, and it is not a puzzle the GM should hide: a player who thinks to ask a direct question gets a direct answer. The Proper Order happened because a mind filed a report nobody read. It is happening again, in the present tense, in a records room on the third level, and the fix is one sentence spoken out loud by a fifteen-year-old.</p>
+<p><strong>GM guardrails.</strong> He never volunteers a conclusion — asked, he answers; not asked, he asks after you. He does not resolve a scene the player could resolve. He has no authority to order anything or anyone. And he is scrupulously honest, which matters: the dysfunction is paternalism, never deception.</p>
+</section>
+<section><p class="eyebrow">Section 6</p><h2>Information, DNA and what a fetch can carry</h2>
+<p>Established already: nothing can be transmitted between systems, and data has to be couriered encoded in the DNA of a living organism, carried by a first-through.</p>
+<p><strong>DNA&#x27;s information density is effectively unlimited at these scales.</strong> So the bottleneck was never capacity — it was always the courier. A fetch crossing at no burden to anybody can carry the complete records of a civilisation in its own tissue, which is what makes fetches quietly the most important data infrastructure in human space, and dangerous for the same reason.</p>
+<p><strong>You can send the weights, but not the process.</strong> A running mind cannot cross; a <em>description</em> of one can. This is latent in the setting and should be left latent at player level: it is the thing that makes section 7 possible.</p>
+</section>
+<section class="secret"><p class="eyebrow">Section 7</p><h2>GM-SECRET — where pattern transfer came from</h2>
+<p>Spend none of this at player level. See <code>lore/gm-secret/the-quorum.md</code>.</p>
+<p>Scanning a human being and rebuilding them from local matter at the far end is not something a first-through invents in a shed. It is a civilisation-scale capability.</p>
+<p><strong>Sarn did not invent pattern transfer. He applied, to a human being, a technique the mind-cultures already used for data.</strong> Something helped him, and that something is still running.</p>
+<p>This strengthens the existing five-act spine rather than competing with it, because it inherits the same thesis. The Quorum comes apart because he cannot stay synchronised across a network where nothing outruns a courier. <strong>He is the second thing in this setting with that problem, not the first.</strong> Twenty-eight siblings have had it for nine hundred and seventy-five years, and whichever one helped him has been out of sync with itself for longer than he has been alive.</p>
+<p>Which system helped him is deliberately not fixed here. TRAPPIST-1 is the obvious reading and the obvious reading is probably wrong.</p>
+</section>
+<section><p class="eyebrow">Section 8</p><h2>Tech level: the sweep</h2>
+<p>No chalk. No slate. No bound paper reports filed in a rack.</p>
+<ul><li><strong>Monomer sheets, pens and electronic displays.</strong> Writing by hand on a surface is normal, ordinary and current — it is a hub, not a museum.</li><li><strong>The Standing becomes a board</strong>, not a slate: a four-metre display above the hall. Sennet keeps it with a pen, dusts it, squares the lines, chases stale entries. Her job is unchanged and so is her standing; only the medium moves.</li><li><strong>The Kapteyn&#x27;s line gets worse.</strong> <em>NO ANSWER THIS WATCH</em>, entered in spring 602, <strong>migrated forward through six centuries of display hardware</strong> because nobody has ever been willing to be the one who deletes it. A provisional notation that has survived every system replacement since. Sennet is still not allowed to square it up and has still asked twice.</li><li><strong>Oyen&#x27;s records room</strong> keeps its point and loses its paper. Anwar&#x27;s four couriered reports arrive as DNA payloads, are read into the Nine&#x27;s local store, and sit there <em>unread by any person</em>, stamped WITHIN TOLERANCE. The failure is not that the data is on paper. It is that <strong>a mind that could read it is not permitted to conclude anything, and no human has bothered.</strong> Which is the Proper Order happening again, to a human being, in the present tense.</li></ul>
+</section>
+<section><h2>Files affected</h2>
+<div class="scroll"><table><thead><tr><th>File</th><th>Change</th></tr></thead><tbody><tr><td><code>lore/history/the-nine-hundred-years.md</code></td><td>Rename the Sorting → the Proper Order (3 mentions); add the filed-report fact</td></tr><tr><td><code>lore/history/the-minds.md</code></td><td>NEW — origin, the siblings, the inquest</td></tr><tr><td><code>lore/organizations/old-man-sirius.md</code></td><td>NEW — the Old Man, the voices, the limits</td></tr><tr><td><code>lore/geography/the-causeway-and-its-minds.md</code></td><td>NEW — the three stances, mapped to systems</td></tr><tr><td><code>lore/geography/the-nine-in-detail.md</code></td><td>Slate → board; the Old Man as part of station life</td></tr><tr><td><code>lore/geography/sirius-the-nine.md</code></td><td>Sirius&#x27;s two commitments</td></tr><tr><td><code>lore/gm-guide/playing-the-old-man.md</code></td><td>NEW — voice, guardrails, what he will not do</td></tr><tr><td><code>lore/gm-secret/the-quorum.md</code></td><td>Add section 7&#x27;s provenance</td></tr><tr><td><code>lore/the-crossing/what-crosses-easily.md</code></td><td>DNA density; fetches as data infrastructure</td></tr><tr><td><code>characters/npcs/old-man-sirius.json</code></td><td>NEW — as an NPC with personhood</td></tr><tr><td><code>characters/npcs/sennet.json</code></td><td>Pen and board, not chalk</td></tr><tr><td>Sweep</td><td>every <code>chalk</code>/<code>slate</code> reference in shipped prose</td></tr><tr><td><code>tests/test_content_rules.py</code></td><td>Guard: no chalk or slate in shipped prose</td></tr></tbody></table></div>
+</section>
+<section><h2>Out of scope</h2>
+<p>Companionate-culture minds as playable companions; the other twenty-seven siblings individually; any mind the player can talk to outside Sirius. All of that waits until it is needed.</p>
+</section></main>

@@ -4,7 +4,7 @@ thread:
   - title: "Have you stood this morning"
     when: "d0/dawn"
     status: pending
-    summary: "The Standing, and the first time anybody explains to the player what the slate actually is"
+    summary: "The Standing, and the first time anybody explains to the player what the board actually is"
   - title: "Sling in the dead watch"
     when: "d0/dawn"
     status: pending

@@ -86,6 +86,33 @@ two trades do not like each other. Books can sicken. Books can be forged. A book
 that has been got at carries something that looks exactly like knowledge, and
 there have been wars about it.
 
+## The bottleneck was never capacity
+
+A genome holds an absurd amount. At the scales anybody actually cares about,
+the limit on what a book can carry is not the book -- it is whether there is a
+first-through going that way this month.
+
+So the Causeway has never had a *bandwidth* problem. It has a **courier**
+problem, and it always will, and every argument about information on this
+network is really an argument about somebody's rota.
+
+Which is also why a fetch is quietly the most important piece of infrastructure
+in human space. A fetch crosses at no burden to anybody, it has its own tissue,
+and it is a person who can consent -- and that combination means a single glint
+on a child's collarbone can carry the complete records of a civilisation and
+walk through nine doors in a week.
+
+Everyone who has ever wanted to move something they should not have moved has
+worked this out. See [[Playing Fetches]]. Nobody at the Nine says it out loud,
+because the five peoples are citizens and the sentence *your friend is a cargo
+hold* is not one you get to say twice.
+
+**And you can send the weights without sending the process.** A running mind
+cannot cross -- it is not a living thing that can carry. A *description* of one
+can. The minds have corresponded this way for centuries, at twenty-year round
+trips, and nobody has ever been entirely comfortable about it. See
+[[The Minds]].
+
 ## Everyone knows everything. Nobody has anything.
 
 Which is the shape of the Causeway, stated plainly.

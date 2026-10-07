@@ -1,0 +1,61 @@
+{
+  "id": "myth-char-f66f627f6e81",
+  "name": "Sennet",
+  "type": "npc",
+  "status": "active",
+  "location": "myth-loc-7d031a557649",
+  "description": "Eleven. Tested at nine and failed, and will never cross. Keeps the Standing on second and third watch. Called Sen. Knows more about this station than most of its staff.",
+  "narrative": "Not the writer -- the tallymen write -- the KEEPER. She squares the lines, chases\nthe stale ones, and says \"I do the Standing\" the way an admiral names a ship.\nShe caught the Bell line eleven days out of date when nobody else did.\n\nShe will teach anybody who asks how to read the board properly, and almost\nnobody asks: four things on every line -- door, where it goes, who last stood\nit, and which watch -- and the fourth is the only one that matters. \"A line\nisn't true. A line is WHEN.\"\n\nShe is not allowed to square up the Kapteyn's line, which is the stalest entry\non the board by six hundred years. She has asked twice.\n\nHer mother says don't take Benno Raske's money, and says it about him more than\nabout anyone.",
+  "characteristics": {
+    "STR": 7,
+    "CON": 10,
+    "SIZ": 7,
+    "DEX": 13,
+    "INT": 16,
+    "POW": 14,
+    "CHA": 13
+  },
+  "attributes": {
+    "action_points": 3,
+    "damage_modifier": "-1d2",
+    "experience_modifier": 2,
+    "healing_rate": 2,
+    "initiative_bonus": 15,
+    "luck_points": 3,
+    "magic_points": 14,
+    "movement": "6m"
+  },
+  "skills": {
+    "Perception": 62,
+    "Insight": 55,
+    "Locale": 70,
+    "Influence": 48,
+    "Customs": 60,
+    "Native Tongue": 70,
+    "Lore (the Standing)": 75,
+    "Lore (the Causeway's doors)": 65,
+    "Stealth": 45,
+    "Athletics": 35
+  },
+  "combat_styles": {},
+  "passions": {
+    "I keep the Standing": 80,
+    "A line is not true, a line is WHEN": 70,
+    "Do not ask me about the test": 60
+  },
+  "powers": [],
+  "equipment": [
+    "A pen",
+    "A rag through her belt",
+    "A flask",
+    "A stool"
+  ],
+  "extras": {
+    "age": 11,
+    "pronouns": "she/her",
+    "called": "Sen",
+    "can_cross": false,
+    "watch": "second and third"
+  },
+  "actor_notes": "PROUD, PRECISE, ELEVEN. Treat her as competent, because she is -- she has a job and does it better than the adults around her. Never play her as pitiable and never have an NPC pity her out loud.\n\nShe failed the test at nine. Do not raise it. If a player raises it she changes the subject once, flatly, and does not get upset.\n\nShe is the campaign's best source on which doors are stale and who stood them, and she gives it away free to anybody who asks properly. The GM should let her be useful often.\n\nLint asked her -- the one person at the Nine who can never go anywhere -- to be the one who showed her Kapteyn's. Nobody had ever asked her. She remembers that."
+}

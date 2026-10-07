@@ -471,3 +471,40 @@ def test_no_banned_constructions_in_shipped_prose():
             if w in low:
                 hits.setdefault(w, []).append(p.name)
     assert not hits, f"banned constructions in shipped prose: {hits}"
+
+
+# Materials that put the setting in the wrong century. The interstellar layer is
+# low-tech for a sound reason -- nothing outruns a courier, so paper in a hand is
+# genuinely the fastest channel between stars -- and that reasoning was once
+# wrongly extended inward, leaving a forty-thousand-person cylinder that
+# engineers gravitational potential keeping its most important record on a slate.
+#
+# Writing by hand on a surface is still normal and current: monomer sheets, pens,
+# boards, displays. It is the MATERIAL that was wrong, not the gesture.
+ANACHRONISTIC_MATERIALS = ["chalk", "slate", "chalked", "chalkboard"]
+
+
+def test_no_chalk_or_slate_in_shipped_prose():
+    """A hub that manipulates gravity does not keep records in chalk dust.
+
+    Word-bounded on purpose: 'translate' and 'translation' contain 'slate' and
+    are perfectly good words. An unbounded match flagged four files that were
+    entirely innocent.
+    """
+    import re as _re
+    pattern = _re.compile(
+        r"\b(" + "|".join(ANACHRONISTIC_MATERIALS) + r")\b", _re.I)
+    hits = {}
+    for p in (list(lore_files())
+              + sorted((ROOT / "beats").glob("*.md"))
+              + sorted((ROOT / "agendas").glob("*.md"))
+              + sorted((ROOT / "facts").glob("*.md"))
+              + sorted((ROOT / "locations").glob("*.md"))
+              + sorted((ROOT / "setting").glob("*.md"))
+              + sorted((ROOT / "characters").rglob("*.json"))
+              + [ROOT / "campaign.yaml", ROOT / "README.md"]):
+        if not p.exists():
+            continue
+        for m in set(x.lower() for x in pattern.findall(p.read_text())):
+            hits.setdefault(m, []).append(p.name)
+    assert not hits, f"anachronistic materials in shipped prose: {hits}"

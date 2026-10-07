@@ -79,3 +79,26 @@ bolted onto this campaign. It is the thesis. The player beats him with geometry.
 - **Do not let a player's good guess be confirmed.** A clever twelve-year-old
   may get surprisingly close. The correct response is the honest one: nobody in
   this scene can tell them.
+
+## Where pattern transfer came from
+
+Scanning a human being and rebuilding them from local matter at the far end is
+not something a first-through invents in a shed. It is Reach-scale capability.
+
+**Sarn did not invent it.** He applied, to a human being, a technique the
+mind-cultures had used for data since the Opening: send the description, rebuild
+at the far end. See [[What Crosses Easily]] and [[The Minds]]. Something helped
+him with the step from a genome to a person, and that something is still
+running.
+
+This strengthens the ladder rather than complicating it, because it inherits the
+same thesis. The Quorum comes apart because he cannot stay synchronised across a
+network where nothing outruns a courier -- and **he is the second thing in this
+setting with that problem, not the first.** Twenty-eight siblings have had it
+for nine hundred and seventy-five years, and whichever one helped him has been
+out of sync with itself for longer than he has been alive.
+
+Which system helped him is deliberately not fixed. TRAPPIST-1 is the obvious
+reading. The obvious reading is probably wrong, and Sol is sitting right there
+being sidelined and ignored, which is exactly what it was doing in year 95.
+

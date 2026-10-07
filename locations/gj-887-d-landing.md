@@ -22,6 +22,6 @@ afternoon, permanently, which visitors find restful for about two days.
 In reach: the **load bed** access panel under the shed floor, unbolted so often
 that four of its sixteen bolts are missing. The **jury-rig** — a cabinet of
 non-standard parts wired into the coupling collar, humming, warm to the touch,
-and not on any schematic. And the **fault slate** nailed to the shed post, where
-somebody has been keeping their own record in chalk, in a hand that gets less
+and not on any schematic. And the **fault sheet** nailed to the shed post, where
+somebody has been keeping their own record by hand, in a hand that gets less
 tidy down the column.

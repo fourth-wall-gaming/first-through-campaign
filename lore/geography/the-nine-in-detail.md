@@ -5,7 +5,7 @@ category: "geography"
 visibility: "player"
 system: "sirius"
 sources: ["https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20CMa", "https://en.wikipedia.org/wiki/Sirius"]
-summary: "Two kilometres of turning cylinder at Sirius, 8.6 light years out: forty thousand people, nine doors, no ground, and a slate on the wall that is the most important object in human space."
+summary: "Two kilometres of turning cylinder at Sirius, 8.6 light years out: forty thousand people, nine doors, no ground, and a board on the wall that is the most important object in human space."
 created_at: "2026-10-06T12:00:00"
 ---
 
@@ -32,14 +32,32 @@ It never closes. There is no hour at which the hall is empty, and the sound of i
 peoples all talking at once — is the first thing a visitor notices and the last
 thing they stop hearing.
 
-Over the hall, on the gallery wall, is **the Standing**: a slate four metres wide
-on which every door in human space is chalked with where it currently goes. It is
+Over the hall, on the gallery wall, is **the Standing**: a board four metres
+wide on which every door in human space is written up with where it currently
+goes. It is
 updated whenever a courier comes in with better information. It is the single most
-important object in the Causeway and it is a slate, because a slate can be
-corrected in eleven seconds by somebody standing on a stool.
+important object in the Causeway and it is written by hand, because a line can
+be corrected in eleven seconds by somebody standing on a stool -- and because
+[[Old Man Sirius]] is not permitted to write on it. A door's far side is
+courier testimony, and a mind may not enter testimony it does not have.
 
 People stop under it without meaning to. Arguments start there. The Threshold's
 ready room has a window onto it.
+
+## The Old Man
+
+Forty thousand people live inside [[Old Man Sirius]] and almost none of them
+think about it, in the way you do not think about a floor. He runs the air, the
+water, the spin, the trim, the exchangers, the lamps and the growing decks, and
+he has done it for nine hundred and seventy-five years.
+
+He talks to everybody, in a voice built for them, and people compare notes about
+it endlessly and can never settle anything, because nobody can check what he
+said to somebody else. *The Old Man told me* is the most-used sentence on the
+station and the least verifiable.
+
+He will not decide anything for you. Ask him a question as a question and he
+answers it completely; do not ask, and he will ask how you are instead.
 
 ## Where people live
 

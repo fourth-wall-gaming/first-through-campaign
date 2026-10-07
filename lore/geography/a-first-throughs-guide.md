@@ -99,7 +99,7 @@ low covers in permanent red afternoon, and meltwater running in a cut stone
 channel down one side of the road.
 
 **Run by:** five elected councillors and a board on the street wall where every
-order placed and not delivered is chalked up in public.
+order placed and not delivered is posted in public.
 
 **They want:** their coupling assembly, which has been refused twice.
 

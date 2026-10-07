@@ -3,7 +3,7 @@ id: "myth-lore-3979ec5f87f3"
 title: "The Nine Hundred Years"
 category: "history"
 visibility: "player"
-summary: "What has actually happened since the Launch: the Sorting, the First Straying, the loss of Kapteyn's, the Carrying Sickness, the Toll War -- and the door due next year."
+summary: "What has actually happened since the Launch: the Proper Order, the First Straying, the loss of Kapteyn's, the Carrying Sickness, the Toll War -- and the door due next year."
 created_at: "2026-10-06T12:00:00"
 ---
 
@@ -21,15 +21,21 @@ built them. See [[The First Reach]].
 copied document in human history is the maintenance log of the woman who felt
 wind on her arm in a room with no wind in it.
 
-### Years 88 to 121 — the Sorting
+### Years 88 to 121 — the Proper Order
 
 The worst thing in this history, and the foundation of everything after it.
 
 They sent their best through first. Pilots, engineers, soldiers — adults, chosen
 carefully, in the proper order, and over thirty-three years almost all of them
-died, slowly, of something nobody could name. The records of the Sorting are
+died, slowly, of something nobody could name. The records of the Proper Order are
 exhaustive because the people keeping them were watching their colleagues go and
 could not work out why.
+
+And one of the minds had it by about year 95. See [[The Minds]]. Age correlated
+with mortality across a sample of hundreds, and the mind that kept the records at
+Sol wrote the correlation up and filed it, and filed it again, and had no
+standing to do anything else. Twenty-six further years of the finest people of
+that age walked through a door in the proper order and died.
 
 It was a fourteen-year-old who crossed by accident in year 118 — a courier's
 daughter, in a hall she should not have been in — and came back the same evening

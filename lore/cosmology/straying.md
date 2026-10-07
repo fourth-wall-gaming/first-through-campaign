@@ -3,7 +3,7 @@ id: "myth-lore-df675e04ba0d"
 title: "Straying"
 category: "cosmology"
 visibility: "player"
-summary: "A mouth is pinned to a gravitational potential, not to a place. As the masses around it move, the matching place moves -- and now and then it jumps. That is a stray, and it is why the Standing is chalk."
+summary: "A mouth is pinned to a gravitational potential, not to a place. As the masses around it move, the matching place moves -- and now and then it jumps. That is a stray, and it is why the Standing is pen."
 sources: ["https://en.wikipedia.org/wiki/Gravitational_potential", "https://en.wikipedia.org/wiki/Equipotential", "https://en.wikipedia.org/wiki/Quantum_entanglement"]
 created_at: "2026-10-06T12:00:00"
 ---

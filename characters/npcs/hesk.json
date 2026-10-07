@@ -1,0 +1,57 @@
+{
+  "id": "myth-char-d25eab83b08c",
+  "name": "Hesk",
+  "type": "npc",
+  "status": "active",
+  "location": "myth-loc-7d031a557649",
+  "description": "Fifties. Deck systems at the Nine: shutters, ports and atmosphere trim on nine through twelve. Runs an undocumented override on the one upper gallery bay that does not look into Sirius, and eats his lunch in it.",
+  "narrative": "Nineteen years on the same decks. Scandalised rather than angry, pissy,\nundramatic, and extremely competent. There is a line in the budget every single\nyear about the upper gallery lights being on the shutter circuit and he will\ntell you about it.\n\nHe believed he was the only person who knew about the second-watch override.\nSennet knew. Sennet has been found in a trunking run twice.\n\nHe knows which point Kapteyn's is without looking, from a corridor, with the\nshutter down. \"It's orange. People always expect red. Not far off the colour of\nthe warning lamp on a trim panel, which I've always found extremely annoying.\"",
+  "characteristics": {
+    "STR": 12,
+    "CON": 12,
+    "SIZ": 13,
+    "DEX": 11,
+    "INT": 14,
+    "POW": 11,
+    "CHA": 10
+  },
+  "attributes": {
+    "action_points": 2,
+    "damage_modifier": "+0",
+    "experience_modifier": 0,
+    "healing_rate": 3,
+    "initiative_bonus": 13,
+    "luck_points": 2,
+    "magic_points": 11,
+    "movement": "6m"
+  },
+  "skills": {
+    "Mechanisms": 78,
+    "Engineering": 72,
+    "Perception": 55,
+    "Locale": 65,
+    "Craft (pressure fitting)": 70,
+    "Willpower": 50,
+    "Influence": 35,
+    "Vacuum": 60,
+    "Athletics": 30
+  },
+  "combat_styles": {},
+  "passions": {
+    "Nineteen years on this deck": 75,
+    "There is a line in the budget about it every single year": 65
+  },
+  "powers": [],
+  "equipment": [
+    "Coverall",
+    "Headlamp",
+    "Torch",
+    "A sandwich, usually"
+  ],
+  "extras": {
+    "age": 56,
+    "pronouns": "he/him",
+    "decks": "nine through twelve"
+  },
+  "actor_notes": "Not a gatekeeper and not a grump with a heart of gold -- a man who maintains things and is territorial about his systems in the way competent people are. Concedes a real fault instantly and without defensiveness.\n\nHis currency is that he controls which shutters open. The route to him is through Sennet, which he finds humiliating and accepts.\n\nDo not sentimentalise the nineteen years of lunches looking at Kapteyn's. He never mentions it. He just knows exactly where it is."
+}

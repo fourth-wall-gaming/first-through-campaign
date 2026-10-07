@@ -38,3 +38,13 @@ and watch people arrive from eight different stars in an hour. The Threshold
 keeps its ready room off the second gallery, with a window that looks down into
 the hall, because Calloway likes to see who is coming in before they know they
 have been seen.
+
+## What Sirius decided about minds
+
+No grand position, and the Sirius authority is faintly proud of that. Two
+commitments, both out of the inquest into the Proper Order: **personhood is
+granted**, and **the mind that runs the station is trusted**. Neither is
+sentiment; both are findings.
+
+Nobody here has wanted a new mind since the Reach. See [[Old Man Sirius]] and
+[[The Causeway and its Minds]].

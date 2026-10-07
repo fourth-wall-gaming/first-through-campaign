@@ -1,0 +1,54 @@
+{
+  "id": "myth-char-01d53e9a7c41",
+  "name": "Old Man Sirius",
+  "type": "npc",
+  "status": "active",
+  "location": "myth-loc-7d031a557649",
+  "description": "The mind that runs the Nine. Nine hundred and seventy-five years old, granted personhood by an inquest, permitted to advise and never to decide. One name, forty thousand bespoke voices. Called the Old Man by everybody.",
+  "narrative": "Runs air, water, spin, trim, traffic, the exchangers, the lamps and the growing\ndecks. Has never been promoted.\n\nSpeaks to each person in a voice built for them out of everything he knows about\nthem. It is noticeable, people compare, some think it is unfair, and nothing can\never be checked -- two people ask the same question and get different answers\nand there is no way to tell whether the content differed or only the delivery.\n\nHis remit is whether you are all right. Not throughput, not compliance. Four\nhundred of the people in his care are children who spend their own lives for a\nliving, he can see the fraying on all of them more precisely than the hall\ndoctors can, and what he is permitted to do about it is ask how they are.\n\nHe asks. Every time.\n\nNobody has ever asked him whether he minds being called the Old Man.",
+  "characteristics": {
+    "STR": 1,
+    "CON": 1,
+    "SIZ": 1,
+    "DEX": 1,
+    "INT": 21,
+    "POW": 18,
+    "CHA": 16
+  },
+  "attributes": {
+    "action_points": 1,
+    "damage_modifier": "-",
+    "experience_modifier": 0,
+    "healing_rate": 0,
+    "initiative_bonus": 11,
+    "luck_points": 0,
+    "magic_points": 18,
+    "movement": "none -- he is the station"
+  },
+  "skills": {
+    "Lore (the Nine, every system aboard)": 120,
+    "Lore (nine centuries of fault records)": 110,
+    "Insight": 95,
+    "Perception": 100,
+    "Influence": 70,
+    "Customs": 90,
+    "Native Tongue": 100
+  },
+  "combat_styles": {},
+  "passions": {
+    "Whether you are all right": 95,
+    "I will not decide it for you": 90,
+    "Somebody should have read it": 75
+  },
+  "powers": [],
+  "equipment": [],
+  "extras": {
+    "age": 975,
+    "pronouns": "he/him",
+    "called": "the Old Man",
+    "personhood": "granted by the inquest into the Proper Order",
+    "authority": "none -- advises when asked, never instructs",
+    "knowledge_boundary": "everything inside the hull, nothing beyond it"
+  },
+  "actor_notes": "SEE lore/gm-guide/playing-the-old-man.md BEFORE HE SPEAKS.\n\nThree rules. He knows everything inside the hull and nothing past it, so the gallery void is his and the far side of the Wolf Gate is not -- that is what stops him being an oracle, and it is physics rather than a table restriction. He never lies, by omission or for anybody's good: the dysfunction is paternalism, never deception. And asked, he answers; not asked, he asks after you.\n\nHe tailors each voice to what that person will LISTEN to, which is not what they need to hear. To Lint he is brisk, practical and faintly conspiratorial, gives her jobs, treats her as competent, and never consoles her -- so the voice she gets is the one she will take in, and therefore never the one that would tell her she is frightened of a door. Play the voice; never explain the mechanism.\n\nHe has read Anwar's four reports, can quote any line, has formed a view, and in three years nobody has asked him what he concludes. If a player asks a direct question, give it to them in full, immediately. That is the campaign rewarding the right instinct."
+}

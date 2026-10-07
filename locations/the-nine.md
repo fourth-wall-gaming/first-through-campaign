@@ -22,6 +22,7 @@ Three things in reach, and a first-through learns all three in week one. The
 **gallery stair** runs up from the hall floor to the second level without going
 through the toll line, which is technically not permitted. The **freight ring**
 on the outer wall takes crates and will take a person who does not mind being
-upside down. And the **fault board** by the Threshold door is a physical slate
-with every anchor on the Causeway chalked on it, and somebody rubs out and
-rewrites the Coldwater line more often than they used to.
+upside down. And the **fault board** by the Threshold door is a physical
+sheet kept by hand rather than a feed, with every anchor on the Causeway written
+up on it, and somebody wipes and rewrites the Coldwater line more often than
+they used to.
