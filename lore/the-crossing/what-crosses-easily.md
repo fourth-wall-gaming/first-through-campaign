@@ -3,7 +3,7 @@ id: "myth-lore-a47dd64a96ab"
 title: "What Crosses Easily"
 category: "the-crossing"
 visibility: "player"
-summary: "Only living things cross. So there is no freight at all, you arrive with nothing, and everything humanity knows is written into the cells of small animals and carried by children. A book is alive."
+summary: "Only living things cross. So there is no freight at all, you arrive in a grown garment and nothing else, and everything humanity knows is written into the cells of small animals and carried by children. A book is alive."
 created_at: "2026-10-05T12:00:00"
 ---
 
@@ -15,22 +15,26 @@ coin, not the clothes you walked in wearing. People established this in the firs
 month of the first door and have been re-establishing it ever since, because
 every generation produces somebody convinced they have found the exception.
 
-## You arrive with nothing
+## You arrive in your membrane and nothing else
 
-Every anchor hall in human space has a dressing room on both sides, and the
-oldest ones have had the same function for nine hundred years.
+Every anchor hall has a dressing room on both sides, and what happens in it has
+not changed in nine hundred years.
 
-You undress. You cross. You are issued whatever that system puts on its
-arrivals — and it is always local, always slightly wrong, and always says
-exactly where you have been. A first-through can read a stranger's last three
-postings off the cut of their boots.
+You take everything off. Suit, boots, tools, the lot -- none of it is alive and
+none of it is going anywhere.
 
-Nothing you own goes with you. Your suit is the Nine's suit and stays at the
-Nine. The tools are Barnard's tools and stay at Barnard's. In nine centuries
-nobody has ever carried a keepsake between stars, and the courier songs are
+What you keep on is your **membrane**: a garment that was grown rather than
+woven, which is the one exception to the whole rule. It is alive, so it crosses.
+You put it on and take it off like anything else. See [[The Membrane]].
+
+Everything else is issued on the far side -- always local, always slightly
+wrong, and always saying exactly where you have been. A first-through can read a
+stranger's last three postings off the cut of their boots.
+
+Nothing you own goes with you but the membrane. Your suit is the Nine's suit and
+stays at the Nine; the tools are Barnard's tools and stay at Barnard's. In nine
+centuries nobody has carried a keepsake between stars, and the courier songs are
 mostly about this.
-
-**What you take is your knack and your own cells.** That is the whole inventory.
 
 ## Which means there is no trade
 

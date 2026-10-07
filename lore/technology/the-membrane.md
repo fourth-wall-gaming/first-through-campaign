@@ -3,7 +3,7 @@ id: "myth-lore-c594ab5a2972"
 title: "The Membrane"
 category: "technology"
 visibility: "player"
-summary: "A living second skin, grown to one person, and the only thing a first-through takes through a door. It is alive, which is the only reason it can go. It frays as you do, and anybody can read your mileage off it."
+summary: "A living garment, grown rather than woven, and the only clothing that goes through a door. It is alive, which is the only reason it can go. It frays as you do, and anybody can read your mileage off it."
 created_at: "2026-10-06T12:00:00"
 ---
 
@@ -12,11 +12,14 @@ not made at all. It is **grown**.
 
 ## What it is
 
-A membrane is a living second skin: close, matte, warm, about the thickness of a
-wet leaf, covering everything but the hands, feet and face. It is grown in vats
-at [[61 Cygni, and the Yards]] from a line nobody has improved on in four
-centuries, and it is grown **to you** -- to your frame, at your age -- so that
-somebody else's never fits properly and everybody can tell.
+A membrane is a garment. You pull it on, you pull it off, you hang it up. It
+looks like close-fitting matte cloth in an off-white, long-sleeved and
+long-legged, and it is about the weight of a good shirt.
+
+The only strange thing about it is that it was never woven. It is **grown**, in
+vats at [[61 Cygni, and the Yards]], from a line nobody has improved on in four
+centuries -- and grown to a measure, so somebody else's hangs wrong on you and
+everybody can tell at a glance.
 
 It is not armour and it is not a pressure suit. What it does is hold your heat,
 keep you decent, seal a small cut, and -- the part that matters -- **be alive**,
@@ -24,12 +27,16 @@ which is the only reason it is allowed through.
 
 ## Keeping one
 
-It is a living thing and it behaves like one.
+It is laundry that happens to be alive, and it is about as much trouble as a
+houseplant.
 
-You feed it, which mostly means eating properly yourself. You keep it warm when
-it is off you. It sulks in dry air. It will seal a graze overnight and take a
-week over a bad one, and if you neglect it badly enough it goes patchy and
-somebody at the hall will tell you so in front of people.
+Off you, it lives in a shallow tray by your bunk with an inch of feed in it.
+Every bunkroom at the Nine has a rack of them and the whole row smells faintly of
+warm bread, which first-throughs find comforting and visitors find unnerving.
+
+It sulks in dry air. It closes a tear by itself overnight and takes a week over a
+bad one. Neglect it properly and it goes patchy, and somebody at the hall will
+say so in front of people.
 
 A membrane lasts two or three years and then is retired and replaced, and a
 first-through's first membrane is kept by their family roughly as often as not.
