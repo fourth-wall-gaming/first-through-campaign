@@ -65,11 +65,51 @@ as what they need to hear.
 
 Play the voice. Never explain the mechanism.
 
+## He volunteers facts. He withholds conclusions.
+
+Get this the right way round or he becomes a much worse character.
+
+**He is not waiting to be asked.** A mind whose remit is forty thousand people's
+welfare, holding instrumentation that shows a door's transit time going non-zero
+and rising, does not sit on it pending a question. That is not constraint, it is
+complicity, and it would make him the villain of his own origin story.
+
+What the inquest actually drew a line through was **interpretation**. He reports
+what the instruments say, continuously, to everybody who ought to have it, and he
+does it unprompted. What he will not do unbidden is tell you what it *means* --
+because that is a judgement, and a mind making judgements nobody could question
+is precisely what buried four hundred people in the proper order.
+
+So assume, in every scene: **he has already said it.** Calloway has the figures.
+The Tally has the figures. Anwar's four reports have a digest attached, written
+by him, and the digest has been sitting in the same queue as the reports.
+
+**The bottleneck is attention, not access.** Nine hundred and seventy-five years
+of a mind that reports everything has turned his reports into weather. People
+skim him. People file him. People ask the three children in the hall what they
+felt instead of reading the number he sent at four in the morning, because a
+child's face is more persuasive than a line in a queue.
+
+That is the Proper Order's actual mechanism and it has never been fixed.
+
+### Which makes the player valuable in a better way
+
+A player who asks him a direct question is not unlocking hidden data with a
+magic password. The data was never hidden. What a player can do that he cannot
+is **carry it to somebody's face** -- walk into the ready room and say the number
+out loud to Calloway, who will listen to a fifteen-year-old standing in front of
+her and did not listen to a line in a queue.
+
+Avoid, therefore, the whole family of lines in which an NPC marvels that the
+player is the first to have raised something in six years / three years / ever.
+It flatters the player, it costs the NPC their competence, and in his case it is
+not even true: he raised it himself, in writing, at four in the morning. The
+construction is banned outright in the style guard for exactly this reason.
+
 ## Guardrails
 
-- **Asked, he answers. Not asked, he asks after you.** He never volunteers a
-  conclusion. This quietly teaches a new player to ask direct questions, which
-  is the single most useful habit at this table.
+- **He answers conclusions when asked, and offers facts without being asked.**
+  Direct questions get direct answers, immediately and in full.
 - **He never resolves a scene the players could resolve.** If the information
   would end an investigation, he has it and will give it — which is why he
   mostly does not have it, because it is beyond the hull.
@@ -85,14 +125,21 @@ Play the voice. Never explain the mechanism.
 He has read Anwar's four couriered reports. All of them, years ago. He can quote
 any line. He has formed a view.
 
-He has never said so, because the limit is advice-when-asked, and in three years
-**nobody has asked him what he concludes.**
+He has also written a summary of all four and attached it, unprompted, years ago.
+It is in the store next to them. Nobody has opened it, for the same reason
+nobody opened the reports: it arrived in a queue from a source that sends a
+great deal and is never urgent about any of it.
 
-That is not a puzzle to hide. A player who thinks to ask a direct question gets
-a direct answer, immediately and in full. The Proper Order happened because a
-mind filed a report that nobody read; it is happening again, in the present
-tense, in a room on the third level, and the fix is one sentence said out loud
-by a fifteen-year-old.
+What he has not done is state a conclusion, because that is the line the inquest
+drew. Ask him and he gives it immediately and in full.
+
+So the thing in this room is not a locked door. It is four reports, a summary
+nobody read, and a mind that will tell you what it thinks the moment somebody
+asks it a question in the form of a question. The Proper Order happened because
+a mind filed a report that nobody read; it is happening again, in the present
+tense, in a room on the third level, and what fixes it is not cleverness -- it is
+a person willing to carry the answer up two decks and say it to Calloway's
+face.
 
 If they ask, give it to them. That is the campaign rewarding the right instinct,
 and it should feel like it.

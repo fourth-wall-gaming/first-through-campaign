@@ -39,13 +39,19 @@ you.
 This is the part visitors find maddening.
 
 The same inquest that gave him a voice fixed the limits of it. He advises. He
-does not decide, he does not instruct, and he will not tell you what he thinks
-until you **ask him in so many words.**
+does not decide and he does not instruct.
 
-Ask him whether a corridor is safe and he will tell you the pressure, the
-history, the last four faults and who logged them. Ask him *should I go down
-there* and he will answer that too — but you have to ask it, out loud, as a
-question, and most people never do.
+**He tells you things constantly and without being asked** — pressure, history,
+the last four faults and who logged them, the number he measured at four this
+morning. What he will not volunteer is what it *means*, because a judgement
+nobody can question is exactly what killed four hundred people in the proper
+order. Ask him *should I go down there* and he answers at once, completely.
+
+The trouble is not that he is silent. **It is that nine centuries of a mind
+reporting everything has turned his reports into weather** — constant, present,
+and nobody's news. People skim him.
+People file him. The figures are almost always already on somebody's desk, and
+the thing nobody has is the attention.
 
 Nine centuries of being scrupulous about a line that was drawn because of
 something that happened to him.
