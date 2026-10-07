@@ -54,6 +54,20 @@ What changes is **where in that system you come out.**
 - **Never another star.** The wells are different problems with different
   answers.
 
+## And the weeks before
+
+A mouth does not become ambiguous all at once. While the sum is acquiring a
+second answer and has not yet resolved, the mouth cannot settle -- and a mouth
+that cannot settle will not open on demand.
+
+The crossing is still instantaneous. What takes time is the **permission**, and
+the time is measurable, and it rises. See [[The Hesitation]].
+
+This is the only advance warning of a stray anybody has ever had. It was in the
+folklore of every deck in the Causeway for nine centuries -- *seven's sticky this
+week*, *you want to give it a second* -- and nobody wrote it down, because the
+people who felt it were children and what they felt was an inconvenience.
+
 ## And where they must not go
 
 Here is the one mercy in it, and it is not a kindness, it is just the physics.

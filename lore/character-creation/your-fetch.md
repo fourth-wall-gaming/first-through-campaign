@@ -134,6 +134,14 @@ charming party trick that we have unaccountably built a civilisation on.
 weather they were born in, and most of them are quietly looking for one specific
 thing they will not describe.
 
+**And one of them matters enormously and nobody has noticed.** A fathom maps a
+room by what the field in it is doing, which means a fathom standing at a
+housing can feel whether the mouth is **pinned or slipping** -- directly, without
+instruments, from the rim. It is the only sense in human space that reads a
+stray coming, and the five peoples have been carrying it around for nine hundred
+years while humans timed things with their own heartbeats. See
+[[The Hesitation]].
+
 **Their folly:** insufferable snobs about music, and will tell you so, in front
 of the musician. And being indoors makes them stupid and miserable, which they
 deny absolutely while making a run of terrible decisions.
