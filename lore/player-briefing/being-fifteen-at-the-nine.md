@@ -87,6 +87,11 @@ with a good one never buys their own supper.
 - **Two minutes** — "in a moment", from the cycle. *Give it two minutes.*
 - **Going garden** — somewhere rich in what does not travel and poor in
   everything that does.
+- **Grash** — a door that has strayed into rock and closed. Also, and much more
+  often, the worst thing you can say in front of your grandmother. Younger
+  first-throughs use it like punctuation. Anybody old enough to have lost
+  somebody behind a closed door will stop the conversation and say *language*,
+  and mean it.
 - **Stood** — checked the Standing. *Have you stood this morning?* Asked the way
   other people ask about the weather, because it matters more.
 

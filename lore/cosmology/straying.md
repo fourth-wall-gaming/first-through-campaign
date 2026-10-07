@@ -64,6 +64,15 @@ destroyed, with everything on the far side exactly where it was.
 
 Nobody is crushed. Everybody is cut off.
 
+It is called a **grash**, which is onomatopoeia of a sort -- it is the word the
+first crew to lose one used, and it stuck, and it is the oldest piece of courier
+vocabulary still in daily use.
+
+It is also, for the same reason, the strongest swear word in human space. People
+say it the way other people say the name of a disaster, and most of them have
+stopped hearing what it means. Anybody with family behind a closed door has not,
+and will tell you so.
+
 **But vacuum is not solid, and neither is water.** A mouth that strays to open sky
 on an airless moon opens perfectly happily, and so does one that strays to the
 floor of an ocean, and both will kill the next person through without any
