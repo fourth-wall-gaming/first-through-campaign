@@ -29,7 +29,7 @@ They have to come across. Now.
 ## What the player knows walking in
 
 Say all of this plainly in the ready room, because the whole scenario is the
-player doing arithmetic they understand:
+player doing a sum they understand:
 
 - **A fetch crosses free.** No cost, no limit.
 - **A child can be carried.** Minutes, in contact, and the child is fine.
@@ -71,7 +71,7 @@ Red rock, bad light, a prefabricated town under a roof, and sixty-one people who
 already know.
 
 **Play the adults first and do not rush it.** They have had two days. They have
-worked out exactly what the arithmetic is, and they have already decided, and
+worked out exactly what the sum is, and they have already decided, and
 they are not arguing about it. The children are washed and dressed and queued and
 somebody has written names on their hands.
 

@@ -97,7 +97,7 @@ Kapteyn's Star is still there. On a clear watch at the Nine you can be shown
 which point it is, and people do show you, and the pointing is a thing visitors
 find unbearable long before the residents do.
 
-Everybody alive has a version of the arithmetic: twenty-four generations, so
+Everybody alive has a version of the sum: twenty-four generations, so
 whoever is there now is nobody's cousin exactly, and is still ours.
 
 The Threshold keeps a watch on that housing. It has been kept for six hundred

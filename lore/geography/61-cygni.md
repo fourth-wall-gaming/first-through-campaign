@@ -19,7 +19,7 @@ mentions it at every opportunity:
 Cygni, people knew the stars were far away and could not say how far. Somebody
 with a telescope and two years of patience measured this one's tiny annual
 wobble and came back with a number. Everything since — every distance in this
-worldbook, the whole arithmetic of the Reach — descends from that measurement.
+worldbook, the whole reckoning of the Reach — descends from that measurement.
 
 Which is why the Threshold trains here, and never shuts up about it.
 

@@ -18,7 +18,7 @@ find the idea is a session nobody enjoyed.
 
 **2. Do not make the adults pitiable.** They are not frightened, they do not
 plead, and they do not push in. They have had two days, they have done the
-arithmetic, and they are getting their children across. Dignity is what makes
+sum, and they are getting their children across. Dignity is what makes
 this land; desperation would make it squalid.
 
 ## The fraying clock

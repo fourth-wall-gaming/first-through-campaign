@@ -4,7 +4,7 @@
   "type": "npc",
   "status": "active",
   "description": "Foreman at Ladder. Had two days to work out who could be saved and made a list of nineteen names, and will not explain the order unless somebody asks her properly.",
-  "narrative": "Nineteen years at Ladder, eleven of them running it. Sixty-one people, a rock\nwith no air of its own, and a door that started refusing on a Tuesday.\n\nShe did the arithmetic that night and has not argued with it since. The children\nwere washed and dressed and queued before any first-through arrived, with their\nnames written on their hands in case somebody had to ask.\n\nShe is not brave about it in any way she would recognise. She is a foreman with a\nlist.",
+  "narrative": "Nineteen years at Ladder, eleven of them running it. Sixty-one people, a rock\nwith no air of its own, and a door that started refusing on a Tuesday.\n\nShe did the sum that night and has not argued with it since. The children\nwere washed and dressed and queued before any first-through arrived, with their\nnames written on their hands in case somebody had to ask.\n\nShe is not brave about it in any way she would recognise. She is a foreman with a\nlist.",
   "characteristics": {
     "STR": 12,
     "CON": 13,

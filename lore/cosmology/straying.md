@@ -32,7 +32,7 @@ and the surface where the potential matches drifts along with it.
 Mostly this is nothing: a mouth creeps a few metres in a century and the housing
 is rebuilt around it twice a millennium and nobody writes anything down.
 
-Now and again the arithmetic has more than one answer, and the mouth **jumps to a
+Now and again the sum has more than one answer, and the mouth **jumps to a
 different one.**
 
 That is a stray. It takes about four seconds.
@@ -94,7 +94,7 @@ Then it goes, and wherever it is now is where it is.
 
 ## Could you see one coming?
 
-In principle, yes. The potential is arithmetic and the masses are known, and a
+In principle, yes. The potential is a number and the masses are known, and a
 sufficiently good model of a system plus a long enough record of its doors would
 tell you when a solution is about to branch.
 

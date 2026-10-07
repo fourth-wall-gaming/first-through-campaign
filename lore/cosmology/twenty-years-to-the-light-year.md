@@ -1,9 +1,9 @@
 ---
 id: "myth-lore-d505b6391a05"
-title: "The Arithmetic of the Reach"
+title: "Twenty Years to the Light Year"
 category: "cosmology"
 visibility: "player"
-summary: "One light year per twenty years: the sum that explains why the frontier is where it is, and why it moves so slowly."
+summary: "One light year per twenty years: the one number that explains why the frontier is where it is, and why it moves so slowly."
 sources: ["https://en.wikipedia.org/wiki/List_of_nearest_stars_and_brown_dwarfs", "https://en.wikipedia.org/wiki/LHS_1140"]
 created_at: "2026-10-05T12:00:00"
 ---

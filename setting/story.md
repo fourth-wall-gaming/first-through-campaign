@@ -25,7 +25,7 @@ thread:
     when: "d0/night"
     status: pending
     summary: "The best first-through at the Nine, admired by everybody, and the room goes a little quiet"
-  - title: "Calloway does the arithmetic out loud"
+  - title: "Calloway says the numbers out loud"
     when: "d1/dawn"
     status: pending
     summary: "The ready room, the whole house, and a number said plainly because softening it would be worse"
@@ -167,7 +167,7 @@ nobody's fault and entirely avoidable and both of those are true.
 
 Beats to write: the Nine goes mad; who gets to go first and how that is decided;
 the crossing; what eleven thousand people became in six centuries alone; evidence
-that somebody was already here; the arithmetic of the stray; Rill.
+that somebody was already here; the figures behind the stray; Rill.
 
 Ends at the low point: strays can be **caused**, somebody is causing them, and
 that somebody now knows the player's name.

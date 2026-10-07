@@ -55,7 +55,7 @@ or not you tell them.
 
 The knack deepens with the number. So does the fraying. Nobody has ever found a
 way to have one without the other, and every kid in the Yards does that
-arithmetic in their second week and goes through anyway.
+sum in their second week and goes through anyway.
 
 ## What it is like
 

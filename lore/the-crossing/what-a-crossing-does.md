@@ -82,5 +82,5 @@ So the thing that is going to end you is the same thing that is making you
 extraordinary, and it is the same thing, and there is no version where you get
 one and not the other.
 
-Every kid in the Yards has done this arithmetic by their second week. They go
+Every kid in the Yards has done this sum by their second week. They go
 through anyway. They would go through more if they were let.

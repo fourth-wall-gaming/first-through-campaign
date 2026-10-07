@@ -1,6 +1,6 @@
 ---
 id: "myth-beat-9b67113d6b3d"
-title: "Calloway does the arithmetic out loud"
+title: "Calloway says the numbers out loud"
 summary: "The ready room, the whole house, and a number said plainly because softening it would be worse"
 status: "pending"
 when: "d1/dawn"

@@ -226,8 +226,8 @@ def test_the_briefing_teaches_percentages_without_a_rules_lecture():
         assert banned not in body, f"the briefing lectures about {banned}"
 
 
-def test_the_arithmetic_entry_states_the_load_bearing_number():
-    p = ROOT / "lore/cosmology/the-arithmetic-of-the-reach.md"
+def test_the_sum_entry_states_the_load_bearing_number():
+    p = ROOT / "lore/cosmology/twenty-years-to-the-light-year.md"
     _, body = parse_frontmatter(p.read_text())
     assert "975" in body and "twenty" in body.lower()
     assert "48.7" in body or "48.8" in body, "the frontier distance must appear"
@@ -429,3 +429,28 @@ def test_the_opener_gives_a_guaranteed_early_success():
         assert "cannot fail" in low and "guaranteed" in low, (
             f"{p.name} has no guaranteed early success"
         )
+
+
+BANNED_IN_PROSE = [
+    "arithmetic", "the calculus of", "the math of", "the ledger of it",
+    "wallpaper", "nobody has ever asked me that", "cost her something to say",
+    "tilts her head", "lets the silence do the work",
+]
+
+
+def test_no_banned_constructions_in_shipped_prose():
+    """TABLE.md section 1 and the Gamesmaster style card ban these outright --
+    'arithmetic' as a *word*, not merely as a metaphor, because it was the most
+    characteristic tic in the baseline.
+
+    They were banned for narration and dialogue, and lore gets read aloud and
+    paraphrased at the table all session, so it leaks. It had leaked into twelve
+    files and an entry title before anybody noticed."""
+    hits = {}
+    for p in list(lore_files()) + sorted((ROOT / "beats").glob("*.md")) \
+            + sorted((ROOT / "agendas").glob("*.md")) + sorted((ROOT / "characters").rglob("*.json")):
+        low = p.read_text().lower()
+        for w in BANNED_IN_PROSE:
+            if w in low:
+                hits.setdefault(w, []).append(p.name)
+    assert not hits, f"banned constructions in shipped prose: {hits}"

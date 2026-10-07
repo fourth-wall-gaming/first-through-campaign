@@ -36,7 +36,7 @@ not be consulted.
 They lost that argument for about forty years. Then they won it.
 
 Read the surviving speeches and what strikes you is how unsentimental they are.
-Nobody talks about destiny. They talk about the arithmetic of a species with one
+Nobody talks about destiny. They talk about the position of a species with one
 star and what happens to it eventually, and they conclude — reluctantly, the way
 you conclude you need a new roof — that it has to be done now because it takes
 nine hundred years to work.
