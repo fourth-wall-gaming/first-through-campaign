@@ -72,73 +72,110 @@ gm import-campaign --path "${CLAUDE_PLUGIN_ROOT}" --new-ids
 
 Note the campaign id it returns; everything after this uses it.
 
-## 6. The opener
+## 6. The opener is light, and the hard thing comes on day two
 
-There is one, and it is `lore/entry-points/how-many.md`. Read it and its guide,
-`lore/gm-guide/running-how-many.md`, before you narrate anything.
+**Do not open on the emergency.** The first session is a morning in a ready room:
+a kettle argument, somebody's fetch being impossible, Calloway pleased to see
+them, one short crossing that works. The player learns the job by doing it while
+nothing is wrong, and learns the setting by living in it for an hour.
 
-Pitch it to the player in two sentences and no more:
+The hard one is `how-many` (`lore/entry-points/how-many.md`) and it arrives on
+**d1**, after the light beats have landed: a door at the Nine starts stuttering,
+sixty-one people are behind it, nineteen of them children, and adults cannot be
+carried. Pitch it then, in two sentences, and not before:
 
 > *A door at the Nine has started stuttering, which means it is going to move.
 > There are sixty-one people on the far side of it and nineteen of them are
 > children, and you are the only person on this station who can bring anybody
 > back.*
 
-Then stop talking and let them pick a character.
+Act I's beats are already staged in the save in that order. Run `gm list-beats`
+and follow them; do not reach for `how-many` early because the table has gone
+quiet.
 
-## 7. Offer the four pre-gens
+## 7. Build a character — three stages, out loud
 
-One line each, from `lore/character-creation/choosing-a-first-through.md`:
+**There are no pre-gens. Every character is built at the table, every time.**
+Defining your own person is most of the point of a first roleplaying game, and a
+handed-over sheet skips it. Do not run `spawn` (it makes an NPC and discards
+Passions and powers) and there is no `--template` flag on `create-character`.
 
-- **The Runner** — gets there. Climbs, carries, and has never been the slowest
-  person in a room.
-- **The Tinker** — opens things. Can tell a dying anchor from a sulking one.
-- **The Talker** — gets invited in. Reads people fast and is usually right.
-- **The Fieldhand** — knows what is alive. Raised behind a single door and has
-  watched people decide not to pack.
+Work through it **one stage at a time**, letting them choose at each step and
+saying the running totals out loud. It takes twenty minutes and it is the best
+twenty minutes of the session.
 
-Say plainly: **all four can finish either mission, and none of them has to hurt
-anybody.** They are not picking a difficulty setting.
+**Who they are first, numbers second.** Name, age (fifteen is the default and the
+reason they are allowed through a door at all), where they grew up, and what
+their fetch is — `lore/character-creation/your-fetch.md`. The fetch is a person,
+not equipment; let them name it and let it have an opinion before any dice.
 
-**They already exist in the save.** The four pre-gens import as real PCs, with
-their Passions and their kit and their powers, so there is nothing to build and
-nothing to roll. The player is choosing a person, not generating one.
+**Stage 1 — Culture: 100 points.** Six cultures in
+`lore/character-creation/cultures.md`: the Garden, Station-born, Holding-born,
+Shelter-born, Works-born, Belt-born. Spend **100** across that culture's Standard
+skills and up to three of its Professional skills.
 
-Do **not** run `create-character` and do **not** run `spawn`. There is no
-`--template` flag on `create-character`, and `spawn` makes an NPC and throws
-away Passions and powers -- which are the two things these characters are made
-of.
+**Stage 2 — Career: 100 points.** Six careers in
+`lore/character-creation/careers.md`: Courier, Pathfinder, Doorwright, Lifeline,
+Envoy, Scout-runner. Every career includes **Crossing** — that is the job. Spend
+another **100** across that career's Standard skills and up to three of its own
+Professional skills. A Professional skill belongs to the culture or career that
+lists it; do not let one be taken from a list the character does not have.
 
-Find their ids:
+**Stage 3 — Bonus: 150 points.** Free spend across anything already on the sheet.
+
+**The cap is 15 points per skill per stage.** Not 15 total — 15 in each of the
+three rounds, so the most any skill can reach is its base plus 45. Add them up
+piece by piece in front of the player and say each number as it lands. Aim for
+**somewhat specialised, not narrow**: three or four things they are good at, a
+spread of things they can attempt, and nothing at 90.
+
+**Knack and powers.** One knack, from the table in
+`lore/character-creation/the-knacks.md`, which maps it to its Mythras power and
+rule id. Everybody also carries Life Support, because that is the membrane suit
+and not the child, with the Limit *External Power Source*. Core powers are POW +
+INT; the knacks entry states the table. Leave the third slot **open** — a second
+knack can surface in play, and knowing that is a gift.
+
+**Three Passions.** Written by the player, in their words, about people and
+places that exist in this setting. Then ask whether they would change one. That
+single question does more for a first session than anything else in this file.
+
+Then create them, with everything in one call:
 
 ```bash
-gm list-characters --campaign <id> --type pc
+gm create-character --campaign <id> --name "<their name>" --type pc \
+  --species humanoid \
+  --stats '{"STR":..,"CON":..,"SIZ":..,"DEX":..,"INT":..,"POW":..,"CHA":..}' \
+  --skills '{...}' --passions '{...}' \
+  --equipment '["Membrane suit", ...]' \
+  --description "<age, culture, career, knack, fetch>"
 ```
 
-Then put the chosen one where the scene is, and post the other three elsewhere:
+**`create-character` takes no `--powers`.** The knack and the suit's Life Support
+go on in a second call, or the sheet comes out with no powers at all:
 
 ```bash
-gm move-character --id <chosen-pc-id> --location myth-loc-71ceb7852898      # the ready room
-gm move-character --id <other-1> --location myth-loc-2c575cc45375            # the Yards, 61 Cygni
-gm move-character --id <other-2> --location myth-loc-2c575cc45375
-gm move-character --id <other-3> --location myth-loc-2c575cc45375
+gm update-character --id <pc-id> --powers '[{"name":"...","rule":"magic/power-...","limits":[...]}]'
 ```
 
-The three they did not pick are **not deleted**. They are the rest of the
-intake, on other postings, and the world engine stages beats from recorded
-presence -- so moving them to the Yards is what keeps them out of the player's
-scenes while leaving them available to turn up at the Nine between missions. Say
-that to the player. It makes the choice feel less like a door closing, and it is
-true.
+**`--species humanoid` is not optional.** It defaults to `avian`, and a character
+created without it gets wings, a Flight skill and a flying movement rate. This
+has already happened once to a played character.
 
-Let them rename their character if they want to. Then read them their three
-Passions and ask whether they would change one -- that single question does more
-for a first session than anything else in this file.
+Then set Luck and the suit's charge full, and put them where the scene is:
 
 ```bash
-gm update-campaign --campaign <id> --session-number 1
+gm update-character --id <pc-id> --fatigue Fresh --luck <luck_points>
+gm move-character --id <pc-id> --location myth-loc-71ceb7852898   # the ready room
+gm update-campaign --campaign <id> --session-number 1 --played <pc-id>
 gm log-event --campaign <id> --type session-start --summary "<entry point>, <character>"
 ```
+
+**`--played` matters.** Beat staging counts only the PCs somebody is actually
+playing; without it every beat in the world reads as onscreen.
+
+The fetch is a character too. Create it as an NPC with its own Passions before
+the first scene, or the journal has no one to link when it does something.
 
 ## 8. Set the scene, then narrate
 

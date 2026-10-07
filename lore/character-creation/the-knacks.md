@@ -68,6 +68,40 @@ Threshold's engineers are made of this one.
 **The Read.** You see what people are doing and about to do. Rare, resented, and
 very hard to live with.
 
+## At the table
+
+Every character is built from scratch; there are no ready-made first-throughs.
+Pick one knack at creation and take the power it maps to. Rule ids below resolve
+in the engine's rules graph -- cite them on the sheet so `get-rule` can reach
+them mid-session.
+
+| Knack | Power | Rule |
+|---|---|---|
+| The Listen | Heightened Sense | `magic/power-heightened-sense` |
+| The Quick | Enhanced Reactions | `magic/power-enhanced-reactions` |
+| The Set | Durability | `magic/power-durability` |
+| The Reckoning | Savant | `magic/power-savant` |
+| The Knowing | Savant | `magic/power-savant` |
+| The Read | Heightened Sense | `magic/power-heightened-sense` |
+
+**The Hold is not available at creation.** It is rarer than anything else here,
+and a fifteen-year-old who could pin a door would make the rest of the setting's
+problems negotiable. It surfaces in play if it surfaces at all.
+
+**Everybody also has Life Support** (`magic/power-life-support`), which is the
+membrane suit and not the child: it takes the Limit *External Power Source*,
+because the suit can be taken off, taken away, or run out.
+
+**How many powers.** Core powers are POW + INT on the tech-and-training branch:
+12 or under gives 1, 13-20 gives 2, 21-30 gives 3, 31-40 gives 4, above 40 gives
+5. The first Limit you accept buys a Boost; every Limit after that buys another
+core power.
+
+**Nothing here moves a person between places.** Personal teleportation being
+impossible is the reason the Causeway matters at all, so no knack grants Teleport,
+Flight, Vaporous Form, Animation, Elemental Control or Energy Blast -- and a
+third power slot left open at creation can never be filled with one.
+
 ## What it costs
 
 Every crossing deepens the knack and frays the body, and they are not two

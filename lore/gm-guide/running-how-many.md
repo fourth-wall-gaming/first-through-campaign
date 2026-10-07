@@ -36,16 +36,22 @@ Track it openly. The player should feel each one.
 Nobody has to carry five. If a player insists, let them, make it cost, and do not
 punish the courage with a death they did not see coming.
 
-## Four ways in, one per pre-gen
+## Ways in, whatever they built
 
-| | How they get there |
+Characters are built at the table, so there is no cast list to plan against.
+What there is instead is a scenario with more than one handle on it. Whatever the
+player made, one of these is theirs:
+
+| If they are good at | How they get in |
 |---|---|
-| **The Runner** | Fastest across Ladder, finds the nineteen, carries most |
-| **The Tinker** | Reads the housing and can say roughly how long is left, which is the single most useful fact in the scenario |
-| **The Talker** | Gets the real story out of Tace Orun, including how she chose the order |
-| **The Fieldhand** | Knows which children will not survive being carried badly, and in what order they should go |
+| Moving and carrying | Fastest across Ladder, finds the nineteen, carries most |
+| Machinery and anchors | Reads the housing and can say roughly how long is left, which is the single most useful fact in the scenario |
+| People | Gets the real story out of Tace Orun, including how she chose the order |
+| Bodies and living things | Knows which children will not survive being carried badly, and in what order they should go |
+| Nothing on this list | Then they ask, and somebody on this station knows. Asking is a way in. |
 
-All four reach the turn. None of them reaches it faster than the others.
+Every one of these reaches the turn. None reaches it faster than the others, and
+a character with none of them still gets there by talking to someone who has it.
 
 ## Tace Orun's list
 

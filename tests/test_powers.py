@@ -1,8 +1,11 @@
-"""The pre-gens must be engine-legal and must obey the spec's power whitelist.
+"""The powers a fresh character can take must be legal and must not break the setting.
 
-They live in characters/pcs/, not templates/. In this engine `templates/` means
-creature stat blocks for `spawn`, and spawn hardcodes type npc and discards
-passions and powers -- so a pre-gen shipped as a template cannot be played.
+There are no pre-gens. Every character is built at the table, so the guard that
+used to run over shipped pre-gen JSON now runs over the thing a player actually
+reads at creation: the knack-to-power table in lore/character-creation/the-knacks.md.
+
+That table is the only place in the campaign that names Mythras powers, so it is
+the only place a forbidden one can get in.
 """
 import json
 import re
@@ -12,7 +15,7 @@ import pytest
 
 from content_rules import ROOT
 
-PREGENS = sorted((ROOT / "characters" / "pcs").glob("*.json"))
+KNACKS = ROOT / "lore" / "character-creation" / "the-knacks.md"
 
 PERMITTED = {
     "Life Support", "Inherent Armor", "Savant", "Heightened Sense",
@@ -24,94 +27,90 @@ FORBIDDEN = {
     "Elemental Control", "Energy Blast",
 }
 
-
-def test_there_are_four_pregens():
-    assert len(PREGENS) == 4, [p.name for p in PREGENS]
-
-
-def test_every_pregen_is_a_playable_pc():
-    """The bug this file was reorganised around: a pre-gen that is not type pc
-    cannot be handed to a player at all."""
-    for path in PREGENS:
-        t = json.loads(path.read_text())
-        assert t["type"] == "pc", f"{path.name} is type {t['type']!r}"
-        assert t.get("location"), (
-            f"{path.name} has no location -- without one they are nowhere and "
-            "every beat reads as offscreen"
-        )
+ROW = re.compile(r"^\|\s*(The [A-Z]\w+)\s*\|\s*([^|]+?)\s*\|\s*`([^`]+)`\s*\|$",
+                 re.MULTILINE)
 
 
-@pytest.mark.parametrize("path", PREGENS, ids=lambda p: p.stem)
-def test_template_is_engine_shaped(path):
-    t = json.loads(path.read_text())
-    assert re.match(r"^myth-char-[0-9a-f]{12}$", t["id"])
-    for key in ("name", "description", "characteristics", "attributes",
-                "skills", "passions", "powers"):
-        assert key in t, f"{path.name} has no {key}"
-    for stat in ("STR", "CON", "SIZ", "DEX", "INT", "POW", "CHA"):
-        assert isinstance(t["characteristics"][stat], int)
-    assert t["passions"], "a pre-gen with no Passions is a stat block"
+def knack_rows():
+    return ROW.findall(KNACKS.read_text())
 
 
-@pytest.mark.parametrize("path", PREGENS, ids=lambda p: p.stem)
-def test_powers_are_whitelisted_and_teleport_is_absent(path):
+def cited_rules():
+    """Every rule id the knack lore cites, table rows and prose alike."""
+    return sorted(set(re.findall(r"`(magic/power-[a-z-]+)`", KNACKS.read_text())))
+
+
+def test_the_knack_table_exists_and_covers_the_knacks():
+    """A knack with no power is a knack a built character cannot actually take."""
+    rows = knack_rows()
+    assert rows, "no knack-to-power table in the knacks lore"
+    named = {k for k, _, _ in rows}
+    prose = set(re.findall(r"\*\*(The [A-Z]\w+)\.\*\*", KNACKS.read_text()))
+    # The Hold is deliberately not offered at creation.
+    missing = prose - named - {"The Hold"}
+    assert not missing, f"knacks described but not mapped to a power: {sorted(missing)}"
+
+
+def test_the_hold_is_not_offered_at_creation():
+    """It would make the rest of the setting's problems negotiable."""
+    text = KNACKS.read_text()
+    assert "The Hold is not available at creation" in text
+    assert "The Hold" not in {k for k, _, _ in knack_rows()}
+
+
+@pytest.mark.parametrize("power", sorted({p for _, p, _ in knack_rows()}))
+def test_every_offered_power_is_whitelisted(power):
     """Spec section 7: personal teleportation being impossible is why the
-    Causeway matters. A pre-gen that could teleport would unmake the setting."""
-    for p in json.loads(path.read_text())["powers"]:
-        assert p["name"] in PERMITTED, f"{path.name}: {p['name']} is not permitted"
-        assert p["name"] not in FORBIDDEN
+    Causeway matters. A knack that granted Teleport would unmake the setting."""
+    assert power in PERMITTED, f"{power} is not a permitted power"
+    assert power not in FORBIDDEN
 
 
-@pytest.mark.parametrize("path", PREGENS, ids=lambda p: p.stem)
-def test_power_count_matches_the_build_table(path):
-    """core powers = POW + INT on the tech/training branch, per the table:
-    <=12 -> 1, 13-20 -> 2, 21-30 -> 3, 31-40 -> 4, 40+ -> 5; and each Limit
-    taken beyond the first buys a core power, the first buys a Boost."""
-    t = json.loads(path.read_text())
-    pool = t["characteristics"]["POW"] + t["characteristics"]["INT"]
-    allowed = 1 if pool <= 12 else 2 if pool <= 20 else 3 if pool <= 30 else 4 if pool <= 40 else 5
-    limits = {l for p in t["powers"] for l in p["limits"]}
-    if len(limits) >= 2:
-        allowed += 1
-    assert len(t["powers"]) <= allowed, (
-        f"{path.name}: POW+INT={pool} allows {allowed} core powers, "
-        f"file has {len(t['powers'])}"
-    )
+def test_no_forbidden_power_is_named_anywhere_as_available():
+    """The prose says these are unreachable; it must not also offer one."""
+    for _, power, _ in knack_rows():
+        assert power not in FORBIDDEN, f"{power} is offered by a knack"
 
 
-@pytest.mark.parametrize("path", PREGENS, ids=lambda p: p.stem)
-def test_every_power_rule_id_resolves_in_the_rules_graph(path):
-    """Review Focus 3. A typo here does not raise -- it yields a sheet with no
-    powers at all, which a player would discover mid-mission."""
+def test_the_build_table_is_stated_so_a_character_can_be_costed():
+    """Core powers = POW + INT. Without the table in front of the player, the
+    number of powers a fresh character gets is whatever the GM remembers."""
+    text = KNACKS.read_text()
+    assert "POW + INT" in text
+    for bound in ("13-20", "21-30", "31-40"):
+        assert bound in text, f"the build table does not state {bound}"
+
+
+@pytest.mark.parametrize("rule", cited_rules())
+def test_every_power_rule_id_resolves_in_the_rules_graph(rule):
+    """A typo here does not raise -- it yields a sheet whose power cannot be
+    looked up, which a player would discover mid-mission."""
     engine = subprocess.run(
         ["bash", "-c", '. scripts/engine.sh && echo "$GM_SKILL"'],
         cwd=ROOT, capture_output=True, text=True,
     ).stdout.strip()
     if not engine:
         pytest.skip("mythras-gm engine not installed")
-    for p in json.loads(path.read_text())["powers"]:
-        out = subprocess.run(
-            ["uv", "run", "-q", "--project", engine, "python",
-             f"{engine}/mythras_gm.py", "get-rule", "--id", p["rule"]],
-            capture_output=True, text=True,
-        )
-        assert json.loads(out.stdout).get("success"), (
-            f"{path.name}: power {p['name']} cites rule {p['rule']}, "
-            "which does not resolve"
-        )
+    out = subprocess.run(
+        ["uv", "run", "-q", "--project", engine, "python",
+         f"{engine}/mythras_gm.py", "get-rule", "--id", rule],
+        capture_output=True, text=True,
+    )
+    assert json.loads(out.stdout).get("success"), f"{rule} does not resolve"
 
 
-@pytest.mark.parametrize("path", PREGENS, ids=lambda p: p.stem)
-def test_pregens_start_with_full_luck_and_charge(path):
-    """Import defaults luck_current to 2 when the file does not state it, so a
-    pre-gen with 3 Luck Points would hand a child a safety valve one short on
-    session one. Luck is the spec's named safety valve; it starts full."""
-    t = json.loads(path.read_text())
-    assert t.get("luck_current") == t["attributes"]["luck_points"], (
-        f"{path.name}: luck_current {t.get('luck_current')} != "
-        f"luck_points {t['attributes']['luck_points']}"
-    )
-    assert t.get("magic_current") == t["attributes"]["magic_points"], (
-        f"{path.name}: the suit's charge does not start full"
-    )
-    assert t.get("fatigue") == "Fresh", f"{path.name} does not start Fresh"
+def test_the_membrane_suit_is_a_limit_not_a_birthright():
+    """Life Support is the suit. Shipping it without External Power Source makes
+    a child who cannot be put in danger by having her kit taken off her."""
+    text = KNACKS.read_text()
+    assert "magic/power-life-support" in text
+    assert "External Power Source" in text
+
+
+def test_no_pregens_ship():
+    """Always a fresh character. A shipped pre-gen is a character nobody built,
+    and the whole point of the opening session is building one."""
+    stray = sorted(p.name for p in (ROOT / "characters" / "pcs").glob("*.json"))
+    assert not stray, f"pre-gens still shipped in characters/pcs/: {stray}"
+    stray = sorted(p.name for p in (ROOT / "templates").glob("the-*.json"))
+    assert not stray, f"pre-gens still shipped in templates/: {stray}"

@@ -124,11 +124,11 @@ def test_import_then_export_round_trips_losslessly(tmp_path):
 def test_the_campaign_is_actually_playable(tmp_path):
     """The 'ready to play' gate, and the one that caught v1 being unplayable.
 
-    A campaign can round-trip perfectly and still be impossible to start. What a
-    player needs is four PCs in the save, each with powers, Passions, full Luck
-    and a place to stand -- without the GM running create-character (which has
-    no --template flag) or spawn (which makes an NPC and discards powers and
-    Passions)."""
+    The gate changed shape when the pre-gens were removed. A fresh import must
+    now contain NO player characters -- the first thing the opening session does
+    is build one -- and what makes it playable instead is that the save carries
+    the parts a character gets built out of: cultures, careers, skills, knacks.
+    """
     r = _gm("import-campaign", "--path", str(ROOT), "--new-ids")
     if r.returncode != 0:
         pytest.skip(f"import failed: {r.stdout[:400]}")
@@ -136,25 +136,17 @@ def test_the_campaign_is_actually_playable(tmp_path):
     try:
         ctx = _gm("get-context", "--campaign", new_id)
         assert ctx.returncode == 0, ctx.stdout
-        pcs = json.loads(ctx.stdout)["player_characters"]
-        assert len(pcs) == 4, f"{len(pcs)} playable characters, expected 4"
-        for pc in pcs:
-            name = pc["name"]
-            assert pc["myth-char-type"] == "pc", f"{name} is not a pc"
-            powers = pc.get("myth-powers-json") or []
-            assert len(powers) == 3, f"{name} imported with {len(powers)} powers"
-            for p in powers:
-                assert p.get("rule", "").startswith("magic/power-"), (
-                    f"{name}: power {p.get('name')} lost its rule id"
-                )
-            assert len(pc.get("myth-passions-json") or {}) == 3, (
-                f"{name} imported with no Passions"
+        payload = json.loads(ctx.stdout)
+        pcs = payload["player_characters"]
+        assert pcs == [], (
+            f"a fresh import ships {len(pcs)} player characters; it must ship "
+            "none, because every character is built at the table"
+        )
+        blob = ctx.stdout.lower()
+        for needed in ("cultures", "careers", "skills", "knacks"):
+            assert needed in blob, (
+                f"nothing in the save tells the table about {needed}; "
+                "a fresh character cannot be built from it"
             )
-            attrs = pc["myth-attributes-json"]
-            assert pc["myth-luck-current"] == attrs["luck_points"], (
-                f"{name} starts with {pc['myth-luck-current']} Luck, not "
-                f"{attrs['luck_points']}"
-            )
-            assert pc.get("location"), f"{name} is nowhere"
     finally:
         _gm("delete-campaign", "--campaign", new_id, "--yes")

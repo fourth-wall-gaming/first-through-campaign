@@ -386,18 +386,27 @@ def test_every_entry_point_declares_itself():
         )
 
 
-def test_each_entry_point_names_all_four_pregens_as_viable():
-    """Spec section 6: every scenario must be solvable by all four. An entry
-    point that only lists two has quietly cut half the pre-gens."""
-    names = {_json.loads(p.read_text())["name"]
-             for p in (ROOT / "characters" / "pcs").glob("*.json")}
+def test_each_entry_point_is_solvable_without_a_particular_character():
+    """Spec section 6: every scenario must be solvable by whoever the player
+    built. With the pre-gens gone there is no cast list to check against, so the
+    guard inverts: an entry point must NOT require a named pre-gen, and must not
+    assume one approach is the only way through.
+
+    This test used to iterate characters/pcs/*.json. When those were deleted it
+    passed by iterating nothing, which is worse than failing."""
+    gone = {"The Runner", "The Tinker", "The Talker", "The Fieldhand"}
     found = list(lore_files("entry-points"))
     assert found, "no entry points"
     guides = "\n".join(p.read_text() for p in lore_files("gm-guide"))
     for p in found:
-        body = p.read_text() + guides
-        for n in names:
-            assert n in body, f"{p.stem} never says how {n} solves it"
+        body = p.read_text()
+        for name in gone:
+            assert name not in body, (
+                f"{p.stem} still names the retired pre-gen {name!r}; a built "
+                "character has no idea who that is"
+            )
+    for name in gone:
+        assert name not in guides, f"a gm-guide entry still names {name!r}"
 
 
 def test_the_tally_alone_is_armed_non_lethally():
@@ -445,10 +454,18 @@ def test_no_banned_constructions_in_shipped_prose():
 
     They were banned for narration and dialogue, and lore gets read aloud and
     paraphrased at the table all session, so it leaks. It had leaked into twelve
-    files and an entry title before anybody noticed."""
+    files and an entry title before anybody noticed.
+
+    facts/, locations/ and setting/ were missing from this list, and a fact file
+    kept the word through the whole sweep because nothing looked at it. Fact
+    statements are read at the table like any other prose."""
     hits = {}
     for p in list(lore_files()) + sorted((ROOT / "beats").glob("*.md")) \
-            + sorted((ROOT / "agendas").glob("*.md")) + sorted((ROOT / "characters").rglob("*.json")):
+            + sorted((ROOT / "agendas").glob("*.md")) \
+            + sorted((ROOT / "facts").glob("*.md")) \
+            + sorted((ROOT / "locations").glob("*.md")) \
+            + sorted((ROOT / "setting").glob("*.md")) \
+            + sorted((ROOT / "characters").rglob("*.json")):
         low = p.read_text().lower()
         for w in BANNED_IN_PROSE:
             if w in low:

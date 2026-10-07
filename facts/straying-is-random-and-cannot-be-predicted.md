@@ -11,7 +11,7 @@ created_at: "2026-10-06T12:00:00"
 
 **Established and FALSE, and it is the campaign's central lie.**
 
-Straying is arithmetic. A mouth is pinned to a potential and jumps when the
+Straying can be worked out. A mouth is pinned to a potential and jumps when the
 solution branches, and with good enough models and a long enough record it is
 forecastable -- which almost nobody believes, because nobody has ever managed it
 and because a great many people would rather it stayed impossible.

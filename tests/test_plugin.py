@@ -5,6 +5,8 @@ import os
 import re
 import subprocess
 
+import pytest
+
 from content_rules import ROOT
 
 SEED_ID = "myth-campaign-first-through-s1"
@@ -97,17 +99,33 @@ def test_the_addendum_puts_the_risk_on_the_table_before_the_dice():
     assert "never a lethal surprise" in low
 
 
-def test_the_start_command_offers_every_entry_point_and_all_four_pregens():
+def test_the_start_command_offers_every_entry_point_and_builds_a_character():
     """Derived from what is actually in lore/entry-points/, so retiring or adding
-    a scenario cannot leave the start command silently out of date -- which is
-    exactly what happened when the two v1 openers were replaced."""
+    a scenario cannot leave the start command silently out of date.
+
+    The pre-gen half of this test used to loop over characters/pcs/*.json; with
+    those deleted it asserted nothing. What it checks now is that the start
+    command carries the three-stage build, because that IS the opening session.
+    """
     text = (ROOT / "commands" / "start.md").read_text()
+    low = text.lower()
     slugs = [p.stem for p in (ROOT / "lore" / "entry-points").glob("*.md")]
     assert slugs, "no entry points to offer"
     for slug in slugs:
         assert slug in text, f"start does not offer {slug}"
-    for p in (ROOT / "characters" / "pcs").glob("*.json"):
-        assert json.loads(p.read_text())["name"] in text
+
+    for stage in ("culture", "career", "bonus"):
+        assert stage in low, f"start.md never mentions the {stage} stage"
+    assert "100" in text and "150" in text, (
+        "start.md does not state the point pools (Culture 100, Career 100, "
+        "Bonus 150)"
+    )
+    assert "15" in text, "start.md does not state the 15-per-skill-per-round cap"
+    assert "there are no pre-gens" in low, (
+        "start.md must say plainly that there are no pre-gens"
+    )
+    for retired in ("The Runner", "The Tinker", "The Talker", "The Fieldhand"):
+        assert retired not in text, f"start.md still offers the pre-gen {retired!r}"
 
 
 def test_the_start_command_uses_a_cli_path_that_actually_exists():
@@ -120,9 +138,47 @@ def test_the_start_command_uses_a_cli_path_that_actually_exists():
         "makes an NPC and discards passions and powers"
     )
     assert "create-character --campaign <id> --template" not in text
-    assert "--played" not in text, (
-        "update-campaign has no --played flag in the shipped engine"
-    )
+
+    # Ask the installed engine which flags each command really takes, rather
+    # than hard-coding a list. This assertion used to ban --played outright,
+    # which pinned an engine bug (the flag was bound to the wrong subparser)
+    # into the campaign's own test suite.
+    engine = subprocess.run(
+        ["bash", "-c", '. scripts/engine.sh && echo "$GM_SKILL"'],
+        cwd=ROOT, capture_output=True, text=True,
+    ).stdout.strip()
+    if not engine:
+        pytest.skip("mythras-gm engine not installed")
+    # Flags are scoped to the invocation they appear in: a line `gm <command>`
+    # plus any backslash-continued lines after it. Checking "flag in text"
+    # would let a flag that is legal on one command excuse an illegal use on
+    # another -- which it did, hiding `create-character --powers`.
+    invocations = {}
+    lines = text.splitlines()
+    for n, line in enumerate(lines):
+        m = re.match(r"\s*gm ([a-z-]+)\b", line)
+        if not m:
+            continue
+        span, k = [line], n
+        while span[-1].rstrip().endswith("\\") and k + 1 < len(lines):
+            k += 1
+            span.append(lines[k])
+        invocations.setdefault(m.group(1), []).append(" ".join(span))
+
+    for command, spans in sorted(invocations.items()):
+        helptext = subprocess.run(
+            ["uv", "run", "-q", "--project", engine, "python",
+             f"{engine}/mythras_gm.py", command, "--help"],
+            capture_output=True, text=True,
+        ).stdout
+        if "usage:" not in helptext:
+            continue          # not a real subcommand name; another test covers that
+        for span in spans:
+            for flag in sorted(set(re.findall(r"(--[a-z][a-z-]+)", span))):
+                assert flag in helptext, (
+                    f"start.md uses `{command} {flag}`, which the installed "
+                    f"engine does not accept"
+                )
 
 
 def test_the_plugin_manifest_declares_the_engine_dependency():

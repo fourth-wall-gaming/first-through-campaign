@@ -32,25 +32,26 @@ everybody has waited nine centuries for opens next year.
 The engine arrives with it. You do not need to read anything first — the start
 command briefs a new player in about a minute and then you are playing.
 
-## Two ways in
+## How it opens
 
-Pick one at `/first-through:start`. Both are one sitting, both end in the same
-place, and both can be finished by any of the four characters.
+The first session is light. A morning in the ready room at the Nine: a kettle
+argument, somebody's fetch being impossible, Calloway pleased to see you, and
+one short crossing that works. You learn the job by doing it while nothing is
+wrong.
 
-- **The Quiet Door** — A farming settlement's only door has started stuttering,
-  and there are four thousand people on the far side of it. Investigation,
-  machinery and persuasion; there is one confrontation and you can avoid it
-  entirely.
-- **Flare** — A refinery crew have barricaded their own corridor, their shelter
-  is on the far side of it, and the two stars above them are about to do what
-  flare stars do. A real fight on a real clock, with the special effect always
-  yours to choose.
+Then, on day two, **How Many** — a door at the Nine starts stuttering, sixty-one
+people are behind it, nineteen of them are children, and adults cannot be
+carried. One sitting, winnable, and it will cost.
 
-## Four first-throughs
+## You build your own first-through
 
-**The Runner** gets there. **The Tinker** opens things. **The Talker** gets
-invited in. **The Fieldhand** knows what is alive. No building, no arithmetic —
-pick one and read the three things your character cares about.
+There are no ready-made characters. The start command walks a new player through
+the whole thing out loud in about twenty minutes: where you grew up, what you
+trained as, what your knack is, who your fetch is, and the three things you care
+about enough to fight for. Six cultures, six careers, and a spend of 100 / 100 /
+150 points across three stages.
+
+Defining your own person is most of the point of a first roleplaying game.
 
 ## Danger is real
 
