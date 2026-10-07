@@ -95,3 +95,29 @@ say exactly how long that report has been sitting there and who signed it.
 See [[Entry Point: How Many]] for a worked example, and [[Playing the Old Man]]
 for the one NPC who will hand over every fact he has the moment somebody asks,
 and who therefore has to be bounded by the hull rather than by coyness.
+
+## Do not let it become committee work
+
+The failure this campaign is most likely to fall into, because the setting
+rewards careful reading and the GM will enjoy it too much.
+
+A staged crisis leaves paper everywhere -- reports, minutes, stamps, registry
+extracts, positions recorded over somebody's name. All of that is good. It is
+how the player gets traction on something too big to punch.
+
+**But paper is the key to a door. It is never the door.**
+
+The tell that you have drifted: two scenes in a row with no dice that mattered,
+no physical jeopardy, and nobody under forty driving the scene. If a negotiation
+has started to turn on authorship, standing, or whose name goes on a document,
+you have lost the thread.
+
+**Budget one talking-in-a-room scene, then cut.** Something happens, physically,
+to somebody the player cares about, and it interrupts mid-sentence. The door is
+right there and it is doing something nobody understands; use it.
+
+These are games for ten-to-fifteen-year-olds who want a galaxy they can lose
+themselves in. A councillor conceding a vote is a *result*. It is not a scene to
+spend twenty minutes on, and the player should hear about most of it afterwards
+while running somewhere.
+
