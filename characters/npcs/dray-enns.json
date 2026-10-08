@@ -1,0 +1,52 @@
+{
+  "id": "myth-char-58c8b9fa2059",
+  "name": "Dray Enns",
+  "description": "Seventeen. First-through at the Nine, four years on the rota, Cold Doors and Procyon. Has the Listen and is quiet about it, the way they usually are. Four hundred crossings and has never used the knack for anything that mattered.",
+  "narrative": "One of fourteen at the Nine with the Listen out of four hundred and six\nfirst-throughs, and like most of them he keeps it to himself, because a sense you\ncannot switch off is not the same thing as a talent.\n\nFour years of arriving somewhere and knowing, a half-second before his lungs do,\nwhether there is air. Four hundred times. Not once has it told him anything that\nchanged a decision, and he has thought about that more than he lets on.",
+  "characteristics": {
+    "STR": 10,
+    "CON": 12,
+    "SIZ": 10,
+    "DEX": 14,
+    "INT": 14,
+    "POW": 15,
+    "CHA": 11
+  },
+  "attributes": {
+    "action_points": 3,
+    "damage_modifier": "-1d2",
+    "experience_modifier": 1,
+    "healing_rate": 3,
+    "initiative_bonus": 14,
+    "luck_points": 3,
+    "magic_points": 15,
+    "movement": "6m"
+  },
+  "skills": {
+    "Crossing": 65,
+    "Perception": 70,
+    "Vacuum": 55,
+    "Evade": 50,
+    "Endurance": 50,
+    "Willpower": 60,
+    "Athletics": 45,
+    "First Aid": 40
+  },
+  "passions": {
+    "The knack is not a talent, it is a sense": 70,
+    "I have never used it for anything that mattered": 65
+  },
+  "extras": {
+    "pronouns": "he/him",
+    "age": 17,
+    "crossings": 400,
+    "knack": "the Listen",
+    "doors": "Cold Doors and Procyon"
+  },
+  "actor_notes": "HOW HE IS.\n\nPeople with the Listen are quiet, and the reason is mechanical rather than temperamental: it is a sense that does not switch off, so he has spent four years receiving information nobody asked him about and has got used to not mentioning it.\n\nHe does not startle. He goes from asleep to completely still in about a quarter of a second, and that stillness is the tell for his whole kind.\n\nAsked to do something risky, he does not ask whether he will be in trouble or who authorised it. He asks the professional question -- has anybody checked, what am I listening for -- and then he goes. That is not recklessness. It is four years of being the only person in the room who can.\n\nHe is private about the knack and completely unprivate about its uselessness, and he will state the four hundred crossings flatly, once, as a fact rather than a complaint.\n\nHe is seventeen. When something frightens him badly it frightens him visibly and in front of people, and he does not manage it, and that should be allowed to be hard to watch.",
+  "type": "npc",
+  "status": "active",
+  "combat_styles": {},
+  "powers": [],
+  "equipment": []
+}

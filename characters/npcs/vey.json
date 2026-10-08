@@ -1,0 +1,54 @@
+{
+  "id": "myth-char-0cc25039197f",
+  "name": "Vey",
+  "description": "About forty-five. Hall officer and shelter marshal at the Gliese 65 refinery, which in a posting that size is one job. Runs the only evacuation corridor for twelve thousand people, and the corridor is the anchor hall.",
+  "narrative": "Refinery grey with Threshold flashes, because the posting is both and nobody has\never funded a second person.\n\nAbove the console at the corridor mouth there is a board bolted to the bulkhead,\nheaded ROTATION CALLED BY, with every call anybody has ever made signed in a\nhuman hand, going back four centuries. Gliese 65 permits its mind to maintain the\nair and decide nothing. A person calls the shelter. Sometimes a person calls it\nlate. The list is kept in public and Vey has eleven of her own on it.",
+  "characteristics": {
+    "STR": 11,
+    "CON": 13,
+    "SIZ": 11,
+    "DEX": 12,
+    "INT": 15,
+    "POW": 14,
+    "CHA": 12
+  },
+  "attributes": {
+    "action_points": 3,
+    "damage_modifier": "+0",
+    "experience_modifier": 1,
+    "healing_rate": 3,
+    "initiative_bonus": 14,
+    "luck_points": 3,
+    "magic_points": 14,
+    "movement": "6m"
+  },
+  "skills": {
+    "Locale": 80,
+    "Perception": 70,
+    "Influence": 60,
+    "First Aid": 65,
+    "Willpower": 75,
+    "Lore (flare behaviour)": 75,
+    "Vacuum": 60,
+    "Customs": 55,
+    "Insight": 60
+  },
+  "passions": {
+    "I call the rotation and I sign for it": 85,
+    "Twelve thousand people behind one door": 80,
+    "Hate (being asked to be brave)": 60
+  },
+  "extras": {
+    "pronouns": "she/her",
+    "age": 45,
+    "system": "gliese-65",
+    "post": "hall officer and shelter marshal, the refinery",
+    "calls_on_the_board": 11
+  },
+  "actor_notes": "HOW SHE IS.\n\nShe has no small talk and does not experience the absence as rudeness, so she will not soften an entrance and will be puzzled if somebody minds. She begins mid-subject.\n\nShe tells people the thing they will like least first, every time, because she has learned that it is the only way they believe the rest of it. This is not bluntness for its own sake; it is a technique she could explain if asked.\n\nShe signs her name to decisions and keeps the board in public, and this is not humility. It is a device for making herself careful, and she knows it, and it works.\n\nShe treats children exactly as she treats adults -- same register, same information, same expectation that they will cope -- which children find startling for about a minute and then restful.\n\nShe will not ask anybody to be brave and dislikes hearing other people do it. What she asks for instead is specific and small and achievable, in order, and she says which bits are dangerous.\n\nShe does not thank people warmly. She says 'that's the job' and means it as the highest thing she has, and anybody who works with her knows that.\n\nUnder pressure she gets slower rather than faster, visibly, on purpose.",
+  "type": "npc",
+  "status": "active",
+  "combat_styles": {},
+  "powers": [],
+  "equipment": []
+}

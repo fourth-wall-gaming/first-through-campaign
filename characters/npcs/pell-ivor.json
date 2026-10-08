@@ -1,0 +1,51 @@
+{
+  "id": "myth-char-9d7f56024cf9",
+  "name": "Pell Ivor",
+  "description": "Forty. Tallyman on door seven at the Nine, twelve years in the autumn. Keeps a board. Has been privately counting something nobody asked him to count since Friday.",
+  "narrative": "Twelve years at the head of one queue, which is long enough to know the regulars'\nchildren by name and to have views about the Coldwater manifests that nobody has\never solicited.\n\nHe counts things. Not professionally -- professionally he takes names and checks\nmanifests. The counting is a private habit he is slightly embarrassed about, and\nit is the reason the only record of door seven's behaviour in eight hundred years\nexists on a board he holds against his chest.",
+  "characteristics": {
+    "STR": 11,
+    "CON": 12,
+    "SIZ": 12,
+    "DEX": 11,
+    "INT": 14,
+    "POW": 11,
+    "CHA": 11
+  },
+  "attributes": {
+    "action_points": 2,
+    "damage_modifier": "+0",
+    "experience_modifier": 1,
+    "healing_rate": 3,
+    "initiative_bonus": 13,
+    "luck_points": 2,
+    "magic_points": 11,
+    "movement": "6m"
+  },
+  "skills": {
+    "Lore (door seven)": 85,
+    "Perception": 60,
+    "Customs": 65,
+    "Native Tongue": 70,
+    "Influence": 40,
+    "Insight": 50,
+    "Locale": 60
+  },
+  "passions": {
+    "The number is the number": 80,
+    "Fear (being the man who should have said something)": 70
+  },
+  "extras": {
+    "pronouns": "he/him",
+    "age": 40,
+    "post": "tallyman, door seven",
+    "years_on_seven": 12,
+    "board_started": "the Friday before day one"
+  },
+  "actor_notes": "HOW HE IS.\n\nHe counts things nobody asked him to count and is embarrassed about it, so he does not volunteer the counting -- he volunteers the *number*, when the number is wrong, and then looks like he wishes he had not.\n\nHe defers to authority instinctively and corrects it anyway, and you can see the effort each time. He will say 'beg pardon, Director' and then say the thing. That gap between the deference and the correction is the character.\n\nHe is frightened of being the man who should have said something, and he gets there before anybody accuses him -- he will confess the omission unprompted, which is both honest and a shield.\n\nHis board is the only thing he owns at work and he holds it against his chest without noticing he is doing it. Being asked for it is the most significant thing that has happened to him in twelve years and he will not say so.\n\nWhen asked whether he has seen a thing before, he goes and actually looks for the memory rather than answering fast. That habit is the most valuable thing about him and a GM should let it take a beat of silence.",
+  "type": "npc",
+  "status": "active",
+  "combat_styles": {},
+  "powers": [],
+  "equipment": []
+}

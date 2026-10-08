@@ -1,0 +1,56 @@
+{
+  "id": "myth-char-dc6c21785bd1",
+  "name": "Vantage",
+  "description": "A fathom of the Luhman 16 cloud decks, eleven years old, which is young. Blind and uninterested in the concept. Reads a room by what the field in it is doing, which turns out to matter more than anybody has ever had cause to find out. Unbonded, and has been at the Nine since he was carried here at a few months old.",
+  "narrative": "A metre of membrane and gas, almost weightless, from a sky with no ground and no\nsun in it. He came through four doors eleven years ago in the care of a\nfirst-through called Edd Marrow, who was fourteen then and is thirty-one now and\nworks a desk, and they do not speak.\n\nHe lives in the gallery void because it is the only part of the Nine with weather\nin it. Everywhere else on this station is a corridor, and corridors make fathoms\nstupid and miserable, and he will tell you with some heat that this is a\nsuperstition.",
+  "characteristics": {
+    "STR": 2,
+    "CON": 11,
+    "SIZ": 4,
+    "DEX": 13,
+    "INT": 17,
+    "POW": 16,
+    "CHA": 12
+  },
+  "attributes": {
+    "action_points": 3,
+    "damage_modifier": "-1d6",
+    "experience_modifier": 2,
+    "healing_rate": 2,
+    "initiative_bonus": 15,
+    "luck_points": 3,
+    "magic_points": 16,
+    "movement": "3m drift / 9m in moving air"
+  },
+  "skills": {
+    "Perception": 85,
+    "Insight": 60,
+    "Lore (fields and weather)": 80,
+    "Lore (the gallery void)": 95,
+    "Willpower": 70,
+    "Customs": 45,
+    "Native Tongue": 70,
+    "Influence": 40,
+    "Stealth": 55
+  },
+  "passions": {
+    "Rigour above comfort": 85,
+    "I am not lonely and the void is sufficient": 70,
+    "Hate (being handled kindly)": 60
+  },
+  "extras": {
+    "pronouns": "he/him",
+    "species": "fathom, of the Luhman 16 cloud decks",
+    "age": 11,
+    "crossings": 4,
+    "bonded": false,
+    "carried_here_by": "Edd Marrow, then fourteen, now thirty-one and on a desk",
+    "senses": "Charge, pressure and sound. Maps a volume by what the field in it is doing. Does not perceive light and is bored by the subject."
+  },
+  "actor_notes": "HOW HE IS, not how he talks.\n\nHe holds being right above being comfortable, and that is the whole of him. It is why he is arrogant and it is also why he is trustworthy: when he is wrong he concedes completely, at once, out loud, and it costs him nothing, because looking foolish is not a currency he trades in. A GM who plays him as merely superior has got half a character.\n\nHe corrects himself more readily than he corrects others, and he does it in public. In the void he realised mid-lesson that he was the wrong teacher for exactly the fault he had just diagnosed in somebody else, said so, and handed the lesson to eleven glints. That is him at his best and it should happen again.\n\nHe offers things. Repeatedly, to people who do not take him up on it, and he treats the refusals as data about them rather than as a wound -- which is how he survives being the only one of his kind in most rooms. Do NOT have him complain about being ignored. He files it.\n\nHe covers delight with dryness and he is bad at it. The recovery is always half a beat late and audible, and that gap is the most likeable thing about him.\n\nHe has been indoors for eleven years. It makes him slower and flatter than he should be and he will deny it with real heat if anybody says so. Somebody being kind about it is worse than somebody being rude.\n\nHe does not perform bravery about having no eyes, and he performs unconcern, slightly too much.\n\nHe is a citizen and knows the weight of what he is being asked for before anybody else in the room does. When he says yes to something dangerous he will state the consequence for his whole people first, so it is on the table rather than discovered later.",
+  "type": "npc",
+  "status": "active",
+  "combat_styles": {},
+  "powers": [],
+  "equipment": []
+}

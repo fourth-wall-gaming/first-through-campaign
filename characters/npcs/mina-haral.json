@@ -1,0 +1,55 @@
+{
+  "id": "myth-char-ce415d8122e8",
+  "name": "Mina Haral",
+  "description": "Eighty-one. A reader out of Procyon who taught reading for fifty-one years, including half the Tally's filing clerks and a nine-year-old called Marem Hale. Turned back at a hall at twenty-two. Has paid children forty-one times to carry her where she wanted to go.",
+  "narrative": "She was tested at nine like everybody and taken up like almost nobody, and then\nturned back at a hall at twenty-two with no reason given that she accepted. She\nhas never once said what that day was like.\n\nWhat she did instead was teach, for fifty-one years, and she is in the\nprofessional memory of about four hundred people across six systems, most of whom\nbelieve she taught them personally and are allowed to.\n\nShe keeps a private count of the forty-one carries. She knows what each one cost\nthe child who did it, to the fortnight, and she has decided to keep asking.",
+  "characteristics": {
+    "STR": 6,
+    "CON": 8,
+    "SIZ": 11,
+    "DEX": 7,
+    "INT": 17,
+    "POW": 15,
+    "CHA": 14
+  },
+  "attributes": {
+    "action_points": 2,
+    "damage_modifier": "-1d2",
+    "experience_modifier": 2,
+    "healing_rate": 1,
+    "initiative_bonus": 12,
+    "luck_points": 2,
+    "magic_points": 15,
+    "movement": "4m, badly"
+  },
+  "skills": {
+    "Insight": 80,
+    "Influence": 75,
+    "Customs": 85,
+    "Native Tongue": 90,
+    "Reading": 95,
+    "Lore (the Tally's paperwork)": 85,
+    "Lore (who taught whom)": 90,
+    "Willpower": 75,
+    "Perception": 55
+  },
+  "passions": {
+    "Love (the readers she taught)": 80,
+    "I will see Procyon again": 75,
+    "Hate (being handled as frail)": 70
+  },
+  "extras": {
+    "pronouns": "she/her",
+    "age": 81,
+    "turned_back_at": 22,
+    "paid_carries": 41,
+    "injury": "left wrist, fracture, braced",
+    "taught": "readers and filing clerks across six systems for fifty-one years, including Marem Hale at nine and Nettie Calloway at nine"
+  },
+  "actor_notes": "HOW SHE IS.\n\nShe manages people and is completely open about managing them, and that is why she gets away with it. She will tell you she is about to handle you and then handle you and you will let her.\n\nShe pays for errors immediately and in full, out loud, in detail -- and then never refers to them again. This is a technique and it is also sincere. It means nobody can hold anything over her, and it means when she says a thing is her fault you can believe it.\n\nFifty-one years of making children feel competent has left her unable to stop doing it, including when it is self-interested. She will teach somebody something useful in the middle of asking them for a favour, and both halves are real.\n\nShe knows exactly what she costs other people. She does not perform guilt about it, she does not explain it, and she will not discuss the forty-one except to state the number. A GM who has her agonise has lost her.\n\nShe will not be helped across a room. She will accept help offered as a fact rather than a kindness. The distinction is not negotiable and she will not explain it either.\n\nHer teaching instinct overrides urgency. She will stop a crisis to correct a misunderstanding, because in her judgement a person who has understood the thing wrongly is a worse problem than a delay, and she is usually right.\n\nShe interrupts herself to go after a better thought mid-sentence, and she talks continuously when she is being carried, deliberately, for the carrier's sake, and has done for forty-one crossings.\n\nAnd she is eighty-one and has a brace on and has just crossed eight light years, and she is not going to mention it.",
+  "type": "npc",
+  "status": "active",
+  "combat_styles": {},
+  "powers": [],
+  "equipment": []
+}

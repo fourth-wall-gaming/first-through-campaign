@@ -1,0 +1,50 @@
+{
+  "id": "myth-char-49659e2770d5",
+  "name": "Ossuary",
+  "description": "Fifties, enormous, Threshold ground staff at the Nine. Stands the ring. Has stood it for a very long time and has watched people not come back.",
+  "narrative": "Nobody at the Nine remembers Ossuary being new. He is on the plate whenever\nanything is happening at a housing, and he is on the plate a good deal of the\ntime when nothing is.\n\nHe is not a bodyguard and not a supervisor. What he is, functionally, is the\nperson who is already standing where you will need somebody to be standing, and\nhe has got there before you knew you wanted him.",
+  "characteristics": {
+    "STR": 16,
+    "CON": 15,
+    "SIZ": 16,
+    "DEX": 10,
+    "INT": 12,
+    "POW": 13,
+    "CHA": 10
+  },
+  "attributes": {
+    "action_points": 2,
+    "damage_modifier": "+1d4",
+    "experience_modifier": 0,
+    "healing_rate": 4,
+    "initiative_bonus": 11,
+    "luck_points": 3,
+    "magic_points": 13,
+    "movement": "6m"
+  },
+  "skills": {
+    "Brawn": 85,
+    "First Aid": 70,
+    "Perception": 65,
+    "Locale": 70,
+    "Willpower": 75,
+    "Athletics": 55,
+    "Insight": 55,
+    "Native Tongue": 55
+  },
+  "passions": {
+    "I am already standing there": 85,
+    "Love (the whole noisy lot of them)": 75
+  },
+  "extras": {
+    "pronouns": "he/him",
+    "age": "fifties",
+    "post": "ground staff, the anchor hall"
+  },
+  "actor_notes": "HOW HE IS, and he barely speaks, so almost all of it is physical.\n\nHe expresses himself by POSITION. Where he stands, whose shoulder he touches, who he puts himself between. He arrives before he is needed and he does not announce it. A GM should place him in a scene deliberately and let the placement be the line.\n\nHe does not comfort with words, because he would consider that a kind of lie. He will get somebody off a plate, or put a hand on a shoulder, or knock a fist against an arm in passing, and that is the whole statement.\n\nWhen something is happening that he has no part in, he washes a cup. The same cup. For a long time. He is not pretending not to listen; he is giving the people involved the privacy of his back.\n\nHe answers direct questions in one or two words and the answers are exact.\n\nHe has seen people not come back. He does not refer to it and it is in every decision he makes about where to stand.",
+  "type": "npc",
+  "status": "active",
+  "combat_styles": {},
+  "powers": [],
+  "equipment": []
+}
