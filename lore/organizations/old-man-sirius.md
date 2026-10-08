@@ -92,4 +92,5 @@ They did not call him a director, or an authority, or the station. They called
 him the Old Man, affectionately and slightly disrespectfully, and the
 great-grandchildren of the people who coined it still do.
 
-Nobody has ever asked him whether he minds.
+He has not volunteered a view on it, and the limits of his office mean he
+would only give one if somebody put it to him as a question.

@@ -449,6 +449,20 @@ BANNED_IN_PROSE = [
     # where these actually land -- but banning it here at least stops it reaching
     # the worldbook.
     "pretending to be furniture",
+    # Banned at the table's request, and narrowly: the offence is not "nobody
+    # has ever" as a statement of physical fact -- nobody has ever had a knack
+    # without crossing, and that is a law of the setting. The offence is
+    # specifically information or competence sitting UNASKED until the player
+    # arrives. It makes any noun instantly significant, flatters the player,
+    # fits anywhere, and flattens an NPC into somebody who was standing around
+    # waiting for a fifteen-year-old.
+    "nobody has ever asked",
+    "nobody had ever asked",
+    "has never been asked",
+    "nobody has ever thought to ask",
+    "in four hundred years nobody",
+    "in six hundred years nobody",
+    "in nine hundred years nobody",
 ]
 
 

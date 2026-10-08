@@ -3,7 +3,7 @@ id: "myth-loc-ae82360bdb56"
 name: "Ladder"
 type: "outpost"
 system: "gliese-65"
-summary: "A survey outpost in the Gliese 65 system: sixty-one people on a rock, a welded roof, two lamp halls, decades of observations nobody has ever asked for -- and an empty housing the first crew built in hope."
+summary: "A survey outpost in the Gliese 65 system: sixty-one people on a rock, a welded roof, two lamp halls, two hundred years of observations filed as weather -- and an empty housing the first crew built in hope."
 created_at: "2026-10-06T12:00:00"
 ---
 

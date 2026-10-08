@@ -191,7 +191,7 @@ year.
 ## 3. What has to be found out, and it is findable
 
 The player needs **three** things. None of them requires cleverness; all of them
-require asking somebody who has never been asked.
+require asking somebody who has had no reason to volunteer it.
 
 **One: when.** Ladder's whole purpose for two hundred years has been watching the
 twins and keeping a record, by hand, in a shed. It is the only long-baseline
