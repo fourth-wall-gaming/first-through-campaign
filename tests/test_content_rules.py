@@ -463,6 +463,15 @@ BANNED_IN_PROSE = [
     "in four hundred years nobody",
     "in six hundred years nobody",
     "in nine hundred years nobody",
+    # Characters announcing their own characterisation. A card that says an NPC
+    # tells you the worst thing first describes a BEHAVIOUR; the moment she says
+    # so out loud it becomes a catchphrase, and three NPCs were doing it.
+    "the part you won't like",
+    "you're not going to like",
+    "i'd rather you had it from me",
+    "the thing you did not ask for",
+    "the thing you didn't ask for",
+    "i want to say the unwelcome thing",
 ]
 
 

@@ -78,3 +78,31 @@ Nobody else says *on the record*, *minuted*, *in order*, or *say it back*.
 | **Rill** | Minimal. Answers a direct question in one sentence and changes the subject |
 | **Ferren** | Fast, loud, jokes first, and then surprisingly serious when it matters |
 | **Benno Raske** | Warm, specific, remembers your details. Agrees with every objection and does not change |
+
+## A card describes behaviour. Never let a character announce it.
+
+The cards above say things like *tells people the thing they will like least
+first*, *pays for errors immediately*, *answers honestly in one sentence and
+changes the subject*. Those are habits of being, and they work by being
+**invisible**.
+
+The failure, caught in play within an hour of writing the card: the character
+whose habit is to lead with the bad news opened a speech by announcing that the
+next part would be unwelcome and that she would rather it came from her — and a
+behaviour became a catchphrase. She should simply have said the bad thing
+first, with no preamble, and let the player notice over three scenes that she
+always does.
+
+The specific phrasings are in the style guard, which is also why they are not
+quoted here.
+
+Three separate NPCs were doing a version of it: announcing that the next thing
+would be unwelcome, or that it had not been asked for, before delivering it.
+That is one voice wearing three coats.
+
+**The rule: if a card tells you how a character behaves, play the behaviour and
+never the label.** No character describes their own method, flags their own
+tell, or narrates the shape of what they are about to say. If the player cannot
+infer the habit from three scenes of it, the habit is not written clearly
+enough — and the fix is in the card, not in the dialogue.
+
