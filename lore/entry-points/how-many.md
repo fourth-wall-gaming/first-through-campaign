@@ -13,34 +13,56 @@ cost.**
 
 ## The situation
 
-**Ladder** is a survey outpost behind the Wolf Gate door: sixty-one people on a
-rock with no air of its own, entirely dependent on the door for everything
-except water.
+**[[Gliese 65, the Flare Twins]] is the only door in the Causeway at a tight
+binary**, which makes it the only place in human space with a moving floor. The
+twins are coming to closest approach, and at closest approach two things happen
+on the same clock: the potential reshapes hardest, and the flare activity
+spikes.
 
-The door has been stuttering for two days. By [[Straying]] that means it is
-going to jump, and when it does, Ladder is somewhere else in that system — still
-there, still alive, and unreachable for years or centuries.
+So the Wolf Gate mouth has acquired a second solution, and it is going to take
+it. See [[The Hesitation]].
 
-Nobody is going to die of the stray. Everybody is going to be **cut off**, which
-at Ladder means sixty-one people on a rock that cannot feed them.
+**The door does not close. It moves.**
 
-They have to come across. Now.
+- **Where it is now:** the end of the hardened corridor at [[The Refinery]].
+  Twelve thousand people, the only shelter in the system rated for a hard flare,
+  and the whole Tau Ceti branch hanging off it.
+- **Where it is going:** the concrete apron in a shed at **[[Ladder]]**, a
+  hundred and ninety million kilometres away in the same system, at the same
+  depth in the same well. A four-metre ring the first survey crew put up in
+  hope, which has never opened, and which children dare each other to stand in.
 
-## What the player knows walking in
+**The Nine's end never moves.** Door seven will keep working. It will simply
+arrive somewhere else, and nobody at the Nine will know which until a person
+walks through, because nothing crosses a door except a person who walks it.
 
-Say all of this plainly in the ready room, because the whole scenario is the
-player doing a sum they understand:
+## Who is actually in danger, and who is not
 
-- **A fetch crosses free.** No cost, no limit.
-- **A child can be carried.** Minutes, in contact, and the child is fine.
-- **An adult cannot.** Not usefully — it costs the carrier several crossings and
-  leaves the passenger ill for a week, and there are fifty-odd adults over there.
-- **Every carry frays the carrier.** Three or four in a row and you are done.
-- **And if it jumps while somebody is in it**, nobody at the Nine will tell you
-  what happens, because nobody knows.
+Get this right or the scenario turns into a trolley problem, which is what it
+used to be and why it did not work.
 
-That last one is the lethal risk and it must be named before the player ever
-steps into the housing. See `TABLE-ADDENDUM.md`.
+- **The refinery is not in danger.** Twelve thousand people with a hardened
+  shelter they are already standing in every ninety seconds. They lose their
+  interstellar link, which is an economic catastrophe and a political one and a
+  disaster for the Tally. Nobody dies.
+- **Nobody starves anywhere.** The Wolf Gate run has the best food on the Nine
+  because Gliese 65 grows well and ships it. The refinery feeds itself. Ladder
+  feeds itself out of two lamp halls and is proud of it. **The Nine** loses the
+  best food on the station, and people will be petty about that for months while
+  sixty-one lives are in the balance, which is exactly what people are like.
+- **Ladder is in danger.** Sixty-one people, a welded roof, no hardened shelter,
+  and the worst flare season in the binary's cycle arriving. They have been lucky
+  for two hundred years and they know precisely how lucky, because they are the
+  ones keeping the record.
+
+**And the shift is the only reason they can be saved at all.** Sixty-one people
+who could never have been evacuated -- no door, a hundred and ninety million
+kilometres from the nearest shelter -- are about to have a mouth on their own
+apron that opens onto the Nine.
+
+The disaster and the rescue are the same event. Nobody has to be left behind by
+a rule. Whoever is left behind is left behind because of a decision somebody
+made, and that is the player's.
 
 ## 1. Nobody tells them
 
@@ -150,52 +172,75 @@ we are dealing with.*
 If the player brought her the numbers rather than the other way round, she says
 so, in front of whoever is in the room. She is that kind of director.
 
-## 2. Ladder
+## 2. Arriving at Ladder
 
-Red rock, bad light, a prefabricated town under a roof, and sixty-one people who
-already know.
+The first-through steps into door seven expecting a hardened corridor they have
+used a thousand times, and comes out on a **concrete apron under a welded roof**,
+in front of sixty-one people who have lived their whole lives beside a ring that
+has never opened.
 
-**Play the adults first and do not rush it.** They have had two days. They have
-worked out exactly what the sum is, and they have already decided, and
-they are not arguing about it. The children are washed and dressed and queued and
-somebody has written names on their hands.
+Play that for everything it is worth. Nobody screams. Somebody drops something.
+A child who was standing in the ring on a dare is standing in the ring.
 
-Nobody begs. One man asks, once, whether there is any chance at all for the
-adults, and accepts the answer.
+Then the questions start and they are all the wrong ones, because these people
+have had no news for two hundred years that did not come off a ship four times a
+year.
 
-**Do not have an adult try to push in.** These people are not that, and the scene
-is stronger for it.
+**Red rock, bad light, a prefabricated town, two lamp halls, and no shelter.**
 
-The foreman, **Tace Orun**, has a list in her hand with nineteen names in the
-order she has decided, and she will not explain the order, and the player can ask.
+## 3. What has to be found out, and it is findable
 
-## 3. Carrying
+The player needs **three** things. None of them requires cleverness; all of them
+require asking somebody who has never been asked.
 
-The first one is the scene. Make it long.
+**One: when.** Ladder's whole purpose for two hundred years has been watching the
+twins and keeping a record, by hand, in a shed. It is the only long-baseline
+observation of that binary in human space and nobody at the Nine has ever asked
+for a line of it.
 
-A child in your arms, in contact, minutes of holding it open while the housing
-stutters around you, and it is **harder than anything the player has done** — and
-then you are at the Nine and somebody takes her off you and you have to turn
-round and go back.
+That record gives a **date and a severity** for closest approach. It turns *soon*
+into a number, which turns a panic into a plan, and a plan is the only thing four
+hundred children can act on.
 
-Run the second. Run the third. By the fourth the player should be visibly
-spending themselves, and Calloway will tell them to stop, and will not order it.
+**Two: how many, and which.** [[Tace Orun]] is the foreman and she has the shift
+board with sixty-one names on it, crossed and re-entered in a different hand.
+The Nine's own manifest is forty-one days old, says fifty-eight, and dates
+nineteen people as under sixteen -- a number that ages on its own. Only Tace has
+the real list, and she has had two days to decide an order, and she will not
+explain it, and the player can ask.
 
-**Four is about what anybody can do.** There are nineteen.
+**Three: the thing nobody is looking for.** The potential reshapes *with the
+orbit*. So the record that predicts the flare **predicts the door** -- and
+Ladder has been sitting on the proof that strays are forecastable for two
+hundred years, filed as weather.
+
+That is the campaign's central established lie
+(`facts/straying-is-random-and-cannot-be-predicted.md`) broken in Act I, by a
+fifteen-year-old, because she went through a door to find out where it went. Do
+not have anybody at Ladder point it out. Let the player hold two documents and
+notice.
 
 ## 4. The turn
 
-This is the beat the scenario exists for and the player must reach it themselves.
+The beat the scenario exists for, and the player must reach it themselves.
+
+Sixty-one people. One mouth, on their own apron, opening onto the Nine. A
+hesitation that is climbing every crossing. And a date.
+
+Nineteen of them are children and a child carries cheap -- minutes, in contact,
+and the child is fine. Forty-two are adults and an adult costs the carrier
+several crossings off the end of their life. **Four first-throughs cannot do it.
+Four hundred can**, and it costs them a few days each.
 
 The answer is not to carry harder. **The answer is that there are four hundred
-first-throughs on this station**, and the player is the only person who can tell
+first-throughs at the Nine**, and the player is the only person who can tell
 them, because nothing crosses a door except a person who walks it.
 
-The move is to stop carrying and go and get everyone.
+If they are three carries in and still grinding, let Tolk ask -- *how many of you
+are there, at the Nine?* -- and let them get there themselves from that.
 
-If the player works this out, play it. If they are three carries in and still
-grinding, have Tolk ask — *how many of you are there, at the Nine?* — and let
-them get there on their own from that.
+**The guaranteed early success** belongs wherever they first step into the
+housing: the seal check, Very Easy, cannot fail.
 
 ## 5. The relay
 
@@ -205,69 +250,83 @@ Word goes round the bunkrooms in about four minutes. The Wolf Gate kids come
 because it is their door. The Coldwater kids come because the Wolf Gate kids came
 and they are not having that. The twenty-ones come, who have nothing left and
 come anyway. Hall children run the queue because they cannot cross and will not
-be useless.
+be useless. Glints count the hesitation at both ends because it is rising and
+somebody has to.
 
 Calloway organises it from a hall floor she cannot step into, and is magnificent,
 and at some point the player will look over and find her watching them.
 
-Nineteen children, a relay of first-throughs, two minutes a crossing. **They get
-them all.**
+**They can get everybody.** That is the point and it is new: the shift handed
+them a door at the only address that needed one, and four hundred children can
+pay for sixty-one lives out of a few days each.
 
-And then the adults are still over there, and the door is still stuttering, and
-everybody at the Nine stands in the hall and does not leave until it goes.
+**What they are racing is the clock, not a rule.** Every crossing takes longer at
+the plate than the one before it. Nobody knows how long the warning is -- there
+is no second case, which is the whole argument for a funded study and the whole
+reason there has never been one. So the order matters, and the order is the
+player's, and anybody still on that apron when the mouth settles is there because
+of a decision somebody made.
 
 ## 5a. The gallery, during the relay
 
-One beat, placed in the middle of the relay, and it is not a confrontation.
+One beat, in the middle, and it is not a confrontation.
 
 **[[Benno Raske]] is on the gallery doing business.** Good coat, knows everyone's
-name, pleased to see people. He is offering cash -- real money, now, more than a
-first-through sees in a season -- to anybody willing to carry one specific adult
-off Ladder. Somebody's father. Somebody has paid him.
+name, pleased to see people. He is offering real money -- more than a
+first-through sees in a season -- for one specific adult off Ladder. Somebody's
+father. Somebody has paid him.
 
-He is not lying, not threatening anybody, and not doing anything illegal. He is
-offering to do the one thing every person in that hall desperately wants done,
-and the price is a fortnight of some particular kid's life, and the kid decides.
+He is not buying capacity. **He is buying a place in the order**, which is worse
+and more honest, and it is the one thing in that hall which is genuinely scarce.
 
-**And [[Rill]] takes it.**
+**And [[Rill]] takes it.** Twenty-one, the name on the stanchion that nobody has
+got near in four years, nearly landlocked. She carries a paying adult up the
+queue while the player's hands are still shaking from a carry they did for
+nothing.
 
-Twenty-one, two intakes above the player, the name on the stanchion in the Yards
-that nobody has got near in four years, and nearly landlocked. She carries a
-paying adult across while nineteen children are still in the queue, and the
-player watches her do it with their own hands shaking from the fourth carry they
-did for nothing.
+**Nobody stops it and nobody says anything.** Not Calloway, who has seen it
+before and has a face she makes. No NPC moralises -- the scene works because it
+is allowed to happen in silence. If the player confronts either of them, play it
+straight: Benno agrees with everything they say, asks what they suggest, and
+leaves. Rill answers honestly in one sentence and changes the subject.
 
-**Nobody stops it, and nobody says anything.** Not Calloway, who has seen it
-before and has a face she makes. Not the hall. Do not let any NPC moralise -- the
-scene works because it is allowed to happen in silence.
-
-If the player confronts either of them, play it straight. Benno is reasonable,
-agrees with everything they say, asks what they suggest, and leaves. Rill answers
-the question honestly in one sentence and changes the subject.
-
-Neither of them caused anything tonight. That is the point.
+Neither of them caused anything. That is the point.
 
 ## 6. When it goes
 
-It goes in the night, quietly, with no sound at all. In the morning the housing
-is cold and the Standing has been corrected and Ladder is a line with a different
-set of coordinates against it.
+It goes in the night, quietly, with no sound at all.
 
-Nineteen children are asleep on the Threshold's floor and four hundred people
-have given up their bunks.
+In the morning the Nine's housing is warm and working and opens onto a concrete
+apron under a welded roof. The Standing has been corrected. The refinery is a
+line with no door against it for the first time in seven hundred and ninety-eight
+years, and twelve thousand people on the far side of nothing are perfectly safe
+and completely cut off, and the Tally has no idea yet.
 
-And one adult got off Ladder, and is somebody's father, and paid for it.
+The Nine has lost the best food on the station and somebody will complain about
+it within a day.
+
+And however many people are asleep on the Threshold's floor is however many the
+player got, and four hundred children gave up their bunks, and the ones who are
+missing are missing for a reason somebody can name.
 
 ## What the player should come away with
 
-**They won.** Say it plainly. Nineteen out of nineteen, and that happened because
-of a decision they made.
+**They won**, and say it plainly, because for the first time in this scenario's
+design they actually can. Sixty-one out of sixty-one is reachable, and if they
+get it, it happened because they stopped carrying and went and got everybody.
 
-And they could not save the adults, and nobody could, and the people who
-understood that best were the adults themselves.
+And it cost something real: a few days off the end of four hundred named lives,
+freely given, and the player had to stand in a hall and *ask* for it.
 
-Somebody — a twenty-one, probably, on the gallery afterwards — says the thing
-that opens the campaign: *that is what six-oh-two was. Eleven thousand of them,
-and nobody got there in time.*
+If anybody was left on that apron, it was an order somebody chose, under a clock
+nobody could read. Not a rule. Let them carry that.
 
-See [[The Nine Hundred Years]]. Then run **Kapteyn's**.
+Then the two things that open the rest of the campaign, and neither is a hint:
+
+- Somebody -- a twenty-one, probably, on the gallery afterwards -- says it.
+  *That is what six-oh-two was. Eleven thousand of them, and nobody got there in
+  time.* See [[The Nine Hundred Years]].
+- And the player is holding two documents from a shed on a rock: a flare record
+  and a door record, in the same hand, in the same ledger, for two hundred years.
+
+Then run **Kapteyn's**.

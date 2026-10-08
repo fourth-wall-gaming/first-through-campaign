@@ -144,12 +144,15 @@ and they will know what Calloway chose instead.
 **For:** making the player love this place and these people, and learning the job
 in their own hands. Light for two beats, then the hardest night of their life.
 
-**Takes:** Ladder. Forty-two adults who are alive, well, and permanently out of
-reach — and the player's assumption that doing everything right is enough.
+**Takes:** a few days off the end of four hundred named lives, freely given,
+because the player stood in a hall and asked for them — and whoever was still on
+the apron when the mouth settled, which is an order somebody chose under a clock
+nobody could read.
 
 The act opens social: a bunkroom, a kettle, a game of sling, Calloway being
 pleased to see them. Then one short successful crossing, so the player knows what
-the job feels like when it works. Then the Wolf Gate starts stuttering.
+the job feels like when it works. Then the Wolf Gate starts setting, and the time
+it takes to open is measurable, and it rises.
 
 Ends on the watch at [[van Maanen's Star]] reporting something for the first time
 in six hundred years.
