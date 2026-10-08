@@ -513,3 +513,48 @@ def test_no_chalk_or_slate_in_shipped_prose():
         for m in set(x.lower() for x in pattern.findall(p.read_text())):
             hits.setdefault(m, []).append(p.name)
     assert not hits, f"anachronistic materials in shipped prose: {hits}"
+
+
+# Vague period language in an entry whose data file carries a real figure. This
+# is how "a few years" sat in the Gliese 65 entry for the life of the campaign
+# while data/systems.json knew nothing either way -- and the figure turned out to
+# be 26.5, which is not a few, and which the plot then depended on.
+VAGUE_PERIODS = ["a few years", "every few years", "in a few years",
+                 "some years", "a handful of years"]
+
+
+def test_systems_with_an_orbital_period_state_it_rather_than_waving_at_it():
+    """A system whose data carries a period may not describe it vaguely in prose.
+
+    The error this catches: the twins were written as going "round each other in
+    a few years". They are an eccentric 26.5-year pair, a human career spans one
+    cycle, and that is the entire reason nobody has ever seen the door do this
+    twice. The vague phrasing was not merely imprecise -- it made the central
+    mechanism of Act I impossible.
+    """
+    import re as _re
+    systems = _json.loads((ROOT / "data" / "systems.json").read_text())
+    timed = {k for k, v in systems.items() if v.get("orbital_period_years")}
+    assert timed, "no system in the data carries an orbital period"
+
+    offenders = {}
+    for p in lore_files():
+        meta, body = parse_frontmatter(p.read_text())
+        if meta.get("system") not in timed:
+            continue
+        low = body.lower()
+        for phrase in VAGUE_PERIODS:
+            if phrase in low:
+                offenders.setdefault(p.name, []).append(phrase)
+    assert not offenders, (
+        "these entries wave at a period their data file states exactly: "
+        + repr(offenders))
+
+
+def test_the_flare_twins_orbit_is_cited_and_specific():
+    """The number Act I turns on. Pinned here so prose, data and plot agree."""
+    g = _json.loads((ROOT / "data" / "systems.json").read_text())["gliese-65"]
+    assert g["orbital_period_years"] == 26.5
+    assert g["eccentricity"] > 0.5, "an eccentric pair is the whole mechanism"
+    assert any("Luyten" in s for s in g["sources"]), \
+        "the orbital claim needs a source naming the system properly"

@@ -166,12 +166,17 @@
       "UV Ceti"
     ],
     "planets": [],
-    "note": "The archetypal flare stars, twinned. The sky here kills you on a schedule.",
+    "note": "The archetypal flare stars, twinned. An eccentric 26.5-year pair, so the whole potential landscape reshapes on a human timescale. The sky here kills you on a schedule and so, it turns out, does the floor.",
     "opened_years_ago": 798,
     "sources": [
       "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=G%20272-61A",
-      "https://en.wikipedia.org/wiki/Gliese_65"
-    ]
+      "https://en.wikipedia.org/wiki/Gliese_65",
+      "https://en.wikipedia.org/wiki/Luyten_726-8",
+      "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=Luyten%20726-8"
+    ],
+    "orbital_period_years": 26.5,
+    "eccentricity": 0.62,
+    "semimajor_axis_au": 5.5
   },
   "epsilon-eridani": {
     "name": "Epsilon Eridani",

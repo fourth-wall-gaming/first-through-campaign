@@ -11,8 +11,9 @@ created_at: "2026-10-05T12:00:00"
 
 **8.9 light years. The door is seven hundred and ninety-eight years old.**
 
-Two red dwarfs, close together, going round each other in a few years. They are
-called **BL Ceti** and **UV Ceti**, and UV Ceti is the star every other flare
+Two red dwarfs bound to each other on a **twenty-six and a half year** orbit,
+eccentric enough that the distance between them changes by a factor of four over
+a cycle. They are called **BL Ceti** and **UV Ceti**, and UV Ceti is the star every other flare
 star gets compared to — the textbook case, the one the whole class of behaviour
 is named after. It can brighten by a large factor in under a minute, without
 warning, several times a day.
@@ -23,28 +24,31 @@ only defence is mass between you and it.
 
 ## The thing nobody thought about for seven hundred years
 
-Two stars going round each other in a few years do not just make a dangerous
-sky. They make a **moving floor.**
+Two stars swinging round each other on a twenty-six-year ellipse do not just
+make a dangerous sky. They make a **moving floor.**
 
 A mouth is pinned to a gravitational potential and sits wherever that value
 currently is. See [[Straying]]. At a single star, or a wide pair, that surface
 creeps a few metres in a century and a housing gets rebuilt around it twice a
 millennium and nobody writes anything down.
 
-Gliese 65 is the only door in the Causeway at a **tight binary**. It is the only
-place in human space where the whole potential landscape reshapes on a human
-timescale, as the twins swing round each other, over and over, for seven hundred
-and ninety-eight years.
+Gliese 65 is the only door in the Causeway at a **close eccentric binary**. It
+is the only place in human space where the whole potential landscape reshapes on
+a human timescale -- thirty complete cycles since the door opened, and a human
+career spans one, which is why nobody has ever seen it twice.
 
 Everybody has always known this sky kills you. Nobody ever thought about the
 floor.
 
-**And the two things are the same thing.** The stars come to closest approach
-every few years, and at closest approach the potential reshapes hardest *and*
-the flare activity spikes, because that is what two flare stars do to each other
-when they get close. The worst weather and the unstable floor arrive together,
-on the same clock, and not one document in nine centuries puts them in the same
-sentence.
+**And the two things are the same thing.** The twins come to closest approach
+once every twenty-six and a half years, and at closest approach the potential
+reshapes hardest *and* the flare activity spikes, because that is what two flare
+stars do to each other when they get close.
+
+The worst weather and the unstable floor arrive together, on the same clock,
+thirty times since the door opened -- and not one document in nine centuries
+puts them in the same sentence, because no two consecutive directors of anything
+have ever both been in post for one.
 
 **What people built here: a refinery, and a shelter under it.**
 
