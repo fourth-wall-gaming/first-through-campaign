@@ -1,0 +1,2084 @@
+<title>Thirty-Four at Fifteen</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,600;1,6..96,400&family=Spectral:ital,wght@0,300;0,400;0,600;1,300;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --ground:#15181C; --raise:#1C2126; --sunk:#101316;
+  --ink:#E7E3DA; --ink-2:#A8AEB5; --ink-3:#6F7780;
+  --rule:#2A3036; --rule-2:#39424A;
+  --sirius:#A8C8E8; --gold:#E0A93F; --kapteyn:#C06A2C;
+  --serif:"Spectral",Georgia,"Times New Roman",serif;
+  --display:"Bodoni Moda","Spectral",Georgia,serif;
+  --mono:"IBM Plex Mono",ui-monospace,"SF Mono",Menlo,monospace;
+  --col:34rem;
+}
+:root:not([data-theme="dark"]){
+  --ground:#15181C; --raise:#1C2126; --sunk:#101316;
+  --ink:#E7E3DA; --ink-2:#A8AEB5; --ink-3:#6F7780;
+  --rule:#2A3036; --rule-2:#39424A;
+}
+@media (prefers-color-scheme: light){
+  :root:not([data-theme="dark"]){
+    --ground:#15181C; --raise:#1C2126; --sunk:#101316;
+    --ink:#E7E3DA; --ink-2:#A8AEB5; --ink-3:#6F7780;
+    --rule:#2A3036; --rule-2:#39424A;
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#15181C; --raise:#1C2126; --sunk:#101316;
+  --ink:#E7E3DA; --ink-2:#A8AEB5; --ink-3:#6F7780;
+  --rule:#2A3036; --rule-2:#39424A;
+}
+*{box-sizing:border-box}
+body{
+  background:var(--ground); color:var(--ink);
+  font-family:var(--serif); font-weight:300;
+  font-size:clamp(1.02rem,0.98rem + 0.2vw,1.14rem); line-height:1.72;
+  margin:0; padding:0 1.25rem 7rem;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:var(--col); margin:0 auto}
+
+/* ---- masthead ---- */
+header.top{max-width:var(--col); margin:0 auto; padding:5.5rem 0 3rem}
+.kicker{
+  font-family:var(--mono); font-size:.66rem; font-weight:500;
+  letter-spacing:.2em; text-transform:uppercase; color:var(--ink-3);
+  margin:0 0 1.6rem;
+}
+h1{
+  font-family:var(--display); font-weight:400; font-optical-sizing:auto;
+  font-size:clamp(2.9rem,2.1rem + 4vw,4.6rem); line-height:.96;
+  letter-spacing:-.015em; margin:0 0 1.4rem; text-wrap:balance;
+}
+h1 em{font-style:italic; color:var(--sirius)}
+.standfirst{
+  font-size:1.1rem; color:var(--ink-2); font-style:italic;
+  margin:0 0 2.2rem; max-width:30rem;
+}
+.colophon{
+  font-family:var(--mono); font-size:.7rem; line-height:1.9;
+  color:var(--ink-3); border-top:1px solid var(--rule);
+  padding-top:1.1rem; margin:0;
+}
+.colophon b{color:var(--ink-2); font-weight:500}
+
+/* ---- chapters ---- */
+section.ch{max-width:var(--col); margin:0 auto; padding:3.2rem 0 0}
+.stamp{
+  display:flex; align-items:baseline; gap:.75rem;
+  font-family:var(--mono); font-size:.68rem; font-weight:500;
+  letter-spacing:.18em; text-transform:uppercase;
+  color:var(--sirius); margin:0 0 .5rem;
+}
+.stamp .watch{color:var(--ink-3); letter-spacing:.14em}
+h2{
+  font-family:var(--display); font-weight:400; font-optical-sizing:auto;
+  font-size:clamp(1.7rem,1.4rem + 1.1vw,2.2rem); line-height:1.1;
+  letter-spacing:-.01em; margin:0 0 1.6rem; text-wrap:balance;
+}
+p{margin:0 0 1.15rem}
+p.lede::first-letter{
+  font-family:var(--display); font-size:3.3em; line-height:.82;
+  float:left; padding:.08em .09em 0 0; color:var(--sirius);
+}
+em{font-style:italic}
+strong{font-weight:600; color:#fff}
+hr.sep{
+  border:0; height:1px; background:var(--rule);
+  margin:2.6rem auto; max-width:5rem;
+}
+
+/* glint speech */
+blockquote.glint{
+  margin:1.6rem 0; padding:0 0 0 1.1rem;
+  border-left:2px solid var(--gold);
+  font-style:italic; color:var(--gold); font-size:.99rem;
+}
+blockquote.glint p{margin:0 0 .5rem}
+blockquote.glint p:last-child{margin:0}
+
+/* quoted document */
+blockquote.doc{
+  margin:1.8rem 0; padding:1.3rem 1.4rem;
+  background:var(--sunk); border-left:2px solid var(--rule-2);
+  font-size:.97rem; color:var(--ink-2);
+}
+blockquote.doc p{margin:0 0 .85rem}
+blockquote.doc p:last-child{margin:0}
+
+/* the slate line */
+.slate{
+  font-family:var(--mono); font-size:.8rem; letter-spacing:.1em;
+  color:var(--kapteyn); text-transform:uppercase;
+  border-top:1px solid var(--rule); border-bottom:1px solid var(--rule);
+  padding:.9rem 0; margin:1.8rem 0; text-align:center;
+}
+
+/* dice marginalia */
+.dice{
+  font-family:var(--mono); font-size:.74rem; letter-spacing:.02em;
+  color:var(--ink-3); margin:1.5rem 0; padding-left:1rem;
+  border-left:1px solid var(--rule-2);
+}
+
+/* ---- image prompt plates ---- */
+figure.plate{
+  margin:2.4rem 0; padding:0; background:var(--sunk);
+  border:1px solid var(--rule); border-radius:2px;
+}
+figure.plate > figcaption{
+  display:flex; justify-content:space-between; align-items:center; gap:1rem;
+  font-family:var(--mono); font-size:.64rem; font-weight:500;
+  letter-spacing:.18em; text-transform:uppercase; color:var(--ink-3);
+  padding:.75rem 1.1rem; border-bottom:1px solid var(--rule);
+}
+figure.plate > figcaption .no{color:var(--sirius)}
+figure.plate pre{
+  margin:0; padding:1.1rem; overflow-x:auto;
+  font-family:var(--mono); font-size:.78rem; line-height:1.72;
+  color:var(--ink-2); white-space:pre-wrap; word-break:break-word;
+}
+figure.plate pre b{color:var(--ink); font-weight:500}
+
+/* ---- cast grid ---- */
+.cast{max-width:var(--col); margin:0 auto; padding:3.2rem 0 0}
+.cast h2{margin-bottom:.4rem}
+.cast .note{color:var(--ink-3); font-size:.92rem; font-style:italic; margin-bottom:2rem}
+
+/* ---- footer ---- */
+footer{
+  max-width:var(--col); margin:5rem auto 0; padding-top:1.4rem;
+  border-top:1px solid var(--rule);
+  font-family:var(--mono); font-size:.7rem; line-height:1.9; color:var(--ink-3);
+}
+footer b{color:var(--ink-2); font-weight:500}
+@media (max-width:30rem){
+  p.lede::first-letter{font-size:2.8em}
+}
+</style>
+
+<header class="top">
+  <p class="kicker">First Through &middot; a novelization</p>
+  <h1>Thirty-Four at <em>Fifteen</em></h1>
+  <p class="standfirst">Three days at the Nine, in which nothing that mattered was scheduled.</p>
+  <p class="colophon">
+    <b>Transcribed from play.</b> Every line of dialogue here was spoken at the table.<br>
+    <b>Days nought to three.</b> Sessions one and two.<br>
+    <b>Lint &mdash; &ldquo;Lin&rdquo; &mdash; 15</b>, Garden-born, Pathfinder, the Quick.<br>
+    <b>Image plates</b> are production notes, set in monospace. Fifteen of them.
+  </p>
+</header>
+
+<section class="ch">
+  <p class="stamp">Day nought <span class="watch">&middot; dawn</span></p>
+  <h2>The Kettle</h2>
+
+  <p class="lede">The ready room smelled of hot metal off the hall below, and of tea that had been wrong for six hundred years.</p>
+
+  <p>Nine doors going at once under the window, nine queues, the noise coming up through the floor like weather. A long table. A kit rail. The kettle.</p>
+
+  <p>Calloway had her back to the room and four people were telling her she was wrong about it. One of them was standing on the table. One was a cairn, low and plated and immovable near the hotplate, who had been there some hours.</p>
+
+  <p>&ldquo;&mdash;because you <em>scald</em> it. Every morning. We have told you every morning for a year.&rdquo;</p>
+
+  <p>&ldquo;I was doing this before your mother qualified.&rdquo;</p>
+
+  <p>BlingBling was on the kit rail above the suits, going bright-dark-bright at the speed that meant she was laughing, and the boy on the table kept losing his thread because of it.</p>
+
+  <p>Then Calloway turned round and saw Lint in the doorway, and her whole face changed.</p>
+
+  <p>&ldquo;Lin.&rdquo; She put the pot down. &ldquo;There she is. Thirty-four and still upright.&rdquo; To the room, not looking away: &ldquo;This one swims. In water. Outdoors.&rdquo;</p>
+
+  <p>The one on the table said, &ldquo;In <em>what</em>?&rdquo;</p>
+
+  <p>&ldquo;Sit down, don&rsquo;t let them give you the tea, and tell me how the elbow is &mdash; because the log says you went through Procyon twice on Tuesday and I know exactly what that housing does to people.&rdquo;</p>
+
+  <p>&ldquo;Fine,&rdquo; said Lint. &ldquo;The elbow&rsquo;s fine.&rdquo;</p>
+
+  <p>Calloway gave her a look that filed that under <em>answers I will come back to</em>, and went back to the pot.</p>
+
+  <figure class="plate">
+    <figcaption><span>Image plate</span><span class="no">01 &mdash; the ready room</span></figcaption>
+<pre><b>SCENE.</b> Interior, a cramped crew ready room aboard a rotating space
+station, early morning. One wall is a wide window looking DOWN into a
+vast anchor hall where nine queues of people wait at nine lit metal
+rings; the light from below is hard blue-white and throws everything in
+the room upward. A long scuffed table. A rail of hanging suits. A
+battered electric kettle on a hotplate, steaming.
+
+<b>FIGURES.</b> A woman in her forties in grey coveralls, back half-turned,
+holding a teapot, mid-argument, visibly enjoying it. A lanky freckled
+boy of seventeen STANDING ON THE TABLE in heavy boots, gesturing. A
+low, broad, stone-plated creature the size of a footstool beside the
+hotplate, utterly motionless. A girl of fifteen in a close-fitting
+translucent second skin standing in the doorway, unnoticed for one more
+second. A small iridescent flying creature on the suit rail shedding
+pink and gold light across the ceiling.
+
+<b>LIGHT.</b> Two sources only &mdash; cold blue-white up from the hall window,
+warm orange from the hotplate. No fill.
+
+<b>STYLE.</b> Lived-in used-future realism. Soviet-industrial fittings,
+six centuries old and maintained. Painterly, muted, filmic.
+Shallow depth of field. Grain.
+
+<b>AVOID.</b> Clean white sci-fi. Holograms. Glowing UI. Lens flare.</pre>
+  </figure>
+
+  <p>Lint tipped her chin a fraction at the kit rail and flicked two fingers &mdash; <em>what&rsquo;s going on</em> &mdash; and BlingBling answered before her hand was down, because she had been waiting to be asked.</p>
+
+  <blockquote class="glint">
+    <p>He is trying to ask her something. Twenty minutes. Four run-ups. The tea is not the subject.</p>
+  </blockquote>
+
+  <p>The cairn by the hotplate said, in that unhurried way, &ldquo;He has been building to it since the night watch. We are all very invested.&rdquo;</p>
+
+  <p>&ldquo;<em>Thank</em> you, Ossuary,&rdquo; said the boy on the table.</p>
+
+  <p>And Calloway, pouring, not turning round: &ldquo;Ask me properly or get down, Pell, the pair of you are making the room strange.&rdquo;</p>
+
+  <p>So Lint asked him directly what he was talking about, which is not the same as taking the hint, and Pell went a deeper shade of pink and said it fast, at the table rather than at anybody.</p>
+
+  <p>&ldquo;I want to go on the Wolf Gate rota. Permanent. Not the rotation &mdash; the standing run.&rdquo;</p>
+
+  <p>Somebody by the kit rail whistled, because the Wolf Gate is a dull door and nobody asks for it.</p>
+
+  <p>&ldquo;My mother&rsquo;s at Ladder,&rdquo; he said. &ldquo;And my brother. He&rsquo;s six. I get out there twice a year on the rotation and he&rsquo;s a different kid every time, he doesn&rsquo;t&mdash;&rdquo; He stopped, and shrugged, and went back to the middle distance. &ldquo;That&rsquo;s it. That&rsquo;s the whole speech. It was better at four in the morning.&rdquo;</p>
+
+  <p>Calloway had not turned round. She had been pouring the same pot for about fifteen seconds longer than pouring takes.</p>
+
+  <p>&ldquo;Yes,&rdquo; she said.</p>
+
+  <p>&ldquo;I had &mdash; there&rsquo;s more of it&mdash;&rdquo;</p>
+
+  <p>&ldquo;I&rsquo;m sure there is. The answer&rsquo;s yes, Pell, it was yes before you got on the table. You&rsquo;re on the standing run from the next rota. Go and tell your mother.&rdquo;</p>
+
+  <p>Then she set a mug down in front of Lint. It was, demonstrably, scalded.</p>
+
+  <p>&ldquo;Drink that and stop encouraging them.&rdquo; A slate beside it. &ldquo;Procyon again, I&rsquo;m afraid. Mina Haral&rsquo;s coming back and somebody has to go and get her &mdash; she&rsquo;s a reader, she&rsquo;s eighty-one, and she is not crossing without a first-through who&rsquo;ll be patient with her. Five light years, shortest hop on the Causeway, you&rsquo;ll be back before the watch turns.&rdquo;</p>
+
+  <hr class="sep">
+</section>
+
+<section class="ch">
+  <p class="stamp">Day nought <span class="watch">&middot; first watch</span></p>
+  <h2>Five Light Years</h2>
+
+  <p>The dressing room. Everything went in the locker &mdash; boots, the lot, because nothing dead crosses and never has. Only the membrane stayed, which is alive and grown to you and the single exception there has ever been. Hers was two years old and starting to cloud across the shoulders, which is thirty-four crossings showing.</p>
+
+  <p class="dice">&#10214; Crossing &middot; Easy 77 &rarr; 51 &middot; success &#10215;</p>
+
+  <p>And there was the half-second with nothing in it &mdash; BlingBling gone, not quiet but <em>absent</em>, the way a tooth is absent &mdash; and then she was back, blazing green all over Lint&rsquo;s shoulder, saying the thing she says every single time.</p>
+
+  <blockquote class="glint">
+    <p>Still here. Still here. Still here.</p>
+  </blockquote>
+
+  <p>Procyon smelled different. Colder air, and something citrus they put through the scrubbers. The boots on that side were stiff and square-toed and a size generous, and she would be giving them back in an hour.</p>
+
+  <p>Mina Haral was waiting on the bench, already dressed, with a bag on her knees and her hands folded on top of it. Eighty-one. Thin as paper. She looked up and smiled like Lint was late.</p>
+
+  <p>&ldquo;You&rsquo;ll be the Garden girl. Good. Sit down a minute before we do this &mdash; not for me. For you.&rdquo;</p>
+
+  <p>She looked at Lint properly, which at her age involved turning her whole head, and her eyes went to the shoulders of the membrane and stayed there.</p>
+
+  <p>&ldquo;Thirty-four. Mm. You&rsquo;re quick, then. They work you.&rdquo;</p>
+
+  <p>Then she counted it off on fingers like dry sticks. &ldquo;Right. Here&rsquo;s how we do this, and you&rsquo;ll forgive an old woman for saying it out loud, because the ones who don&rsquo;t say it out loud are the ones who get careless. It takes minutes, not seconds. You hold it and you don&rsquo;t hurry it. I&rsquo;ll be heavier than you expect and I will not help you. And if it starts going wrong at any point, you stop, and you put me back down on this bench, and we try again tomorrow.&rdquo;</p>
+
+  <p>A beat. &ldquo;Say it back to me.&rdquo;</p>
+
+  <p>Lint said it back. All four.</p>
+
+  <p>&ldquo;Good. Most of them get the first three.&rdquo; Mina patted the warm bag on her knees. &ldquo;The fourth is the one they argue with, and I have had two argue with me, and I did not travel with either of them again.&rdquo;</p>
+
+  <p>She got up &mdash; slowly, one hand on the bench, waving off the one Lint offered &mdash; and went to stand in front of the housing.</p>
+
+  <p>&ldquo;I&rsquo;ll tell you what I tell all of them. You&rsquo;re not carrying a passenger. You&rsquo;re carrying the door. I&rsquo;m just what&rsquo;s in your arms while you do it.&rdquo;</p>
+
+  <p>BlingBling had gone absolutely still on Lint&rsquo;s collarbone. Not dark. <em>Still</em>, which is a different thing and much rarer.</p>
+
+  <figure class="plate">
+    <figcaption><span>Image plate</span><span class="no">02 &mdash; the bench at Procyon</span></figcaption>
+<pre><b>SCENE.</b> A small quiet arrival hall on a station orbiting a brilliant
+white star. One lit metal ring, four metres across, set into a concrete
+plate in the floor. A cold steel bench. A short queue of ordinary
+commuters who have all stopped talking.
+
+<b>FIGURES.</b> A very old woman, eighty-one, thin as paper, seated upright on
+the bench &mdash; dressed and ready, a soft warm bag on her knees, hands
+folded on top of it, utterly composed. She is holding out one thin arm.
+A fifteen-year-old girl standing in front of her in a close-fitting
+translucent living second skin, the fabric faintly clouded across the
+shoulders and forearms like breathed-on glass. Borrowed boots, one size
+too big.
+
+<b>DETAIL.</b> A tiny iridescent creature on the girl's collarbone showing NO
+colour at all &mdash; dark, rigid, switched off. This is the emotional centre
+of the frame.
+
+<b>LIGHT.</b> Hard white, raking, from an unseen window. Long shadows.
+
+<b>STYLE.</b> Quiet realism, documentary framing, chest height, slight
+distance. Painterly muted palette: grey, concrete, one warm note in the
+bag. Film grain.
+
+<b>AVOID.</b> Sentimentality. Soft focus halos. Anything heroic.</pre>
+  </figure>
+
+  <p>She took Lint&rsquo;s arm. She was, exactly as promised, heavier than she looked.</p>
+
+  <p class="dice">&#10214; Crossing &middot; Hard 44, augmented by <em>I am the one who gets there</em> +14 &rarr; 76 &middot; <b>failure</b> &#10215;</p>
+
+  <p>And it did not take.</p>
+
+  <p>She knew it before she was two steps in. A crossing for one is nothing &mdash; a step and a change of air. This was like pushing a door against a wind on the other side of it: the field was there, she had hold of it, and it would not <em>open</em> for two. It gave, and set, and gave again.</p>
+
+  <p>Mina Haral was a weight on her arms and she did not help, exactly as advertised, because helping is the thing that gets people hurt. Her eyes were shut. Her hands were folded.</p>
+
+  <p>And BlingBling, who had not shown a single colour since the bench, flared once &mdash; hard, white, right at the edge of vision, which is not a word in any vocabulary the two of them had ever built. It was just an alarm.</p>
+
+  <p>The bench was four steps back. Mina had told her what to do. Mina had also told her she&rsquo;d watched two people argue with her about it.</p>
+
+  <p><strong>Since when do we give up half way.</strong></p>
+
+  <p class="dice">&#10214; Crossing &middot; Formidable 33, augmented +14 &rarr; 96 &middot; <b>failure</b><br>&#10214; Luck Point spent &middot; re-roll &rarr; 48 &middot; failure, 2 of 3 remaining &#10215;</p>
+
+  <p>She pushed, and the door did the thing nobody at the Yards can teach you, because you cannot practise it: it stopped being a door she was holding open and became a thing that was holding <em>her</em>. The set went out of it all at once. Her arms were still full of Mina and the floor was still under her and none of that was any help at all.</p>
+
+  <p>Then she let go of the door.</p>
+
+  <p>That was the only decision she actually made, and she made it in about a fifth of a second, and it was the right one &mdash; and letting go of a door you are halfway through is like stepping off a stair that isn&rsquo;t there.</p>
+
+  <p>The floor came up and hit both of them.</p>
+
+  <p>She was on her back on the Procyon side with Mina Haral half across her chest and the issue tunic torn at the shoulder, and the tallyman was already shouting for a hall doctor and three people were running. Mina was breathing. Her eyes were open. There was blood from her nose, a thin bright line of it, and one of her wrists was wrong.</p>
+
+  <p>Lint&rsquo;s arms had no strength in them at all. Everything from the elbows down was somebody else&rsquo;s. The clouding went all the way up her forearms now and she could see it from there, and she had never been able to see it before.</p>
+
+  <p>Mina Haral turned her head &mdash; slowly, the whole head, the way she does &mdash; and looked at her.</p>
+
+  <p>&ldquo;Good girl,&rdquo; she said. &ldquo;You let go.&rdquo;</p>
+
+  <hr class="sep">
+
+  <p>Two doors down was a four-bed infirmary with three beds empty.</p>
+
+  <p>&ldquo;There she is,&rdquo; said Mina, and sounded pleased. &ldquo;The girl who dropped me.&rdquo;</p>
+
+  <p>&ldquo;I&rsquo;m sorry.&rdquo; It came out flatter than Lint meant. &ldquo;I should have put you down. You told me and I didn&rsquo;t and I&rsquo;m sorry.&rdquo;</p>
+
+  <p>Mina considered this with her head on one side. &ldquo;Yes. You should. And you did, in the end, about a second later than was ideal &mdash; which is roughly where I&rsquo;d put most of them, so don&rsquo;t go making a career out of it.&rdquo;</p>
+
+  <p>She shifted the bag an inch, which seemed to be how she thinks.</p>
+
+  <p>&ldquo;I was turned back at a hall when I was twenty-two. In Alpha Centauri, by a doctor younger than me, who was very kind about it.&rdquo; A pause. &ldquo;I have been paying children to carry me ever since, because I would not stop working, and I have never once pretended that is a clean thing to do.&rdquo;</p>
+
+  <p>She looked up &mdash; the whole head.</p>
+
+  <p>&ldquo;Forty-one times. I know every name. Today&rsquo;s was free, and it went wrong, and you are the only one of them who has come down the corridor to say so.&rdquo;</p>
+
+  <p>Her good hand found Lint&rsquo;s and tapped it twice, briskly, the way you&rsquo;d settle an account.</p>
+
+  <p>&ldquo;Go home. Tell Calloway it was my fault and my figures, because it was. And come back for me in three days, when I&rsquo;m stronger and you are too &mdash; I don&rsquo;t want anybody else.&rdquo;</p>
+
+  <hr class="sep">
+
+  <p>Then Lint asked BlingBling whether there was anything <em>she</em> wanted to do while they were here, which was a question nobody had put to her on a working day in her life.</p>
+
+  <p>BlingBling took a moment. Then &mdash; gold, a quick showy spiral of it down the sleeve and back, far too big for the question.</p>
+
+  <blockquote class="glint">
+    <p>Nothing. I am fine. I have no needs. I am a serious professional.</p>
+  </blockquote>
+
+  <p>A pause. Then, smaller, in the green she uses when she isn&rsquo;t performing:</p>
+
+  <blockquote class="glint">
+    <p>There&rsquo;s a gallery on the third level. Unfiltered. Procyon&rsquo;s a white star and the dwarf makes it strange, and the light comes in raw and it is the best light anywhere on the Causeway and every glint within four doors knows it.</p>
+    <p>I have never seen it. We are always turning round at the hall.</p>
+    <p>Also I would look <em>incredible</em> in it.</p>
+  </blockquote>
+
+  <p>The gallery was a long room with one wall missing. Not missing &mdash; glazed, floor to roof, unfiltered, and nobody had put a shutter anywhere near it. Procyon came in white and hard and made every edge in the room too sharp, and off to one side the dwarf sat in it like a chip of something much brighter than it had any business being.</p>
+
+  <p>It was the cleanest light Lint had ever stood in.</p>
+
+  <p>And there were eleven glints in there. On the rail, on the sills, two of them hanging upside down off a light fitting for reasons of their own, and the whole room was talking &mdash; colour going back and forth across it, fast, overlapping, a conversation at a speed no mouth could manage.</p>
+
+  <p>She could not read a word of it. Not one.</p>
+
+  <p>Then BlingBling went out into the middle of it, into the raw white, and <em>lit up</em> &mdash; the greens and the gold and that hot pink, all of it at once, a creature from a system where the sun tries to kill you several times a day standing in the best light in human space being absolutely unbearable about it.</p>
+
+  <p>The room responded. Loudly. Somebody flashed something that was obviously rude and she gave it straight back.</p>
+
+  <p>And Lint found she had sat down on the bench along the back wall with her useless arms in her lap, in the white light, watching her friend show off to strangers &mdash; and that the day had stopped being the worst one she&rsquo;d had.</p>
+
+  <figure class="plate">
+    <figcaption><span>Image plate</span><span class="no">03 &mdash; the light gallery</span></figcaption>
+<pre><b>SCENE.</b> A long narrow gallery aboard a station. The entire left wall is
+unshuttered glass, floor to ceiling, with no filter. Beyond it a
+brilliant white star and, off to one side, a tiny intensely bright
+companion. The light is RAW &mdash; it blows out the window edge and makes
+every surface in the room too sharp.
+
+<b>FIGURES.</b> Twelve small iridescent flying creatures, each the size of a
+cupped hand, scattered across handrails and window sills; two hanging
+upside down from a light fitting. They are all SHEDDING COLOUR &mdash; greens,
+deep blue, orange, a hot pink &mdash; in overlapping flashes. A clear
+conversation. In the centre of the raw white, one of them is blazing at
+full brightness in gold and pink at once, obviously showing off.
+
+<b>BACKGROUND.</b> A fifteen-year-old girl sitting alone on a bench against
+the back wall in the shadow, arms limp in her lap, watching. Small in
+frame. Smiling slightly.
+
+<b>LIGHT.</b> One source, extreme. Deep shadow everywhere the window does not
+reach. Hard specular edges.
+
+<b>STYLE.</b> Painterly, high dynamic range, slightly overexposed window.
+Bioluminescent colour against grey industrial fittings. Grain.
+
+<b>AVOID.</b> Fairy-tale glow. Cute insect design. Neon cyberpunk palette.</pre>
+  </figure>
+
+  <p>Twenty minutes on a bench in the best light in human space. Her arms came back by degrees. The clouding on her forearms did not, and won&rsquo;t.</p>
+
+  <p>At the end of it she lifted two fingers and flicked them &mdash; <em>let&rsquo;s go</em> &mdash; the same two fingers she&rsquo;d used for that since she was thirteen.</p>
+
+  <p>BlingBling came off the sill mid-sentence, abandoning what was clearly a winning position, and was on her collarbone before Lint was off the bench. One short gold pulse.</p>
+
+  <blockquote class="glint"><p>Yes. Home. Thank you.</p></blockquote>
+
+  <p>She didn&rsquo;t say it again or make anything of it, which from her is enormous.</p>
+
+  <hr class="sep">
+
+  <p class="dice">&#10214; Crossing &middot; Standard 51 &rarr; 37 &middot; success &#10215;</p>
+
+  <p>The return was nothing at all. A step, a change of air, BlingBling out and back, and the Nine came up around her like noise she&rsquo;d forgotten was loud.</p>
+
+  <p>She came up the gallery stair with nothing in her hands and no reader behind her, which is not how anybody leaves this station and comes back, and two people in the hall watched her do it.</p>
+
+  <p>Calloway was at the window with her back to the room, and she had been there long enough to have seen it.</p>
+
+  <p>&ldquo;Tell me.&rdquo;</p>
+
+  <p>&ldquo;I failed. Then I pushed and broke her wrist.&rdquo;</p>
+
+  <p>Calloway turned round. She looked at Lint&rsquo;s face for about a second and at her forearms for longer.</p>
+
+  <p>&ldquo;Is she alive?&rdquo;</p>
+
+  <p>&ldquo;Yes. Broken wrist. They&rsquo;re keeping her overnight because she&rsquo;s eighty-one. She said to come back for her in three days.&rdquo;</p>
+
+  <p>Calloway let out a breath she had clearly been holding since Lint came up the stair empty-handed. Then she pulled out the chair opposite and sat down in it, which she almost never does, and pushed the indefensible tea across the table without asking.</p>
+
+  <p>&ldquo;Right. You failed the carry. That happens, it happens to everybody, and it is not what I want to talk about.&rdquo; She waited until Lint looked up. &ldquo;You pushed after it set.&rdquo;</p>
+
+  <p>Not a question.</p>
+
+  <p>&ldquo;Lin, I have done thirty-one years of this and I have lost eleven people, and not one of them was lost because they weren&rsquo;t good enough. Every single one was lost because they were having a bad day and decided they could have it both ways.&rdquo;</p>
+
+  <p>&ldquo;I messed up. It&rsquo;s all on me. She even told me to repeat what to do and I didn&rsquo;t do it even then. And I swore.&rdquo;</p>
+
+  <p>Calloway took that without blinking, and let it sit for a moment so Lint could hear herself having said it.</p>
+
+  <p>&ldquo;Good. That&rsquo;s the right answer and I&rsquo;m glad you got there without help.&rdquo; Then: &ldquo;And you swore.&rdquo;</p>
+
+  <p>&ldquo;&hellip;Yes.&rdquo;</p>
+
+  <p>&ldquo;In front of Mina Haral.&rdquo;</p>
+
+  <p>&ldquo;She said <em>language</em>.&rdquo;</p>
+
+  <p>&ldquo;I should think she did.&rdquo; Calloway&rsquo;s mouth did something she didn&rsquo;t quite get under control in time. &ldquo;That woman taught half the readers in human space and she has a tongue on her like a dock crane, and she will be <em>delighted</em>. She&rsquo;ll bring it up every time she sees you for the next forty years.&rdquo;</p>
+
+  <p>She let Lint have about three seconds of that, which was exactly as much as she needed.</p>
+
+  <p>Then she leaned in on her elbows.</p>
+
+  <p>&ldquo;Here&rsquo;s what I actually care about, and then we&rsquo;re done with it. You stopped. Late &mdash; a second late, and a second is the whole thing &mdash; but you stopped, and you put her down, and she&rsquo;s alive and complaining about it in a Procyon infirmary tonight.&rdquo; She tapped the table once. &ldquo;That&rsquo;s the skill. Not the carry. <em>Stopping</em> is the skill, and almost nobody your age has it at all, and you&rsquo;ve got it about a second slower than you need it.&rdquo;</p>
+
+  <p>She stood, took the mug back untouched, and tipped it down the sink.</p>
+
+  <p>&ldquo;Three days. You go back for her, you do it properly, and you do not get on the rota before then &mdash; I&rsquo;ll have your hide. Go and feed your membrane, go and sleep, and tell BlingBling she can stop pretending she isn&rsquo;t listening from the kit rail.&rdquo;</p>
+
+  <p>A small, deeply unconvincing pulse of innocent blue from above the suits.</p>
+
+  <hr class="sep">
+</section>
+
+<section class="ch">
+  <p class="stamp">Day nought <span class="watch">&middot; the dead watch</span></p>
+  <h2>White, Not Clouded</h2>
+
+  <p>She didn&rsquo;t sleep. She got maybe an hour of the kind that isn&rsquo;t, the kind where you&rsquo;re aware of the blanket, and then she was just lying in the dark doing the carry again with a different ending. Four or five different endings. In two of them she put Mina down.</p>
+
+  <p>She got as far as the water point on the second level. Then the hall below did the thing it does.</p>
+
+  <p>It isn&rsquo;t a sound. It&rsquo;s about nine people all stopping being loud at the same moment, which is a sound of its own.</p>
+
+  <p>Door four. A night transit, which nobody schedules.</p>
+
+  <p><strong>Rill</strong> came up out of the housing already peeling the membrane off her forearms, and she was very good at it &mdash; no stagger, no hand on the frame, the way you do it when you&rsquo;ve done it two thousand times. Twenty-one. There is a record scratched on a stanchion in the Yards with her name against it and nobody has got close in four years.</p>
+
+  <p>Two hall kids who can&rsquo;t cross and never will were <em>already</em> at the bottom of the stair with a towel and a flask.</p>
+
+  <p>And behind her, up out of the same door about forty seconds later and much more slowly, came a man in a good coat with a soft bag, who was not Threshold, who was not fifteen, and who was being very carefully not looked at by everybody in the hall.</p>
+
+  <p>Rill handed him off to somebody waiting at the far arch without a word. Transaction. Done.</p>
+
+  <p>Then she sat down on the bottom step, took the flask off the hall kid, said something that made her laugh, and tipped her head back against the rail with her eyes shut.</p>
+
+  <p>From the second-level rail you could see her forearms. They weren&rsquo;t clouded. They were <em>white</em>.</p>
+
+  <figure class="plate">
+    <figcaption><span>Image plate</span><span class="no">04 &mdash; Rill, four in the morning</span></figcaption>
+<pre><b>SCENE.</b> The bottom of a steel staircase in a vast anchor hall, lights
+dimmed to night level. Behind her, one of nine metal rings set in the
+floor, still faintly lit.
+
+<b>FIGURE.</b> A young woman of twenty-one in a translucent living second
+skin, peeled back off the forearms, sitting on the bottom step. Head
+tipped back against the handrail, eyes shut, a metal flask in one hand.
+Exhausted and entirely competent. Short practical hair.
+
+<b>THE DETAIL THAT MATTERS.</b> Her bare forearms are not clouded like
+breathed-on glass &mdash; they are OPAQUE WHITE, the white of something left
+too long in water. This should be unmistakable and quietly horrifying,
+and she is completely unbothered by it.
+
+<b>SECONDARY.</b> A child of about eleven standing beside her holding a towel,
+watching her like scripture. Far background, blurred: a man in a good
+coat with a soft bag walking away, being carefully not looked at.
+
+<b>LIGHT.</b> Low amber night lighting from below. One cold ring-glow behind.
+
+<b>STYLE.</b> Documentary realism, slightly high angle as if seen from a
+balcony above. Muted, grainy, Roger Deakins. No glamour.
+
+<b>AVOID.</b> Heroic posing. Wounds or blood. Sexualisation. Glowing eyes.</pre>
+  </figure>
+
+  <p>She opened one eye, because people always know, and found Lint on the second-level rail at four in the morning in a blanket.</p>
+
+  <p>&ldquo;&hellip;You&rsquo;re the new one. You&rsquo;re up late.&rdquo;</p>
+
+  <p>&ldquo;You&rsquo;re Rill. Yeah. Messed up a transit today.&rdquo;</p>
+
+  <p>&ldquo;Rill. Yeah.&rdquo; She said it the way you&rsquo;d admit to a surname. Then she shifted over on the step and tapped the deck beside her twice with two fingers, which is the same signal Lint uses on BlingBling, and apparently everybody uses it, and she had not known that.</p>
+
+  <p>Lint came down the stair in a blanket and told her. Not all of it. The carry, the set, the push.</p>
+
+  <p>Rill did none of the things she&rsquo;d been braced for all evening. No wince. No <em>oh no</em>. She listened with her eyes shut like somebody checking a figure.</p>
+
+  <p>&ldquo;Is she alive?&rdquo;</p>
+
+  <p>&ldquo;Yes. Broken wrist.&rdquo;</p>
+
+  <p>&ldquo;Hm.&rdquo; A pull from the flask. &ldquo;Then you didn&rsquo;t mess it up.&rdquo;</p>
+
+  <p>And she said it so <em>easily</em>.</p>
+
+  <p>&ldquo;That&rsquo;s the job, new one. It sets, you push, you find out. Everybody who&rsquo;s any good at this has pushed.&rdquo; She held a hand out flat in the low light, and it was steady, and it was the white of a thing left too long in water. &ldquo;They&rsquo;ll all tell you the number of people who died pushing. Nobody ever counts the ones who got carried out because somebody did.&rdquo;</p>
+
+  <p>&ldquo;Who was it, anyway. Procyon run?&rdquo;</p>
+
+  <p>&ldquo;Mina Haral. Yep.&rdquo;</p>
+
+  <p>Rill laughed. Actually laughed &mdash; once, short, surprised out of her. &ldquo;<em>Mina.</em>&rdquo;</p>
+
+  <p>&ldquo;You know her?&rdquo;</p>
+
+  <p>&ldquo;New one, everybody knows her. She taught my reading. Not me specifically &mdash; she taught the people who taught us, there&rsquo;s about four hundred of us who think she taught them personally and she lets us all think it.&rdquo; Then, flatter: &ldquo;I&rsquo;ve carried her twice.&rdquo;</p>
+
+  <p>The hall kid with the towel went very still.</p>
+
+  <p>&ldquo;Alpha Centauri, both times. First one I was seventeen and she talked the entire way through the housing about the ceiling, which is a thing she does so you don&rsquo;t have time to be frightened, and I didn&rsquo;t work that out until years later.&rdquo; A beat. &ldquo;She tips. You&rsquo;d think she wouldn&rsquo;t, because she&rsquo;s got nothing, and she does, every time, and you can&rsquo;t give it back because she just puts it in your boot.&rdquo;</p>
+
+  <p>She turned the flask round in her hands. &ldquo;Eighty-one. Still going. Honestly it&rsquo;s &mdash;&rdquo;</p>
+
+  <p>And she stopped. Just stopped, mid-sentence, like a door closing softly in another room. Lint watched her decide not to finish it.</p>
+
+  <hr class="sep">
+
+  <p>&ldquo;Bet you&rsquo;ve carried her before,&rdquo; Lint said, when Rill was already turning for the arch.</p>
+
+  <p>She stopped. &ldquo;Twice. I just told you twice.&rdquo; Not sharp. She looked at Lint for a second longer, working out whether she hadn&rsquo;t been listening or whether she was asking something else, and then deciding it was something else.</p>
+
+  <p>She came back two steps. &ldquo;You mean the man in the coat.&rdquo;</p>
+
+  <p>Lint didn&rsquo;t say anything, which is the same as saying yes.</p>
+
+  <p>&ldquo;Right.&rdquo; Rill set the flask down on the step. &ldquo;Ask it properly, then. You&rsquo;ve earned one straight answer tonight and I&rsquo;d rather it came from me than off somebody on the gallery.&rdquo;</p>
+
+  <p>So Lint asked her why she takes them. And she gave it in one sentence, the way you&rsquo;d read out a number:</p>
+
+  <blockquote class="doc">
+    <p>&ldquo;Because the money is real, and it&rsquo;s the only money anybody has ever offered me for <em>afterwards</em>, and nobody &mdash; not Calloway, not the Threshold, not one person in six hundred years &mdash; has ever worked out what a frayed-out first-through is supposed to do with the rest of her life.&rdquo;</p>
+  </blockquote>
+
+  <p>The hall was very quiet. Even the kid with the towel.</p>
+
+  <p>&ldquo;That&rsquo;s it. That&rsquo;s the whole thing. It isn&rsquo;t brave and it isn&rsquo;t tragic, it&rsquo;s a job.&rdquo; She picked the flask back up. &ldquo;And Mina Haral pays children to carry her because the alternative is she never sees Procyon again, and the hall at twenty-two told her no, and she was <em>twenty-two</em>.&rdquo;</p>
+
+  <p>Then she was done. You could see her be done.</p>
+
+  <p>&ldquo;Right. Yards. Tomorrow, if you&rsquo;re not asleep by then.&rdquo; She was going. &ldquo;You still haven&rsquo;t told me your name.&rdquo;</p>
+
+  <p>&ldquo;Lint. Call me Lin.&rdquo;</p>
+
+  <p>&ldquo;Lin.&rdquo; She tried it once, nodded like it had been filed. &ldquo;Rill. Which you knew.&rdquo;</p>
+
+  <p>She was three steps into the arch when she stopped and turned round, and this time she took a moment over it.</p>
+
+  <p>&ldquo;Hey. Lin. You asked me that without your face doing anything.&rdquo;</p>
+
+  <p>&ldquo;&hellip;Was I supposed to?&rdquo;</p>
+
+  <p>&ldquo;Everybody does. Not on purpose.&rdquo; She shrugged, and it was a tired, genuine, slightly embarrassed shrug, and for a second she looked about nineteen. &ldquo;Anyway. It was nice. Go to bed.&rdquo;</p>
+
+  <hr class="sep">
+</section>
+
+<section class="ch">
+  <p class="stamp">Day one <span class="watch">&middot; grounded, first of three</span></p>
+  <h2>Like a Farmer</h2>
+
+  <p>Rill put the bag in her hands. Wet sand in canvas, worn shiny at the strap.</p>
+
+  <p>&ldquo;Feet behind the plate. Nobody catches for you on the first one, so just get it there.&rdquo;</p>
+
+  <p>Forty metres of open void. Six levels of the Nine stacked above it and the hall noise coming up from below.</p>
+
+  <p class="dice">&#10214; Athletics &middot; Standard 56 &rarr; 20 &middot; success &#10215;</p>
+
+  <p>She didn&rsquo;t think about it, which is the whole trick, and the Quick did the rest. The bag went out flat and low and landed in the hands of a boy on the far rail who absolutely was not expecting to have to do anything, and who caught it anyway, mostly with his chest.</p>
+
+  <p>Rill said nothing for a second. &ldquo;&hellip;Hm.&rdquo;</p>
+
+  <p>&ldquo;Hm?&rdquo;</p>
+
+  <p>&ldquo;You&rsquo;ve got a horrible flat throw and I hate it.&rdquo; She took her sleeves down and then shoved them back up again. &ldquo;Right, that&rsquo;s not fair, you should know that&rsquo;s actually good. Garden thing? You lot throw like you&rsquo;ve had weather.&rdquo;</p>
+
+  <p>&ldquo;<em>Garden thing?</em> What am I, a lawn ornament?&rdquo;</p>
+
+  <p>Rill actually laughed, which from her is a loud noise. &ldquo;She&rsquo;s from the Garden, Ferren. She&rsquo;s stood in weather nobody made.&rdquo;</p>
+
+  <p>&ldquo;I&rsquo;ve stood in weather!&rdquo;</p>
+
+  <p>&ldquo;You&rsquo;ve stood in a <em>leak</em>.&rdquo;</p>
+
+  <hr class="sep">
+
+  <p>Best of five took nine minutes and turned into the thing everybody on four levels stopped to watch.</p>
+
+  <p>Ferren was better than her. Nineteen, two intakes up, and a throw that went out so flat it looked like it was on a wire. He took the second and the fourth without appearing to try, and he was <em>nice</em> about it, which was unbearable. She took the third because his catcher sneezed.</p>
+
+  <p>And she took the fifth because he went for the spectacular one and she didn&rsquo;t. Her bag went out flat and low and boring and landed in a hall child&rsquo;s lap, who had not moved off the top rail the entire time, and who caught it one-handed without putting the flask down.</p>
+
+  <p>Dead silence for about a second and a half. Then forty metres of gallery made a noise you could feel in the deck plate.</p>
+
+  <p>&ldquo;That&rsquo;s &mdash; no. <em>No.</em> That&rsquo;s a boring throw. That&rsquo;s an <em>agricultural</em> throw&mdash;&rdquo;</p>
+
+  <p>&ldquo;It counted,&rdquo; said the hall child.</p>
+
+  <p>Which is roughly when something a metre across and the colour of nothing in particular detached itself from the upper rail, where it had clearly been all along, and drifted down through the middle of the void without any obvious means of doing so.</p>
+
+  <p>A <strong>fathom</strong>. Eyeless. Not interested in being looked at. It stopped about two metres off, and a voice arrived in the middle of her head without passing her ears.</p>
+
+  <blockquote class="doc">
+    <p><em>You are all throwing into a dead charge. There is a standing field across this gap and not one of you has felt it once.</em></p>
+    <p><em>I could put that bag in the child&rsquo;s hands from here, blind, at twice the distance. I have been offering to demonstrate this for six years.</em></p>
+  </blockquote>
+
+  <p>&ldquo;Nobody asked, Vantage,&rdquo; said Ferren, through his teeth, not looking at it.</p>
+
+  <p><em>Nobody ever does.</em></p>
+
+  <p>&ldquo;OK,&rdquo; said Lint. &ldquo;I&rsquo;ll bite. Show me.&rdquo;</p>
+
+  <p>Six years, and the person who finally said yes had been there a day.</p>
+
+  <p><em>&hellip;Oh.</em></p>
+
+  <p>For one unguarded instant the dryness dropped clean out of its voice, and that was somehow the most embarrassing thing that happened to anyone in the gallery that day. Then it recovered, hard.</p>
+
+  <p><em>Very well. Since someone has finally shown some rigour.</em></p>
+
+  <figure class="plate">
+    <figcaption><span>Image plate</span><span class="no">05 &mdash; Vantage in the void</span></figcaption>
+<pre><b>SCENE.</b> A vertical open shaft forty metres across through the middle of
+a rotating station &mdash; six levels of balconies and handrails stacked
+above and below, teenagers leaning on every one of them. A steel
+throwing plate at one edge. Netting far below.
+
+<b>SUBJECT.</b> A creature roughly a metre across, hanging unsupported in the
+middle of the void at head height: a thin translucent membrane, like a
+jellyfish bell crossed with a sheet of oiled paper, EYELESS, featureless,
+faintly rippling. No limbs, no face, no visible means of flight. It is
+unmistakably attentive and unmistakably smug.
+
+<b>FIGURES.</b> A girl of fifteen on the plate with a sandbag, looking right at
+it. A nineteen-year-old boy nearby with his hands on his head. A
+child of eleven sitting on the topmost rail with a flask, refereeing.
+
+<b>LIGHT.</b> Industrial work lighting from the balcony undersides; the shaft
+itself dim and deep. Volumetric dust in moving air.
+
+<b>STYLE.</b> Grounded hard sci-fi. Scale emphasised &mdash; the shaft should feel
+dangerous. Muted greys and greens, one warm lamp note. Painterly, grain.
+
+<b>AVOID.</b> Cute creature design. Eyes of any kind. Tentacles. Glowing.</pre>
+  </figure>
+
+  <p>It made the boy on the far rail hold the bag, four metres out from the plate, and then it went up &mdash; twelve, fifteen metres, until it was a pale smudge against the underside of the next deck, and it stopped in a place where there was visibly nothing to stop against.</p>
+
+  <p><em>There is a conduit run behind that panelling.</em> A pause. <em>Of course you cannot feel it. You have eyes.</em></p>
+
+  <p>&ldquo;Get on with it,&rdquo; said Ferren.</p>
+
+  <p><em>Let the bag go.</em></p>
+
+  <p>And it didn&rsquo;t fall straight. It fell <em>wrong</em> &mdash; drifted about a metre and a half sideways on the way down, which should be impossible in a cylinder with its own gravity and absolutely no wind, and landed in the hall child&rsquo;s lap for the second time in five minutes.</p>
+
+  <p>The hall child looked down at it. Then up. Then said, with enormous satisfaction, &ldquo;It counted.&rdquo;</p>
+
+  <p>Dead quiet across four levels.</p>
+
+  <p>&ldquo;&hellip;What was that,&rdquo; said Rill, slowly.</p>
+
+  <p><em>Air.</em> Vantage was already drifting back down, insufferable again and visibly pleased about it. <em>The gallery exchangers push a column up the void and nothing in it is still. You have all been throwing through a river for two hundred years and calling it skill.</em></p>
+
+  <p>Ferren sat down on the walkway.</p>
+
+  <p>Lint gave the gallery the full face &mdash; eyes wide, mouth round, both hands up, the whole <em>oooooooo</em> &mdash; and four levels of the Nine gave it straight back, which was the loudest thing that had happened in the Yards all week.</p>
+
+  <p>&ldquo;I&rsquo;m being bullied,&rdquo; said Ferren, to nobody.</p>
+
+  <p>Then she turned back to Vantage and told it properly that it was actually, genuinely cool, and that she&rsquo;d never have known it was there.</p>
+
+  <p>And the fathom &mdash; eyeless, a metre of membrane, a hundred and ninety centimetres off the deck &mdash; went completely still.</p>
+
+  <p><em>&hellip;Yes. Well.</em></p>
+
+  <p>It did not know what to do. You could tell it did not know what to do, from a creature with no face whatsoever.</p>
+
+  <p>&ldquo;And,&rdquo; she added, &ldquo;I might actually be able to <em>use</em> that. If I didn&rsquo;t throw LIKE A FARMER.&rdquo;</p>
+
+  <p>&ldquo;OH, that&rsquo;s mine,&rdquo; said Ferren, both arms out. &ldquo;That&rsquo;s my line. You can&rsquo;t have my line.&rdquo;</p>
+
+  <hr class="sep">
+
+  <p>It settled, more or less, at her eye level, and when it spoke again it had dropped most of the performance and kept all of the snobbery.</p>
+
+  <p><em>It is not complicated. The column is strongest at the waist and it turns about a third of the way across. A flat throw fights it. A throw you release half a hand higher and slightly off-true lets it carry.</em></p>
+
+  <p>A pause.</p>
+
+  <p><em>Ferren has been correcting for it unconsciously for four years and has no idea he does it. That is why he is good and cannot teach anybody.</em></p>
+
+  <p>&ldquo;I&rsquo;m RIGHT HERE.&rdquo;</p>
+
+  <p><em>I am aware.</em></p>
+
+  <p>Then: <em>I will show you. Not today &mdash; the light is wrong and the exchangers run hard until the second watch, and you have been awake for four hours after breaking an old woman&rsquo;s wrist, which the entire station has discussed.</em></p>
+
+  <p>The gallery noise dropped about half a step.</p>
+
+  <p><em>Tomorrow, then. If you are still curious.</em></p>
+
+  <p>&ldquo;Oh yeah. Tomorrow. I&rsquo;ll be here &mdash; got nowhere else to go.&rdquo;</p>
+
+  <p><em>Tomorrow.</em> A pause, and then, with the air of someone conceding a great deal: <em>Vantage. Since you did not ask, which was correct of you.</em></p>
+
+  <p>And it went straight up and out through the gap under the next deck, where there is presumably a conduit run and a column of moving air and something that passes, in here, for a sky.</p>
+
+  <hr class="sep">
+</section>
+
+<section class="ch">
+  <p class="stamp">Day one <span class="watch">&middot; afternoon</span></p>
+  <h2>A Line Is When</h2>
+
+  <p>She spent the afternoon doing the thing a Pathfinder does without being told to: walking a place until she could draw it. Two kilometres of cylinder, turning once every ninety seconds. Forty thousand people. Nothing grown outside it, nothing mined there, no ground within eight light years in any direction &mdash; every stone of it carried.</p>
+
+  <p class="dice">&#10214; Perception &middot; Standard 57 &rarr; 51 &middot; success &#10215;</p>
+
+  <p>The decks are named for the doors, and each one smells and behaves like the place it leads. The Procyon Stair is a suburb &mdash; five light years, prams on the walkway. The Coldwater Run is red light and grain dust and the only corner of the Nine that smells of farming. The Wolf Gate queue is shift workers, the roughest line in the hall and, everyone agrees furiously, the best food on the station.</p>
+
+  <p>And three things she noticed that she wasn&rsquo;t told.</p>
+
+  <p>The architecture is built for five peoples, and once you see it you can&rsquo;t unsee it: ramps where there should be stairs, a dim corner left in every concourse, and duct grilles cut to scatter gauge on every deck &mdash; a mesh sized so a glint can pass and nothing larger can. There&rsquo;s a line in every budget argument about them. Somebody, centuries ago, designed this station so that the smallest people in it could go anywhere.</p>
+
+  <p>Second: outer decks are shuttered by default, and opening one is a small occasion. She worked out which handful are <em>not</em>.</p>
+
+  <p>Third, and this is the Pathfinder in her: she could now get from the hall to any deck two ways, and one of them wasn&rsquo;t through a concourse.</p>
+
+  <hr class="sep">
+
+  <p>Which is how she ended up, near the end of it, back at the waist of the cylinder under <strong>the Standing</strong>.</p>
+
+  <p>Four metres of slate on the gallery wall above the hall, every door in human space written on it with where it currently goes. Updated whenever a courier comes in with better information. The most important object in the Causeway, and it&rsquo;s a <em>slate</em>, because a slate can be corrected in eleven seconds by somebody on a stool.</p>
+
+  <p>People stop under it without meaning to. She&rsquo;d just done it.</p>
+
+  <p>&ldquo;You&rsquo;re the new one. You&rsquo;ve been walking all day. I&rsquo;ve seen you three times.&rdquo;</p>
+
+  <p>She knew her, actually. &ldquo;You were on the top rail. With the flask. You caught my last throw one-handed.&rdquo;</p>
+
+  <p>&ldquo;It counted,&rdquo; said the girl, with enormous satisfaction, as though the matter had been in doubt all day and she had personally settled it.</p>
+
+  <p>She came down off the stool. Small, eleven or so, chalk to the elbow, a rag through her belt and the unmistakable bearing of someone doing a job. She wiped her hand on the rag before she offered it, which was more manners than anyone had shown Lint since she got there.</p>
+
+  <p>&ldquo;Sennet. Everyone calls me Sen. I do the Standing on second and third watch.&rdquo;</p>
+
+  <p>She said <em>I do the Standing</em> the way an admiral says the name of a ship.</p>
+
+  <p>&ldquo;Not the <em>writing</em>, obviously, the tallymen write. I keep it. Dust it, square the lines, chase the ones nobody&rsquo;s updated.&rdquo; A pause, slightly flinty. &ldquo;I&rsquo;m the one who notices when a line&rsquo;s gone stale. I noticed the Bell line was eleven days old and nobody else did.&rdquo;</p>
+
+  <p>She tested at nine, then. The whole family came, and she frayed like an adult, and no knack ever surfaced. That&rsquo;s the ordinary outcome and everybody says so beforehand and nobody quite believes it about their own. Lint didn&rsquo;t ask. Nobody who&rsquo;s been taken up ever asks.</p>
+
+  <p>&ldquo;Do you actually know how to read it? Properly? Most of you don&rsquo;t. You read your own door and walk off.&rdquo;</p>
+
+  <p>&ldquo;I dunno &mdash; I just try to figure it out. What&rsquo;s the right way, Sen?&rdquo;</p>
+
+  <p>&ldquo;Right,&rdquo; said Sen, and she was <em>delighted</em>, and she squared her shoulders.</p>
+
+  <p>&ldquo;Four things on every line. People only ever read two.&rdquo; She tapped along the Procyon line with the flat of the chalk. &ldquo;<strong>Door. Where it goes. Who last stood it. Which watch.</strong> That&rsquo;s it.&rdquo;</p>
+
+  <p>&ldquo;Now. The bit nobody reads is the <em>fourth</em> one, and the fourth one is the only one that matters. Because a door tells you where it went <em>when somebody last looked</em>. That&rsquo;s all. The Bell line said Bell and it was eleven days stale and everybody kept reading it like it was today, and a door can stray in the time it takes you to walk down here.&rdquo;</p>
+
+  <p>She said it with real heat.</p>
+
+  <p>&ldquo;A line isn&rsquo;t true. A line is <em>when</em>. If you don&rsquo;t read the watch you&rsquo;re just reading a rumour that somebody wrote up neatly.&rdquo;</p>
+
+  <p>That was better than anything the Yards taught her about the Standing.</p>
+
+  <p>&ldquo;Huh.&rdquo;</p>
+
+  <p>&ldquo;Yes, <em>huh</em>.&rdquo; She was extremely pleased. &ldquo;Everybody says huh.&rdquo;</p>
+
+  <hr class="sep">
+
+  <p>Then she went up two steps on the stool and reached well over to the left, to a part of the slate where the chalk had gone into the stone and the stone had gone grey around it, and she didn&rsquo;t touch it, and Lint got the strong impression that nobody touches it.</p>
+
+  <p>&ldquo;And then there&rsquo;s that one.&rdquo;</p>
+
+  <p class="slate">Kapteyn&rsquo;s &mdash; no answer this watch</p>
+
+  <p>&ldquo;Six hundred and two,&rdquo; said Sen. &ldquo;Spring.&rdquo;</p>
+
+  <p>She looked at it for a moment with her head tipped.</p>
+
+  <p>&ldquo;<em>This watch.</em> That&rsquo;s what you write when a door doesn&rsquo;t answer and you expect it to answer later. It&rsquo;s the normal thing. I write it four or five times a year.&rdquo; She wiped a bit of chalk off her fingers. &ldquo;Somebody wrote it that afternoon because they thought they&rsquo;d be rubbing it out by the next one.&rdquo;</p>
+
+  <p>A beat.</p>
+
+  <p>&ldquo;Nobody&rsquo;s ever changed it. It&rsquo;s the stalest line on the board by about six hundred years and it&rsquo;s the only one I&rsquo;m not allowed to square up.&rdquo; She frowned at it, properly affronted, eleven years old and the keeper of this thing. &ldquo;I&rsquo;ve asked twice.&rdquo;</p>
+
+  <p>Eleven thousand people, twelve and a half light years out.</p>
+
+  <figure class="plate">
+    <figcaption><span>Image plate</span><span class="no">06 &mdash; the Standing</span></figcaption>
+<pre><b>SCENE.</b> A gallery wall above a vast anchor hall. Mounted on it: a single
+slab of dark slate four metres wide, ruled into columns and covered in
+HANDWRITTEN CHALK &mdash; dozens of lines, each naming a star, a destination, a
+courier's surname, a watch number. Several hands, several ages of chalk.
+Some lines freshly written and bright; others worn into the stone.
+
+<b>FIGURE.</b> A girl of eleven standing on a wooden stool at the board, chalk
+to the elbow, a cleaning rag through her belt, a pen behind her ear. She
+has the bearing of a professional. Beside her, a fifteen-year-old
+courier looking up at the board.
+
+<b>THE POINT OF THE FRAME.</b> Far left, one line where the chalk has gone grey
+INTO the slate &mdash; six centuries old, never erased, visibly untouched while
+everything around it is maintained. The girl is pointing at it without
+touching it.
+
+<b>BELOW.</b> Nine queues of people at nine lit rings, out of focus, going on
+regardless.
+
+<b>STYLE.</b> The most important object in human civilisation is a blackboard.
+Play that absolutely straight. Realist, warm work lighting on the board,
+cold blue light from the hall below. Painterly. Grain.
+
+<b>AVOID.</b> Screens. Holograms. Any digital display anywhere in frame.</pre>
+  </figure>
+
+  <p>&ldquo;Everybody shows you Kapteyn&rsquo;s eventually,&rdquo; she said, matter-of-fact, climbing back down. &ldquo;The star, I mean. Up on the top gallery when the shutters are open &mdash; it&rsquo;s dim, you&rsquo;d walk past it. They all want to be the one who shows you.&rdquo;</p>
+
+  <p>She looked up. &ldquo;Has anyone done it to you yet?&rdquo;</p>
+
+  <p>&ldquo;No one. Not yet.&rdquo;</p>
+
+  <p>&ldquo;You busy? Do you want to show me?&rdquo;</p>
+
+  <p>Sen stopped with the rag halfway to her belt. &ldquo;&hellip;Me?&rdquo;</p>
+
+  <p>&ldquo;You&rsquo;re the one who knows where it is.&rdquo;</p>
+
+  <p>There was a pause of about two seconds in which she visibly did not know what to do with her face, and then she got it under control, and then she said, far too casually:</p>
+
+  <p>&ldquo;Well. I mean. I&rsquo;d have to get Oris to sit the slate.&rdquo; A beat. &ldquo;He&rsquo;s rubbish. He doesn&rsquo;t dust.&rdquo;</p>
+
+  <p>She was already off the stool.</p>
+
+  <hr class="sep">
+</section>
+
+<section class="ch">
+  <p class="stamp">Day one <span class="watch">&middot; second watch, bay four</span></p>
+  <h2>Four Thousand Points</h2>
+
+  <p>Nine levels up, and the spin got lighter the whole way, and by the top gallery she was walking in that half-floating way that makes the Yards kids show off and makes everybody over thirty hold the rail.</p>
+
+  <p>The upper gallery was long and curved and almost empty, and shuttered &mdash; of course it was. Sirius comes through every port as a hard blue-white the filters never quite tame.</p>
+
+  <p>Sen walked to the fourth bay along and put her hand flat on the plate beside it.</p>
+
+  <p>&ldquo;This one. Second watch, every day, for about forty minutes. Nobody knows. There&rsquo;s a maintenance override and the man who does the override is called Hesk and he thinks he&rsquo;s the only one who ever uses it.&rdquo;</p>
+
+  <p>A clunk somewhere behind the wall. Then the shutter went up.</p>
+
+  <hr class="sep">
+
+  <p>And it was just stars.</p>
+
+  <p>That&rsquo;s the thing nobody tells you. Sirius wasn&rsquo;t in that bay &mdash; she&rsquo;d picked the one looking the other way &mdash; so there was no glare, just the deep black and about four thousand points of it, and the Nine turning slowly enough that the whole field drifted.</p>
+
+  <p>Sen waited. She didn&rsquo;t fill it. She&rsquo;d done this before and she knew the gap is part of it.</p>
+
+  <p>Then she leaned in next to Lint&rsquo;s shoulder and pointed, and her finger was small and chalky, and she sighted along it carefully to get it right.</p>
+
+  <p>&ldquo;There. Not the bright one &mdash; that&rsquo;s nothing, that&rsquo;s a foreground thing. The dim one, just under it, orange. You&rsquo;d walk straight past it.&rdquo;</p>
+
+  <p>Lint had to look twice to find it. Then she couldn&rsquo;t stop seeing it.</p>
+
+  <p>&ldquo;Kapteyn&rsquo;s,&rdquo; said Sen.</p>
+
+  <p>Twelve and a half light years. Eleven thousand people, in the spring of six hundred and two. A good world, farms and foundries, and a door that went dark and stayed dark.</p>
+
+  <p>&ldquo;It&rsquo;s still there,&rdquo; said Sen. &ldquo;That&rsquo;s the bit. People go <em>oh, that&rsquo;s sad</em>, and it isn&rsquo;t sad, it&rsquo;s <em>there</em>. It&rsquo;s a whole world and it&rsquo;s sitting right there and you can see it from a corridor.&rdquo;</p>
+
+  <p>She lowered her arm. &ldquo;And the light coming out of it now left twelve and a half years ago, so even if something happened yesterday we wouldn&rsquo;t&mdash;&rdquo;</p>
+
+  <p>She stopped herself, because she&rsquo;s eleven and she could hear that she was showing off.</p>
+
+  <p>&ldquo;Anyway. That&rsquo;s it. That&rsquo;s the thing everybody wants to do to you.&rdquo; A small, satisfied breath. &ldquo;And I got to do it.&rdquo;</p>
+
+  <figure class="plate">
+    <figcaption><span>Image plate</span><span class="no">07 &mdash; bay four</span></figcaption>
+<pre><b>SCENE.</b> A long curved observation gallery at the outer hull of a rotating
+station, almost empty, all the viewports shuttered with grey steel plates
+except ONE, which is open. Through it: deep black and roughly four
+thousand stars, no nebulae, no colour wash &mdash; a real, austere, accurate
+starfield. The station's slow rotation means the whole field is very
+slightly smeared.
+
+<b>FIGURES.</b> From behind and slightly to one side: a girl of eleven leaning
+in beside the shoulder of a girl of fifteen, pointing out of the window
+with a small chalk-stained finger, sighting carefully along it. Both
+small in the frame. The gallery lights are OFF, so the glass has no
+reflection in it at all and effectively is not there.
+
+<b>THE SUBJECT.</b> The star they are pointing at is DIM and ORANGE and
+unremarkable &mdash; you would walk past it. It must not be made beautiful or
+dramatic. Everything depends on it being ordinary.
+
+<b>LIGHT.</b> Starlight only, plus one amber maintenance lamp far down the
+curve. Near silhouette.
+
+<b>STYLE.</b> Restrained, cold, documentary. Wide lens, lots of empty gallery.
+No lens flare, no god rays, no glowing dust.
+
+<b>AVOID.</b> Nebulae. Saturated space art. Planets in frame. Awe-posing.</pre>
+  </figure>
+
+  <p>She stayed. Sen went back down at speed because Oris was sitting her slate.</p>
+
+  <p>So it was her and the bay and four thousand points of light. The Nine turned. The field drifted, slowly, the whole of it together, which is the only way you ever really feel the spin once you&rsquo;ve lived in it.</p>
+
+  <p>BlingBling didn&rsquo;t say anything for the whole ten minutes. She came off the stanchion at some point and sat on the rail beside Lint&rsquo;s hand, not touching, dimmed right down &mdash; not the sleeping colour, a different one, flatter &mdash; and kept her own counsel, which for her is close to unprecedented.</p>
+
+  <p class="dice">&#10214; Perception &middot; Standard 57 &rarr; 92 &middot; failure &#10215;</p>
+
+  <p>And then four hundred metres of curve turned out to be four hundred metres of curve. Shuttered bays, numbered. A fire locker. A long scuff on the deck where something heavy got dragged a century ago. Two notices about not using the gallery as a shortcut, one of them stencilled over the other.</p>
+
+  <p>Which is why she didn&rsquo;t notice the time going.</p>
+
+  <p>The clunk came from behind the wall, the same one as before, and the shutter in bay four slid down at the far end of the curve. And the lights up there are on the same override as the shutter, because of course they are, because nobody is ever up there.</p>
+
+  <p>It went properly dark.</p>
+
+  <p>BlingBling came up off the rail instantly and went to full white, which is about as much light as a hand torch and about as much subtlety as a flare, and she was extremely pleased to be useful.</p>
+
+  <p>Ninety seconds into walking back, a voice came from a hatch at ankle height, slightly muffled, deeply aggrieved.</p>
+
+  <p>&ldquo;&mdash; who&rsquo;s <em>up</em> here?&rdquo;</p>
+
+  <p>A panel swung. A head came out of the deck. Fifties. Coverall. A headlamp pointed straight at her.</p>
+
+  <p>&ldquo;You&rsquo;re not Oris.&rdquo;</p>
+
+  <p>&ldquo;&hellip;No.&rdquo;</p>
+
+  <p>&ldquo;How&rsquo;d you know about the second-watch override?&rdquo; He hauled himself up out of the hatch and stood, and he was not angry, he was <em>scandalised</em>. &ldquo;That&rsquo;s not &mdash; nobody knows about that. I don&rsquo;t put that on a sheet.&rdquo;</p>
+
+  <p>He peered at her. &ldquo;You&rsquo;re one of Calloway&rsquo;s. The new one. Thirty-four at fifteen.&rdquo; A pause, and then, bitterly: &ldquo;It was Sennet, wasn&rsquo;t it.&rdquo;</p>
+
+  <p>&ldquo;I&rsquo;d love to know who&rsquo;s asking,&rdquo; said Lint, perfectly pleasantly, &ldquo;because the lights just went out on me four hundred metres from a stair, and I don&rsquo;t actually know your name.&rdquo;</p>
+
+  <p>That landed. You could see it land.</p>
+
+  <p>&ldquo;&hellip;Hesk.&rdquo; He said it like he was conceding a point he hadn&rsquo;t expected to be playing for. &ldquo;Deck systems. Shutters, ports, atmosphere trim on nine through twelve.&rdquo; He straightened his coverall. &ldquo;And the lights are on the <em>shutter</em> circuit, up here, which is not my doing, that&rsquo;s six hundred years old and there&rsquo;s a line in the budget about it every single year&mdash;&rdquo;</p>
+
+  <p>&ldquo;It&rsquo;s dark, though.&rdquo;</p>
+
+  <p>&ldquo;It is dark,&rdquo; he admitted, with enormous reluctance. &ldquo;Yes. It is dark.&rdquo;</p>
+
+  <p>He got a torch out of a leg pocket, finally, and put it on the deck pointing up, which filled the whole bay with a soft bounce and was a far better idea than anything either of them was doing.</p>
+
+  <p>&ldquo;Right. Second-watch override. Who told you?&rdquo;</p>
+
+  <p>&ldquo;Somebody who keeps the Standing and notices when a line&rsquo;s gone stale.&rdquo;</p>
+
+  <p>&ldquo;<em>Sennet.</em>&rdquo; He closed his eyes briefly. &ldquo;That child is eleven years old and knows more about this station than my own staff. I&rsquo;ve found her in a trunking run. Twice.&rdquo;</p>
+
+  <p>A beat.</p>
+
+  <p>&ldquo;She&rsquo;s not wrong, though. That bay&rsquo;s the only one on the upper deck that doesn&rsquo;t look into Sirius, so it&rsquo;s the only one worth opening, and nobody ever asks, so I open it for forty minutes when the trim&rsquo;s settled and I eat my lunch in it.&rdquo; He said this defiantly, as if expecting to be challenged. &ldquo;There&rsquo;s no rule against it.&rdquo;</p>
+
+  <p>Then, suspiciously: &ldquo;What were <em>you</em> doing up here? There&rsquo;s nothing up here. I&rsquo;ve been doing this nineteen years and there is nothing up here.&rdquo;</p>
+
+  <p>She pointed down the curve at bay four, which was shut, and had nothing there now but a grey plate and a number stencilled on it.</p>
+
+  <p>Hesk looked where she was pointing, and then at her, and the scandalised thing went out of his face.</p>
+
+  <p>&ldquo;Ah,&rdquo; he said.</p>
+
+  <p>He didn&rsquo;t ask which star. He didn&rsquo;t say <em>oh, Kapteyn&rsquo;s</em> either. He just stood there for a second with his hands in his pockets.</p>
+
+  <p>&ldquo;Nineteen years I&rsquo;ve had this deck.&rdquo; He said it to the shutter rather than to her. &ldquo;And they only ever come up here in a crowd. Fourteen of them at a time, somebody&rsquo;s birthday, somebody showing off to a visitor &mdash; up, point, <em>ooh</em>, down the stair, gone in four minutes.&rdquo;</p>
+
+  <p>He took his torch back off the deck.</p>
+
+  <p>&ldquo;Nobody&rsquo;s ever come up on their own and stood there.&rdquo;</p>
+
+  <p>Then, briskly, because he was embarrassed: &ldquo;It&rsquo;s orange. You&rsquo;d think it&rsquo;d be red, people always expect red. It&rsquo;s not far off the colour of the warning lamp on a trim panel, which I&rsquo;ve always found extremely annoying.&rdquo;</p>
+
+  <p>So he did know which one it was. Without looking. From a corridor, with the shutter down. Nineteen years of lunches.</p>
+
+  <p>&ldquo;Right.&rdquo; He was already walking. &ldquo;Thirty seconds. Don&rsquo;t tell Sennet I did it twice in one watch, she&rsquo;ll want it in writing.&rdquo;</p>
+
+  <p>The clunk. The shutter went up. The lights didn&rsquo;t &mdash; he left those off, deliberately, and that turned out to be the entire difference, because without the gallery lights the glass stopped being a window with reflections in it and just stopped being there.</p>
+
+  <p>Four thousand points. The field drifting with the spin.</p>
+
+  <p>Hesk stood a couple of metres off, not crowding, eating a sandwich he had produced from somewhere, and said nothing at all for a long time.</p>
+
+  <p>Then: &ldquo;Twelve and a half years, that light. So whatever&rsquo;s happening there now, we&rsquo;ll find out when I&rsquo;m dead.&rdquo;</p>
+
+  <p>He chewed.</p>
+
+  <p>&ldquo;Still there, though.&rdquo;</p>
+
+  <hr class="sep">
+</section>
+
+<section class="ch">
+  <p class="stamp">Day one <span class="watch">&middot; dusk, the low gallery</span></p>
+  <h2>Supper for Four</h2>
+
+  <p>She went to the Wolf Gate queue, because she&rsquo;d been told four separate times that day that it has the best food on the station and she&rsquo;d decided to find out. They were right and they will never stop telling you. She brought back enough for four, on the theory that it wouldn&rsquo;t be wasted.</p>
+
+  <p>They were on the low gallery, which is where everybody under about twenty ends up at dusk.</p>
+
+  <p>Ferren saw the tray first and his whole face changed. &ldquo;Oh, that&rsquo;s Wolf Gate. That&rsquo;s <em>Wolf Gate.</em> Rill. Rill, she&rsquo;s been to the Wolf Gate.&rdquo;</p>
+
+  <p>&ldquo;I can see.&rdquo;</p>
+
+  <p>&ldquo;On her <em>first day off.</em> Unprompted.&rdquo;</p>
+
+  <p>&ldquo;I was there,&rdquo; said Sen, off shift, chalk washed to the wrist, sitting on the rail with her heels hooked under it. &ldquo;She&rsquo;s been everywhere. Three times I saw her.&rdquo;</p>
+
+  <p>Rill took a bowl without being asked, which from her is a compliment, and knocked her shoulder into Lint&rsquo;s once as she sat down.</p>
+
+  <p>So: Ferren, who lost at sling that morning and had told nine people about it in a tone suggesting he had been present at something historic. Rill, twenty-one, sleeves down. Sen, eleven, who keeps the most important object in the Causeway. And BlingBling, established on the rail at precisely the height where the gallery lamp hit her best, holding court for an audience that did not technically exist.</p>
+
+  <p>It was, Lint realised, a crew. Assembled in a day and a half, out of nobody she was given.</p>
+
+  <figure class="plate">
+    <figcaption><span>Image plate</span><span class="no">08 &mdash; the crew</span></figcaption>
+<pre><b>SCENE.</b> A long bench against a handrail on an interior gallery of a
+station at dusk; four levels of walkway stacked overhead, warm lamps,
+the noise of a great hall coming up through the deck plate. Four bowls
+of hot food on a tray.
+
+<b>FIGURES, left to right.</b> A cheerful lanky nineteen-year-old boy
+mid-sentence with his mouth full. A fifteen-year-old girl in a
+close-fitting translucent living suit, sitting slightly apart, watching
+the others and quietly pleased. A young woman of twenty-one, sleeves
+pulled down over her wrists deliberately, eating without comment. A
+girl of eleven perched on the handrail with her heels hooked under it,
+talking with her hands.
+
+<b>DETAIL.</b> A small iridescent flying creature has positioned itself on the
+rail at exactly the height where the gallery lamp catches it best, and is
+performing for nobody.
+
+<b>LIGHT.</b> Warm overhead industrial lamps, cool blue spill from below.
+
+<b>STYLE.</b> Group portrait that feels caught rather than posed. Warm,
+unglamorous, slightly cluttered. Everyone looks tired and fed.
+
+<b>AVOID.</b> Team-poster composition. Everyone facing camera. Uniforms.</pre>
+  </figure>
+
+  <p>She was most of the way through when a man came along the gallery and stopped at the end of the bench. Good coat. Fifties. Entirely at ease.</p>
+
+  <p>&ldquo;Ferren. How&rsquo;s the shoulder?&rdquo;</p>
+
+  <p>&ldquo;Fine &mdash; yeah, fine, it was nothing&mdash;&rdquo;</p>
+
+  <p>&ldquo;Four weeks ago you couldn&rsquo;t lift a crate and you were <em>extremely</em> brave about it.&rdquo; He was smiling. He looked at Sen. &ldquo;Sennet. Is the Bell line still wrong?&rdquo;</p>
+
+  <p>&ldquo;It&rsquo;s right now.&rdquo;</p>
+
+  <p>&ldquo;Because of you, I heard.&rdquo; He said it like it mattered, and Sen sat up about an inch.</p>
+
+  <p>Then he turned, and he had Lint&rsquo;s name before she&rsquo;d said it.</p>
+
+  <p>&ldquo;And you&rsquo;re Lint. Out of the Garden, thirty-four at fifteen, came in on the eleventh.&rdquo; He put a hand out. &ldquo;Benno Raske. I&rsquo;ve been hearing about a flat throw all afternoon.&rdquo;</p>
+
+  <p>Rill went very slightly still beside her.</p>
+
+  <p class="dice">&#10214; Insight &middot; Standard 41 &rarr; 100 &middot; <b>fumble</b> &#10215;</p>
+
+  <p>Lint turned and looked at Rill. She looked for a beat too long. Then another one. She was still looking when Rill turned her head and found her doing it &mdash; and she got nothing at all out of her face, because there was nothing on it, because she&rsquo;s twenty-one and has had four years of people looking at her sideways and has got extremely good at being a wall.</p>
+
+  <p>What she did get was Rill seeing her check.</p>
+
+  <p>Her sleeves were already down. She pulled one cuff a half-inch further over her wrist anyway, which was not a thing she needed to do, and went back to her bowl.</p>
+
+  <p>Benno saw it too. Benno sees everything. He didn&rsquo;t let it sit for even a second.</p>
+
+  <p>&ldquo;What do I do,&rdquo; he said, taking the question up warmly, as though it were the most natural thing anyone had asked him all week. &ldquo;I arrange carries.&rdquo;</p>
+
+  <p>He said it plainly. No softening at all.</p>
+
+  <p>&ldquo;Somebody needs to be three doors away and won&rsquo;t wait a fortnight for the manifest. A pressure fitter wanted at Coldwater by the second watch. An old woman who wants to see Procyon one more time.&rdquo; A small open gesture. &ldquo;The Threshold runs the traffic that&rsquo;s scheduled. I find couriers for the traffic that isn&rsquo;t, and I agree a price, and I pay it on the day. I&rsquo;ve never underpaid anybody in my life and you can ask anyone on this gallery.&rdquo;</p>
+
+  <p>&ldquo;He hasn&rsquo;t,&rdquo; said Ferren, with his mouth full. It was not a defence. It was just true and Ferren knew it was true.</p>
+
+  <p>&ldquo;I was landlocked at twenty-three,&rdquo; Benno added, easily, without a trace of self-pity, because it makes everyone more comfortable and he knows that too. &ldquo;So I&rsquo;m no use to anybody through a door. This is what&rsquo;s left.&rdquo;</p>
+
+  <p>He looked at the tray &mdash; the four bowls, the Wolf Gate food, the empty one.</p>
+
+  <p>&ldquo;You&rsquo;ve bought supper for three people on your day off, which tells me more about you than the throw did.&rdquo; He straightened up. &ldquo;I&rsquo;m not asking you for anything tonight, Lint. I&rsquo;d just rather you knew my name from me than from somebody on the gallery.&rdquo;</p>
+
+  <p>A beat. &ldquo;Can I get another round of that in? Sennet eats like a docker and I enjoy watching it.&rdquo;</p>
+
+  <p>&ldquo;Sorry,&rdquo; said Lint, a bit flustered. &ldquo;I only got enough for us.&rdquo;</p>
+
+  <p>&ldquo;<em>Us</em>,&rdquo; Benno repeated.</p>
+
+  <p>Not sharply. He just turned the word over once, the way you&rsquo;d check the weight of something, and something went across his face very fast and was gone before you could name it.</p>
+
+  <p>Then he smiled and it reached his eyes, which is the problem with Benno.</p>
+
+  <p>&ldquo;Fair enough.&rdquo; And he sat &mdash; on the end of the bench, leaving a clear space, in the manner of a man who has sat on a lot of benches where he wasn&rsquo;t quite invited. &ldquo;I&rsquo;ve eaten. I&rsquo;ll just be here a minute.&rdquo;</p>
+
+  <hr class="sep">
+
+  <p>He was a minute and it was a good minute. That is also the problem with Benno.</p>
+
+  <p>He asked Sen whether the Standing had a line for the new door at LHS 1140 yet, and Sen said <em>no, because it isn&rsquo;t a door yet</em>, with enormous scorn, and Benno said &ldquo;quite right, I&rsquo;m being sloppy,&rdquo; and meant it. He told a story about a Coldwater grain crate that came through upside down in &rsquo;ninety-one and what was inside it and what the tallyman said, and Ferren laughed so hard he had to put the bowl down, and Sen had heard it before and was mouthing along with the punchline.</p>
+
+  <p>He didn&rsquo;t ask Lint a single thing about herself.</p>
+
+  <p>He didn&rsquo;t look at Rill once, either, and Rill didn&rsquo;t look at him, and the two of them managed this so smoothly that you&rsquo;d have to be watching for it.</p>
+
+  <p>Then he stood, tapped the rail twice, and went. Three separate people said hello to him before he was out of sight.</p>
+
+  <p>&ldquo;He&rsquo;s <em>brilliant</em>,&rdquo; said Ferren, wiping his eyes.</p>
+
+  <p>&ldquo;Mm,&rdquo; said Rill.</p>
+
+  <p>Sen, from the rail, flatly: &ldquo;Mum says don&rsquo;t take his money.&rdquo;</p>
+
+  <p>&ldquo;Your mum says don&rsquo;t do loads of things.&rdquo;</p>
+
+  <p>&ldquo;She says it about <em>him</em> the most.&rdquo;</p>
+
+  <hr class="sep">
+
+  <p>Lint put her thumb out towards the end of the gallery where he&rsquo;d gone &mdash; then turned her hand over, palm down, fingers shut. <em>I don&rsquo;t like him.</em></p>
+
+  <p>BlingBling came off the lamp bracket and down onto the bench beside her knee, out of the good light, which she does not do for nothing.</p>
+
+  <blockquote class="glint">
+    <p>No. Nor do I.</p>
+    <p>He talked to everyone on this bench. He asked the child about her slate and the loud one about his shoulder and he knew your number before you said it.</p>
+    <p>He did not look at me once. Not once. Not when I moved, not when I lit, not when I was six inches from his hand.</p>
+    <p>Everyone looks at me. I make certain of it. He is the first person on this station who did not bother.</p>
+    <p>I do not think he is pretending to be kind. I think that is the worst part.</p>
+  </blockquote>
+
+  <p>And glints cannot be bought and cannot carry cargo and cannot be hired, so there is nothing a man who arranges carries would ever need from one.</p>
+
+  <p>Sen was still on the rail with her heels hooked under it, and she&rsquo;d watched that whole exchange without understanding a single flash of it, and she didn&rsquo;t ask.</p>
+
+  <p>What she said instead, eventually, was: &ldquo;Rill&rsquo;s going to be at the void tomorrow. She said she would, so she will.&rdquo; A beat, eleven years old and entirely matter-of-fact. &ldquo;She doesn&rsquo;t come down much any more.&rdquo;</p>
+
+  <hr class="sep">
+</section>
+
+<section class="ch">
+  <p class="stamp">Day two <span class="watch">&middot; dawn, grounded</span></p>
+  <h2>Sticky</h2>
+
+  <p>She woke up on her own. BlingBling was a grey smear on the pillow, came up to a slow unwilling bronze when Lint&rsquo;s weight left the bunk, registered that nothing was happening, and went straight back to grey.</p>
+
+  <p>On the stair, two Wolf Gate loaders went past her with crates, mid-grumble.</p>
+
+  <p>&ldquo;&mdash; and it&rsquo;s <em>sticky</em> again, I stood there like an idiot&mdash;&rdquo;</p>
+
+  <p>&ldquo;It&rsquo;s sticky every spring. Give it a second and it has you.&rdquo;</p>
+
+  <p>&ldquo;I gave it a <em>second</em>.&rdquo;</p>
+
+  <p>And they were gone round the turn of the stair.</p>
+
+  <p>She caught them two flights down. They were happy to talk. Of course they were &mdash; loaders with crates and a grievance, and she was fifteen and Threshold and actually asking.</p>
+
+  <p>&ldquo;<strong>Sticky.</strong>&rdquo; The older one set his crate on the step. &ldquo;You&rsquo;ve not had it yet, then. So &mdash; you step up, you give it your weight, and nothing. Not a push. It just goes solid, like the ring&rsquo;s a wall. Then you come off it, you give it a second, you go again and it has you. That&rsquo;s sticky.&rdquo;</p>
+
+  <p>&ldquo;That&rsquo;s a <em>set</em>,&rdquo; said the younger one. &ldquo;They teach you set at the Yards.&rdquo;</p>
+
+  <p>&ldquo;Set&rsquo;s what happens once. Sticky&rsquo;s when it&rsquo;s doing it all week.&rdquo;</p>
+
+  <p>&ldquo;It&rsquo;s the same thing&mdash;&rdquo;</p>
+
+  <p>&ldquo;It is <em>not</em> the same thing, because set&rsquo;s your fault and sticky&rsquo;s the door&rsquo;s.&rdquo;</p>
+
+  <p>And then, in passing, like a man describing weather:</p>
+
+  <p>&ldquo;Seven&rsquo;s sticky every spring. Has been since I started. You give it a second and it has you, and come summer it stops, and nobody thinks about it.&rdquo;</p>
+
+  <p class="dice">&#10214; Perception &middot; Standard 57 &rarr; 63 &middot; failure &#10215;</p>
+
+  <p>And it went past her.</p>
+
+  <p>Not because she wasn&rsquo;t listening. Because it was the single most reassuring sentence anybody had said to her since she arrived, and it arrived in a stairwell from a man with a crate on his knee who had been doing this job since before she was born.</p>
+
+  <p>&ldquo;So it&rsquo;s &mdash; that&rsquo;s just a thing it does?&rdquo;</p>
+
+  <p>&ldquo;It&rsquo;s just a thing it does.&rdquo; He got the crate back up on his shoulder. &ldquo;Everything here&rsquo;s got a thing it does. Four&rsquo;s loud, the Old Line smells of fish twice a year and nobody&rsquo;s ever found out why, and seven&rsquo;s sticky in the spring.&rdquo; He set off down the stair. &ldquo;You&rsquo;ll have a door you hate inside a year and it&rsquo;ll be a different one to mine.&rdquo;</p>
+
+  <p>The whole thing took ninety seconds, and she came away from it feeling considerably better about a door she had not been worried about in the first place.</p>
+
+  <hr class="sep">
+</section>
+
+<section class="ch">
+  <p class="stamp">Day two <span class="watch">&middot; fourth level</span></p>
+  <h2>The Tenth Speech</h2>
+
+  <p>&ldquo;Books?&rdquo; The tallyman looked at her like she&rsquo;d asked where they keep the horses. &ldquo;&hellip;You want a <em>book</em>? What for?&rdquo;</p>
+
+  <p>&ldquo;To read?&rdquo;</p>
+
+  <p>&ldquo;You can&rsquo;t read a book, they&rsquo;re&mdash;&rdquo; He stopped. He visibly recalculated her age and her three days. &ldquo;Right. No. A book&rsquo;s an animal. Palm-sized, placid, breathing. You put a payload in its cells and a first-through walks it across. You don&rsquo;t read a book, you <em>carry</em> one.&rdquo;</p>
+
+  <p>&ldquo;Then what do I&mdash;&rdquo;</p>
+
+  <p>&ldquo;<strong>Reading.</strong> You want reading. Ask for reading.&rdquo;</p>
+
+  <p>And then he told her where, and the answer was so large it took a second to land.</p>
+
+  <p>Everything. Every text written anywhere in human space, in every system, for nine hundred and seventy-five years. All of it. Because reading is <em>data</em>, and data goes into a genome, and a genome goes into an animal, and a child carries the animal &mdash; and a kid crossing with a book in her hand is bringing more than a library.</p>
+
+  <p>So the Nine holds the complete written output of the species, three times over, in a store on the fourth level that nobody visits, because it is simply <em>there</em>, the way the air is there.</p>
+
+  <p>&ldquo;Course you can. It&rsquo;s not locked. Nothing&rsquo;s locked.&rdquo; He went back to his slate. &ldquo;Nobody goes. There&rsquo;s too much of it. You walk in there and it&rsquo;s everything anybody ever wrote and you stand about for ten minutes and then you go to the Yards instead.&rdquo;</p>
+
+  <p>Which is when Sen, who had come down off her stool at some point in the last minute and was standing at Lint&rsquo;s elbow with her pen behind her ear and no shame whatsoever about having listened to all of it, said:</p>
+
+  <p>&ldquo;I&rsquo;ll tell you what to read.&rdquo;</p>
+
+  <p>She said it the way she says <em>I do the Standing</em>.</p>
+
+  <p>&ldquo;Everybody does that. Goes in, stands there, comes out. It&rsquo;s because they go in wanting <em>something to read</em> instead of wanting to find something out.&rdquo; A small shrug. &ldquo;Mum says that&rsquo;s the whole difference and she&rsquo;s right. So &mdash; what do you actually want to find out?&rdquo;</p>
+
+  <p>&ldquo;I just want a good story. I&rsquo;m bored. We have libraries on Earth.&rdquo;</p>
+
+  <p>&ldquo;You have <em>libraries</em>?&rdquo; Sen stopped dead. &ldquo;On Earth. Actual &mdash; buildings? With it all <em>in</em> them? Paper?&rdquo;</p>
+
+  <p>&ldquo;Yeah. There&rsquo;s one in the next valley from us. It&rsquo;s four hundred years old and it smells.&rdquo;</p>
+
+  <p>&ldquo;It <em>smells.</em>&rdquo; She said it with enormous reverence. &ldquo;What of?&rdquo;</p>
+
+  <p>&ldquo;Dust and feet.&rdquo;</p>
+
+  <p>Sen stared at her for a second with her whole face lit up, and Lint realised, slightly late, that she had just told the only person on the station who will never go anywhere about a building full of paper that she used to be bored in.</p>
+
+  <p>&ldquo;Right,&rdquo; said Sen. &ldquo;Well. We&rsquo;ve got better.&rdquo;</p>
+
+  <hr class="sep">
+
+  <p>The store on the fourth level was three rooms, lit, warm, entirely silent, and completely empty of people.</p>
+
+  <p>Sen gave her <strong>The Low Stair</strong>: a hall child at Alpha Centauri in the four hundreds who can&rsquo;t cross, and never does, the whole way through &mdash; and who works out what&rsquo;s wrong with a door from the <em>outside</em>, from the queue, just by watching who comes through it and when.</p>
+
+  <p>&ldquo;It&rsquo;s not exciting. Nothing happens. She&rsquo;s right at the end and nobody believes her and it just stops.&rdquo; She shrugged, and said it to the corridor rather than to Lint: &ldquo;It&rsquo;s the only one where somebody like me is any good at anything.&rdquo;</p>
+
+  <p>Then Lint asked the station itself for a third.</p>
+
+  <p>&ldquo;Hey Big Man. Any recommendations?&rdquo;</p>
+
+  <p><em>Big man.</em> A pause that was, unmistakably, him filing that away for the second time. <em>Yes. Three.</em></p>
+
+  <p>Sen went very still beside her, because she had just realised who Lint was talking to.</p>
+
+  <p><em>One. Not Thirty-One Doors. You will read all eleven hundred of them eventually and there is nothing I can do about that.</em></p>
+
+  <p>&ldquo;Sen said it was rubbish.&rdquo;</p>
+
+  <p><em>Sen is right. Sen has been right about this for two years and has excellent judgement and should be listened to more often than she is.</em></p>
+
+  <p>Sen did not say anything. She had gone a colour Lint had mostly seen on glints.</p>
+
+  <p><em>Two. The Low Stair is the best thing written in this century and I would have put it in front of you myself. Take her recommendation over mine; she has read it eleven times and I have read it once.</em></p>
+
+  <p><em>Three, which you did not ask for. My own. The surviving speeches of the Reach, complete, nine hundred and forty of them, which is almost the whole of what we have from before the Launch. Two generations of people standing up in halls and arguing out loud about whether to spend everything there was on a thing that would not pay out for nine hundred years. They wrote it all down, obsessively, including the losing side, including the forty years when the losing side was winning.</em></p>
+
+  <p><em>They are not exciting and they are a bit long and the tenth one is the best thing anybody has ever said. I was made by those people and I have read them two hundred times and I still do not entirely understand how they did it.</em></p>
+
+  <p>&ldquo;Huh,&rdquo; said Lint. &ldquo;Let&rsquo;s do the speeches. I always thought history was interesting.&rdquo;</p>
+
+  <p>Sen&rsquo;s eyebrows went up about a centimetre. &ldquo;&hellip;Really?&rdquo;</p>
+
+  <p>&ldquo;We did history at school. It was the good one.&rdquo;</p>
+
+  <p>&ldquo;Huh.&rdquo; She wrote something on the back of her hand with the pen. &ldquo;Nobody picks those.&rdquo;</p>
+
+  <p><em>Nobody picks those,</em> Sirius agreed, and did not elaborate, and gave the strong impression that he was pleased and was not going to make a thing of it.</p>
+
+  <figure class="plate">
+    <figcaption><span>Image plate</span><span class="no">09 &mdash; the reading store</span></figcaption>
+<pre><b>SCENE.</b> One of three warm, softly lit, utterly silent rooms deep inside a
+station. The walls are racked floor to ceiling with thousands of small
+sealed organic cases &mdash; not books, not servers: something between a seed
+vault and an apiary. Rows and rows, labelled by hand. Dust. Nobody else
+in the room.
+
+<b>FOREGROUND.</b> A bench beneath a shuttered port where a warm-air return
+runs along the wall. A girl of fifteen sitting on it reading from a thin
+flexible sheet. A girl of eleven has sat down on the other end without
+being invited and is reading over her arm. Neither is looking up.
+
+<b>DETAIL.</b> A small iridescent creature asleep on a warm ledge above their
+heads, dimmed to grey.
+
+<b>LIGHT.</b> Low, warm, amber, from strip lighting under the racking. The
+quietest frame in the set.
+
+<b>STYLE.</b> The complete written output of a species, stored as livestock, in
+a room nobody visits. Play it as an ordinary warm archive. Realist,
+intimate, soft shadows, visible dust.
+
+<b>AVOID.</b> Grand library architecture. Glowing data. Screens. Awe.</pre>
+  </figure>
+
+  <p>They were dense. The first was nine pages of procedure and she nearly stopped. The third was a woman from somewhere called Tangier arguing that the whole programme was immoral because it spent the poor of her century on the comfort of a century that did not exist, and she was <em>good</em>, and Lint read it twice, and she was not sure she was wrong. The sixth was a man who had clearly been shouted at before he stood up.</p>
+
+  <p>And then the tenth, and she understood why he&rsquo;d said it. It was short. Less than two pages. No numbers in it at all, which after nine speeches of numbers is like a door opening.</p>
+
+  <blockquote class="doc">
+    <p><em>I have heard it said in this hall that our grandchildren will thank us. They will not. They will not know our names, and they will have no particular reason to look them up, and the ones who do will find us difficult and strange and will be right.</em></p>
+    <p><em>I have heard it said that we are owed something for this. We are owed nothing. We are not building it for our grandchildren. We are building it for whoever is alive when it is finished, who is none of us, and who will owe us nothing at all.</em></p>
+    <p><em>And I have heard it said that we should wait until we can better afford it. There is no such year. There is no later generation for whom this is cheaper, and every year we wait is a year added to the end of it, and the thing we are deciding is not whether it is expensive. It is whether a species with one star stays a species with one star.</em></p>
+    <p><em>So I will not ask you to be brave, and I will not ask you to be remembered.</em></p>
+    <p><em>I am asking you to pay for something you will not see, for people who are not here, who cannot be consulted, and who will never know. That is the whole of what is being asked.</em></p>
+    <p><em>I ask you to vote for it anyway.</em></p>
+  </blockquote>
+
+  <p>Two pages. Nine hundred and seventy-five years ago. And eight point six light years from the valley where she grew up there is a station with her bunk in it, because they did.</p>
+
+  <p>Sen had sat down on the other end of the bench without being invited and was reading over her arm, which she did not apologise for.</p>
+
+  <p>&ldquo;&hellip;Did they vote for it?&rdquo;</p>
+
+  <p>Eleven years old, keeper of the most important object in the Causeway, and she had never read this.</p>
+
+  <p>&ldquo;Yeah,&rdquo; said Lint. &ldquo;We&rsquo;re here aren&rsquo;t we?&rdquo;</p>
+
+  <p>Sen looked at the page for a moment longer, and then said, &ldquo;Huh,&rdquo; in a tone that was going to end up on the back of her hand, and did not say anything else.</p>
+  <hr class="sep">
+</section>
+
+<section class="ch">
+  <p class="stamp">Day two <span class="watch">&middot; still the fourth level</span></p>
+  <h2>Nothing Happened</h2>
+
+  <p>&ldquo;Hey Big Guy. What else? What happened to the Reach? What&rsquo;s a good history for that?&rdquo;</p>
+
+  <p>Sirius took a second over it, which he does not usually do.</p>
+
+  <p><em>That is the hardest question in the archive and I am going to tell you why before I give you anything to read, because otherwise you will think the reading is bad.</em></p>
+
+  <p><em>Nothing happened to the Reach.</em></p>
+
+  <p><em>There is no war in the record. No plague, no collapse in the accounts, no final message, no last transmission from Luna, nothing anybody can point at. The launches thinned out and then they stopped, and the reason is that there was nothing left, and the thing they had built was not going to pay out for another eighty years.</em></p>
+
+  <p><em>So the end of the greatest undertaking of the species is an <strong>absence</strong>, and historians hate absences, and the good ones say so and the bad ones invent a catastrophe. Be suspicious of anything that gives you a villain.</em></p>
+
+  <p><em>Read The Thinning &mdash; Ovarr, about two hundred years ago, and it is the honest one. Four hundred pages of a woman going through the launch manifests year by year, counting ships, and refusing to explain the gap she finds. The whole book is her declining to make something up. It is the best discipline you will ever see on a page.</em></p>
+
+  <p><em>And then the thing it leads to, which is the part everybody skips. Eighty-five years of nothing. They finished building and then nobody heard anything for eighty-five years &mdash; to a generation that had been told its whole life this would happen and had begun, quietly and privately, to stop believing it. Barnard&rsquo;s came in at a hundred and nineteen. This station at a hundred and seventy-four. Each one a lifetime apart, each one arriving to people who had only ever heard about the last one from their grandparents.</em></p>
+
+  <p><em>It is the longest-running promise anybody has ever kept, and every single person who made it was nine centuries dead before it finished being kept.</em></p>
+
+  <p>A pause, and then the thing he volunteered, because he always does.</p>
+
+  <blockquote class="doc">
+    <p><em>And there is one more fact in it that is not in Ovarr and is not in the speeches, and I would rather you had it from me on a bench than off somebody on a gallery in a year&rsquo;s time.</em></p>
+    <p><em>Nobody is ever going to build another door.</em></p>
+    <p><em>Not because the knowledge is lost &mdash; it is not, any engineer at the Yards can tell you how a pair is made. Because <strong>only bodies and boxes cross a door.</strong> No bulk, no fleet, no treasury. Twenty-eight systems can never pool what twenty-eight systems have, and one anchor pair costs more than any single system has produced in nine centuries.</em></p>
+    <p><em>The thing that would pay for a new door cannot be gathered through the doors we already have. The network forbids its own extension, and that is not a policy anybody chose. It is the shape of the thing.</em></p>
+    <p><em>Which means we did not build this. We inherited it, and we maintain the parts of it we can reach.</em></p>
+  </blockquote>
+
+  <p>A beat.</p>
+
+  <p><em>Every first-through works that out in their first year. You are three days in. I would rather you heard it sitting down.</em></p>
+
+  <hr class="sep">
+
+  <p>&ldquo;Why did they cost so much?&rdquo;</p>
+
+  <p><em>Because you cannot make one carefully.</em></p>
+
+  <p><em>An anchor pair is <strong>entangled</strong> &mdash; both halves made together, in the same place, at the same moment, bound at a level nothing since has been able to reach into. That is the whole of what a door is. Not a machine. A marriage.</em></p>
+
+  <p><em>And the enemy of entanglement is <strong>everything.</strong> Warmth. Light. Vibration. A single atom of gas touching it. Anything at all interacting with any part of that ring, at any point while it is being made, and the binding is gone and what you have is four metres of extremely expensive scrap.</em></p>
+
+  <p><em>So to make one you need a volume of the universe four metres across that is colder than anything in nature, darker than anything in nature, and absolutely still, and you need it to stay that way for the whole of the making.</em></p>
+
+  <p><em>That is the bill. Not the ring. <strong>The silence around the ring.</strong></em></p>
+
+  <p><em>That is what Mercury&rsquo;s mirrors were for. Not powering a factory &mdash; powering a refrigerator. The entire output of a planet&rsquo;s worth of mirrors, poured into keeping one small room quiet enough.</em></p>
+
+  <p><em>And here is the part that makes it uncollectable, which is the thing that really matters to you. You cannot build one in stages. You cannot make a third of a pair this decade and come back to it. It is one object, made in one go, and if the coherence breaks at minute nine of a two-year process you begin again with nothing.</em></p>
+
+  <p><em>So it cannot be <strong>accumulated</strong>. You cannot save up. There is no partial anchor anywhere in human space, because a partial anchor is a pile of metal.</em></p>
+
+  <p>A pause, and then the number, because he always has the number.</p>
+
+  <blockquote class="doc">
+    <p><em>They attempted four thousand, one hundred and nineteen pairs.</em></p>
+    <p><em>Three thousand and eleven of them worked.</em></p>
+    <p><em>A thousand and eight did not, and every one of those was a decade of somebody&rsquo;s whole civilisation turned into scrap, and the record of each failure is three lines long and signed, and they kept going.</em></p>
+    <p><em>The twelfth speech is a man apologising to a hall for the four hundred and sixtieth failure. He does not resign. He asks for the money again. They give it to him.</em></p>
+  </blockquote>
+
+  <p>Sen had stopped pretending to read over Lint&rsquo;s arm and had her chin on her knees.</p>
+
+  <p>&ldquo;Four hundred and sixtieth,&rdquo; she said. &ldquo;And they <em>gave it to him.</em>&rdquo;</p>
+
+  <p>Somewhere a long way below, the hall went on being loud about nine queues, eight of which were moving. The warm-air return ticked. BlingBling was asleep on the ledge above their heads, and second watch was still a couple of hours off.</p>
+
+  <hr class="sep">
+</section>
+
+<section class="ch">
+  <p class="stamp">Day two <span class="watch">&middot; port side, fourth level</span></p>
+  <h2>Where She&rsquo;s Working</h2>
+
+  <p>&ldquo;OK. That&rsquo;s enough of the history. Give me a copy of the Low Stair. I&rsquo;ll read it somewhere.&rdquo;</p>
+
+  <p>The store had a stack of blank sheets by the door, because of course it did &mdash; monomer, thin as a leaf, and you touch one to the shelf index and it takes the text and holds it until you wipe it.</p>
+
+  <p>Sen did it for her. She did not ask whether Lint wanted her to.</p>
+
+  <p>&ldquo;Right. So.&rdquo; She was extremely businesslike and she was also not quite managing it. &ldquo;Don&rsquo;t read the last chapter first.&rdquo;</p>
+
+  <p>&ldquo;I wasn&rsquo;t going to&mdash;&rdquo;</p>
+
+  <p>&ldquo;Everybody says that.&rdquo; She held the sheet a moment longer before she handed it over. &ldquo;And don&rsquo;t skip the bit in the middle where nothing happens for forty pages and she&rsquo;s just counting people in the queue. That&rsquo;s the <em>best bit</em>. Everybody skips it.&rdquo;</p>
+
+  <p>&ldquo;Why&rsquo;s it the best bit?&rdquo;</p>
+
+  <p>Sen looked at her like she&rsquo;d asked why water&rsquo;s wet.</p>
+
+  <p>&ldquo;Because that&rsquo;s where she&rsquo;s <em>working</em>.&rdquo;</p>
+
+  <p>Then she gave her the sheet, and turned round, and squared up three things on a shelf that did not need squaring up, and said to the shelf:</p>
+
+  <p>&ldquo;It&rsquo;s not very good at the start. Just so you know. It gets good.&rdquo;</p>
+
+  <p>And then she was off out of the store at speed with her pen behind her ear, and you could hear her going down the corridor at about twice the pace she came up it.</p>
+
+  <p><em>She has recommended that to eleven people,</em> said Sirius, pin only, in the specific flat voice he uses when he is telling you a fact and declining to tell you what to do about it.</p>
+
+  <p><em>You are the first one who took it.</em></p>
+
+  <hr class="sep">
+
+  <p>&ldquo;I like Sen,&rdquo; Lint said. &ldquo;She seems like she&rsquo;d be a good friend.&rdquo;</p>
+
+  <p>From the ledge above her head, without opening &mdash; well. Without doing whatever it is she does instead of opening her eyes.</p>
+
+  <blockquote class="glint">
+    <p>She is.</p>
+  </blockquote>
+
+  <p>A pause, and then a slow amber that meant she was awake after all and had been for a while.</p>
+
+  <blockquote class="glint">
+    <p>She reads flash.</p>
+  </blockquote>
+
+  <p>&ldquo;&hellip;She what?&rdquo;</p>
+
+  <blockquote class="glint">
+    <p>Not well. About as well as you read a Coldwater manifest &mdash; slowly, and she gets the tenses wrong, and she cannot do colour at all so everything anybody says to her comes out flat. But she reads it. She is the only human on this station who does.</p>
+    <p>She sits on a stool at the busiest wall on the Nine, all day, every second and third watch, and every first-through who passes that board has one of us on their collarbone, and we talk constantly, and we have done it over her head since she was about six.</p>
+    <p>So she learned. On her own. Out of watching.</p>
+    <p>Tace-of-the-Rail says she started signing back when she was nine and got it wrong for two years and nobody corrected her because nobody realised she was doing it on purpose.</p>
+  </blockquote>
+
+  <p>A longer pause. BlingBling dimmed down a tone, which is her being careful.</p>
+
+  <blockquote class="glint">
+    <p>She cannot cross, Lin. She will never go anywhere. And she has taught herself the only language on this station that belongs to people who go everywhere, and she keeps the board that says where all of it currently is, and she is eleven.</p>
+    <p>So &mdash; yes. I should think she would be an extremely good friend.</p>
+  </blockquote>
+
+  <p>A flicker of gold.</p>
+
+  <blockquote class="glint">
+    <p>She has also never once told me to stop, and I have been showing off at her for three days.</p>
+  </blockquote>
+
+  <hr class="sep">
+
+  <p>She had a spot. She&rsquo;d found it on her grounded day without knowing she was looking for one.</p>
+
+  <p>Fourth level, port side, past where the Coldwater offices stop being offices &mdash; a maintenance gallery about thirty metres long that smells of grease and has a run of ports down one side that nobody has ever bothered to shutter, because nobody comes there and the view is in the wrong direction for anybody to care.</p>
+
+  <p>The wrong direction being: away from Sirius.</p>
+
+  <p>So there was no glare. Just the black, and four thousand points of it, drifting slowly with the spin.</p>
+
+  <p>She sat on a cable trunk with her back against the wall and the sheet on her knees, and before she read a word of it she did the thing she had done every time she had been in that corridor, which was three times now.</p>
+
+  <p>She found <strong>Sol</strong>.</p>
+
+  <p>It isn&rsquo;t hard once somebody has shown you. It&rsquo;s about as bright as Polaris was from the valley &mdash; a clear, unremarkable, perfectly ordinary star, in a part of the sky her grandmother would have called Hercules, which from there is bent slightly out of shape in a way that took her a while to work out and then annoyed her for a week.</p>
+
+  <p>Everything is nearly right and nothing is quite right. The Plough is there and has a star too many. Orion is behind you and inside out.</p>
+
+  <p>Eight point six light years. The light coming off that point now left when she was six, which means somewhere in it is the summer she fell off the wall, and her mother is in it, and the library in the next valley with the dust and the feet.</p>
+
+  <p>BlingBling came off her collar and sat on the trunk beside her hand, and did not get between her and the port, which she has never once done in that corridor.</p>
+
+  <figure class="plate">
+    <figcaption><span>Image plate</span><span class="no">10 &mdash; her spot, and Sol</span></figcaption>
+<pre><b>SCENE.</b> A narrow thirty-metre maintenance gallery deep in the port side of
+a rotating station. Grease, conduit runs, cable trunking, a floor nobody
+sweeps. Down one side, a run of small viewports that have NEVER BEEN
+SHUTTERED &mdash; because the view faces away from the system's blinding
+primary and nobody comes here. Low orange service lamps.
+
+<b>FIGURE.</b> A girl of fifteen sitting on a cable trunk, back against the
+wall, knees up, a single thin flexible reading sheet resting on them. She
+is not reading. She is looking out of the port, and she has found
+something specific in it.
+
+<b>THROUGH THE PORT.</b> Deep black and roughly four thousand stars, austere
+and accurate, very slightly smeared by the station's rotation. One
+ordinary, unremarkable, middling-bright star among them &mdash; no brighter
+than Polaris, no halo, no emphasis of any kind. That is her sun, eight
+point six light years away, and the frame must NOT make it special.
+The constellations around it are subtly WRONG &mdash; recognisable shapes
+pulled out of true by the change of viewpoint.
+
+<b>DETAIL.</b> A small iridescent creature sitting on the trunk beside her
+hand, dimmed almost out, deliberately NOT between her and the window.
+
+<b>LIGHT.</b> Warm low service lamps behind her; cold starlight on her face.
+
+<b>STYLE.</b> The quietest frame in the set. Realist, intimate, cluttered
+industrial foreground. No awe, no scale-of-the-cosmos composition.
+A kid in a corridor who has found her own star and does this every time.
+
+<b>AVOID.</b> Nebulae. Planets. Starbursts. Any lens flare on the sun.
+Windows large enough to be dramatic.</pre>
+  </figure>
+
+  <p>Then she read.</p>
+
+  <p>And Sen was right: it isn&rsquo;t very good at the start. Forty pages of a girl called Oress at Alpha Centauri in the four hundreds, who failed her test at nine and works the queue at the Low Stair handing out numbered tokens, and the writing is flat and nothing happens and twice Lint nearly put it down.</p>
+
+  <p>And then somewhere around page sixty she starts counting.</p>
+
+  <p>Not because anybody asks her to. Because she is bored and she is standing there anyway, and she begins writing down who comes through and when &mdash; and she keeps doing it for eleven years, in the margins of a token book, while the whole of her life goes past the top of the stair.</p>
+
+  <p>It got good about forty pages after Sen said it would.</p>
+
+  <p>She was a hundred and ten pages in, and the spin had moved Sol about a hand&rsquo;s width across the port, when her pin went.</p>
+
+  <p><em>Second watch in eleven minutes. The fathom has been in the gallery void since the first and is pretending it has not been.</em></p>
+
+  <hr class="sep">
+</section>
+
+<section class="ch">
+  <p class="stamp">Day two <span class="watch">&middot; second watch, the void</span></p>
+  <h2>Drawn in Light</h2>
+
+  <p>Vantage was there, obviously. It had been there since first watch and it was going to pretend otherwise for at least a minute.</p>
+
+  <p><em>You are punctual. I had not formed a view either way.</em></p>
+
+  <p>Ferren was at the plate with a bag, having come off an early, with the specific smugness of a man who turned up uninvited and got away with it.</p>
+
+  <p>&ldquo;Told you I was coming.&rdquo;</p>
+
+  <p>&ldquo;You said you were coming.&rdquo;</p>
+
+  <p>&ldquo;And here I am. Observe.&rdquo; He tossed the bag up and caught it. &ldquo;Learning.&rdquo;</p>
+
+  <p>Up on the handrail, eleven glints were already drilling intervals, and BlingBling went up to join them and was immediately and loudly insufferable about having been elsewhere.</p>
+
+  <hr class="sep">
+
+  <p>Vantage came down to about head height, which for it is close.</p>
+
+  <p><em>Two days ago I told you that you were all throwing into a dead charge and that there is a standing field across this gap and not one of you has felt it once. That was unkind and it was also imprecise, and I have had two days to think about how to say it properly, so here it is.</em></p>
+
+  <p><em>You cannot feel a field. You have eyes. <strong>But you can see what it does.</strong></em></p>
+
+  <p><em>The exchangers at the waist push a column of air up this void &mdash; and it is not still, and it is not uniform. It is strongest at the waist, it weakens going up, and it <strong>turns</strong> about a third of the way across because of the deck geometry above you. Which means a bag thrown flat and hard fights it for the first third and then gets shoved off-true for the rest.</em></p>
+
+  <p><em>That is why Ferren is good. He corrects for it without knowing he does.</em></p>
+
+  <p>&ldquo;I keep <em>telling</em> you I don&rsquo;t&mdash;&rdquo;</p>
+
+  <p><em>You have been doing it for four years and that is precisely why you cannot teach anybody.</em></p>
+
+  <p><em>So. You will not learn to feel it. You will learn to <strong>read</strong> it, and I am going to show you how, because it is extremely simple and nobody has ever looked. Dust. Lamp flicker. The way the hall noise arrives louder for half a second. There are about nine tells in this void and they are all visible to a person with eyes, and I have been watching you lot miss them for six years.</em></p>
+
+  <p><em>Stand at the plate. Don&rsquo;t throw. Watch the gap for a full minute.</em></p>
+
+  <p class="dice">&#10214; Perception, to read a thing she has no sense for &middot; <b>Hard</b> 38 &rarr; 87 &middot; failure &#10215;</p>
+
+  <p>A full minute. Then another one, because she wasn&rsquo;t having it.</p>
+
+  <p>And she got <strong>nothing</strong>.</p>
+
+  <p>The void was forty metres of nothing with handrails round it. There was dust, because there is always dust. The lamps did what lamps do. The hall noise came up and went away and came up again and she could not tell whether that meant anything or whether she was a fifteen-year-old staring at a gap.</p>
+
+  <p>&ldquo;&hellip;I can&rsquo;t see it.&rdquo;</p>
+
+  <p><em>No.</em> Vantage said it without any disappointment at all, which was somehow worse. <em>You are looking for <strong>air</strong>, and air is not visible, so you are looking for a thing that is not there. I have explained it badly. That is mine, not yours.</em></p>
+
+  <p>&ldquo;You said there were nine tells&mdash;&rdquo;</p>
+
+  <p><em>There are nine tells and they are all second-order. Dust that is going the wrong way, and you do not know which way is wrong. A lamp flicker, and you do not know the lamp&rsquo;s normal. I have six years of this void to compare against and you have three days, and I have just asked you to read a language by staring at it.</em></p>
+
+  <p>It went quiet for a second. Then:</p>
+
+  <p><em>So let us do this properly, and I am going to say something that costs me considerably.</em></p>
+
+  <p><em>I am the wrong teacher. I can feel the field and therefore I cannot show you how to see it, which is <strong>exactly</strong> the thing I said about Ferren eleven minutes ago, and I did not notice I was doing it.</em></p>
+
+  <p>Ferren, with enormous joy: &ldquo;<em>HA.</em>&rdquo;</p>
+
+  <p><em>Be quiet.</em></p>
+
+  <p><em>There are twelve creatures in this void who do not feel the field and do not need to see it, because they are <strong>in</strong> it. All day. Every day. They fly through that column and they correct for it and they have done since they hatched.</em></p>
+
+  <p>Up on the handrail, eleven glints and her own had stopped drilling.</p>
+
+  <p><em>Ask them.</em></p>
+
+  <p>And BlingBling came down off the rail at speed and landed on her collarbone, and you could tell from two metres away exactly what was coming, because she had said it to Lint three days earlier on that exact deck and neither of them had thought anything of it at the time.</p>
+
+  <blockquote class="glint">
+    <p>There is a standing field in the gallery void, and I have always known about it, and I thought everybody did.</p>
+  </blockquote>
+
+  <hr class="sep">
+
+  <p>&ldquo;How do I see it?&rdquo;</p>
+
+  <blockquote class="glint">
+    <p>You don&rsquo;t. You can&rsquo;t see air, Lin, air isn&rsquo;t a colour. Honestly.</p>
+    <p>You see <em>me</em>.</p>
+  </blockquote>
+
+  <p>And then she was off the collarbone and out into the void. Lit. Full gold, deliberately, the brightest she had ever gone in a working space &mdash; and she flew the gap in a straight line at the waist, and about a third of the way across Lint watched her <em>get pushed</em>.</p>
+
+  <p>Not drift. <em>Pushed</em>, a clean metre and a half sideways, and she didn&rsquo;t fight it, she rode it out and came round and landed on the far rail.</p>
+
+  <p>Then she came back the other way, lower, and it hardly touched her. Then higher, and it shoved her almost into the underside of the deck.</p>
+
+  <p>&ldquo;&mdash; oh.&rdquo;</p>
+
+  <p><em>Oh,</em> she agreed, insufferably.</p>
+
+  <p>And then the other eleven came off the rail, because of course they did, because showing off is how they learn anything.</p>
+
+  <p>Eleven glints and hers, all lit, flying the column at different heights in a loose shambolic formation that was being argued about the entire time &mdash; and forty metres of void turned into a <strong>diagram</strong>.</p>
+
+  <p>She could see the whole thing. The column standing at the waist. Where it weakens going up. The turn, a third of the way across, exactly where Vantage said it was and absolutely nothing like where she had imagined it.</p>
+
+  <p>It was in the air, drawn in light, by twelve people who found it so obvious they never mentioned it.</p>
+
+  <p>Four levels of gallery stopped to watch and nobody pretended they hadn&rsquo;t.</p>
+
+  <p><em>I did say,</em> said Vantage, very quietly, <em>that I was the wrong teacher.</em></p>
+
+  <p>Ferren sat down on the plate. &ldquo;Four years,&rdquo; he said, to nobody. &ldquo;Four years I&rsquo;ve been doing this.&rdquo;</p>
+
+  <figure class="plate">
+    <figcaption><span>Image plate</span><span class="no">11 &mdash; the column, drawn in light</span></figcaption>
+<pre><b>SCENE.</b> The forty-metre open shaft through the station, seen from a
+balcony. Teenagers packed along every handrail on four levels, all
+watching, all silent.
+
+<b>SUBJECT.</b> TWELVE small iridescent flying creatures hanging in formation
+at different heights across the shaft, each one LIT, together mapping an
+invisible column of moving air &mdash; a rough luminous lattice hanging in
+empty space. One of them, gold and pink, is at the centre and
+unmistakably in charge. The formation is slightly shambolic; they are
+visibly arguing while doing it.
+
+<b>SECONDARY.</b> A girl of fifteen on the throwing plate with a sandbag,
+looking at it. A nineteen-year-old boy sitting down on the plate with his
+head in his hands. A metre-wide eyeless membrane creature hanging at her
+shoulder.
+
+<b>LIGHT.</b> The creatures are the primary light source. Everything else is
+dim balcony work lighting. Their glow should catch the handrails and the
+upturned faces.
+
+<b>STYLE.</b> Diagram made of living light inside a dark industrial shaft.
+Bioluminescent, not neon. Painterly, dark, high contrast, dust in air.
+
+<b>AVOID.</b> Magic sparkles. Fireflies-in-a-jar whimsy. Energy beams.</pre>
+  </figure>
+
+  <p class="dice">&#10214; Athletics &middot; <b>Easy</b> 92 &rarr; 96 &middot; failure &#10215;</p>
+
+  <p>And here is the thing nobody warns you about.</p>
+
+  <p>Twelve glints were holding a formation in mid-air to show her where the column was. Four levels of gallery had stopped. A fathom who waited six years for somebody to ask it a question was at her shoulder. Everything she needed to know was drawn in light, in front of her, forty metres wide.</p>
+
+  <p>And she overthought it so comprehensively that she forgot to throw properly. Half a hand higher than feels correct &mdash; she went about <em>three</em> hands higher, because she was concentrating, and she released late, and the bag went up out of the column entirely, missed the turn, missed the whole phenomenon she had just had explained to her by a committee, clipped the handrail on the far side at an angle of pure insult, and dropped forty metres into the netting.</p>
+
+  <p>Dead silence from four levels. Then a single voice from the second gallery: &ldquo;<em>OHHHH.</em>&rdquo;</p>
+
+  <p>&ldquo;That,&rdquo; said Ferren, with immense care, &ldquo;was worse than your normal throw.&rdquo;</p>
+
+  <p>&ldquo;I know.&rdquo;</p>
+
+  <p>&ldquo;That was worse than any throw I have ever seen. And I&rsquo;ve seen a hall child throw with the wrong hand on purpose.&rdquo;</p>
+
+  <p>&ldquo;<em>I know.</em>&rdquo;</p>
+
+  <p><em>A control, of sorts,</em> said Vantage. <em>We now have one data point establishing that the information is not sufficient on its own.</em></p>
+
+  <p>&ldquo;Thanks.&rdquo;</p>
+
+  <p><em>You are welcome.</em></p>
+
+  <p>BlingBling was extremely gold and absolutely silent on her collarbone, which is the single most devastating thing she could possibly have been doing.</p>
+
+  <p>&ldquo;<em>Grash</em> it. Try again.&rdquo;</p>
+
+  <p>Nobody says <em>language</em> out there. That&rsquo;s the Yards. The bag came back up on a line. She stopped concentrating. That was the only thing she did differently.</p>
+
+  <hr class="sep">
+
+  <p>And then, because the day had gone well and she was fifteen:</p>
+
+  <p>&ldquo;Do a flip. Try not to die. Wooo hooo.&rdquo;</p>
+
+  <p class="dice">&#10214; Athletics &middot; Standard 61 &rarr; <b>3</b> &middot; <b>CRITICAL</b> &#10215;</p>
+
+  <p>Two of them, actually.</p>
+
+  <p>She got one foot on the cable trunk by the plate and went up, and in ninety-second spin at the waist of a two-kilometre cylinder you go up <em>far</em> &mdash; and the first rotation was clean and she had time, so much time, absurd amounts of time, and somewhere in the middle of it she decided to have another one.</p>
+
+  <p>She came down on the plate on both feet with her knees absorbing it and one hand out for balance and she did not even stagger.</p>
+
+  <p>And then, because the Garden is still in her somewhere, she finished it with a bow.</p>
+
+  <p>The void went <strong>off</strong>.</p>
+
+  <p>Four levels. The Wolf Gate kids hammering on the handrail. Somebody at the second gallery doing a sustained note that was going to get them told off. The hall child with the flask standing on the top rail, which is explicitly banned four times over.</p>
+
+  <p>&ldquo;<strong>TWO?</strong>&rdquo; Ferren had both hands on his head and was walking in circles. &ldquo;She did <em>two</em>. On the plate. After that throw. Rill &mdash; <strong>Rill</strong> &mdash;&rdquo;</p>
+
+  <p>And Rill was on the stair, because she had come down again, and she was leaning on the rail with her arms folded and she was laughing &mdash; properly, openly, the whole way, which nobody at the Nine had seen her do.</p>
+
+  <p>&ldquo;Yeah,&rdquo; she said. &ldquo;All right. That was good.&rdquo;</p>
+
+  <p>Eleven glints went up all at once off the handrail in one enormous synchronised flash and immediately broke into an argument about who was late. BlingBling was in the middle of them, lit like a signal lamp, and was not arguing, because she had nothing to prove to anybody in that void.</p>
+
+  <blockquote class="glint">
+    <p>Vantage teaches extremely badly and was right about everything, and I have decided he is one of ours.</p>
+  </blockquote>
+
+  <p>A pause from somewhere above the deck.</p>
+
+  <p><em>&hellip;I shall take that in the spirit in which it was intended.</em></p>
+
+  <hr class="sep">
+
+  <p>She didn&rsquo;t go far afterwards. Fourth level, port side, past where the Coldwater offices stop being offices. The maintenance gallery with the ports nobody bothered to shutter, because the view&rsquo;s in the wrong direction for anybody to care about.</p>
+
+  <p>Her spot.</p>
+
+  <p>Somebody had been in there since that morning. There was a cushion on the cable trunk that had not been there before &mdash; an old one, Threshold grey, with a repair on the corner in somebody&rsquo;s bad stitching &mdash; and it had very obviously been put there on purpose by a person who knew she came there and did not want to be caught doing it.</p>
+
+  <p>She read the speeches until the warm-air return and the low orange lamps did for her, and fell asleep on it, and that is where day two ended.</p>
+
+  <p><strong>Best day ever.</strong></p>
+
+  <hr class="sep">
+</section>
+
+<section class="ch">
+  <p class="stamp">Day three <span class="watch">&middot; dawn</span></p>
+  <h2>That&rsquo;s How It&rsquo;s Done</h2>
+
+  <p>She woke on the cable trunk with a cushion under her hip and a crick in her neck that was going to be with her until lunch. The sheet had slid onto the deck. Page a hundred and ten, still.</p>
+
+  <p>Today was three days.</p>
+
+  <p>She had said three days to an eighty-one-year-old woman sitting on a Procyon deck with a broken wrist, and the woman had said <em>come back for me</em>, and Calloway had left the run on the rota without saying anything about it.</p>
+
+  <p>Wash. Feed the membrane. Boots &mdash; the Procyon one and the Nine one, side by side, which is two stars and is nothing much yet.</p>
+
+  <p>The hall at that hour was the quiet end of the night shift turning over into the early one. Nine queues. Eight of them moving the way they always move.</p>
+
+  <p>And <strong>door seven</strong> had a line of about twenty people in it, which is a lot for that hour, standing about rather than moving, and a tallyman at the head of it with his arms folded.</p>
+
+  <p>As she came past, the older of the two Wolf Gate loaders from the day before caught her eye and tipped his head at the queue with the long-suffering cheerfulness of a man whose morning was already annoying.</p>
+
+  <p>&ldquo;Sticky,&rdquo; he said.</p>
+
+  <p>And went back to waiting.</p>
+
+  <hr class="sep">
+
+  <p>The Procyon Stair was three along, running clean, and the tallyman there knew her name and asked after Ossuary. She stepped up and it took her instantly &mdash; the way a door is supposed to, the way all thirty-four of hers had, step and you&rsquo;re there and the only reason you know is that the air changed.</p>
+
+  <p>Mina Haral was sitting up in a chair, dressed, with her left wrist in a moulded brace and a bag already packed at her feet, and she had very obviously been ready since about six.</p>
+
+  <p>She saw Lint in the doorway and her whole face went.</p>
+
+  <p>&ldquo;<em>Three days.</em>&rdquo;</p>
+
+  <hr class="sep">
+
+  <p>She told her in about ninety seconds, as an afterthought, because to her it was one. Nobody had put the question to the cargo.</p>
+
+  <p><strong>Don&rsquo;t hold her still.</strong> She&rsquo;s got a hundred and sixty years of balance between the two of you and you&rsquo;ll be fighting hers. <strong>Go on her count, not yours</strong>, because she&rsquo;s the one who can&rsquo;t do anything about it, so the moment she isn&rsquo;t ready is the moment it sets. And <strong>talk the whole way</strong> &mdash; not to settle her, to settle <em>you</em>, because a frightened carrier is a stiff carrier, and she has spent forty-one crossings being a conversation so some child had something to do with their mouth.</p>
+
+  <p>Then the condition, and she was immovable about it.</p>
+
+  <p>&ldquo;If it sets, you put me down. Not ease off. <strong>Put me down</strong>, on whichever side we&rsquo;re on, and let go, and don&rsquo;t spend four seconds being brave at me.&rdquo; She tapped the chair arm. &ldquo;Say it.&rdquo;</p>
+
+  <p>Lint said it.</p>
+
+  <p>&ldquo;Good. Right.&rdquo; She got her good arm up over Lint&rsquo;s shoulder. &ldquo;The ceiling in this hall is a disgrace and has been for thirty years&mdash;&rdquo;</p>
+
+  <p class="dice">&#10214; Mina&rsquo;s three, plus a passenger with forty-one crossings actively cooperating, drops the carry from Hard to Standard<br>&#10214; Crossing 52 + augment = 66 &rarr; <b>11</b> &middot; success, four off a critical &#10215;</p>
+
+  <p>&ldquo;&mdash; and the <em>second</em> motion was about the ceiling and it failed because by then everybody was bored of ceilings, which is the entire history of public works in this system&mdash;&rdquo;</p>
+
+  <p>It didn&rsquo;t set. Not once. Not even the pull.</p>
+
+  <p>Because she moved with Lint, and she went on her own count, and she has been doing half this job since before Lint was born.</p>
+
+  <hr class="sep">
+
+  <p>The Nine. Hot metal, nine queues, the smell of home.</p>
+
+  <p>Lint came up out of the Procyon housing with an eighty-one-year-old woman against her chest still talking about ceilings, and put her down carefully on the deck plate, and Mina stood &mdash; on her own, with her good hand on Lint&rsquo;s shoulder for about four seconds and then not even that.</p>
+
+  <p>&ldquo;There,&rdquo; she said. &ldquo;<em>That&rsquo;s</em> how it&rsquo;s done.&rdquo;</p>
+
+  <p>Then she looked round at a hall she was last standing in at twenty-two, and stopped talking for the first time in four minutes.</p>
+
+  <p>The tallyman on the Procyon Stair had gone very still. Two of the queue had put their bags down.</p>
+
+  <p>Mina Haral &mdash; who taught half the readers in human space, who was turned back in this hall at twenty-two, who has paid children forty-one times to bring her home &mdash; was standing at the Nine on her own two feet with a brace on and her bag at her side.</p>
+
+  <p>BlingBling came off Lint&rsquo;s collar and went up and hung above the two of them doing something extravagant and gold that she had no business doing in a working anchor hall, and nobody told her to stop.</p>
+
+  <figure class="plate">
+    <figcaption><span>Image plate</span><span class="no">12 &mdash; forty-two</span></figcaption>
+<pre><b>SCENE.</b> A vast anchor hall, early morning. Nine lit metal rings in the
+floor, nine queues. Hot metal, worn deck plate, six centuries of use.
+
+<b>FIGURES.</b> Centre frame, just stepped off a plate: a very old woman of
+eighty-one standing ON HER OWN TWO FEET, left wrist in a moulded brace,
+a packed bag at her side, looking up and around at the hall with her
+mouth slightly open. Beside her a girl of fifteen in a clouded
+translucent living suit, breathing hard, having just set her down,
+watching her face rather than the hall.
+
+<b>REACTION.</b> A uniformed tallyman at the head of a queue has gone
+completely still. Two people in the line have put their bags down.
+
+<b>DETAIL.</b> Above them both, a small iridescent creature hanging in the air
+blazing gold, wildly out of place in a working hall, and nobody is
+telling it to stop.
+
+<b>LIGHT.</b> Cold blue-white from the ring housings, warm sodium from the
+gallery overhead. The old woman catches both.
+
+<b>STYLE.</b> The quietest possible triumph. No crowd cheering, no raised arms.
+Realist, documentary, mid-distance. Warm grain.
+
+<b>AVOID.</b> Applause. Tears. Slow-motion heroism. Backlit silhouettes.</pre>
+  </figure>
+
+  <p>Mina got her breath back, and squared her shoulders, and said:</p>
+
+  <p>&ldquo;Right. Where do I sign? Because somebody is going to want a form and I would like to be the one who finds them rather than the other way round.&rdquo;</p>
+
+  <hr class="sep">
+
+  <p>Over by the cordon rope at door seven, the queue had got longer.</p>
+
+  <p>And that is where the first few days end, and the rest of it begins.</p>
+
+  <hr class="sep">
+</section>
+
+<section class="cast">
+  <h2>Plates for the Cast</h2>
+  <p class="note">Character sheets for reference art. Each is drawn from the card and from how they actually behaved at the table.</p>
+
+  <figure class="plate">
+    <figcaption><span>Character plate</span><span class="no">13 &mdash; Lint &amp; BlingBling</span></figcaption>
+<pre><b>LINT ("LIN"), 15.</b> Full-length character reference, neutral pose, plain
+background, three-quarter view.
+
+Born on Earth, in a valley, with weather. Wiry, strong through the
+shoulders and forearms, average height, a swimmer's build rather than a
+runner's. Dark hair cut short enough to stop mattering. A face that does
+not perform &mdash; she asks direct questions without her expression doing
+anything, which people find disarming and occasionally rude.
+
+<b>WEARING.</b> A membrane suit: a close-fitting translucent LIVING second
+skin, grown to her specifically, worn as ordinary clothing &mdash; put on and
+taken off like anything else. Faintly iridescent. The critical detail:
+across the shoulders and all the way up BOTH FOREARMS it has CLOUDED,
+like breathed-on glass, permanent, and that is thirty-four crossings
+showing. On her feet, two mismatched boots from two different stars &mdash;
+one grey and square-toed, one dark and soft.
+
+<b>BLINGBLING</b>, her glint: a flying creature the size of a cupped hand, no
+face to speak of, a body built to shed energy &mdash; faceted, iridescent,
+somewhere between a hummingbird, a cuttlefish and a piece of costume
+jewellery. She speaks ENTIRELY in light: brightness is volume, colour is
+tone. Her palette is greens, a particular hot pink, and a gold that makes
+people turn round, and she runs it at maximum. Show her mid-sentence in
+gold and pink on Lint's collarbone.
+
+<b>STYLE.</b> Grounded character design, used clothing, no armour, no weapons,
+no insignia. Painterly realism. Fifteen years old and looks it.
+
+<b>AVOID.</b> Anime proportions. Spacesuit. Glowing eyes. Cute mascot pet.</pre>
+  </figure>
+
+  <figure class="plate">
+    <figcaption><span>Character plate</span><span class="no">14 &mdash; Calloway, Mina, Rill, Sennet</span></figcaption>
+<pre><b>FOUR-PANEL CHARACTER SHEET</b>, consistent style, plain backgrounds.
+
+<b>1. CALLOWAY, 41.</b> Director of the Nine's Threshold office; thirty-one
+years in, aged out of crossing herself, and the happiest person in the
+setting. Grey coveralls, sleeves pushed up, a teapot in one hand she is
+about to be told off about. Broad, weathered, fast-moving. Her whole face
+changes when somebody she likes comes through a door. Has lost eleven
+people and remembers all of them and does not carry it on her face.
+
+<b>2. MINA HARAL, 81.</b> A reader out of Procyon who taught reading for
+fifty-one years. Thin as paper, immaculate, sitting upright. Turns her
+WHOLE HEAD to look at you. Left wrist in a moulded brace. A soft warm
+side-bag always within reach of one hand, because there is something
+alive in it. Cannot cross and never could &mdash; turned back at a hall at
+twenty-two &mdash; and has paid children forty-one times since.
+
+<b>3. RILL, 21.</b> The best courier of her generation, with a record scratched
+on a stanchion nobody has got near in four years, and nearly out of
+crossings. Practical, short-haired, tired, steady hands. Sleeves pulled
+DOWN over her wrists on purpose, always. Underneath, her forearms are not
+clouded but OPAQUE WHITE. Takes paying passengers off the books and will
+tell you exactly why in one sentence.
+
+<b>4. SENNET ("SEN"), 11.</b> Keeps the Standing &mdash; the four-metre chalk slate
+that records where every door in human space currently goes. Small,
+chalk to the elbow, a cleaning rag through her belt, a pen behind her
+ear. Tested at nine and failed, and will never cross, and is the most
+competent person in any room. Bearing of a professional. Standing on a
+wooden stool.
+
+<b>STYLE.</b> Consistent painterly realism across all four. Worn industrial
+clothing, no uniforms, no insignia, ordinary bodies, ordinary faces.
+
+<b>AVOID.</b> Glamour. Youth-washing. Matching costumes.</pre>
+  </figure>
+
+  <figure class="plate">
+    <figcaption><span>Character plate</span><span class="no">15 &mdash; the other three peoples</span></figcaption>
+<pre><b>THREE-PANEL CREATURE SHEET</b>, consistent style, plain backgrounds, with a
+human figure for scale in each.
+
+<b>1. OSSUARY, a cairn.</b> Low, broad, stone-plated, roughly the size and
+shape of a footstool built out of slate. No visible limbs in use. Sits
+beside a hotplate and does not move for hours. Extremely literal, helpful
+at the worst moments. Should look like a piece of masonry somebody has
+grown fond of.
+
+<b>2. VANTAGE, a fathom.</b> Roughly a metre across, hanging unsupported in
+mid-air: a thin translucent rippling membrane, like a jellyfish bell
+crossed with a sheet of oiled paper. EYELESS. No face, no limbs, no
+visible means of flight. Perceives electromagnetic and pressure fields
+directly and has no idea what being looked at is like. Speaks straight
+into your head. Insufferable, precise, and desperate to teach somebody
+something.
+
+<b>3. A GLINT, in a crowd.</b> Eleven of them on a handrail in raw white
+starlight, all talking at once in overlapping colour &mdash; greens, deep
+blue, orange, a hot pink. Hand-sized, faceted, iridescent, built to shed
+energy. Design them as PEOPLE in a bar, not as a swarm: different
+postures, two hanging upside down off a light fitting, one clearly losing
+an argument.
+
+<b>STYLE.</b> Hard-SF xenobiology, plausible and unglamorous. Nothing
+anthropomorphic, nothing cute, no eyes where there should not be eyes.
+Painterly, muted, lit by their own light where applicable.
+
+<b>AVOID.</b> Bug-eyed aliens. Tentacles. Mascots. Humanoid faces.</pre>
+  </figure>
+</section>
+
+<footer>
+  <p>
+    <b>Days nought to three, First Through.</b> Sessions one and two, played 2026.<br>
+    <b>Not included:</b> eight events of day two were played on a physics that was afterwards replaced, retracted at the table, and re-run. Nothing from that run appears here &mdash; the day two in this account is the one that stands.<br>
+    <b>At the end of day three</b> the queue at door seven was still getting longer.
+  </p>
+</footer>
