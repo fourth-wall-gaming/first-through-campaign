@@ -146,8 +146,9 @@ way and paid for it out of themselves.
 
 ### Passengers
 
-A first-through can take somebody through with them -- one person, in contact,
-and it takes minutes rather than seconds.
+A first-through can take somebody through with them -- one person, in contact.
+The crossing is instant, as every crossing is; what takes minutes is persuading
+the door to open for two at all.
 
 The cost falls on the carrier, not the carried, and it is heavy. It is also the
 reason envoys are rare, assassination is the only way anybody reaches across

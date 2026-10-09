@@ -29,10 +29,10 @@ thread:
     when: "d1/dawn"
     status: pending
     summary: "The ready room, the whole house, and a number said plainly because softening it would be worse"
-  - title: "The Wolf Gate refuses"
+  - title: "Seven goes sticky"
     when: "d1/dawn"
     status: pending
-    summary: "A transit that should be instantaneous takes a moment you can feel, and then one you could count"
+    summary: "A door that has opened on demand for twelve years starts making people wait, and the waiting is the only warning anybody has ever had"
   - title: "Benno on the gallery"
     when: "d1/day"
     status: pending
@@ -40,7 +40,7 @@ thread:
   - title: "Four and no more"
     when: "d1/day"
     status: pending
-    summary: "The fourth carry, the deck plate, and Calloway saying stop without ordering it"
+    summary: "Calloway stops the player at four carries, will not make it an order, and means it -- which is the moment the only real answer becomes available"
   - title: "How many of you are there"
     when: "d1/day"
     status: pending
@@ -48,7 +48,7 @@ thread:
   - title: "The first carry"
     when: "d1/day"
     status: pending
-    summary: "Minutes of holding a door open for two instead of one, with a child in your arms"
+    summary: "Minutes of a door declining to open for two, with a child in your arms, and the instant it finally gives"
   - title: "The painted line at Ladder"
     when: "d1/day"
     status: pending

@@ -7,18 +7,32 @@ summary: "A first-through can take one person through, slowly, paying for it out
 created_at: "2026-10-06T12:00:00"
 ---
 
-Going alone takes a few seconds.
+**Transit is zero, and it is zero for two as well.** See [[The Hesitation]]. A
+door does not take longer to cross with somebody in your arms, because crossing
+a door does not take any time at all.
 
-**Carrying somebody takes minutes**, in contact, one person at a time, and you
-feel every one of them. It is the hardest thing a first-through does and the only
-thing they do that cannot be practised.
+What takes minutes is getting it to **agree**.
+
+Alone, a door has you on the first offer, every time, and the only reason you
+know you crossed is that the air changed. With somebody in your arms it goes
+absolute instead — the way a wall is absolute — and you ease off and offer it
+again, and it sets again, and that is what a carry is: minutes of standing in a
+lit housing with a person against your chest, offering, while it declines.
+
+Then it has you both, and that part is instant, exactly as it has always been.
+
+It is the hardest thing a first-through does and the only thing they do that
+cannot be practised, and every courier in human space already knows the word for
+a door going absolute, because a carry is where they learned it: **it sets**.
 
 ## What it costs
 
 Not the passenger. **You.**
 
-A carry runs several ordinary crossings' worth of fraying — the price of holding
-a door open for two instead of one, for long enough to walk somebody through it.
+A carry runs several ordinary crossings' worth of fraying — the price of
+standing in an unsettled housing for minutes together, asking a door for
+something it does not want to give, instead of stepping through one that says
+yes at once.
 Three or four in a row and you are finished: shaking, useless, and days from
 being any good to anybody.
 

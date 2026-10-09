@@ -1,7 +1,7 @@
 ---
 id: "myth-beat-e97815ce91d5"
 title: "The first carry"
-summary: "Minutes of holding a door open for two instead of one, with a child in your arms"
+summary: "Minutes of a door declining to open for two, with a child in your arms, and the instant it finally gives"
 status: "pending"
 when: "d1/day"
 trigger: "time"
