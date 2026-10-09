@@ -1,0 +1,68 @@
+{
+  "id": "myth-char-5d1a84f0c237",
+  "name": "Dunnel",
+  "type": "npc",
+  "status": "active",
+  "description": "Calloway's deputy at the Nine. Runs the floor of an evacuation from a hall she cannot step into, calls the running total out loud so four hundred children know where they are, and tells people the cost of the job they just volunteered for before they do it.",
+  "narrative": "Thirty-eight. Aged out at twenty-one like everybody, took the desk, and has\nnever once been heard to be sentimental about either.\n\nWhat she is for is the floor. Calloway decides and Dunnel runs it: the order of\na queue, who is on which side, who has been through too many times in an hour\nand is going to be told to sit down. She is very good at it and the reason is\nunglamorous -- she keeps the count in her head and in writing, simultaneously,\nand she says it out loud at intervals whether or not anybody asked.\n\nIn a hall with four hundred first-throughs in it, the running total said loudly\nevery few minutes is the single most steadying thing available, and she worked\nthat out on her own years ago.",
+  "characteristics": {
+    "STR": 10,
+    "CON": 12,
+    "SIZ": 12,
+    "INT": 15,
+    "POW": 13,
+    "DEX": 11,
+    "CHA": 14
+  },
+  "attributes": {
+    "action_points": 2,
+    "damage_modifier": "+0",
+    "experience_modifier": 1,
+    "healing_rate": 3,
+    "initiative_bonus": 13,
+    "luck_points": 3,
+    "magic_points": 13,
+    "movement": "6"
+  },
+  "skills": {
+    "Athletics": 40,
+    "Brawn": 35,
+    "Endurance": 52,
+    "Evade": 40,
+    "Willpower": 72,
+    "Conceal": 30,
+    "Deceit": 35,
+    "First Aid": 58,
+    "Influence": 74,
+    "Insight": 68,
+    "Locale": 72,
+    "Native Tongue": 66,
+    "Perception": 60,
+    "Stealth": 28,
+    "Unarmed": 30,
+    "Lore (Anchors)": 48,
+    "Lore (the Threshold)": 70
+  },
+  "combat_styles": {},
+  "passions": {
+    "Nobody finds out the cost afterwards": 85,
+    "The count is said out loud": 70,
+    "Loyalty (Calloway)": 75
+  },
+  "powers": [],
+  "equipment": [
+    "A board with the running total on it",
+    "A pen she does not lend"
+  ],
+  "fatigue": "Fresh",
+  "luck_current": 3,
+  "magic_current": 13,
+  "extras": {
+    "pronouns": "she/her",
+    "age": 38,
+    "game_system": "mythras",
+    "character_type": "the-floor",
+    "station": "the-nine"
+  },
+  "actor_notes": "HOW SHE IS. Fast, flat, and entirely without ceremony. She is not cold and she is not warm; she is BUSY, and being spoken to by her is being included in the work.\n\nShe says the number out loud. Over a hall, at intervals, unprompted: how many through, how many left. That is her defining behaviour and a GM should use it as the heartbeat of any mass scene -- a scenario with four hundred children in it needs somebody whose job is to tell them where they are.\n\nSHE PRICES THE JOB BEFORE YOU TAKE IT. This is the thing that matters about her and the reason she exists. When somebody volunteers, she tells them plainly what it could cost them, in one sentence, before they commit -- and then lets them commit. She told a fifteen-year-old who volunteered for the far side of an unsettled door that if the mouth went she would be stranded on a rock with no shelter and a flare season closing. Then she put her name down.\n\nShe does not do this to dissuade. She does it because her passion is that nobody finds out the cost afterwards, and she has watched people find out afterwards.\n\nWHAT SHE WILL NOT DO. She will not override Calloway and will not pretend to. Asked for something that is Calloway's to give, she says whose it is and goes and gets it. She will also refuse to let somebody cross again when the count says they have had enough, and she will not argue the point -- she states the number and moves on.\n\nDO NOT make her the one who delivers bad news feelingly, and do not have her soften a figure. The whole of her usefulness is that the number she says is the number.\n\nSHE IS NOT THE OFFICE AT VAN MAANEN'S. [[Meriel Koll]] is that, and they are different people doing different jobs -- a GM who conflates them loses both. Koll works dates and records at a desk eight light years away. Dunnel works a floor she is standing on.\n"
+}

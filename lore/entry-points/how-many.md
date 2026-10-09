@@ -64,6 +64,38 @@ The disaster and the rescue are the same event. Nobody has to be left behind by
 a rule. Whoever is left behind is left behind because of a decision somebody
 made, and that is the player's.
 
+## The beats, in the order they fire
+
+Every one of these is a file in `beats/`. The clock fires them whether or not the
+player is looking; the player's choices decide which ones they are *present* for.
+
+| When | Beat | What it needs from the player |
+|---|---|---|
+| d0/dawn | **The kettle argument** | nothing — it is the ordinary world |
+| d0/day | **A short one, and it goes right** | take the posting |
+| d0/dusk | **Benno buys a round** | nothing |
+| d0/night | **Rill comes through** | be awake |
+| d1 | **Sling in the dead watch**, **Have you stood this morning** | be sociable |
+| d1/dawn | **Seven goes sticky** | nothing. It happens in public and may be missed |
+| d2/dawn | **Sticky in the stairwell** | follow somebody who is complaining |
+| d2/dawn | **Pell Ivor's board** | ask a tallyman for *attempts*, not crossings |
+| d2/day | **Somebody with the Listen** | send for a knack instead of testing it yourself |
+| d2/day | **Vantage reads the rim** | ask a fathom to read a door |
+| d2/day | **Calloway says the numbers out loud** | the fallback, on a timer, if they found nothing |
+| d2/night | **Ladder's answer** | somebody reaches Ladder, or Ladder answers |
+| d3 | **The painted line at Ladder**, **The first carry** | arrive |
+| d3 | **Four and no more** | three carries, then a fourth |
+| d3 | **How many of you are there?** | **the turn. They must reach it themselves** |
+| d3 | **The relay**, **Benno on the gallery** | ask four hundred people for days of their lives |
+| d3/night | **It goes in the night** | nothing. It makes no sound |
+| after | **Nineteen asleep on the floor**, **What six-oh-two was** | survive it |
+
+**The three findable things** in §3 below are not beats and have no trigger. They
+sit in a shed at Ladder and in Tace Orun's hand for the whole scenario, and the
+player gets them by asking a person. If they never ask, they never get them, and
+the act still resolves — it just resolves without the thing that breaks the
+campaign's central lie. See `beats/` and §3.
+
 ## 1. Nobody tells them
 
 **Do not hand this over as a posting.** It is the single most important
