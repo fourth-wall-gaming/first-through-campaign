@@ -3,6 +3,7 @@ author: Fourth Wall Gaming
 slug: first-through
 campaign_id: myth-campaign-first-through-s1
 style: first-through
+art_style: first-through
 status: outline-pending
 high_water_mark: myth-event-e0646df6e035
 source_note: >-
@@ -41,3 +42,7 @@ outline:
   - {n: 22, title: Go On Their Count,          covers: "d4 -- the back of a line four hundred long; forty-two adults and nobody ordered; the other job; Mina on a bench"}
   - {n: 23, title: Four Hundred for the Night, covers: "d4 -- the relay from the Ladder side; Rill and Benno's money; the pit under four metres of rock; the last woman in the line"}
   - {n: 24, title: Sixty of Sixty-One,         covers: "d4 night to d5 dawn -- out of luck against a stanchion; Oris forces it; Rill goes back; Tace stays; it goes with no sound at all"}
+illustrations:
+  - {file: a-the-nine.png,            chapter: 1,  after_text: "Nine doors going at once under the window", prompt_file: a-the-nine.txt, caption: "The anchor hall at the Nine."}
+  - {file: b-sling-in-the-void.png,   chapter: 4,  after_text: "the Quick did the rest", prompt_file: b-sling-in-the-void.txt, caption: "A horrible flat throw."}
+  - {file: d-the-relay-at-ladder.png, chapter: 23, after_text: "Tace put the next one in front of the new arrival.", prompt_file: d-the-relay-at-ladder.txt, caption: "\"Go on their count. And if it sets, you put them down.\""}
