@@ -141,6 +141,11 @@ Do not write a figure from memory at the table. Look it up. Being able to say
 *that is a real star and here is what we actually know about it* is a large
 part of what this campaign is for.
 
+The proof of all that is the chart in the next chapter but one. It is drawn
+from the data rather than by eye, and on screen every star name on it is a
+link to that star's own Wikipedia article — so a player who does not believe
+you can go and check, at the table, in about four seconds.
+
 ## How to read this book
 
 The first part is what is going on and why, including the ending. The second is

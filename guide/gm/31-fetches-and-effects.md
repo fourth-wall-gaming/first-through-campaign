@@ -4,6 +4,8 @@
 
 ## Playing a fetch
 
+<!-- illus: novels/first-through/illustrations/c-the-five-peoples.jpg | All five, off shift, and not one of them being looked after. -->
+
 A fetch is a person, not a feature. The partnership happened because two people
 talked constantly about nothing for months, and the talking *is* the bonding.
 

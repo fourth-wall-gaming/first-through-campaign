@@ -9,6 +9,8 @@ neighbours and the ninth is the Garden.
 
 Everything in Act One happens here or one step off it.
 
+<!-- illus: novels/first-through/illustrations/a-the-nine.jpg | Nine rings in the deck, eight queues moving, and the Standing on the gallery wall. -->
+
 ## How to run the hall
 
 The anchor hall is the set. Get the player into it in the first ten minutes and
@@ -23,6 +25,8 @@ flask, because they know who is due.
 The sound of the hall going quiet is the strongest tool you have in this
 building, and it is not a sound — it is about nine people stopping being loud
 at the same moment. Use it twice in Act One and no more.
+
+<!-- illus: novels/first-through/illustrations/b-sling-in-the-void.jpg | Sling, in the gallery void. Banned four times and played anyway. -->
 
 ## Three details that do the work
 

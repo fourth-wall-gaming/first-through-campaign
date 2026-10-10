@@ -68,6 +68,24 @@ every date in the campaign is wrong.
 The frontier is therefore a sphere a little under forty-nine light years out,
 advancing one light year every twenty years.
 
+## And here is what that produces
+
+Every star on this sheet is at its true galactic position, computed from the
+measured parallax in `data/systems.json`, and every line on it is a real edge
+out of `data/edges.json`. It is rendered by `maps/causeway_chart.py`, so it
+cannot disagree with the campaign — regenerate it rather than editing it.
+
+Read it as a **graph, not a volume**, which is the single hardest idea in this
+setting to get a player to hold. Distance tells you what a telescope says. It
+tells you nothing about how long it takes to get anywhere. What matters is
+whether there is a line.
+
+On screen every star name is a link to its Wikipedia article. That is not
+decoration: it is the whole claim of this chapter made checkable by a
+fifteen-year-old in four seconds, and you should let them do it.
+
+<!-- map: the-causeway.svg -->
+
 ## The reference entries
 
 <!-- lore: lore/cosmology/how-an-anchor-works.md -->
