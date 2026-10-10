@@ -6,3 +6,7 @@ __pycache__/
 _site/
 docs/original/
 uv.lock
+
+# Full-resolution illustration sources. The repo ships 1920px JPEGs; the
+# 4K originals are 14 MB each and belong in a backup, not in git history.
+novels/*/illustrations/original/

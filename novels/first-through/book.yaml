@@ -110,17 +110,17 @@ outline:
   covers: d4 night to d5 dawn -- out of luck against a stanchion; Oris forces it;
     Rill goes back; Tace stays; it goes with no sound at all
 illustrations:
-- file: a-the-nine.png
+- file: a-the-nine.jpg
   chapter: 1
   after_text: Nine doors going at once under the window
   prompt_file: a-the-nine.txt
   caption: The anchor hall at the Nine.
-- file: b-sling-in-the-void.png
+- file: b-sling-in-the-void.jpg
   chapter: 4
   after_text: the Quick did the rest
   prompt_file: b-sling-in-the-void.txt
   caption: A horrible flat throw.
-- file: d-the-relay-at-ladder.png
+- file: d-the-relay-at-ladder.jpg
   chapter: 23
   after_text: Tace put the next one in front of the new arrival.
   prompt_file: d-the-relay-at-ladder.txt
