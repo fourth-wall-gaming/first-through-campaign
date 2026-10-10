@@ -85,7 +85,7 @@ The Tally has the figures. Anwar's four reports have a digest attached, written
 by him, and the digest has been sitting in the same queue as the reports.
 
 **The bottleneck is attention, not access.** Nine hundred and seventy-five years
-of a mind that reports everything has turned his reports into weather. People
+of a mind that reports everything has turned his reports into background. People
 skim him. People file him. People ask the three children in the hall what they
 felt instead of reading the number he sent at four in the morning, because a
 child's face is more persuasive than a line in a queue.

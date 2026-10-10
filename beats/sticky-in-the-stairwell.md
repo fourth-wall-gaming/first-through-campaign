@@ -36,7 +36,7 @@ asking.
 > *Seven's sticky every spring. Has been since I started. Come summer it stops,
 > and nobody thinks about it.*
 
-He is describing weather and he has twelve springs of evidence. **Let the player
+He is describing a thing that happens every spring and he has twelve springs of evidence. **Let the player
 be reassured.** If they roll to catch what is actually in that sentence, let the
 roll decide honestly — a failure here is not a punishment, it is a competent
 adult being convincing about something he has every reason to believe.

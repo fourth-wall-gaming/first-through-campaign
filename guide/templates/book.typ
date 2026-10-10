@@ -28,6 +28,17 @@
 #show figure.where(kind: table): set figure.caption(position: top)
 #show figure: set block(breakable: true)
 
+// Plates get the novel's treatment: no "Figure 1:", no numbering, just the
+// caption under the picture, small and quiet. Tables keep their numbering,
+// because a reference book's tables are things you point somebody at.
+#show figure.where(kind: image): set figure(numbering: none)
+#show figure.where(kind: image): set block(breakable: false)
+#show figure.where(kind: image): it => block(width: 100%, {
+  it.body
+  v(0.45em)
+  align(center, text(size: 8pt, style: "italic", fill: sbrule, it.caption.body))
+})
+
 #let horizontalrule = line(start: (25%,0%), end: (75%,0%), stroke: 0.5pt + sbrule)
 
 #let sbtable(columns: auto, ..cells) = block(breakable: false, width: 100%, above: 0.4em, below: 0.2em)[

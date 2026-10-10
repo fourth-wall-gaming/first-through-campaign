@@ -262,7 +262,7 @@ A pause.
 
 She turned round so the hall got it properly.
 
-"Three days that door's been sticky. Three days of first-throughs standing on a plate for two and a half seconds and coming off and going again, and four hundred people on this station calling it weather — **including me.** I've walked past that queue twice today.
+"Three days that door's been sticky. Three days of first-throughs standing on a plate for two and a half seconds and coming off and going again, and four hundred people on this station filing it under things that happen — **including me.** I've walked past that queue twice today.
 
 "Nobody checked. Nobody asked the one question a Listen could answer. And the reason nobody did is that a sticky door isn't an incident, so nobody logs it, so it never arrives on my desk, so I never weigh it."
 

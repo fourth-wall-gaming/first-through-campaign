@@ -4,7 +4,7 @@
 
 The hall filled in nine minutes.
 
-Four hundred and six first-throughs is not a crowd, it's a weather event — the Wolf Gate kids first because it's their door, then Coldwater, then everybody, down the service stairs and over the gallery rails. Ferren arrived with his boots in his hand. Sen was already on her stool with the board live and a fresh column ruled.
+Four hundred and six first-throughs is a great many people for one room, and they came all at once — the Wolf Gate kids first because it's their door, then Coldwater, then everybody, down the service stairs and over the gallery rails. Ferren arrived with his boots in his hand. Sen was already on her stool with the board live and a fresh column ruled.
 
 Calloway didn't make a speech. She gave them the five facts in ninety seconds and then started assigning.
 

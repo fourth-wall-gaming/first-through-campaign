@@ -9,7 +9,7 @@
 A first-through is the most important person in human space for about seven
 years, and then it stops, and nobody has ever worked out what happens next.
 
-That is the whole engine. Everything else is weather.
+That is the whole engine. Everything else is the setting it runs in.
 
 Three people answer that question, and the campaign is the player choosing
 between them.

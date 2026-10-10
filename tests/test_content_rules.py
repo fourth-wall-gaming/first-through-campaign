@@ -456,6 +456,21 @@ BANNED_IN_PROSE = [
     # arrives. It makes any noun instantly significant, flatters the player,
     # fits anywhere, and flattens an NPC into somebody who was standing around
     # waiting for a fifteen-year-old.
+    # Banned at the table's request: describing a thing as weather. It is a
+    # tic, not an image -- it fits any noun, it always means "unremarkable
+    # background nobody attends to", and it had reached the novel, both
+    # guidebooks and six places in the worldbook. Literal weather is fine and
+    # is all over this setting: Earth has weather, Luhman 16 has storm bands,
+    # a fathom goes out to feel a sky that is not its own. The ban is on the
+    # metaphor.
+    "like weather",
+    "is weather",
+    "a weather event",
+    "filed as weather",
+    "describing weather",
+    "calling it weather",
+    "into weather",
+    "a weather system passing",
     "nobody has ever asked",
     "nobody had ever asked",
     "has never been asked",

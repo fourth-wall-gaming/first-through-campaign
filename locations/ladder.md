@@ -3,7 +3,7 @@ id: "myth-loc-ae82360bdb56"
 name: "Ladder"
 type: "outpost"
 system: "gliese-65"
-summary: "A survey outpost in the Gliese 65 system: sixty-one people on a rock, a welded roof, two lamp halls, two hundred years of observations filed as weather -- and an empty housing the first crew built in hope."
+summary: "A survey outpost in the Gliese 65 system: sixty-one people on a rock, a welded roof, two lamp halls, two hundred years of observations nobody has read -- and an empty housing the first crew built in hope."
 created_at: "2026-10-06T12:00:00"
 ---
 
@@ -28,7 +28,7 @@ empty one, and children dare each other to stand in it.
 sixty-one people on a rock with a clear view of two flare stars, keeping a record,
 by hand, in a shed, for two hundred years. Nobody at the Nine has ever asked them
 for any of it. It is the only long-baseline observation of that binary anywhere
-in human space, and it is filed as weather.
+in human space, and nobody outside this rock has ever read a line of it.
 
 There is **no hardened shelter**. A welded roof, and the lamp halls, and the rock
 underfoot. They have been lucky for two hundred years and they know exactly how

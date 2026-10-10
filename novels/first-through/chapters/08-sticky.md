@@ -26,7 +26,7 @@ She caught them two flights down. They were happy to talk. Of course they were â
 
 "It is *not* the same thing, because set's your fault and sticky's the door's."
 
-And then, in passing, like a man describing weather:
+And then, in passing, as though it were the dullest thing he knew:
 
 "Seven's sticky every spring. Has been since I started. You give it a second and it has you, and come summer it stops, and nobody thinks about it."
 

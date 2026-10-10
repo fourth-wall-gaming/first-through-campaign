@@ -76,7 +76,7 @@ her watching them, once, and say nothing about it.
 ## Benno and Rill
 
 They cause nothing. The stray is natural, the evacuation is physics, and these
-two are a weather system passing through it.
+two are people doing business in the middle of it.
 
 **Give the beat about ninety seconds and then move on.** It is not a scene, it is
 a thing seen across a hall during a crisis, and its whole power is that the

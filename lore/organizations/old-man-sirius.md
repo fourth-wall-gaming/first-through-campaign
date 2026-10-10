@@ -48,7 +48,7 @@ nobody can question is exactly what killed four hundred people in the proper
 order. Ask him *should I go down there* and he answers at once, completely.
 
 The trouble is not that he is silent. **It is that nine centuries of a mind
-reporting everything has turned his reports into weather** — constant, present,
+reporting everything has turned his reports into background** — constant, present,
 and nobody's news. People skim him.
 People file him. The figures are almost always already on somebody's desk, and
 the thing nobody has is the attention.

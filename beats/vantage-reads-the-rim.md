@@ -69,5 +69,5 @@ his card.
 
 Nothing yet. But the player now has a measurable quantity, a geometry, and a
 clock — and in a shed at the far end of that door there are two hundred years of
-the same measurement, kept by hand, filed as weather. See
+the same measurement, kept by hand, filed and never read. See
 [[Entry Point: How Many]] §3.

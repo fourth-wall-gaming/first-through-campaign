@@ -244,7 +244,7 @@ explain it, and the player can ask.
 **Three: the thing nobody is looking for.** The potential reshapes *with the
 orbit*. So the record that predicts the flare **predicts the door** -- and
 Ladder has been sitting on the proof that strays are forecastable for two
-hundred years, filed as weather.
+hundred years, filed and never read.
 
 That is the campaign's central established lie
 (`facts/straying-is-random-and-cannot-be-predicted.md`) broken in Act I, by a

@@ -4,7 +4,7 @@
 
 The ready room smelled of hot metal off the hall below, and of tea that had been wrong for six hundred years.
 
-Nine doors going at once under the window, nine queues, the noise coming up through the floor like weather. A long table. A kit rail. The kettle.
+Nine doors going at once under the window, nine queues, the noise of it coming up through the floor. A long table. A kit rail. The kettle.
 
 Calloway had her back to the room and four people were telling her she was wrong about it. One of them was standing on the table. One was a cairn, low and plated and immovable near the hotplate, who had been there some hours.
 
