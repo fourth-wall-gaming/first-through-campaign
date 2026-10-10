@@ -15,7 +15,7 @@ coin, not the clothes you walked in wearing. People established this in the firs
 month of the first door and have been re-establishing it ever since, because
 every generation produces somebody convinced they have found the exception.
 
-## You arrive in your membrane and nothing else
+## You arrive in your weave and nothing else
 
 Every anchor hall has a dressing room on both sides, and what happens in it has
 not changed in nine hundred years.
@@ -23,15 +23,15 @@ not changed in nine hundred years.
 You take everything off. Suit, boots, tools, the lot -- none of it is alive and
 none of it is going anywhere.
 
-What you keep on is your **membrane**: a garment that was grown rather than
+What you keep on is your **weave**: a garment that was grown rather than
 woven, which is the one exception to the whole rule. It is alive, so it crosses.
-You put it on and take it off like anything else. See [[The Membrane]].
+You put it on and take it off like anything else. See [[The Weave]].
 
 Everything else is issued on the far side -- always local, always slightly
 wrong, and always saying exactly where you have been. A first-through can read a
 stranger's last three postings off the cut of their boots.
 
-Nothing you own goes with you but the membrane. Your suit is the Nine's suit and
+Nothing you own goes with you but the weave. Your suit is the Nine's suit and
 stays at the Nine; the tools are Barnard's tools and stay at Barnard's. In nine
 centuries nobody has carried a keepsake between stars, and the courier songs are
 mostly about this.

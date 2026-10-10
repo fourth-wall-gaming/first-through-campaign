@@ -8,7 +8,7 @@ Today was three days.
 
 She had said three days to an eighty-one-year-old woman sitting on a Procyon deck with a broken wrist, and the woman had said *come back for me*, and Calloway had left the run on the rota without saying anything about it.
 
-Wash. Feed the membrane. Boots — the Procyon one and the Nine one, side by side, which is two stars and is nothing much yet.
+Wash. Feed the weave. Boots — the Procyon one and the Nine one, side by side, which is two stars and is nothing much yet.
 
 The hall at that hour was the quiet end of the night shift turning over into the early one. Nine queues. Eight of them moving the way they always move.
 

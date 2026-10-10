@@ -10,7 +10,7 @@ It isn't a sound. It's about nine people all stopping being loud at the same mom
 
 Door four. A night transit, which nobody schedules.
 
-**Rill** came up out of the housing already peeling the membrane off her forearms, and she was very good at it — no stagger, no hand on the frame, the way you do it when you've done it two thousand times. Twenty-one. There is a record scratched on a stanchion in the gallery void with her name against it and nobody has got close in four years.
+**Rill** came up out of the housing already peeling the weave off her forearms, and she was very good at it — no stagger, no hand on the frame, the way you do it when you've done it two thousand times. Twenty-one. There is a record scratched on a stanchion in the gallery void with her name against it and nobody has got close in four years.
 
 Two hall kids who can't cross and never will were *already* at the bottom of the stair with a towel and a flask.
 

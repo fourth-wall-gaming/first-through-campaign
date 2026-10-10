@@ -49,7 +49,7 @@ rescue are the same event, and that is the shape of the act.
 
 ## What a crossing costs
 
-Fraying: small, cumulative, irreversible, and visible on the membrane.
+Fraying: small, cumulative, irreversible, and visible on the weave.
 Finished at about twenty-two. Carrying an adult costs the carrier a fortnight
 off the end of their life, counted; a child costs minutes. Three or four adult
 carries in a row finishes anybody.

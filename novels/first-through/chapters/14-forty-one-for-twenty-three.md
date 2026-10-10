@@ -12,7 +12,7 @@ She did not look for an office. She stood in the hall and asked the Procyon tall
 
 Up close it was worse than it had looked from the stair.
 
-The queue was thirty-odd people and it was not a queue so much as a crowd that had stopped pretending. Coldwater men with crates on their shoulders. A Wolf Gate shift steward in orange talking quietly and continuously to nobody in particular. Two first-throughs in membranes, sitting on a stanchion base, waiting.
+The queue was thirty-odd people and it was not a queue so much as a crowd that had stopped pretending. Coldwater men with crates on their shoulders. A Wolf Gate shift steward in orange talking quietly and continuously to nobody in particular. Two first-throughs in weaves, sitting on a stanchion base, waiting.
 
 And the housing was *lit*. Four metres across, perfectly ordinary, exactly like the eight others.
 
@@ -54,7 +54,7 @@ A pause, and then the thing he volunteered.
 
 *So you are standing in a hall full of first-throughs and there is nothing in any of them that can read a lit ring.*
 
-In the queue, the two in membranes on the stanchion base were watching the plate with the flat expression of people whose turn is coming.
+In the queue, the two in weaves on the stanchion base were watching the plate with the flat expression of people whose turn is coming.
 
 The tallyman made another mark.
 
@@ -94,7 +94,7 @@ A pause, and it cost him something to say.
 
 He looked up like a man who had been shouted at in a hall he had worked for eleven years, which he had.
 
-Then he looked at the Threshold flash on her membrane, and the question got through to him, and something shifted.
+Then he looked at the Threshold flash on her weave, and the question got through to him, and something shifted.
 
 "...Attempts."
 

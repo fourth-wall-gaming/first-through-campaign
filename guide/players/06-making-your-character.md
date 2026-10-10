@@ -21,6 +21,10 @@ Table: The Three Stages
 Then three **passions** — the things you care about enough to argue with an
 adult about — and a fetch, who is a person and gets made like one.
 
+And say what colour your weave is. It is not a statistic and it costs nothing,
+and it is the first thing anybody in a hall will see about you. It came out of
+the vat off-white; what you did about that is up to you.
+
 ## Where you grew up
 
 Six upbringings. The lists are the argument: a Garden child has **Swim**, and

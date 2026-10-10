@@ -198,7 +198,7 @@ For about four seconds nobody in that hall breathed, and then Nim said, in a ver
 
 ---
 
-Bunk nineteen. Boots off, membrane in its tray, left arm not going above the shoulder.
+Bunk nineteen. Boots off, weave in its tray, left arm not going above the shoulder.
 
 BlingBling came in off the rail and dimmed right down on the pillow — the sleeping colour, which she only does there.
 

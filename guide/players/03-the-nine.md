@@ -47,7 +47,7 @@ declined to stop.
 You are paid, in your own name, and nobody's parent has any say in it.
 
 You have a bunk in a room with eight other people on different shifts, a locker,
-a tray for your membrane, and two boots from two different stars, because
+a tray for your weave, and two boots from two different stars, because
 everybody ends up with mismatched boots and it is how you read a stranger.
 
 The food is free and institutional and the Wolf Gate run is better than it, and

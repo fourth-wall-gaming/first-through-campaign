@@ -14,7 +14,7 @@ somebody your age.
 
 You are a **first-through**. The Threshold took you, which means you were
 tested and you could do it and most people cannot. You are paid. You have a
-bunk, a locker, a membrane grown to your own body, and a name on a rota. You
+bunk, a locker, a weave grown to your own body, and a name on a rota. You
 are nobody's child out here and everybody's problem, and the adults around you
 are extremely glad you exist and say so about once a week.
 

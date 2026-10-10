@@ -22,16 +22,32 @@ station.
 
 Nothing dead crosses with you — not clothes, not boots, not a bag — so you
 undress at one end and dress at the other, and every hall in human space has a
-rail of boots in it that nobody owns. The exception is your **membrane**: a
-living second skin, grown to you specifically, worn as ordinary clothing. It is
-alive, so it crosses.
+rail of boots in it that nobody owns. The exception is your **weave**: a
+garment grown rather than made, close-fitting, long-sleeved, about the weight
+of a good shirt. It is alive, so it crosses.
+
+One part of it is uniform and the rest is you. At the left shoulder is the
+Threshold flash, grown into the cloth, which cannot be faked because it cannot
+be attached — that is the part a tallyman looks at. Everything else is yours.
+A living weave takes dye, so nobody keeps the off-white it comes out of the vat
+in for long: deck colours so you can be found in a hall, the colours of
+wherever you grew up, a band at the cuff for every door you have stood. The
+Threshold has tried four times to standardise it and lost four times.
 
 ## What it costs
 
 Each crossing takes something off you that does not come back. It is small and
-it accumulates and it is visible: the membrane clouds across the shoulders
-first, then the forearms, like breathed-on glass. Somebody who has done two
-thousand crossings does not have clouded forearms. They have **white** ones.
+it accumulates and it is visible: the weave goes mottled across the shoulders
+first, then the forearms — faint cloudy pale patches where the dye has
+bleached out of it.
+
+Which is the joke nobody finds funny. The dye is how you say who you are, and
+the dye is exactly what makes your mileage readable from the other side of a
+hall. Some people stop dyeing around eighteen and let the colour grow out.
+Nobody says anything about that either.
+
+Somebody who has done two thousand crossings has no colour left in their
+sleeves at all. They have **white** ones.
 
 Around twenty-two a body stops being able to do it at all, and after that you
 cannot cross, not once, not ever. The word for that is **frayed out**, and
@@ -86,7 +102,7 @@ do, and is rare, resented, and worth not mentioning.
 attention to it — is rarer than all of them and you will probably never meet
 somebody who has it.
 
-Everybody also has Life Support, which is the membrane rather than you, and
+Everybody also has Life Support, which is the weave rather than you, and
 which can be taken off you by anybody with the right tool in under a minute.
 That is worth remembering.
 

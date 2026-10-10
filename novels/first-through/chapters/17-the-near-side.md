@@ -206,7 +206,7 @@ He looked at her for a long moment, then at the hatch he had just climbed out of
 
 The office. Calloway. Dunnel with the slate. Mina Haral in the good chair with her brace on a cushion, who had been in the room for twenty minutes and had evidently been told everything already and had formed opinions about all of it.
 
-And then a fifteen-year-old, a deck engineer in a coverall, and a metre of eyeless membrane which would not use the corridor and had come along the open side of the stairwell.
+And then a fifteen-year-old, a deck engineer in a coverall, and a metre of eyeless weave which would not use the corridor and had come along the open side of the stairwell.
 
 Dunnel got up and propped the door wide without being asked, which Vantage noticed.
 

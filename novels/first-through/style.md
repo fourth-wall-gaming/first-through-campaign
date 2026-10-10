@@ -14,14 +14,14 @@ Paragraphs run one to five sentences and are broken constantly by one-line
 paragraphs used as drumbeats. A long sentence is allowed when a character is
 explaining how the world works and never when the narrator is.
 
-Lists of three, bare and unglossed: *Wash. Feed the membrane. Boots.*
+Lists of three, bare and unglossed: *Wash. Feed the weave. Boots.*
 
 ## Diction
 Modern, concrete, unembarrassed, no period costume. Anglo-Saxon by default;
 Latinate only where a thing has a real name. **No profanity** — the setting's
 own oath *grash* carries all of it, and it is funnier for being the only one.
 Technical vocabulary is used flatly and never explained twice: a *housing*, a
-*set*, a *membrane*, a *fetch*, a *first-through*, the *Standing*.
+*set*, a *weave*, a *fetch*, a *first-through*, the *Standing*.
 
 **Numbers are said exactly as they were said at the table**, spelled out —
 *forty-one step-ups, twenty-three through*, *seven hundred and ninety-four*,

@@ -116,7 +116,7 @@ Lint gave the gallery the full face — eyes wide, mouth round, both hands up, t
 
 Then she turned back to Vantage and told it properly that it was actually, genuinely cool, and that she'd never have known it was there.
 
-And the fathom — eyeless, a metre of membrane, a hundred and ninety centimetres off the deck — went completely still.
+And the fathom — eyeless, a metre of weave, a hundred and ninety centimetres off the deck — went completely still.
 
 ::: fathom
 ...Yes. Well.

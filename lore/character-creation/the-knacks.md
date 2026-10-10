@@ -89,7 +89,7 @@ and a fifteen-year-old who could pin a door would make the rest of the setting's
 problems negotiable. It surfaces in play if it surfaces at all.
 
 **Everybody also has Life Support** (`magic/power-life-support`), which is the
-membrane suit and not the child: it takes the Limit *External Power Source*,
+weave and not the child: it takes the Limit *External Power Source*,
 because the suit can be taken off, taken away, or run out.
 
 **How many powers.** Core powers are POW + INT on the tech-and-training branch:

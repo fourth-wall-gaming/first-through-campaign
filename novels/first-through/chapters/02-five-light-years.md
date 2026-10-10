@@ -2,7 +2,7 @@
 
 *Day nought · first watch*
 
-The dressing room. Everything went in the locker — boots, the lot, because nothing dead crosses and never has. Only the membrane stayed, which is alive and grown to you and the single exception there has ever been. Hers was two years old and starting to cloud across the shoulders, which is thirty-four crossings showing.
+The dressing room. Everything went in the locker — boots, the lot, because nothing dead crosses and never has. Only the weave stayed, which is alive and grown to you and the single exception there has ever been. Hers was two years old and starting to cloud across the shoulders, which is thirty-four crossings showing.
 
 And there was the half-second with nothing in it — BlingBling gone, not quiet but *absent*, the way a tooth is absent — and then she was back, blazing green all over Lint's shoulder, saying the thing she says every single time.
 
@@ -16,7 +16,7 @@ Mina Haral was waiting on the bench, already dressed, with a bag on her knees an
 
 "You'll be the Garden girl. Good. Sit down a minute before we do this — not for me. For you."
 
-She looked at Lint properly, which at her age involved turning her whole head, and her eyes went to the shoulders of the membrane and stayed there.
+She looked at Lint properly, which at her age involved turning her whole head, and her eyes went to the shoulders of the weave and stayed there.
 
 "Thirty-four. Mm. You're quick, then. They work you."
 
@@ -182,6 +182,6 @@ Then she leaned in on her elbows.
 
 She stood, took the mug back untouched, and tipped it down the sink.
 
-"Three days. You go back for her, you do it properly, and you do not get on the rota before then — I'll have your hide. Go and feed your membrane, go and sleep, and tell BlingBling she can stop pretending she isn't listening from the kit rail."
+"Three days. You go back for her, you do it properly, and you do not get on the rota before then — I'll have your hide. Go and feed your weave, go and sleep, and tell BlingBling she can stop pretending she isn't listening from the kit rail."
 
 A small, deeply unconvincing pulse of innocent blue from above the suits.

@@ -4104,3 +4104,7 @@ Session 3 closed at d5/dawn. THE ACT I CRISIS IS WON: sixty of sixty-one off Lad
 
 PLACE NAME CORRECTED ON THE RECORD. Sling is played in the GALLERY VOID at the waist of the Nine -- beats/sling-in-the-dead-watch.md has always had its place as the Nine. THE YARDS is a different location: the training sprawl at 61 Cygni where every first-through is made. Two session-1 events said 'the Yards' for the sling court and have been corrected, as have five lines of the novelization. The Yards remains correct for training, instruction, drawing kit, and what an intake is taught.
 
+### Event 61 <!-- id: myth-event-38f22757b292, type: gm-note, at: 2026-10-10T04:11:06.000000000 -->
+
+TERMINOLOGY: the garment is now a WEAVE, not a membrane. Same object -- grown rather than made, alive, the one thing that crosses a door, goes mottled with use. Renamed because 'membrane' was also the word for a fathom's body (a fathom is still 'a metre of membrane and gas'). New canon with it: the only regulation part is the Threshold flash grown into the left shoulder, and everything else is dyed to taste, so a hall is full of colour at child height. The dye is what makes fraying legible across a room, which is the cost of saying who you are. Journal entries from sessions 1-3 still say 'membrane'; they are history and have been left alone. See lore/technology/the-weave.md.
+

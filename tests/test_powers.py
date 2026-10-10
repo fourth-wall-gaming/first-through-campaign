@@ -99,7 +99,7 @@ def test_every_power_rule_id_resolves_in_the_rules_graph(rule):
     assert json.loads(out.stdout).get("success"), f"{rule} does not resolve"
 
 
-def test_the_membrane_suit_is_a_limit_not_a_birthright():
+def test_the_weave_is_a_limit_not_a_birthright():
     """Life Support is the suit. Shipping it without External Power Source makes
     a child who cannot be put in danger by having her kit taken off her."""
     text = KNACKS.read_text()

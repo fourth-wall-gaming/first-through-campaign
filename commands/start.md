@@ -171,7 +171,7 @@ spread of things they can attempt, and nothing at 90.
 
 **Knack and powers.** One knack, from the table in
 `lore/character-creation/the-knacks.md`, which maps it to its Mythras power and
-rule id. Everybody also carries Life Support, because that is the membrane suit
+rule id. Everybody also carries Life Support, because that is the weave
 and not the child, with the Limit *External Power Source*. Core powers are POW +
 INT; the knacks entry states the table. Leave the third slot **open** — a second
 knack can surface in play, and knowing that is a gift.
@@ -187,7 +187,7 @@ gm create-character --campaign <id> --name "<their name>" --type pc \
   --species humanoid \
   --stats '{"STR":..,"CON":..,"SIZ":..,"DEX":..,"INT":..,"POW":..,"CHA":..}' \
   --skills '{...}' --passions '{...}' \
-  --equipment '["Membrane suit", ...]' \
+  --equipment '["Weave", ...]' \
   --description "<age, culture, career, knack, fetch>"
 ```
 

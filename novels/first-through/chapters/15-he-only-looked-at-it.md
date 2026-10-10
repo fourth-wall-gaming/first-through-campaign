@@ -48,7 +48,7 @@ He did not ask whether he would get in trouble, or who sent her, or whether Call
 
 "So it won't tell you why it's sticky." He stood up. "It'll tell you if the far side's moved."
 
-He stopped in the doorway with his membrane over his arm, and for the first time he looked properly awake, and properly young, and slightly frightened.
+He stopped in the doorway with his weave over his arm, and for the first time he looked properly awake, and properly young, and slightly frightened.
 
 "Has anybody checked that? In three days of it being sticky, has one person checked whether that door still goes where it's supposed to go?"
 
@@ -56,7 +56,7 @@ He stopped in the doorway with his membrane over his arm, and for the first time
 
 Dray closed his eyes for a second.
 
-"...Yeah. That's what I'd be doing." He got his membrane on over his head. "That's what I *have* been doing, on four. Four's been sticky twice this year."
+"...Yeah. That's what I'd be doing." He got his weave on over his head. "That's what I *have* been doing, on four. Four's been sticky twice this year."
 
 ---
 

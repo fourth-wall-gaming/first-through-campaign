@@ -170,9 +170,9 @@ Rill let go of her arm and swore.
 
 Ossuary checked her seals in eleven seconds flat.
 
-It set. Set again. Set a third time and a fourth, and BlingBling was flashing the number onto her collarbone in a hard white she could see through her own membrane, and it was not getting smaller.
+It set. Set again. Set a third time and a fourth, and BlingBling was flashing the number onto her collarbone in a hard white she could see through her own weave, and it was not getting smaller.
 
-Rill had hold of the back of her membrane and had not pulled yet.
+Rill had hold of the back of her weave and had not pulled yet.
 
 Then her hand came off, because there was nothing left to hold.
 
@@ -182,7 +182,7 @@ Dust. Orange light. An empty shed with the lamp halls dark and the doors shut an
 
 Four metres to the cut edge and then down — and the pit is not a pit from the inside, it is a raw concrete wound with a fuel bowser nose-down in the middle of it and people pressed round it under the lip with their backs to the rock.
 
-Tace Orun's hand came up out of the dark and hauled her in by the shoulder of the membrane and somebody else got her legs, and the Wolf Gate girl was shouting something that was mostly swearing.
+Tace Orun's hand came up out of the dark and hauled her in by the shoulder of the weave and somebody else got her legs, and the Wolf Gate girl was shouting something that was mostly swearing.
 
 She ended up jammed between a boy of about nine and the cold curve of the bowser with four metres of rock over her head.
 

@@ -16,7 +16,7 @@ keep coming back.
 
 What makes it alive is **procedure happening around somebody who is not part of
 it**: nine queues, eight of them moving; a tallyman at the head of each with a
-board; a courier coming up out of a housing already peeling her membrane off
+board; a courier coming up out of a housing already peeling her weave off
 her forearms; two hall children at the bottom of a stair with a towel and a
 flask, because they know who is due.
 
