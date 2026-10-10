@@ -7,6 +7,8 @@ up later. None of them are humanoid, none of them are hostile, and all five of
 them cross doors free, because nobody has ever found a way to charge them and
 the attempt has been made.
 
+<!-- illus: novels/first-through/illustrations/c-the-five-peoples.jpg | The low gallery at dusk. All five, and not one of them being looked after. -->
+
 **Sixlimbs**, behind the TRAPPIST-1 door. **Fathoms**, from the cloud decks of
 Luhman 16 — eyeless, unsupported, and they read a room by what its fields are
 doing rather than by looking at it. **Cairns**, out of the shelters of Tau

@@ -30,6 +30,8 @@ hundred first-throughs, on stairs, on gallery rails, in the queue behind them.
 When they say it, give it to them completely and immediately. Calloway does not
 debate it. She turns round and starts assigning.
 
+<!-- illus: novels/first-through/illustrations/d-the-relay-at-ladder.jpg | The shed at Ladder. Somebody is always saying put them down. -->
+
 ## What the relay actually is
 
 A clock, not a rule. They can get everybody. Nothing is holding a quota against

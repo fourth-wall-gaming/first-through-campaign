@@ -14,6 +14,8 @@ Sirius itself comes through the viewports as a hard blue-white that the filters
 never quite tame, with a small mean white point beside it that everybody has
 been told not to look at.
 
+<!-- illus: novels/first-through/illustrations/a-the-nine.jpg | Nine doors, eight queues moving, and the Standing on the gallery wall. -->
+
 ## The hall
 
 Nine housings in a ring in the floor, nine queues, hot metal, and a tallyman at
@@ -53,6 +55,8 @@ everybody ends up with mismatched boots and it is how you read a stranger.
 The food is free and institutional and the Wolf Gate run is better than it, and
 everybody knows it, and the queue for it is the real social life of the
 station.
+
+<!-- illus: novels/first-through/illustrations/b-sling-in-the-void.jpg | Forty metres, a weighted bag, and a two-hundred-year tally on the stanchion. -->
 
 The game is **sling** — a weighted bag thrown across forty metres of open void
 in the gallery, caught or not caught by somebody on the far rail. There is a

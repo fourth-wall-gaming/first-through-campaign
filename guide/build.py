@@ -281,6 +281,25 @@ def map_title(img):
     return img.stem.replace("-", " ").title()
 
 
+def d_illus(data, arg, images):
+    """A photograph in a chapter: `<!-- illus: path/to.jpg | caption -->`.
+
+    Separate from `map:`, which is for a full chart sheet and takes its own
+    page in print. This is an in-line plate: it sits where it is written, at
+    text width, with the caption under it.
+    """
+    path, _, caption = (x.strip() for x in arg.partition("|"))
+    src = ROOT / path
+    if not src.is_file():
+        raise SystemExit(f"illus: no such image {path}")
+    rel = images.add_image(src)
+    cap = caption or src.stem.replace("-", " ")
+    return raw(
+        f'<figure class="plate"><img src="{rel}" alt="{html.escape(cap)}">'
+        f'<figcaption>{html.escape(cap)}</figcaption></figure>',
+        f'#figure(image("{rel}", width: 100%), caption: [{esc_tc(cap)}])')
+
+
 def box(content):
     return (raw("<div class='tdm-box'>", "#tdmbox[") + "\n" + content.strip() + "\n" + raw("</div>", "]"))
 
@@ -288,6 +307,16 @@ def box(content):
 class Images:
     def __init__(self):
         self.done = {}
+
+    def add_image(self, src):
+        """Copy a finished illustration in at the size it was given."""
+        rel = "img/" + src.name
+        if rel not in self.done:
+            dst = OUT / rel
+            dst.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy(src, dst)
+            self.done[rel] = dst
+        return rel
 
     def add(self, src):
         # A chart drawn as SVG is already the right artefact: it is small, it
@@ -335,6 +364,8 @@ def expand(data, text, images):
         name, arg = m.group(1).strip(), (m.group(2) or "").strip()
         if name == "map":
             return d_map(data, arg, images)
+        if name == "illus":
+            return d_illus(data, arg, images)
         if name == "part":
             return ""
         fn = {"statblock": d_statblock, "statblocks": d_statblocks, "sheet": d_sheet, "covers": d_covers,
@@ -401,6 +432,7 @@ def build_book(book, data, images, pdf):
                       "-V", f"part={c['part']}", "-V", f"nav={nav}", "-V", f"prev={prev_l}",
                       "-V", f"next={next_l}", "-V", f"pdf=../{book['pdf']}"], c["md"])
         out = out.replace('src="maps/', 'src="../maps/')
+        out = out.replace('src="img/', 'src="../img/')
         out = re.sub(r"<table(?! class='scene-card')", "<div class=\"table-scroll\"><table", out)
         out = out.replace("</table>", "</table></div>")
         (dest / c["page"]).write_text(out)
