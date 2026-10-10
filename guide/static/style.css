@@ -1,0 +1,191 @@
+/* First Through's two books. A cold, instrument-lit page: Sirius blue-white for
+   the Games Master's book, Kapteyn's orange for the Players'; one display face,
+   one text face, and a monospace reserved for anything that is a number. Light
+   by default, dark when the reader's system asks for it. */
+
+:root {
+  --paper: #f4f6f8;
+  --panel: #ffffff;
+  --ink: #171b1f;
+  --muted: #5a646d;
+  --red: #1d4f72;           /* the accent; renamed per book below */
+  --rule: #9aa7b2;
+  --head: #dfe6ec;
+  --band: #eaeff4;
+  --box: #e4ebf1;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #15181c; --panel: #1c2126; --ink: #e7e3da; --muted: #a8aeb5;
+    --red: #a8c8e8; --rule: #39424a; --head: #2a3036; --band: #1f252a; --box: #212830;
+    color-scheme: dark;
+  }
+}
+
+* { box-sizing: border-box; }
+html { font-size: 17px; }
+body {
+  margin: 0; background: var(--paper); color: var(--ink);
+  font-family: Spectral, "Iowan Old Style", Georgia, serif; font-weight: 300; line-height: 1.6;
+}
+
+.masthead {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 2;
+  display: flex; flex-wrap: wrap; gap: .25rem 1rem; align-items: baseline;
+  padding: .6rem 1.25rem; background: var(--red); color: #f4f8fb;
+}
+.masthead a { color: inherit; text-decoration: none; }
+.masthead .book { font-family: "Bodoni Moda", Spectral, Georgia, serif; font-weight: 700; letter-spacing: .03em; }
+.masthead .sub { font-style: italic; opacity: .85; }
+.masthead .pdf { margin-left: auto; border: 1px solid #f4f8fb88; padding: 0 .6rem; border-radius: 3px; }
+
+.layout { display: grid; grid-template-columns: 16rem minmax(0, 1fr); max-width: 78rem; margin: 0 auto; }
+nav.chapters { padding: 1.5rem 1rem; border-right: 1px solid var(--rule); font-size: .92rem; }
+nav.chapters ol { padding-left: 1.2rem; margin: 0; position: sticky; top: 4rem; }
+nav.chapters li { margin: .3rem 0; }
+nav.chapters a { color: var(--ink); text-decoration: none; }
+nav.chapters a:hover { color: var(--red); }
+main { padding: 1.5rem 2.25rem 3rem; min-width: 0; }
+@media (max-width: 52rem) {
+  .layout { grid-template-columns: 1fr; }
+  nav.chapters { border-right: 0; border-bottom: 1px solid var(--rule); padding: 1rem; }
+  nav.chapters ol { position: static; columns: 2; }
+  main { padding: 1rem 1rem 2.5rem; }
+}
+
+h1, h2, h3, h4 { color: var(--red); line-height: 1.2; }
+h1 { font-family: "Bodoni Moda", Spectral, Georgia, serif; font-size: 2.1rem; border-bottom: 2px solid var(--red); padding-bottom: .3rem; }
+h2 { font-family: "Bodoni Moda", Spectral, Georgia, serif; font-size: 1.45rem; margin-top: 2.2rem; }
+h3 { font-size: 1.25rem; font-variant: small-caps; letter-spacing: .02em; margin-top: 1.8rem; }
+h4 { font-size: 1.08rem; margin-bottom: .3rem; }
+a { color: var(--red); }
+
+details.toc { background: var(--panel); border: 1px solid var(--rule); padding: .4rem .8rem; margin-bottom: 1rem; }
+details.toc summary { cursor: pointer; color: var(--muted); }
+
+figure { margin: 1.5rem 0; }
+figure img, main img { display: block; max-width: 100%; height: auto; border: 1px solid var(--rule); }
+figcaption { color: var(--muted); font-style: italic; text-align: center; margin-top: .3rem; }
+
+/* Tables: named, ruled, header shaded; wide ones scroll on their own. */
+main table { border-collapse: collapse; width: 100%; margin: .4rem 0 1.2rem; font-size: .9rem; background: var(--panel); }
+main th, main td { border: 1px solid var(--rule); padding: .3rem .45rem; vertical-align: top; text-align: left; }
+main thead th, .sb-head th { background: var(--head); }
+main tbody tr:nth-child(even) { background: var(--band); }
+.sb-wrap { overflow-x: auto; max-width: 100%; }
+main { overflow-wrap: break-word; }
+.masthead .sub { flex-basis: 100%; order: 3; font-size: .9rem; }
+@media (min-width: 52rem) { .masthead .sub { flex-basis: auto; order: 0; } }
+
+/* Stat blocks */
+.sb-wrap { margin: .4rem 0 1.8rem; }
+table.statblock { margin: 0; font-size: .85rem; }
+table.statblock caption { text-align: left; font-weight: 700; color: var(--red); padding: .2rem 0; }
+table.statblock td.c { text-align: center; white-space: nowrap; }
+table.statblock .sb-skills, table.statblock .sb-style { background: var(--panel); }
+table.sb-combat { margin-top: -1px; }
+table.sb-combat tr:nth-child(even) { background: var(--panel); }
+
+/* Scene card: the facts of a beat, at the head of its scene */
+table.scene-card { width: auto; max-width: 100%; font-size: .85rem; margin: .2rem 0 1rem; }
+table.scene-card th { background: var(--head); white-space: nowrap; width: 7rem; }
+
+/* Boxed text and handouts */
+.tdm-box { background: var(--box); border: 1px solid var(--rule); border-left: 4px solid var(--red);
+  padding: .6rem 1rem; margin: 1rem 0; }
+
+nav.pager { display: flex; justify-content: space-between; gap: 1rem; margin-top: 3rem;
+  padding-top: 1rem; border-top: 1px solid var(--rule); }
+nav.pager span { flex: 1; }
+
+footer { max-width: 78rem; margin: 0 auto; padding: 1rem 1.25rem 2rem; color: var(--muted); font-size: .85rem;
+  border-top: 1px solid var(--rule); }
+
+/* ---- two books ---- */
+.masthead .sub { color: inherit; text-decoration: none; }
+.masthead .other { margin-left: auto; font-size: .9rem; opacity: .85; }
+.masthead .other + .pdf { margin-left: .6rem; }
+nav.chapters li.part { margin: 1rem 0 .4rem; list-style: none; }
+nav.chapters li.part > span { display: block; margin-left: -1.2rem; font-family: "Bodoni Moda", Spectral, Georgia, serif; font-size: .78rem;
+  letter-spacing: .08em; text-transform: uppercase; color: var(--red); }
+nav.chapters li.part ol { padding-left: 1.2rem; position: static; columns: auto; }
+nav.chapters > ol { list-style: none; }
+.part-label { font-family: "Bodoni Moda", Spectral, Georgia, serif; font-size: .8rem; letter-spacing: .1em; text-transform: uppercase;
+  color: var(--muted); margin: 0 0 .5rem; }
+.book-players { --red: #8a4418; }
+@media (prefers-color-scheme: dark) { .book-players { --red: #d9924e; } }
+
+/* the opening paragraph of a chapter gets a drop capital */
+main h1 + p::first-letter { float: left; font-family: "Bodoni Moda", Spectral, Georgia, serif; font-size: 3.4em; line-height: .85;
+  padding: .08em .08em 0 0; color: var(--red); }
+
+/* voices: a Non-Player Character's own words */
+main blockquote { margin: 1rem 0 1rem 1.5rem; padding: .2rem 0 .2rem 1rem; border-left: 2px solid var(--red);
+  font-style: italic; color: var(--ink); }
+main blockquote p { margin: .3rem 0; }
+
+/* ---- landing ---- */
+body.landing { background: var(--paper); }
+.hero { position: relative; overflow: hidden; background: #0e1116; color: #e7e3da; }
+.hero-map { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: .22;
+  border: 0; max-width: none; }
+.hero-text { position: relative; max-width: 46rem; margin: 0 auto; padding: 4.5rem 1.25rem 3.5rem; text-align: center; }
+.hero .kicker { font-style: italic; opacity: .85; margin: 0; }
+.hero h1 { font-family: "Bodoni Moda", Spectral, Georgia, serif; color: #e7e3da; font-size: clamp(2rem, 6vw, 3.4rem); margin: .3rem 0 0;
+  border: 0; line-height: 1.1; }
+.hero .subtitle { font-family: "Bodoni Moda", Spectral, Georgia, serif; font-size: clamp(1.2rem, 3.5vw, 1.8rem); letter-spacing: .2em;
+  margin: .2rem 0 1.4rem; color: #a8c8e8; }
+.hero .pitch { font-size: 1.15rem; line-height: 1.55; margin: 0 auto; max-width: 38rem; }
+main.choose { display: grid; grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr)); gap: 1.25rem;
+  max-width: 62rem; margin: -1.8rem auto 1rem; padding: 0 1.25rem; position: relative; }
+a.door { display: flex; flex-direction: column; gap: .5rem; padding: 1.4rem 1.5rem; text-decoration: none;
+  color: var(--ink); background: var(--panel); border: 1px solid var(--rule); border-top: 5px solid #1d4f72;
+  box-shadow: 0 6px 18px #0002; }
+a.door.players { border-top-color: #8a4418; }
+a.door:hover { transform: translateY(-2px); box-shadow: 0 10px 24px #0003; }
+.door-kicker { font-style: italic; color: var(--muted); }
+.door-title { font-family: "Bodoni Moda", Spectral, Georgia, serif; font-size: 1.45rem; color: #1d4f72; }
+a.door.players .door-title { color: #8a4418; }
+.door-go { margin-top: auto; font-weight: 600; }
+@media (prefers-color-scheme: dark) {
+  .door-title, a.door.players .door-title { color: var(--red); }
+  .masthead { color: #0e1116; }
+  .masthead .pdf { border-color: #0e1116aa; }
+}
+.pdfs { text-align: center; color: var(--muted); }
+
+/* on a phone the text comes first and the chapter list follows it */
+.masthead .jump { display: none; }
+@media (max-width: 52rem) {
+  .layout { display: flex; flex-direction: column; }
+  nav.chapters { order: 2; border-bottom: 0; border-top: 1px solid var(--rule); }
+  main { order: 1; }
+  .masthead .jump { display: inline; margin-left: auto; font-size: .9rem; }
+  .masthead .jump + .other { margin-left: .6rem; }
+}
+
+.table-scroll { overflow-x: auto; max-width: 100%; margin: .4rem 0 1.2rem; }
+.table-scroll > table { margin: 0; }
+main table caption { caption-side: top; text-align: left; font-weight: 600; color: var(--red); padding: .2rem 0; }
+
+/* the third door: what the game is actually like, for a parent */
+a.door.parents { border-top-color: #6b5aa0; }
+a.door.parents .door-title { color: #6b5aa0; }
+@media (prefers-color-scheme: dark) { a.door.parents .door-title { color: #b0a2e0; } }
+
+/* numbers, where the setting insists on them */
+main code, main kbd { font-family: "IBM Plex Mono", ui-monospace, Menlo, monospace; font-size: .88em; }
+
+/* two paragraphs of pitch need air between them */
+.hero .pitch + .pitch { margin-top: .9rem; }
+
+/* a one-line opening paragraph leaves its drop cap floating into whatever
+   follows; tables, figures and boxes clear it */
+main table, .table-scroll, figure, .tdm-box, .sb-wrap { clear: left; }
+
+/* the parents' page has no chapter list, so it is one column and narrower */
+.layout.single { grid-template-columns: minmax(0, 1fr); max-width: 50rem; }
+.layout.single main { padding: 2rem 1.5rem 3rem; }
+body.book-parents { --red: #4b3f7a; }
+@media (prefers-color-scheme: dark) { body.book-parents { --red: #b0a2e0; } }

@@ -1,0 +1,61 @@
+name: The two books
+
+# Builds the Games Master's Guide and the Players' Guide from the campaign
+# files on every pull request, and publishes them to GitHub Pages on every
+# push to main.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  PANDOC_VERSION: "3.10"
+  TYPST_VERSION: "0.14.2"
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v6
+
+      - name: Install pandoc and Typst
+        run: |
+          curl -sSLo pandoc.deb "https://github.com/jgm/pandoc/releases/download/${PANDOC_VERSION}/pandoc-${PANDOC_VERSION}-1-amd64.deb"
+          sudo dpkg -i pandoc.deb
+          curl -sSL "https://github.com/typst/typst/releases/download/v${TYPST_VERSION}/typst-x86_64-unknown-linux-musl.tar.xz" | tar -xJ
+          sudo install typst-x86_64-unknown-linux-musl/typst /usr/local/bin/typst
+          pandoc --version | head -1 && typst --version
+
+      - name: Tests
+        run: uv run --with pytest --with pyyaml --with pillow pytest -q tests/
+
+      - name: Build the two books
+        run: uv run --with pyyaml --with pillow python guide/build.py
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-24.04
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

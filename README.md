@@ -21,6 +21,28 @@ You are a **first-through**: fifteen, the youngest the Threshold has taken in
 years. The old doors are failing faster than age explains. And the one
 everybody has waited nine centuries for opens next year.
 
+## The two books
+
+The campaign ships as a website with a book on each side of the screen, built
+from the campaign files by `guide/build.py` and published to GitHub Pages:
+
+- **The Players' Guide** — everything a first-through already knows, with no
+  spoilers in it.
+- **The Games Master's Guide** — the physics, the cast, Act One beat by beat,
+  how to run it for a young player, and full statistics. Contains the ending.
+- **What Actually Happens** — a page for a parent, with a novel transcribed
+  from a real four-day run of the game attached to it.
+
+```bash
+uv run --with pyyaml --with pillow python guide/build.py   # writes _site/
+```
+
+Chapters are hand-written markdown in `guide/gm/` and `guide/players/`.
+Anything with a number in it comes out of the campaign files through a
+directive on a line of its own -- `<!-- roster -->`, `<!-- timeline -->`,
+`<!-- agendas -->`, `<!-- areas -->`, `<!-- statblocks: major -->`,
+`<!-- lore: lore/....md -->` -- so the books cannot drift from the game.
+
 ## Install
 
 ```
