@@ -104,7 +104,7 @@ Calloway went very still.
 
 Lint said it again.
 
-Dunnel's head came up off the slate. "Director — the fathoms have been in that void since the Cold Doors opened."
+Dunnel's head came up off her pad. "Director — the fathoms have been in that void since the Cold Doors opened."
 
 "I know how long they've been in the void, Dunnel." Flat. Not at Dunnel. "Right. **Get it.** Ask it properly, it's a citizen, and if it says yes it comes to me and not to that ring."
 
@@ -204,7 +204,7 @@ He looked at her for a long moment, then at the hatch he had just climbed out of
 
 ---
 
-The office. Calloway. Dunnel with the slate. Mina Haral in the good chair with her brace on a cushion, who had been in the room for twenty minutes and had evidently been told everything already and had formed opinions about all of it.
+The office. Calloway. Dunnel with her pad. Mina Haral in the good chair with her brace on a cushion, who had been in the room for twenty minutes and had evidently been told everything already and had formed opinions about all of it.
 
 And then a fifteen-year-old, a deck engineer in a coverall, and a metre of eyeless weave which would not use the corridor and had come along the open side of the stairwell.
 

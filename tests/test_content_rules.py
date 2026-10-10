@@ -530,8 +530,14 @@ def test_no_chalk_or_slate_in_shipped_prose():
               + sorted((ROOT / "locations").glob("*.md"))
               + sorted((ROOT / "setting").glob("*.md"))
               + sorted((ROOT / "characters").rglob("*.json"))
+              # Everything published, not just the campaign source: the guide
+              # and the novel are shipped prose too, and chalk got into both of
+              # them while this test watched only lore/.
+              + sorted((ROOT / "guide").rglob("*.md"))
+              + sorted((ROOT / "novels").rglob("*.md"))
+              + sorted((ROOT / "novels").rglob("*.txt"))
               + [ROOT / "campaign.yaml", ROOT / "README.md"]):
-        if not p.exists():
+        if not p.exists() or ".build" in p.parts or p.name == "source.md":
             continue
         for m in set(x.lower() for x in pattern.findall(p.read_text())):
             hits.setdefault(m, []).append(p.name)

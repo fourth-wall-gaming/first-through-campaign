@@ -18,7 +18,7 @@ Third, and this is the Pathfinder in her: she could now get from the hall to any
 
 Which is how she ended up, near the end of it, back at the waist of the cylinder under **the Standing**.
 
-Four metres of slate on the gallery wall above the hall, every door in human space written on it with where it currently goes. Updated whenever a courier comes in with better information. The most important object in the Causeway, and it's a *slate*, because a slate can be corrected in eleven seconds by somebody on a stool.
+Four metres of board on the gallery wall above the hall, every door in human space written on it with where it currently goes. Updated whenever a courier comes in with better information. The most important object in the Causeway, and it's a *board somebody writes on*, because a board can be corrected in eleven seconds by somebody on a stool.
 
 People stop under it without meaning to. She'd just done it.
 
@@ -28,7 +28,7 @@ She knew her, actually. "You were on the top rail. With the flask. You caught my
 
 "It counted," said the girl, with enormous satisfaction, as though the matter had been in doubt all day and she had personally settled it.
 
-She came down off the stool. Small, eleven or so, chalk to the elbow, a rag through her belt and the unmistakable bearing of someone doing a job. She wiped her hand on the rag before she offered it, which was more manners than anyone had shown Lint since she got there.
+She came down off the stool. Small, eleven or so, ink to the elbow, a rag through her belt and the unmistakable bearing of someone doing a job. She wiped her hand on the rag before she offered it, which was more manners than anyone had shown Lint since she got there.
 
 "Sennet. Everyone calls me Sen. I do the Standing on second and third watch."
 
@@ -44,7 +44,7 @@ She tested at nine, then. The whole family came, and she frayed like an adult, a
 
 "Right," said Sen, and she was *delighted*, and she squared her shoulders.
 
-"Four things on every line. People only ever read two." She tapped along the Procyon line with the flat of the chalk. "**Door. Where it goes. Who last stood it. Which watch.** That's it."
+"Four things on every line. People only ever read two." She tapped along the Procyon line with the back of her pen. "**Door. Where it goes. Who last stood it. Which watch.** That's it."
 
 "Now. The bit nobody reads is the *fourth* one, and the fourth one is the only one that matters. Because a door tells you where it went *when somebody last looked*. That's all. The Bell line said Bell and it was eleven days stale and everybody kept reading it like it was today, and a door can stray in the time it takes you to walk down here."
 
@@ -60,7 +60,7 @@ That was better than anything the Yards taught her about the Standing.
 
 ---
 
-Then she went up two steps on the stool and reached well over to the left, to a part of the slate where the chalk had gone into the stone and the stone had gone grey around it, and she didn't touch it, and Lint got the strong impression that nobody touches it.
+Then she went up two steps on the stool and reached well over to the left, to a part of the board where the ink had gone into the surface and the surface had gone grey around it, and she didn't touch it, and Lint got the strong impression that nobody touches it.
 
 "And then there's that one."
 
@@ -70,7 +70,7 @@ Then she went up two steps on the stool and reached well over to the left, to a 
 
 She looked at it for a moment with her head tipped.
 
-"*This watch.* That's what you write when a door doesn't answer and you expect it to answer later. It's the normal thing. I write it four or five times a year." She wiped a bit of chalk off her fingers. "Somebody wrote it that afternoon because they thought they'd be rubbing it out by the next one."
+"*This watch.* That's what you write when a door doesn't answer and you expect it to answer later. It's the normal thing. I write it four or five times a year." She wiped a bit of ink off her fingers. "Somebody wrote it that afternoon because they thought they'd be rubbing it out by the next one."
 
 A beat.
 
@@ -94,6 +94,6 @@ Sen stopped with the rag halfway to her belt. "...Me?"
 
 There was a pause of about two seconds in which she visibly did not know what to do with her face, and then she got it under control, and then she said, far too casually:
 
-"Well. I mean. I'd have to get Oris to sit the slate." A beat. "He's rubbish. He doesn't dust."
+"Well. I mean. I'd have to get Oris to sit the board." A beat. "He's rubbish. He doesn't dust."
 
 She was already off the stool.

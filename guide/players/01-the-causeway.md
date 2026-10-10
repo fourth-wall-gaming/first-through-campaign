@@ -57,12 +57,13 @@ down. Occasionally the sum has more than one answer, and the far mouth jumps to
 a different one. That is called **straying**, and there is a word for it
 because it has happened often enough to need one.
 
-Which is why the most important object in human space is a slate.
+Which is why the most important object in human space is a board somebody
+writes on by hand.
 
 ## The Standing
 
-Four metres of slate on the gallery wall above the anchor hall at the Nine,
-with every door anybody knows about written on it in chalk, and where it
+Four metres of board on the gallery wall above the anchor hall at the Nine,
+with every door anybody knows about written up on it by hand, and where it
 currently goes, and who last stood it, and **which watch they stood it in**.
 
 Four things on a line. People read the first two.

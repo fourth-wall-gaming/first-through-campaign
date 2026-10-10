@@ -40,7 +40,7 @@ She stopped herself, because she's eleven and she could hear that she was showin
 
 ---
 
-She stayed. Sen went back down at speed because Oris was sitting her slate.
+She stayed. Sen went back down at speed because Oris was sitting her board.
 
 So it was her and the bay and four thousand points of light. The Nine turned. The field drifted, slowly, the whole of it together, which is the only way you ever really feel the spin once you've lived in it.
 

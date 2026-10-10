@@ -10,7 +10,7 @@
 
 "I did. Both those things are true at once and you're going to have to get used to it." She folded her arms. "You've been twelve hours ahead of me since yesterday morning and I'd be an idiot to tell you off and then not ask. I don't care who's got the information. I care that it's in this hall and not in my hand."
 
-Dunnel, from behind her, not looking up from the slate: "She does this."
+Dunnel, from behind her, not looking up from her pad: "She does this."
 
 "I do this."
 

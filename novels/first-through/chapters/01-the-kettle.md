@@ -60,4 +60,4 @@ Calloway had not turned round. She had been pouring the same pot for about fifte
 
 Then she set a mug down in front of Lint. It was, demonstrably, scalded.
 
-"Drink that and stop encouraging them." A slate beside it. "Procyon again, I'm afraid. Mina Haral's coming back and somebody has to go and get her — she's a reader, she's eighty-one, and she is not crossing without a first-through who'll be patient with her. Five light years, shortest hop on the Causeway, you'll be back before the watch turns."
+"Drink that and stop encouraging them." A pad beside it. "Procyon again, I'm afraid. Mina Haral's coming back and somebody has to go and get her — she's a reader, she's eighty-one, and she is not crossing without a first-through who'll be patient with her. Five light years, shortest hop on the Causeway, you'll be back before the watch turns."

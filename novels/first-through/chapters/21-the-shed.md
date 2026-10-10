@@ -2,7 +2,7 @@
 
 *Day four · dawn*
 
-Somebody was shaking her shoulder and it was Sen, which should not have been possible, because Sen is eleven and that is a first-through bunkroom four levels from her slate.
+Somebody was shaking her shoulder and it was Sen, which should not have been possible, because Sen is eleven and that is a first-through bunkroom four levels from her board.
 
 "It's *lit*."
 

@@ -12,7 +12,7 @@ Ferren saw the tray first and his whole face changed. "Oh, that's Wolf Gate. Tha
 
 "On her *first day off.* Unprompted."
 
-"I was there," said Sen, off shift, chalk washed to the wrist, sitting on the rail with her heels hooked under it. "She's been everywhere. Three times I saw her."
+"I was there," said Sen, off shift, ink washed to the wrist, sitting on the rail with her heels hooked under it. "She's been everywhere. Three times I saw her."
 
 Rill took a bowl without being asked, which from her is a compliment, and knocked her shoulder into Lint's once as she sat down.
 
@@ -105,7 +105,7 @@ BlingBling came off the lamp bracket and down onto the bench beside her knee, ou
 ::: glint
 No. Nor do I.
 
-He talked to everyone on this bench. He asked the child about her slate and the loud one about his shoulder and he knew your number before you said it.
+He talked to everyone on this bench. He asked the child about her board and the loud one about his shoulder and he knew your number before you said it.
 
 He did not look at me once. Not once. Not when I moved, not when I lit, not when I was six inches from his hand.
 

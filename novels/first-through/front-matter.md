@@ -50,12 +50,12 @@ The doors do not always stay where they are. A door is pinned not to a place
 but to a depth — to the sum of all the gravity around it — and once in a while
 that sum has more than one answer, and the far mouth goes somewhere else. It is
 called straying. It has happened often enough that there is a word for it, and a
-slate four metres wide on the gallery wall at Sirius with every door in human
-space written on it in chalk, and where it currently goes, and when somebody
+board four metres wide on the gallery wall at Sirius with every door in human
+space written up on it by hand, and where it currently goes, and when somebody
 last looked.
 
 In the spring of year six hundred and two a door at Kapteyn's Star stopped
-answering, and eleven thousand people went with it, and the line on the slate
+answering, and eleven thousand people went with it, and the line on the board
 has never been changed.
 
 The star is still there. You can see it from a corridor.

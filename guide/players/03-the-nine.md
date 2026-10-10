@@ -69,7 +69,7 @@ Every station has **hall children** — people who were tested and could not do
 it, which is the ordinary outcome and everybody says so beforehand and nobody
 quite believes it about their own.
 
-They run the halls. They keep the boards, carry the towels, sit the slates,
+They run the halls. They keep the boards, carry the towels, sit the Standing,
 know which trunking run the engineer is in, and notice when a line has gone
 stale eleven days before anybody else does.
 
