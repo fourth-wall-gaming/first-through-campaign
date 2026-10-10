@@ -13,8 +13,8 @@ and the other one describes what happens as a result, and dice settle anything
 genuinely uncertain. A session runs two or three hours. It is a conversation
 with rules.
 
-The rules are *Mythras Imperative*, a published system, used unmodified. They
-amount to: roll two ten-sided dice, read them as a number out of a hundred, and
+The rules are *Mythras Imperative*, a published system, used unmodified — and
+free, as a PDF, from the people who wrote it. They amount to: roll two ten-sided dice, read them as a number out of a hundred, and
 try to get under the number written next to the relevant skill on your sheet.
 That is the whole of it. A child who can subtract can play this.
 
@@ -96,6 +96,41 @@ visibly eating the wreckage of its own planets.
 There is an automated test that fails the project if a number in the prose
 disagrees with the data file. Children notice when you make things up. This one
 does not.
+
+## If you are the one who has to run it
+
+Quite likely, and worth saying plainly: you do not need to have played a
+roleplaying game before, and you have two routes.
+
+**Let the machine run it.** The campaign ships as a plugin for Claude Code.
+Claude plays the Games Master, a rules engine does the dice, and you do not
+read anything. This is the shortest path from here to your child playing
+tonight, and it is a real game, not a demo.
+
+**Or run it yourself, which is better if you can.** For that you need the
+rules, because the guides on this site are the story and the characters and
+deliberately not the system. They are *Mythras Imperative*, they are free, and
+The Design Mechanism publish the PDF on their
+[downloads page](https://thedesignmechanism.com/free-downloads/).
+
+Three things that make this less daunting than it looks.
+
+**You need about fifteen pages of it to start** — how a roll works, how
+difficulty is set, and what a Luck Point does. One evening, unhurried.
+
+**You can skip the combat chapter, which is the intimidating one.** There is
+no fighting anywhere in this campaign. Not one scene. The danger is a door
+that will not open and a clock that is running out, and nobody in this setting
+reaches for a weapon, because everyone lives inside a hull and a weapon that
+kills a person opens a wall.
+
+**You are not required to judge anything.** You say how hard a thing is before
+the dice are rolled, and then you and your child find out together. That is a
+much smaller job than it sounds from the outside, and it is the part children
+find fair.
+
+The Games Master's Guide opens with all of this in more detail, including the
+part that is actually hard, which is not the rules.
 
 ## Read the actual thing
 

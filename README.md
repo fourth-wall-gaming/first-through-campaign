@@ -126,6 +126,13 @@ Star reveal. Acts 3-5 are documented in `lore/gm-secret/` as outline.
 
 ## For GMs
 
+**If you are running this yourself rather than with the engine, you need a copy
+of _Mythras Imperative_.** This repository is a scenario and a setting; it is
+not a rules system and does not contain one. The Design Mechanism publish the
+PDF free on their [downloads page](https://thedesignmechanism.com/free-downloads/)
+under the ORC License, it is a complete game, and nothing here needs anything
+beyond it. With the engine, the rules are in code and you need nothing.
+
 Start with `CLAUDE.md`, then `TABLE-ADDENDUM.md`, then `lore/gm-guide/`.
 
 ```bash

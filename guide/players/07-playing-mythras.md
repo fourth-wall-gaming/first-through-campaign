@@ -1,4 +1,4 @@
-<!-- part: Your Character -->
+<!-- part: At the Table -->
 
 # How the Dice Work
 
@@ -76,6 +76,17 @@ badly you are hurt because you will be told plainly.
 Crossing repeatedly in a day makes you **tired**, and tired is mechanical: your
 numbers come down. Nobody has ever made six crossings in a day and felt fine
 afterwards.
+
+## If you want the actual rulebook
+
+You do not need it. Everything above is enough to play, and your Games Master
+has the rest.
+
+But if you are the sort of person who wants to see the whole machine,
+*Mythras Imperative* is free — The Design Mechanism publish the PDF on their
+[free downloads page](https://thedesignmechanism.com/free-downloads/). It is a
+complete game in about sixty pages, and the combat chapter in particular is
+worth reading once you have played a fight.
 
 ## The only piece of advice that matters
 
