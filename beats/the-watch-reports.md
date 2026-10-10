@@ -1,7 +1,7 @@
 ---
 id: "myth-beat-0e4891526df6"
 title: "The watch reports"
-summary: "Six hundred years of a rota that has never once reported anything"
+summary: "Three and a half centuries of a rota that has never once reported anything"
 status: "pending"
 when: "d2/dawn"
 trigger: "time"

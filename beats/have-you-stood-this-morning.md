@@ -16,4 +16,4 @@ it and where it currently goes.
 
 Somebody -- a hall child, ideally, who cannot cross and knows more about it than
 anybody -- explains it, and is proud to, and mentions that the Kapteyn's line has
-had the same four words against it for six hundred years.
+had the same four words against it for three and a half centuries.

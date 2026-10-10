@@ -85,7 +85,7 @@ twelve and a half light years out.
 
 Its door strayed in the spring of 602 and went dark, and has stayed dark.
 
-For four hundred years that was read as loss. It is now read as something worse
+For three centuries that was read as loss. It is now read as something worse
 and better: by [[Straying]], a mouth that lands inside rock does not open at all.
 It is **closed, not destroyed**, and the far side is exactly where it always was.
 
@@ -103,11 +103,11 @@ Kapteyn's Star is still there. On a clear watch at the Nine you can be shown
 which point it is, and people do show you, and the pointing is a thing visitors
 find unbearable long before the residents do.
 
-Everybody alive has a version of the sum: twenty-four generations, so
+Everybody alive has a version of the sum: fifteen generations, so
 whoever is there now is nobody's cousin exactly, and is still ours.
 
-The Threshold keeps a watch on that housing. It has been kept for six hundred
-years, it has never once reported anything, and the rota has never been cut.
+The Threshold keeps a watch on that housing. It has been kept for three hundred and
+seventy-three years, it has never once reported anything, and the rota has never been cut.
 
 **The map has twenty-eight systems on it. It used to have twenty-nine.**
 

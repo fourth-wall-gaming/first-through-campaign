@@ -36,6 +36,6 @@ nail by a door than if anybody points at it.
 ## Where it ends
 
 Act One closes on the watch at van Maanen's Star reporting something for the
-first time in six hundred years.
+first time in three and a half centuries.
 
 Act Two is Kapteyn's.
