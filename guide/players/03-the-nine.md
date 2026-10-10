@@ -56,7 +56,7 @@ station.
 
 The game is **sling** — a weighted bag thrown across forty metres of open void
 in the gallery, caught or not caught by somebody on the far rail. There is a
-tally scratched into a stanchion in the Yards going back two hundred years.
+tally scratched into a stanchion in the void going back two hundred years.
 Nobody tidies it up.
 
 The good view is wherever a shutter is open, and the shutters are closed by

@@ -2,7 +2,7 @@
 
 *Day one · second watch, bay four*
 
-Nine levels up, and the spin got lighter the whole way, and by the top gallery she was walking in that half-floating way that makes the Yards kids show off and makes everybody over thirty hold the rail.
+Nine levels up, and the spin got lighter the whole way, and by the top gallery she was walking in that half-floating way that makes the first-throughs show off and makes everybody over thirty hold the rail.
 
 The upper gallery was long and curved and almost empty, and shuttered — of course it was. Sirius comes through every port as a hard blue-white the filters never quite tame.
 

@@ -5,44 +5,123 @@ campaign_id: myth-campaign-first-through-s1
 style: first-through
 art_style: first-through
 status: outline-pending
-high_water_mark: myth-event-e0646df6e035
-source_note: >-
-  Dialogue in this manuscript is taken from the play transcript, not from the
-  journal summaries in source.md -- see NOVELIZATION.md step 5. Days nought to
+high_water_mark: myth-event-eef7320a98c2
+source_note: 'Dialogue in this manuscript is taken from the play transcript, not from
+  the journal summaries in source.md -- see NOVELIZATION.md step 5. Days nought to
   three were first drafted off the transcript for docs/thirty-four-at-fifteen.html
-  and are carried forward here; days three to five are drafted from the
-  transcript directly. Four GM errors were caught in play and retracted on the
-  record (journal event myth-event-4b446bf6b5fa): the Nine's end of door seven
-  never moves, Mina Haral has never crossed on her own feet, Ladder is sixty-one
-  people and no more, and a glint counts the hesitation and does not sense
-  flares. None of the retracted version appears in this book. The eight
-  retracted events of the first day two are likewise absent.
+  and are carried forward here; days three to five are drafted from the transcript
+  directly. Four GM errors were caught in play and retracted on the record (journal
+  event myth-event-4b446bf6b5fa): the Nine''s end of door seven never moves, Mina
+  Haral has never crossed on her own feet, Ladder is sixty-one people and no more,
+  and a glint counts the hesitation and does not sense flares. None of the retracted
+  version appears in this book. The eight retracted events of the first day two are
+  likewise absent.'
 outline:
-  - {n: 1,  title: The Kettle,                 covers: "d0 dawn -- the ready room; Pell Ivor's tenth run-up; the Procyon job"}
-  - {n: 2,  title: Five Light Years,           covers: "d0 first watch -- Mina Haral's four rules; the carry fails; she pushes; the wrist; the gallery of glints; Calloway"}
-  - {n: 3,  title: White, Not Clouded,         covers: "d0 the dead watch -- Rill at four in the morning, and one straight answer"}
-  - {n: 4,  title: Like a Farmer,              covers: "d1 morning -- sling in the Yards; Ferren; a fathom nobody has ever said yes to"}
-  - {n: 5,  title: A Line Is When,             covers: "d1 afternoon -- walking the Nine until she can draw it; Sennet, and how to read the Standing"}
-  - {n: 6,  title: Four Thousand Points,       covers: "d1 second watch -- bay four; Kapteyn's; Hesk and nineteen years of lunches"}
-  - {n: 7,  title: Supper for Four,            covers: "d1 dusk -- a crew out of nobody she was given; Benno Raske knows her number"}
-  - {n: 8,  title: Sticky,                     covers: "d2 dawn -- two loaders on a stair, and the most reassuring sentence anybody had said to her"}
-  - {n: 9,  title: The Tenth Speech,           covers: "d2 fourth level -- a book is an animal; the reading store; the Low Stair; the tenth speech of the Reach"}
-  - {n: 10, title: Nothing Happened,           covers: "d2 -- what happened to the Reach; why nobody will ever build another door; what the silence cost"}
-  - {n: 11, title: Where She's Working,        covers: "d2 -- Sen reads flash; Sol out of a maintenance gallery; forty pages where nothing happens"}
-  - {n: 12, title: Drawn in Light,             covers: "d2 second watch -- the wrong teacher; twelve glints draw a column of air; the worst throw ever seen; two flips"}
-  - {n: 13, title: That's How It's Done,       covers: "d3 dawn -- Mina carried home clean, because somebody finally asked the cargo"}
-  - {n: 14, title: Forty-One for Twenty-Three, covers: "d3 morning -- door seven up close; no knack reads the near side; a tallyman turns his board round"}
-  - {n: 15, title: He Only Looked At It,       covers: "d3 -- Dray Enns woken off a late; the Listen fails; 'it's two'; Calloway gives both halves in front of thirty people"}
-  - {n: 16, title: Doors Don't Have Seasons,   covers: "d3 -- every spring for eleven years; seven hundred and ninety-four dips; twenty-six and a half years; the thirty-first"}
-  - {n: 17, title: The Near Side,              covers: "d3 -- fourteen names in ninety seconds; the grounding argued out; what Vantage puts on the table before saying yes; Hesk and the lamps"}
-  - {n: 18, title: Fourteen Hours,             covers: "d3 -- the slope across the ring; a critical into Gliese 65; Vey names Ladder; the disaster and the rescue are the same event"}
-  - {n: 19, title: Don't Brace,                covers: "d3 -- four hundred and six in the hall; a counting song; Rill's sleeves on the rope; the fifth attempt takes"}
-  - {n: 20, title: A Bowser on the Ring,       covers: "d3 -- Ladder's answer; Hesk's drain; Rill works out you drop it; the last trip fails; and then it goes"}
-  - {n: 21, title: The Shed,                   covers: "d4 dawn -- it's lit; a plate propped across the ring; Tace Orun; nineteen children with their names on their hands"}
-  - {n: 22, title: Go On Their Count,          covers: "d4 -- the back of a line four hundred long; forty-two adults and nobody ordered; the other job; Mina on a bench"}
-  - {n: 23, title: Four Hundred for the Night, covers: "d4 -- the relay from the Ladder side; Rill and Benno's money; the pit under four metres of rock; the last woman in the line"}
-  - {n: 24, title: Sixty of Sixty-One,         covers: "d4 night to d5 dawn -- out of luck against a stanchion; Oris forces it; Rill goes back; Tace stays; it goes with no sound at all"}
+- n: 1
+  title: The Kettle
+  covers: d0 dawn -- the ready room; Pell Ivor's tenth run-up; the Procyon job
+- n: 2
+  title: Five Light Years
+  covers: d0 first watch -- Mina Haral's four rules; the carry fails; she pushes;
+    the wrist; the gallery of glints; Calloway
+- n: 3
+  title: White
+  Not Clouded: null
+  covers: d0 the dead watch -- Rill at four in the morning, and one straight answer
+- n: 4
+  title: Like a Farmer
+  covers: d1 morning -- sling in the Yards; Ferren; a fathom nobody has ever said
+    yes to
+- n: 5
+  title: A Line Is When
+  covers: d1 afternoon -- walking the Nine until she can draw it; Sennet, and how
+    to read the Standing
+- n: 6
+  title: Four Thousand Points
+  covers: d1 second watch -- bay four; Kapteyn's; Hesk and nineteen years of lunches
+- n: 7
+  title: Supper for Four
+  covers: d1 dusk -- a crew out of nobody she was given; Benno Raske knows her number
+- n: 8
+  title: Sticky
+  covers: d2 dawn -- two loaders on a stair, and the most reassuring sentence anybody
+    had said to her
+- n: 9
+  title: The Tenth Speech
+  covers: d2 fourth level -- a book is an animal; the reading store; the Low Stair;
+    the tenth speech of the Reach
+- n: 10
+  title: Nothing Happened
+  covers: d2 -- what happened to the Reach; why nobody will ever build another door;
+    what the silence cost
+- n: 11
+  title: Where She's Working
+  covers: d2 -- Sen reads flash; Sol out of a maintenance gallery; forty pages where
+    nothing happens
+- n: 12
+  title: Drawn in Light
+  covers: d2 second watch -- the wrong teacher; twelve glints draw a column of air;
+    the worst throw ever seen; two flips
+- n: 13
+  title: That's How It's Done
+  covers: d3 dawn -- Mina carried home clean, because somebody finally asked the cargo
+- n: 14
+  title: Forty-One for Twenty-Three
+  covers: d3 morning -- door seven up close; no knack reads the near side; a tallyman
+    turns his board round
+- n: 15
+  title: He Only Looked At It
+  covers: d3 -- Dray Enns woken off a late; the Listen fails; 'it's two'; Calloway
+    gives both halves in front of thirty people
+- n: 16
+  title: Doors Don't Have Seasons
+  covers: d3 -- every spring for eleven years; seven hundred and ninety-four dips;
+    twenty-six and a half years; the thirty-first
+- n: 17
+  title: The Near Side
+  covers: d3 -- fourteen names in ninety seconds; the grounding argued out; what Vantage
+    puts on the table before saying yes; Hesk and the lamps
+- n: 18
+  title: Fourteen Hours
+  covers: d3 -- the slope across the ring; a critical into Gliese 65; Vey names Ladder;
+    the disaster and the rescue are the same event
+- n: 19
+  title: Don't Brace
+  covers: d3 -- four hundred and six in the hall; a counting song; Rill's sleeves
+    on the rope; the fifth attempt takes
+- n: 20
+  title: A Bowser on the Ring
+  covers: d3 -- Ladder's answer; Hesk's drain; Rill works out you drop it; the last
+    trip fails; and then it goes
+- n: 21
+  title: The Shed
+  covers: d4 dawn -- it's lit; a plate propped across the ring; Tace Orun; nineteen
+    children with their names on their hands
+- n: 22
+  title: Go On Their Count
+  covers: d4 -- the back of a line four hundred long; forty-two adults and nobody
+    ordered; the other job; Mina on a bench
+- n: 23
+  title: Four Hundred for the Night
+  covers: d4 -- the relay from the Ladder side; Rill and Benno's money; the pit under
+    four metres of rock; the last woman in the line
+- n: 24
+  title: Sixty of Sixty-One
+  covers: d4 night to d5 dawn -- out of luck against a stanchion; Oris forces it;
+    Rill goes back; Tace stays; it goes with no sound at all
 illustrations:
-  - {file: a-the-nine.png,            chapter: 1,  after_text: "Nine doors going at once under the window", prompt_file: a-the-nine.txt, caption: "The anchor hall at the Nine."}
-  - {file: b-sling-in-the-void.png,   chapter: 4,  after_text: "the Quick did the rest", prompt_file: b-sling-in-the-void.txt, caption: "A horrible flat throw."}
-  - {file: d-the-relay-at-ladder.png, chapter: 23, after_text: "Tace put the next one in front of the new arrival.", prompt_file: d-the-relay-at-ladder.txt, caption: "\"Go on their count. And if it sets, you put them down.\""}
+- file: a-the-nine.png
+  chapter: 1
+  after_text: Nine doors going at once under the window
+  prompt_file: a-the-nine.txt
+  caption: The anchor hall at the Nine.
+- file: b-sling-in-the-void.png
+  chapter: 4
+  after_text: the Quick did the rest
+  prompt_file: b-sling-in-the-void.txt
+  caption: A horrible flat throw.
+- file: d-the-relay-at-ladder.png
+  chapter: 23
+  after_text: Tace put the next one in front of the new arrival.
+  prompt_file: d-the-relay-at-ladder.txt
+  caption: '"Go on their count. And if it sets, you put them down."'

@@ -3675,7 +3675,7 @@ Resume here. Two beats are due at d1/dawn and they are the start of Act I's turn
 
 ### Event 17 <!-- id: myth-event-fb9b67722a32, type: scene, at: 2026-10-07T04:00:00.000000000, session: 1, involves: Ferren, Rill, Lint, BlingBling -->
 
-Sling in the Yards, on Lint's first grounded day. She slept until eleven, came down on Rill's invitation, and won best of five against Ferren -- who is genuinely better and was pleasant about losing. Then she became the first person in six years to take the fathom Vantage up on its standing offer.
+Sling in the gallery void, on Lint's first grounded day. She slept until eleven, came down on Rill's invitation, and won best of five against Ferren -- who is genuinely better and was pleasant about losing. Then she became the first person in six years to take the fathom Vantage up on its standing offer.
 
 Light and social, and it landed. Lint's flat throw is a Garden thing -- Rill: 'She's stood in weather nobody made.' Ferren, on losing: 'You got monstrously lucky twice and threw one good one. And the good one was really good. I hate it. Welcome to the Yards.' He took her forearm properly and is coming tomorrow uninvited.
 
@@ -3733,7 +3733,7 @@ Sennet, last word: 'Rill's going to be at the void tomorrow. She said she would,
 
 ### Event 21 <!-- id: myth-event-b0ca847919f6, type: session-end, at: 2026-10-07T06:30:00.000000000, session: 1, involves: Lint -->
 
-Session 1 closed at d1/night. Act I beats 1 and 2 played, plus the Standing, the Yards, Kapteyn's and Benno. Lint Fresh, Luck 2/3, permanent clouding on both forearms, 3 experience rolls awarded.
+Session 1 closed at d1/night. Act I beats 1 and 2 played, plus the Standing, the gallery void, Kapteyn's and Benno. Lint Fresh, Luck 2/3, permanent clouding on both forearms, 3 experience rolls awarded.
 
 The session's shape: a light opener that went wrong, then a grounded day that built a crew.
 
@@ -4099,4 +4099,8 @@ Experience spent, three rolls: Crossing 52->53 (roll 28, under, +1), Endurance 4
 ### Event 59 <!-- id: myth-event-e0646df6e035, type: session-end, at: 2026-10-09T23:00:00.000000000, session: 3 -->
 
 Session 3 closed at d5/dawn. THE ACT I CRISIS IS WON: sixty of sixty-one off Ladder, and the sixty-first stayed because she chose to, not because anybody ran out of time. The cost was real -- a few days each off four hundred named lives, freely given, and the refinery cut off. Lint: Winded, Luck 0/3, Crossing 53, Endurance 51, Willpower 43, no experience rolls outstanding. Act I's two documents are still in a shed at the end of a door that now works.
+
+### Event 60 <!-- id: myth-event-eef7320a98c2, type: gm-note, at: 2026-10-10T03:53:18.000000000 -->
+
+PLACE NAME CORRECTED ON THE RECORD. Sling is played in the GALLERY VOID at the waist of the Nine -- beats/sling-in-the-dead-watch.md has always had its place as the Nine. THE YARDS is a different location: the training sprawl at 61 Cygni where every first-through is made. Two session-1 events said 'the Yards' for the sling court and have been corrected, as have five lines of the novelization. The Yards remains correct for training, instruction, drawing kit, and what an intake is taught.
 

@@ -18,7 +18,7 @@ Everything. Every text written anywhere in human space, in every system, for nin
 
 So the Nine holds the complete written output of the species, three times over, in a store on the fourth level that nobody visits, because it is simply *there*, the way the air is there.
 
-"Course you can. It's not locked. Nothing's locked." He went back to his slate. "Nobody goes. There's too much of it. You walk in there and it's everything anybody ever wrote and you stand about for ten minutes and then you go to the Yards instead."
+"Course you can. It's not locked. Nothing's locked." He went back to his slate. "Nobody goes. There's too much of it. You walk in there and it's everything anybody ever wrote and you stand about for ten minutes and then you go down to the void instead."
 
 ---
 

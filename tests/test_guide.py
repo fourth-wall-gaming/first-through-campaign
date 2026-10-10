@@ -57,6 +57,30 @@ def test_directives_point_at_files_that_exist(path):
         assert target.is_file() or target.is_dir(), f"map directive: missing maps/{arg}"
 
 
+SLING_PLACE_SLIPS = ("stanchion in the Yards", "void in the Yards",
+                     "sling in the Yards", "Sling in the Yards")
+
+
+def test_sling_is_not_played_at_the_yards():
+    """The Yards is the training sprawl at 61 Cygni. Sling is played in the
+    gallery void at the waist of the Nine -- the beat's own place field says
+    so. The two were conflated in play and the mistake reached the journal and
+    the novelization before anybody noticed."""
+    beat = (ROOT / "beats" / "sling-in-the-dead-watch.md").read_text()
+    assert "myth-loc-7d031a557649" in beat, "the sling beat should happen at the Nine"
+
+    prose = list((ROOT / "guide").rglob("*.md"))
+    novels = ROOT / "novels"
+    if novels.is_dir():
+        prose += list(novels.rglob("*.md"))
+    for path in prose:
+        if path.name == "source.md" or ".build" in path.parts:
+            continue   # generated: source.md from the journal, .build by pandoc
+        text = path.read_text()
+        for slip in SLING_PLACE_SLIPS:
+            assert slip not in text, f"{rel(path)}: sling is not played at the Yards ({slip!r})"
+
+
 def test_the_causeway_chart_is_the_generated_one():
     """The chart is rendered from data/, not drawn, which is the only reason
     its astronomy can be trusted. Keep the generator next to its output."""

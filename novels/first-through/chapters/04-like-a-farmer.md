@@ -110,7 +110,7 @@ The gallery exchangers push a column up the void and nothing in it is still. You
 
 Ferren sat down on the walkway.
 
-Lint gave the gallery the full face — eyes wide, mouth round, both hands up, the whole *oooooooo* — and four levels of the Nine gave it straight back, which was the loudest thing that had happened in the Yards all week.
+Lint gave the gallery the full face — eyes wide, mouth round, both hands up, the whole *oooooooo* — and four levels of the Nine gave it straight back, which was the loudest thing that had happened in the void all week.
 
 "I'm being bullied," said Ferren, to nobody.
 
