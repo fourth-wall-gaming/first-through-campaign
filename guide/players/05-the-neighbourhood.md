@@ -9,6 +9,26 @@ have actually found. Only the people and what they built are invented.
 Here is what your character already knows, the way a courier knows it: by which
 door it is and what it smells like when you come out.
 
+## The chart
+
+Every star on this sheet sits at its true position, worked out from the real
+measured parallaxes, and every line on it is a door that actually exists in the
+campaign. Nothing on it is drawn by eye.
+
+Read it as a **graph, not a map**. Distance in light years tells you how far a
+telescope says something is; it tells you nothing about how long it takes to get
+there. What matters is whether there is a line.
+
+Note the two plates. Twenty-two of the twenty-eight systems are inside
+seventeen light years of Sol and crowd into the inner knot, which is why they
+get a second plate at three times the scale. The other six hang alone on a shell
+out at forty to forty-nine light years, on the longest and thinnest lines on the
+sheet, and there is nothing at all in between.
+
+And count the lines meeting at Sirius. Nine. Sol holds seven.
+
+<!-- map: the-causeway.svg -->
+
 <!-- lore: lore/geography/a-first-throughs-guide.md -->
 
 ## The frontier

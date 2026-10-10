@@ -189,3 +189,24 @@ main table, .table-scroll, figure, .tdm-box, .sb-wrap { clear: left; }
 .layout.single main { padding: 2rem 1.5rem 3rem; }
 body.book-parents { --red: #4b3f7a; }
 @media (prefers-color-scheme: dark) { body.book-parents { --red: #b0a2e0; } }
+
+/* the chart, behind the title and as a plate in the books */
+.hero-map {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  object-fit: cover; object-position: 50% 28%;
+  opacity: .14; border: 0; max-width: none; pointer-events: none;
+}
+.chart-line {
+  max-width: 40rem; margin: 1.5rem auto .5rem; padding: 0 1.25rem;
+  text-align: center; color: var(--muted); font-size: .95rem;
+}
+figure.sheet { margin: 2rem 0; }
+figure.sheet a { display: block; }
+figure.sheet img {
+  width: 100%; background: #fff; border: 1px solid var(--rule);
+}
+figure.sheet figcaption {
+  font-family: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  font-size: .72rem; letter-spacing: .1em; text-transform: uppercase;
+  color: var(--muted); text-align: center; margin-top: .5rem; font-style: normal;
+}

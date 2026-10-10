@@ -131,6 +131,13 @@ def esc_t(s):
     return str(s).replace("\\", "\\\\").replace('"', '\\"')
 
 
+def esc_tc(s):
+    """Escape for use inside a Typst [content] block rather than a string."""
+    for ch in "\\#[]@$*_":
+        s = str(s).replace(ch, "\\" + ch)
+    return s
+
+
 def md_table(title, headers, rows):
     """A named TDM table: header text on every column, '-' in every blank cell."""
     out = ["| " + " | ".join(headers) + " |", "|" + "---|" * len(headers)]
@@ -240,7 +247,18 @@ def d_map(data, arg, images):
         labels = p / "labels.yaml"
         labels = yaml.safe_load(labels.read_text()) if labels.exists() else None
     rel = images.add(img)
-    title = (labels or {}).get("title", {}).get("text") if labels else img.stem.replace("-", " ").title()
+    title = (labels or {}).get("title", {}).get("text") if labels else map_title(img)
+    if img.suffix.lower() == ".svg":
+        # A full sheet, not an illustration: give it the whole page in print,
+        # where letting it scale to the text width would run it off the bottom.
+        return raw(
+            f'<figure class="sheet">'
+            f'<a href="{rel}"><img src="{rel}" alt="{html.escape(title)}"></a>'
+            f'<figcaption>{html.escape(title)} &mdash; '
+            f'<a href="{rel}">open the full sheet</a></figcaption></figure>',
+            f'#pagebreak(weak: true)\n'
+            f'#figure(image("{rel}", height: 8.5in), caption: [{esc_tc(title)}])\n'
+            f'#pagebreak(weak: true)')
     md = f"![{house(title)}]({rel})\n\n"
     if labels and labels.get("sites"):
         rows = []
@@ -249,6 +267,16 @@ def d_map(data, arg, images):
             rows.append([n, s["text"], kind, s.get("note") or "-"])
         md += md_table(f"Table: {house(title)}, Key", ["No.", "Name", "Kind", "Note"], rows)
     return md
+
+
+def map_title(img):
+    """A sheet's title, from its notes in maps/areas/ when it has them."""
+    notes = ROOT / "maps" / "areas" / f"{img.stem}.md"
+    if notes.is_file():
+        fm, _ = frontmatter(notes)
+        if fm.get("title"):
+            return str(fm["title"])
+    return img.stem.replace("-", " ").title()
 
 
 def box(content):
@@ -260,6 +288,17 @@ class Images:
         self.done = {}
 
     def add(self, src):
+        # A chart drawn as SVG is already the right artefact: it is small, it
+        # has live text, and both the web page and Typst take it as-is. Copy
+        # rather than rasterise.
+        if src.suffix.lower() == ".svg":
+            rel = "maps/" + str(src.relative_to(ROOT / "maps"))
+            if rel not in self.done:
+                dst = OUT / rel
+                dst.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copy(src, dst)
+                self.done[rel] = dst
+            return rel
         rel = "maps/" + str(src.relative_to(ROOT / "maps")).rsplit(".", 1)[0] + ".jpg"
         if rel not in self.done:
             dst = OUT / rel
@@ -408,6 +447,9 @@ def build(pdf=True):
     (OUT / ".nojekyll").write_text("")
     data = load()
     images = Images()
+    chart = ROOT / "maps" / "the-causeway.svg"
+    if chart.is_file():
+        images.add(chart)   # the landing page uses it as its hero
     counts = {b["key"]: build_book(b, data, images, pdf) for b in BOOKS}
     build_parents(data, images)
     # The novelization is built separately, by the engine's novelist.py, and

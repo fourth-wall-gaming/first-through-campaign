@@ -2,6 +2,19 @@
 
 # The Neighbourhood
 
+## The chart
+
+Rendered from `data/systems.json` and `data/edges.json` by
+`maps/causeway_chart.py`, so it cannot disagree with the campaign: every star is
+at its true galactic position from the measured parallax, and every line is a
+real edge. Regenerate it rather than editing it.
+
+It is the single best prop in the book. Put it in front of a player the first
+time they ask where anywhere is, and let them find Sirius themselves by counting
+the lines.
+
+<!-- map: the-causeway.svg -->
+
 ## Places that have been written
 
 <!-- areas -->

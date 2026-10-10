@@ -48,8 +48,19 @@ def test_every_chapter_is_numbered_titled_and_in_a_part(path):
 
 @pytest.mark.parametrize("path", HAND_WRITTEN, ids=rel)
 def test_directives_point_at_files_that_exist(path):
-    for arg in re.findall(r"<!--\s*lore:\s*(.+?)\s*-->", path.read_text()):
+    text = path.read_text()
+    for arg in re.findall(r"<!--\s*lore:\s*(.+?)\s*-->", text):
         assert (ROOT / arg).is_file(), f"lore directive: missing {arg}"
+    for arg in re.findall(r"<!--\s*map:\s*(.+?)\s*-->", text):
+        target = ROOT / "maps" / arg
+        assert target.is_file() or target.is_dir(), f"map directive: missing maps/{arg}"
+
+
+def test_the_causeway_chart_is_the_generated_one():
+    """The chart is rendered from data/, not drawn, which is the only reason
+    its astronomy can be trusted. Keep the generator next to its output."""
+    assert (ROOT / "maps" / "the-causeway.svg").is_file()
+    assert (ROOT / "maps" / "causeway_chart.py").is_file()
 
 
 @pytest.mark.parametrize("path", HAND_WRITTEN, ids=rel)
