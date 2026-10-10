@@ -113,6 +113,29 @@ deliberately not the system. They are *Mythras Imperative*, they are free, and
 The Design Mechanism publish the PDF on their
 [downloads page](https://thedesignmechanism.com/free-downloads/).
 
+**And if you intend to run it yourself, play it through first with the machine
+running it.** This is the single best piece of preparation available and it is
+not work. Sit down as a player, build somebody, and let Claude be the Games
+Master for three evenings — which is what Act One took the first time anybody
+played it.
+
+You will come out the other side knowing the place from the inside rather than
+from a book: what the hall sounds like, how Calloway talks, which moments want
+slowing right down and which want one sentence. You will have had your own bad
+crossing and your own decision that cost somebody something, on your own time,
+rather than discovering both in front of your child. And the Games Master's
+Guide will read completely differently afterwards, because you will have been
+there.
+
+There is no spoiler problem in this direction. The adult at the table is
+supposed to know the ending; the player is not.
+
+One caution, and it matters. **Your child's run will not be yours.** They will
+ask people things you never thought to ask, walk past the thing you found, and
+solve the fourth day in some way nobody has seen yet. The value of having
+played is knowing how it feels from the inside — never a memory of the plot to
+steer them back towards.
+
 Three things that make this less daunting than it looks.
 
 **You need about fifteen pages of it to start** — how a roll works, how

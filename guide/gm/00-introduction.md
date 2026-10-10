@@ -82,6 +82,15 @@ your player, not putting words in their character's mouth. That is a craft and
 it takes a few sessions, and every lesson in it was learned by getting it
 wrong at a real table.
 
+**Play it yourself before you run it.** With the engine, as a player, start
+to finish. Three evenings is what Act One took the first time it was played,
+and it is better preparation than any amount of reading this book, because
+afterwards the book is a reminder of somewhere you have been rather than a
+description of somewhere you have not. You will also get your first bad
+crossing out of the way privately. Then run it for your player, and let their
+run be theirs — the thing you bring back from your own is the feel of it, never
+a route you are hoping they take.
+
 **And the rules being honest is on your side.** The difficulty grade is
 declared before the dice fall, the dice are rolled in the open, and the answer
 is the answer. You never have to decide whether somebody succeeds. You decide
