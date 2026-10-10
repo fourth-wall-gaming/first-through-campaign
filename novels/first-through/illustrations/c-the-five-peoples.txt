@@ -1,48 +1,81 @@
-SCENE. A field-guide plate: the five peoples of the Causeway, all five on one
-sheet, each at a consistent scale against a plain warm-grey ground with a fine
-scale bar beside it. Muted gouache technical illustration of the kind a
-natural-history field guide uses — observed, labelled, unglamorous. Not a
-group portrait and not a lineup of characters: five specimens, drawn by
-somebody who has watched each of them for a long time.
+SCENE. The low gallery at the Nine at dusk, which is where everybody under
+about twenty ends up when their shift is done. A walkway along the open edge
+of the gallery void: handrail on one side, a long bench against the wall on
+the other, a hotplate at the end of it. Past the rail, forty metres of open
+air and the lit galleries of the far side.
 
-1. A SIXLIMB. Cat-sized. Six limbs, FOUR OF THEM HANDS and the other two
-carrying the weight. Built low and quick. Draw it mid-conversation, two hands
-occupied with something and two gesturing, because everything in a sixlimb's
-culture is talking and one that has gone quiet is one in trouble. No face that
-reads as human. No whiskers, no muzzle, nothing feline despite the size.
+One wide documentary photograph, eye level, mid-distance. All five of the
+peoples are in it, at their true sizes against the people they work with, and
+not one of them is being looked after.
 
-2. A FATHOM. Roughly a metre across, hanging unsupported in mid-air with no
-visible means of doing so: a thin translucent rippling membrane, a jellyfish
-bell crossed with a sheet of oiled paper, almost weightless. COMPLETELY
-EYELESS — no eyes, no eye spots, no sensory cluster that reads as a face. It
-has never been interested in seeing. Show the membrane edge curling as it
-reads the air.
+THE PEOPLE. Five or six first-throughs, twelve to twenty, sprawled over the
+bench and the deck with food. Close-fitting matte cloth suits, long-sleeved
+and long-legged, each dyed a different deep colour, with one small plain
+Threshold flash at the left shoulder — and on the older ones the dye visibly
+bleached pale across the shoulders and up both forearms. Mismatched boots.
+They are eating and arguing and nobody is posed.
 
-3. A CAIRN. Low, dense and unhurried, about the mass of a full toolbag. The
-silhouette of a footstool built out of dressed stone. No visible limbs in use, no
-face, no eyes. Draw it beside a hotplate, settled, as if it has been in that
-exact position for six hours and will be for six more. It should look like a
-piece of masonry somebody has grown fond of.
+THE GLINT, foreground. Small enough to close a hand around — eight
+centimetres, faceted, hard-shelled — settled on a girl's collarbone where her
+neck meets her shoulder, obviously comfortable and obviously there by its own
+choice. It is MID-FLASH: lit from inside, throwing real coloured light up onto
+her jaw and the underside of her chin, and that is the only strong colour in
+the frame. She is not looking at it. She is looking at whoever she is arguing
+with. Four more glints are strung along the handrail behind her at different
+colours, plainly talking to each other over everybody's heads.
 
-4. A GLINT. Small enough to close a hand around. Faceted, hard, iridescent,
-built to shed radiation from a sun that tries to kill it twice a day. Draw
-THREE of them at once in a short sequence to show the only thing that matters
-about them: mirror-bright, mid-colour, and absolute black. Their language is
-light and it is theatrical by grammar. One of them is upside down.
+THE FATHOM, mid-ground, out past the rail. A metre across, hanging unsupported
+in open air with nothing holding it up: a thin translucent rippling membrane,
+a jellyfish bell crossed with a sheet of oiled paper, almost weightless, its
+edge curling slowly as it reads the air. COMPLETELY EYELESS — no eyes, no eye
+spots, no sensory cluster that reads as a face, nothing on it turned towards
+the camera. It is out there because the void is the only part of this station
+with moving air in it. Nobody on the bench is paying it any attention and it
+is plainly listening to all of them.
 
-5. A SCATTER. Not one animal — about forty small hard-shelled units moving as
-one thing, drawn as a loose shoal with a clear centre of mass, and a third of
-the group already breaking away toward the edge of the plate on its own
-business. Hard-vacuum tolerant. Nothing in the shoal is in charge.
+THE CAIRN, left, on the deck beside the hotplate. Low, dense and unhurried,
+half a metre across and about the mass of a full toolbag — the silhouette of a
+footstool built out of dressed stone. No visible limbs in use, no face, no
+eyes. Somebody has put a cup down on it without thinking about it and somebody
+else is sitting leaned against it. It has been in that exact position for six
+hours and will be for six more.
 
-LETTERING. A small caption block under each specimen with its name, its home
-system and a scale reference. Engraved small capitals, horizontal.
+THE SIXLIMB, right, up on a crate at head height so it can be heard.
+Cat-sized, half a metre long, SIX LIMBS and FOUR OF THEM ARE HANDS — two
+carrying its weight, two holding the thing it is eating, two in the middle of
+a gesture. Nothing feline: no muzzle, no whiskers, no tail, no face that reads
+as human or as a pet. A boy is turned fully towards it, mid-sentence,
+answering it. Everything in a sixlimb's culture is conversation and this one
+is winning.
 
-STYLE. Hard-SF xenobiology, plausible and unglamorous. Muted palette, matte,
-no rendering gloss, no background scenery. Lit evenly and flatly except the
-glints, which are lit by themselves.
+THE SCATTER, background, leaving. About forty small hard-shelled units, each
+the size of a plum, moving as one loose shoal along the top of the handrail —
+a clear centre of mass and NO LEADER anywhere in it. A third of the group has
+already broken off and is streaming into a duct grille in the wall, cut to a
+fine mesh exactly wide enough to pass them and nothing larger. That grille is
+why the architecture is the shape it is, and every deck on this station has
+one.
 
-AVOID. Bug eyes. Tentacles. Mandibles. Faces on anything that has no face.
-Humanoid posture. Anything cute, anything mascot-like, anything that looks
-like a pet. Glowing eyes. Making the scatter look like insects, or a swarm
-with menace in it — they are a committee, not a hazard.
+SCALE, which is the point of the picture. Against a standing fifteen-year-old:
+the glint is the size of her fist, the sixlimb would sit in her lap, the cairn
+comes to her knee, the fathom is as wide as her outstretched arms, and the
+scatter is forty things the size of plums.
+
+DETAIL. A ramp instead of a stair at the end of the walkway. One corner of the
+gallery left deliberately unlit. Food wrappers. A towel over the rail.
+
+LIGHT. Warm low gallery lamps doing most of the work, cold spill coming up out
+of the void from below, and the glint's own light on the girl's face. Two
+colour temperatures disagreeing. Dust.
+
+STYLE. Reportage — a photographer who sat down with these people for an hour
+and took this near the end of it. Available light, visible grain, nobody
+posing, two or three people cut off by the frame.
+
+AVOID. Anybody holding, carrying, cradling, stroking or feeding one of them.
+Leashes, harnesses, cages, perches, carriers. Shoulder-parrot poses. Anybody
+gazing fondly down at one. Bug eyes, mandibles, tentacles, humanoid posture,
+or a face on anything that has no face. Making the scatter read as a swarm or
+a hazard — it is a committee. Making the sixlimb read as a cat. Anything cute,
+anything mascot-like, anything that looks like a pet. Glowing eyes. Anybody
+looking at the camera.
