@@ -249,11 +249,13 @@ def d_map(data, arg, images):
     rel = images.add(img)
     title = (labels or {}).get("title", {}).get("text") if labels else map_title(img)
     if img.suffix.lower() == ".svg":
-        # A full sheet, not an illustration: give it the whole page in print,
-        # where letting it scale to the text width would run it off the bottom.
+        # A full sheet, not an illustration. In print it gets the whole page,
+        # because letting a tall plate scale to the text width runs it off the
+        # bottom. On the web it is inlined rather than put in an <img>, because
+        # a browser will not follow links inside an image -- and the names on
+        # this sheet are links.
         return raw(
-            f'<figure class="sheet">'
-            f'<a href="{rel}"><img src="{rel}" alt="{html.escape(title)}"></a>'
+            f'<figure class="sheet">{img.read_text()}'
             f'<figcaption>{html.escape(title)} &mdash; '
             f'<a href="{rel}">open the full sheet</a></figcaption></figure>',
             f'#pagebreak(weak: true)\n'

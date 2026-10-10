@@ -201,9 +201,9 @@ body.book-parents { --red: #4b3f7a; }
   text-align: center; color: var(--muted); font-size: .95rem;
 }
 figure.sheet { margin: 2rem 0; }
-figure.sheet a { display: block; }
-figure.sheet img {
-  width: 100%; background: #fff; border: 1px solid var(--rule);
+figure.sheet img, figure.sheet > svg {
+  display: block; width: 100%; height: auto;
+  background: #fff; border: 1px solid var(--rule);
 }
 figure.sheet figcaption {
   font-family: "IBM Plex Mono", ui-monospace, Menlo, monospace;

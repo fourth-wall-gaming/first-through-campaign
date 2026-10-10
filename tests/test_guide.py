@@ -6,6 +6,7 @@ the navigation because it lost its part marker, and house style drifting in
 hand-written prose. All three are cheap to catch and invisible until somebody
 reads the built site.
 """
+import json
 import pathlib
 import re
 import shutil
@@ -61,6 +62,28 @@ def test_the_causeway_chart_is_the_generated_one():
     its astronomy can be trusted. Keep the generator next to its output."""
     assert (ROOT / "maps" / "the-causeway.svg").is_file()
     assert (ROOT / "maps" / "causeway_chart.py").is_file()
+
+
+def _wikipedia_sources():
+    systems = json.loads((ROOT / "data" / "systems.json").read_text())
+    return {k: [s for s in (v.get("sources") or []) if "wikipedia.org" in s]
+            for k, v in systems.items()}
+
+
+def test_every_system_cites_a_wikipedia_article():
+    """The chart links every star name out to its article, and it takes the
+    address from the system's own sources rather than guessing one."""
+    missing = [k for k, urls in _wikipedia_sources().items() if not urls]
+    assert not missing, f"no Wikipedia source: {missing}"
+
+
+def test_every_star_on_the_chart_is_a_link():
+    """A regenerated chart that quietly stopped emitting anchors would look
+    identical. Check the hyperlinks are in the file, not just the names."""
+    svg = (ROOT / "maps" / "the-causeway.svg").read_text()
+    assert svg.count("<a href=") == svg.count("</a>"), "unbalanced anchors"
+    for key, urls in _wikipedia_sources().items():
+        assert f'href="{urls[0]}"' in svg, f"{key} is not linked on the chart"
 
 
 @pytest.mark.parametrize("path", HAND_WRITTEN, ids=rel)

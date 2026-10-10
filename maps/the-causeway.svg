@@ -1,4 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="1960" viewBox="0 0 1040 1960">
+<svg id="causeway" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1040" height="1960" viewBox="0 0 1040 1960">
+<title>The Causeway — the known network, 975 years after the Reach</title>
+<style>
+  #causeway a { cursor: pointer; }
+  #causeway a text, #causeway a circle { transition: fill .12s ease; }
+  #causeway a:hover text, #causeway a:focus text { fill: #9a6b33; }
+  #causeway a:hover circle[fill="#241c12"] { fill: #9a6b33; }
+  #causeway a:focus { outline: none; }
+</style>
 <rect width="1040" height="1960" fill="#efe6d0"/>
 <rect x="14" y="14" width="1012" height="1932" fill="none" stroke="#241c12" stroke-width="2.4"/>
 <rect x="21" y="21" width="998" height="1918" fill="none" stroke="#241c12" stroke-width="0.7"/>
@@ -146,6 +154,7 @@
 <line x1="241.9" y1="493.6" x2="247.9" y2="493.6" stroke="#6d573c" stroke-width="0.7"/>
 <line x1="479.7" y1="573.5" x2="479.7" y2="905.5" stroke="#6d573c" stroke-width="0.7"/>
 <line x1="476.7" y1="573.5" x2="482.7" y2="573.5" stroke="#6d573c" stroke-width="0.7"/>
+<a href="https://en.wikipedia.org/wiki/Sun" xlink:href="https://en.wikipedia.org/wiki/Sun" target="_blank" rel="noopener" aria-label="Sol on Wikipedia">
 <circle cx="520.0" cy="552.0" r="5.4" fill="none" stroke="#241c12" stroke-width="1.3"/>
 <line x1="526.6" y1="552.0" x2="530.0" y2="552.0" stroke="#241c12" stroke-width="1.0"/>
 <line x1="524.7" y1="556.7" x2="527.1" y2="559.1" stroke="#241c12" stroke-width="1.0"/>
@@ -156,34 +165,89 @@
 <line x1="520.0" y1="545.4" x2="520.0" y2="542.0" stroke="#241c12" stroke-width="1.0"/>
 <line x1="524.7" y1="547.3" x2="527.1" y2="544.9" stroke="#241c12" stroke-width="1.0"/>
 <circle cx="520.0" cy="552.0" r="2.3" fill="#241c12"/>
+</a>
+<a href="https://en.wikipedia.org/wiki/Alpha_Centauri" xlink:href="https://en.wikipedia.org/wiki/Alpha_Centauri" target="_blank" rel="noopener" aria-label="Alpha Centauri on Wikipedia">
 <circle cx="526.9" cy="541.5" r="3.5" fill="#241c12"/>
+</a>
+<a href="https://en.wikipedia.org/wiki/Barnard%27s_Star" xlink:href="https://en.wikipedia.org/wiki/Barnard%27s_Star" target="_blank" rel="noopener" aria-label="Barnard's Star on Wikipedia">
 <circle cx="481.9" cy="535.3" r="3.5" fill="#241c12"/>
+</a>
+<a href="https://en.wikipedia.org/wiki/Luhman_16" xlink:href="https://en.wikipedia.org/wiki/Luhman_16" target="_blank" rel="noopener" aria-label="Luhman 16 on Wikipedia">
 <circle cx="552.5" cy="535.8" r="3.5" fill="#241c12"/>
+</a>
+<a href="https://en.wikipedia.org/wiki/WISE_0855-0714" xlink:href="https://en.wikipedia.org/wiki/WISE_0855-0714" target="_blank" rel="noopener" aria-label="WISE 0855-0714 on Wikipedia">
 <circle cx="570.4" cy="532.4" r="3.5" fill="#241c12"/>
+</a>
+<a href="https://en.wikipedia.org/wiki/Wolf_359" xlink:href="https://en.wikipedia.org/wiki/Wolf_359" target="_blank" rel="noopener" aria-label="Wolf 359 on Wikipedia">
 <circle cx="552.2" cy="505.5" r="3.5" fill="#241c12"/>
+</a>
+<a href="https://en.wikipedia.org/wiki/Lalande_21185" xlink:href="https://en.wikipedia.org/wiki/Lalande_21185" target="_blank" rel="noopener" aria-label="Lalande 21185 on Wikipedia">
 <circle cx="535.4" cy="506.5" r="3.5" fill="#241c12"/>
+</a>
+<a href="https://en.wikipedia.org/wiki/Sirius" xlink:href="https://en.wikipedia.org/wiki/Sirius" target="_blank" rel="noopener" aria-label="Sirius on Wikipedia">
 <circle cx="581.8" cy="565.3" r="3.5" fill="#241c12"/>
+</a>
+<a href="https://en.wikipedia.org/wiki/Gliese_65" xlink:href="https://en.wikipedia.org/wiki/Gliese_65" target="_blank" rel="noopener" aria-label="Gliese 65 on Wikipedia">
 <circle cx="527.5" cy="616.7" r="3.5" fill="#241c12"/>
+</a>
+<a href="https://en.wikipedia.org/wiki/Epsilon_Eridani" xlink:href="https://en.wikipedia.org/wiki/Epsilon_Eridani" target="_blank" rel="noopener" aria-label="Epsilon Eridani on Wikipedia">
 <circle cx="558.5" cy="618.2" r="3.5" fill="#241c12"/>
+</a>
+<a href="https://en.wikipedia.org/wiki/Gliese_887" xlink:href="https://en.wikipedia.org/wiki/Gliese_887" target="_blank" rel="noopener" aria-label="Gliese 887 on Wikipedia">
 <circle cx="500.5" cy="611.3" r="3.5" fill="#241c12"/>
+</a>
+<a href="https://en.wikipedia.org/wiki/Ross_128" xlink:href="https://en.wikipedia.org/wiki/Ross_128" target="_blank" rel="noopener" aria-label="Ross 128 on Wikipedia">
 <circle cx="555.0" cy="478.5" r="3.5" fill="#241c12"/>
+</a>
+<a href="https://en.wikipedia.org/wiki/61_Cygni" xlink:href="https://en.wikipedia.org/wiki/61_Cygni" target="_blank" rel="noopener" aria-label="61 Cygni on Wikipedia">
 <circle cx="443.5" cy="571.9" r="3.5" fill="#241c12"/>
+</a>
+<a href="https://en.wikipedia.org/wiki/Procyon" xlink:href="https://en.wikipedia.org/wiki/Procyon" target="_blank" rel="noopener" aria-label="Procyon on Wikipedia">
 <circle cx="595.3" cy="545.7" r="3.5" fill="#241c12"/>
+</a>
+<a href="https://en.wikipedia.org/wiki/Struve_2398" xlink:href="https://en.wikipedia.org/wiki/Struve_2398" target="_blank" rel="noopener" aria-label="Gl 725 (Struve 2398) on Wikipedia">
 <circle cx="453.7" cy="533.0" r="3.5" fill="#241c12"/>
+</a>
+<a href="https://en.wikipedia.org/wiki/Epsilon_Indi" xlink:href="https://en.wikipedia.org/wiki/Epsilon_Indi" target="_blank" rel="noopener" aria-label="Epsilon Indi on Wikipedia">
 <circle cx="511.6" cy="593.5" r="3.5" fill="#241c12"/>
+</a>
+<a href="https://en.wikipedia.org/wiki/Tau_Ceti" xlink:href="https://en.wikipedia.org/wiki/Tau_Ceti" target="_blank" rel="noopener" aria-label="Tau Ceti on Wikipedia">
 <circle cx="530.7" cy="639.2" r="3.5" fill="#241c12"/>
+</a>
+<a href="https://en.wikipedia.org/wiki/YZ_Ceti" xlink:href="https://en.wikipedia.org/wiki/YZ_Ceti" target="_blank" rel="noopener" aria-label="YZ Ceti on Wikipedia">
 <circle cx="520.5" cy="640.6" r="3.5" fill="#241c12"/>
+</a>
+<a href="https://en.wikipedia.org/wiki/Teegarden%27s_Star" xlink:href="https://en.wikipedia.org/wiki/Teegarden%27s_Star" target="_blank" rel="noopener" aria-label="Teegarden's Star on Wikipedia">
 <circle cx="535.7" cy="629.0" r="3.5" fill="#241c12"/>
+</a>
+<a href="https://en.wikipedia.org/wiki/Van_Maanen_2" xlink:href="https://en.wikipedia.org/wiki/Van_Maanen_2" target="_blank" rel="noopener" aria-label="van Maanen's Star on Wikipedia">
 <circle cx="495.4" cy="651.7" r="3.5" fill="#241c12"/>
+</a>
+<a href="https://en.wikipedia.org/wiki/Gliese_876" xlink:href="https://en.wikipedia.org/wiki/Gliese_876" target="_blank" rel="noopener" aria-label="Gliese 876 on Wikipedia">
 <circle cx="463.3" cy="641.4" r="3.5" fill="#241c12"/>
+</a>
+<a href="https://en.wikipedia.org/wiki/40_Eridani" xlink:href="https://en.wikipedia.org/wiki/40_Eridani" target="_blank" rel="noopener" aria-label="40 Eridani on Wikipedia">
 <circle cx="595.8" cy="641.7" r="3.5" fill="#241c12"/>
+</a>
+<a href="https://en.wikipedia.org/wiki/TRAPPIST-1" xlink:href="https://en.wikipedia.org/wiki/TRAPPIST-1" target="_blank" rel="noopener" aria-label="TRAPPIST-1 on Wikipedia">
 <circle cx="358.0" cy="799.7" r="3.5" fill="#241c12"/>
+</a>
+<a href="https://en.wikipedia.org/wiki/HD_69830" xlink:href="https://en.wikipedia.org/wiki/HD_69830" target="_blank" rel="noopener" aria-label="HD 69830 on Wikipedia">
 <circle cx="815.5" cy="494.7" r="3.5" fill="#241c12"/>
+</a>
+<a href="https://en.wikipedia.org/wiki/55_Cancri" xlink:href="https://en.wikipedia.org/wiki/55_Cancri" target="_blank" rel="noopener" aria-label="55 Cancri on Wikipedia">
 <circle cx="700.8" cy="431.6" r="3.5" fill="#241c12"/>
+</a>
+<a href="https://en.wikipedia.org/wiki/HD_40307" xlink:href="https://en.wikipedia.org/wiki/HD_40307" target="_blank" rel="noopener" aria-label="HD 40307 on Wikipedia">
 <circle cx="751.4" cy="653.0" r="3.5" fill="#241c12"/>
+</a>
+<a href="https://en.wikipedia.org/wiki/GJ_1214" xlink:href="https://en.wikipedia.org/wiki/GJ_1214" target="_blank" rel="noopener" aria-label="GJ 1214 on Wikipedia">
 <circle cx="244.9" cy="360.6" r="3.5" fill="#241c12"/>
+</a>
+<a href="https://en.wikipedia.org/wiki/LHS_1140" xlink:href="https://en.wikipedia.org/wiki/LHS_1140" target="_blank" rel="noopener" aria-label="LHS 1140 on Wikipedia">
 <circle cx="479.7" cy="905.5" r="4.4" fill="#efe6d0" stroke="#241c12" stroke-width="1.5"/>
 <circle cx="479.7" cy="905.5" r="1.5" fill="none" stroke="#241c12" stroke-width="1.0"/>
+</a>
 </g>
 <line x1="60" y1="910" x2="134.0" y2="910" stroke="#241c12" stroke-width="1.3"/>
 <line x1="60.0" y1="906" x2="60.0" y2="914" stroke="#241c12" stroke-width="1.3"/>
@@ -197,12 +261,24 @@
 <text x="54.0" y="220.0" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.6" fill="#6d573c" text-anchor="start" letter-spacing="1.4" font-weight="normal" font-style="normal">POSITIONS COMPUTED FROM SIMBAD PARALLAXES</text>
 </g>
 <g id="plate1-labels">
+<a href="https://en.wikipedia.org/wiki/TRAPPIST-1" xlink:href="https://en.wikipedia.org/wiki/TRAPPIST-1" target="_blank" rel="noopener" aria-label="TRAPPIST-1 on Wikipedia">
 <text x="346.0" y="803.7" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="11" fill="#241c12" text-anchor="end" letter-spacing="1.4" font-weight="normal" font-style="normal">TRAPPIST-1</text>
+</a>
+<a href="https://en.wikipedia.org/wiki/HD_69830" xlink:href="https://en.wikipedia.org/wiki/HD_69830" target="_blank" rel="noopener" aria-label="HD 69830 on Wikipedia">
 <text x="827.5" y="498.7" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="11" fill="#241c12" text-anchor="start" letter-spacing="1.4" font-weight="normal" font-style="normal">HD 69830</text>
+</a>
+<a href="https://en.wikipedia.org/wiki/55_Cancri" xlink:href="https://en.wikipedia.org/wiki/55_Cancri" target="_blank" rel="noopener" aria-label="55 Cancri on Wikipedia">
 <text x="712.8" y="435.6" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="11" fill="#241c12" text-anchor="start" letter-spacing="1.4" font-weight="normal" font-style="normal">55 CANCRI</text>
+</a>
+<a href="https://en.wikipedia.org/wiki/HD_40307" xlink:href="https://en.wikipedia.org/wiki/HD_40307" target="_blank" rel="noopener" aria-label="HD 40307 on Wikipedia">
 <text x="763.4" y="657.0" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="11" fill="#241c12" text-anchor="start" letter-spacing="1.4" font-weight="normal" font-style="normal">HD 40307</text>
+</a>
+<a href="https://en.wikipedia.org/wiki/GJ_1214" xlink:href="https://en.wikipedia.org/wiki/GJ_1214" target="_blank" rel="noopener" aria-label="GJ 1214 on Wikipedia">
 <text x="232.9" y="364.6" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="11" fill="#241c12" text-anchor="end" letter-spacing="1.4" font-weight="normal" font-style="normal">GJ 1214</text>
+</a>
+<a href="https://en.wikipedia.org/wiki/LHS_1140" xlink:href="https://en.wikipedia.org/wiki/LHS_1140" target="_blank" rel="noopener" aria-label="LHS 1140 on Wikipedia">
 <text x="467.7" y="909.5" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="11" fill="#241c12" text-anchor="end" letter-spacing="1.4" font-weight="normal" font-style="normal">LHS 1140</text>
+</a>
 <text x="467.7" y="924.5" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="8.6" fill="#9a6b33" text-anchor="end" letter-spacing="1.6" font-weight="normal" font-style="normal">NOT YET OPEN</text>
 <rect x="424" y="478" width="192" height="150" fill="none" stroke="#241c12" stroke-width="0.9" stroke-dasharray="5 4"/>
 <text x="520.0" y="468.0" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.4" fill="#241c12" text-anchor="middle" letter-spacing="1.8" font-weight="normal" font-style="normal">SEE PLATE II</text>
@@ -322,6 +398,7 @@
 <line x1="383.7" y1="1315.7" x2="389.7" y2="1315.7" stroke="#6d573c" stroke-width="0.7"/>
 <line x1="698.2" y1="1366.8" x2="698.2" y2="1531.5" stroke="#6d573c" stroke-width="0.7"/>
 <line x1="695.2" y1="1366.8" x2="701.2" y2="1366.8" stroke="#6d573c" stroke-width="0.7"/>
+<a href="https://en.wikipedia.org/wiki/Sun" xlink:href="https://en.wikipedia.org/wiki/Sun" target="_blank" rel="noopener" aria-label="Sol on Wikipedia">
 <circle cx="520.0" cy="1320.5" r="5.4" fill="none" stroke="#241c12" stroke-width="1.3"/>
 <line x1="526.6" y1="1320.5" x2="530.0" y2="1320.5" stroke="#241c12" stroke-width="1.0"/>
 <line x1="524.7" y1="1325.2" x2="527.1" y2="1327.6" stroke="#241c12" stroke-width="1.0"/>
@@ -332,12 +409,26 @@
 <line x1="520.0" y1="1313.9" x2="520.0" y2="1310.5" stroke="#241c12" stroke-width="1.0"/>
 <line x1="524.7" y1="1315.8" x2="527.1" y2="1313.4" stroke="#241c12" stroke-width="1.0"/>
 <circle cx="520.0" cy="1320.5" r="2.3" fill="#241c12"/>
+</a>
+<a href="https://en.wikipedia.org/wiki/Alpha_Centauri" xlink:href="https://en.wikipedia.org/wiki/Alpha_Centauri" target="_blank" rel="noopener" aria-label="Alpha Centauri on Wikipedia">
 <circle cx="536.2" cy="1295.8" r="3.5" fill="#241c12"/>
+</a>
+<a href="https://en.wikipedia.org/wiki/Barnard%27s_Star" xlink:href="https://en.wikipedia.org/wiki/Barnard%27s_Star" target="_blank" rel="noopener" aria-label="Barnard's Star on Wikipedia">
 <circle cx="430.4" cy="1281.2" r="3.5" fill="#241c12"/>
+</a>
+<a href="https://en.wikipedia.org/wiki/Luhman_16" xlink:href="https://en.wikipedia.org/wiki/Luhman_16" target="_blank" rel="noopener" aria-label="Luhman 16 on Wikipedia">
 <circle cx="596.5" cy="1282.4" r="3.5" fill="#241c12"/>
+</a>
+<a href="https://en.wikipedia.org/wiki/WISE_0855-0714" xlink:href="https://en.wikipedia.org/wiki/WISE_0855-0714" target="_blank" rel="noopener" aria-label="WISE 0855-0714 on Wikipedia">
 <circle cx="638.5" cy="1274.4" r="3.5" fill="#241c12"/>
+</a>
+<a href="https://en.wikipedia.org/wiki/Wolf_359" xlink:href="https://en.wikipedia.org/wiki/Wolf_359" target="_blank" rel="noopener" aria-label="Wolf 359 on Wikipedia">
 <circle cx="595.8" cy="1211.1" r="3.5" fill="#241c12"/>
+</a>
+<a href="https://en.wikipedia.org/wiki/Lalande_21185" xlink:href="https://en.wikipedia.org/wiki/Lalande_21185" target="_blank" rel="noopener" aria-label="Lalande 21185 on Wikipedia">
 <circle cx="556.2" cy="1213.5" r="3.5" fill="#241c12"/>
+</a>
+<a href="https://en.wikipedia.org/wiki/Sirius" xlink:href="https://en.wikipedia.org/wiki/Sirius" target="_blank" rel="noopener" aria-label="Sirius on Wikipedia">
 <line x1="665.2" y1="1351.7" x2="665.2" y2="1338.7" stroke="#6d573c" stroke-width="0.6"/>
 <line x1="665.2" y1="1351.7" x2="673.6" y2="1341.7" stroke="#6d573c" stroke-width="0.6"/>
 <line x1="665.2" y1="1351.7" x2="678.0" y2="1349.4" stroke="#6d573c" stroke-width="0.6"/>
@@ -349,66 +440,139 @@
 <line x1="665.2" y1="1351.7" x2="656.9" y2="1341.7" stroke="#6d573c" stroke-width="0.6"/>
 <circle cx="665.2" cy="1351.7" r="4.6" fill="#efe6d0" stroke="#241c12" stroke-width="1.4"/>
 <circle cx="665.2" cy="1351.7" r="2.6" fill="#241c12"/>
+</a>
+<a href="https://en.wikipedia.org/wiki/Gliese_65" xlink:href="https://en.wikipedia.org/wiki/Gliese_65" target="_blank" rel="noopener" aria-label="Gliese 65 on Wikipedia">
 <circle cx="537.6" cy="1472.6" r="3.5" fill="#241c12"/>
+</a>
+<a href="https://en.wikipedia.org/wiki/Epsilon_Eridani" xlink:href="https://en.wikipedia.org/wiki/Epsilon_Eridani" target="_blank" rel="noopener" aria-label="Epsilon Eridani on Wikipedia">
 <circle cx="610.5" cy="1476.2" r="3.5" fill="#241c12"/>
+</a>
+<a href="https://en.wikipedia.org/wiki/Gliese_887" xlink:href="https://en.wikipedia.org/wiki/Gliese_887" target="_blank" rel="noopener" aria-label="Gliese 887 on Wikipedia">
 <circle cx="474.2" cy="1459.8" r="3.5" fill="#241c12"/>
+</a>
+<a href="https://en.wikipedia.org/wiki/Ross_128" xlink:href="https://en.wikipedia.org/wiki/Ross_128" target="_blank" rel="noopener" aria-label="Ross 128 on Wikipedia">
 <circle cx="602.2" cy="1147.6" r="3.5" fill="#241c12"/>
+</a>
+<a href="https://en.wikipedia.org/wiki/61_Cygni" xlink:href="https://en.wikipedia.org/wiki/61_Cygni" target="_blank" rel="noopener" aria-label="61 Cygni on Wikipedia">
 <circle cx="340.2" cy="1367.2" r="3.5" fill="#241c12"/>
+</a>
+<a href="https://en.wikipedia.org/wiki/Procyon" xlink:href="https://en.wikipedia.org/wiki/Procyon" target="_blank" rel="noopener" aria-label="Procyon on Wikipedia">
 <circle cx="697.1" cy="1305.6" r="3.5" fill="#241c12"/>
+</a>
+<a href="https://en.wikipedia.org/wiki/Struve_2398" xlink:href="https://en.wikipedia.org/wiki/Struve_2398" target="_blank" rel="noopener" aria-label="Gl 725 (Struve 2398) on Wikipedia">
 <circle cx="364.2" cy="1275.8" r="3.5" fill="#241c12"/>
+</a>
+<a href="https://en.wikipedia.org/wiki/Epsilon_Indi" xlink:href="https://en.wikipedia.org/wiki/Epsilon_Indi" target="_blank" rel="noopener" aria-label="Epsilon Indi on Wikipedia">
 <circle cx="500.3" cy="1418.1" r="3.5" fill="#241c12"/>
+</a>
+<a href="https://en.wikipedia.org/wiki/Tau_Ceti" xlink:href="https://en.wikipedia.org/wiki/Tau_Ceti" target="_blank" rel="noopener" aria-label="Tau Ceti on Wikipedia">
 <circle cx="545.1" cy="1525.5" r="3.5" fill="#241c12"/>
+</a>
+<a href="https://en.wikipedia.org/wiki/YZ_Ceti" xlink:href="https://en.wikipedia.org/wiki/YZ_Ceti" target="_blank" rel="noopener" aria-label="YZ Ceti on Wikipedia">
 <circle cx="521.2" cy="1528.9" r="3.5" fill="#241c12"/>
+</a>
+<a href="https://en.wikipedia.org/wiki/Teegarden%27s_Star" xlink:href="https://en.wikipedia.org/wiki/Teegarden%27s_Star" target="_blank" rel="noopener" aria-label="Teegarden's Star on Wikipedia">
 <circle cx="556.9" cy="1501.6" r="3.5" fill="#241c12"/>
+</a>
+<a href="https://en.wikipedia.org/wiki/Van_Maanen_2" xlink:href="https://en.wikipedia.org/wiki/Van_Maanen_2" target="_blank" rel="noopener" aria-label="van Maanen's Star on Wikipedia">
 <circle cx="462.1" cy="1554.9" r="3.5" fill="#241c12"/>
+</a>
+<a href="https://en.wikipedia.org/wiki/Gliese_876" xlink:href="https://en.wikipedia.org/wiki/Gliese_876" target="_blank" rel="noopener" aria-label="Gliese 876 on Wikipedia">
 <circle cx="386.7" cy="1530.7" r="3.5" fill="#241c12"/>
+</a>
+<a href="https://en.wikipedia.org/wiki/40_Eridani" xlink:href="https://en.wikipedia.org/wiki/40_Eridani" target="_blank" rel="noopener" aria-label="40 Eridani on Wikipedia">
 <circle cx="698.2" cy="1531.5" r="3.5" fill="#241c12"/>
+</a>
 </g>
 <g id="labels">
 <polyline points="64.0,1266.5 134.0,1266.5 357.2,1275.8" fill="none" stroke="#6d573c" stroke-width="0.45" opacity="0.8"/>
+<a href="https://en.wikipedia.org/wiki/Struve_2398" xlink:href="https://en.wikipedia.org/wiki/Struve_2398" target="_blank" rel="noopener" aria-label="Gl 725 (Struve 2398) on Wikipedia">
 <text x="60.0" y="1269.5" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.6" fill="#241c12" text-anchor="start" letter-spacing="1.0" font-weight="normal" font-style="normal">GL 725 (STRUVE 2398)</text>
+</a>
 <polyline points="64.0,1283.5 134.0,1283.5 423.4,1281.2" fill="none" stroke="#6d573c" stroke-width="0.45" opacity="0.8"/>
+<a href="https://en.wikipedia.org/wiki/Barnard%27s_Star" xlink:href="https://en.wikipedia.org/wiki/Barnard%27s_Star" target="_blank" rel="noopener" aria-label="Barnard's Star on Wikipedia">
 <text x="60.0" y="1286.5" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.6" fill="#241c12" text-anchor="start" letter-spacing="1.0" font-weight="normal" font-style="normal">BARNARD'S STAR</text>
+</a>
 <polyline points="64.0,1300.5 134.0,1300.5 333.2,1367.2" fill="none" stroke="#6d573c" stroke-width="0.45" opacity="0.8"/>
+<a href="https://en.wikipedia.org/wiki/61_Cygni" xlink:href="https://en.wikipedia.org/wiki/61_Cygni" target="_blank" rel="noopener" aria-label="61 Cygni on Wikipedia">
 <text x="60.0" y="1303.5" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.6" fill="#241c12" text-anchor="start" letter-spacing="1.0" font-weight="normal" font-style="normal">61 CYGNI</text>
+</a>
 <polyline points="64.0,1317.5 134.0,1317.5 493.3,1418.1" fill="none" stroke="#6d573c" stroke-width="0.45" opacity="0.8"/>
+<a href="https://en.wikipedia.org/wiki/Epsilon_Indi" xlink:href="https://en.wikipedia.org/wiki/Epsilon_Indi" target="_blank" rel="noopener" aria-label="Epsilon Indi on Wikipedia">
 <text x="60.0" y="1320.5" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.6" fill="#241c12" text-anchor="start" letter-spacing="1.0" font-weight="normal" font-style="normal">EPSILON INDI</text>
+</a>
 <polyline points="64.0,1334.5 134.0,1334.5 467.2,1459.8" fill="none" stroke="#6d573c" stroke-width="0.45" opacity="0.8"/>
+<a href="https://en.wikipedia.org/wiki/Gliese_887" xlink:href="https://en.wikipedia.org/wiki/Gliese_887" target="_blank" rel="noopener" aria-label="Gliese 887 on Wikipedia">
 <text x="60.0" y="1337.5" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.6" fill="#241c12" text-anchor="start" letter-spacing="1.0" font-weight="normal" font-style="normal">GLIESE 887</text>
+</a>
 <polyline points="64.0,1351.5 134.0,1351.5 379.7,1530.7" fill="none" stroke="#6d573c" stroke-width="0.45" opacity="0.8"/>
+<a href="https://en.wikipedia.org/wiki/Gliese_876" xlink:href="https://en.wikipedia.org/wiki/Gliese_876" target="_blank" rel="noopener" aria-label="Gliese 876 on Wikipedia">
 <text x="60.0" y="1354.5" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.6" fill="#241c12" text-anchor="start" letter-spacing="1.0" font-weight="normal" font-style="normal">GLIESE 876</text>
+</a>
 <polyline points="64.0,1368.5 134.0,1368.5 455.1,1554.9" fill="none" stroke="#6d573c" stroke-width="0.45" opacity="0.8"/>
+<a href="https://en.wikipedia.org/wiki/Van_Maanen_2" xlink:href="https://en.wikipedia.org/wiki/Van_Maanen_2" target="_blank" rel="noopener" aria-label="van Maanen's Star on Wikipedia">
 <text x="60.0" y="1371.5" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.6" fill="#241c12" text-anchor="start" letter-spacing="1.0" font-weight="normal" font-style="normal">VAN MAANEN'S STAR</text>
+</a>
 <polyline points="976.0,1198.5 906.0,1198.5 609.2,1147.6" fill="none" stroke="#6d573c" stroke-width="0.45" opacity="0.8"/>
+<a href="https://en.wikipedia.org/wiki/Ross_128" xlink:href="https://en.wikipedia.org/wiki/Ross_128" target="_blank" rel="noopener" aria-label="Ross 128 on Wikipedia">
 <text x="980.0" y="1201.5" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.6" fill="#241c12" text-anchor="end" letter-spacing="1.0" font-weight="normal" font-style="normal">ROSS 128</text>
+</a>
 <polyline points="976.0,1215.5 906.0,1215.5 602.8,1211.1" fill="none" stroke="#6d573c" stroke-width="0.45" opacity="0.8"/>
+<a href="https://en.wikipedia.org/wiki/Wolf_359" xlink:href="https://en.wikipedia.org/wiki/Wolf_359" target="_blank" rel="noopener" aria-label="Wolf 359 on Wikipedia">
 <text x="980.0" y="1218.5" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.6" fill="#241c12" text-anchor="end" letter-spacing="1.0" font-weight="normal" font-style="normal">WOLF 359</text>
+</a>
 <polyline points="976.0,1232.5 906.0,1232.5 563.2,1213.5" fill="none" stroke="#6d573c" stroke-width="0.45" opacity="0.8"/>
+<a href="https://en.wikipedia.org/wiki/Lalande_21185" xlink:href="https://en.wikipedia.org/wiki/Lalande_21185" target="_blank" rel="noopener" aria-label="Lalande 21185 on Wikipedia">
 <text x="980.0" y="1235.5" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.6" fill="#241c12" text-anchor="end" letter-spacing="1.0" font-weight="normal" font-style="normal">LALANDE 21185</text>
+</a>
 <polyline points="976.0,1249.5 906.0,1249.5 645.5,1274.4" fill="none" stroke="#6d573c" stroke-width="0.45" opacity="0.8"/>
+<a href="https://en.wikipedia.org/wiki/WISE_0855-0714" xlink:href="https://en.wikipedia.org/wiki/WISE_0855-0714" target="_blank" rel="noopener" aria-label="WISE 0855-0714 on Wikipedia">
 <text x="980.0" y="1252.5" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.6" fill="#241c12" text-anchor="end" letter-spacing="1.0" font-weight="normal" font-style="normal">WISE 0855-0714</text>
+</a>
 <polyline points="976.0,1266.5 906.0,1266.5 603.5,1282.4" fill="none" stroke="#6d573c" stroke-width="0.45" opacity="0.8"/>
+<a href="https://en.wikipedia.org/wiki/Luhman_16" xlink:href="https://en.wikipedia.org/wiki/Luhman_16" target="_blank" rel="noopener" aria-label="Luhman 16 on Wikipedia">
 <text x="980.0" y="1269.5" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.6" fill="#241c12" text-anchor="end" letter-spacing="1.0" font-weight="normal" font-style="normal">LUHMAN 16</text>
+</a>
 <polyline points="976.0,1283.5 906.0,1283.5 543.2,1295.8" fill="none" stroke="#6d573c" stroke-width="0.45" opacity="0.8"/>
+<a href="https://en.wikipedia.org/wiki/Alpha_Centauri" xlink:href="https://en.wikipedia.org/wiki/Alpha_Centauri" target="_blank" rel="noopener" aria-label="Alpha Centauri on Wikipedia">
 <text x="980.0" y="1286.5" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.6" fill="#241c12" text-anchor="end" letter-spacing="1.0" font-weight="normal" font-style="normal">ALPHA CENTAURI</text>
+</a>
 <polyline points="976.0,1300.5 906.0,1300.5 704.1,1305.6" fill="none" stroke="#6d573c" stroke-width="0.45" opacity="0.8"/>
+<a href="https://en.wikipedia.org/wiki/Procyon" xlink:href="https://en.wikipedia.org/wiki/Procyon" target="_blank" rel="noopener" aria-label="Procyon on Wikipedia">
 <text x="980.0" y="1303.5" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.6" fill="#241c12" text-anchor="end" letter-spacing="1.0" font-weight="normal" font-style="normal">PROCYON</text>
+</a>
 <polyline points="976.0,1317.5 906.0,1317.5 527.0,1320.5" fill="none" stroke="#6d573c" stroke-width="0.45" opacity="0.8"/>
+<a href="https://en.wikipedia.org/wiki/Sun" xlink:href="https://en.wikipedia.org/wiki/Sun" target="_blank" rel="noopener" aria-label="Sol on Wikipedia">
 <text x="980.0" y="1320.5" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.6" fill="#241c12" text-anchor="end" letter-spacing="1.0" font-weight="normal" font-style="normal">SOL</text>
+</a>
 <polyline points="976.0,1334.5 906.0,1334.5 672.2,1351.7" fill="none" stroke="#6d573c" stroke-width="0.45" opacity="0.8"/>
+<a href="https://en.wikipedia.org/wiki/Sirius" xlink:href="https://en.wikipedia.org/wiki/Sirius" target="_blank" rel="noopener" aria-label="Sirius on Wikipedia">
 <text x="980.0" y="1337.5" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.6" fill="#241c12" text-anchor="end" letter-spacing="1.0" font-weight="normal" font-style="normal">SIRIUS</text>
+</a>
 <polyline points="976.0,1351.5 906.0,1351.5 544.6,1472.6" fill="none" stroke="#6d573c" stroke-width="0.45" opacity="0.8"/>
+<a href="https://en.wikipedia.org/wiki/Gliese_65" xlink:href="https://en.wikipedia.org/wiki/Gliese_65" target="_blank" rel="noopener" aria-label="Gliese 65 on Wikipedia">
 <text x="980.0" y="1354.5" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.6" fill="#241c12" text-anchor="end" letter-spacing="1.0" font-weight="normal" font-style="normal">GLIESE 65</text>
+</a>
 <polyline points="976.0,1368.5 906.0,1368.5 617.5,1476.2" fill="none" stroke="#6d573c" stroke-width="0.45" opacity="0.8"/>
+<a href="https://en.wikipedia.org/wiki/Epsilon_Eridani" xlink:href="https://en.wikipedia.org/wiki/Epsilon_Eridani" target="_blank" rel="noopener" aria-label="Epsilon Eridani on Wikipedia">
 <text x="980.0" y="1371.5" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.6" fill="#241c12" text-anchor="end" letter-spacing="1.0" font-weight="normal" font-style="normal">EPSILON ERIDANI</text>
+</a>
 <polyline points="976.0,1385.5 906.0,1385.5 563.9,1501.6" fill="none" stroke="#6d573c" stroke-width="0.45" opacity="0.8"/>
+<a href="https://en.wikipedia.org/wiki/Teegarden%27s_Star" xlink:href="https://en.wikipedia.org/wiki/Teegarden%27s_Star" target="_blank" rel="noopener" aria-label="Teegarden's Star on Wikipedia">
 <text x="980.0" y="1388.5" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.6" fill="#241c12" text-anchor="end" letter-spacing="1.0" font-weight="normal" font-style="normal">TEEGARDEN'S STAR</text>
+</a>
 <polyline points="976.0,1402.5 906.0,1402.5 552.1,1525.5" fill="none" stroke="#6d573c" stroke-width="0.45" opacity="0.8"/>
+<a href="https://en.wikipedia.org/wiki/Tau_Ceti" xlink:href="https://en.wikipedia.org/wiki/Tau_Ceti" target="_blank" rel="noopener" aria-label="Tau Ceti on Wikipedia">
 <text x="980.0" y="1405.5" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.6" fill="#241c12" text-anchor="end" letter-spacing="1.0" font-weight="normal" font-style="normal">TAU CETI</text>
+</a>
 <polyline points="976.0,1419.5 906.0,1419.5 528.2,1528.9" fill="none" stroke="#6d573c" stroke-width="0.45" opacity="0.8"/>
+<a href="https://en.wikipedia.org/wiki/YZ_Ceti" xlink:href="https://en.wikipedia.org/wiki/YZ_Ceti" target="_blank" rel="noopener" aria-label="YZ Ceti on Wikipedia">
 <text x="980.0" y="1422.5" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.6" fill="#241c12" text-anchor="end" letter-spacing="1.0" font-weight="normal" font-style="normal">YZ CETI</text>
+</a>
 <polyline points="976.0,1436.5 906.0,1436.5 705.2,1531.5" fill="none" stroke="#6d573c" stroke-width="0.45" opacity="0.8"/>
+<a href="https://en.wikipedia.org/wiki/40_Eridani" xlink:href="https://en.wikipedia.org/wiki/40_Eridani" target="_blank" rel="noopener" aria-label="40 Eridani on Wikipedia">
 <text x="980.0" y="1439.5" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.6" fill="#241c12" text-anchor="end" letter-spacing="1.0" font-weight="normal" font-style="normal">40 ERIDANI</text>
+</a>
 </g>
 <line x1="60" y1="1630" x2="147.0" y2="1630" stroke="#241c12" stroke-width="1.3"/>
 <line x1="60.0" y1="1626" x2="60.0" y2="1634" stroke="#241c12" stroke-width="1.3"/>
@@ -437,61 +601,118 @@
 <text x="94.0" y="1884.0" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="11.4" fill="#241c12" text-anchor="start" letter-spacing="0.0" font-weight="normal" font-style="normal">The Nine — Sirius's nine doors</text>
 <rect x="520" y="1680" width="486" height="246" fill="none" stroke="#8a7350" stroke-width="1.1"/>
 <text x="538.0" y="1708.0" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="14" fill="#241c12" text-anchor="start" letter-spacing="2.2" font-weight="bold" font-style="normal">THE TWENTY-EIGHT SYSTEMS</text>
+<a href="https://en.wikipedia.org/wiki/Sun" xlink:href="https://en.wikipedia.org/wiki/Sun" target="_blank" rel="noopener" aria-label="Sol on Wikipedia">
 <text x="538.0" y="1730.0" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#241c12" text-anchor="start" letter-spacing="0.0" font-weight="normal" font-style="normal">Sol</text>
+</a>
 <text x="680.0" y="1730.0" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#6d573c" text-anchor="end" letter-spacing="0.0" font-weight="normal" font-style="normal">0.00</text>
+<a href="https://en.wikipedia.org/wiki/Alpha_Centauri" xlink:href="https://en.wikipedia.org/wiki/Alpha_Centauri" target="_blank" rel="noopener" aria-label="Alpha Centauri on Wikipedia">
 <text x="538.0" y="1742.4" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#241c12" text-anchor="start" letter-spacing="0.0" font-weight="normal" font-style="normal">Alpha Centauri</text>
+</a>
 <text x="680.0" y="1742.4" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#6d573c" text-anchor="end" letter-spacing="0.0" font-weight="normal" font-style="normal">4.39</text>
+<a href="https://en.wikipedia.org/wiki/Barnard%27s_Star" xlink:href="https://en.wikipedia.org/wiki/Barnard%27s_Star" target="_blank" rel="noopener" aria-label="Barnard's Star on Wikipedia">
 <text x="538.0" y="1754.8" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#241c12" text-anchor="start" letter-spacing="0.0" font-weight="normal" font-style="normal">Barnard's Star</text>
+</a>
 <text x="680.0" y="1754.8" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#6d573c" text-anchor="end" letter-spacing="0.0" font-weight="normal" font-style="normal">5.96</text>
+<a href="https://en.wikipedia.org/wiki/Luhman_16" xlink:href="https://en.wikipedia.org/wiki/Luhman_16" target="_blank" rel="noopener" aria-label="Luhman 16 on Wikipedia">
 <text x="538.0" y="1767.2" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#241c12" text-anchor="start" letter-spacing="0.0" font-weight="normal" font-style="normal">Luhman 16</text>
+</a>
 <text x="680.0" y="1767.2" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#6d573c" text-anchor="end" letter-spacing="0.0" font-weight="normal" font-style="normal">6.50</text>
+<a href="https://en.wikipedia.org/wiki/WISE_0855-0714" xlink:href="https://en.wikipedia.org/wiki/WISE_0855-0714" target="_blank" rel="noopener" aria-label="WISE 0855-0714 on Wikipedia">
 <text x="538.0" y="1779.6" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#241c12" text-anchor="start" letter-spacing="0.0" font-weight="normal" font-style="normal">WISE 0855-0714</text>
+</a>
 <text x="680.0" y="1779.6" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#6d573c" text-anchor="end" letter-spacing="0.0" font-weight="normal" font-style="normal">7.43</text>
+<a href="https://en.wikipedia.org/wiki/Wolf_359" xlink:href="https://en.wikipedia.org/wiki/Wolf_359" target="_blank" rel="noopener" aria-label="Wolf 359 on Wikipedia">
 <text x="538.0" y="1792.0" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#241c12" text-anchor="start" letter-spacing="0.0" font-weight="normal" font-style="normal">Wolf 359</text>
+</a>
 <text x="680.0" y="1792.0" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#6d573c" text-anchor="end" letter-spacing="0.0" font-weight="normal" font-style="normal">7.86</text>
+<a href="https://en.wikipedia.org/wiki/Lalande_21185" xlink:href="https://en.wikipedia.org/wiki/Lalande_21185" target="_blank" rel="noopener" aria-label="Lalande 21185 on Wikipedia">
 <text x="538.0" y="1804.4" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#241c12" text-anchor="start" letter-spacing="0.0" font-weight="normal" font-style="normal">Lalande 21185</text>
+</a>
 <text x="680.0" y="1804.4" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#6d573c" text-anchor="end" letter-spacing="0.0" font-weight="normal" font-style="normal">8.30</text>
+<a href="https://en.wikipedia.org/wiki/Sirius" xlink:href="https://en.wikipedia.org/wiki/Sirius" target="_blank" rel="noopener" aria-label="Sirius on Wikipedia">
 <text x="538.0" y="1816.8" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#241c12" text-anchor="start" letter-spacing="0.0" font-weight="normal" font-style="normal">Sirius</text>
+</a>
 <text x="680.0" y="1816.8" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#6d573c" text-anchor="end" letter-spacing="0.0" font-weight="normal" font-style="normal">8.60</text>
+<a href="https://en.wikipedia.org/wiki/Gliese_65" xlink:href="https://en.wikipedia.org/wiki/Gliese_65" target="_blank" rel="noopener" aria-label="Gliese 65 on Wikipedia">
 <text x="538.0" y="1829.2" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#241c12" text-anchor="start" letter-spacing="0.0" font-weight="normal" font-style="normal">Gliese 65</text>
+</a>
 <text x="680.0" y="1829.2" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#6d573c" text-anchor="end" letter-spacing="0.0" font-weight="normal" font-style="normal">8.87</text>
+<a href="https://en.wikipedia.org/wiki/Epsilon_Eridani" xlink:href="https://en.wikipedia.org/wiki/Epsilon_Eridani" target="_blank" rel="noopener" aria-label="Epsilon Eridani on Wikipedia">
 <text x="538.0" y="1841.6" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#241c12" text-anchor="start" letter-spacing="0.0" font-weight="normal" font-style="normal">Epsilon Eridani</text>
+</a>
 <text x="680.0" y="1841.6" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#6d573c" text-anchor="end" letter-spacing="0.0" font-weight="normal" font-style="normal">10.50</text>
+<a href="https://en.wikipedia.org/wiki/Gliese_887" xlink:href="https://en.wikipedia.org/wiki/Gliese_887" target="_blank" rel="noopener" aria-label="Gliese 887 on Wikipedia">
 <text x="538.0" y="1854.0" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#241c12" text-anchor="start" letter-spacing="0.0" font-weight="normal" font-style="normal">Gliese 887</text>
+</a>
 <text x="680.0" y="1854.0" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#6d573c" text-anchor="end" letter-spacing="0.0" font-weight="normal" font-style="normal">10.72</text>
+<a href="https://en.wikipedia.org/wiki/Ross_128" xlink:href="https://en.wikipedia.org/wiki/Ross_128" target="_blank" rel="noopener" aria-label="Ross 128 on Wikipedia">
 <text x="538.0" y="1866.4" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#241c12" text-anchor="start" letter-spacing="0.0" font-weight="normal" font-style="normal">Ross 128</text>
+</a>
 <text x="680.0" y="1866.4" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#6d573c" text-anchor="end" letter-spacing="0.0" font-weight="normal" font-style="normal">11.01</text>
+<a href="https://en.wikipedia.org/wiki/61_Cygni" xlink:href="https://en.wikipedia.org/wiki/61_Cygni" target="_blank" rel="noopener" aria-label="61 Cygni on Wikipedia">
 <text x="538.0" y="1878.8" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#241c12" text-anchor="start" letter-spacing="0.0" font-weight="normal" font-style="normal">61 Cygni</text>
+</a>
 <text x="680.0" y="1878.8" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#6d573c" text-anchor="end" letter-spacing="0.0" font-weight="normal" font-style="normal">11.40</text>
+<a href="https://en.wikipedia.org/wiki/Procyon" xlink:href="https://en.wikipedia.org/wiki/Procyon" target="_blank" rel="noopener" aria-label="Procyon on Wikipedia">
 <text x="538.0" y="1891.2" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#241c12" text-anchor="start" letter-spacing="0.0" font-weight="normal" font-style="normal">Procyon</text>
+</a>
 <text x="680.0" y="1891.2" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#6d573c" text-anchor="end" letter-spacing="0.0" font-weight="normal" font-style="normal">11.46</text>
+<a href="https://en.wikipedia.org/wiki/Struve_2398" xlink:href="https://en.wikipedia.org/wiki/Struve_2398" target="_blank" rel="noopener" aria-label="Gl 725 (Struve 2398) on Wikipedia">
 <text x="698.0" y="1730.0" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#241c12" text-anchor="start" letter-spacing="0.0" font-weight="normal" font-style="normal">Gl 725 (Struve 2398)</text>
+</a>
 <text x="840.0" y="1730.0" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#6d573c" text-anchor="end" letter-spacing="0.0" font-weight="normal" font-style="normal">11.49</text>
+<a href="https://en.wikipedia.org/wiki/Epsilon_Indi" xlink:href="https://en.wikipedia.org/wiki/Epsilon_Indi" target="_blank" rel="noopener" aria-label="Epsilon Indi on Wikipedia">
 <text x="698.0" y="1742.4" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#241c12" text-anchor="start" letter-spacing="0.0" font-weight="normal" font-style="normal">Epsilon Indi</text>
+</a>
 <text x="840.0" y="1742.4" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#6d573c" text-anchor="end" letter-spacing="0.0" font-weight="normal" font-style="normal">11.87</text>
+<a href="https://en.wikipedia.org/wiki/Tau_Ceti" xlink:href="https://en.wikipedia.org/wiki/Tau_Ceti" target="_blank" rel="noopener" aria-label="Tau Ceti on Wikipedia">
 <text x="698.0" y="1754.8" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#241c12" text-anchor="start" letter-spacing="0.0" font-weight="normal" font-style="normal">Tau Ceti</text>
+</a>
 <text x="840.0" y="1754.8" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#6d573c" text-anchor="end" letter-spacing="0.0" font-weight="normal" font-style="normal">11.91</text>
+<a href="https://en.wikipedia.org/wiki/YZ_Ceti" xlink:href="https://en.wikipedia.org/wiki/YZ_Ceti" target="_blank" rel="noopener" aria-label="YZ Ceti on Wikipedia">
 <text x="698.0" y="1767.2" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#241c12" text-anchor="start" letter-spacing="0.0" font-weight="normal" font-style="normal">YZ Ceti</text>
+</a>
 <text x="840.0" y="1767.2" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#6d573c" text-anchor="end" letter-spacing="0.0" font-weight="normal" font-style="normal">12.12</text>
+<a href="https://en.wikipedia.org/wiki/Teegarden%27s_Star" xlink:href="https://en.wikipedia.org/wiki/Teegarden%27s_Star" target="_blank" rel="noopener" aria-label="Teegarden's Star on Wikipedia">
 <text x="698.0" y="1779.6" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#241c12" text-anchor="start" letter-spacing="0.0" font-weight="normal" font-style="normal">Teegarden's Star</text>
+</a>
 <text x="840.0" y="1779.6" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#6d573c" text-anchor="end" letter-spacing="0.0" font-weight="normal" font-style="normal">12.50</text>
+<a href="https://en.wikipedia.org/wiki/Van_Maanen_2" xlink:href="https://en.wikipedia.org/wiki/Van_Maanen_2" target="_blank" rel="noopener" aria-label="van Maanen's Star on Wikipedia">
 <text x="698.0" y="1792.0" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#241c12" text-anchor="start" letter-spacing="0.0" font-weight="normal" font-style="normal">van Maanen's Star</text>
+</a>
 <text x="840.0" y="1792.0" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#6d573c" text-anchor="end" letter-spacing="0.0" font-weight="normal" font-style="normal">14.07</text>
+<a href="https://en.wikipedia.org/wiki/Gliese_876" xlink:href="https://en.wikipedia.org/wiki/Gliese_876" target="_blank" rel="noopener" aria-label="Gliese 876 on Wikipedia">
 <text x="698.0" y="1804.4" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#241c12" text-anchor="start" letter-spacing="0.0" font-weight="normal" font-style="normal">Gliese 876</text>
+</a>
 <text x="840.0" y="1804.4" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#6d573c" text-anchor="end" letter-spacing="0.0" font-weight="normal" font-style="normal">15.24</text>
+<a href="https://en.wikipedia.org/wiki/40_Eridani" xlink:href="https://en.wikipedia.org/wiki/40_Eridani" target="_blank" rel="noopener" aria-label="40 Eridani on Wikipedia">
 <text x="698.0" y="1816.8" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#241c12" text-anchor="start" letter-spacing="0.0" font-weight="normal" font-style="normal">40 Eridani</text>
+</a>
 <text x="840.0" y="1816.8" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#6d573c" text-anchor="end" letter-spacing="0.0" font-weight="normal" font-style="normal">16.34</text>
+<a href="https://en.wikipedia.org/wiki/TRAPPIST-1" xlink:href="https://en.wikipedia.org/wiki/TRAPPIST-1" target="_blank" rel="noopener" aria-label="TRAPPIST-1 on Wikipedia">
 <text x="698.0" y="1829.2" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#241c12" text-anchor="start" letter-spacing="0.0" font-weight="normal" font-style="normal">TRAPPIST-1</text>
+</a>
 <text x="840.0" y="1829.2" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#6d573c" text-anchor="end" letter-spacing="0.0" font-weight="normal" font-style="normal">40.66</text>
+<a href="https://en.wikipedia.org/wiki/HD_69830" xlink:href="https://en.wikipedia.org/wiki/HD_69830" target="_blank" rel="noopener" aria-label="HD 69830 on Wikipedia">
 <text x="698.0" y="1841.6" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#241c12" text-anchor="start" letter-spacing="0.0" font-weight="normal" font-style="normal">HD 69830</text>
+</a>
 <text x="840.0" y="1841.6" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#6d573c" text-anchor="end" letter-spacing="0.0" font-weight="normal" font-style="normal">41.03</text>
+<a href="https://en.wikipedia.org/wiki/55_Cancri" xlink:href="https://en.wikipedia.org/wiki/55_Cancri" target="_blank" rel="noopener" aria-label="55 Cancri on Wikipedia">
 <text x="698.0" y="1854.0" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#241c12" text-anchor="start" letter-spacing="0.0" font-weight="normal" font-style="normal">55 Cancri</text>
+</a>
 <text x="840.0" y="1854.0" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#6d573c" text-anchor="end" letter-spacing="0.0" font-weight="normal" font-style="normal">41.05</text>
+<a href="https://en.wikipedia.org/wiki/HD_40307" xlink:href="https://en.wikipedia.org/wiki/HD_40307" target="_blank" rel="noopener" aria-label="HD 40307 on Wikipedia">
 <text x="698.0" y="1866.4" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#241c12" text-anchor="start" letter-spacing="0.0" font-weight="normal" font-style="normal">HD 40307</text>
+</a>
 <text x="840.0" y="1866.4" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#6d573c" text-anchor="end" letter-spacing="0.0" font-weight="normal" font-style="normal">42.18</text>
+<a href="https://en.wikipedia.org/wiki/GJ_1214" xlink:href="https://en.wikipedia.org/wiki/GJ_1214" target="_blank" rel="noopener" aria-label="GJ 1214 on Wikipedia">
 <text x="698.0" y="1878.8" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#241c12" text-anchor="start" letter-spacing="0.0" font-weight="normal" font-style="normal">GJ 1214</text>
+</a>
 <text x="840.0" y="1878.8" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#6d573c" text-anchor="end" letter-spacing="0.0" font-weight="normal" font-style="normal">47.75</text>
+<a href="https://en.wikipedia.org/wiki/LHS_1140" xlink:href="https://en.wikipedia.org/wiki/LHS_1140" target="_blank" rel="noopener" aria-label="LHS 1140 on Wikipedia">
 <text x="698.0" y="1891.2" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#241c12" text-anchor="start" letter-spacing="0.0" font-weight="normal" font-style="normal">LHS 1140</text>
+</a>
 <text x="840.0" y="1891.2" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="9.0" fill="#6d573c" text-anchor="end" letter-spacing="0.0" font-weight="normal" font-style="normal">48.80</text>
 <text x="538.0" y="1908.0" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="8.6" fill="#6d573c" text-anchor="start" letter-spacing="0.0" font-weight="normal" font-style="italic">Distances in light years from Sol, computed from SIMBAD parallaxes.</text>
+<text x="52.0" y="1908.0" font-family="'EB Garamond','Georgia','Times New Roman',serif" font-size="8.6" fill="#6d573c" text-anchor="start" letter-spacing="0.0" font-weight="normal" font-style="italic">On screen, every star name links to its Wikipedia article.</text>
 </svg>

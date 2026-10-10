@@ -67,6 +67,31 @@ def text(x, y, t, size=11, anchor="start", fill=INK, ls=0.0, weight="normal", st
 def caps(x, y, t, size=11, anchor="start", fill=INK, ls=1.6, weight="normal"):
     text(x, y, t.upper(), size, anchor, fill, ls, weight)
 
+def wiki(key):
+    """The system's Wikipedia article, out of its own sources list."""
+    for s in (S[key].get("sources") or []):
+        if "wikipedia.org" in s:
+            return s
+    return None
+
+def link_open(key):
+    """Open an SVG hyperlink around a star's mark or its name.
+
+    href is SVG 2 and is what browsers follow; xlink:href is kept as well, for
+    the drawing programs this chart is meant to stay editable in. A system with
+    no article in its sources emits nothing and is simply not a link.
+    """
+    u = wiki(key)
+    if not u:
+        return False
+    add(f'<a href="{esc(u)}" xlink:href="{esc(u)}" target="_blank" rel="noopener" '
+        f'aria-label="{esc(S[key]["name"])} on Wikipedia">')
+    return True
+
+def link_close(opened):
+    if opened:
+        add("</a>")
+
 def frame(x, y, w, h, sw=1.1, stroke=RULE, fill="none"):
     add(f'<rect x="{x}" y="{y}" width="{w}" height="{h}" fill="{fill}" '
         f'stroke="{stroke}" stroke-width="{sw}"/>')
@@ -150,6 +175,7 @@ def plate(ox, oy, pw, ph, radius, members, scale, title, subtitle,
     for m in members:
         p, X, Y = G[m], sx(G[m]), sy(G[m])
         open_ = S[m]["opened_years_ago"] is not None and S[m]["opened_years_ago"] < 0
+        _a = link_open(m)
         if m == "sol":
             add(f'<circle cx="{X:.1f}" cy="{Y:.1f}" r="5.4" fill="none" stroke="{INK}" stroke-width="1.3"/>')
             for i in range(8):
@@ -170,6 +196,7 @@ def plate(ox, oy, pw, ph, radius, members, scale, title, subtitle,
             add(f'<circle cx="{X:.1f}" cy="{Y:.1f}" r="1.5" fill="none" stroke="{INK}" stroke-width="1.0"/>')
         else:
             add(f'<circle cx="{X:.1f}" cy="{Y:.1f}" r="3.5" fill="{INK}"/>')
+        link_close(_a)
     add('</g>')
 
     # --- labels: a column down each side, ordered by screen height.
@@ -195,7 +222,9 @@ def plate(ox, oy, pw, ph, radius, members, scale, title, subtitle,
                 add(f'<polyline points="{lx + (4 if side=="left" else -4):.1f},{ly-3:.1f} '
                     f'{elbow:.1f},{ly-3:.1f} {X + (-7 if side=="left" else 7):.1f},{Y:.1f}" '
                     f'fill="none" stroke="{MID}" stroke-width="0.45" opacity="0.8"/>')
+                _a = link_open(m)
                 caps(lx, ly, S[m]["name"], 9.6, anchor, INK, 1.0)
+                link_close(_a)
         add('</g>')
 
     # scale bar
@@ -221,8 +250,19 @@ def plate(ox, oy, pw, ph, radius, members, scale, title, subtitle,
     return cx, cy
 
 # ---------------------------------------------------------------------------
-add(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" '
+add(f'<svg id="causeway" xmlns="http://www.w3.org/2000/svg" '
+    f'xmlns:xlink="http://www.w3.org/1999/xlink" width="{W}" height="{H}" '
     f'viewBox="0 0 {W} {H}">')
+add("<title>The Causeway — the known network, 975 years after the Reach</title>")
+# Scoped to the sheet's own id, because this file is also inlined into a page.
+# Print renderers ignore it; on screen a name is visibly a link on hover.
+add(f"""<style>
+  #causeway a {{ cursor: pointer; }}
+  #causeway a text, #causeway a circle {{ transition: fill .12s ease; }}
+  #causeway a:hover text, #causeway a:focus text {{ fill: {DOOR}; }}
+  #causeway a:hover circle[fill="{INK}"] {{ fill: {DOOR}; }}
+  #causeway a:focus {{ outline: none; }}
+</style>""")
 add(f'<rect width="{W}" height="{H}" fill="{PAPER}"/>')
 add(f'<rect x="14" y="14" width="{W-28}" height="{H-28}" fill="none" stroke="{INK}" stroke-width="2.4"/>')
 add(f'<rect x="21" y="21" width="{W-42}" height="{H-42}" fill="none" stroke="{INK}" stroke-width="0.7"/>')
@@ -252,7 +292,9 @@ for m in [k for k, v in S.items() if v["distance_ly"] > 17.0]:
     _w = len(S[m]["name"]) * 7.9 + 14          # 11px small caps + tracking
     if right and X + _w > (34 + W - 68) - 16:
         right = False
+    _a = link_open(m)
     caps(X + (12 if right else -12), Y + 4, S[m]["name"], 11, "start" if right else "end", INK, 1.4)
+    link_close(_a)
     if S[m]["opened_years_ago"] is not None and S[m]["opened_years_ago"] < 0:
         caps(X + (12 if right else -12), Y + 19, "not yet open", 8.6,
              "start" if right else "end", DOOR, 1.6)
@@ -293,9 +335,12 @@ for i, (k, v) in enumerate(order):
     c, r = i // per, i % per
     x = 538 + c * 160
     y = ty + 50 + r * 12.4
+    _a = link_open(k)
     text(x, y, v["name"], 9.0, "start", INK)
+    link_close(_a)
     text(x + 142, y, f'{v["distance_ly"]:.2f}', 9.0, "end", MID)
 text(538, ty + 228, "Distances in light years from Sol, computed from SIMBAD parallaxes.", 8.6, "start", MID, style="italic")
+text(52, ty + 228, "On screen, every star name links to its Wikipedia article.", 8.6, "start", MID, style="italic")
 
 add('</svg>')
 dest = os.path.join(ROOT, "maps", "the-causeway.svg")
