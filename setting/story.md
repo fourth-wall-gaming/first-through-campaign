@@ -72,7 +72,7 @@ thread:
   - title: "The watch reports"
     when: "d2/dawn"
     status: pending
-    summary: "Six hundred years of a rota that has never once reported anything"
+    summary: "Three and a half centuries of a rota that has never once reported anything"
   - title: "A proposal dies in committee"
     when: "d2/day"
     status: pending
@@ -155,13 +155,13 @@ the job feels like when it works. Then the Wolf Gate starts setting, and the tim
 it takes to open is measurable, and it rises.
 
 Ends on the watch at [[van Maanen's Star]] reporting something for the first time
-in six hundred years.
+in three and a half centuries.
 
 ---
 
 # ACT II — KAPTEYN'S
 
-**For:** the wonder, and the first hard truth. Twenty-four generations alone
+**For:** the wonder, and the first hard truth. Fifteen generations alone
 behind a buried door, and then the discovery that the stray which opened it was
 predictable — and that somebody predicted it.
 
@@ -169,7 +169,7 @@ predictable — and that somebody predicted it.
 nobody's fault and entirely avoidable and both of those are true.
 
 Beats to write: the Nine goes mad; who gets to go first and how that is decided;
-the crossing; what eleven thousand people became in six centuries alone; evidence
+the crossing; what eleven thousand people became in three and a half centuries alone; evidence
 that somebody was already here; the figures behind the stray; Rill.
 
 Ends at the low point: strays can be **caused**, somebody is causing them, and

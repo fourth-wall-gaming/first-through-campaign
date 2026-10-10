@@ -74,6 +74,6 @@ or five times a year and rubs it out again by the next watch.
 Somebody wrote it in the spring of six hundred and two because they thought they
 would be rubbing it out by the afternoon.
 
-It is the stalest line on the board by six centuries, it is the only line the
+It is the stalest line on the board by three and a half centuries, it is the only line the
 keeper is not allowed to square up, and she has asked twice. See
 [[The Nine Hundred Years]].

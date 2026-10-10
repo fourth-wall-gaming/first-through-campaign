@@ -155,6 +155,13 @@ def plate(ox, oy, pw, ph, radius, members, scale, title, subtitle,
             sirius_edges.append(e)
         x1, y1, x2, y2 = sx(G[a]), sy(G[a]), sx(G[b]), sy(G[b])
         w_ = 1.7 if is_nine else (0.75 if max(S[a]["distance_ly"], S[b]["distance_ly"]) > 20 else 1.0)
+        # A door that has strayed into rock is still a pair and still on the
+        # chart. It is drawn as what it is: the line is there and will not open.
+        dark_edge = S[a].get("dark_since") or S[b].get("dark_since")
+        if dark_edge:
+            add(f'<line x1="{x1:.1f}" y1="{y1:.1f}" x2="{x2:.1f}" y2="{y2:.1f}" '
+                f'stroke="{MID}" stroke-width="0.9" stroke-dasharray="3 5" opacity="0.9"/>')
+            continue
         add(f'<line x1="{x1:.1f}" y1="{y1:.1f}" x2="{x2:.1f}" y2="{y2:.1f}" '
             f'stroke="{DOOR}" stroke-width="{w_}" opacity="0.95"/>')
         mx, my = (x1 + x2) / 2.0, (y1 + y2) / 2.0
@@ -175,6 +182,7 @@ def plate(ox, oy, pw, ph, radius, members, scale, title, subtitle,
     for m in members:
         p, X, Y = G[m], sx(G[m]), sy(G[m])
         open_ = S[m]["opened_years_ago"] is not None and S[m]["opened_years_ago"] < 0
+        dark_ = S[m].get("dark_since") is not None
         _a = link_open(m)
         if m == "sol":
             add(f'<circle cx="{X:.1f}" cy="{Y:.1f}" r="5.4" fill="none" stroke="{INK}" stroke-width="1.3"/>')
@@ -191,6 +199,10 @@ def plate(ox, oy, pw, ph, radius, members, scale, title, subtitle,
                     f'y2="{Y + 13*math.sin(a):.1f}" stroke="{MID}" stroke-width="0.6"/>')
             add(f'<circle cx="{X:.1f}" cy="{Y:.1f}" r="4.6" fill="{PAPER}" stroke="{INK}" stroke-width="1.4"/>')
             add(f'<circle cx="{X:.1f}" cy="{Y:.1f}" r="2.6" fill="{INK}"/>')
+        elif dark_:
+            add(f'<circle cx="{X:.1f}" cy="{Y:.1f}" r="3.5" fill="{INK}"/>')
+            add(f'<line x1="{X-6:.1f}" y1="{Y+6:.1f}" x2="{X+6:.1f}" y2="{Y-6:.1f}" '
+                f'stroke="{INK}" stroke-width="1.1"/>')
         elif open_:
             add(f'<circle cx="{X:.1f}" cy="{Y:.1f}" r="4.4" fill="{PAPER}" stroke="{INK}" stroke-width="1.5"/>')
             add(f'<circle cx="{X:.1f}" cy="{Y:.1f}" r="1.5" fill="none" stroke="{INK}" stroke-width="1.0"/>')
@@ -298,6 +310,10 @@ for m in [k for k, v in S.items() if v["distance_ly"] > 17.0]:
     if S[m]["opened_years_ago"] is not None and S[m]["opened_years_ago"] < 0:
         caps(X + (12 if right else -12), Y + 19, "not yet open", 8.6,
              "start" if right else "end", DOOR, 1.6)
+    if S[m].get("dark_since") is not None:
+        caps(X + (12 if right else -12), Y + 19,
+             f"dark since {S[m]['dark_since']}", 8.6,
+             "start" if right else "end", MID, 1.6)
 add(f'<rect x="{cx1-96:.0f}" y="{cy1-74:.0f}" width="192" height="150" fill="none" '
     f'stroke="{INK}" stroke-width="0.9" stroke-dasharray="5 4"/>')
 caps(cx1, cy1 - 84, "see plate II", 9.4, "middle", INK, 1.8)
@@ -305,22 +321,30 @@ add('</g>')
 
 plate(34, 960, W - 68, 700, 17.0, INNER, 17.4,
       "Plate II.  The Inner Reach",
-      ["Radius 17 light years — 22 of the 28 systems",
+      [f"Radius 17 light years — {len(INNER)} of the {len(S)} systems",
        "Outer ring 17 light years — not the frontier",
        "Heavy lines are the Nine, the doors meeting at Sirius"],
       rings=[5, 10, 15, 17], label_all=True, nine=True)
+
+
+NUMBER_WORDS = {27: "twenty-seven", 28: "twenty-eight", 29: "twenty-nine",
+                30: "thirty", 31: "thirty-one", 32: "thirty-two"}
 
 # --- conventions + table ----------------------------------------------------
 ty = 1680
 frame(34, ty, 470, 246)
 caps(52, ty + 28, "Conventions", 14, "start", INK, 2.2, "bold")
 rows = [("filled", "System, door open"), ("open", "System, door not yet open"),
+        ("dark", "System, door dark — strayed into rock"),
         ("drop", "Dropline to the galactic plane"), ("door", "Door — bidirectional"),
         ("loz", "Door midpoint"), ("nine", "The Nine — Sirius's nine doors")]
 for i, (kind, lbl) in enumerate(rows):
     y = ty + 54 + i * 30
     if kind == "filled": add(f'<circle cx="68" cy="{y-4}" r="3.5" fill="{INK}"/>')
     elif kind == "open": add(f'<circle cx="68" cy="{y-4}" r="4.4" fill="{PAPER}" stroke="{INK}" stroke-width="1.5"/>')
+    elif kind == "dark":
+        add(f'<circle cx="68" cy="{y-4}" r="3.5" fill="{INK}"/>')
+        add(f'<line x1="62" y1="{y+2}" x2="74" y2="{y-10}" stroke="{INK}" stroke-width="1.1"/>')
     elif kind == "drop": add(f'<line x1="68" y1="{y-12}" x2="68" y2="{y+3}" stroke="{MID}" stroke-width="0.7"/>')
     elif kind == "door": add(f'<line x1="56" y1="{y-4}" x2="80" y2="{y-4}" stroke="{DOOR}" stroke-width="1.0"/>')
     elif kind == "loz": add(f'<polygon points="64,{y-4} 68,{y-7} 72,{y-4} 68,{y-1}" fill="{PAPER}" stroke="{DOOR}" stroke-width="0.8"/>')
@@ -328,7 +352,8 @@ for i, (kind, lbl) in enumerate(rows):
     text(94, y, lbl, 11.4, "start", INK)
 
 frame(520, ty, W - 554, 246)
-caps(538, ty + 28, "The twenty-eight systems", 14, "start", INK, 2.2, "bold")
+caps(538, ty + 28, f"The {NUMBER_WORDS.get(len(S), len(S))} systems", 14,
+     "start", INK, 2.2, "bold")
 order = sorted(S.items(), key=lambda kv: kv[1]["distance_ly"])
 col, per = 0, 14
 for i, (k, v) in enumerate(order):

@@ -570,5 +570,24 @@
       "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=G%20268-38",
       "https://en.wikipedia.org/wiki/LHS_1140"
     ]
+  },
+  "kapteyns-star": {
+    "name": "Kapteyn's Star",
+    "distance_ly": 12.83,
+    "ra_deg": 77.919124,
+    "dec_deg": -45.018433,
+    "spectral": "M1VIp",
+    "components": [
+      "Kapteyn's Star"
+    ],
+    "planets": [],
+    "note": "The nearest halo star: a metal-poor red subdwarf about 11.5 billion years old on a retrograde galactic orbit, probably tidal debris from a dwarf galaxy swallowed long ago. NOTHING is confirmed in orbit here -- two planets were announced in 2014 and withdrawn in 2021 when the signals turned out to be the star's own rotation -- so the holding is the campaign's one invented world, placed below the detection limit on purpose and flagged in the lore entry. Door dark since the spring of 602.",
+    "opened_years_ago": 718,
+    "sources": [
+      "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=Kapteyn%27s%20star",
+      "https://en.wikipedia.org/wiki/Kapteyn%27s_Star",
+      "https://arxiv.org/abs/2103.02709"
+    ],
+    "dark_since": 602
   }
 }

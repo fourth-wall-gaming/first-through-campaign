@@ -22,7 +22,8 @@ and has quietly become the only institution that exists at every door at once.
 
 It calls itself a service, and mostly it is one. The tolls pay for the halls,
 the dressing rooms, the hall doctors and the rota that keeps a watch on a dark
-housing at Kapteyn's six hundred years after anybody expected anything from it.
+housing at Kapteyn's three hundred and seventy-three years after anybody
+expected anything from it.
 The Standing is a public good and the Tally keeps it honestly.
 
 Its people are **tallymen** -- grey pressure armour, a ledger mark on the

@@ -180,5 +180,12 @@
     "opened_years_ago": 761,
     "built_from": "epsilon-eridani",
     "note": "The Coldwater run. Four thousand people on the far side of it."
+  },
+  {
+    "a": "kapteyns-star",
+    "b": "van-maanens-star",
+    "opened_years_ago": 694,
+    "built_from": "kapteyns-star",
+    "note": "The buried door. Its mate waited at Kapteyn's twenty-four years for van Maanen's half to land, and the pair has been dark since the spring of 602."
   }
 ]
