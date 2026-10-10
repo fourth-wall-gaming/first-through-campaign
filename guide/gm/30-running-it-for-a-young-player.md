@@ -68,6 +68,17 @@ A first-through who has been taken off the rota has nothing to do and a station
 to be curious in, and curiosity is the engine of this entire scenario. It is
 the best move available to you and it costs nothing.
 
+## Your player has a list of your failure modes
+
+The Players' Guide ends with a chapter called *When the Gamesmaster Gets It
+Wrong* — the same failures as above, written from the other side of the table,
+with the sentence to say for each one. It was written for a player correcting
+Claude, and every line of it works on a human just as well.
+
+Read it. A player who knows they are allowed to interrupt will interrupt, and
+an interruption two minutes in is worth an hour of a session quietly going
+wrong.
+
 ## The longer versions
 
 <!-- lore: lore/gm-guide/running-a-staged-crisis.md -->
