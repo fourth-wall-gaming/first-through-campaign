@@ -23,7 +23,8 @@ Resolve the engine first; everything below needs it:
 If they have not, read `lore/player-briefing/first-through-the-sixty-second-briefing.md`
 and give it **in your own words**, in about a minute. Three things and then stop:
 their skills are numbers out of a hundred and they roll under them; fights are
-short and avoidable and nobody dies; and Passions are the good bit.
+short and usually avoidable, and they will always be told how dangerous
+something is before they choose it; and Passions are the good bit.
 
 Do this **before** they choose a character. Knowing that Passions matter changes
 which one they pick, and a player who has been told *you do not need to learn
@@ -35,9 +36,15 @@ Do not read them the rulebook. There is no rulebook to read.
 
 Three rules specific to this campaign, and all three change how you run it:
 
-- **Incapacitation, never death, in both directions.** Mythras unchanged; the
-  fiction resolves fatal wounds as knockouts, capture and being dragged clear.
-  This is the one that protects a child's first character from one bad exchange.
+- **Danger is real, and it is always named before it is taken.** **People die in
+  this campaign** — NPCs, and the player's character — and the Mythras rules are
+  unmodified. What protects a child's first character is information, not
+  immunity: *a character may die only from a risk the player could see when they
+  chose it.* So name the danger out loud, in the fiction, **before** they commit;
+  never spring a lethal surprise; answer *can this kill me* with a straight yes
+  or no; and say once, early and out of character, that they have **Luck Points**
+  and can spend them. A death gets its weight — let it land, and do not soften it
+  afterwards into a coma.
 - **When the player goes quiet, Tolk speaks** — never a menu.
 - **The player always chooses the special effect.**
 

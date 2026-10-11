@@ -81,11 +81,41 @@ def test_the_start_command_refuses_to_clobber_a_game_in_progress():
     assert "do not import" in low or "stop" in low
 
 
-def test_the_start_command_states_the_non_lethal_rule():
-    """Review Focus 5. If the GM has not read it before the first roll, a
-    child's first character can die on one bad exchange."""
+def test_the_start_command_agrees_with_the_addendum_about_death():
+    """The two documents once said opposite things about the single most
+    consequential rule in this campaign.
+
+    start.md summarised it as "Incapacitation, never death, in both directions.
+    Mythras unchanged; the fiction resolves fatal wounds as knockouts" --
+    while TABLE-ADDENDUM.md says "People die in this campaign", the character
+    included, and explicitly forbids the softening start.md prescribed: "do not
+    soften it afterwards into a coma". Whichever the GM read first decided
+    whether a ten-year-old's first character could die.
+
+    The addendum is the authority. What protects a child here is information,
+    not immunity: a character may die only from a risk the player could see
+    when they chose it."""
     text = (ROOT / "commands" / "start.md").read_text()
-    assert "TABLE-ADDENDUM.md" in text
+    # Whitespace-normalised, as the addendum test is: these phrases wrap across
+    # lines in the markdown, and a reflow must not fail the check.
+    low = " ".join(text.lower().split())
+
+    assert "TABLE-ADDENDUM.md" in text, "it must still send the GM to the addendum"
+
+    # The contradiction, in any of its spellings.
+    for wrong in ("never death", "incapacitation, never",
+                  "fatal wounds as knockouts", "nobody dies"):
+        assert wrong not in low, (
+            f"start.md still claims {wrong!r}; TABLE-ADDENDUM.md says people die "
+            f"in this campaign, and the two must not disagree about that")
+
+    # And it must carry the rule that is actually true, including the duty the
+    # rule places on the GM rather than on the player.
+    assert "people die in this campaign" in low
+    assert "could see when they chose it" in low, (
+        "the constraint on the GM is the whole rule; naming the danger is what "
+        "makes a death fair")
+    assert "luck" in low, "a child who dies holding unspent Luck was failed by the table"
 
 
 def test_the_addendum_puts_the_risk_on_the_table_before_the_dice():
