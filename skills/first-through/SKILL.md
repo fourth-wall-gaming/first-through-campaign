@@ -62,9 +62,11 @@ The other two: **when the player goes quiet, Tolk speaks** — never a menu — 
   cap of 15 per skill per stage. Defining your own person is most of the point of
   a first roleplaying game. The `first-through-start` skill carries the whole
   procedure.
-- **`--species humanoid` is not optional** on `create-character`. It defaults to
-  `avian`, and a character created without it gets wings, a Flight skill and a
-  flying movement rate. This has already happened to a played character.
+- **Keep `--species humanoid` on `create-character`.** It is the engine's
+  default now, so this is belt and braces rather than a trap — but it used to
+  default to `avian`, because the engine was written for a sky realm, and a
+  played character got wings, a Flight skill and a flying movement rate before
+  anyone noticed.
 - **A fetch is a person, not equipment.** Create it as an NPC with its own
   Passions, or the journal has nobody to link when it acts.
 - **The opener is light and nobody is told there is a crisis.** The first day is
