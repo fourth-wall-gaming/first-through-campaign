@@ -221,9 +221,12 @@ go on in a second call, or the sheet comes out with no powers at all:
 gm update-character --id <pc-id> --powers '[{"name":"...","rule":"magic/power-...","limits":[...]}]'
 ```
 
-**`--species humanoid` is not optional.** It defaults to `avian`, and a character
-created without it gets wings, a Flight skill and a flying movement rate. This
-has already happened once to a played character.
+**Keep `--species humanoid` on the call.** It is the engine's default now, so
+leaving it off is no longer the trap it was — but a first-through is a human
+being and saying so costs a word. (It used to default to `avian`, because the
+engine was written for a sky realm, and a played character got wings, a Flight
+skill and a flying movement rate before anyone noticed. Fixed in the engine;
+this line is belt and braces.)
 
 Then set Luck and the suit's charge full, and put them where the scene is:
 
