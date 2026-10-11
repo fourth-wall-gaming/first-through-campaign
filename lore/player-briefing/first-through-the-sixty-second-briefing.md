@@ -20,9 +20,13 @@ anyone explains why.
 
 **Two. Fights are short, and you can almost always get out of them.** This is
 not a game where people trade blows for ten minutes. Two or three exchanges and
-somebody is on the floor. Nobody in this story dies — people get knocked out,
-tied up, dragged somewhere safe — but the floor still hurts, and the clever play
-is usually the one where you never swing at all.
+somebody is on the floor. People can be killed in this story — that is real,
+and it is most of why getting out is the clever play — but you will never find
+out too late. Anything that could kill you is said out loud **before you
+decide**: how far the drop is, what he is holding. Ask *can this kill me* and
+you get a straight yes or no. And your **Luck Points** are yours to spend to
+pull yourself out. The floor still hurts, and the clever play is usually the one
+where you never swing at all.
 
 **Three. Passions are the good bit.** Alongside the things you are good at, your
 character has things they *care* about, and those have numbers too. *It was

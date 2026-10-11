@@ -289,3 +289,41 @@ def test_the_hook_does_not_gate_on_init_db_exit_code():
     assert "list-campaigns" in text, (
         "readiness must be decided by whether the database can be read"
     )
+
+
+def test_all_three_documents_agree_about_death():
+    """The contradiction was three files deep, not two.
+
+    TABLE-ADDENDUM.md is the authority and says people die. start.md used to
+    say the opposite. And the sixty-second briefing -- the one document that is
+    read ALOUD TO THE PLAYER -- promised "Nobody in this story dies". A promise
+    made to a child at the table is the worst place for this to be wrong, and
+    it was the last place anyone would look, because it reads as kindness.
+
+    What the briefing owes a nervous first-timer is not immunity. It is the
+    thing that is actually true and actually reassuring: you will never find
+    out too late. Anything that can kill you is said out loud before you decide,
+    you can ask straight out, and Luck Points are yours.
+    """
+    briefing = " ".join((ROOT / "lore" / "player-briefing" /
+                         "first-through-the-sixty-second-briefing.md")
+                        .read_text().lower().split())
+    addendum = " ".join((ROOT / "TABLE-ADDENDUM.md").read_text().lower().split())
+    start = " ".join((ROOT / "commands" / "start.md").read_text().lower().split())
+
+    assert "people die in this campaign" in addendum, "the authority moved"
+
+    for doc, name in ((briefing, "the briefing"), (start, "start.md")):
+        for wrong in ("nobody in this story dies", "nobody dies", "never death",
+                      "fatal wounds as knockouts"):
+            assert wrong not in doc, (
+                f"{name} still promises {wrong!r}, which TABLE-ADDENDUM.md "
+                f"contradicts outright")
+
+    # The briefing must carry the two things that make the truth bearable.
+    assert "before you decide" in briefing or "before you choose" in briefing, (
+        "the briefing must promise that a lethal risk is named BEFORE the "
+        "player commits -- that promise is the whole protection")
+    assert "luck points" in briefing, (
+        "a child who dies holding unspent Luck Points was failed by the table, "
+        "so the briefing has to tell them they have them")
