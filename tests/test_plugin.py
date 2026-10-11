@@ -73,8 +73,12 @@ def test_the_hook_never_imports():
 
 def test_the_start_command_refuses_to_clobber_a_game_in_progress():
     """Review Focus 2. A start command that resets somebody's campaign is worse
-    than no start command at all."""
-    text = (ROOT / "commands" / "start.md").read_text()
+    than no start command at all.
+
+    The body lives in skills/first-through-start/SKILL.md; commands/start.md is
+    the Claude Code slash-menu wrapper that delegates to it, because Codex has
+    no commands component."""
+    text = (ROOT / "skills" / "first-through-start" / "SKILL.md").read_text()
     assert "get-campaign" in text, "it must look before it imports"
     assert "/mythras-gm:play" in text, "it must hand a live game to the play command"
     low = text.lower()
@@ -95,7 +99,7 @@ def test_the_start_command_agrees_with_the_addendum_about_death():
     The addendum is the authority. What protects a child here is information,
     not immunity: a character may die only from a risk the player could see
     when they chose it."""
-    text = (ROOT / "commands" / "start.md").read_text()
+    text = (ROOT / "skills" / "first-through-start" / "SKILL.md").read_text()
     # Whitespace-normalised, as the addendum test is: these phrases wrap across
     # lines in the markdown, and a reflow must not fail the check.
     low = " ".join(text.lower().split())
@@ -137,7 +141,7 @@ def test_the_start_command_offers_every_entry_point_and_builds_a_character():
     those deleted it asserted nothing. What it checks now is that the start
     command carries the three-stage build, because that IS the opening session.
     """
-    text = (ROOT / "commands" / "start.md").read_text()
+    text = (ROOT / "skills" / "first-through-start" / "SKILL.md").read_text()
     low = text.lower()
     slugs = [p.stem for p in (ROOT / "lore" / "entry-points").glob("*.md")]
     assert slugs, "no entry points to offer"
@@ -162,7 +166,7 @@ def test_the_start_command_uses_a_cli_path_that_actually_exists():
     """The bug that made v1 unplayable: start.md told the GM to run
     `create-character --template`, and no such flag exists in the engine. A
     start command must only name commands and flags the CLI really has."""
-    text = (ROOT / "commands" / "start.md").read_text()
+    text = (ROOT / "skills" / "first-through-start" / "SKILL.md").read_text()
     assert "--template" not in text or "spawn" in text, (
         "start.md uses --template; only `spawn --template` takes one, and spawn "
         "makes an NPC and discards passions and powers"
@@ -309,7 +313,7 @@ def test_all_three_documents_agree_about_death():
                          "first-through-the-sixty-second-briefing.md")
                         .read_text().lower().split())
     addendum = " ".join((ROOT / "TABLE-ADDENDUM.md").read_text().lower().split())
-    start = " ".join((ROOT / "commands" / "start.md").read_text().lower().split())
+    start = " ".join((ROOT / "skills" / "first-through-start" / "SKILL.md").read_text().lower().split())
 
     assert "people die in this campaign" in addendum, "the authority moved"
 

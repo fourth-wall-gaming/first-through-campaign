@@ -29,19 +29,27 @@ FT="${CLAUDE_PLUGIN_ROOT:-$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)}"
 if [ -z "${GM_ROOT}" ]; then
   cat <<MSG
 first-through: the mythras-gm engine is not installed, so this campaign cannot run.
+FIRST_THROUGH_ROOT=${FT}
 
-  /plugin install mythras-gm@fourth-wall-gaming
+Install it from the same marketplace this campaign came from -- open the plugin
+browser (/plugins in Codex, /plugin in Claude Code), find mythras-gm, install
+it, and START A NEW SESSION: a plugin's skills only appear in a session opened
+after it was installed.
 
-First Through declares that dependency, so it should have arrived automatically --
-if it did not, install it by hand, or set MYTHRAS_GM_ROOT to a checkout. Until
-then: do not GM this campaign off the files in this package. They are a source
-export, not a save file, and nothing you change in them reaches the game.
+First Through declares that dependency, which Claude Code installs for you.
+CODEX DOES NOT -- its manifest spec has no plugin-level dependencies field --
+so there you must install mythras-gm alongside this campaign. Failing that, set
+MYTHRAS_GM_ROOT to a checkout of the engine.
+
+Until then: do not GM this campaign off the files in this package, and do not
+follow the first-through-start skill. They are a source export, not a save file,
+and nothing you change in them reaches the game.
 MSG
   exit 0
 fi
 
 if ! command -v uv >/dev/null 2>&1; then
-  echo "first-through: uv is not installed, so the engine CLI cannot run. Install it (https://docs.astral.sh/uv/) and start a new session."
+  echo "first-through: uv is not installed, so the engine CLI cannot run. Install it (https://docs.astral.sh/uv/) and start a new session. FIRST_THROUGH_ROOT=${FT}"
   exit 0
 fi
 
@@ -105,12 +113,12 @@ print("%s|%s" % (date, session))
 ' 2>/dev/null || echo "?|?")
   CLOCK="${STATE%%|*}"; SESSION="${STATE##*|}"
   if [ "${SESSION:-0}" = "0" ]; then
-    echo "first-through: the campaign is imported and has not been started (clock ${CLOCK}). Run /first-through:start to pick an entry point and a character, and read TABLE-ADDENDUM.md before the first roll. MYTH_CAMPAIGN=${SEED_ID}"
+    echo "first-through: the campaign is imported and has not been started (clock ${CLOCK}). Follow the first-through-start skill (/first-through:start in Claude Code) to pick an entry point and a character, and read TABLE-ADDENDUM.md before the first roll. MYTH_CAMPAIGN=${SEED_ID} FIRST_THROUGH_ROOT=${FT}"
   else
-    echo "first-through: a game is in progress -- ${SEED_ID}, clock ${CLOCK}, session ${SESSION}. Resume it with /mythras-gm:play. Do NOT run /first-through:start; it is for a campaign that has not begun."
+    echo "first-through: a game is in progress -- ${SEED_ID}, clock ${CLOCK}, session ${SESSION}. Resume it with the mythras-play skill (/mythras-gm:play in Claude Code). Do NOT follow first-through-start; it is for a campaign that has not begun. FIRST_THROUGH_ROOT=${FT}"
   fi
   exit 0
 fi
 
-echo "first-through: the campaign is installed but has not been imported into the database yet. Run /first-through:start -- it will import ${SEED_ID} from ${FT} and walk the player through choosing an entry point and a character. Do not GM from the files in this package; they are a source export, not the save."
+echo "first-through: the campaign is installed but has not been imported into the database yet. Follow the first-through-start skill (/first-through:start in Claude Code) -- it will import ${SEED_ID} from ${FT} and walk the player through choosing an entry point and a character. Do not GM from the files in this package; they are a source export, not the save. FIRST_THROUGH_ROOT=${FT}"
 exit 0

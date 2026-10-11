@@ -8,7 +8,7 @@
           {
             "type": "command",
             "command": "bash \"${CLAUDE_PLUGIN_ROOT}/scripts/session-start.sh\"",
-            "timeout": 120000,
+            "timeout": 120,
             "statusMessage": "Checking the First Through save file",
             "async": false
           }
