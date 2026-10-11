@@ -1,6 +1,6 @@
 [project]
 name = "first-through-campaign"
-version = "0.1.0"
+version = "0.2.0"
 description = "Content checks for the First Through campaign. The campaign itself is data; this package exists only to configure pytest."
 requires-python = ">=3.11"
 
