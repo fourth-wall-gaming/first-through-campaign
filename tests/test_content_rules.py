@@ -277,6 +277,14 @@ def test_the_tally_wants_prisoners_not_corpses():
     assert any(w in body.lower() for w in NON_LETHAL_WEAPON_WORDS)
 
 
+def test_the_tally_counts_no_crates_and_has_no_clerks():
+    for rel in ("lore/organizations/the-tally.md", "factions/the-tally.md"):
+        text = (ROOT / rel).read_text().lower()
+        assert "lading" in text, rel
+        assert "masonic" in text or "rites" in text, rel
+        assert "counting house" not in text, rel
+
+
 def test_the_kit_entry_explains_charge_without_naming_power_points():
     """The mechanics wall: prose never contains rules vocabulary."""
     p = ROOT / "lore/technology/a-first-throughs-kit.md"
@@ -822,7 +830,6 @@ PAPER_ALLOWED = {
 # Per-file, each naming the task that owns the fix. Task 11 empties this list
 # and asserts it is empty. A NEW offender fails loudly; this only shrinks.
 PAPER_ALLOWLIST = {
-    "lore/organizations/the-tally.md",                # Task 5
     "lore/gm-secret/the-quorum.md",                   # Task 8
     "lore/organizations/the-second-hand.md",          # Task 8
     "lore/geography/earth.md",                        # Task 11
