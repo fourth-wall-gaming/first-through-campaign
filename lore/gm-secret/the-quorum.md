@@ -88,7 +88,7 @@ gives you three things the table can use.
 - **A child who works it out is hunted, never taken.** He can threaten her,
   frame her, strand her and have her killed. He cannot make her one of his.
 - **Every copy is landlocked for ever.** An adult cannot cross. The most
-  powerful man in human space is stuck in one room like everybody over twenty-two,
+  powerful man in human space is stuck in one room like everybody who has been turned back,
   and he has been stuck there a long time. It is why he needs the Late. See
   [[The Late]].
 
@@ -99,10 +99,15 @@ That is how sixty years of expansion happened, and it is why an arriving copy
 can never go home: what crossed was a recording, and the person it was written
 over is a different man in a different room.
 
-**Why not ride a fetch?** A player will ask in session one, because fetches are
-written to and keep perfectly. A fetch can carry his pattern but can never be
-him. Fetches *keep* what is written; they do not *run* it. A pattern in a fetch
-is a recording, not a person, and a running mind cannot cross.
+**Why not ride a fetch?** A player will ask in session one, because fetches
+keep things perfectly. Nobody writes to a fetch; they observe, record, recall
+and share, and each one chooses what it shares. See [[Your Fetch]]. So a pattern
+in a fetch is a recording the fetch is holding, not something he put there, and
+it is a recording and not a person: fetches *keep* what they hold and do not
+*run* it, and a running mind cannot cross. His pattern travels only because
+**some fetch agreed to carry it.** There are fetches in the Quorum, members
+rather than victims, who have broken with the council, and his entire expansion
+runs through them.
 
 ## The tells, and they are all physical
 

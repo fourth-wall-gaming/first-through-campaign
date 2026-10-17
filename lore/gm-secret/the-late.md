@@ -114,7 +114,8 @@ Ines does not hate the Threshold. She thinks it let her go.
 
 The reward for long service, the thing the Quorum offers when he says there is
 something afterwards, is **pattern transfer**: they are called up, taken to a
-room, and overwritten into an adult body, becoming him. See [[The Quorum]].
+room, and overwritten into an adult body, becoming him. This can only happen once a Late
+stops crossing, because a body that can still cross cannot be overwritten. See [[The Quorum]].
 *Promotion is being eaten.* Not the rank and file. Not Ines Caul.
 
 From inside it looks exactly like what was promised. The best are called up

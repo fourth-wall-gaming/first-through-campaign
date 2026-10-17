@@ -28,7 +28,9 @@ finds first. She is the person who can be arrested.
 Behind her, taken people. The Second Hand also holds people, and some of
 them are taken into a room and do not come out as themselves. It is illegal for good
 reasons and the reasons are the scenario. What the player is looking for is
-a person who has been overwritten, and the physical tells that give it away.
+a person who has been overwritten, and the physical tells that give it away. If the table asks why he doesn't simply ride a
+fetch, see the ruling in `lore/gm-secret/the-quorum.md`: nobody writes to a
+fetch, and his pattern travels only with those that agreed to carry it.
 
 This is also the act in which the player meets the Quorum, or one of him: a
 tired, courteous man in his sixties, physically unremarkable, who offers them a
