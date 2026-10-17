@@ -17,8 +17,8 @@ Nobody has worked out how to build one since. We use theirs.
 **Inside a system, it is the future.** Every star the doors reach holds a full
 civilisation of millions or billions of people: fusion torches, arcologies, real
 medicine, real industry, real navies, and a **mind** that runs the whole system
-and knows everything in it, all at once, to anyone who asks. Nothing is written
-down, because nothing needs to be. You ask the air and are told.
+and knows everything in it, all at once, to anyone who asks. Almost nothing is
+written down, because almost nothing needs to be. You ask the air and are told.
 
 **Across a door, there is no signal of any kind.** No radio, no message, no
 mind. A mind cannot cross. Nothing manufactured crosses, and no information

@@ -1097,7 +1097,8 @@ def test_the_tech_level_is_stated_somewhere_positively():
 
 def test_no_system_is_described_as_nearly_empty():
     bad = []
-    tiny = re.compile(r"\b(two staff|staffed by two|a staff of two"
+    tiny = re.compile(r"\b((?:staffed|crewed|run|manned) by two|two staff|two people (?:run|staff|work|live)"
+                      r"|nobody comes (?:here|there)|a staff of two"
                       r"|nobody (?:lives|visits) (?:here|there))\b", re.I)
     for p in all_content_files():
         for n, line in enumerate(p.read_text().splitlines(), 1):

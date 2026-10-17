@@ -118,7 +118,7 @@ and the one place that has kept all of it in a single room for nine hundred year
 is a town of three thousand at [[van Maanen's Star]] that nobody visits,
 where the Threshold's desk is two people and a view of a dead sun.
 
-One of whom has been writing to the directorate about it for three years.
+One of whom has been carrying the findings to the directorate for three years.
 
 ## And could you make one stray?
 
