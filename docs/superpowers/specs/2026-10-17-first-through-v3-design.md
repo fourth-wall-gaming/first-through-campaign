@@ -477,9 +477,61 @@ be shipped anywhere** (§4). An invasion is children, one at a time, with combat
 fetches — which is monstrous, which is the point, and which makes the Threshold's
 *we leave rather than win* doctrine the political question of the age.
 
-**Open item for the author:** `TABLE-ADDENDUM.md` currently carries a non-lethal
-rule. Child combatants are a real escalation from where the campaign is. Flagged
-rather than silently deleted; needs a decision.
+### 9.6 The Late — the Quorum's first-throughs, and the campaign's enemy
+
+The hole this fills: five sessions in, there has never been anybody a player
+could hit. The Late are a clearly-identified enemy faction, they fight for real,
+and they resolve the non-lethal question rather than dodging it.
+
+**Who.** First-throughs at the end of their careers — seventeen to twenty-two,
+the best of their generations, weeks or months from being landlocked for ever.
+The Quorum cannot overwrite a child (§10), so **he cannot become them; he has to
+recruit them.** They are the only agents he has who can move at all, because
+every copy of him is stuck in one room.
+
+**The pitch is the question this campaign is built on.** Not money and not
+power: *there is something afterwards.* He is the only person in human space who
+can offer a frightened twenty-year-old a reason to exist past the age at which
+everybody else becomes furniture.
+
+Which makes **Rill a recruitment target**, and makes her agenda — *there has to
+be something afterwards* — the front door of the enemy organisation.
+
+**And the reward is annihilation.** What he gives his longest-serving is pattern
+transfer: overwritten into an adult body, becoming him. **Promotion is being
+eaten.** Some know and serve anyway; most find out too late.
+
+**How you know one.** Not hoods. A Threshold flash *grows into* the weave at the
+shoulder, one mark per milestone — a courier's name and record in one. The Late
+**cut theirs out**, and the scar is the renunciation. You identify them by an
+absence, in the first place anybody looks. They also carry no lading, and a
+courier in a hall with nothing to deliver is the most frightening thing in the
+setting.
+
+**How they fight.** Grown kit per §4 — living blades and grown armour against
+the Threshold's shabby issue gear, which reads instantly as alien and wrong.
+Knacks: the Quick and the Set as standard, the Read in lieutenants, rumours of
+the Hold. Statted as elites: a first-through PC is outmatched one-on-one and has
+to use the room, the hall, allies, or the door.
+
+**Tactics, straight out of the physics.** They arrive one at a time, so an
+attack is a trickle and not a wave — and a trickle of elite fighters into an
+unprepared hall is exactly how a system falls from inside (§9.5). They never
+hold ground; there are too few of them. They hit and go back through the door.
+**And nobody can pursue a child through a door except another child**, so the
+only possible response to the Late is the Threshold.
+
+**Field commander: INES CAUL**, twenty-two, past it, still crossing, and it is
+visibly killing her. She was Calloway's — one of her intake, one of the ones who
+did not come back — which puts a wound at the centre of
+*every one of this intake comes back.*
+
+**And they settle the non-lethal question.** `TABLE-ADDENDUM.md`'s rule stays for
+the Threshold and the Tally. **The Late are the faction that kills.** The heroes
+keep their doctrine, the enemy does not, and that asymmetry is what makes the
+doctrine cost something instead of being a safety rail bolted on. The campaign's
+thesis survives intact: the player still wins by opening a door, not by killing
+anybody.
 
 ---
 
@@ -649,3 +701,4 @@ the bulk of the work rather than the prose.
 | Knacks exist and are never used | The Listen is central; the Hold is the endgame | The single largest piece of unspent material in the campaign |
 | The Quorum closes doors | The Quorum suppresses the research and does not have the weapon | Faithful to what is actually on the page, and a race beats an ongoing atrocity |
 | No antagonist until Act 3 | Sollen from the start; a theocracy; rogue minds; the Second Hand has a face | Five sessions with no antagonist is why the game felt flat |
+| Nobody to fight; non-lethal rule as a blanket | **The Late** (§9.6) — the Quorum's own first-throughs, who kill; the rule stays for the Threshold and the Tally | Five sessions with nobody a player could hit. The asymmetry makes the doctrine cost something instead of being a safety rail |
