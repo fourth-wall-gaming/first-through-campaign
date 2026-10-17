@@ -970,11 +970,41 @@ Expected: FAIL, with a list of every remaining offender across the tree. That li
 
 - [ ] **Step 3: Widen every scoped gate, then work the list**
 
-First, **empty both allow-lists and assert they are empty.** Task 3 added
-`PAPER_ALLOWLIST` (8 files) and the allow-list on
-`test_the_standing_is_never_a_board` (3 files), each entry commented with the
-task that owns it. Delete every entry owned by a completed task, fix the files
-those entries were protecting, and add to each gate:
+First, **empty ALL FOUR allow-lists and assert each is empty.** As of Task 10
+they hold nineteen real entries between them, each commented with the task
+that owns it:
+
+| List | Entries | What is in it |
+|---|---|---|
+| `PAPER_ALLOWLIST` | 4 | `lore/geography/earth.md`, `lore/entry-points/how-many.md`, `lore/gm-guide/running-a-staged-crisis.md`, `lore/technology/stunners-and-restraints.md` |
+| `SHEET_PAPER_ALLOWLIST` | 7 | `characters/creatures/tallyman.json`, and the npc sheets for Brace, Calloway, Councillor Hale, Mina Haral, Oyen and Sep Anwar |
+| `LIVESTOCK_ALLOWLIST` | 5 | `lore/geography/bell.md`, `lore/gm-secret/what-tolk-is.md`, `lore/character-creation/skills.md`, `lore/character-creation/careers.md`, `lore/organizations/the-threshold.md` |
+| `STANDING_BOARD_ALLOWLIST` | 3 | `lore/geography/the-nine-in-detail.md`, `lore/gm-guide/playing-the-old-man.md`, `lore/cosmology/straying.md` |
+
+`DANGLING_ALLOWLIST` is already empty and already asserted — leave it that way.
+`GEOGRAPHY_POPULATION_ALLOWLIST` holds only a commented example and needs no
+work.
+
+**The seven character sheets need care and are not all the same job.** Decide
+per sheet; do not scrub. "Records clerk" on Oyen and Sep Anwar may be
+perfectly fine — a clerk is a job, and what this redesign deletes is the
+setting being bureaucratic, not the word existing. The real targets are:
+
+- **"The ledger balances"**, a *passion* on Brace (80) and the generic
+  tallyman (55). There are no ledgers any more. A passion is a mechanical
+  trait with a value, and Brace is live in a running campaign.
+- **"haunted bureaucrat"** on Calloway — which also contradicts her own actor
+  notes, since they say explicitly that she is *not* one.
+- **Mina Haral's skill key `Lore (the Tally's paperwork)`** — a mechanical
+  identifier, not prose.
+
+**Propose the new names; do not assume they can simply be renamed.** Brace's
+passion and Mina's skill key exist in the live TypeDB save as well as in these
+files, so Task 12 must migrate them to match. Write your proposed names into
+your report so Task 12 can carry them, and say plainly in the report that the
+file and the save must agree before anything ships.
+
+Then delete every entry, fix what each was protecting, and add to each gate:
 
 ```python
     assert not PAPER_ALLOWLIST, (
@@ -984,6 +1014,10 @@ those entries were protecting, and add to each gate:
 
 An allow-list that outlives its task is how the previous rewrite shipped
 half-finished.
+
+Also reword the stale docstring at `tests/test_content_rules.py:272`, which
+still says the Tally's motive "supplies the non-lethal rule". No such rule
+exists; the gate does not scan test files, so nothing else will catch it.
 
 Then change `content_files(FIRST_PASS_DIRS)` to `all_content_files()` in
 `test_there_is_no_paper_left_in_the_causeway`,
