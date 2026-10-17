@@ -499,7 +499,7 @@ be something afterwards* — the front door of the enemy organisation.
 
 **And the reward is annihilation.** What he gives his longest-serving is pattern
 transfer: overwritten into an adult body, becoming him. **Promotion is being
-eaten.** Some know and serve anyway; most find out too late.
+eaten** — and **none of them know it** (§9.7).
 
 **How you know one.** Not hoods. A Threshold flash *grows into* the weave at the
 shoulder, one mark per milestone — a courier's name and record in one. The Late
@@ -526,12 +526,48 @@ visibly killing her. She was Calloway's — one of her intake, one of the ones w
 did not come back — which puts a wound at the centre of
 *every one of this intake comes back.*
 
-**And they settle the non-lethal question.** `TABLE-ADDENDUM.md`'s rule stays for
-the Threshold and the Tally. **The Late are the faction that kills.** The heroes
-keep their doctrine, the enemy does not, and that asymmetry is what makes the
-doctrine cost something instead of being a safety rail bolted on. The campaign's
-thesis survives intact: the player still wins by opening a door, not by killing
-anybody.
+**Lethality — and a correction to two earlier drafts of this spec.** There is no
+non-lethal rule in `TABLE-ADDENDUM.md` and there never was; the spec claimed one
+twice and was wrong. §1 of that file is titled *Danger is real, and it is always
+visible first*, and it says people die, the PC can die, the Mythras rules are
+unmodified and nothing is softened. The Tally's batons-not-blades is an
+institutional preference the file explicitly refuses to treat as a guarantee.
+
+**The game is already as scary as the author wants it, and the Late are played
+at full lethality.** What survives, because it is a founding decision and not a
+safety rail, is the **duty**: a character may die only from a risk the player
+could see when they chose it. That is a constraint on the GM, not a protection
+for the character, and it is what makes a death the player's own.
+
+One genuine fix: `lore/gm-secret/the-quorum.md` currently cites "the non-lethal
+rule in `TABLE-ADDENDUM.md`" as its thesis. That rule does not exist. What it
+means, and what should be written instead, is narrower and still true: **the
+Quorum is defeated by opening a door rather than by killing anybody.** That is a
+plot shape, not a table rule, and it survives the Late being as lethal as they
+like.
+
+### 9.7 What the Late do not know
+
+**Nobody in the organisation knows that promotion is annihilation.** Not the
+rank and file, not the lieutenants, not Ines Caul.
+
+From inside, it looks like the thing they were promised. The best of them are
+called up and are never seen again, and everyone assumes they got the reward —
+because the only people who could say otherwise are gone, and what walks away
+from the room is a new Sarn with no reason to correct anybody.
+
+So the secret is airtight by construction, and it has three consequences worth
+building on:
+
+1. **The player can find out before they do.** That is a discovery with real
+   weight attached, because of what it lets them do with it.
+2. **Telling a Late the truth is a weapon** — and one that works on exactly the
+   people violence does not. You can kill a Late, or you can show them what is
+   waiting, and the second breaks the organisation in a way the first never
+   will. It gives the campaign a non-violent lever that sits alongside real
+   combat instead of replacing it.
+3. **It lands hardest on Rill.** If she is recruited, the player already knows
+   what the offer is, and has to decide what to do with that.
 
 ---
 
@@ -701,4 +737,5 @@ the bulk of the work rather than the prose.
 | Knacks exist and are never used | The Listen is central; the Hold is the endgame | The single largest piece of unspent material in the campaign |
 | The Quorum closes doors | The Quorum suppresses the research and does not have the weapon | Faithful to what is actually on the page, and a race beats an ongoing atrocity |
 | No antagonist until Act 3 | Sollen from the start; a theocracy; rogue minds; the Second Hand has a face | Five sessions with no antagonist is why the game felt flat |
-| Nobody to fight; non-lethal rule as a blanket | **The Late** (§9.6) — the Quorum's own first-throughs, who kill; the rule stays for the Threshold and the Tally | Five sessions with nobody a player could hit. The asymmetry makes the doctrine cost something instead of being a safety rail |
+| Nobody to fight | **The Late** (§9.6) — the Quorum's own first-throughs, played at full lethality | Five sessions with nobody a player could hit |
+| (spec error) "the non-lethal rule in TABLE-ADDENDUM" | No such rule exists; the file says the opposite. The **duty** survives: no death from a risk the player could not see | The spec asserted it twice without reading the file. `the-quorum.md` cites it too and must be fixed |
