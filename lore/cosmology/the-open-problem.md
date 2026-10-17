@@ -96,16 +96,20 @@ it with the term you dropped*. It is how every hard problem humanity has ever
 solved was solved.
 
 And no mind has ever met another mind across a door. Each system is a room that
-cannot be entered by a signal, a clock, a camera, or a letter that is not carried
-by hand. Nothing manufactured crosses. Nothing dead crosses. Data moves at
-**courier speed**, which is the speed of one person walking through one door
-with something in their head or their pocket, arriving the same afternoon.
+cannot be entered by a signal, a clock, or a camera. Nothing manufactured
+crosses. Nothing dead crosses. What crosses is a living thing: a child, and
+whatever living thing the child has agreed to carry. Data moves at **courier
+speed**, which is the speed of one person walking through one door with a fetch
+at their side, arriving the same afternoon.
 
-So a mathematician at one star and a physicist at another cannot talk. They can
-trade papers by hand, one parcel at a time, with a gap of months or years in the
-middle of every argument. The theory needs people at twenty-eight systems to
-check each other. The measurements need to be taken inside twenty-eight
-housings. Nothing joins them.
+So a mathematician at one star and a physicist at another cannot talk. A mind
+composes its thinking and has it written into a living carrier, a fetch who has
+agreed to bear it, and a child walks that **lading** through. It arrives months
+out of date, in a living thing in a child's hands, and the reply goes back the
+same way. By the time either has read the other, both have moved on, and the
+two copies of the argument have drifted. The theory needs people at twenty-eight
+systems to check each other. The measurements need to be taken inside
+twenty-eight housings. Nothing joins them but a child willing to carry a friend.
 
 Except that a fifteen-year-old can walk from one to the next in an afternoon and
 remember what was said.
