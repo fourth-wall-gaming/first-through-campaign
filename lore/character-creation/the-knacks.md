@@ -3,7 +3,7 @@ id: "myth-lore-dabd9cbe122f"
 title: "The Knacks"
 category: "character-creation"
 visibility: "player"
-summary: "What first-throughs can do, where it comes from, and what it costs. Nobody has ever had a knack without crossing, and every crossing spends a little of the life you have left."
+summary: "What first-throughs can do, where it comes from, and what it costs. The Listen is the one the whole Causeway leans on; the Hold is the one that could save a door. Nobody has ever had a knack without crossing, and every crossing spends a little of the life you have left."
 created_at: "2026-10-05T12:00:00"
 ---
 
@@ -34,44 +34,96 @@ Nobody has ever had a knack without crossing. Nobody has ever kept one after
 being landlocked; they go quiet within a year, and people describe losing them
 in the same words they use about losing a sense.
 
-## What they do
+## The Listen
+
+Everything else on this page is a way of being good at a door. The Listen is a
+way of knowing about one **before you are in it.**
+
+You step up to the frame. You do not step through. You put your attention
+against it the way you would put a hand flat on a wall to find out whether
+there is a fire behind it, and you *reach*, on purpose, and something comes
+back. Pressure, heat, whether there is air, whether there is a floor, whether
+anybody is standing there. And, the part that matters most, **whether this door
+is about to move.**
+
+It is not a picture and it is never detailed. It is a yes or a no, a warm or a
+cold, a floor or a drop. You do not get to see who is waiting. You get to
+know that someone is.
+
+It is the only early-warning system humanity has. And it is the only instrument
+that can sense the inside of a mouth, because nothing dead crosses, so there has
+never been a gauge, a probe or a camera in a housing. The only thing that can
+go where a door is deciding is a living child, and the Listen is how she gets a
+reading back out. An unsettled mouth has a real slope in its field, steeper
+the closer it is to jumping, and that slope is what she feels. See
+[[The Hesitation]].
+
+Why that makes her the centre of things: a door that strays may go dark
+forever with a whole world behind it. A courier with the Listen is the smoke
+alarm for the Causeway. Every deck that has one wants her on the roster, and
+every deck that has lost one knows exactly what it cost.
+
+What it costs: it is slow, a held breath of a few seconds, and it is quiet, so
+you cannot do it while someone is shoving you toward the frame. A hurried Listen
+is a wrong one, and a wrong one is worse than none. It also tires. The fifth
+reach of a long watch is guesswork, and good couriers know to say so.
+
+What it cannot do: it cannot tell you *what* is on the far side, only what
+kind of place it is. It cannot tell you when a door will jump, only that it is
+getting ready. And it cannot make a door safe. It can only tell you not to
+step.
+
+## The Hold
+
+You can keep a door where it is, for a few minutes, with nothing but your
+attention.
+
+It is rarer than anything else here, and it is the endgame of this whole
+setting. A stray is a mouth jumping to a new answer; a door that is being
+killed is a door being **made to move**, pushed off its value into rock. The
+Hold is the counter to that. It is the one thing that stands against a door
+being killed, and it exists only in children.
+
+Holdings build machines to do what one child with the Hold does with her hands,
+and the machines are not as good. Using it feels like standing in a doorway
+while something pushes on the other side and refusing to be moved. It costs you
+for hours afterward. It lasts minutes, not forever, and it holds one door, not a
+deck. Nobody starts with it; see below.
+
+## The rest
 
 Knacks run in families of a kind, and the Threshold has names for them that the
 rest of the Causeway has mostly adopted.
 
-**The Listen.** You can tell something about the far side before you step
-through — pressure, heat, whether there is air, whether there is a floor,
-whether anybody is standing there. It is not a picture and it is never detailed.
-It is the single most valuable thing a first-through can have, and it is the
-reason any of them survive a door that has moved.
-
-**The Hold.** You can keep a door where it is, for a few minutes, with nothing
-but your attention. It is rare — rarer than anything else here — and in a galaxy
-where doors move without warning it is the most valuable human ability that
-exists. Holdings build machines to do what one child with the Hold does with her
-hands, and the machines are not as good.
-
 **The Quick.** Reflex and speed past what a body should manage. Common, obvious,
-and the one every twelve-year-old in the Yards wants.
+and the one every twelve-year-old in the Yards wants. It is the best feeling in
+the world while it lasts, and it leaves you starving afterward. It does not
+make you right, only fast.
 
-**The Set.** You take what should break you — falls, pressure, cold, a baton
-across the back — and get up. Also common, and the reason first-throughs have a
-reputation for being difficult to discourage.
+**The Set.** You take what should break you (falls, pressure, cold, a baton
+across the back) and get up. Also common, and the reason first-throughs have a
+reputation for being difficult to discourage. You still feel all of it, and
+later. Set is how you get to the end of the hallway, not how you get out of
+the bill.
 
 **The Reckoning.** You always know precisely where you are and which way the
 door was, from the instant you arrive, while everybody else is still being sick
-on the deck plate. Unglamorous. Saves more lives than the Quick.
+on the deck plate. Unglamorous. Saves more lives than the Quick. It does not
+know where the *next* door is, only where you have been.
 
 **The Knowing.** Hands and eye: you understand a mechanism by touching it. The
-Threshold's engineers are made of this one.
+Threshold's engineers are made of this one. It works on things, never on
+people, and it will cheerfully tell you something is about to fail without
+telling you how to fix it.
 
 **The Read.** You see what people are doing and about to do. Rare, resented, and
-very hard to live with.
+very hard to live with. It tells you what a person is about to do and nothing
+of why, which is how it gets you into so many arguments.
 
 ## At the table
 
 Every character is built from scratch; there are no ready-made first-throughs.
-Pick one knack at creation and take the power it maps to. Rule ids below resolve
+Pick one knack at creation and take the power it maps to. Take the Listen if you want to be the one the table looks at before every door. Rule ids below resolve
 in the engine's rules graph -- cite them on the sheet so `get-rule` can reach
 them mid-session.
 
@@ -84,9 +136,9 @@ them mid-session.
 | The Knowing | Savant | `magic/power-savant` |
 | The Read | Heightened Sense | `magic/power-heightened-sense` |
 
-**The Hold is not available at creation.** It is rarer than anything else here,
-and a fifteen-year-old who could pin a door would make the rest of the setting's
-problems negotiable. It surfaces in play if it surfaces at all.
+**The Hold is not available at creation.** It is the counter-weapon to a door
+being killed, and a fifteen-year-old who could pin a door from the first scene
+would make the rest of the setting's problems negotiable. It surfaces in play if it surfaces at all.
 
 **Everybody also has Life Support** (`magic/power-life-support`), which is the
 weave and not the child: it takes the Limit *External Power Source*,

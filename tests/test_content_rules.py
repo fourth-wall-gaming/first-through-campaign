@@ -661,7 +661,6 @@ FROZEN_LORE_IDS = {
     "myth-lore-c1f7f44d3517",
     "myth-lore-c594ab5a2972",
     "myth-lore-c6d0912602a4",
-    "myth-lore-c73a0e51f8bd",
     "myth-lore-c90f1f5d276f",
     "myth-lore-d486f7ce9720",
     "myth-lore-d505b6391a05",
@@ -680,7 +679,11 @@ FROZEN_LORE_IDS = {
 }
 
 # Ids deliberately removed by a later task, each with the task that did it.
-REMOVED_LORE_IDS = set()  # Task 6 adds the-cold-arm.md's id here
+REMOVED_LORE_IDS = {
+    # Task 6 deleted lore/cosmology/the-cold-arm.md: a passive affliction with
+    # no move in it. The field survives as what the Listen reads.
+    "myth-lore-c73a0e51f8bd",
+}
 
 
 def test_no_lore_id_is_lost_or_changed():
@@ -959,3 +962,27 @@ def test_the_book_trade_is_recorded_as_having_ended():
     assert "council" in text
     assert "ended" in text
     assert "within living memory" in text
+
+
+COLD_ARM = re.compile(r"cold[- ]arm|the cold arm", re.I)
+
+
+def test_the_cold_arm_is_gone():
+    """A passive affliction with nothing to do in it. What survives is the
+    field an unsettled mouth has, which is the thing the Listen reads."""
+    assert not (ROOT / "lore/cosmology/the-cold-arm.md").exists()
+    bad = []
+    for p in content_files(FIRST_PASS_DIRS):
+        if str(p.relative_to(ROOT)).startswith("docs"):
+            continue
+        for n, line in enumerate(p.read_text().splitlines(), 1):
+            if COLD_ARM.search(line):
+                bad.append(f"{p.relative_to(ROOT)}:{n}: {line.strip()}")
+    assert not bad, "\n".join(bad)
+
+
+def test_the_listen_reads_an_unsettled_door():
+    text = (ROOT / "lore/character-creation/the-knacks.md").read_text().lower()
+    assert "the listen" in text
+    assert "unsettled" in text
+    assert "the hold" in text
