@@ -38,7 +38,7 @@ has become a courier of narrative rather than a person with wants.
 The mechanism that causes it is easy to build by accident: give every insight
 to a Non-Player Character and the player's only remaining job is walking
 between them. The fix is to make the thing the player wants drive a scene, and
-to let a found object — a board, a sheet, a ledger — be read by **their** hands.
+to let a found thing — a line in the Standing, a basin in a shed, what their fetch holds — be read by **their** hands.
 
 ## Six characters, one voice
 

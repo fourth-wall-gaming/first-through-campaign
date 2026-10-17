@@ -43,7 +43,7 @@ children, and only so many years to be spent. The service has never turned away
 a recruit who could do it.
 
 Which makes it the most strategically valuable institution in human space. Every
-piece of news, every book, every bud of a Standing, every treaty and every rescue
+piece of news, every lading, every bud of a Standing, every treaty and every rescue
 moves in somebody's arms, and the Threshold holds the arms. It is also far too
 small to defend itself. It holds no doors, charges no tolls and keeps no force,
 because no force can be sent between stars. Anyone who wanted it gone would not

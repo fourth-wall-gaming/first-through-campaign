@@ -40,8 +40,9 @@ stairs, a dim corner in every concourse, and duct grilles cut to scatter gauge
 on every deck — a mesh sized so a glint can pass and nothing larger can. There
 is a line in every budget argument about them and nobody has ever won it.
 
-**The Standing** is four metres of board on the gallery wall with every door in
-human space on it, kept by an eleven-year-old on a stool. Four things on a
+**The Standing** is four metres of living archive set into the gallery wall,
+holding every door in human space, kept by an eleven-year-old who feeds it and
+chases the stale lines. Four things on a
 line; people read two; the fourth is the watch and it is the only one that
 matters.
 

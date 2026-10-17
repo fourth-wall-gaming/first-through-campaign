@@ -4,7 +4,7 @@ thread:
   - title: "Have you stood this morning"
     when: "d0/dawn"
     status: pending
-    summary: "The Standing, and the first time anybody explains to the player what the board actually is"
+    summary: "The Standing, and the first time anybody explains to the player what the archive actually is"
   - title: "Sling in the dead watch"
     when: "d0/dawn"
     status: pending
@@ -186,14 +186,16 @@ campaign has been asking.
 something they chose, not something that happened to them.
 
 He is courteous, tired, physically unremarkable, and in more than one place. He
-does not want to rule anything. He wants to keep travelling, and he found the
-only way, and it cost him being a person — and he will offer the player the same
+does not want to rule anything. He wants the Causeway small enough to hold
+himself together across, and he has spent sixty years making sure nobody learns
+how to move a door before he does. He found the only way to be in more than one
+place, and it cost him being a person — and he will offer the player the same
 arrangement, kindly, and mean it.
 
 **The climax is a race.** [[LHS 1140]]'s door arrives: the first new door in
-twenty-five years and the first in history to open onto a living world. He
-intends to be the first mind through it. A fifteen-year-old with a fetch intends
-otherwise.
+twenty-five years and the first in history to open onto a living world. A
+bigger Causeway is one he cannot keep in step with himself, so he needs it late,
+shut, or in his hands. A fifteen-year-old with a fetch intends otherwise.
 
 Ends with a door opening, honestly, with a child standing in it.
 

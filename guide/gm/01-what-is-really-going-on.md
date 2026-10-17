@@ -41,13 +41,15 @@ and entirely avoidable and both of those are true.
 
 **Act Three — the Quorum.** The villain, the temptation, and the answer. He is
 courteous, tired, physically unremarkable, and in more than one place. He does
-not want to rule anything. He wants to keep travelling, and he found the only
-way, and it cost him being a person.
+not want to rule anything. He wants the Causeway small enough to hold himself
+together across, and he has spent sixty years making sure nobody learns how to
+move a door before he does. He found the only way to be in more than one place,
+and it cost him being a person.
 
 The climax is a race. LHS 1140's door arrives — the first new door in
-twenty-five years and the first in history to open onto a living world. He
-intends to be the first mind through it. A fifteen-year-old with a fetch
-intends otherwise.
+twenty-five years and the first in history to open onto a living world. A
+bigger Causeway is one he cannot keep in step with himself, so he needs it late,
+shut, or in his hands. A fifteen-year-old with a fetch intends otherwise.
 
 It ends with a door opening, honestly, with a child standing in it.
 

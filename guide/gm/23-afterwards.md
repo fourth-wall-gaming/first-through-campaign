@@ -24,14 +24,15 @@ alphabetically, because she could not make herself choose between them and said
 so to a hall. Nobody has ever asked her why her list was in that order. She will
 tell anybody who asks her properly.
 
-**The two documents.** Ladder has kept the only long-baseline record of the
-flare twins in human space — by hand, in a shed, for two hundred years. The
-flare log and the **door** log are in the same ledger.
+**The two lines.** Ladder has kept the only long-baseline record of the flare
+twins in human space — grown in a basin in a shed, keeper by keeper, for two
+hundred years. The flare entry and the **door** entry grow from the same
+testimony.
 
 The potential reshapes with the orbit. So the record that predicts the flare
 predicts the stray. That breaks the campaign's central established lie, in Act
-One, found by a fifteen-year-old, and it is far better if they pick it up off a
-nail by a door than if anybody points at it.
+One, found by a fifteen-year-old, and it is far better if they notice it
+themselves, with a hand on the lip of the basin, than if anybody points at it.
 
 ## Where it ends
 

@@ -18,7 +18,7 @@ Doorwright is a slightly odd and very employable person.
 
 ## Courier
 
-The standard, and three-quarters of the service. Carrying books, carrying news,
+The standard, and three-quarters of the service. Carrying ladings, carrying news,
 carrying whatever a hall hands you, across as many doors as the rota says.
 
 **Standard:** **Crossing**, Customs, Influence, Perception, Evade, Insight,
@@ -62,7 +62,7 @@ people), Track
 
 ## Envoy
 
-Carries people rather than books: negotiators, specialists, prisoners, the old.
+Carries people rather than ladings: negotiators, specialists, prisoners, the old.
 The most political job a fifteen-year-old can hold and the one with the best
 clothes.
 

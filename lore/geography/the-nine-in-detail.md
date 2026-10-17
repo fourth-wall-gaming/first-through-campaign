@@ -32,14 +32,14 @@ It never closes. There is no hour at which the hall is empty, and the sound of i
 peoples all talking at once — is the first thing a visitor notices and the last
 thing they stop hearing.
 
-Over the hall, on the gallery wall, is **the Standing**: a board four metres
-wide on which every door in human space is written up with where it currently
-goes. It is
-updated whenever a courier comes in with better information. It is the single most
-important object in the Causeway and it is written by hand, because a line can
-be corrected in eleven seconds by somebody standing on a stool -- and because
-[[Old Man Sirius]] is not permitted to write on it. A door's far side is
-courier testimony, and a mind may not enter testimony it does not have.
+Over the hall, set into the gallery wall, is **the Standing**: a living archive
+four metres wide, pale and faintly warm, holding every door in human space and
+where it currently goes. It grows a new line whenever a courier lays a hand on
+the lip and says what they saw. It is the single most important object in the
+Causeway and it is entered by body, not by mind, because a line can be corrected
+in eleven seconds by anybody who has just come up the stair -- and because
+[[Old Man Sirius]] is not permitted to enter it. A door's far side is courier
+testimony, and a mind may not enter testimony it does not have.
 
 People stop under it without meaning to. Arguments start there. The Threshold's
 ready room has a window onto it.

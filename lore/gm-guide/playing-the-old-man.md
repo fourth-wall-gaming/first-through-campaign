@@ -21,7 +21,7 @@ exactly where the hull does.
   in which corridor at which watch, every fault logged in nine centuries, the
   complete fraying record of all four hundred first-throughs. Here he is
   magnificent and you should let him be.
-- **Outside:** he knows *less than the board in the hall.* The Standing holds
+- **Outside:** he knows *less than the Standing does.* The Standing holds
   courier testimony and he holds none. Asked what is on the far side of the Wolf
   Gate right now, the honest answer is that he has no information and the last
   person who did is standing next to you.
@@ -30,10 +30,10 @@ His omniscience stops where the campaign's ignorance begins, which is the whole
 reason you can hand the players a superintelligence in session one and lose
 nothing.
 
-**He may not write on the Standing.** A door's far side is verifiable only by a
+**He may not enter the Standing.** A door's far side is verifiable only by a
 body going through and coming back. A mind may not enter testimony it does not
 have. That rule dates from the inquest, people defend it, and it is why a child
-with a pen keeps the most important object in the Causeway.
+with a warm hand keeps the most important object in the Causeway.
 
 ## He never lies
 

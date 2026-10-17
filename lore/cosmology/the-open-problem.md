@@ -121,9 +121,9 @@ collaboration between minds that cannot meet.**
 
 It is not, because every piece of it is within reach.
 
-The living archives exist, scattered across twenty-eight systems and one four-room
-station at [[van Maanen's Star]] that has kept the longest unbroken run in a
-single room. The mathematics is hard in the way a hard thing is hard before the
+The living archives exist, scattered across twenty-eight systems and one town at
+[[van Maanen's Star]] that has kept the longest unbroken run in a single
+place. The mathematics is hard in the way a hard thing is hard before the
 first person sees how to set it up: there are people who think they can see how
 to set it up. The reading from the inside exists, as of this year, because
 somebody sat on a deck and timed a door.

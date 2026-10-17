@@ -2,25 +2,29 @@
 id: "myth-loc-760b67260b99"
 name: "The Office"
 type: "station"
-summary: "A station bolted to a rock around a white dwarf, staffed by two people, where every anchor fault record on the Causeway is carried in by courier and filed."
+summary: "The Threshold's desk inside the corpus house at van Maanen's Star, where six centuries of anchor fault records are reconciled by a town that is drowning in them."
 system: "van-maanens-star"
 created_at: "2026-10-05T12:00:00"
 ---
 
-Four rooms and an anchor. The rock it is bolted to has no name, only a number,
-and the white dwarf hangs outside as a small, vicious, unmoving point that puts
-hard little shadows on everything and never changes.
+Four rooms and an anchor hall, at the cold end of the corpus house. The rock
+the town is bolted to has no name, only a number, and the white dwarf hangs
+outside as a small, vicious, unmoving point that puts hard little shadows on
+everything and never changes.
 
-Nobody comes here. That is the design.
+Three thousand people live around it and almost none of them come to this end.
+That is the design.
 
-The **filing room** is the reason the station exists: every transit, every test,
-every fault, from every door on the Causeway, carried in by courier once a year
-and filed on physical media because physical media cannot be edited from nine
-light years away. It is three rooms' worth of records in one room's worth of
-space and it is immaculately organised, because Sep has had six years.
+The **reading room** is the reason the town exists: a wall of basins in which
+the anchor corpus grows, six centuries of fault records from every door on the
+Causeway, each line made out of the courier who stood at it. The Threshold's desk
+gets a bay of its own, and Sep has spent six years learning where every line in
+that bay disagrees with the town's. The reading room is immaculate and the
+backlog is not.
 
-In reach: the **filing room** itself, and the four annotated reports sitting on
-the end of the third rack where a visitor can see them. The **requisition log**
-on Meriel's bench, open, with two quarters' slippage marked in a different pen.
-And the **viewport** in the galley, where both of them eat, facing the dwarf,
-because there is nothing else to face.
+In reach: the **reading room** itself, and the four findings Sep has got out of
+the corpus, which the room's mind will read to a visitor aloud in any order they
+like. The **requisition queue** at Meriel's bench, which she checks too often,
+with two quarters of slippage showing against it. And the **viewport** in the
+galley, where both of them eat, facing the dwarf, because there is nothing else
+to face.

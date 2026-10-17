@@ -203,8 +203,8 @@ which is a quieter kind of power than tolls.
 **14.1 ly. The nearest lone white dwarf, visibly swallowing the wreckage of its
 own planets, throwing hard little shadows on everything.**
 
-Four rooms bolted to a rock. Two staff. No colony, no industry, no traffic.
+Three thousand people around a dead sun, reconciling the anchor corpus. The Threshold's desk is four rooms at the cold end of it.
 
-**Run by:** Sep Anwar and Meriel Koll, in the sense that there is nobody else.
+**Run by:** Sep Anwar and Meriel Koll, in the sense that the town has never wanted the job.
 
-**They want:** a visitor. It has been a while.
+**They want:** a visitor who will carry something onward. It has been a while.

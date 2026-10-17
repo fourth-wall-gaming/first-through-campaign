@@ -1,7 +1,7 @@
 ---
 id: "myth-agenda-9964090287b2"
 title: "Keep this station alive"
-goal: "Hold the van Maanen's office together on half the parts it is owed, and stop Sep sending another report"
+goal: "Hold the van Maanen's office together on half the parts it is owed, and stop Sep carrying another finding"
 status: "active"
 clock_size: 6
 clock_filled: 0
@@ -11,7 +11,7 @@ targets: ["myth-char-8c4a37d0380b"]
 created_at: "2026-10-05T12:00:00"
 ---
 
-Two quarters of slippage after the fourth report went out. Meriel cannot prove
+Two quarters of slippage after the fourth finding went out. Meriel cannot prove
 the connection and cannot stop believing it.
 
 This agenda works *against* Sep's, held by the person who loves Sep most, which

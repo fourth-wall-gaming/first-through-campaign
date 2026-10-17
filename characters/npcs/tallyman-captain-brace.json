@@ -4,7 +4,7 @@
   "type": "npc",
   "status": "active",
   "description": "The Tally's face in v1. Collects on impound orders, carries a shock baton and never a blade, and knows things before he should.",
-  "narrative": "Twenty-two years a tallyman, eleven of them a captain, and comfortable in grey.\nBrace is not cruel and is not interested in being obeyed for its own sake -- he\nis interested in the ledger balancing, and he has found that people balance it\nmore readily when he is standing there.\n\nHe took the Gliese 65 impound order to the refinery himself, which is beneath a\ncaptain, and he arrived with it the morning before it was issued.\n\nHe has not thought hard about that, and if a fifteen-year-old asks him the right\nway he will say it out loud once.",
+  "narrative": "Twenty-two years a tallyman, eleven of them a captain, and comfortable in grey.\nBrace is not cruel and is not interested in being obeyed for its own sake -- he\nis interested in everyone being accounted for, and he has found that people\nare accounted for more readily when he is standing there.\n\nHe took the Gliese 65 impound order to the refinery himself, which is beneath a\ncaptain, and he arrived with it the morning before it was issued.\n\nHe has not thought hard about that, and if a fifteen-year-old asks him the right\nway he will say it out loud once.",
   "characteristics": {
     "STR": 14,
     "CON": 14,
@@ -47,7 +47,7 @@
     "Tally Drill (shock baton, restraints, unarmed)": 72
   },
   "passions": {
-    "The ledger balances": 80,
+    "Everyone is accounted for": 80,
     "Nobody dies on my manifest": 70,
     "Loyalty (whoever countersigns)": 55
   },

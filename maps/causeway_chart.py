@@ -283,7 +283,7 @@ add(f'<rect x="21" y="21" width="{W-42}" height="{H-42}" fill="none" stroke="{IN
 frame(34, 34, W - 68, 92, 1.1)
 caps(W / 2, 76, "The Causeway", 40, "middle", INK, 5.0, "bold")
 caps(W / 2, 100, "The known network, 975 years after the Reach", 13, "middle", MID, 2.2)
-caps(W / 2, 118, "28 systems  ·  26 doors  ·  one humanity", 9.4, "middle", MID, 2.6)
+caps(W / 2, 118, "28 systems  ·  27 doors  ·  one humanity", 9.4, "middle", MID, 2.6)
 
 INNER = [k for k, v in S.items() if v["distance_ly"] <= 17.0]
 ALL = list(S.keys())

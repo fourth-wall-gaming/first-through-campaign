@@ -3,8 +3,8 @@
   "name": "Sep Anwar",
   "type": "npc",
   "status": "active",
-  "description": "One of two Threshold staff at van Maanen's Star, where the anchor logs are kept. Six years in an office nobody visits, and has stopped asking to leave.",
-  "narrative": "Came out for a two-year posting as a records clerk and has been there six. Sep is\nmeticulous, bored into a kind of brilliance, and has read more fault records than\nanybody alive -- including, at some point in the third year, the ones nobody asked\nfor.\n\nSep has noticed the shape of the thing. Not the cause, not the name, just the\nshape: that the failures are not distributed the way ageing distributes.\n\nSep has written this up four times and sent it by courier four times.",
+  "description": "Holds the Threshold's desk, with Meriel Koll, at van Maanen's Star, where the anchor corpus is kept. Six years in an office nobody visits, and has stopped asking to leave.",
+  "narrative": "Came out for a two-year posting as a corpus reconciler and has been there six. Sep is\nmeticulous, bored into a kind of brilliance, and has read more fault lines than\nanybody alive -- including, at some point in the third year, the ones nobody asked\nfor.\n\nSep has noticed the shape of the thing. Not the cause, not the name, just the\nshape: that the failures are not distributed the way ageing distributes.\n\nSep has got this out of the corpus four times and tried to send it onward four times.",
   "characteristics": {
     "STR": 10,
     "CON": 11,
@@ -52,8 +52,8 @@
   },
   "powers": [],
   "equipment": [
-    "Six years of annotated fault records",
-    "Four unanswered reports"
+    "Six years of annotated fault lines",
+    "Four findings nobody has carried onward"
   ],
   "extras": {
     "pronouns": "they/them",
@@ -62,5 +62,5 @@
     "character_type": "witness",
     "station": "van-maanens-star"
   },
-  "actor_notes": "The Act 2 door, and should not be played as a plot dispenser. Sep is delighted to have a visitor and bad at hiding it, talks too fast, and will produce the four reports within about a minute of being asked anything adjacent. The information is not hidden -- it has been sitting in a filing room for three years because the person holding it has no power and no audience. That is the point."
+  "actor_notes": "The Act 2 door, and should not be played as a plot dispenser. Sep is delighted to have a visitor and bad at hiding it, talks too fast, and will give up the four findings within about a minute of being asked anything adjacent. The information is not hidden -- it has been sitting in the corpus for three years because the person holding it has no power and no audience. That is the point."
 }

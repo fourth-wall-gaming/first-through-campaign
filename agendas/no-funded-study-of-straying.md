@@ -13,7 +13,7 @@ created_at: "2026-10-06T12:00:00"
 
 Nothing is being suppressed. Hale would say so and believe it.
 
-What happens is that studies are not funded, courier slots for a records clerk
+What happens is that studies are not funded, courier slots for the Threshold's desk
 at [[van Maanen's Star]] are allocated elsewhere, and a proposal dies in a
 committee for four separate ordinary reasons. One meeting at a time, for about
 eleven years.

@@ -20,8 +20,8 @@ ruining it.
   way.
 - **Re-balance the load bed.** Transits draw unevenly; the bed compensates;
   the compensation drifts and then fights itself.
-- **Read the fault record.** Every anchor keeps one. A courier takes a copy to
-  [[van Maanen's Star]] once a year.
+- **Read the fault record.** Every anchor keeps one. A courier carries a bud of it to
+  [[van Maanen's Star]] once a year, to be reconciled into the corpus.
 
 **What nobody can do.** Build one. Pair one. Re-point one. Restart one that has
 gone fully quiet. There is no deeper repair, there is no spare, and there is no

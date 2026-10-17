@@ -48,7 +48,7 @@ oversight. Spec section 16 names it as open and the author has not called it.
 designer; it is the dull answer and the author has called it.
 
 What is true is stranger. A first-through's body takes the damage of a crossing
-and builds around it. A sixlimb's body takes a written payload and keeps it. At
+and builds around it. A sixlimb's body takes what it chooses to hold and keeps it. At
 the level anybody can measure, those are the same behaviour in two species that
 evolved forty light years apart with no ancestor in common. One carries. One
 keeps. Neither can do the other's half, and together they are the only reason
@@ -60,11 +60,13 @@ questions.
 
 ### The question a player will ask
 
-If Tolk is what a book is before you breed it, what is a book?
+If Tolk is a person, and for centuries a person like Tolk was called a book,
+what was a book?
 
-**Do not answer this in v1 and do not let an NPC answer it.** The reader's trade
-has a stock reply -- a book that argues is not a book, so the talking was bred
-out -- and it is true, and it is not an answer to the question that was asked.
+**Do not answer this in v1 and do not let an NPC answer it.** The councils have a
+stock reply -- that nobody understood what the old trade was holding, and that
+the trade ended when somebody did -- and it is true, and it is not an answer to
+the question that was asked, which is who decided the talking was an accident.
 Let an NPC give exactly that reply, smoothly, and move on. The player will notice.
 
 ### What is actually open
@@ -81,9 +83,9 @@ Let an NPC give exactly that reply, smoothly, and move on. The player will notic
 That third one is the thread. Do not pull it in v1.
 
 And the arc connection, held here and nowhere else: information rides in genomes,
-and [[The Quorum]] is information. A thing that can be written into a book can be
-written into a sixlimb, and a sixlimb goes where a first-through takes it. The
-moment a player asks Tolk to carry a payload you are one sentence away from it.
+and [[The Quorum]] is information. A sixlimb will keep what it agrees to hold, and a
+sixlimb goes where a first-through takes it. The moment a player asks Tolk to
+carry a recording you are one sentence away from it.
 
 ## What v1 is allowed to do
 

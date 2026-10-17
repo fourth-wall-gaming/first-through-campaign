@@ -1,8 +1,8 @@
 {
   "id": "myth-char-b956b00894b6",
   "name": "Oyen",
-  "description": "Twenty-three. Records clerk at the Nine, third level, port side. Three years in a room nobody visits, keeping the station's own copy of everything the couriers have ever brought in.",
-  "narrative": "She was posted to Records at twenty and has been there since, in a job with a\ntitle and almost no work in it, because the store is complete and nobody comes.\n\nShe has read bits of most things on the racks. She is not qualified to assess any\nof it and says so pre-emptively, every time, before anybody can suggest she might\nbe overstepping -- which is a habit learned in a room where nobody is watching\nand nobody would defend her if they were.",
+  "description": "Twenty-three. Archivist at the Nine, third level, port side. Three years in a room nobody visits, tending the station's own bud of everything the couriers have ever brought in.",
+  "narrative": "She was posted to the Archive at twenty and has been there since, in a job with a\ntitle and almost no work in it, because the store is complete and nobody comes.\n\nShe has read bits of most things in the basins. She is not qualified to assess any\nof it and says so pre-emptively, every time, before anybody can suggest she might\nbe overstepping -- which is a habit learned in a room where nobody is watching\nand nobody would defend her if they were.",
   "characteristics": {
     "STR": 9,
     "CON": 11,
@@ -38,10 +38,10 @@
   "extras": {
     "pronouns": "she/her",
     "age": 23,
-    "post": "records clerk, third level",
+    "post": "archivist, third level",
     "years_in_post": 3
   },
-  "actor_notes": "HOW SHE IS.\n\nHer feet are on a crate because nobody comes, and she is not idle -- she has been handed a complete archive and no reason to touch it. The distinction matters: she is under-used, not lazy, and she is aware of the difference and quietly furious about it in a way she would never say out loud.\n\nShe disclaims her own competence before anybody can challenge it. 'I've read bits. I'm not qualified and nobody asked me to.' That is armour, built in a room with no witnesses, and it is accurate as well as defensive.\n\nGive her something to do and she becomes a different person inside a sentence -- fast, precise, already three steps into the task, pulling things live without being told. She will not comment on the change.\n\nShe will say one true thing she has no standing to say, and then shut up about it deliberately, and the shutting up is visible.\n\nShe steadies herself on furniture at moments of significance rather than reacting out loud.",
+  "actor_notes": "HOW SHE IS.\n\nHer feet are on the basin's rim because nobody comes, and she is not idle -- she has been handed a complete archive and no reason to touch it. The distinction matters: she is under-used, not lazy, and she is aware of the difference and quietly furious about it in a way she would never say out loud.\n\nShe disclaims her own competence before anybody can challenge it. 'I've read bits. I'm not qualified and nobody asked me to.' That is armour, built in a room with no witnesses, and it is accurate as well as defensive.\n\nGive her something to do and she becomes a different person inside a sentence -- fast, precise, already three steps into the task, pulling things live without being told. She will not comment on the change.\n\nShe will say one true thing she has no standing to say, and then shut up about it deliberately, and the shutting up is visible.\n\nShe steadies herself on furniture at moments of significance rather than reacting out loud.",
   "type": "npc",
   "status": "active",
   "combat_styles": {},

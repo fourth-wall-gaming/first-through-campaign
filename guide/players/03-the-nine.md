@@ -29,7 +29,7 @@ each one smells like the place it goes:
 - **The Wolf Gate** queue is shift workers, the roughest line in the hall, and
   — everybody agrees furiously — the best food on the station.
 
-Above it all, on the gallery wall, is the Standing, kept by a child on a stool
+Above it all, on the gallery wall, is the Standing, a living archive kept by a child
 who will tell you off if you read it wrong.
 
 ## The architecture is built for five peoples

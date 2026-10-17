@@ -9,4 +9,4 @@ about: ["myth-char-8c4a37d0380b"]
 created_at: "2026-10-06T12:00:00"
 ---
 
-Measurable, in the archive at van Maanen's, by anybody who reads six years of it.
+Measurable, in the corpus at van Maanen's, by anybody who reads six years of it.

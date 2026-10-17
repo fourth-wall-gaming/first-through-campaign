@@ -3,7 +3,7 @@ id: "myth-lore-279ae6bae609"
 title: "Stunners and Restraints"
 category: "technology"
 visibility: "player"
-summary: "Why nobody on the Causeway reaches for a killing weapon first: a hull is thin, a station is a closed volume, and a corpse is paperwork nine light years long."
+summary: "Why nobody on the Causeway reaches for a killing weapon first: a hull is thin, a station is a closed volume, and a corpse is an argument nine light years long."
 created_at: "2026-10-05T12:00:00"
 ---
 
@@ -19,7 +19,7 @@ opens a wall kills everybody in the room including the person holding it.
 **A station is a closed volume.** There is nowhere for anything to go. No wind,
 no soil, no distance. Whatever you release into the air, you then breathe.
 
-**And a corpse is paperwork nine light years long.** Nothing travels faster than
+**And a corpse is an argument nine light years long.** Nothing travels faster than
 a courier, so a death does not get resolved — it gets *carried*, by someone, to
 somewhere, slowly, and then argued about by people who were not there. A system
 can be tied up for a decade by one body.

@@ -3,7 +3,7 @@ id: "myth-lore-df675e04ba0d"
 title: "Straying"
 category: "cosmology"
 visibility: "player"
-summary: "A mouth is pinned to a gravitational potential, not to a place. As the masses around it move, the matching place moves -- and now and then it jumps. That is a stray, and it is why the Standing is pen."
+summary: "A mouth is pinned to a gravitational potential, not to a place. As the masses around it move, the matching place moves -- and now and then it jumps. That is a stray, and it is why the Standing holds testimony, not a map."
 sources: ["https://en.wikipedia.org/wiki/Gravitational_potential", "https://en.wikipedia.org/wiki/Equipotential", "https://en.wikipedia.org/wiki/Quantum_entanglement"]
 created_at: "2026-10-06T12:00:00"
 ---
@@ -115,8 +115,8 @@ tell you when a solution is about to branch.
 Nobody has ever built one. The models are hard, the records are scattered across
 twenty-eight systems that can only exchange them at the speed of a walking child,
 and the one place that has kept all of it in a single room for nine hundred years
-is a four-room station at [[van Maanen's Star]] staffed by two people nobody
-visits.
+is a town of three thousand at [[van Maanen's Star]] that nobody visits,
+where the Threshold's desk is two people and a view of a dead sun.
 
 One of whom has been writing to the directorate about it for three years.
 

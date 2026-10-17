@@ -30,7 +30,7 @@ hands or on their back. That is the entire list.
 
 So:
 
-- **News travels at the speed of a courier getting round to it.** A letter from
+- **News travels at the speed of a courier getting round to it.** A message from
   Sirius to Earth takes as long as a fifteen-year-old takes to walk eight light
   years' worth of doors, which is about four minutes if nobody stops for lunch,
   and about nine days if everybody does.
