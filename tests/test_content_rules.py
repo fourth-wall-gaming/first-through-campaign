@@ -822,7 +822,6 @@ PAPER_ALLOWED = {
 # Per-file, each naming the task that owns the fix. Task 11 empties this list
 # and asserts it is empty. A NEW offender fails loudly; this only shrinks.
 PAPER_ALLOWLIST = {
-    "lore/character-creation/your-fetch.md",          # Task 4
     "lore/organizations/the-tally.md",                # Task 5
     "lore/gm-secret/the-quorum.md",                   # Task 8
     "lore/organizations/the-second-hand.md",          # Task 8
@@ -882,3 +881,29 @@ def test_the_standing_is_never_a_board():
                     and STANDING_AS_BOARD.search(para):
                 bad.append(f"{rel}:{first}: {para.strip()[:90]!r}")
     assert not bad, "\n".join(bad)
+
+
+# "bred for", "stock" and "kept" applied to fetches is the v1 framing. Under v3
+# that framing is an atrocity the setting itself repudiated.
+FETCH_AS_LIVESTOCK = re.compile(
+    r"\b(bred for|breeding|kept as stock|a book is an animal"
+    r"|written to by strangers|handed over at the far end)\b", re.I)
+
+
+def test_fetches_are_never_described_as_livestock():
+    bad = []
+    for p in content_files(FIRST_PASS_DIRS):
+        if str(p.relative_to(ROOT)).startswith("docs"):
+            continue
+        text = p.read_text()
+        for n, line in enumerate(text.splitlines(), 1):
+            if FETCH_AS_LIVESTOCK.search(line):
+                bad.append(f"{p.relative_to(ROOT)}:{n}: {line.strip()}")
+    assert not bad, "\n".join(bad)
+
+
+def test_the_book_trade_is_recorded_as_having_ended():
+    text = (ROOT / "lore/organizations/the-councils.md").read_text().lower()
+    assert "council" in text
+    assert "ended" in text
+    assert "within living memory" in text

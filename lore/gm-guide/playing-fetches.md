@@ -3,7 +3,7 @@ id: "myth-lore-f8d1d0bd3403"
 title: "Playing Fetches"
 category: "gm-guide"
 visibility: "gm"
-summary: "How the five peoples work at a table without becoming tics, frustration mechanics, or caricatures -- and what mixed society looks like when pairs are the ordinary sight in every room."
+summary: "How the five peoples work at a table as friends with their own councils and their own say over what they share without becoming tics, frustration mechanics, or caricatures -- and what mixed society looks like when pairs are the ordinary sight in every room."
 created_at: "2026-10-06T12:00:00"
 ---
 
@@ -58,6 +58,26 @@ A person you can persuade is fun. A device that fails on a d100 is a tax. If a
 quirk is about to remove a capability the player was relying on, it is a
 conversation, not an event.
 
+## 2a. A fetch has a people, and chooses what to share
+
+Every fetch belongs to a people, and every people has a council, and the five sit
+together on the Council at the Nine. See [[The Councils]]. The council has an
+interest in what the player is doing, because their friend is a delegate's
+neighbour, a relation, a colleague, and the thing the player is carrying may
+matter to someone.
+
+So play the fetch as a friend with loyalties and a government, not a sensor with
+opinions. They can say *I will have to tell them that*. They can say *this one is
+not mine to tell you*. They can be asked for what they saw and answer with some of
+it, and the player learns something about the friendship from the part left out.
+
+**A fetch chooses what to share.** Always, with the player included. This is not a
+trap and not a withheld clue; it is what it is to be a person with a memory. The
+test is that the player can argue with the choice, and sometimes win.
+
+And nobody writes to a fetch. If a scene needs information put into one, a person
+is being asked, not a device operated.
+
 ## 3. Once a session, and it costs them to show it
 
 Straight out of `TABLE.md` §6: **ordinary behaviour is the default and a visible
@@ -72,7 +92,8 @@ sitting, and it should cost them something to have shown it.
 The hard one, and the one you will break first.
 
 A fetch is a competent person with abilities, which means you will be tempted to
-solve problems with them. **Every problem the fetch solves is one the player did
+solve problems with them. They are also the player's closest friend, so let them
+be one: warm, opinionated, and sometimes right. **Every problem the fetch solves is one the player did
 not.**
 
 - Tolk can get through the gap and report what is behind it. Tolk does not decide
@@ -117,11 +138,14 @@ it goes tells you who you are dealing with.
 crew, passengers, neighbours and colleagues, they appear on a manifest by name,
 and twenty-eight systems that agree on nothing agree on this.
 
-So there is no grinding civil-rights nightmare in the background of this
-campaign, and do not play one. What there is instead is much better for a story:
-**anybody who treats a fetch as freight is telling you exactly what they are.**
+The old book trade was slavery, and it ended within living memory. See
+[[The Councils]]. So the setting's position is settled and recent, and some of the
+people in it remember. Do not play the argument as open; play the aftermath.
 
-It is a tell, not a system. The smuggler who books one as cargo, the captain who
-leaves one on the wrong side of a door, the outfit keeping unbonded ones as stock
-in a back room — those are crimes, everybody says so, and the player is entirely
-entitled to do something about it with the whole Threshold behind them.
+**Anybody who treats a fetch as freight is telling you exactly what they are.**
+The smuggler who books one as cargo, the captain who leaves one on the wrong side
+of a door, the outfit that still keeps unbonded ones in a back room, the old
+trader who says *books* out of habit and watches your face. Those are crimes or
+tells, everybody says so, and the player is entirely entitled to do something about
+it with the whole Threshold, and the Council, behind them. Some humans are still
+sour about how it went, and a few would like the old arrangement back.

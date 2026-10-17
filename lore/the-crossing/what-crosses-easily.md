@@ -3,7 +3,7 @@ id: "myth-lore-a47dd64a96ab"
 title: "What Crosses Easily"
 category: "the-crossing"
 visibility: "player"
-summary: "Nothing manufactured crosses a door; living things do. You cross in your weave, and the boots are grown too, issued per station and kept, and the pressure-skin, suit and hood are grown from the same stock and issued and returned by the Threshold. No army can be shipped either. Freight does not cross, so there is no trade and every system feeds itself, and everything humanity knows is written into the cells of small animals and carried by children. A book is alive."
+summary: "Nothing manufactured crosses a door; living things do. You cross in your weave, and the boots are grown too, issued per station and kept, and the pressure-skin, suit and hood are grown from the same stock and issued and returned by the Threshold. No army can be shipped either. Freight does not cross, so there is no trade and every system feeds itself, and everything humanity knows is remembered by the fetches, who are people, and carried between stars beside children. Nobody writes to them."
 created_at: "2026-10-05T12:00:00"
 ---
 
@@ -75,32 +75,41 @@ space is supplied from inside itself.
 Coldwater cannot be sent a coupling assembly. Not refused one -- *sent* one. The
 word on the requisition board is a courtesy.
 
-## So a book is alive
+## So the memory is a person
 
 And yet everything humanity knows is in every system, and a child crossing
 carries more of it than a library.
 
-Because information does not have to be dead. Write it into a genome and it is
-in a living thing, and a living thing crosses.
+Because information does not have to be dead. A living thing holds it in its
+cells and a living thing crosses. The living things are the **five peoples**, and
+the one beside every first-through is their **fetch** -- see [[Your Fetch]].
 
-They are called **books**, and a book is an animal that nobody ever bonded with.
-A bonded one is a fetch, and belongs to somebody, and the difference between the
-two is the whole of it -- see [[Your Fetch]]. A book is: palm-sized, placid, slow,
-bred for nothing but this. They come from the sixlimbs of [[Bell]], on the far side
-of the TRAPPIST-1 door, whose cells hold a written payload perfectly for a
-lifetime and were doing it long before anybody arrived to notice. You feed it. You keep it warm. You
-hand it over at the far end and somebody who knows how reads it out.
+A fetch observes. A fetch records, and recalls, and decides what to share and
+with whom. The cells that hold a thing perfectly for a lifetime were doing it
+long before anybody arrived to notice, on five worlds, for their own reasons.
+It is a faculty, like a good ear. It is not a service anybody performs on them.
 
-A courier with three books under their coat is carrying three libraries, and the
-books do not know and would not care.
+**Nobody writes to a fetch.** Not with a machine, not with a needle, not with
+anything. When one arrives in a system, it reads the minds that run the place
+with its own senses, directly, and when it leaves it gives out what it chose to
+carry to whoever it chooses. Humans ask, and receive, and use. We are the
+peripheral in that arrangement, and the sooner a new first-through works that out
+the more pleasant the next few years are.
 
-**And a book cannot cross alone either.** It is alive, so it can go -- but
-something has to open the way, which means every library in human space moves in
-the arms of a child, and has for nine hundred years.
+It was not always understood. For centuries the trade was in **books** -- fetch
+people who had never been bonded to anyone, kept warm and fed, handed from
+station to station and drawn on by strangers, and called animals by everybody
+who profited. It was slavery, and it ended within living memory. The first thing
+the five peoples did with their freedom was take the whole business of knowing
+things off us. See [[The Councils]].
+
+**And a fetch cannot cross alone either.** Something has to open the way, which
+means every library in human space moves beside a child, and has for nine hundred
+years.
 
 Which is stranger than it sounds, because it is the same strangeness twice. A
 first-through's body takes what a crossing does to it and builds around the
-damage. A sixlimb's body takes what is written into it and keeps it. One carries,
+damage. A fetch's body takes what happens around it and keeps it. One carries,
 one keeps, neither can do the other's half, and the two species evolved forty
 light years apart with no ancestor in common.
 
@@ -111,15 +120,16 @@ Nobody designed this. The xenobiologists call it **the correspondence** and have
 had no theory for two hundred years. Most people never think about it. The ones
 who do tend to stop sleeping properly.
 
-There is a whole profession of writing them and another of reading them, and the
-two trades do not like each other. Books can sicken. Books can be forged. A book
-that has been got at carries something that looks exactly like knowledge, and
-there have been wars about it.
+There is a whole profession of asking, and another of checking what you were
+told, and the two trades do not like each other. A fetch can be mistaken. A fetch
+can be lied to by a mind that wanted it to carry something false. Something that
+looks exactly like knowledge can be got into the wrong ears, and there have been
+wars about it.
 
 ## The bottleneck was never capacity
 
 A genome holds an absurd amount. At the scales anybody actually cares about,
-the limit on what a book can carry is not the book -- it is whether there is a
+the limit on what a fetch can carry is not the fetch -- it is whether there is a
 first-through going that way this month.
 
 So the Causeway has never had a *bandwidth* problem. It has a **courier**
@@ -169,7 +179,7 @@ cold housing and bruise your face. What makes a crossing happen is a living mind
 that can take the crossing and hold it open while it is happening, and that is
 the whole of what a first-through is **for**.
 
-So every transit in human space has a child in it. Every book, every message,
+So every transit in human space has a child in it. Every memory, every message,
 every passenger, every treaty, every piece of news for nine hundred years has
 gone through in the company of somebody between twelve and twenty who opened the
 way and paid for it out of themselves.
@@ -201,7 +211,7 @@ Nobody puts it like that. Everybody has worked it out.
 
 ## Where the money actually is
 
-A book copies. Once it lands, that system has it forever and so does everyone
+What a fetch tells copies. Once it lands, that system has it forever and so does everyone
 they tell. So nobody sells knowledge — **they sell being first.**
 
 Value lives entirely in the gap between a thing being true somewhere and being
@@ -214,8 +224,8 @@ it half a day before anyone else, and they always do.
 ## And what that makes a courier
 
 The entire nervous system of the species is children, walking, one at a time,
-carrying animals full of everything we know.
+walking beside friends who remember everything we know.
 
 Adults have been trying to think of a way round it for nine hundred years. There
 is not one. There is only the next kid through the door, in a weave and a borrowed suit,
-holding a book.
+with a friend on their collarbone.
