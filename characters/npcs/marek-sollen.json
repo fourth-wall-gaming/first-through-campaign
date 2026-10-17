@@ -1,0 +1,73 @@
+{
+  "id": "myth-char-5c7b3a4b721c",
+  "name": "Marek Sollen",
+  "type": "npc",
+  "status": "active",
+  "description": "A rising man in the 61 Cygni assembly. Big, warm, loud and plainly dressed in expensive things. He wants the first-throughs under the assembly's hand, for their own good, and everyone who has heard him speak thinks he has a point.",
+  "narrative": "Sollen is not lying when he says children should not be doing this. Nobody on the Causeway can say what a twelve-year-old is for, and he is the one person with a platform who asks out loud why the answer is always the same: because only children survive a crossing, and so only children are used.\n\nThat is half of an argument and it is the popular half. The other half is that his family's money came out of the back rooms of stations in the years of the book trade, and the order he wants is the old order with its faces changed.\n\nHe was tested as a boy, at the Yards' own gate, and not chosen.",
+  "characteristics": {
+    "STR": 13,
+    "CON": 12,
+    "SIZ": 15,
+    "DEX": 9,
+    "INT": 15,
+    "POW": 14,
+    "CHA": 16
+  },
+  "attributes": {
+    "action_points": 2,
+    "damage_modifier": "+1d2",
+    "experience_modifier": 0,
+    "healing_rate": 2,
+    "initiative_bonus": 12,
+    "luck_points": 2,
+    "magic_points": 14,
+    "movement": "6"
+  },
+  "skills": {
+    "Athletics": 30,
+    "Brawn": 40,
+    "Endurance": 45,
+    "Evade": 25,
+    "Willpower": 75,
+    "Conceal": 40,
+    "Deceit": 68,
+    "First Aid": 30,
+    "Influence": 90,
+    "Insight": 68,
+    "Locale": 72,
+    "Native Tongue": 80,
+    "Perception": 55,
+    "Stealth": 15,
+    "Unarmed": 28,
+    "Oratory": 92,
+    "Customs": 70,
+    "Lore (Assembly Politics)": 85,
+    "Lore (Anchors)": 30
+  },
+  "combat_styles": {
+    "Scuffle (unarmed, a walking stick)": 28
+  },
+  "passions": {
+    "Children are children, and somebody must stand between them and the galaxy": 85,
+    "To be thanked, by name, in public": 65,
+    "A fetch belongs beside a child, never before the assembly": 70
+  },
+  "powers": [],
+  "equipment": [
+    "Good dark coat, cut to make him look a size larger",
+    "A walking stick he does not need",
+    "Two aides, unarmed",
+    "A hall of his own, hired by the evening"
+  ],
+  "extras": {
+    "pronouns": "he/him",
+    "age": 63,
+    "character_type": "antagonist-political",
+    "station": "61-cygni",
+    "faction": "sollens-faction",
+    "looks": "Sixties. Big through the chest. A voice that fills a hall without any help. Never touches anybody and never needs to.",
+    "game_system": "mythras"
+  },
+  "actor_notes": "LOOKS. Sixties, big through the chest, plainly and expensively dressed. A voice that fills a hall without a system. He never touches anybody and has never needed to.\n\nCORE. Children are children, and the galaxy has been handed to them by negligent adults. He says it often and he believes it entirely, and the maddening part for a GM and a table is that it is partly true.\n\nNATURE. Hearty. Funny on a platform and funnier in a corridor afterwards. He remembers your name and your mother's name, asks after the second, and means the asking. You can sit with him an hour and enjoy it, and walk out having agreed to something. He is the nicest man you have met who would take everything you have.\n\nWOUND. He was tested as a child and not chosen, and then he aged out of ever being eligible. Every first-through he sees is the one he was not. He has built the rest of his life as an answer to that, and calls it concern.\n\nWANTS. The corps under his hand, legally, with a seal on it and a vote behind it, and to be thanked for it. He is not after power for its own sake. He is after the room where the people he rescued say so.\n\nTHE OLD TRADE. His family's money came out of the back rooms. He does not say so, and he does not say books either, because he is far too careful; he says \"the old arrangements\" and \"what we used to be sensible about\" and watches who goes quiet. He thinks a fetch belongs beside a child where the child can be seen to, and it is a bigot's position held with a gentleman's manners.\n\nPRESSURE. He gets loud, then personal, and then he begins addressing a fifteen-year-old as though they were seven, in front of people. That is the tell, and it is the moment the table should hate him. He never raises a hand. He raises his voice, then lowers it, then smiles.\n\nHOW HE FIGHTS. Never with anything he could be held to. He uses the hall, the vote, the old woman in the third row, the child he praised last week. A player who answers him angrily has done his work for him; a player who answers him plainly, once, in front of the same people, has hurt him.\n\nKEY. \"Somebody has to be the grown-up.\" "
+}

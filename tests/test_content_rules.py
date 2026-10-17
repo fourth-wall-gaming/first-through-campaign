@@ -1008,3 +1008,53 @@ def test_the_late_exist_and_nobody_in_them_knows():
     assert "the late" in text
     assert "flash" in text        # identified by the cut-out flash
     assert "none of them know" in text
+
+
+# ---- Task 9: somebody to hate, and somebody to fight --------------------
+from content_rules import character_sheets  # noqa: E402
+
+NEW_ANTAGONISTS = (
+    "characters/npcs/marek-sollen.json",
+    "characters/npcs/sabra-ode.json",
+    "characters/npcs/tobin-ashe.json",
+    "characters/npcs/ines-caul.json",
+)
+
+
+def test_the_new_antagonists_exist_and_are_playable():
+    """A card the engine cannot load is not a character, and a stat block
+    with no actor notes is not somebody a GM can voice."""
+    required = ("id", "name", "type", "status", "description",
+                "characteristics", "attributes", "skills", "passions",
+                "actor_notes", "extras")
+    for rel in NEW_ANTAGONISTS:
+        p = ROOT / rel
+        assert p.exists(), rel
+        d = json.loads(p.read_text())
+        for key in required:
+            assert key in d, f"{rel} has no {key}"
+        assert d["extras"].get("pronouns"), f"{rel} has no pronouns"
+        notes = d["actor_notes"]
+        for field in ("CORE", "NATURE", "WOUND", "WANTS", "PRESSURE", "KEY"):
+            assert field in notes, f"{rel} actor_notes has no {field}"
+
+
+def test_no_actor_note_contains_a_rules_word():
+    """TABLE.md: nothing on a card may contain a skill name, a number, or a
+    rules word. The numbers live in the stat block, not in the voice."""
+    banned = re.compile(r"\b(d100|hit points|action points|skill roll"
+                        r"|difficulty|opposed roll)\b", re.I)
+    for p in character_sheets():
+        d = json.loads(p.read_text())
+        notes = d.get("actor_notes") or ""
+        m = banned.search(notes)
+        assert not m, f"{p.name} actor_notes contains '{m.group(0)}'"
+
+
+def test_ines_caul_can_actually_fight():
+    """She is the campaign's first lethal antagonist. A commander a
+    fifteen-year-old outmatches is not a threat."""
+    d = json.loads((ROOT / "characters/npcs/ines-caul.json").read_text())
+    styles = d.get("combat_styles") or {}
+    assert styles, "Ines Caul has no combat style"
+    assert max(styles.values()) >= 80, styles

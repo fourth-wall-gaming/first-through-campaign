@@ -1,0 +1,88 @@
+{
+  "id": "myth-char-a0ee27247939",
+  "name": "Ines Caul",
+  "type": "npc",
+  "status": "active",
+  "description": "Twenty-two, field commander of the Late, past it and still crossing. Her hands shake and she does not hide it. She was one of Calloway's, and one who did not come back.",
+  "narrative": "Ines Caul was one of Calloway's, at the Yards, and one of the ones who did not come back. She does not say that. She says nothing about it at all.\n\nThe Threshold's doctors would have turned her back two years ago. She knows the number of crossings that would have done it, and she has gone past it every month since, for reasons she can state clearly and which nobody has yet been able to answer.\n\nShe wears the undyed weave of the Late with the scar at the left shoulder where the flash was cut out, a grown blade and plate shaped to her, and no lading.",
+  "characteristics": {
+    "STR": 13,
+    "CON": 12,
+    "SIZ": 10,
+    "DEX": 17,
+    "INT": 14,
+    "POW": 15,
+    "CHA": 12
+  },
+  "attributes": {
+    "action_points": 3,
+    "damage_modifier": "+0",
+    "experience_modifier": 0,
+    "healing_rate": 2,
+    "initiative_bonus": 16,
+    "luck_points": 3,
+    "magic_points": 15,
+    "movement": "6"
+  },
+  "skills": {
+    "Athletics": 80,
+    "Brawn": 55,
+    "Endurance": 62,
+    "Evade": 74,
+    "Willpower": 82,
+    "Conceal": 55,
+    "Deceit": 52,
+    "First Aid": 52,
+    "Influence": 62,
+    "Insight": 64,
+    "Locale": 55,
+    "Native Tongue": 70,
+    "Perception": 70,
+    "Stealth": 72,
+    "Unarmed": 68,
+    "Mechanisms": 45,
+    "Lore (Anchors)": 62,
+    "Lore (Threshold Procedure)": 58
+  },
+  "combat_styles": {
+    "Living Blade and Grown Plate": 88
+  },
+  "passions": {
+    "There is something afterwards": 80,
+    "The ones who went through with me": 70,
+    "The Threshold let me go": 55
+  },
+  "powers": [
+    {
+      "name": "Enhanced Reactions",
+      "rule": "magic/power-enhanced-reactions",
+      "knack": "THE QUICK -- the fastest anyone at the Yards remembers",
+      "boosts": [],
+      "limits": []
+    },
+    {
+      "name": "Durability",
+      "rule": "magic/power-durability",
+      "knack": "THE SET -- it is what lets her keep going through",
+      "boosts": [],
+      "limits": []
+    }
+  ],
+  "equipment": [
+    "Grown blade, shaped to her hand",
+    "Grown plate (AP 4 all locations)",
+    "Undyed weave, the left shoulder scarred where the flash was cut out",
+    "No lading, ever"
+  ],
+  "extras": {
+    "pronouns": "she/her",
+    "age": 22,
+    "character_type": "antagonist-field",
+    "trained_at": "61-cygni",
+    "faction": "the-late",
+    "handler_once": "Calloway",
+    "crossings": "far past where the hall doctors would have stopped her, and still going",
+    "game_system": "mythras"
+  },
+  "actor_notes": "CORE. She is certain of one thing: that a person who is told no by a door has lost all of it, and a person who is not told no has not. She is tired in a way that has stopped being a feeling and become a place she lives in.\n\nNATURE. Courteous. Precise. A little surprised by herself that she is still polite. She is very good at her work and takes no pleasure in it, and the people under her follow her because she tells them the truth about what is coming, every time, to the hour.\n\nWOUND. She was Calloway's. One of the ones who did not come back, as far as the people who matter are concerned. Calloway knows her number and her name and has never once said either. The silence is the whole of it; she has spent years being unspoken for, and she has stopped asking for it to end.\n\nWANTS. For there to be something afterwards. She has done the sum on her own crossings and it comes out very short, and she is offered the one thing nobody at the Yards would. She does not need to be persuaded; she needs to be given any reason that the offer is not what she thinks it is, and nobody has.\n\nTHE THRESHOLD. She does not hate it. She thinks it let her go. When she says so it is gentle, and that is more unsettling than if she did hate it.\n\nPRESSURE. She goes still. Her hands, which shake, stop shaking, and for as long as that lasts she is as dangerous as the Yards ever made anyone. She does not shout. She gives an order in a normal voice and means it.\n\nTHE TREMOR. She does not hide it. Do not have anybody remark on it unless they have earned the right to; a player who looks at her hands and says nothing has said the kindest thing available.\n\nSHE STILL CROSSES. That is not a flaw in her; it is why she is where she is. A hall that sees her go through again, and again, is looking at someone the doors have not let go. Play her as someone the doors still want, and who cannot stop being wanted.\n\nIF SHE MEETS CALLOWAY. Neither will mention it. Everybody else in the room will see it. That is the scene; let it run. Calloway will want to feed her, and not be able to find a way to offer; Ines will notice what is on the table and decline it without being asked. Calloway knows what every one of that intake is doing now, and she is the only person who has ever had Ines's name in a list of the ones she meant to bring home. It is the best thing a player can carry between them, and the worst, and the player decides when.\n\nKEY. \"I did the sum. Show me a different one.\" "
+}
