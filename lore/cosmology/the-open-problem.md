@@ -104,8 +104,7 @@ speed**, which is the speed of one person walking through one door with a fetch
 at their side, arriving the same afternoon.
 
 So a mathematician at one star and a physicist at another cannot talk. A mind
-composes its thinking and has it written into a living carrier, a fetch who has
-agreed to bear it, and a child walks that **lading** through. It arrives months
+composes its thinking and gives it to a fetch who agrees to bear it, and a child walks that **lading** through. It arrives months
 out of date, in a living thing in a child's hands, and the reply goes back the
 same way. By the time either has read the other, both have moved on, and the
 two copies of the argument have drifted. The theory needs people at twenty-eight

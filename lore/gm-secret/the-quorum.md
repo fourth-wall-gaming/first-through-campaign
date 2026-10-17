@@ -102,9 +102,15 @@ years of expansion happened, and it is why an arriving copy can never go home:
 what crossed was a recording, and the person it was written over is a different
 man in a different room.
 
-Which means every copy of Sarn that exists was put there by a pair: a fetch who
-chose to carry him and a child who carried the fetch, neither necessarily
-knowing what the other was carrying. It is the campaign's mutual-hostage logic
+A recording cannot write itself into anybody, so at a far end where he has no
+copy yet, **the Second Hand does it.** That is what the outfit is for: a lading
+arrives, and a local crew who do not know whose work they are doing put it into
+somebody they have taken. See [[The Second Hand]].
+
+Which means every copy of Sarn that reached another star was carried there by a
+pair: a fetch who chose to carry him, knowing exactly what it held, and a child
+who carried the fetch and is the only one in the dark. (Copies made at his
+origin system never crossed anything.) It is the campaign's mutual-hostage logic
 turned against itself.
 
 **Why not ride a fetch alone?** A player will ask in session one, because
