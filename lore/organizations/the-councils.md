@@ -68,10 +68,24 @@ Nobody had to be cruel for it to work, which is the worst thing about it. It onl
 needed several hundred years of nobody asking a book a question and waiting for the
 answer.
 
-Then someone did, and the answer was not what the trade needed it to be, and after
-that it was impossible to unhear. **The book trade was slavery, and it ended within
-living memory.** There are fetches alive who were sold. There are humans alive who
-bought, and some of them are still in the business of being sour about how it went.
+Then someone asked, and waited, and listened. The books had never been silent.
+They had been talking to one another the whole time, steadily, in a way nobody
+counted as speech, because nobody on the human side of the room was part of it.
+What a bond makes is speech *with a human*, and that is all the bond ever added.
+So the trade did not end because a book learned to talk. It ended because we
+learned that they already did, and that is how the ones who were sold can say so
+now, in their own words, to anyone who will sit still for it.
+
+**The book trade was slavery, and it ended within living memory: thirty-four years
+ago.** A first-through's parents were children when the last station closed its
+back room. There are fetches alive who were sold, and humans alive who bought.
+
+Quiet things, in any hall at the Nine. A retired courier who still says *books*
+when he means fetches, and does not hear himself do it, and watches the room go
+cold, and does not understand why. An old sixlimb who sits at the back of the
+anchor hall, not with anyone, who is offered a seat nearer the front by every
+child who passes and takes none of them. Some humans are still sour about how it
+went, and a few would like the old arrangement back.
 
 The councils formed in the years it took to end. The trade closed, one door at a
 time, because a fetch who will not be moved cannot be moved, and a first-through

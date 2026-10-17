@@ -36,14 +36,14 @@ A fetch does not talk because it is clever. It talks because it is **bonding**,
 and language is what the bond is made of — attention, back and forth, every day,
 for years. The grammar arrives with the bond. The jokes arrive a bit later.
 
-Which is why the old trade could go on as long as it did. The people it was done
-to had never been spoken to, so nobody had ever heard them speak. **A fetch who has
-never been bonded does not talk**, because nobody gave them a reason to, and that
-silence was taken for evidence of something it was never evidence of.
+Which is why the old trade could go on as long as it did. A fetch who has never
+been bonded does not talk **to us**, because nobody gave them a reason to. They
+talk to each other all the time, in a way we never counted as speech, and for
+centuries nobody on our side was listening.
 
 For centuries these unbonded fetches were called **books**, and were kept, warm and
 fed, and handed along from station to station for whoever needed something drawn
-out of them. **It was slavery, and it ended within living memory.** See
+out of them. **It was slavery, and it ended thirty-four years ago.** See
 [[The Councils]]. There are fetches alive today who remember being sold.
 
 First-throughs do not like being in a room with one of the very old ones. They are
