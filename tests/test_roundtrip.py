@@ -58,17 +58,7 @@ PROSE_DIRS = ("lore", "beats", "guide", "facts", "agendas", "factions",
 # Pre-existing dangling links found when the collection was widened (Task 6
 # fix round). Not fixed here: Task 11 inherits this list, and some may be
 # deliberate.
-DANGLING_ALLOWLIST = {
-    # Task 11 inherits all of these. Beat-title links point at beats, which
-    # are not in the name set; the rest are plain unresolved names.
-    ("beats/four-and-no-more.md", "How many of you are there?"),
-    ("beats/ladders-answer.md", "A proposal dies in committee"),
-    ("beats/pell-ivors-board.md", "Vantage reads the rim"),
-    ("beats/sticky-in-the-stairwell.md", "Pell Ivor's board"),
-    ("beats/the-wolf-gate-refuses.md", "Pell Ivor's board"),
-    ("factions/the-threshold.md", "The Founding of the\nThreshold"),
-    ("factions/the-threshold.md", "Director Hale"),
-}
+DANGLING_ALLOWLIST = set()  # must stay empty unless a Task 11 entry is justified
 
 
 def test_every_wiki_link_resolves_to_something_real():
@@ -78,6 +68,8 @@ def test_every_wiki_link_resolves_to_something_real():
     for p in lore_files():
         meta, _ = parse_frontmatter(p.read_text())
         names.add(meta["title"])
+    for p in (ROOT / "beats").glob("*.md"):
+        names.add(parse_frontmatter(p.read_text())[0]["title"])
     for d, key in (("characters", "name"), ("locations", "name"),
                    ("factions", "name"), ("agendas", "title")):
         for p in (ROOT / d).rglob("*"):
@@ -172,3 +164,8 @@ def test_the_campaign_is_actually_playable(tmp_path):
             )
     finally:
         _gm("delete-campaign", "--campaign", new_id, "--yes")
+
+
+def test_the_dangling_link_allowlist_is_empty():
+    """An allow-list nothing enforces fills up again."""
+    assert not DANGLING_ALLOWLIST

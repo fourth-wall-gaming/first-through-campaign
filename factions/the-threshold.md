@@ -5,11 +5,10 @@ summary: "The service that steps through doors first and answers when an old one
 created_at: "2026-10-05T12:00:00"
 ---
 
-See [[The Threshold]] for what the service is and [[The Founding of the
-Threshold]] for why it exists.
+See [[The Threshold]] for what the service is and [[The Founding of the Threshold]] for why it exists.
 
 **Standing toward the player:** it employs them. [[Calloway]] is their handler
-and [[Director Hale]] is somewhere a long way above that, running a directorate
+and [[Councillor Hale]] is somewhere a long way above that, running a directorate
 the service itself does not much like.
 
 **What it can do for a first-through:** brief them, issue them their grown kit, and
