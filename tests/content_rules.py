@@ -107,3 +107,31 @@ def lore_ids():
         if "id" in meta:
             ids.add(meta["id"])
     return ids
+
+
+def character_sheets():
+    """Every character sheet. These are .json, so content_files() (*.md) can
+    never see them."""
+    root = ROOT / "characters"
+    return sorted(root.rglob("*.json")) if root.is_dir() else []
+
+
+def sheet_strings(path):
+    """Every string value in a sheet, and every dict key (passions are keys)."""
+    import json
+
+    out = []
+
+    def walk(v):
+        if isinstance(v, str):
+            out.append(v)
+        elif isinstance(v, dict):
+            for k, x in v.items():
+                out.append(str(k))
+                walk(x)
+        elif isinstance(v, list):
+            for x in v:
+                walk(x)
+
+    walk(json.loads(path.read_text()))
+    return out

@@ -855,6 +855,34 @@ def test_there_is_no_paper_left_in_the_causeway():
     assert not bad, "\n".join(bad)
 
 
+# Character sheets are .json, which the *.md walk above never saw. Edits here
+# touch live passions in a running campaign and a TypeDB save, so they are
+# Task 11 and Task 12 together. This only shrinks.
+SHEET_PAPER_ALLOWLIST = {
+    "characters/creatures/tallyman.json",             # Task 11/12: passion "The ledger balances" (55)
+    "characters/npcs/tallyman-captain-brace.json",    # Task 11/12: passion "The ledger balances" (80), narrative
+    "characters/npcs/calloway.json",                  # Task 11/12: "haunted bureaucrat"
+    "characters/npcs/councillor-hale.json",           # Task 11/12: "Clerks at van Maanen's"
+    "characters/npcs/mina-haral.json",                # Task 11/12: filing clerks, "Lore (the Tally's paperwork)" skill
+    "characters/npcs/oyen.json",                      # Task 11/12: "records clerk" in description and role
+    "characters/npcs/sep-anwar.json",                 # Task 11/12: "records clerk"
+}
+
+
+def test_there_is_no_paper_on_a_character_sheet():
+    from content_rules import character_sheets, sheet_strings
+    bad = []
+    for p in character_sheets():
+        rel = str(p.relative_to(ROOT))
+        if rel in SHEET_PAPER_ALLOWLIST:
+            continue
+        for text in sheet_strings(p):
+            for line in text.splitlines():
+                if PAPER.search(line):
+                    bad.append(f"{rel}: {line.strip()}")
+    assert not bad, "\n".join(bad)
+
+
 def test_the_new_vocabulary_is_defined_somewhere():
     text = (ROOT / "lore/technology/lading-and-attestation.md").read_text().lower()
     for word in ("lading", "attestation", "budding", "drift", "reconciliation"):
