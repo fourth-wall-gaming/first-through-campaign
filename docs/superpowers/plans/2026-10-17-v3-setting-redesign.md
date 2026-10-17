@@ -729,95 +729,121 @@ eaten, which makes the truth a weapon that works where violence does not."
 
 ### Task 9: Sollen, the Yards resistance, and the theocracy
 
+**CORRECTED 2026-10-17 mid-execution.** The original task text specified
+`characters/marek-sollen.md` and gated markdown card fields. That was wrong on
+both counts and would have produced seven files the engine cannot load.
+**Characters are JSON stat blocks at `characters/npcs/<slug>.json`**, carrying
+`id, name, type, status, description, narrative, characteristics, attributes,
+skills, combat_styles, passions, powers, equipment, extras, actor_notes`.
+Factions are markdown at `factions/<slug>.md`. Read
+`characters/npcs/tallyman-captain-brace.json` as the model for an antagonist
+with combat stats, and `characters/npcs/calloway.json` as the model for
+`actor_notes` voice.
+
 **Files:**
-- Create: `characters/marek-sollen.md`
-- Create: `characters/sabra-ode.md`
-- Create: `characters/tobin-ashe.md`
-- Create: `characters/ines-caul.md`
+- Create: `characters/npcs/marek-sollen.json`
+- Create: `characters/npcs/sabra-ode.json`
+- Create: `characters/npcs/tobin-ashe.json`
+- Create: `characters/npcs/ines-caul.json`
 - Create: `factions/the-late.md`
 - Create: `factions/sollens-faction.md`
 - Create: `lore/geography/the-theocracy.md`
+- Modify: `data/systems.json` (Teegarden's Star note only)
 - Test: `tests/test_content_rules.py`
 
 **Interfaces:**
-- Consumes: the Late from Task 8.
-- Produces: character ids referenced by Task 12's live-save work.
+- Consumes: `the-late.md` and `the-quorum.md` from Task 8; `content_rules.character_sheets()` and `sheet_strings()` from Task 5.
+- Produces: four character ids and two faction names that Task 12 may reference.
 
 - [ ] **Step 1: Write the failing gate**
 
-Read an existing character file first — `characters/` already has the session-5 cast — and copy its frontmatter shape exactly.
-
 ```python
-def test_the_antagonists_exist_with_actor_notes():
-    import pathlib
-    needed = {
-        "characters/marek-sollen.md": ("WANTS", "PRESSURE", "KEY"),
-        "characters/sabra-ode.md": ("WANTS", "PRESSURE", "KEY"),
-        "characters/tobin-ashe.md": ("WANTS", "PRESSURE", "KEY"),
-        "characters/ines-caul.md": ("WANTS", "PRESSURE", "KEY"),
-    }
-    for rel, fields in needed.items():
+NEW_ANTAGONISTS = (
+    "characters/npcs/marek-sollen.json",
+    "characters/npcs/sabra-ode.json",
+    "characters/npcs/tobin-ashe.json",
+    "characters/npcs/ines-caul.json",
+)
+
+
+def test_the_new_antagonists_exist_and_are_playable():
+    """A card the engine cannot load is not a character, and a stat block
+    with no actor notes is not somebody a GM can voice."""
+    required = ("id", "name", "type", "status", "description",
+                "characteristics", "attributes", "skills", "passions",
+                "actor_notes", "extras")
+    for rel in NEW_ANTAGONISTS:
         p = ROOT / rel
         assert p.exists(), rel
-        text = p.read_text()
-        for f in fields:
-            assert f in text, f"{rel} has no {f}"
+        d = json.loads(p.read_text())
+        for key in required:
+            assert key in d, f"{rel} has no {key}"
+        assert d["extras"].get("pronouns"), f"{rel} has no pronouns"
+        notes = d["actor_notes"]
+        for field in ("CORE", "NATURE", "WOUND", "WANTS", "PRESSURE", "KEY"):
+            assert field in notes, f"{rel} actor_notes has no {field}"
 
 
-def test_no_card_contains_a_rules_word():
+def test_no_actor_note_contains_a_rules_word():
     """TABLE.md: nothing on a card may contain a skill name, a number, or a
-    rules word."""
-    banned = re.compile(r"\b(d100|skill|roll|hit points|action points)\b", re.I)
-    for p in sorted((ROOT / "characters").glob("*.md")):
-        _, body = parse_frontmatter(p.read_text())
-        for n, line in enumerate(body.splitlines(), 1):
-            assert not banned.search(line), f"{p.name}:{n}: {line.strip()}"
+    rules word. The numbers live in the stat block, not in the voice."""
+    banned = re.compile(r"\b(d100|hit points|action points|skill roll"
+                        r"|difficulty|opposed roll)\b", re.I)
+    for p in character_sheets():
+        d = json.loads(p.read_text())
+        notes = d.get("actor_notes") or ""
+        m = banned.search(notes)
+        assert not m, f"{p.name} actor_notes contains '{m.group(0)}'"
+
+
+def test_ines_caul_can_actually_fight():
+    """She is the campaign's first lethal antagonist. A commander a
+    fifteen-year-old outmatches is not a threat."""
+    d = json.loads((ROOT / "characters/npcs/ines-caul.json").read_text())
+    styles = d.get("combat_styles") or {}
+    assert styles, "Ines Caul has no combat style"
+    assert max(styles.values()) >= 80, styles
 ```
 
 - [ ] **Step 2: Run to verify it fails**
 
-Run: `uv run pytest tests/test_content_rules.py -k "antagonists or rules_word" -v`
+Run: `uv run --with pytest --with pyyaml pytest tests/test_content_rules.py -k "antagonists or rules_word or ines" -v`
 Expected: FAIL, four files missing.
 
-- [ ] **Step 3: Write the cards and the factions**
+- [ ] **Step 3: Write the four sheets, two factions and the theocracy**
 
-`characters/marek-sollen.md` — the card is written in full in spec §9.2; copy it. **LOOKS** sixties, big through the chest, plainly and expensively dressed, a voice that fills a hall without a system, never touches anybody and never needs to. **CORE** children are children, the galaxy has been handed to them by negligent adults, and he is the only man with the spine to say so. **NATURE** hearty, genuinely funny on a platform, remembers your name and your mother's name and uses both; likes being liked, likes being obeyed more. **WOUND** he was never taken — tested, not chosen, then aged out of eligibility. **WANTS** the corps under his hand, legally, with an attestation on it, and to be thanked. **PRESSURE** gets loud and personal; addresses a fifteen-year-old as though they were seven, in public, and cannot stop himself. **KEY** *"Somebody has to be the grown-up."*
+**Marek Sollen** (`characters/npcs/marek-sollen.json`), a politician on the rise in the 61 Cygni assembly, no combat ability worth the name and no need of any. His card is written in full in spec §9.2 — LOOKS sixties, big through the chest, plainly and expensively dressed, a voice that fills a hall without a system, never touches anybody and never needs to; CORE children are children and the galaxy has been handed to them by negligent adults; NATURE hearty, funny on a platform, remembers your name and your mother's name; WOUND he was tested as a child and not chosen, then aged out of ever being eligible; WANTS the corps under his hand, legally, with an attestation on it, and to be thanked; PRESSURE gets loud and personal and starts addressing a fifteen-year-old as though they were seven, in public; KEY *"Somebody has to be the grown-up."* He is also on the wrong side of the ended book trade, which makes him a bigot as well as a bully. Give him high Influence and Oratory-equivalent skills and a passion in the eighties for his cause.
 
-`characters/sabra-ode.md` — seventeen, best of her generation, nearly out of career, leads the Yards resistance. It must be a child structurally: she can reach other systems and every adult around her physically cannot.
+**Sabra Ode** (`characters/npcs/sabra-ode.json`), seventeen, best of her generation, nearly out of career, leading the Yards resistance. A first-through: give her a knack, real crossing ability, and the competence of somebody two intakes above the player.
 
-`characters/tobin-ashe.md` — instructor at the Yards who covers for her; the man who gave Lint the van Maanen's door and asked nothing back.
+**Tobin Ashe** (`characters/npcs/tobin-ashe.json`), instructor at the Yards who covers for her, and the man who gave Lint the van Maanen's door in session 5 and asked nothing back. Landlocked, older, and the only adult in the resistance.
 
-`characters/ines-caul.md` — twenty-two, field commander of the Late, past it and still crossing, and she was Calloway's.
+**Ines Caul** (`characters/npcs/ines-caul.json`), twenty-two, field commander of the Late, past it and still crossing, and it is visibly killing her. She was Calloway's. Combat style at eighty or above, grown kit, the Quick and the Set. Per Task 8 she is **un-overwritable precisely because she still crosses**, and her actor notes must not imply otherwise.
 
-`factions/sollens-faction.md` — political, not military: votes, committees, strikes, smuggled children, and a school quietly refusing. His argument is popular and partly correct, which is what makes him dangerous rather than merely hateful.
+**`factions/the-late.md`** and **`factions/sollens-faction.md`**, following the conventions of `factions/the-tally.md` — the bold-label paragraphs, short body, wiki links. The Late's entry points at `lore/gm-secret/the-late.md`; keep GM secrets out of the faction file if it is player-visible, and say which it is.
 
-`factions/the-late.md` — the faction entry pointing at `lore/gm-secret/the-late.md`.
+**`lore/geography/the-theocracy.md`** — **Teegarden's Star**, already in `data/systems.json` with its astronomy and sources: a very old, very dim red dwarf about twelve light years out with two temperate roughly Earth-mass planets, holding one door, population 250,000,000 per Task 1. Cut off about three centuries ago when its single door strayed into rock, and returned **within living memory** when the mouth strayed back out. **Its god is its system mind** — alone, the only thing that could hold millions of people together was the mind that kept them breathing, and it became one. It has a congregation, three centuries of grievance at Sol for spending the civilisation that stranded it and at the Tally for closing its file, and nobody knows what it has had decades to prepare. **And it is the precedent**: the last time a door came back out of the rock, that came through it — which is the pressure on Act II, because Lint has just found a second one at Kapteyn's. Add a `note` to its `data/systems.json` row; do not touch its astronomy fields.
 
-`lore/geography/the-theocracy.md` — a system with ground and millions of people, cut off about three centuries ago, returned within living memory because a grashed mouth can stray back out of rock. **Its god is its system mind.** It has a congregation, three hundred years of grievance, and nobody knows what it has. And it is the precedent: the last time a door came back out of the rock, *that* came through it. **The star is Teegarden's Star**, which is already in `data/systems.json` with its sources: a very old, very dim red dwarf about twelve light years out with two temperate roughly Earth-mass planets, which is a world that can hold millions and a sky that barely moves. It holds **one door**, so a single grash cut it off completely — which is why it was gone for three centuries and why nobody could reach it. Task 1 already gives it 250,000,000 and 1.
+- [ ] **Step 4: Run the whole suite**
 
-- [ ] **Step 4: Run to verify it passes**
-
-Run: `uv run pytest tests/test_content_rules.py -v`
-Expected: PASS, all.
+Run: `uv run --with pytest --with pyyaml pytest tests/ -v`
+Expected: PASS except the known PIL failure. The new sheets must also satisfy Task 5's `test_there_is_no_paper_on_a_character_sheet` and the link gate.
 
 - [ ] **Step 5: Commit**
 
 ```bash
-git add characters/ factions/ lore/geography/the-theocracy.md tests/test_content_rules.py
+git add characters/ factions/ lore/geography/the-theocracy.md data/systems.json tests/test_content_rules.py
 git commit -m "feat(antagonists): Sollen, the Yards resistance, and the theocracy
 
-Five sessions with nobody to hate. Sollen is a totalitarian populist and
-an old-fashioned schoolmaster bully whose argument is popular and partly
+Five sessions with nobody to hate. Sollen is a totalitarian populist and an
+old-fashioned schoolmaster bully whose argument is popular and partly
 correct, which is the worst kind. The Yards resist him, led by a
 seventeen-year-old, because she can reach other systems and every adult
 around her physically cannot.
 
-And a theocracy whose god is its own system mind, back out of the rock
-after three centuries -- which is the precedent that makes Kapteyn's
-frightening."
+And a theocracy whose god is its own system mind, back out of the rock after
+three centuries -- the precedent that makes Kapteyn's frightening."
 ```
-
----
 
 ### Task 10: Fix the stale cross-reference in the addendum
 
