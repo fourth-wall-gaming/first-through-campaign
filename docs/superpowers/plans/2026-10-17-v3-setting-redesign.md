@@ -94,7 +94,7 @@ def lore_ids():
 Add to `tests/test_content_rules.py`:
 
 ```python
-from content_rules import all_content_files, lore_ids, systems
+from content_rules import all_content_files, edges, lore_ids, systems
 
 # Captured 2026-10-17, before the v3 rewrite began. These ids are the join
 # keys to myth-campaign-first-through-s1, which is live at session 6. A
@@ -154,12 +154,21 @@ def test_no_geography_page_contradicts_its_data_row():
     assert not bad, "\n".join(bad)
 
 
-def test_the_doors_add_up_to_the_map():
-    """Twenty-six doors join twenty-seven systems, so the degree sum is 52.
-    LHS 1140 has none yet."""
-    s = systems()
-    assert sum(v["doors"] for v in s.values()) == 52
-    assert s["lhs-1140"]["doors"] == 0
+def test_doors_are_derived_from_the_edge_data():
+    """data/edges.json is the authority on the network and existing tests
+    already gate it. A door count written by hand in a second place is the
+    exact drift this project exists to fix."""
+    import collections
+    deg = collections.Counter()
+    for e in edges():
+        deg[e["a"]] += 1
+        deg[e["b"]] += 1
+    for key, s in systems().items():
+        assert s["doors"] == deg[key], f"{key}: {s['doors']} != {deg[key]}"
+    assert sum(deg.values()) == 54, sum(deg.values())
+    assert deg["lhs-1140"] == 0
+
+
 ```
 
 - [ ] **Step 2: Run them to verify they fail, then freeze the real ids**
@@ -181,7 +190,11 @@ import json; print(json.dumps(sorted(lore_ids()), indent=4))
 
 Edit `data/systems.json` so every one of the 29 rows carries integer `population` and `doors`. Use these, which satisfy the gates above and the spec's §1 table:
 
-`sol` 11_000_000_000 / 7 · `alpha-centauri` 4_000_000_000 / 4 · `tau-ceti` 3_000_000_000 / 3 · `61-cygni` 2_000_000_000 / 4 · `procyon` 1_200_000_000 / 2 · `epsilon-eridani` 1_000_000_000 / 2 · `40-eridani` 900_000_000 / 2 · `epsilon-indi` 800_000_000 / 2 · `lalande-21185` 700_000_000 / 2 · `ross-128` 600_000_000 / 2 · `55-cancri` 500_000_000 / 2 · `gliese-876` 450_000_000 / 2 · `hd-40307` 400_000_000 / 2 · `hd-69830` 350_000_000 / 2 · `yz-ceti` 300_000_000 / 1 · `teegardens-star` 250_000_000 / 1 · `gliese-887` 4_000 / 1 · `kapteyns-star` 11_000 / 1 · `gl-725` 200_000_000 / 2 · `barnards-star` 180_000_000 / 2 · `wolf-359` 150_000_000 / 2 · `luhman-16` 90_000 / 1 · `wise-0855` 40_000 / 1 · `gj-1214` 120_000_000 / 1 · `trappist-1` 60_000_000 / 1 · `gliese-65` 61 / 1 · `van-maanens-star` 3_000 / 2 · `sirius` 40_000 / 9 · `lhs-1140` 0 / 0
+Populations, hand-written because nothing else holds them (plain JSON integers — `11000000000`, not `11000000000` with separators):
+
+`sol` 11000000000 · `alpha-centauri` 4000000000 · `tau-ceti` 3000000000 · `61-cygni` 2000000000 · `procyon` 1200000000 · `epsilon-eridani` 1000000000 · `40-eridani` 900000000 · `epsilon-indi` 800000000 · `lalande-21185` 700000000 · `ross-128` 600000000 · `55-cancri` 500000000 · `gliese-876` 450000000 · `hd-40307` 400000000 · `hd-69830` 350000000 · `yz-ceti` 300000000 · `teegardens-star` 250000000 · `gliese-887` 4000 · `kapteyns-star` 11000 · `gl-725` 200000000 · `barnards-star` 180000000 · `wolf-359` 150000000 · `luhman-16` 90000 · `wise-0855` 40000 · `gj-1214` 120000000 · `trappist-1` 60000000 · `gliese-65` 61 · `van-maanens-star` 3000 · `sirius` 40000 · `lhs-1140` 0
+
+**`doors` is NOT hand-written.** Compute it for each system as that system's degree in `data/edges.json`, which is the authority and which existing tests already gate.
 
 Note `gliese-65` is Ladder at 61 people and `van-maanens-star` rises from 2 staff to a 3,000-person records station per spec §5.5; both are deliberate.
 
