@@ -81,7 +81,7 @@ still there. You can see it from the upper gallery.
 Not because the knowledge is lost. Any engineer at the Yards can tell you how a
 pair is made. Because the thing that would pay for a new door cannot be
 gathered *through* the doors there already are — no bulk, no fleet, no
-treasury, only bodies and boxes. Twenty-eight systems can never pool what
+treasury, nothing manufactured, only a child and what is alive in their arms. Twenty-eight systems can never pool what
 twenty-eight systems have.
 
 They attempted four thousand, one hundred and nineteen pairs. Three thousand

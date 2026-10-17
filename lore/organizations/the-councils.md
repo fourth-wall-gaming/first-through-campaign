@@ -119,6 +119,23 @@ It is also:
   across twenty-eight systems rather than merely enforced in one, there is nowhere
   else to take it.
 
+### A delegate, a precedent, a ruling
+
+**Delegate Ashmere Quill** sits for the fetches at the Nine: old, patient, and
+very slow to say *yes*. She has never lost a vote and has never once called one.
+
+**The precedent** is the Hollow Ruling, from the year the book trade ended: no
+fetch may be made to carry a payload it has not agreed to. It is why *agreed to
+carry* is the only phrase that matters.
+
+**A sample ruling.** A tallyman brings the Council a request: could the fetches
+please carry a standing order from the Tally to every anchor, so nothing is ever
+asked twice? Quill answers: *"A fetch records what it saw and keeps it on its own
+terms. You may ask each one. You may not ask all of us at once. We will tell you
+which of us said yes, and you may tell the rest of your Tally that is what
+legitimate looks like."* The request is not refused. It becomes forty thousand
+separate requests.
+
 ## Where it touches a player
 
 Your fetch has a people, and the people have a council, and the council has an

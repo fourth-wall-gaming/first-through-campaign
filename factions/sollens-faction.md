@@ -15,6 +15,8 @@ somebody should be in charge of the ones who go. The bloc wants the corps under
 the assembly's hand, with a vote behind it and a name on it. It does not say what
 else comes with that.
 
+**The argument that makes him dangerous**, in his own words, and he is right about the sum: *"Thirty billion people are held together by a few thousand children. That is not a figure of speech. That is the whole arrangement. Tell me which part is wrong, and then tell me who is looking after them."* Nobody at the Yards can answer the second half, and he knows it.
+
 **Standing toward the player:** it intends to help them. Every offer is kind
 and every kindness is a lien. The first thing it asks is that a child go where
 they are told, and the second is that they say thank you.

@@ -58,6 +58,8 @@ of its own. That is a **bud**. A bud is lading, which means it needs a first-thr
 to take it, and every bud that has ever left the Nine has spent some part of a
 child's remaining years. See [[The Standing]].
 
+*Cut me a bud* is what you say at the Standing when you want one, and *how long has the bud been in the basin?* is how you ask whether to trust it.
+
 A bud is not a duplicate. It is a copy that starts the same and then goes its
 own way. It takes testimony from whoever stands at it, and nothing else.
 
@@ -83,6 +85,8 @@ Two archives disagree. One of them says the door at the far end goes to a
 tidal flat and the other says a red desert, and both are made out of somebody's
 cells. Somebody has to decide which line stands, which gets overgrown, and
 whether the loser is kept as a footnote or not kept at all.
+
+*We'll reconcile it in the open* is the phrase, said at the Standing by whoever has the right to say it, and it is half a promise and half a warning.
 
 It is a profession, and it is a political one, because that somebody is
 choosing, in a way that will outlive them, what a system believes about its own

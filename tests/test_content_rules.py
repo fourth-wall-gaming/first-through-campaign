@@ -827,7 +827,6 @@ PAPER = re.compile(
 # the channel is living cells. Paper is a v1 artefact in both places.
 PAPER_ALLOWED = {
     "docs",                      # specs and plans may discuss what was deleted
-    "lore/history",              # the Sorting and the First Reach are historical
 }
 
 # Emptied in Task 11 and asserted empty below. Do not add to it.

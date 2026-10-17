@@ -57,8 +57,10 @@ decades to prepare. The door strayed back out within living memory, and in the
 years since it has asked for nothing, taken nothing and sent a handful of
 polite people with very little to say.
 
-**It is the precedent.** The last time a door came back out of the rock, a god
-came through it. That is the pressure on anyone who has just found a second door
+**It is the precedent.** The last time a door came back out of the rock, a god's
+congregation came through it: its people, and its prayers, on behalf of something
+that could not follow them. A mind cannot cross a door, and that is exactly what
+makes it worse. A whole people arrived speaking for a thing that stayed behind. That is the pressure on anyone who has just found a second door
 at Kapteyn's, seventy years deeper in the dark and no less patient.
 Nobody at the Nine says it out loud. Everybody at the Nine has done the sum.
 

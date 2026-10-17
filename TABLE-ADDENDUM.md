@@ -2,8 +2,8 @@
 
 The engine's `TABLE.md` governs everything about how this table runs: voice, the
 shape of a turn, the wall between mechanics and fiction, dice conduct, NPC
-portrayal, offscreen action. **Read it first.** This file adds three things that
-are specific to this campaign, and all three are load-bearing.
+portrayal, offscreen action. **Read it first.** This file adds four things that
+are specific to this campaign, and all four are load-bearing.
 
 ---
 
@@ -94,3 +94,24 @@ non-lethal after they have chosen it. That teaches a child their decisions are
 decorative, which is worse than any amount of danger.
 
 Full guidance: `lore/gm-guide/special-effects-are-the-players.md`.
+
+---
+
+## 4. What changed under played content
+
+The setting was redesigned after session 5. These changes sit under scenes
+already played. The played scene still runs verbatim.
+
+- **The Standing** was a board in session 5. It is now a **living archive**: you
+  lay a hand on the lip, say what you saw, and a drop of you grows the entry. If a
+  player remembers a board, play the board as the thing they saw and let the
+  living archive be what it turned out to be.
+- **The beat "Pell Ivor's board" is now "Pell Ivor's count."** Same man, same
+  Friday, same forty-one step-ups for twenty-three crossings. It is a count he
+  kept himself, not a board.
+- **van Maanen's** went from two staff to a **corpus town of three thousand**,
+  where the anchor corpus is kept. The played scene still runs verbatim: two
+  staff are who the player met, and three thousand is who they were standing
+  among.
+- **Nothing manufactured crosses a door, not a crate.** Nobody in any earlier
+  session was told "only bodies and boxes", and nobody should be told it now.

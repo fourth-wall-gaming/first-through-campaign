@@ -8,8 +8,10 @@ sources: ["https://en.wikipedia.org/wiki/List_of_nearest_stars_and_brown_dwarfs"
 created_at: "2026-10-05T12:00:00"
 ---
 
-Twenty-seven doors join twenty-eight systems. That is the entire inhabited galaxy,
-and you could memorise it in an afternoon — most first-throughs do, because a
+Twenty-seven doors join twenty-eight systems. That is the entire inhabited
+galaxy, and one of those doors is dark: the one at [[Kapteyn's Star]], buried,
+with eleven thousand people behind it since the spring of 602. It is on the map
+and it does not answer. Count it in, and the number still holds. You could memorise it in an afternoon — most first-throughs do, because a
 graph this small is worth knowing cold when there is no signal from the far
 side to ask.
 

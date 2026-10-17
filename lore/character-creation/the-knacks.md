@@ -63,6 +63,12 @@ forever with a whole world behind it. A courier with the Listen is the smoke
 alarm for the Causeway. Every deck that has one wants her on the roster, and
 every deck that has lost one knows exactly what it cost.
 
+How it is asked for: the player says they are listening and not stepping, and
+the GM calls one roll on the Listen's power, Heightened Sense, for a held
+breath at the frame. A success gives the yes or no, the warm or the cold. A
+failure gives a reading that is wrong, and the GM does not say so. A hurried
+Listen takes a penalty, and so does the fifth reach of a watch.
+
 What it costs: it is slow, a held breath of a few seconds, and it is quiet, so
 you cannot do it while someone is shoving you toward the frame. A hurried Listen
 is a wrong one, and a wrong one is worse than none. It also tires. The fifth

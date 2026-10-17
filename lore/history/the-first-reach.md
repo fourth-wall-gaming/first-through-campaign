@@ -73,8 +73,8 @@ who made it was nine centuries dead before it finished being kept.
 Here is the part that matters, and it is not a tragedy of lost knowledge. It is
 a trap in the shape of the network itself.
 
-**Only bodies and boxes cross a door.** Nothing else — no bulk, no fleet, no
-treasury. So twenty-eight systems can never pool what twenty-eight systems have.
+**Only a living thing crosses a door.** Nothing manufactured — no bulk, no fleet, no
+treasury, not a crate. So twenty-eight systems can never pool what twenty-eight systems have.
 Each one is as rich as it is and no richer, and the surplus required to make one
 anchor pair is larger than any single system has produced in nine hundred years.
 
