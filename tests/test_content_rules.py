@@ -887,13 +887,30 @@ def test_the_standing_is_never_a_board():
 # that framing is an atrocity the setting itself repudiated.
 FETCH_AS_LIVESTOCK = re.compile(
     r"\b(bred for|breeding|kept as stock|a book is an animal"
-    r"|written to by strangers|handed over at the far end)\b", re.I)
+    r"|written to by strangers|handed over at the far end"
+    r"|every book|carrying books|rather than books|books and buds"
+    r"|books come from|bred from one|bred out|breed it"
+    r"|what a book is|written payload|writing a payload"
+    r"|written into a (book|sixlimb)|library a courier carries"
+    r"|reader'?s trade)\b", re.I)
+
+
+# Files that still carry the old framing and belong to a later task.
+LIVESTOCK_ALLOWLIST = {
+    "lore/geography/bell.md",                     # Task 11: "where books come from"
+    "lore/gm-secret/what-tolk-is.md",             # Task 11: "before you breed it"
+    "lore/character-creation/skills.md",          # Task 11: Reading as the book trade
+    "lore/character-creation/careers.md",         # Task 11: "carrying books"
+    "lore/organizations/the-threshold.md",        # Task 11: "every book"
+}
 
 
 def test_fetches_are_never_described_as_livestock():
     bad = []
     for p in content_files(FIRST_PASS_DIRS):
         if str(p.relative_to(ROOT)).startswith("docs"):
+            continue
+        if str(p.relative_to(ROOT)) in LIVESTOCK_ALLOWLIST:
             continue
         text = p.read_text()
         for n, line in enumerate(text.splitlines(), 1):

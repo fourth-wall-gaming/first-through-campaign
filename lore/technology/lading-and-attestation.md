@@ -19,8 +19,8 @@ Nine.
 **Lading** is whatever a courier is carrying.
 
 *What's your lading?* is the first thing anyone asks at an anchor hall, and it
-replaces every manifest in the setting. It covers books and buds and fetches and
-a passenger holding on to your sleeve. A first-through with nothing in their
+replaces every manifest in the setting. It covers buds and messages and whatever your
+fetch has agreed to carry for someone, and a passenger holding on to your sleeve. A first-through with nothing in their
 arms says *light*. A first-through who will not tell the Tally what is in their
 arms is, by custom, either carrying something very small or something very
 large, and either way the next question is who sent them.
