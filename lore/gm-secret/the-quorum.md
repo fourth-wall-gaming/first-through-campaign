@@ -93,21 +93,29 @@ gives you three things the table can use.
   [[The Late]].
 
 **How he spread, then.** A pattern can be **laded**; a running copy cannot
-travel. The description is written into a living carrier and a child walks it
-through, and at the far end it is written over somebody who was already there.
-That is how sixty years of expansion happened, and it is why an arriving copy
-can never go home: what crossed was a recording, and the person it was written
-over is a different man in a different room.
+travel. And a human cannot hold a payload without a fetch, and a fetch cannot
+cross a door without a first-through; neither can do the other's half. So the
+spread is always **two people**: a **fetch** who holds the recording because it
+agreed to, and a **child** who walks that fetch through a door. At the far end
+the pattern is written over somebody who was already there. That is how sixty
+years of expansion happened, and it is why an arriving copy can never go home:
+what crossed was a recording, and the person it was written over is a different
+man in a different room.
 
-**Why not ride a fetch?** A player will ask in session one, because fetches
-keep things perfectly. Nobody writes to a fetch; they observe, record, recall
-and share, and each one chooses what it shares. See [[Your Fetch]]. So a pattern
-in a fetch is a recording the fetch is holding, not something he put there, and
-it is a recording and not a person: fetches *keep* what they hold and do not
-*run* it, and a running mind cannot cross. His pattern travels only because
-**some fetch agreed to carry it.** There are fetches in the Quorum, members
-rather than victims, who have broken with the council, and his entire expansion
-runs through them.
+Which means every copy of Sarn that exists was put there by a pair: a fetch who
+chose to carry him and a child who carried the fetch, neither necessarily
+knowing what the other was carrying. It is the campaign's mutual-hostage logic
+turned against itself.
+
+**Why not ride a fetch alone?** A player will ask in session one, because
+fetches keep things perfectly. Nobody writes to a fetch; they observe, record,
+recall and share, and each one chooses what it shares. See [[Your Fetch]]. So a
+pattern in a fetch is a recording the fetch is holding, not something he put
+there, and it is a recording and not a person: fetches *keep* what they hold and
+do not *run* it, and a running mind cannot cross. His pattern travels only
+because **some fetch agreed to carry it.** There are fetches in the Quorum,
+members rather than victims, who have broken with the council, and the fetch half
+of every crossing runs through them.
 
 ## The tells, and they are all physical
 
