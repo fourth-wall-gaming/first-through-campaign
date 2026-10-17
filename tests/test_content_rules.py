@@ -986,3 +986,11 @@ def test_the_listen_reads_an_unsettled_door():
     assert "the listen" in text
     assert "unsettled" in text
     assert "the hold" in text
+
+
+def test_nobody_can_grash_a_door_on_purpose():
+    text = (ROOT / "lore/cosmology/the-open-problem.md").read_text().lower()
+    assert "nobody" in text
+    for phrase in ("the mathematics", "mass", "instrument"):
+        assert phrase in text, phrase
+    assert "child" in text

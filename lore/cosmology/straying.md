@@ -119,3 +119,10 @@ is a four-room station at [[van Maanen's Star]] staffed by two people nobody
 visits.
 
 One of whom has been writing to the directorate about it for three years.
+
+## And could you make one stray?
+
+No. Everything on this page is a thing that happens to a door. None of it is a
+thing anybody can do to one. Nobody can say where a mouth will go, or push it
+there, or close it on purpose, and the reasons are not a matter of will. They
+are set out in [[The Open Problem]].
