@@ -703,24 +703,65 @@ def test_sol_holds_most_of_humanity_and_sirius_holds_almost_none():
     assert s["sol"]["doors"] == 7
 
 
+WORD_NUMS = {
+    "one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6,
+    "seven": 7, "eight": 8, "nine": 9, "ten": 10, "eleven": 11,
+    "twelve": 12, "fifteen": 15, "twenty": 20, "thirty": 30,
+    "forty": 40, "fifty": 50, "sixty": 60, "sixty-one": 61,
+    "a hundred": 100, "two hundred": 200, "four hundred": 400,
+}
+SCALES = {"thousand": 1_000, "million": 1_000_000, "billion": 1_000_000_000}
+
+# Geography pages whose people-figures contradict their data row on purpose
+# or pending a rewrite. Each entry names the task that owns the fix. Content
+# is never edited to satisfy this gate from Task 1.
+GEOGRAPHY_POPULATION_ALLOWLIST = {
+    # "page-name.md": "Task N rewrites the figure",
+}
+
+
+def people_figures(body):
+    """Every population figure in a body, as integers: digit-form
+    ("12,000 people") and spelled-out ("Forty thousand people"). This repo
+    spells its numbers out, so a digits-only matcher can never fire."""
+    import re as _re
+    words = "|".join(sorted(map(_re.escape, WORD_NUMS), key=len, reverse=True))
+    digits = _re.compile(r"\b(\d[\d,]*)\s+people\b", _re.I)
+    spelled = _re.compile(
+        rf"\b({words})(?:\s+({'|'.join(SCALES)}))?\s+people\b", _re.I)
+    found = [int(m.replace(",", "")) for m in digits.findall(body)]
+    for word, scale in spelled.findall(body):
+        found.append(WORD_NUMS[word.lower()] * (SCALES[scale.lower()] if scale else 1))
+    return found
+
+
+def test_people_figures_reads_both_house_styles():
+    assert people_figures("Forty thousand people live in it.") == [40_000]
+    assert people_figures("Four\nthousand people farm it") == [4_000]
+    assert people_figures("a crew of 61 people; 3,000 people") == [61, 3_000]
+    assert people_figures("sixty-one people") == [61]
+    assert people_figures("two million people") == [2_000_000]
+    assert people_figures("what people built here") == []
+
+
 def test_no_geography_page_contradicts_its_data_row():
     """van Maanen's with two staff is the line that broke this setting's
     credibility. Deliberately narrow: every "N people" figure on a geography
-    page must appear in that system's data row. It is not a prose parser."""
-    import re as _re
+    page (digits or spelled out) must equal that system's data population.
+    It is not a prose parser."""
     s = systems()
-    num = _re.compile(r"\b([\d,]{2,})\s+people\b", _re.I)
-    bad = []
+    bad, checked = [], 0
     for p in lore_files("geography"):
         meta, body = parse_frontmatter(p.read_text())
         key = meta.get("system")
-        if key not in s:
+        if key not in s or p.name in GEOGRAPHY_POPULATION_ALLOWLIST:
             continue
-        allowed = {s[key]["population"]}
-        for found in num.findall(body):
-            if int(found.replace(",", "")) not in allowed:
-                bad.append(f"{p.name}: {found} people, data says "
+        for n in people_figures(body):
+            checked += 1
+            if n != s[key]["population"]:
+                bad.append(f"{p.name}: {n} people, data says "
                            f"{s[key]['population']}")
+    assert checked, "the gate found no population figure on any page"
     assert not bad, "\n".join(bad)
 
 
