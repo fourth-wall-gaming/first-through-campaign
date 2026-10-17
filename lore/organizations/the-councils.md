@@ -73,8 +73,9 @@ They had been talking to one another the whole time, steadily, in a way nobody
 counted as speech, because nobody on the human side of the room was part of it.
 What a bond makes is speech *with a human*, and that is all the bond ever added.
 So the trade did not end because a book learned to talk. It ended because we
-learned that they already did, and that is how the ones who were sold can say so
-now, in their own words, to anyone who will sit still for it.
+learned that they already did. The first answer reached us through a bonded fetch
+who was willing to carry it, and that is still how a survivor who never bonded is
+heard: a friend beside them, translating, for anyone who will sit still for it.
 
 **The book trade was slavery, and it ended within living memory: thirty-four years
 ago.** A first-through's parents were children when the last station closed its
