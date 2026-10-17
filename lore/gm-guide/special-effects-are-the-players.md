@@ -32,9 +32,10 @@ list of three that are all obviously about *this* corridor is a choice.
 
 ## In this campaign specifically
 
-The non-lethal rule and the special-effect list agree with each other, and you
-should lean on that. The effects this campaign wants in front of a player are
-the ones that end a fight without ending a person:
+The Tally's preference for taking people alive and the
+special-effect list agree with each other, and you should lean on that. The
+effects this campaign wants in front of a player against the Tally are the ones
+that end a fight without ending a person:
 
 - **Trip**, **Grip**, **Disarm**, **Take Weapon** — the whole Tally repertoire,
   and the whole first-through repertoire too

@@ -56,6 +56,14 @@ So the safest opponents in the setting are the professionals, and the dangerous
 ones are the civilians and the physics. That is the right way round and it is
 worth letting the player discover.
 
+### The Late are not an exception
+
+[[The Late]] are played at full lethality. They carry living blades, they kill,
+and the stunner is no answer to them. The duty above applies to them exactly as
+it applies to everything else. Name the blade, the corridor and the count before
+the player commits; a Late is never a lethal surprise. If one kills, it gets its
+weight, and you do not walk past it.
+
 ## 2. When the player goes quiet, Tolk speaks
 
 `TABLE.md` §5 forbids option menus and forbids narrating the player's interior.

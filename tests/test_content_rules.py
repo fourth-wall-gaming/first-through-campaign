@@ -1058,3 +1058,24 @@ def test_ines_caul_can_actually_fight():
     styles = d.get("combat_styles") or {}
     assert styles, "Ines Caul has no combat style"
     assert max(styles.values()) >= 80, styles
+
+
+def test_the_addendum_still_says_danger_is_real():
+    """This file was twice described in design notes as carrying a non-lethal
+    rule. It does not and never did, and it must not acquire one."""
+    text = (ROOT / "TABLE-ADDENDUM.md").read_text()
+    assert "Danger is real" in text
+    assert "The player's character can die" in text
+    assert "a risk the player could see when they chose it" in text
+
+
+def test_nothing_in_the_repo_claims_a_non_lethal_rule():
+    from content_rules import all_content_files
+    bad = []
+    for p in all_content_files() + [ROOT / "TABLE-ADDENDUM.md"]:
+        if str(p.relative_to(ROOT)).startswith("docs"):
+            continue
+        for n, line in enumerate(p.read_text().splitlines(), 1):
+            if re.search(r"non-?lethal rule", line, re.I):
+                bad.append(f"{p.relative_to(ROOT)}:{n}: {line.strip()}")
+    assert not bad, "\n".join(bad)
