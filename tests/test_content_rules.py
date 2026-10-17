@@ -802,3 +802,41 @@ def test_the_weave_crosses_and_freight_does_not():
     assert "weave" in text
     assert "freight does not cross" in text
     assert "grown" in text
+
+
+# ---- Task 3: there is no paper ------------------------------------------
+from content_rules import FIRST_PASS_DIRS, content_files  # noqa: E402
+
+PAPER = re.compile(
+    r"\b(ledger|ledgers|logbook|log ?book|tome|tomes|clerk|clerks|clerical"
+    r"|filing cabinet|paperwork|bureaucrat\w*|rubber[- ]stamp\w*"
+    r"|carbon copy|in triplicate|typed|typewrit\w*)\b", re.I)
+
+# Inside a system there is no reason to write anything down. Between stars
+# the channel is living cells. Paper is a v1 artefact in both places.
+PAPER_ALLOWED = {
+    "docs",                      # specs and plans may discuss what was deleted
+    "lore/history",              # the Sorting and the First Reach are historical
+}
+
+
+def _exempt(p):
+    rel = str(p.relative_to(ROOT))
+    return any(rel.startswith(a) for a in PAPER_ALLOWED)
+
+
+def test_there_is_no_paper_left_in_the_causeway():
+    bad = []
+    for p in content_files(FIRST_PASS_DIRS):
+        if _exempt(p):
+            continue
+        for n, line in enumerate(p.read_text().splitlines(), 1):
+            if PAPER.search(line):
+                bad.append(f"{p.relative_to(ROOT)}:{n}: {line.strip()}")
+    assert not bad, "\n".join(bad)
+
+
+def test_the_new_vocabulary_is_defined_somewhere():
+    text = (ROOT / "lore/technology/lading-and-attestation.md").read_text().lower()
+    for word in ("lading", "attestation", "budding", "drift", "reconciliation"):
+        assert word in text, word

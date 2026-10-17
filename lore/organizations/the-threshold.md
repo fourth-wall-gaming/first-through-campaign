@@ -3,7 +3,7 @@ id: "myth-lore-2377b7ce1f63"
 title: "The Threshold"
 category: "organizations"
 visibility: "player"
-summary: "The service that walks through doors first and answers when an old one goes wrong. Its field operatives are first-throughs, it trains at 61 Cygni, and it is based at the Nine."
+summary: "The service that walks through doors first and answers when an old one goes wrong. Its field operatives are first-throughs, it trains at 61 Cygni, and it is based at the Nine. Small because the doors cap it, the most valuable institution in human space, and far too small to defend itself."
 created_at: "2026-10-05T12:00:00"
 ---
 
@@ -33,7 +33,19 @@ who dies on the far side of a door takes the information with them, and the
 information was the job.
 
 **Where it sits.** Home is [[Sirius, and the Nine]], ready room off the second
-gallery. The Threshold is old, underfunded, widely liked and politically
-powerless — it holds no doors, charges no tolls, and owns nothing anybody wants.
-That is either its weakness or the only reason it has survived this long,
-depending on which part of the service you ask.
+gallery.
+
+**Why it is small.** Not for want of money. The Threshold is as large as the doors
+let it be. Every crossing is one child, and a system's traffic with the rest of the species is capped by how many
+crossings its first-throughs can afford to spend. There are only so many
+children, and only so many years to be spent. The service has never turned away
+a recruit who could do it.
+
+Which makes it the most strategically valuable institution in human space. Every
+piece of news, every book, every bud of a Standing, every treaty and every rescue
+moves in somebody's arms, and the Threshold holds the arms. It is also far too
+small to defend itself. It holds no doors, charges no tolls and keeps no force,
+because no force can be sent between stars. Anyone who wanted it gone would not
+need to fight it. They would only need to be standing in a hall when the
+children went home. That is either its weakness or the only reason it has
+survived this long, depending on which part of the service you ask.
