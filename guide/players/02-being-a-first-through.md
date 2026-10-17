@@ -17,8 +17,8 @@ disappointed by it.
 
 You step onto the plate. The air changes. You are somewhere else. There is no
 flash, no lurch, no tunnel, no noise. The only reason you know you crossed is
-that the smell is different and the boots you are wearing belong to a different
-station.
+that the smell is different and one of the boots you are wearing was grown at a
+different station.
 
 Nothing manufactured crosses with you — not a bag, not a tool, not a crate —
 so you cross in your **weave**: a garment grown rather than made,

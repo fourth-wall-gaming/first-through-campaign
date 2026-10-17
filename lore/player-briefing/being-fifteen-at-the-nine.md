@@ -27,9 +27,9 @@ watch.
 
 ## Boots
 
-Nothing crosses a door, so everything you wear is issued on the far side and
-handed back when you leave — except that halls are chaotic and boots go missing,
-and over a career you accumulate a set from everywhere.
+Your boots are grown, like your weave, so they cross. Each station issues you a
+pair in its own cut and lets you keep them, and over a career you accumulate a
+set from everywhere.
 
 A first-through's boots are their whole record. Cut, stitch and sole say which
 systems, and anybody in the hall can read them at ten paces.
