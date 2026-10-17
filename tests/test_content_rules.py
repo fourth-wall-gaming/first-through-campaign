@@ -602,3 +602,138 @@ def test_the_flare_twins_orbit_is_cited_and_specific():
     assert g["eccentricity"] > 0.5, "an eccentric pair is the whole mechanism"
     assert any("Luyten" in s for s in g["sources"]), \
         "the orbital claim needs a source naming the system properly"
+
+
+from content_rules import all_content_files, edges, lore_ids  # noqa: E402,F401
+
+# Captured 2026-10-17, before the v3 rewrite began. These ids are the join
+# keys to myth-campaign-first-through-s1, which is live at session 6. A
+# rewrite may change every word of a file and may not change its id.
+FROZEN_LORE_IDS = {
+    "myth-lore-00f5a2ee8da5",
+    "myth-lore-05fed24a8ade",
+    "myth-lore-097b6b387d5a",
+    "myth-lore-0c2a6f8d41be",
+    "myth-lore-0e572f6e6a9d",
+    "myth-lore-110b1d05a1e5",
+    "myth-lore-16eb77a71842",
+    "myth-lore-2108cfa5c688",
+    "myth-lore-2377b7ce1f63",
+    "myth-lore-279ae6bae609",
+    "myth-lore-3979ec5f87f3",
+    "myth-lore-3bef00a7d4e2",
+    "myth-lore-3dec75146a40",
+    "myth-lore-3e8342b40612",
+    "myth-lore-439f3a242ea1",
+    "myth-lore-5613432aa61f",
+    "myth-lore-5b1e7c4d9a20",
+    "myth-lore-5f0e076b4984",
+    "myth-lore-5fee0ba432ef",
+    "myth-lore-659a9ff9a80d",
+    "myth-lore-73eea8e24ff0",
+    "myth-lore-749358146117",
+    "myth-lore-75d9a4de9bd2",
+    "myth-lore-7755c4a9f7ed",
+    "myth-lore-8731e70dfa10",
+    "myth-lore-8770c99bc8be",
+    "myth-lore-8bcd4d760526",
+    "myth-lore-8c4b31f0e76a",
+    "myth-lore-8eb6ff2d406a",
+    "myth-lore-8ebc99246045",
+    "myth-lore-8ecc45aa88cb",
+    "myth-lore-8f41c0d7b3e2",
+    "myth-lore-8f522365c640",
+    "myth-lore-8fd22ae103b9",
+    "myth-lore-a4332cad97d3",
+    "myth-lore-a459177a8189",
+    "myth-lore-a47dd64a96ab",
+    "myth-lore-afdaeb1c5584",
+    "myth-lore-b6e40e30b51d",
+    "myth-lore-ba9f231a772d",
+    "myth-lore-c1f7f44d3517",
+    "myth-lore-c594ab5a2972",
+    "myth-lore-c6d0912602a4",
+    "myth-lore-c73a0e51f8bd",
+    "myth-lore-c90f1f5d276f",
+    "myth-lore-d486f7ce9720",
+    "myth-lore-d505b6391a05",
+    "myth-lore-d7adc12b2427",
+    "myth-lore-dabd9cbe122f",
+    "myth-lore-dd6b9847d91b",
+    "myth-lore-df675e04ba0d",
+    "myth-lore-e083adf7a80b",
+    "myth-lore-ec404a2af3a0",
+    "myth-lore-ec9c42d1a5ed",
+    "myth-lore-f4b65d700def",
+    "myth-lore-f8d1d0bd3403",
+    "myth-lore-fdaef1cb24de",
+    "myth-lore-fe204c24a122",
+    "myth-lore-febec6062bc0",
+}
+
+# Ids deliberately removed by a later task, each with the task that did it.
+REMOVED_LORE_IDS = set()  # Task 6 adds the-cold-arm.md's id here
+
+
+def test_no_lore_id_is_lost_or_changed():
+    """Subset semantics, not equality: later tasks legitimately create new
+    lore files. What must never happen is a frozen id going missing or being
+    edited, because the ids are the join keys to a live save."""
+    expected = set(FROZEN_LORE_IDS) - REMOVED_LORE_IDS
+    missing = expected - lore_ids()
+    assert not missing, f"lore ids lost or changed: {sorted(missing)}"
+
+
+def test_every_system_has_a_population_and_a_door_count():
+    for key, s in systems().items():
+        assert isinstance(s.get("population"), int), f"{key} has no population"
+        assert isinstance(s.get("doors"), int), f"{key} has no door count"
+
+
+def test_the_scale_is_thirty_billion():
+    total = sum(s["population"] for s in systems().values())
+    assert 25_000_000_000 <= total <= 35_000_000_000, total
+
+
+def test_sol_holds_most_of_humanity_and_sirius_holds_almost_none():
+    s = systems()
+    assert s["sol"]["population"] > 9_000_000_000
+    assert s["sirius"]["population"] == 40_000
+    assert s["sirius"]["doors"] == 9
+    assert s["sol"]["doors"] == 7
+
+
+def test_no_geography_page_contradicts_its_data_row():
+    """van Maanen's with two staff is the line that broke this setting's
+    credibility. Deliberately narrow: every "N people" figure on a geography
+    page must appear in that system's data row. It is not a prose parser."""
+    import re as _re
+    s = systems()
+    num = _re.compile(r"\b([\d,]{2,})\s+people\b", _re.I)
+    bad = []
+    for p in lore_files("geography"):
+        meta, body = parse_frontmatter(p.read_text())
+        key = meta.get("system")
+        if key not in s:
+            continue
+        allowed = {s[key]["population"]}
+        for found in num.findall(body):
+            if int(found.replace(",", "")) not in allowed:
+                bad.append(f"{p.name}: {found} people, data says "
+                           f"{s[key]['population']}")
+    assert not bad, "\n".join(bad)
+
+
+def test_doors_are_derived_from_the_edge_data():
+    """data/edges.json is the authority on the network and existing tests
+    already gate it. A door count written by hand in a second place is the
+    exact drift this project exists to fix."""
+    import collections
+    deg = collections.Counter()
+    for e in edges():
+        deg[e["a"]] += 1
+        deg[e["b"]] += 1
+    for key, s in systems().items():
+        assert s["doors"] == deg[key], f"{key}: {s['doors']} != {deg[key]}"
+    assert sum(deg.values()) == 54, sum(deg.values())
+    assert deg["lhs-1140"] == 0
