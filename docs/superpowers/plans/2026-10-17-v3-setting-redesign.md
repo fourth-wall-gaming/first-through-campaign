@@ -969,6 +969,24 @@ the rest of the tree gets fixed.
 
 Then work the list.
 
+**Four specific stale-canon fixes that no gate can catch**, carried here from
+earlier tasks because a note in a report is not a requirement:
+
+1. `guide/gm/01-what-is-really-going-on.md:43-50` — "He wants to keep
+   travelling… He intends to be the first mind through it." Contradicts Task
+   8: a running copy cannot travel, only a pattern can be laded. Rewrite.
+2. `setting/story.md:134` — the same claim, same fix.
+3. `lore/geography/the-causeway-map.md` — "twenty-six doors join twenty-seven
+   systems" is the stale v1 figure. The data says **twenty-seven doors joining
+   twenty-eight systems**, plus LHS 1140 drawn but not open. Fix the prose to
+   the data, not the other way round.
+4. `novels/first-through/source.md` is a built artefact still containing
+   deleted cold-arm text. Outside the content directories by design —
+   regenerate it rather than hand-editing, or leave it and say so.
+
+Each of these was found by a task that did not own the file. None is
+discoverable by a regex, so they are listed rather than gated.
+
 Fix each named file. Three rules while sweeping: keep the frontmatter `id` untouched; where a scene turns on a physical object that no longer exists, replace the object rather than deleting the scene — a report becomes a finding in the corpus, a pinned sheet becomes something a fetch holds, a signed form becomes an attestation; `earth.md` specifically needs its "quietly managed downward for nine hundred years" framing replaced per spec §1, because it is the single greyest page in the repository; and `lore/player-briefing/the-causeway-in-one-page.md` must state the tech level positively per spec §2 — a full high-tech civilisation inside every system, with no signal of any kind across a door — because that page is the first thing a new player reads and it currently implies the opposite.
 
 - [ ] **Step 4: Run the whole suite**
