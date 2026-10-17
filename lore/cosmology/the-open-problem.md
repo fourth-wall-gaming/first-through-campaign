@@ -25,8 +25,8 @@ Three things stand in the way.
 ## 1. The mathematics does not exist
 
 A mouth sits at a gravitational potential. See [[Straying]]. That potential is a
-sum over every mass in the system, each weighted by how far away it is, with the
-relativistic corrections added on top, and every term in it is moving.
+sum over every mass in the system, each weighted by how far away it is, plus a correction for the way
+gravity bends time, and every term in it is moving.
 
 Given a mouth, you can write the sum down. What nobody can do is **solve it
 forward**: say where the matching surface will be next year, or whether there
@@ -80,8 +80,9 @@ a number, and it is not a machine.
 A first-through who has the Listen can put her hand to a frame and feel the
 slope of the field around an unsettled mouth. See [[The Knacks]]. It is the only
 reading from the inside that anybody has ever got. Which means that the people
-the Causeway thinks of as couriers, the ones who carry the post, are the only ones in human space who can make the measurement the
-science is waiting for.
+the Causeway thinks of as couriers, the ones who carry its ladings, are the
+only ones in human space who can make the measurement the science is waiting
+for.
 
 ## The thesis
 
@@ -119,9 +120,9 @@ collaboration between minds that cannot meet.**
 
 ## Why this is not hopeless
 
-Because every piece of it is within reach.
+It is not, because every piece of it is within reach.
 
-The records exist, scattered across twenty-eight systems and one four-room
+The living archives exist, scattered across twenty-eight systems and one four-room
 station at [[van Maanen's Star]] that has kept the longest unbroken run in a
 single room. The mathematics is hard in the way a hard thing is hard before the
 first person sees how to set it up: there are people who think they can see how
