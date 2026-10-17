@@ -19,7 +19,7 @@ been told not to look at.
 ## The hall
 
 Nine housings in a ring in the floor, nine queues, hot metal, and a tallyman at
-the head of every line with a board. The decks are named for their doors and
+the head of every line with a reader. The decks are named for their doors and
 each one smells like the place it goes:
 
 - **The Procyon Stair** is a suburb. Five light years, the shortest hop on the

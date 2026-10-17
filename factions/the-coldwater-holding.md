@@ -10,7 +10,7 @@ under long covers in red light and sell it at the Nine.
 
 **Standing toward the player:** they are who the player is there for. Not a
 faction in the political sense -- a holding, with a council of five, a holding
-office, and a requisition board pinned up in public.
+office, and a requisition list kept in public.
 
 **What they want:** to stay. That is the entire agenda and it is enough. They
 are not naive about what a failing door means; they have simply decided that

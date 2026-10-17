@@ -5,7 +5,7 @@
 The job is simple to describe. You go first, and you come back and say what is
 there.
 
-Most days that means a parcel, a passenger, a tallyman's manifest and a
+Most days that means a lading, a passenger, a tallyman's say-so and a
 sandwich. Some days it means standing in front of a housing that has done
 something nobody has an explanation for, with four hundred people behind a
 cordon rope waiting to hear what you found.

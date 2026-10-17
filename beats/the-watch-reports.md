@@ -14,5 +14,5 @@ created_at: "2026-10-06T12:00:00"
 **ACT I TURN.** The Kapteyn's housing is warm.
 
 That is the whole message. It arrives by courier, in a sixlimb, eleven days old,
-and it is four words long because Sep Anwar could not make the hand stop shaking
-enough to write more.
+and it is four words long because Sep Anwar could not make their voice
+steady enough to say more.

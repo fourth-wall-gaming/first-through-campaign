@@ -78,7 +78,7 @@ player is looking; the player's choices decide which ones they are *present* for
 | d1 | **Sling in the dead watch**, **Have you stood this morning** | be sociable |
 | d1/dawn | **Seven goes sticky** | nothing. It happens in public and may be missed |
 | d2/dawn | **Sticky in the stairwell** | follow somebody who is complaining |
-| d2/dawn | **Pell Ivor's board** | ask a tallyman for *attempts*, not crossings |
+| d2/dawn | **Pell Ivor's count** | ask a tallyman for *attempts*, not crossings |
 | d2/day | **Somebody with the Listen** | send for a knack instead of testing it yourself |
 | d2/day | **Vantage reads the rim** | ask a fathom to read a door |
 | d2/day | **Calloway says the numbers out loud** | the fallback, on a timer, if they found nothing |

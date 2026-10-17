@@ -58,10 +58,9 @@ afterwards or not at all.
 
 ## The questions that never got sent
 
-Hesk will write three questions for Ladder. In the session this ran, they ended
-up in a ready-room drawer and were never sent, and the answers arrived another
-way.
+Hesk will frame three questions for Ladder. In the session this ran, he never
+asked a fetch to carry them, and the answers arrived another way.
 
-Both outcomes are fine. Do not retro-fit the sending. If the player finds the
-drawer later, that is a real and unflattering fact about how this station works,
+Both outcomes are fine. Do not retro-fit the carrying. If the player learns later
+that the questions were composed and never sent, that is a real and unflattering fact about how this station works,
 and it belongs to [[A proposal dies in committee]].

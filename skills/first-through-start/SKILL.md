@@ -109,7 +109,7 @@ The player learns the job by doing it while it works, and learns the setting by
 living in it for an hour, and meets five people.
 
 **Those five people are load-bearing.** Every relationship made on the quiet day
-is structural later: the kid who keeps the board, the deck engineer who controls
+is structural later: the kid who keeps the Standing, the deck engineer who controls
 which shutters open, the fathom nobody talks to, the nineteen-year-old who is
 better than you, the twenty-one-year-old who is nearly finished. Do not rush
 this to get to the plot. This *is* the plot, arriving early and in disguise.
@@ -125,8 +125,8 @@ version:
 
 - Stage the beats on the clock with `add-beat --when`, and `tick` the world
   whether or not the party is present.
-- Put every piece of evidence in **public** — a number on a board in the hall, an
-  unopened file in a records office, a frightened shift worker in a queue.
+- Put every piece of evidence in **public** — a number the hall will read to anyone who asks, an
+  unasked-for summary in the corpus, a frightened shift worker in a queue.
   Nothing hidden, nothing gated behind a roll.
 - Several ways in, keyed to what the character is actually good at. Reading,
   anchor hardware, people, bodies, moving, or simply **asking the Old Man**, who

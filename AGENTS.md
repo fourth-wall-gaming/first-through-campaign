@@ -29,7 +29,7 @@ neighbourhood.
 
 1. The engine's **`TABLE.md`** — how to run the table at all. Non-negotiable.
 2. **`TABLE-ADDENDUM.md`** — the three rules specific to this campaign:
-   incapacitation never death in both directions, Tolk as the onboarding
+   danger is real and always visible first, Tolk as the onboarding
    mechanism, and the player always choosing the special effect.
 3. **`lore/gm-guide/`** — playing Tolk, running each entry point, special
    effects.
@@ -61,7 +61,7 @@ in frontmatter.
 ## Scope
 
 **v1 is Acts 1-2.** Two one-sitting entry points, playable through to the van
-Maanen's Star reveal. The Quorum appears only as a name on two forms — no face,
+Maanen's Star reveal. The Quorum appears only as a countersigning name on two orders — no face,
 no copies, no explanation. Acts 3-5 are documented in `lore/gm-secret/` as
 outline, with no agendas, beats or facts behind them.
 

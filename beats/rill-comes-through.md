@@ -11,7 +11,7 @@ place: "myth-loc-7d031a557649"
 created_at: "2026-10-06T12:00:00"
 ---
 
-Twenty-one. There is a record on a stanchion with her name on it and nobody has
+Twenty-one. There is a scratch on a stanchion with her name on it and nobody has
 got near it in four years.
 
 Younger kids go quiet when she comes in, and she is kind to them, and tired.

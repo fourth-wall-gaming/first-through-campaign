@@ -25,18 +25,18 @@ It has never opened. Sixty-one people have lived their whole lives beside an
 empty one, and children dare each other to stand in it.
 
 **And what Ladder is FOR is watching the twins.** That is the whole posting:
-sixty-one people on a rock with a clear view of two flare stars, keeping a record,
-by hand, in a shed, for two hundred years. Nobody at the Nine has ever asked them
+sixty-one people on a rock with a clear view of two flare stars, growing a record,
+basin by basin, in a shed, for two hundred years. Nobody at the Nine has ever asked them
 for any of it. It is the only long-baseline observation of that binary anywhere
 in human space, and nobody outside this rock has ever read a line of it.
 
 There is **no hardened shelter**. A welded roof, and the lamp halls, and the rock
 underfoot. They have been lucky for two hundred years and they know exactly how
-lucky, because they are the people keeping the record.
+lucky, because they are the people watching the twins.
 
 In reach: the **apron**, wide and flat, with the empty ring in the middle of it. The **lamp
-halls**, warm and green and the only pleasant place on the rock. The **shift
-board** by the housing with sixty-one names on it, which somebody has been
-crossing off in a different hand. And a **painted line** on the shed floor where
+halls**, warm and green and the only pleasant place on the rock. The **muster wall**
+by the housing with sixty-one names on it, which somebody has been
+re-ordering all week. And a **painted line** on the shed floor where
 the queue starts, which was put there for cargo and is being used tonight for
 children.

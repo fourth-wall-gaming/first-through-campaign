@@ -73,7 +73,7 @@ repairs itself out of what it has, or it does without, and every system in human
 space is supplied from inside itself.
 
 Coldwater cannot be sent a coupling assembly. Not refused one -- *sent* one. The
-word on the requisition board is a courtesy.
+word on the requisition list is a courtesy.
 
 ## So the memory is a person
 

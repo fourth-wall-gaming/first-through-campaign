@@ -28,7 +28,7 @@ been arguing since before anyone's grandparents. Nothing is decided and
 everything works, which outsiders find intolerable and residents consider the
 point.
 
-**They want:** your manifest, your toll, and the news. The Nine runs on knowing
+**They want:** your lading, your say-so, and the news. The Nine runs on knowing
 things first.
 
 Every human culture that exists is in one room here at any given hour, and the
@@ -98,8 +98,8 @@ Four thousand people. One street with a roof over the middle. Grain under long
 low covers in permanent red afternoon, and meltwater running in a cut stone
 channel down one side of the road.
 
-**Run by:** five elected councillors and a board on the street wall where every
-order placed and not delivered is posted in public.
+**Run by:** five elected councillors and a list the holding's mind reads out each morning, where every
+order placed and not delivered is public.
 
 **They want:** their coupling assembly, which has been refused twice.
 

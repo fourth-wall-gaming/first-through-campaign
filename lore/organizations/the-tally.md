@@ -26,7 +26,7 @@ one. Nobody voted for any of them. None of them answers to anyone you could
 walk up to and shout at.
 
 It calls itself a service, and mostly it is one. The fees pay for the halls, the
-dressing rooms, the hall doctors and the rota that keeps a watch on a dark
+kit lockers, the hall doctors and the rota that keeps a watch on a dark
 housing at Kapteyn's three hundred and seventy-three years after anybody
 expected anything from it. The Standing is a public good and the Tally keeps it
 honestly.

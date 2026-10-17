@@ -7,7 +7,7 @@ summary: "The mind that runs the Nine. One name, forty thousand voices, no autho
 created_at: "2026-10-07T12:00:00"
 ---
 
-**Old Man Sirius** on a form. **The Old Man** everywhere else, the way a
+**Old Man Sirius** in the charter. **The Old Man** everywhere else, the way a
 place-name shortens.
 
 He runs the station: air, water, spin, trim, traffic, the exchangers that push a
@@ -24,7 +24,7 @@ The Sirius authority holds no grand position on minds. It holds two commitments,
 and both of them came out of the inquest into [[The Nine Hundred Years]]:
 
 - **Personhood is granted.** Not out of sentiment. Out of an inquest. A
-  civilisation that files the same report in a drawer for twenty-six years, twice,
+  civilisation that shelves the same finding for twenty-six years, twice,
   writes a rule about it afterwards.
 - **The mind that runs the station is trusted.** Also not sentiment. He has had
   nine centuries to be caught at something and has not been.
@@ -50,7 +50,7 @@ order. Ask him *should I go down there* and he answers at once, completely.
 The trouble is not that he is silent. **It is that nine centuries of a mind
 reporting everything has turned his reports into background** — constant, present,
 and nobody's news. People skim him.
-People file him. The figures are almost always already on somebody's desk, and
+People file him. The figures are almost always already in somebody's hearing, and
 the thing nobody has is the attention.
 
 Nine centuries of being scrupulous about a line that was drawn because of

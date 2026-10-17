@@ -89,8 +89,8 @@ honestly, and follow what the dice hand you.**
 
 Log the offscreen beats too, with `--visibility offscreen`. The player learns of
 them through consequences, never through a cutaway — but you need the record,
-because when they finally walk into the records office you want to be able to
-say exactly how long that report has been sitting there and who signed it.
+because when they finally walk into the reading room you want to be able to
+say exactly how long that finding has been sitting there and who attested it.
 
 See [[Entry Point: How Many]] for a worked example, and [[Playing the Old Man]]
 for the one NPC who will hand over every fact he has the moment somebody asks,

@@ -47,7 +47,7 @@ That is the whole of it, and it is a real constraint on you, not on them.
 
 [[The Tally]] arms its people with shock batons and restraint loops and no
 blades, and the reason stands exactly as written: a body is not a line on a
-manifest, and a death is paperwork nine light years long. **That is an
+manifest, and a death is an argument nine light years long. **That is an
 institutional preference, not a guarantee of your safety.** Tallymen try to take
 you alive. Frightened refinery hands with cutting bars do not try anything in
 particular, and a flare does not try at all.

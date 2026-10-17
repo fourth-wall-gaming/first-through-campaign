@@ -9,4 +9,4 @@ about: ["myth-char-8c4a37d0380b", "myth-char-60f20ffae668"]
 created_at: "2026-10-06T12:00:00"
 ---
 
-Sep has written this up four times. It has been received and filed four times.
+Sep has got this out of the corpus four times. It has been received and answered WITHIN TOLERANCE four times.

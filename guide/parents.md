@@ -27,7 +27,7 @@ are the only way between stars, and the only thing that crosses one is a
 person.
 
 And only the young can do it. By about twenty-two a body is finished. So the
-entire traffic of human space — every letter, every doctor wanted three doors
+entire traffic of human space — every message, every doctor wanted three doors
 away, every grandmother who wants to see her sister — rides on fifteen-year-olds.
 
 Your child plays one of them. They are paid, they are respected, they are

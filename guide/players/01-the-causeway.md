@@ -52,19 +52,18 @@ A door is not tied to a *spot on the ground*. It is tied to a **depth** — to
 the sum of all the gravity in the neighbourhood, and it sits wherever that
 particular value currently is. Think of a water level rather than an address.
 
-Mostly that value drifts a few metres in a century and nobody writes anything
-down. Occasionally the sum has more than one answer, and the far mouth jumps to
+Mostly that value drifts a few metres in a century and nobody thinks about it. Occasionally the sum has more than one answer, and the far mouth jumps to
 a different one. That is called **straying**, and there is a word for it
 because it has happened often enough to need one.
 
-Which is why the most important object in human space is a board somebody
-writes on by hand.
+Which is why the most important object in human space is an archive that is
+alive.
 
 ## The Standing
 
-Four metres of board on the gallery wall above the anchor hall at the Nine,
-with every door anybody knows about written up on it by hand, and where it
-currently goes, and who last stood it, and **which watch they stood it in**.
+Four metres of living archive set into the gallery wall above the anchor hall at
+the Nine, holding every door anybody knows about, and where it currently goes,
+and who last stood it, and **which watch they stood it in**.
 
 Four things on a line. People read the first two.
 
@@ -72,9 +71,9 @@ The fourth is the only one that matters, because a door tells you where it went
 *when somebody last looked*, and a door can stray in the time it takes you to
 walk down the stairs. A line is not true. A line is *when*.
 
-There is a line on that board reading *Kapteyn's — no answer this watch*. It
-was written in the spring of year six hundred and two by somebody who expected
-to rub it out before supper. Eleven thousand people live behind it. The star is
+There is a line in it reading *Kapteyn's — no answer this watch*. It
+was entered in the spring of year six hundred and two by somebody who expected
+to be overwriting it by the afternoon. Eleven thousand people live behind it. The star is
 still there. You can see it from the upper gallery.
 
 ## And nobody will ever build another one

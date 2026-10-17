@@ -11,9 +11,9 @@ targets: ["myth-char-de4ce1f46d85"]
 created_at: "2026-10-05T12:00:00"
 ---
 
-Four reports, four couriers, four silences. The fifth is written and Sep has
+Four findings, four couriers, four silences. The fifth is ready and Sep has
 not sent it, because [[Meriel Koll]] asked them not to in everything but words.
 
-Advances the moment anybody from the Threshold stands in the filing room and
+Advances the moment anybody from the Threshold stands in the reading room and
 asks a question. The player is the thing Sep has been waiting three years for,
 and Sep will not play it cool.

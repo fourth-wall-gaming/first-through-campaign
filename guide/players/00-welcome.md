@@ -8,7 +8,7 @@ human space for roughly seven years.
 That is not a figure of speech and it is not flattery. There are twenty-eight
 inhabited systems and the only thing that moves between them is a person
 walking through a door — and a body stops being able to do it somewhere around
-twenty-two. So every letter, every account, every doctor wanted three doors
+twenty-two. So every message, every doctor wanted three doors
 away, every grandmother who wants to see her sister one more time, rides on
 somebody your age.
 

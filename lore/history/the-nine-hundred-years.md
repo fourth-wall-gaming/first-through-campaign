@@ -71,7 +71,7 @@ service was chartered.
 
 ### Year ~400 — the Tally
 
-Somebody had to write down where the doors currently went, or everybody would be
+Somebody had to keep track of where the doors currently went, or everybody would be
 guessing. The clearing house that did it charged a little for the service, and
 then stood at every door in human space, and then was a government.
 

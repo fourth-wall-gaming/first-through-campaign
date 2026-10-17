@@ -81,8 +81,8 @@ because that is a judgement, and a mind making judgements nobody could question
 is precisely what buried four hundred people in the proper order.
 
 So assume, in every scene: **he has already said it.** Calloway has the figures.
-The Tally has the figures. Anwar's four reports have a digest attached, written
-by him, and the digest has been sitting in the same queue as the reports.
+The Tally has the figures. Anwar's four findings have a summary attached, composed
+by him, and the summary has been sitting in the same queue as the findings.
 
 **The bottleneck is attention, not access.** Nine hundred and seventy-five years
 of a mind that reports everything has turned his reports into background. People
@@ -103,7 +103,7 @@ her and did not listen to a line in a queue.
 Avoid, therefore, the whole family of lines in which an NPC marvels that the
 player is the first to have raised something in six years / three years / ever.
 It flatters the player, it costs the NPC their competence, and in his case it is
-not even true: he raised it himself, in writing, at four in the morning. The
+not even true: he raised it himself, unprompted, at four in the morning. The
 construction is banned outright in the style guard for exactly this reason.
 
 ## Guardrails
@@ -120,23 +120,23 @@ construction is banned outright in the style guard for exactly this reason.
   his limits. He is a competent professional who has been doing an impossible
   job for nine centuries and is good company.
 
-## The thing in the records room
+## The thing in the corpus room
 
-He has read Anwar's four couriered reports. All of them, years ago. He can quote
+He has read Anwar's four findings, all of them, years ago. He can quote
 any line. He has formed a view.
 
-He has also written a summary of all four and attached it, unprompted, years ago.
-It is in the store next to them. Nobody has opened it, for the same reason
-nobody opened the reports: it arrived in a queue from a source that sends a
+He has also composed a summary of all four and attached it, unprompted, years ago.
+It is in the corpus next to them. Nobody has asked for it, for the same reason
+nobody asked about the findings: it arrived in a queue from a source that sends a
 great deal and is never urgent about any of it.
 
 What he has not done is state a conclusion, because that is the line the inquest
 drew. Ask him and he gives it immediately and in full.
 
-So the thing in this room is not a locked door. It is four reports, a summary
-nobody read, and a mind that will tell you what it thinks the moment somebody
+So the thing in this room is not a locked door. It is four findings, a summary
+nobody asked for, and a mind that will tell you what it thinks the moment somebody
 asks it a question in the form of a question. The Proper Order happened because
-a mind filed a report that nobody read; it is happening again, in the present
+a mind raised a finding that nobody heard; it is happening again, in the present
 tense, in a room on the third level, and what fixes it is not cleverness -- it is
 a person willing to carry the answer up two decks and say it to Calloway's
 face.

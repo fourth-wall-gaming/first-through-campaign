@@ -38,7 +38,7 @@ nothing dead can go inside a mouth to measure it.
 
 What he has actually been doing is the thing the shipped Act 1 and Act 2
 evidence has always shown, if you read it straight: **he kills the research.**
-A countersignature on the two forms that closed the studies. The same
+A countersignature on the two orders that closed the studies. The same
 countersignature on the order that enforced a forty-year silence about why. Not
 one door has been closed by his hand, and every door he has wanted closed has
 been closed by somebody's decision not to look at it.
@@ -187,7 +187,7 @@ claim here is that no amount of violence is the thing that ends him.
 
 | Act | What the player gets |
 |---|---|
-| **1 -- v1** | **A name on a manifest. A countersignature on two forms. No face, no copies, no explanation.** |
+| **1 -- v1** | **A name on a manifest. A countersignature on two orders. No face, no copies, no explanation.** |
 | 2 -- v1 | The forty-year silence, and the same countersignature on the order that enforced it |
 | 3 | They meet him, or one of him: an ordinary, tired, courteous man in his sixties, who offers them a job. And the Late arrive |
 | 4 | How many of him there are, and that two of him are at war |

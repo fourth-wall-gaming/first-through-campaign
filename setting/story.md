@@ -80,15 +80,15 @@ thread:
   - title: "Sep sends the fifth report"
     when: "d2/day"
     status: pending
-    summary: "Three years of being received and filed, and this time it goes with a name attached"
+    summary: "Three years of being received and answered WITHIN TOLERANCE, and this time it goes with a name attached"
   - title: "Meriel lines up the dates"
     when: "d2/night"
     status: pending
-    summary: "Four reports, four slipped quarters, and a column that is not ambiguous"
+    summary: "Four findings, four slipped quarters, and a column that is not ambiguous"
   - title: "Ferren's name goes forward"
     when: "d3/day"
     status: pending
-    summary: "A recommendation for the LHS 1140 posting, filed a year early"
+    summary: "A recommendation for the LHS 1140 posting, attested a year early"
   - title: "Tolk asks the wrong question"
     when: "d3/day"
     status: pending

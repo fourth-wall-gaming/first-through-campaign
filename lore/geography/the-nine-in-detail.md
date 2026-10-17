@@ -5,7 +5,7 @@ category: "geography"
 visibility: "player"
 system: "sirius"
 sources: ["https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20CMa", "https://en.wikipedia.org/wiki/Sirius"]
-summary: "Two kilometres of turning cylinder at Sirius, 8.6 light years out: forty thousand people, nine doors, no ground, and a board on the wall that is the most important object in human space."
+summary: "Two kilometres of turning cylinder at Sirius, 8.6 light years out: forty thousand people, nine doors, no ground, and a living archive on the wall that is the most important object in human space."
 created_at: "2026-10-06T12:00:00"
 ---
 

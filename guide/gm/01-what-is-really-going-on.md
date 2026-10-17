@@ -65,15 +65,15 @@ potential reshapes with the orbits around it, and orbits are the most
 predictable things in the universe. Anywhere somebody has kept a long enough
 record, the pattern is sitting in it, unread.
 
-The reason nobody knows is not conspiracy. It is that nobody logs a sticky
+The reason nobody knows is not conspiracy. It is that nobody raises a sticky
 door, because an inconvenience that resolves itself is the definition of the
-thing nobody writes down — and the only people who keep records long enough to
-show the cycle are people nobody has ever asked for them.
+thing nobody mentions — and the only people who hold a record long enough to
+show the cycle are people nobody has ever asked.
 
 Which is also what the campaign is *about*, underneath: **information that
-exists, is available, and goes unread.** Pell Ivor's board. Sep Anwar's four
-reports. A child teaching herself to read flash off a stool. Two hundred years
-of handwriting in a shed at Ladder.
+exists, is available, and goes unread.** Pell Ivor's count. Sep Anwar's four
+findings. A child teaching herself to read flash off a stool. Two hundred years
+of testimony grown in a shed at Ladder.
 
 If a player ever picks one of those up and reads it, give them everything. That
 is the game working.
