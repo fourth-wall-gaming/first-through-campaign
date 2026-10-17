@@ -50,6 +50,27 @@ def test_cross_references_use_wiki_links_not_ids():
     assert linked > 10, f"only {linked} wiki links; the worldbook is not connected"
 
 
+# Every directory that carries prose a reader or a GM will follow a link in.
+# This used to be lore/ only, which hid dangling links everywhere else.
+PROSE_DIRS = ("lore", "beats", "guide", "facts", "agendas", "factions",
+              "characters", "locations")
+
+# Pre-existing dangling links found when the collection was widened (Task 6
+# fix round). Not fixed here: Task 11 inherits this list, and some may be
+# deliberate.
+DANGLING_ALLOWLIST = {
+    # Task 11 inherits all of these. Beat-title links point at beats, which
+    # are not in the name set; the rest are plain unresolved names.
+    ("beats/four-and-no-more.md", "How many of you are there?"),
+    ("beats/ladders-answer.md", "A proposal dies in committee"),
+    ("beats/pell-ivors-board.md", "Vantage reads the rim"),
+    ("beats/sticky-in-the-stairwell.md", "Pell Ivor's board"),
+    ("beats/the-wolf-gate-refuses.md", "Pell Ivor's board"),
+    ("factions/the-threshold.md", "The Founding of the\nThreshold"),
+    ("factions/the-threshold.md", "Director Hale"),
+}
+
+
 def test_every_wiki_link_resolves_to_something_real():
     """A [[Name]] link survives remapping because it is resolved by name -- which
     means a typo in one is a dead reference nothing else would catch."""
@@ -65,11 +86,12 @@ def test_every_wiki_link_resolves_to_something_real():
             elif p.suffix == ".md":
                 names.add(parse_frontmatter(p.read_text())[0][key])
     dangling = {}
-    for p in lore_files():
-        _, body = parse_frontmatter(p.read_text())
-        for link in re.findall(r"\[\[([^\]]+)\]\]", body):
-            if link not in names:
-                dangling.setdefault(link, []).append(p.name)
+    for d in PROSE_DIRS:
+        for p in sorted((ROOT / d).rglob("*.md")):
+            rel = str(p.relative_to(ROOT))
+            for link in re.findall(r"\[\[([^\]]+)\]\]", p.read_text()):
+                if link not in names and (rel, link) not in DANGLING_ALLOWLIST:
+                    dangling.setdefault(link, []).append(rel)
     assert not dangling, f"dangling wiki links: {dangling}"
 
 

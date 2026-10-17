@@ -47,4 +47,3 @@ because she is that kind of director.
 
 An adult carry costs the carrier real days off the end of a working life, and
 the player should be told the shape of that before the fourth one, not after.
-See [[The Cold Arm]].
