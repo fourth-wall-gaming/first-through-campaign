@@ -17,6 +17,10 @@ First-throughs between seventeen and twenty-two. Old enough to be good and young
 enough to still cross. The oldest are weeks or months from the hall doctor's
 no, and every one of them knows to the day how long they have.
 
+The pitch is the horror. *There is something afterwards* means after you stop
+being able to cross, which is exactly when a body can be overwritten. Nobody
+tells them that. See below.
+
 The Threshold offers a landlocked courier a pension, a post at a hall and a
 bunk in a place they will die in. The Quorum offers them the one thing nobody
 else can: **there is something afterwards.** Not a job, not a house. A place in
@@ -31,9 +35,10 @@ landlocked for ever. The Late are the **only agents he has who can move.** See
 ## How you know one: an absence
 
 Every first-through wears a **Threshold flash** at the left shoulder of the
-weave, and it does not stay still. It *grows into* the cloth, one mark added for
-every milestone, until a courier's name and record can be read there in one
-glance. See [[The Weave]].
+weave. It *grows into* the cloth the way skin takes a mark,
+and it is the same plain mark on a twelve-year-old at the Yards and a courier
+with two thousand crossings; the record lives in the cuff bands. It is the
+one thing about a courier that cannot be faked. See [[The Weave]].
 
 **The Late cut theirs out.** What is left is a scar in the cloth where the
 flash was, and the scar is the renunciation. It is the single thing that
@@ -82,7 +87,9 @@ A hall warden cannot. The only possible answer to the Late is the Threshold,
 which means it is the player.
 
 Play them at **full lethality**. They kill. The stunner is not a defence against
-a living blade, and a twelve-year-old who steps up to one will be badly hurt.
+a living blade, and a twelve-year-old who steps up to one will be badly hurt. Per `TABLE-ADDENDUM.md` §1, name the
+danger in the fiction (the blade, the corridor, the count) before the player
+commits; a Late is never a lethal surprise.
 
 ## Ines Caul
 

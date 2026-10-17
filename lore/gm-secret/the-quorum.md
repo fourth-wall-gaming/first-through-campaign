@@ -75,18 +75,34 @@ this. It is a person, in a chair, in a room, overwritten.
 
 **Children cannot be overwritten.** A child's body is still building itself, so
 it mends around the pattern and rejects it. It is the same reason children
-survive crossing and adults do not; see [[What a Crossing Does]]. Which gives
-you three things the table can use.
+survive crossing and adults do not; see [[What a Crossing Does]]. The rule is
+tied to crossing, not to an age: **a body that can still cross cannot be
+overwritten, and the day the hall turns you back is the day you become
+takeable.** Nobody can wait out the line, because the line is the door. Which
+gives you three things the table can use.
 
 - **The only people safe from him are the only people who can carry him.** A
-  first-through under twenty cannot be made into a lieutenant, and cannot be
-  made to say anything in his voice.
+  first-through who can still cross cannot be made into a lieutenant, and cannot
+  be made to say anything in his voice, whether she is twelve or twenty-two. The
+  moment she is landlocked she is the same as any adult, and not before.
 - **A child who works it out is hunted, never taken.** He can threaten her,
   frame her, strand her and have her killed. He cannot make her one of his.
 - **Every copy is landlocked for ever.** An adult cannot cross. The most
   powerful man in human space is stuck in one room like everybody over twenty-two,
   and he has been stuck there a long time. It is why he needs the Late. See
   [[The Late]].
+
+**How he spread, then.** A pattern can be **laded**; a running copy cannot
+travel. The description is written into a living carrier and a child walks it
+through, and at the far end it is written over somebody who was already there.
+That is how sixty years of expansion happened, and it is why an arriving copy
+can never go home: what crossed was a recording, and the person it was written
+over is a different man in a different room.
+
+**Why not ride a fetch?** A player will ask in session one, because fetches are
+written to and keep perfectly. A fetch can carry his pattern but can never be
+him. Fetches *keep* what is written; they do not *run* it. A pattern in a fetch
+is a recording, not a person, and a running mind cannot cross.
 
 ## The tells, and they are all physical
 

@@ -25,8 +25,8 @@ frightened, local boss at a frontier berth who is genuinely a criminal, genuinel
 good at it, and has no idea whose money she is spending. She is who the player
 finds first. She is the person who can be arrested.
 
-Behind her, taken people. The Second Hand keeps stock, and some of what it
-keeps goes into a room and does not come out as itself. It is illegal for good
+Behind her, taken people. The Second Hand also holds people, and some of
+them are taken into a room and do not come out as themselves. It is illegal for good
 reasons and the reasons are the scenario. What the player is looking for is
 a person who has been overwritten, and the physical tells that give it away.
 
