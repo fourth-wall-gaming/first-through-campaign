@@ -269,8 +269,8 @@ NON_LETHAL_WEAPON_WORDS = ("stunner", "shock baton", "restraint", "net", "gel")
 
 
 def test_the_tally_wants_prisoners_not_corpses():
-    """Spec section 12: the antagonist's own motive supplies the non-lethal rule.
-    If this entry ever loses that, the convention becomes a house rule again."""
+    """Spec section 12: the Tally wants a manifest, which is why its kit is stunners
+    and restraints. (There is no non-lethal rule; danger is real.)"""
     p = ROOT / "lore/organizations/the-tally.md"
     _, body = parse_frontmatter(p.read_text())
     assert "manifest" in body.lower()
@@ -816,7 +816,7 @@ def test_the_weave_crosses_and_freight_does_not():
 
 
 # ---- Task 3: there is no paper ------------------------------------------
-from content_rules import FIRST_PASS_DIRS, content_files  # noqa: E402
+from content_rules import all_content_files  # noqa: E402
 
 PAPER = re.compile(
     r"\b(ledger|ledgers|logbook|log ?book|tome|tomes|clerk|clerks|clerical"
@@ -830,14 +830,8 @@ PAPER_ALLOWED = {
     "lore/history",              # the Sorting and the First Reach are historical
 }
 
-# Per-file, each naming the task that owns the fix. Task 11 empties this list
-# and asserts it is empty. A NEW offender fails loudly; this only shrinks.
-PAPER_ALLOWLIST = {
-    "lore/geography/earth.md",                        # Task 11
-    "lore/entry-points/how-many.md",                  # Task 11
-    "lore/gm-guide/running-a-staged-crisis.md",       # Task 11
-    "lore/technology/stunners-and-restraints.md",     # Task 11
-}
+# Emptied in Task 11 and asserted empty below. Do not add to it.
+PAPER_ALLOWLIST = set()
 
 
 def _exempt(p):
@@ -847,7 +841,7 @@ def _exempt(p):
 
 def test_there_is_no_paper_left_in_the_causeway():
     bad = []
-    for p in content_files(FIRST_PASS_DIRS):
+    for p in all_content_files():
         if _exempt(p):
             continue
         for n, line in enumerate(p.read_text().splitlines(), 1):
@@ -859,15 +853,7 @@ def test_there_is_no_paper_left_in_the_causeway():
 # Character sheets are .json, which the *.md walk above never saw. Edits here
 # touch live passions in a running campaign and a TypeDB save, so they are
 # Task 11 and Task 12 together. This only shrinks.
-SHEET_PAPER_ALLOWLIST = {
-    "characters/creatures/tallyman.json",             # Task 11/12: passion "The ledger balances" (55)
-    "characters/npcs/tallyman-captain-brace.json",    # Task 11/12: passion "The ledger balances" (80), narrative
-    "characters/npcs/calloway.json",                  # Task 11/12: "haunted bureaucrat"
-    "characters/npcs/councillor-hale.json",           # Task 11/12: "Clerks at van Maanen's"
-    "characters/npcs/mina-haral.json",                # Task 11/12: filing clerks, "Lore (the Tally's paperwork)" skill
-    "characters/npcs/oyen.json",                      # Task 11/12: "records clerk" in description and role
-    "characters/npcs/sep-anwar.json",                 # Task 11/12: "records clerk"
-}
+SHEET_PAPER_ALLOWLIST = set()
 
 
 def test_there_is_no_paper_on_a_character_sheet():
@@ -896,16 +882,12 @@ STANDING_AS_BOARD = re.compile(
     r"\b(board|chalk|pen|stool|hand-kept|by hand|written up)\b", re.I)
 
 # Task 11 empties this list and asserts it is empty.
-STANDING_BOARD_ALLOWLIST = {
-    "lore/geography/the-nine-in-detail.md",       # Task 11, line ~35
-    "lore/gm-guide/playing-the-old-man.md",       # Task 11, lines ~24, 33-36
-    "lore/cosmology/straying.md",                 # Task 11, summary: "the Standing is pen"
-}
+STANDING_BOARD_ALLOWLIST = set()
 
 
 def test_the_standing_is_never_a_board():
     bad = []
-    for p in content_files(FIRST_PASS_DIRS):
+    for p in all_content_files():
         rel = str(p.relative_to(ROOT))
         if _exempt(p) or rel in STANDING_BOARD_ALLOWLIST:
             continue
@@ -932,18 +914,12 @@ FETCH_AS_LIVESTOCK = re.compile(
 
 
 # Files that still carry the old framing and belong to a later task.
-LIVESTOCK_ALLOWLIST = {
-    "lore/geography/bell.md",                     # Task 11: "where books come from"
-    "lore/gm-secret/what-tolk-is.md",             # Task 11: "before you breed it"
-    "lore/character-creation/skills.md",          # Task 11: Reading as the book trade
-    "lore/character-creation/careers.md",         # Task 11: "carrying books"
-    "lore/organizations/the-threshold.md",        # Task 11: "every book"
-}
+LIVESTOCK_ALLOWLIST = set()
 
 
 def test_fetches_are_never_described_as_livestock():
     bad = []
-    for p in content_files(FIRST_PASS_DIRS):
+    for p in all_content_files():
         if str(p.relative_to(ROOT)).startswith("docs"):
             continue
         if str(p.relative_to(ROOT)) in LIVESTOCK_ALLOWLIST:
@@ -970,7 +946,7 @@ def test_the_cold_arm_is_gone():
     field an unsettled mouth has, which is the thing the Listen reads."""
     assert not (ROOT / "lore/cosmology/the-cold-arm.md").exists()
     bad = []
-    for p in content_files(FIRST_PASS_DIRS):
+    for p in all_content_files():
         if str(p.relative_to(ROOT)).startswith("docs"):
             continue
         for n, line in enumerate(p.read_text().splitlines(), 1):
@@ -1077,5 +1053,54 @@ def test_nothing_in_the_repo_claims_a_non_lethal_rule():
             continue
         for n, line in enumerate(p.read_text().splitlines(), 1):
             if re.search(r"non-?lethal rule", line, re.I):
+                bad.append(f"{p.relative_to(ROOT)}:{n}: {line.strip()}")
+    assert not bad, "\n".join(bad)
+
+
+def test_the_allowlists_are_all_empty():
+    """An allow-list that outlives its task is how the previous rewrite
+    shipped half-finished. Fix the file; do not list it."""
+    from test_roundtrip import DANGLING_ALLOWLIST
+    for name, lst in (("PAPER_ALLOWLIST", PAPER_ALLOWLIST),
+                      ("SHEET_PAPER_ALLOWLIST", SHEET_PAPER_ALLOWLIST),
+                      ("LIVESTOCK_ALLOWLIST", LIVESTOCK_ALLOWLIST),
+                      ("STANDING_BOARD_ALLOWLIST", STANDING_BOARD_ALLOWLIST),
+                      ("DANGLING_ALLOWLIST", DANGLING_ALLOWLIST)):
+        assert not lst, (
+            f"{name}: every allow-listed file should have been fixed by now: "
+            f"{sorted(lst)}")
+
+
+V1_TONE = re.compile(
+    r"\b(counting house|politically powerless|underfunded charity"
+    r"|chalk|slate|brown paper|lamp log|rota sheet|requisition log"
+    r"|torn out|pinned to the wall)\b", re.I)
+
+
+def test_no_v1_tone_survives():
+    bad = []
+    for p in all_content_files():
+        for n, line in enumerate(p.read_text().splitlines(), 1):
+            if V1_TONE.search(line):
+                bad.append(f"{p.relative_to(ROOT)}:{n}: {line.strip()}")
+    assert not bad, "\n".join(bad)
+
+
+def test_the_tech_level_is_stated_somewhere_positively():
+    """Spec section 2. The thing that made this setting feel wrong was an
+    absence rather than a presence."""
+    text = (ROOT / "lore/player-briefing/the-causeway-in-one-page.md").read_text().lower()
+    assert "no signal" in text
+    for phrase in ("inside a system", "mind"):
+        assert phrase in text, phrase
+
+
+def test_no_system_is_described_as_nearly_empty():
+    bad = []
+    tiny = re.compile(r"\b(two staff|staffed by two|a staff of two"
+                      r"|nobody (?:lives|visits) (?:here|there))\b", re.I)
+    for p in all_content_files():
+        for n, line in enumerate(p.read_text().splitlines(), 1):
+            if tiny.search(line):
                 bad.append(f"{p.relative_to(ROOT)}:{n}: {line.strip()}")
     assert not bad, "\n".join(bad)
