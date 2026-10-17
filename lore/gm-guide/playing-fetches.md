@@ -3,7 +3,7 @@ id: "myth-lore-f8d1d0bd3403"
 title: "Playing Fetches"
 category: "gm-guide"
 visibility: "gm"
-summary: "How the five peoples work at a table as friends with their own councils and their own say over what they share without becoming tics, frustration mechanics, or caricatures -- and what mixed society looks like when pairs are the ordinary sight in every room."
+summary: "How the five peoples work at a table as friends with their own councils and their own say over what they share, without becoming tics, frustration mechanics, or caricatures -- and what mixed society looks like when pairs are the ordinary sight in every room."
 created_at: "2026-10-06T12:00:00"
 ---
 

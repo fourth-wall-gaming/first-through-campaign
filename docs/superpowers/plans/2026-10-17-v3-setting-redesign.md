@@ -944,7 +944,22 @@ Expected: FAIL, with a list of every remaining offender across the tree. That li
 
 - [ ] **Step 3: Widen every scoped gate, then work the list**
 
-First, change `content_files(FIRST_PASS_DIRS)` to `all_content_files()` in
+First, **empty both allow-lists and assert they are empty.** Task 3 added
+`PAPER_ALLOWLIST` (8 files) and the allow-list on
+`test_the_standing_is_never_a_board` (3 files), each entry commented with the
+task that owns it. Delete every entry owned by a completed task, fix the files
+those entries were protecting, and add to each gate:
+
+```python
+    assert not PAPER_ALLOWLIST, (
+        "every allow-listed file should have been fixed by now: "
+        f"{sorted(PAPER_ALLOWLIST)}")
+```
+
+An allow-list that outlives its task is how the previous rewrite shipped
+half-finished.
+
+Then change `content_files(FIRST_PASS_DIRS)` to `all_content_files()` in
 `test_there_is_no_paper_left_in_the_causeway`,
 `test_fetches_are_never_described_as_livestock` and
 `test_the_cold_arm_is_gone`, and re-run. Those three gates were scoped to
