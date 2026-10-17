@@ -54,6 +54,21 @@ Add to `tests/content_rules.py`:
 CONTENT_DIRS = ("lore", "guide", "beats", "agendas", "facts", "factions",
                 "characters", "locations", "setting")
 
+# Banned-vocabulary gates start scoped to the directories their own task
+# rewrites, and Task 11 widens them to CONTENT_DIRS. A gate that fails on
+# files its task does not own blocks that task on another task's work.
+FIRST_PASS_DIRS = ("lore", "factions")
+
+
+def content_files(dirs=CONTENT_DIRS):
+    """Prose files under the named directories."""
+    out = []
+    for d in dirs:
+        root = ROOT / d
+        if root.is_dir():
+            out.extend(sorted(root.rglob("*.md")))
+    return out
+
 
 def all_content_files():
     """Every prose file a rewrite could touch."""
@@ -86,9 +101,17 @@ from content_rules import all_content_files, lore_ids, systems
 # rewrite may change every word of a file and may not change its id.
 FROZEN_LORE_IDS = None  # replaced in Step 2 with the real set
 
+# Ids deliberately removed by a later task, each with the task that did it.
+REMOVED_LORE_IDS = set()  # Task 6 adds the-cold-arm.md's id here
+
 
 def test_no_lore_id_is_lost_or_changed():
-    assert lore_ids() == set(FROZEN_LORE_IDS)
+    """Subset semantics, not equality: later tasks legitimately create new
+    lore files. What must never happen is a frozen id going missing or being
+    edited, because the ids are the join keys to a live save."""
+    expected = set(FROZEN_LORE_IDS) - REMOVED_LORE_IDS
+    missing = expected - lore_ids()
+    assert not missing, f"lore ids lost or changed: {sorted(missing)}"
 
 
 def test_every_system_has_a_population_and_a_door_count():
@@ -293,7 +316,7 @@ def _exempt(p):
 
 def test_there_is_no_paper_left_in_the_causeway():
     bad = []
-    for p in all_content_files():
+    for p in content_files(FIRST_PASS_DIRS):
         if _exempt(p):
             continue
         for n, line in enumerate(p.read_text().splitlines(), 1):
@@ -370,7 +393,7 @@ FETCH_AS_LIVESTOCK = re.compile(
 
 def test_fetches_are_never_described_as_livestock():
     bad = []
-    for p in all_content_files():
+    for p in content_files(FIRST_PASS_DIRS):
         if str(p.relative_to(ROOT)).startswith("docs"):
             continue
         text = p.read_text()
@@ -509,7 +532,7 @@ def test_the_cold_arm_is_gone():
     field an unsettled mouth has, which is the thing the Listen reads."""
     assert not (ROOT / "lore/cosmology/the-cold-arm.md").exists()
     bad = []
-    for p in all_content_files():
+    for p in content_files(FIRST_PASS_DIRS):
         if str(p.relative_to(ROOT)).startswith("docs"):
             continue
         for n, line in enumerate(p.read_text().splitlines(), 1):
@@ -906,7 +929,17 @@ def test_no_system_is_described_as_nearly_empty():
 Run: `uv run pytest tests/test_content_rules.py -v`
 Expected: FAIL, with a list of every remaining offender across the tree. That list is the task.
 
-- [ ] **Step 3: Work the list**
+- [ ] **Step 3: Widen every scoped gate, then work the list**
+
+First, change `content_files(FIRST_PASS_DIRS)` to `all_content_files()` in
+`test_there_is_no_paper_left_in_the_causeway`,
+`test_fetches_are_never_described_as_livestock` and
+`test_the_cold_arm_is_gone`, and re-run. Those three gates were scoped to
+`lore/` and `factions/` by the pre-flight ruling so that earlier tasks were
+not blocked by files they did not own; this is where they go tree-wide and
+the rest of the tree gets fixed.
+
+Then work the list.
 
 Fix each named file. Three rules while sweeping: keep the frontmatter `id` untouched; where a scene turns on a physical object that no longer exists, replace the object rather than deleting the scene — a report becomes a finding in the corpus, a pinned sheet becomes something a fetch holds, a signed form becomes an attestation; `earth.md` specifically needs its "quietly managed downward for nine hundred years" framing replaced per spec §1, because it is the single greyest page in the repository; and `lore/player-briefing/the-causeway-in-one-page.md` must state the tech level positively per spec §2 — a full high-tech civilisation inside every system, with no signal of any kind across a door — because that page is the first thing a new player reads and it currently implies the opposite.
 
