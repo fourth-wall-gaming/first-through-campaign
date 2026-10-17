@@ -21,8 +21,8 @@ people expect.
 ## You cross in your weave
 
 What goes through with you is your **weave**: the close-fitting garment that was
-grown rather than woven, and that is alive. It is the one thing you were ever
-issued that was grown to you and stays yours. You step onto the plate in it and you step
+grown rather than woven, and that is alive. It is the one part of your kit no
+station ever issued you: it is grown on you, and it stays yours. You step onto the plate in it and you step
 off the plate in it, and nothing about the crossing asks for anything else except your
 **boots**, which are grown too. Each station grows you a pair in its own cut, you
 keep them, and they cross on your feet, which is why a first-through can read a
@@ -149,7 +149,7 @@ Which is the shape of the Causeway, stated plainly.
 
 Every system has the same science, the same medicine, the same designs, the same
 histories, mostly the same songs — because all of that fits in an animal and the
-animal can walk. A child in the cloud decks of the sunless cloud decks of Luhman 16 and a
+animal can walk. A child in the sunless cloud decks of Luhman 16 and a
 child in the Coldwater grain are taught from the same text, and are.
 
 And they live in entirely different worlds, because **knowing how to make a
