@@ -3,7 +3,7 @@ id: "myth-lore-a47dd64a96ab"
 title: "What Crosses Easily"
 category: "the-crossing"
 visibility: "player"
-summary: "Nothing manufactured crosses a door; living things do. You cross in your weave, and the pressure-skin, suit and hood are grown from the same stock and issued and returned by the Threshold. Freight does not cross, so there is no trade and every system feeds itself, and everything humanity knows is written into the cells of small animals and carried by children. A book is alive."
+summary: "Nothing manufactured crosses a door; living things do. You cross in your weave, and the boots are grown too, issued per station and kept, and the pressure-skin, suit and hood are grown from the same stock and issued and returned by the Threshold. No army can be shipped either. Freight does not cross, so there is no trade and every system feeds itself, and everything humanity knows is written into the cells of small animals and carried by children. A book is alive."
 created_at: "2026-10-05T12:00:00"
 ---
 
@@ -21,8 +21,8 @@ people expect.
 ## You cross in your weave
 
 What goes through with you is your **weave**: the close-fitting garment that was
-grown rather than woven, and that is alive. It is the one possession that has
-ever followed anybody between stars. You step onto the plate in it and you step
+grown rather than woven, and that is alive. It is the one thing you were ever
+issued that was grown to you and stays yours. You step onto the plate in it and you step
 off the plate in it, and nothing about the crossing asks for anything else except your
 **boots**, which are grown too. Each station grows you a pair in its own cut, you
 keep them, and they cross on your feet, which is why a first-through can read a
@@ -49,8 +49,9 @@ They are also **Threshold property**. They are issued, and they are returned. Wh
 a courier says *the Nine's suit, stays at the Nine*, that does not mean the suit
 cannot leave the Nine. It has left it more often than most people have. It means
 it was never yours, and that at the end of the run somebody signs for it and it
-goes back in its tray with an inch of feed. The weave is yours. Everything else
-is on loan, and the loan is heavy, and the tallymen count it.
+goes back in its tray with an inch of feed. The weave is yours. Your boots are issued
+per station and kept. The skin, the suit and the hood are on loan, and the loan
+is heavy, and the tallymen count it.
 
 Nobody has ever carried a keepsake between stars that was not alive. In nine
 centuries the courier songs have been mostly about that.
@@ -62,11 +63,11 @@ anything by the tonne or by the crate. A door passes a living thing in its
 grown kit, and every other kind of object is just a thing standing at the edge
 of a plate.
 
-Which means there is no trade, and no army. You cannot move a force between
+Which means there is no army. You cannot move a force between
 stars, so nobody has ever invaded anybody: a hall is only ever taken from the
 inside, by people already standing in it.
 
-Which also means there is no trade. Not expensive trade. **None.** No convoy has ever
+Nor is there any trade. Not expensive trade. **None.** No convoy has ever
 run between stars and none ever will. A world eats, breathes, wears, heats and
 repairs itself out of what it has, or it does without, and every system in human
 space is supplied from inside itself.
