@@ -778,3 +778,27 @@ def test_doors_are_derived_from_the_edge_data():
         assert s["doors"] == deg[key], f"{key}: {s['doors']} != {deg[key]}"
     assert sum(deg.values()) == 54, sum(deg.values())
     assert deg["lhs-1140"] == 0
+
+
+NAKEDNESS = re.compile(
+    r"\b(naked|nakedness|undress(?:es|ed|ing)?|disrobe\w*|dressing[- ]room)\b",
+    re.I)
+
+
+def test_nobody_ever_arrives_naked():
+    """Audience constraint, not flavour: this is a game a 10-15 year old plays
+    alone with an AI GM, and a mandatory undress-cross-dress beat on every
+    transit is not acceptable regardless of how elegant the physics is."""
+    bad = []
+    for p in all_content_files():
+        for n, line in enumerate(p.read_text().splitlines(), 1):
+            if NAKEDNESS.search(line):
+                bad.append(f"{p.relative_to(ROOT)}:{n}: {line.strip()}")
+    assert not bad, "\n".join(bad)
+
+
+def test_the_weave_crosses_and_freight_does_not():
+    text = (ROOT / "lore/the-crossing/what-crosses-easily.md").read_text().lower()
+    assert "weave" in text
+    assert "freight does not cross" in text
+    assert "grown" in text

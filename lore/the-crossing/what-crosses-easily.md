@@ -3,46 +3,68 @@ id: "myth-lore-a47dd64a96ab"
 title: "What Crosses Easily"
 category: "the-crossing"
 visibility: "player"
-summary: "Only living things cross. So there is no freight at all, you arrive in a grown garment and nothing else, and everything humanity knows is written into the cells of small animals and carried by children. A book is alive."
+summary: "Nothing manufactured crosses a door; living things do. You cross in your weave, and the pressure-skin, suit and hood are grown from the same stock and issued and returned by the Threshold. Freight does not cross, so there is no trade and every system feeds itself, and everything humanity knows is written into the cells of small animals and carried by children. A book is alive."
 created_at: "2026-10-05T12:00:00"
 ---
 
 A door does not move objects. It takes a living thing apart and lays it down
 again, and that is the only trick it has ever had.
 
-**Nothing dead crosses.** Not a crate, not a tool, not a coupling assembly, not a
-coin, not the clothes you walked in wearing. People established this in the first
-month of the first door and have been re-establishing it ever since, because
-every generation produces somebody convinced they have found the exception.
+**Nothing manufactured crosses.** Not a crate, not a tool, not a coupling
+assembly, not a coin, not a signal. People established this in the first month of
+the first door and have been re-establishing it ever since, because every
+generation produces somebody convinced they have found the exception.
 
-## You arrive in your weave and nothing else
+The exception is a living thing, and living things come in more kinds than
+people expect.
 
-Every anchor hall has a dressing room on both sides, and what happens in it has
-not changed in nine hundred years.
+## You cross in your weave
 
-You take everything off. Suit, boots, tools, the lot -- none of it is alive and
-none of it is going anywhere.
+What goes through with you is your **weave**: the close-fitting garment that was
+grown rather than woven, and that is alive. It is the one possession that has
+ever followed anybody between stars. You step onto the plate in it and you step
+off the plate in it, and nothing about the crossing asks for anything else.
 
-What you keep on is your **weave**: a garment that was grown rather than
-woven, which is the one exception to the whole rule. It is alive, so it crosses.
-You put it on and take it off like anything else. See [[The Weave]].
+That is also why a Threshold flash *grows into* the cloth instead of being sewn
+onto it. The weave takes a mark the way skin does. A thing that was never alive
+could not carry one through. See [[The Weave]].
 
-Everything else is issued on the far side -- always local, always slightly
-wrong, and always saying exactly where you have been. A first-through can read a
-stranger's last three postings off the cut of their boots.
+It has been this way since the first pair. A courier does not arrive on the far
+side of a door with nothing, because the far side of a door is sometimes vacuum,
+and sometimes cold enough to stop a heart in a minute and a half, and nobody
+has ever surveyed it first. That is the job.
 
-Nothing you own goes with you but the weave. Your suit is the Nine's suit and
-stays at the Nine; the tools are Barnard's tools and stay at Barnard's. In nine
-centuries nobody has carried a keepsake between stars, and the courier songs are
-mostly about this.
+## The kit is grown too
 
-## Which means there is no trade
+The **pressure-skin**, the plated **suit** and the **sensor hood** are grown from
+the same stock as the weave. They are alive, so they cross. They go through the
+door on you, and they come back through it on you, and they are the reason a
+first-through steps into an unlit station and does not simply die in the first
+ten metres. See [[A First-Through's Kit]].
 
-Not expensive trade. **None.** A world eats, breathes, wears, heats and repairs
-itself out of what it has, or it does without, and there is no version where
-help arrives in a crate.
+They are also **Threshold property**. They are issued, and they are returned. When
+a courier says *the Nine's suit, stays at the Nine*, that does not mean the suit
+cannot leave the Nine. It has left it more often than most people have. It means
+it was never yours, and that at the end of the run somebody signs for it and it
+goes back in its tray with an inch of feed. The weave is yours. Everything else
+is on loan, and the loan is heavy, and the tallymen count it.
 
-Coldwater cannot be sent a coupling assembly. Not refused one — *sent* one. The
+Nobody has ever carried a keepsake between stars that was not alive. In nine
+centuries the courier songs have been mostly about that.
+
+## Freight does not cross
+
+Not a coupling assembly in a hold. Not bar stock. Not grain, not ore, not
+anything by the tonne or by the crate. A door passes a living thing in its
+grown kit, and every other kind of object is just a thing standing at the edge
+of a plate.
+
+Which means there is no trade. Not expensive trade. **None.** No convoy has ever
+run between stars and none ever will. A world eats, breathes, wears, heats and
+repairs itself out of what it has, or it does without, and every system in human
+space is supplied from inside itself.
+
+Coldwater cannot be sent a coupling assembly. Not refused one -- *sent* one. The
 word on the requisition board is a courtesy.
 
 ## So a book is alive
@@ -187,5 +209,5 @@ The entire nervous system of the species is children, walking, one at a time,
 carrying animals full of everything we know.
 
 Adults have been trying to think of a way round it for nine hundred years. There
-is not one. There is only the next kid through the door, with nothing on, holding
-a book.
+is not one. There is only the next kid through the door, in a weave and a borrowed suit,
+holding a book.

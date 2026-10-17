@@ -3,13 +3,19 @@ id: "myth-lore-c6d0912602a4"
 title: "A First-Through's Kit"
 category: "technology"
 visibility: "player"
-summary: "What you wear and what runs it: the pressure-skin, the suit, the sensor hood, and the charge that powers all three -- which is also your own breath and conditioning."
+summary: "What you wear and what runs it: the pressure-skin, the suit, the sensor hood -- all grown, not built, Threshold property issued and returned -- and the charge that powers all three, which is also your own breath and conditioning."
 created_at: "2026-10-05T12:00:00"
 ---
 
 Everything a first-through can do past a door, they can do because of two
 things: what they trained their body to do, and what they are wearing. There is
 no third thing.
+
+All of it is **grown**. The skin, the suit and the hood come out of the same vats
+as your [[The Weave]], from the same stock, and for the same reason: nothing
+manufactured crosses a door and a living thing does. It goes through on you, and
+it comes back on you. It is Threshold property, issued when you are rostered and
+returned when you are done, and the tray it sleeps in smells of warm bread.
 
 **The pressure-skin.** A sealed under-layer that holds you at survivable
 pressure and keeps you at survivable temperature. Two environments, usually —
@@ -35,7 +41,7 @@ budgets, both refill only when you stop, and a first-through who has learned to
 feel one has learned to feel the other. People talk about *being low* without
 specifying which they mean, because by then it is the same thing.
 
-**It can be taken off you.** All of it. The suit comes off in under a minute
+**It can be taken off you.** All of it, but the weave. The suit comes off in under a minute
 with the right tool, and a tallyman has the right tool. Everything you are good
 at that lives in the kit stops being true the moment the kit is in a locker, and
 that is why half your training was done without it.

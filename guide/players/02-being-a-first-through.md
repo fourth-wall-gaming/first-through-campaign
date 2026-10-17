@@ -20,11 +20,11 @@ flash, no lurch, no tunnel, no noise. The only reason you know you crossed is
 that the smell is different and the boots you are wearing belong to a different
 station.
 
-Nothing dead crosses with you — not clothes, not boots, not a bag — so you
-undress at one end and dress at the other, and every hall in human space has a
-rail of boots in it that nobody owns. The exception is your **weave**: a
-garment grown rather than made, close-fitting, long-sleeved, about the weight
-of a good shirt. It is alive, so it crosses.
+Nothing manufactured crosses with you — not a bag, not a tool, not a crate —
+so you cross in your **weave**: a garment grown rather than made,
+close-fitting, long-sleeved, about the weight of a good shirt. It is alive, so
+it crosses, and the Threshold's grown suit and hood go through on you the same
+way.
 
 One part of it is uniform and the rest is you. At the left shoulder is the
 Threshold flash, grown into the cloth, which cannot be faked because it cannot
