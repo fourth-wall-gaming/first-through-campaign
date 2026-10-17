@@ -833,8 +833,6 @@ PAPER_ALLOWED = {
 # Per-file, each naming the task that owns the fix. Task 11 empties this list
 # and asserts it is empty. A NEW offender fails loudly; this only shrinks.
 PAPER_ALLOWLIST = {
-    "lore/gm-secret/the-quorum.md",                   # Task 8
-    "lore/organizations/the-second-hand.md",          # Task 8
     "lore/geography/earth.md",                        # Task 11
     "lore/entry-points/how-many.md",                  # Task 11
     "lore/gm-guide/running-a-staged-crisis.md",       # Task 11
@@ -994,3 +992,19 @@ def test_nobody_can_grash_a_door_on_purpose():
     for phrase in ("the mathematics", "mass", "instrument"):
         assert phrase in text, phrase
     assert "child" in text
+
+
+def test_the_quorum_suppresses_rather_than_grashes():
+    text = (ROOT / "lore/gm-secret/the-quorum.md").read_text().lower()
+    assert "suppress" in text
+    assert "overwrit" in text
+    assert "children cannot be overwritten" in text
+    # the file used to cite a rule that does not exist in TABLE-ADDENDUM
+    assert "non-lethal rule" not in text
+
+
+def test_the_late_exist_and_nobody_in_them_knows():
+    text = (ROOT / "lore/gm-secret/the-late.md").read_text().lower()
+    assert "the late" in text
+    assert "flash" in text        # identified by the cut-out flash
+    assert "none of them know" in text
