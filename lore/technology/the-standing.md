@@ -73,7 +73,7 @@ not checking when it was entered.
 
 ## It can be budded, and that is the trouble
 
-A board stays where it hangs. A Standing does not have to.
+A plaque stays where it hangs. A Standing does not have to.
 
 You can take a **bud** of it: a fist of the living archive, fed and kept warm, that
 carries every line it held on the day it was cut. A first-through takes it

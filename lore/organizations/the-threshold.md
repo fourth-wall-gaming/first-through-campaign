@@ -36,8 +36,9 @@ information was the job.
 gallery.
 
 **Why it is small.** Not for want of money. The Threshold is as large as the doors
-let it be. Every crossing is one child, and a system's traffic with the rest of the species is capped by how many
-crossings its first-throughs can afford to spend. There are only so many
+let it be. Every crossing is one child, and a system's
+traffic with the rest of the species is capped by how many crossings its
+first-throughs can afford to spend. There are only so many
 children, and only so many years to be spent. The service has never turned away
 a recruit who could do it.
 

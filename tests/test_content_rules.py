@@ -819,10 +819,23 @@ PAPER_ALLOWED = {
     "lore/history",              # the Sorting and the First Reach are historical
 }
 
+# Per-file, each naming the task that owns the fix. Task 11 empties this list
+# and asserts it is empty. A NEW offender fails loudly; this only shrinks.
+PAPER_ALLOWLIST = {
+    "lore/character-creation/your-fetch.md",          # Task 4
+    "lore/organizations/the-tally.md",                # Task 5
+    "lore/gm-secret/the-quorum.md",                   # Task 8
+    "lore/organizations/the-second-hand.md",          # Task 8
+    "lore/geography/earth.md",                        # Task 11
+    "lore/entry-points/how-many.md",                  # Task 11
+    "lore/gm-guide/running-a-staged-crisis.md",       # Task 11
+    "lore/technology/stunners-and-restraints.md",     # Task 11
+}
+
 
 def _exempt(p):
     rel = str(p.relative_to(ROOT))
-    return any(rel.startswith(a) for a in PAPER_ALLOWED)
+    return any(rel.startswith(a) for a in PAPER_ALLOWED) or rel in PAPER_ALLOWLIST
 
 
 def test_there_is_no_paper_left_in_the_causeway():
@@ -840,3 +853,32 @@ def test_the_new_vocabulary_is_defined_somewhere():
     text = (ROOT / "lore/technology/lading-and-attestation.md").read_text().lower()
     for word in ("lading", "attestation", "budding", "drift", "reconciliation"):
         assert word in text, word
+
+
+# The Standing is a living archive, not a board on a wall. Paragraph-level so
+# that "the Standing ... with a pen" two lines apart is still caught.
+STANDING_AS_BOARD = re.compile(
+    r"\b(board|chalk|pen|stool|hand-kept|by hand|written up)\b", re.I)
+
+# Task 11 empties this list and asserts it is empty.
+STANDING_BOARD_ALLOWLIST = {
+    "lore/geography/the-nine-in-detail.md",       # Task 11, line ~35
+    "lore/gm-guide/playing-the-old-man.md",       # Task 11, lines ~24, 33-36
+    "lore/cosmology/straying.md",                 # Task 11, summary: "the Standing is pen"
+}
+
+
+def test_the_standing_is_never_a_board():
+    bad = []
+    for p in content_files(FIRST_PASS_DIRS):
+        rel = str(p.relative_to(ROOT))
+        if _exempt(p) or rel in STANDING_BOARD_ALLOWLIST:
+            continue
+        n = 0
+        for para in re.split(r"\n\s*\n", p.read_text()):
+            first = n + 1
+            n += para.count("\n") + 2
+            if "standing" in para.lower() and "the standing" in para.lower() \
+                    and STANDING_AS_BOARD.search(para):
+                bad.append(f"{rel}:{first}: {para.strip()[:90]!r}")
+    assert not bad, "\n".join(bad)
