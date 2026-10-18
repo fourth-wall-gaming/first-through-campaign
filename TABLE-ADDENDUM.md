@@ -2,7 +2,7 @@
 
 The engine's `TABLE.md` governs everything about how this table runs: voice, the
 shape of a turn, the wall between mechanics and fiction, dice conduct, NPC
-portrayal, offscreen action. **Read it first.** This file adds four things that
+portrayal, offscreen action. **Read it first.** This file adds five things that
 are specific to this campaign, and all four are load-bearing.
 
 ---
@@ -115,3 +115,50 @@ already played. The played scene still runs verbatim.
   among.
 - **Nothing manufactured crosses a door, not a crate.** Nobody in any earlier
   session was told "only bodies and boxes", and nobody should be told it now.
+
+---
+
+## 5. Information is not movement
+
+The engine counts `scenes_since_a_roll` and warns at three. It is a useful
+tripwire and it is **blind to the way this campaign actually goes slack.**
+
+Session 6 rolled nine times in one watch and still sat still, because every
+roll but one produced *knowledge* and none of them produced *position*. A
+fifteen-year-old sat on a deck and had insights. `TABLE.md` names the trap
+exactly — a roll in an office counts for the counter and does not count for
+this — and the counter cannot see it, because the counter only knows that
+dice were thrown.
+
+**The Listen makes this worse than any other ability in the game**, by
+design. It is a sensing knack. Sensing resolves toward knowing, and the
+character finishes the roll standing exactly where she started. Six of those
+in a row is a briefing with dice in it.
+
+### The rule
+
+> **A roll whose output is information must be followed, within about a
+> minute of fiction, by somebody's body being somewhere else.**
+
+Read the door → *now get nine people off a plate.* Not: read the door,
+discuss the reading, consult an adult, read it again.
+
+If you cannot see what the reading makes somebody **do**, do not call for it.
+Put the knowledge in the room by other means, or skip to the thing it was
+going to cause.
+
+### How to check yourself
+
+Count the last three rolls. If all three produced facts and none of them
+produced a change in where a person is standing, the scene has stopped,
+whatever the counter says. Cut to the consequence.
+
+Session 6 passed this test once: the shout, the queue coming apart, Dree
+stepping up. That is the only stretch of the session where anybody moved,
+and it is the only stretch that worked.
+
+### And it is not only the Listen
+
+Any roll that returns a fact — Perception, Insight, Lore, a brief, a search
+of a corpus — is a candidate for this failure. The fix is the same every
+time. The fact is the *start* of the beat, never the end of it.
