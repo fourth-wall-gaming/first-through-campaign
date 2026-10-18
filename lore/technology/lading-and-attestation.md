@@ -30,18 +30,29 @@ entry.
 
 ## Attestation
 
-**Attestation** is what replaces a signature.
+**Attestation** is what replaces a signature, and the thing to understand first
+is that **nobody performs it.**
 
-You say it. A mind in the hull witnesses it. After that it is **permanent and
-public within that hull**: anyone aboard can ask the air what was attested, by
-whom, and in what words, and be told, always, in your own voice.
+There is no act. You do not attest a thing; you say it somewhere a mind can
+hear, and it is said. After that it is permanent and public within that hull:
+anyone aboard can ask the air what was said, by whom, and in what words, and be
+told, always, in your own voice.
 
-Nothing is ever recorded unofficially. There is no unofficial. A thing said
-aboard a station is either said where a mind can hear it or said in a sealed
-cabin with the door shut, and the second kind is conspicuous in a way that
-people who grew up elsewhere never quite believe. Which makes an off-book order
-harder, not easier. If somebody wants a thing done and does not want it
-attested, they have to go and stand somewhere with no mind in it. Everyone
+You cannot request an attestation, grant one, withhold one, witness one or
+formalise one. There is no form of words and no moment. A tallyman who asks you
+to attest something has made a category error and will be corrected, usually by
+a twelve-year-old. What he can ask you to do is **say it** — and saying it is
+the whole of it.
+
+Which means the only choice anybody on a station actually has is **where they
+are standing when they open their mouth.**
+
+Nothing is ever recorded unofficially, because there is no unofficial. A thing
+said aboard a station is either said where a mind can hear it or said in a
+sealed cabin with the door shut, and the second kind is conspicuous in a way
+that people who grew up elsewhere never quite believe. Which makes an off-book
+order harder, not easier. If somebody wants a thing done and does not want it
+in the air, they have to go and stand somewhere with no mind in it. Everyone
 notices who walks to the dead corner of the gallery. Everyone remembers.
 
 An attestation does not cross. It is public within a hull, and a hull is as far
