@@ -1104,3 +1104,26 @@ def test_no_system_is_described_as_nearly_empty():
             if tiny.search(line):
                 bad.append(f"{p.relative_to(ROOT)}:{n}: {line.strip()}")
     assert not bad, "\n".join(bad)
+
+def test_the_journal_ships_empty_of_play():
+    """This repo is a published plugin. Anything in journal/ becomes every
+    installer's starting history, so the only thing allowed in it is the seed
+    note that tells a GM nothing has begun. One played event here would hand
+    four hundred strangers somebody else's campaign as their own past."""
+    import json as _json
+    events = _json.loads((ROOT / "journal" / "events.json").read_text())
+    assert isinstance(events, list)
+    assert len(events) == 1, f"journal holds {len(events)} events; it ships with one"
+    seed = events[0]
+    assert seed["type"] == "gm-note", seed["type"]
+    assert "has not begun" in seed["content"], "the one entry must be the seed note"
+    for played in ("scene", "combat", "skill-roll", "decision",
+                   "session-start", "session-end"):
+        assert seed["type"] != played
+
+
+def test_no_player_character_ships_with_the_plugin():
+    """Every character is built fresh at the table; there are no pre-gens.
+    A committed PC sheet would be the one everybody starts as."""
+    pcs = list((ROOT / "characters" / "pcs").glob("*.json"))
+    assert not pcs, f"characters/pcs ships {[p.name for p in pcs]}"
