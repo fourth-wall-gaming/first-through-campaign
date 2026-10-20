@@ -98,11 +98,14 @@
       "WISE 0855-0714"
     ],
     "planets": [],
-    "note": "The coldest known object outside the solar system, about 270 K and a few Jupiter masses, with water-ice clouds. A dark drifter.",
+    "note": "The coldest known object outside the solar system: about 250 K, best-fit 225-260 K, and between two and ten Jupiter masses depending on its age -- which means nobody can say whether it is a brown dwarf or a gas giant thrown out of somewhere else. Third-highest proper motion in the sky after Barnard's Star and Kapteyn's Star. A dark drifter, and it is running.",
     "opened_years_ago": 826,
     "sources": [
+      "https://arxiv.org/pdf/1404.6501",
+      "https://en.wikipedia.org/wiki/WISE_0855%E2%88%920714",
+      "https://en.wikipedia.org/wiki/WISE_0855-0714",
       "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=WISEA%20J085510.74-071442.5",
-      "https://en.wikipedia.org/wiki/WISE_0855-0714"
+      "https://www.sci.news/astronomy/science-wise08550714-fourth-closest-star-system-01886.html"
     ],
     "population": 40000,
     "doors": 1

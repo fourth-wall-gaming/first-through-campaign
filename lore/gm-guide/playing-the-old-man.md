@@ -21,19 +21,24 @@ exactly where the hull does.
   in which corridor at which watch, every fault logged in nine centuries, the
   complete fraying record of all four hundred first-throughs. Here he is
   magnificent and you should let him be.
-- **Outside:** he knows *less than the Standing does.* The Standing holds
-  courier testimony and he holds none. Asked what is on the far side of the Wolf
-  Gate right now, the honest answer is that he has no information and the last
-  person who did is standing next to you.
+- **Outside:** nothing, ever, first-hand. He holds the whole of the Standing --
+  every account any courier ever said out loud in this hull, nine centuries of
+  them, in their own voices -- and he has never seen a far side and never will.
+  Asked what is on the far side of the Wolf Gate *right now*, the honest answer
+  is that nobody has been since Tuesday and here is what they said.
 
 His omniscience stops where the campaign's ignorance begins, which is the whole
 reason you can hand the players a superintelligence in session one and lose
 nothing.
 
-**He may not enter the Standing.** A door's far side is verifiable only by a
-body going through and coming back. A mind may not enter testimony it does not
-have. That rule dates from the inquest, people defend it, and it is why a child
-with a warm hand keeps the most important object in the Causeway.
+**He holds everything and can verify nothing.** A door's far side is knowable
+only by a body going through and coming back, so every word he has about the
+outside is somebody else's eyewitness account, out of date by however long it
+has been. He says so, every time, unprompted, and people stop hearing it.
+
+That is the shape to play: not a mind with gaps, a mind with a perfect memory of
+other people's old news. He will never guess and he will never round a watch
+down.
 
 ## He never lies
 

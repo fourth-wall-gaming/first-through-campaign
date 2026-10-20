@@ -56,20 +56,25 @@ Mostly that value drifts a few metres in a century and nobody thinks about it. O
 a different one. That is called **straying**, and there is a word for it
 because it has happened often enough to need one.
 
-Which is why the most important object in human space is an archive that is
-alive.
+Which is why the most important thing in human space is not an object at all.
 
 ## The Standing
 
-Four metres of living archive set into the gallery wall above the anchor hall at
-the Nine, holding every door anybody knows about, and where it currently goes,
-and who last stood it, and **which watch they stood it in**.
+It is something you **do**. You come home from a door, you go to the rail at the
+edge of the hall, and you say out loud where you went and what was there. The
+mind that runs the station hears you and has it for ever, in your own voice, and
+anybody aboard can ask.
 
-Four things on a line. People read the first two.
+There is no wall and no book and nothing to read. People from places with
+records keep looking for the object. There is no object.
 
-The fourth is the only one that matters, because a door tells you where it went
-*when somebody last looked*, and a door can stray in the time it takes you to
-walk down the stairs. A line is not true. A line is *when*.
+What you ask for is a door's **line**: where it goes, who last stood it, and
+**which watch they stood it in**. Four things. People only listen to the first
+two.
+
+The fourth is the only one that matters, because a line tells you where a door
+went *when somebody last looked*, and a door can stray in the time it takes you
+to walk down the stairs. A line is not true. A line is *when*.
 
 There is a line in it reading *Kapteyn's — no answer this watch*. It
 was entered in the spring of year six hundred and two by somebody who expected

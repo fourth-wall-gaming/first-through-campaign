@@ -28,7 +28,7 @@ walk up to and shout at.
 It calls itself a service, and mostly it is one. The fees pay for the halls, the
 kit lockers, the hall doctors and the rota that keeps a watch on a dark
 housing at Kapteyn's three hundred and seventy-three years after anybody
-expected anything from it. The Standing is a public good and the Tally keeps it
+expected anything from it. The Standing is a public good and the Tally defends it
 honestly.
 
 ## Half the Tally is a mind
@@ -63,8 +63,8 @@ the same word said in different rooms for nine hundred years.
 
 So here is the worst-kept secret in the galaxy: **even the Tally does not
 reliably know what the Tally currently thinks.** Whatever one mind has decided
-reaches another only as a child's lading, years old, copied by a bud from a
-mind that has changed its view since. The order keeps its charter by courier.
+reaches another only as a child's lading, years old, carried by a fetch that
+read a mind which has changed its view since. The order keeps its charter by courier.
 Every mind believes it is the Tally, and some of them are right.
 
 ## The other half sits at the Nine

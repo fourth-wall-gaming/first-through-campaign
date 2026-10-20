@@ -14,6 +14,6 @@ created_at: "2026-10-06T12:00:00"
 Everybody stands in the hall until it goes, and it goes quietly, and there is
 nothing to see.
 
-Ladder is a line in the Standing with a different set of coordinates against it.
+Ladder's line now has a different set of coordinates against it, and the first person to come back is the one who says so.
 Forty-two people are alive and well on the far side of it and nobody will reach
 them again.

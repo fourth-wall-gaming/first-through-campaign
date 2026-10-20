@@ -143,7 +143,7 @@ of them live; they only need one.
 
 | If they are good at | How they find it |
 |---|---|
-| Reading, Lore | The hall's transit numbers, Anwar's four findings, and the Old Man's unasked-for summary. A reconciler will be astonished anybody came |
+| Reading, Lore | The hall's transit numbers, Anwar's four findings, and the Old Man's unasked-for summary. A reader will be astonished anybody came |
 | Anchor hardware, Mechanisms | The housing's own draw times. A Doorwright reads a stutter off the instrumentation before anybody says a word |
 | People, Influence, Insight | The Wolf Gate queue — roughest line on the station, and nobody has come through it since the early watch. Somebody there is frightened and chatty |
 | Bodies, First Aid, Healing | The hall doctor. Three first-throughs came off that door this morning saying it felt *long*, and one of them asked whether that was normal |
@@ -226,11 +226,13 @@ year.
 The player needs **three** things. None of them requires cleverness; all of them
 require asking somebody who has had no reason to volunteer it.
 
-**One: when.** Ladder's whole purpose for two hundred years has been watching the
-twins and growing the record in a basin in a shed, testimony by testimony, as
-each keeper handed the watch on. It is the only long-baseline observation of
-that binary in human space and nobody at the Nine has ever asked for a line of
-it. The drift between Ladder's archive and the Nine's is two hundred years.
+**One: when.** Ladder's whole purpose for two hundred years has been watching
+the twins and telling the rock's mind what they saw, watch after watch, as each
+keeper handed on. It is the only long-baseline observation of that binary in
+human space and nobody at the Nine has ever asked for any of it. The drift
+between what Ladder's mind holds and what Sirius's does is two hundred years,
+and it is two hundred years because an attestation does not cross a door and no
+fetch has ever been asked to carry this.
 
 That record gives a **date and a severity** for closest approach. It turns *soon*
 into a number, which turns a panic into a plan, and a plan is the only thing four

@@ -102,10 +102,15 @@ Full guidance: `lore/gm-guide/special-effects-are-the-players.md`.
 The setting was redesigned after session 5. These changes sit under scenes
 already played. The played scene still runs verbatim.
 
-- **The Standing** was a board in session 5. It is now a **living archive**: you
-  lay a hand on the lip, say what you saw, and a drop of you grows the entry. If a
-  player remembers a board, play the board as the thing they saw and let the
-  living archive be what it turned out to be.
+- **The Standing** was a board in session 5, then briefly a living archive on
+  the gallery wall, and is now **neither**. It is an ACT: you come off a plate,
+  you go to the rail, you say out loud where you went, and the station mind has
+  it for ever in your own voice. There is no wall, no basin, no book and nothing
+  to read, and a player hunting for the object is having the correct experience.
+  Deleted with it: budding, cut tissue carried between basins, and the
+  reconciler profession. Fetches are the custodians of everything interstellar;
+  minds do the synthesis. A door's current account is still called its **line**
+  and still has four parts, and the fourth is still the only one that matters.
 - **The beat "Pell Ivor's board" is now "Pell Ivor's count."** Same man, same
   Friday, same forty-one step-ups for twenty-three crossings. It is a count he
   kept himself, not a board.

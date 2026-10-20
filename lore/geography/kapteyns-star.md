@@ -4,7 +4,7 @@ title: "Kapteyn's Star"
 category: "geography"
 visibility: "player"
 system: "kapteyns-star"
-summary: "The oldest star anybody has a door to, the nearest halo wanderer, and the only line on the Standing that has not changed in three and a half centuries."
+summary: "The oldest star anybody has a door to, the nearest halo wanderer, and the only line in human space that has not changed in three and a half centuries."
 sources: ["https://simbad.cds.unistra.fr/simbad/sim-id?Ident=Kapteyn%27s%20star", "https://en.wikipedia.org/wiki/Kapteyn%27s_Star", "https://arxiv.org/abs/2103.02709"]
 invented: "life"
 created_at: "2026-10-10T12:00:00"
@@ -77,6 +77,7 @@ done to them once.
 The Threshold has kept a watch on the housing at van Maanen's since the year it
 went dark. The rota has never been cut. It has never once reported anything.
 
-And on the Standing, in a hand nothing like any working tallyman's, the line
-still says what somebody wrote that spring expecting to rub it out by the
-afternoon. See [[The Standing]].
+And the line still says what a woman said out loud that spring, expecting to
+supersede it by the afternoon. Ask the Old Man and he gives you her four words
+in her own voice, because that is what an attestation is and there has never
+been another. See [[The Standing]].

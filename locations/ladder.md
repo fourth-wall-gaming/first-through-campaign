@@ -25,10 +25,12 @@ It has never opened. Sixty-one people have lived their whole lives beside an
 empty one, and children dare each other to stand in it.
 
 **And what Ladder is FOR is watching the twins.** That is the whole posting:
-sixty-one people on a rock with a clear view of two flare stars, growing a record,
-basin by basin, in a shed, for two hundred years. Nobody at the Nine has ever asked them
-for any of it. It is the only long-baseline observation of that binary anywhere
-in human space, and nobody outside this rock has ever read a line of it.
+sixty-one people on a rock with a clear view of two flare stars, saying what
+they saw out loud to the rock's own mind, watch after watch, voice after voice,
+for two hundred years. Nobody at the Nine has ever asked for any of it. It is
+the only long-baseline observation of that binary anywhere in human space, it is
+complete and perfectly kept and freely available to anyone who walks in and puts
+the question, and nobody outside this rock ever has.
 
 There is **no hardened shelter**. A welded roof, and the lamp halls, and the rock
 underfoot. They have been lucky for two hundred years and they know exactly how

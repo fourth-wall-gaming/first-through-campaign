@@ -2,7 +2,7 @@
 id: "myth-loc-760b67260b99"
 name: "The Office"
 type: "station"
-summary: "The Threshold's desk inside the corpus house at van Maanen's Star, where six centuries of anchor fault records are reconciled by a town that is drowning in them."
+summary: "The Threshold's desk inside the corpus house at van Maanen's Star, where six centuries of anchor fault records are got out of arriving fetches, one question at a time, by a town that is drowning in them."
 system: "van-maanens-star"
 created_at: "2026-10-05T12:00:00"
 ---
@@ -15,12 +15,13 @@ everything and never changes.
 Three thousand people live around it and almost none of them come to this end.
 That is the design.
 
-The **reading room** is the reason the town exists: a wall of basins in which
-the anchor corpus grows, six centuries of fault records from every door on the
-Causeway, each line made out of the courier who stood at it. The Threshold's desk
-gets a bay of its own, and Sep has spent six years learning where every line in
-that bay disagrees with the town's. The reading room is immaculate and the
-backlog is not.
+The **reading room** is the reason the town exists, and it is called that
+because that is what happens in it: a fetch at one end of a long bench, a
+reader at the other, and hours of careful asking. Six centuries of fault
+records from every door on the Causeway came into this town that way and the
+mind holds all of it. The Threshold's desk gets a bay and a bench of its own,
+and Sep has spent six years learning which questions the corpus has never been
+asked. The reading room is immaculate and the backlog is not.
 
 In reach: the **reading room** itself, and the four findings Sep has got out of
 the corpus, which the room's mind will read to a visitor aloud in any order they

@@ -4,7 +4,7 @@
   "type": "npc",
   "status": "active",
   "description": "Holds the Threshold's desk, with Meriel Koll, at van Maanen's Star, where the anchor corpus is kept. Six years in an office nobody visits, and has stopped asking to leave.",
-  "narrative": "Came out for a two-year posting as a corpus reconciler and has been there six. Sep is\nmeticulous, bored into a kind of brilliance, and has read more fault lines than\nanybody alive -- including, at some point in the third year, the ones nobody asked\nfor.\n\nSep has noticed the shape of the thing. Not the cause, not the name, just the\nshape: that the failures are not distributed the way ageing distributes.\n\nSep has got this out of the corpus four times and tried to send it onward four times.",
+  "narrative": "Came out for a two-year posting as a corpus reader and has been there six. Sep is\nmeticulous, bored into a kind of brilliance, and has asked more careful questions\nabout more doors than anybody alive -- including, at some point in the third year, the ones nobody asked\nfor.\n\nSep has noticed the shape of the thing. Not the cause, not the name, just the\nshape: that the failures are not distributed the way ageing distributes.\n\nSep has got this out of the corpus four times and tried to send it onward four times.",
   "characteristics": {
     "STR": 10,
     "CON": 11,

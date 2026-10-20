@@ -152,9 +152,9 @@ timings and the people he needs moving all go the one way anything goes between
 stars: in a living carrier, in a child's hands, through a door.
 
 And **the Tally controls lading.** See [[The Tally]] and [[Lading and Attestation]].
-Every lading that crossed a door was attested at one end and reconciled at the
-other, and the shape of his network is **already in the Tally's records, with
-nobody reading them that way.** The same carriers on the same long routes.
+Every lading that crossed a door was said out loud at both ends where a mind
+could hear it, and the shape of his network is **already in what the minds hold,
+and the question that would show it has never once been put to them.** The same carriers on the same long routes.
 Ladings that drift in the same direction at every hop. A string of subjects
 who were taken in the month before a posting changed hands. None of it is hidden.
 It is only that nobody has laid the records side by side, and a player who does

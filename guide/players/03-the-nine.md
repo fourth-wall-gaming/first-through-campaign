@@ -14,7 +14,7 @@ Sirius itself comes through the viewports as a hard blue-white that the filters
 never quite tame, with a small mean white point beside it that everybody has
 been told not to look at.
 
-<!-- illus: novels/first-through/illustrations/a-the-nine.jpg | Nine doors, eight queues moving, and the Standing on the gallery wall. -->
+<!-- illus: novels/first-through/illustrations/a-the-nine.jpg | Nine doors, eight queues moving, and the rail along the edge of the floor. -->
 
 ## The hall
 
@@ -29,8 +29,9 @@ each one smells like the place it goes:
 - **The Wolf Gate** queue is shift workers, the roughest line in the hall, and
   — everybody agrees furiously — the best food on the station.
 
-Above it all, on the gallery wall, is the Standing, a living archive kept by a child
-who will tell you off if you read it wrong.
+At the edge of the floor is the rail, where couriers coming off a plate say out
+loud where they went, with a child sitting it who will tell you off if you only
+listen to half of what she gives you.
 
 ## The architecture is built for five peoples
 

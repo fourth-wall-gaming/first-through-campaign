@@ -3,15 +3,23 @@ id: "myth-lore-3f9a1c7d52be"
 title: "Lading and Attestation"
 category: "technology"
 visibility: "player"
-summary: "The five words for how information moves between stars when nothing is written down: lading (what a courier carries), attestation (said aloud, witnessed by a mind, permanent), budding (how a living archive is copied to be carried), drift (how far two copies have diverged) and reconciliation (the trade of merging them)."
+summary: "The five words for how information moves: ordinary inside a hull and absolute at a plate -- lading (what a courier carries), attestation (said aloud, heard by a mind, permanent within the hull), holding (what a fetch has chosen to keep and whom it has chosen to give it to), drift (how far two systems' pictures have diverged) and synthesis (what a mind makes out of a thousand partial, contradictory accounts, with the holes named)."
 created_at: "2026-10-17T12:00:00"
 ---
 
-Inside a star system nobody writes anything down. There is no reason to. The
-minds hold the whole of a system's business, they hold it everywhere at once,
-and anyone who needs to know a thing asks the air and is told. Between stars the
-only channel is living cells, carried by a child. These are the five words that
-fall out of those two facts. You will hear all of them in your first hour at the
+Inside a star system, information behaves itself. There are screens and
+terminals and notices on walls, there is paper, there are documents and lists
+and signed-for deliveries, and everybody is wearing a collar they can ask
+questions of. It is about as strange as a railway station. See [[Your Ear]].
+
+Across a door, none of it exists. Nothing manufactured crosses, no signal
+crosses, and the only thing that can carry anything between stars is a living
+thing that walks — which in practice means a fetch who has agreed to carry
+something and a child who can open the way.
+
+Those two facts are not a contradiction, they are the whole shape of human
+space: ordinary inside a hull, absolute at a plate. These are the five words
+that fall out of them, and you will hear all five in your first hour at the
 Nine.
 
 ## Lading
@@ -19,11 +27,13 @@ Nine.
 **Lading** is whatever a courier is carrying.
 
 *What's your lading?* is the first thing anyone asks at an anchor hall, and it
-replaces every manifest in the setting. It covers buds and messages and whatever your
-fetch has agreed to carry for someone, and a passenger holding on to your sleeve. A first-through with nothing in their
-arms says *light*. A first-through who will not tell the Tally what is in their
-arms is, by custom, either carrying something very small or something very
-large, and either way the next question is who sent them.
+replaces every manifest in the setting. It covers your fetch, and whatever your
+fetch has agreed to hold for somebody, and a passenger with a hand on your
+sleeve. A first-through with nobody and nothing is **light**.
+
+A first-through who will not say what their lading is, is by custom either
+carrying something very small or something very large, and either way the next
+question is who sent them.
 
 You cannot lie about lading and expect it to hold, for the reason in the next
 entry.
@@ -55,56 +65,95 @@ order harder, not easier. If somebody wants a thing done and does not want it
 in the air, they have to go and stand somewhere with no mind in it. Everyone
 notices who walks to the dead corner of the gallery. Everyone remembers.
 
-An attestation does not cross. It is public within a hull, and a hull is as far
-as it goes. What goes between systems is lading, and it takes a child.
+**An attestation does not cross.** It is public within a hull, and a hull is as
+far as it goes. What goes between systems is lading, and lading is a person.
 
-## Budding
+## A note on paper
 
-**Budding** is how a living archive is copied so that it can be carried.
+Paper is ordinary and always was. Lists, notices, drawings, a child's homework,
+the rota pinned up where everybody walks past it, the thing you shove in a
+pocket. Nobody finds it quaint and nobody finds it important.
 
-You cannot send an archive down a door as a message. Nothing like that crosses.
-You cut it: a piece of the living thing, fed, warm, carrying every line it held
-on the day of the cut, that will grow in a new basin and become a whole archive
-of its own. That is a **bud**. A bud is lading, which means it needs a first-through
-to take it, and every bud that has ever left the Nine has spent some part of a
-child's remaining years. See [[The Standing]].
+What gives it a job is the entry above. **Speech is public within a hull and
+writing is not speech.** A mind hears what you say because you are wearing its
+ear; it does not read your pocket, and the rule that it does not has held for
+nine centuries and is one of the few the minds argued *for*.
 
-*Cut me a bud* is what you say at the Standing when you want one, and *how long has the bud been in the basin?* is how you ask whether to trust it.
+So anything a person does not want in the air, they write down and hand over.
+A passed note is the most private object in human space, and everybody from
+twelve upwards knows it, and a station's whole quiet life runs on scraps.
 
-A bud is not a duplicate. It is a copy that starts the same and then goes its
-own way. It takes testimony from whoever stands at it, and nothing else.
+It also goes nowhere. Paper does not cross a door, any more than a crate or a
+coin or a terminal does. A note is private and local, and both halves of that
+are the point.
+
+## Holding
+
+**Holding** is what a fetch has chosen to keep, and whom it has chosen to give
+it to.
+
+The archives of human space are not objects. They are the five peoples. A fetch
+observes, with its own senses, and what it observes it keeps — whole, for a
+lifetime, in its own cells, under its own control. Nobody writes to a fetch.
+Nobody cuts anything out of one, or off one, or into one. There is no apparatus
+and there never was. See [[Your Fetch]] and [[The Councils]].
+
+So the question *where is that kept* has no answer in this setting. The question
+is **who holds it**, and it is a question about a person.
+
+- A fetch arriving in a system reads the mind that runs the place directly,
+  takes what interests it or what it has agreed to take, and is under no
+  obligation to say which.
+- A fetch leaving gives out what it chose, to whoever it chose. Asking well is
+  a skill, and a trade, and most people are bad at it.
+- Fetches give to each other constantly and have for nine hundred years, on
+  their own business, in their own time, and humans find out about it when a
+  fetch decides they should.
+
+We are the peripheral in that arrangement. The sooner a new first-through works
+that out, the more pleasant the next few years are.
+
+**And a fetch cannot cross alone.** Something has to open the way. Which is the
+whole of a child's part in this: you do not handle the information, you do not
+copy or merge or keep anything, and nobody expects you to. You open the door, and
+you walk beside the person who does.
 
 ## Drift
 
-**Drift** is how far two systems' copies of the same archive have diverged.
+**Drift** is how far two systems' pictures of the same thing have diverged.
 
 It is measured in time, and nobody has ever measured it any other way. *The
-drift on the anchor corpus is nine months* means the Nine and the system you are
-standing in disagree by about nine months of testimony: nine months of strays
-and surveys and corrections that one holds and the other has never heard of.
-Drift is not an error. It is the ordinary condition of two bodies of knowledge
-that have only a child to join them.
+drift on the anchors is nine months* means Sirius and the system you are
+standing in disagree by about nine months: nine months of strays and surveys and
+corrections that one has heard about and the other has not.
 
-A small drift is gossip. A large one is a war that has not been noticed yet.
+Drift is not an error. It is the ordinary condition of knowledge that only
+travels at walking pace, by consent, in the heads of people who choose what to
+mention. Every system's picture is fragmentary, partial and confidently out of
+date, including this one.
 
-## Reconciliation
+A small drift is gossip. A large one is a war nobody has noticed yet.
 
-A **reconciliation** is the job of merging an arriving lading into a local
-archive.
+## Synthesis
 
-Two archives disagree. One of them says the door at the far end goes to a
-tidal flat and the other says a red desert, and both are made out of somebody's
-cells. Somebody has to decide which line stands, which gets overgrown, and
-whether the loser is kept as a footnote or not kept at all.
+**Synthesis** is what a mind does with all of that.
 
-*We'll reconcile it in the open* is the phrase, said at the Standing by whoever has the right to say it, and it is half a promise and half a warning.
+A mind cannot cross and has never seen the far side of anything. What it has is
+everything ever said in its own hull, for as long as it has been running, plus
+whatever every fetch that ever came through chose to give it. That material is
+enormous, heterogeneous, inconsistent, and full of holes shaped like the
+choices people made. **Making one picture out of it is the single most difficult
+thing anybody does in this setting, and minds are the only things that can.**
 
-It is a profession, and it is a political one, because that somebody is
-choosing, in a way that will outlive them, what a system believes about its own
-doors. A good reconciler is patient, well fed and slightly feared. A reconciler
-who is owned by someone is the most dangerous person in a hall, and the
-trade's one real rule, that you reconcile in the open with the testifiers
-present, is in force because of what happened before anyone made it.
+So when you want to know something, you ask the air, and what comes back is not
+a fact. It is a synthesis: this is what I have, this is who said it and when,
+these two accounts disagree and here is how, and this part nobody has reported
+in four years.
 
-Most of the Tally's people can reconcile badly. Almost nobody can do it well.
-It takes about eleven years.
+> *Minds do not know things. Minds work things out, out loud, and tell you what
+> they had to work with.*
+
+Which is better than a record and much harder to use, and it is why the useful
+skill in human space is not reading or writing but **knowing what to ask and
+being able to tell what the answer is worth.** See [[Old Man Sirius]], who does
+this constantly, for free, to a station that has largely stopped listening.

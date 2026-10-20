@@ -819,12 +819,16 @@ def test_the_weave_crosses_and_freight_does_not():
 from content_rules import all_content_files  # noqa: E402
 
 PAPER = re.compile(
-    r"\b(ledger|ledgers|logbook|log ?book|tome|tomes|clerk|clerks|clerical"
-    r"|filing cabinet|paperwork|bureaucrat\w*|rubber[- ]stamp\w*"
-    r"|carbon copy|in triplicate|typed|typewrit\w*)\b", re.I)
+    r"\b(tome|tomes|clerk|clerks|clerical|filing cabinet|paperwork"
+    r"|bureaucrat\w*|rubber[- ]stamp\w*|carbon copy|in triplicate"
+    r"|typewrit\w*)\b", re.I)
 
-# Inside a system there is no reason to write anything down. Between stars
-# the channel is living cells. Paper is a v1 artefact in both places.
+# REVISED 2026-10-19. Paper, documents, notices, terminals and writing things
+# down are ORDINARY inside a star system and always were -- see
+# lore/technology/your-ear.md and the opening of lading-and-attestation.md.
+# What was cut is the BUREAUCRACY: tomes, clerks, paperwork, triplicate, the
+# counting-house vibe. This gate guards the vibe, not the act of writing.
+# What remains absolute is that none of it CROSSES A DOOR.
 PAPER_ALLOWED = {
     "docs",                      # specs and plans may discuss what was deleted
 }
@@ -871,8 +875,42 @@ def test_there_is_no_paper_on_a_character_sheet():
 
 def test_the_new_vocabulary_is_defined_somewhere():
     text = (ROOT / "lore/technology/lading-and-attestation.md").read_text().lower()
-    for word in ("lading", "attestation", "budding", "drift", "reconciliation"):
+    for word in ("lading", "attestation", "holding", "drift", "synthesis"):
         assert word in text, word
+    for gone in ("budding", "reconciliation", "a bud"):
+        assert gone not in text, f"{gone} was cut on 2026-10-19"
+
+
+def test_nothing_is_copied_out_of_a_living_archive():
+    """Cutting tissue out of one basin and pushing it into another was cut on
+    2026-10-19. Fetches are the custodians; minds do the synthesis."""
+    from content_rules import all_content_files
+    BUD = re.compile(r"\bbud(s|ded|ding)?\b|\breconcil\w*", re.I)
+    bad = []
+    for p in all_content_files():
+        if str(p.relative_to(ROOT)).startswith("docs"):
+            continue
+        for n, line in enumerate(p.read_text().splitlines(), 1):
+            if BUD.search(line):
+                bad.append(f"{p.relative_to(ROOT)}:{n}: {line.strip()}")
+    assert not bad, "\n".join(bad)
+
+
+def test_the_ear_exists_and_dies_at_a_door():
+    """Everybody has a terminal grown into their collar, and the one thing it
+    cannot do is reach across a plate."""
+    text = (ROOT / "lore/technology/your-ear.md").read_text().lower()
+    assert "collar" in text
+    assert "no signal crosses a door" in text
+
+
+def test_paper_is_allowed_to_be_ordinary():
+    """The inverse of the gate above it. Writing things down is normal human
+    behaviour and the setting says so out loud, so that nobody re-deletes it."""
+    text = (ROOT / "lore/technology/lading-and-attestation.md").read_text().lower()
+    assert "paper is ordinary" in text
+    assert "writing is not speech" in text
+    assert "does not cross a door" in text
 
 
 # The Standing is a living archive, not a board on a wall. Paragraph-level so
@@ -1070,10 +1108,12 @@ def test_the_allowlists_are_all_empty():
             f"{sorted(lst)}")
 
 
+# Chalk and slate are the wrong MATERIAL for a station that engineers
+# gravity. The rest is the v1 tone. Ordinary paper, rota sheets and things
+# pinned to walls came back on 2026-10-19 and are no longer offences.
 V1_TONE = re.compile(
     r"\b(counting house|politically powerless|underfunded charity"
-    r"|chalk|slate|brown paper|lamp log|rota sheet|requisition log"
-    r"|torn out|pinned to the wall)\b", re.I)
+    r"|chalk|slate)\b", re.I)
 
 
 def test_no_v1_tone_survives():

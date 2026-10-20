@@ -4,7 +4,7 @@ thread:
   - title: "Have you stood this morning"
     when: "d0/dawn"
     status: pending
-    summary: "The Standing, and the first time anybody explains to the player what the archive actually is"
+    summary: "The Standing, and the first time anybody explains to the player that it is something you do and not a thing you read"
   - title: "Sling in the dead watch"
     when: "d0/dawn"
     status: pending
