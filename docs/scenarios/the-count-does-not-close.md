@@ -128,6 +128,41 @@ kind and none of the first.
 Each sequence has a dramatic question, who moves first, the reversal, and the
 cost. If a sequence's cost is blank it does not get run.
 
+**Revised after the first draft was correctly called low-stakes.** The original
+seven were five conversations and a politician taking credit, in a setting with
+thirty billion people in it — the scale error in `SCENARIO.md` §1a, committed by
+the person who wrote it. Eight sequences now, three of them conversations, and
+the catalog carries the rest:
+
+| # | Sequence | Kind |
+|---|---|---|
+| 1 | He says it at the rail — **and the Old Man gives him the scale** | talk; the win that costs |
+| 2 | **Four goes sticky, with him on the wrong side** | lethal, the setting itself |
+| 3 | Sollen sends for him, warmly | talk; the helpful thief |
+| 4 | **She takes one of them through and comes back alone** | threat; the top of the ladder made visible |
+| 5 | Brace is waiting at the bottom of the stair | physical; the ally who is the danger |
+| 6 | **The sum at Luhman 16** | adventure; two live crossings and the thing that cannot be fixed |
+| 7 | **Two Reads in one room** | combat, full lethality |
+| 8 | She is nineteen | talk; the close |
+
+Plus **Caul comes herself** at her clock's 4, who is not beatable in a straight
+exchange by anybody in this act and can only be talked to.
+
+### The three tests, answered
+
+**What can kill him, and where?** The door, in Sequences 2 and 6 — a plate that
+will not take, rolled, with no rescue possible from anywhere in human space
+because nothing crosses but a living thing that walks. And Mereth Vane in
+Sequence 7: living blade at 79 against Threshold Drill at 42, three action
+points, five hit points in an arm, and she has four years of practice.
+
+**How many die if the antagonist simply wins?** Ninety thousand at Luhman 16,
+and the same shape is on seven of the Nine's own nine doors.
+
+**Where does he have to go, and why is going worse than staying?** Through door
+four, more than once, to tell ninety thousand people a thing only a child can
+carry — and every crossing is the thing that nearly killed him in Sequence 2.
+
 ### Sequence 1 — He says it at the rail
 
 - **Question:** does saying a true thing out loud do anything at all?

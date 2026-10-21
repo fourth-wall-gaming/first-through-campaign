@@ -146,12 +146,23 @@ in their own hands — and then finding out what happens to a fifteen-year-old w
 is right about something in a world where being right is not the same as being
 believed.
 
-**Takes:** three things, and all three are caused by the player being right — his
-anonymity, chosen, the first hour he acts; an innocent first-through, not chosen,
-because the one adult who believes him will strip a child's kit in a hall to make
-a count close; and then either Oluf Varre, sixty-two, thirty-one years on the
-same plate, or Mereth Vane, nineteen, who has the player's own knack and eleven
-months left. One of those two does not come out of this act.
+**Takes:** his anonymity, chosen, the first hour he acts; a first-through he liked, walked through a door by a stranger and left alive on the far side where nothing can ever reach them; and then either Oluf Varre or Mereth Vane, one of whom does not come out of this act — all of it caused by the player being right. WHAT CAN KILL HIM: twice the setting itself, a plate that will not take while he stands on the wrong side of the only door out of a system, no signal, no rescue possible from anywhere, the only creature who could come for him another child who does not know he is there — rolled, and if the dice strand him the campaign becomes getting him home; and once a person, Mereth Vane, nineteen, living blade at 79 against his drill at 42. AND THE SIZE OF IT: the maintenance figure is a doorknob. A door driven past what it was built for does not recover, nobody can build or pair or re-point or restart one, and Luhman 16 has ONE door and ninety thousand people behind it who cannot be evacuated — not slowly, not at all, because only the young cross, one at a time, one passenger each, and the sum does not work and never did. Seven of the Nine's own nine doors show the same shape.
+
+**What can kill him, and when it gets its chance.** Twice by the setting itself:
+a plate that will not take while he is standing on the wrong side of the only
+door out of a system, with no signal, no rescue possible from anywhere, and the
+only creature who could come for him being another child who does not know he
+is there — rolled, and if the dice strand him, the campaign becomes getting him
+home. And once by a person: Mereth Vane, nineteen, living blade at 79 against
+his drill at 42, and she has four years of doing this.
+
+**And the size of it, which is the part that was got wrong first time.** The
+maintenance figure is a doorknob. What it is a clue about: a door driven past
+what it was built for does not recover, nobody can build, pair, re-point or
+restart one, and **Luhman 16 has one door and ninety thousand people behind
+it.** They cannot be evacuated — not slowly, not at all. Only the young cross,
+one at a time, each carrying one person by the sleeve, and the sum does not
+work and never did. Seven of the Nine's own nine doors show the same shape.
 
 In detail:
 
