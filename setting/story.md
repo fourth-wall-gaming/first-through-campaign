@@ -142,12 +142,43 @@ and they will know what Calloway chose instead.
 # ACT I — `d0 to d4` · THE NINE
 
 **For:** making the player love this place and these people, and learning the job
-in their own hands. Light for two beats, then the hardest night of their life.
+in their own hands — and then finding out what happens to a fifteen-year-old who
+is right about something in a world where being right is not the same as being
+believed.
 
-**Takes:** a few days off the end of four hundred named lives, freely given,
-because the player stood in a hall and asked for them — and whoever was still on
-the apron when the mouth settled, which is an order somebody chose under a clock
-nobody could read.
+**Takes:** three things, and all three are caused by the player being right — his
+anonymity, chosen, the first hour he acts; an innocent first-through, not chosen,
+because the one adult who believes him will strip a child's kit in a hall to make
+a count close; and then either Oluf Varre, sixty-two, thirty-one years on the
+same plate, or Mereth Vane, nineteen, who has the player's own knack and eleven
+months left. One of those two does not come out of this act.
+
+In detail:
+
+1. **His anonymity**, chosen, in the first hour he acts. He says a true thing out
+   loud in a drum with forty people in it, because that is the only way anything
+   gets said here, and by dusk it has reached two people who would rather it had
+   not.
+2. **An innocent first-through**, not chosen. Brace believes him, and Brace is
+   the one adult on the station whose whole life is a count that closes, and he
+   will strip a child's kit in a hall in front of people to make it close.
+   Calloway cannot stop it and does not pretend she can.
+3. **Oluf Varre, or Mereth Vane.** Varre is sixty-two, has stood the same plate
+   for thirty-one years, and is the only human being who holds the figure
+   first-hand. Vane is nineteen, has the player's own knack, and has eleven
+   months before a door tells her no. One of them does not come out of this act.
+
+**The antagonists, and why these two for this character.** Sigurd's engine is
+that he is always right and nobody listens to him, and his one asset is
+testimony. So: **Marek Sollen**, who never has to refute him and only has to be
+kind about him in public, and who would legislate his fetch out of being a
+witness; and **Mereth Vane**, who has the Read as well, which cancels the only
+advantage on his sheet. The first attacks what he is. The second attacks whether
+he continues.
+
+Full scenario, plotted in sequences:
+[`docs/scenarios/the-count-does-not-close.md`](../docs/scenarios/the-count-does-not-close.md).
+Method: `SCENARIO.md` in the engine.
 
 The act opens social: a bunkroom, a kettle, a game of sling, Calloway being
 pleased to see them. Then one short successful crossing, so the player knows what
