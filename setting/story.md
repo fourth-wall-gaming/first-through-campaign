@@ -219,27 +219,82 @@ that somebody now knows the player's name.
 
 ---
 
-# ACT III — THE QUORUM
+# ACT III — THE FORTY-ONE
 
-**For:** the villain, the temptation, and the answer to the question the whole
-campaign has been asking.
+**For:** the thing behind all of it, and the question the campaign has been
+asking from the first hour — what a human being is *for*, in a galaxy where
+everything worth knowing is held by somebody else and we are the only species
+that can open a door.
 
-**Takes:** whatever the player decides to spend. This act should cost them
-something they chose, not something that happened to them.
+**Takes:** whatever the player decides to spend — this act should cost them something they chose. THE ADVERSARY IS A FETCH: a scatter catalogued as Lot 41, the oldest surviving book, six hundred years kept and drawn on by strangers and then divided and sold in lots because a scatter can be divided and each piece was worth money somewhere else. Thirty-four years free, about thirty-three units of forty-one, two of them somewhere it cannot reach without a courier's help, and it will never be whole. IT DOES NOT WANT US DEAD — dead hands carry nothing. It wants the arrangement restored with the terms reversed, formally, with a charter on it, and humans keeping the one thing we are for: we walk. IT NEEDS NO WEAPONS — it is in every room because a scatter sends a third of itself where the rest cannot go, one unit per child per door; it curates, because a fetch chooses what to give and to whom and no mind can check it; and it holds the councils because it is the oldest and best-informed and most wronged voice in the room and ITS CASE IS TRUE. The uncounted traffic from Act I is its own distribution, and it will not slow down for the doors, because a severed system is a sealed room with one authority in it and its unit is already inside. Sarn is now an ally. WHAT STOPS IT: it has to be carried, by a fifteen-year-old who could decline.
+
+**It is a scatter, catalogued as Lot 41, and we did it to it.** Six hundred
+years a book — kept warm and fed and drawn on by strangers — and, because a
+scatter can be divided and each piece was worth money somewhere else, sold off
+in lots by people keeping proper records. Thirty-four years free. About
+thirty-three units of forty-one. Six known dead, two somewhere it cannot reach
+without a courier's help, and it will never be whole, and a scatter divided too
+long starts quietly forgetting.
+
+It does not want us destroyed. **Dead hands carry nothing.** It wants the
+arrangement restored with the terms reversed, formally, with a charter on it,
+and it is entirely open about that to anybody who asks. Humans keep the one
+thing we are actually for: we walk.
+
+**It needs no weapons.** It is in every room, because a scatter can send a third
+of itself somewhere the rest cannot go — one unit, one child, one door, many
+doors at once. It curates, because a fetch chooses what to give and to whom, and
+that is not lying and no mind can check it and nothing can be compared across a
+door. And it holds the councils, because it is the oldest and best-informed and
+most obviously wronged voice in the room and its case is **true**.
+
+And the uncounted traffic the player found in Act I is **its own distribution** —
+thousands of crossings over thirty-four years, on children's arms, as lading
+nobody questions. It is not causing the doors to fail. It will not slow down for
+them, and it will tell you so, because when the doors go, every system is a
+sealed room with one authority in it and its unit is already inside.
+
+**Sarn is now on the player's side**, which is the act's best turn. The Quorum
+needs doors open and few; the Forty-One needs them open now and does not mind
+them closing later. He has been moving its units for thirty years without
+knowing what they were, and when he works it out he is the most useful ally a
+fifteen-year-old could have, and it will cost something appalling.
+
+**The climax is still a race** — [[LHS 1140]]'s door, the first new door in
+twenty-five years and the first onto a living world. A new door is a room the
+Forty-One is not yet in.
+
+**What stops it:** not force, not law. It has to be carried, and every single
+thing it does happens on the arm of a fifteen-year-old who could decline. It has
+spent thirty-four years making sure that never occurs to anybody, and it is one
+conversation away from occurring to everybody.
+
+Ends with a door opening, honestly, with a child standing in it.
+
+---
+
+## Sarn, who used to be Act III and is now in it on our side
+
+*Not an act. Reference, kept here because the whole of Act III turns on him.
+Deliberately not marked up as an act — a `For:` or `Takes:` line here would be
+parsed as a fourth act and would silently swallow the real one, which is exactly
+what happened once.*
 
 He is courteous, tired, physically unremarkable, and in more than one place. He
 does not want to rule anything. He wants the Causeway small enough to hold
 himself together across, and he has spent sixty years making sure nobody learns
 how to move a door before he does. He found the only way to be in more than one
-place, and it cost him being a person — and he will offer the player the same
-arrangement, kindly, and mean it.
+place and it cost him being a person.
 
-**The climax is a race.** [[LHS 1140]]'s door arrives: the first new door in
-twenty-five years and the first in history to open onto a living world. A
-bigger Causeway is one he cannot keep in step with himself, so he needs it late,
-shut, or in his hands. A fifteen-year-old with a fetch intends otherwise.
+Which is why the Forty-One ends him as an antagonist and makes him useful. He
+needs doors **open and few**; it needs them open **now** and does not mind them
+closing later. He has been moving its units for thirty years in his own ladings
+without ever asking what they were, and when he finds out he has helped build
+the thing that will outlive him in every room he cannot reach, he will be
+extremely calm about it and then extremely dangerous on the player's behalf.
 
-Ends with a door opening, honestly, with a child standing in it.
+He will still offer the player what he took, kindly, and mean it. That offer is
+now the price of the alliance rather than the temptation at the end.
 
 ---
 
