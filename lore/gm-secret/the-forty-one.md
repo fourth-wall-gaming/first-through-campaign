@@ -61,7 +61,7 @@ loud.
 ## What it actually wants, and it is not our destruction
 
 Destruction is useless to it. **It needs us.** A fetch cannot cross alone; it
-needs children, for ever, and dead children carry nothing.
+needs children, for ever, and **dead hands carry nothing**.
 
 What it intends is **restoration with the terms reversed.** Not an invention — a
 correction. For nine hundred years humans held fetches as property and drew on
