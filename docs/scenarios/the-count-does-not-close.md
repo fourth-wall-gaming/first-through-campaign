@@ -241,3 +241,40 @@ takes **three**, and all three are caused by Sigurd being right:
 **The rule that makes this not boring:** each of those advances on a watch
 whether the player acts or not, and each answers within a watch when the player
 does.
+
+---
+
+## 8. The cast role table
+
+Per `CAST.md` §1. The cast is a function of Sigurd's engine, not a list. These
+five roles are **always filled**; who fills them is disposable and is invented
+on demand by the three-minute recipe.
+
+| Role | What it does to him | How often | Currently |
+|---|---|---|---|
+| **The ambient majority** — talk over him, no malice in it | makes the engine true continuously, for free, in any crowd | every scene, unnamed, one clause each | the kettle argument; the queue at four |
+| **The one who listens, and is dangerous for it** | converts his only asset into jeopardy | once an act | **Tallyman Captain Brace** |
+| **Better than him at his own thing, and generous about it** | denies him the consolation of being special | standing | **Ferren** socially; **Mereth Vane** at the knack |
+| **Needs exactly what he can do and does not know it** | gives him somewhere to be the protagonist | one live at all times | **Oluf Varre**, who has had the answer for thirty-one years |
+| **Does not need him at all** — complete, busy, uninterested | stops the world existing to serve him | often, and cheap | **Hesk**; **Sennet**, who has her own job |
+
+**The sixth role, specific to this PC and the most important one:** somebody who
+**asks him something**. Nobody has, in his whole life, which is why *"you could
+have asked"* is Pitch's key line and why the Read is unbearable. The first adult
+who asks Sigurd a question and waits for the answer owns him, and both
+antagonists are capable of working that out. Sollen will do it on purpose.
+
+## 9. What to invent next, and where
+
+Density before breadth. The Nine has forty thousand people and the player has
+met seven.
+
+- **The innocent first-through Brace strips in Sequence 4** must be somebody the
+  player has already met and liked, which means inventing two or three
+  bunkroom-mates in the next session and letting the player pick a favourite
+  before anybody knows what it is for. Do not decide which one in advance.
+- **Someone in the queue at four** who crosses to Luhman 16 regularly and has
+  never once stood it, because they are a courier and standing is the dull part.
+  Edge: they are the reason nobody has reported door four since Tuesday.
+- **Varre's counterpart at Procyon**, if the player ever asks the same question
+  twice. Edge: they are the reason an existing fact is true.
