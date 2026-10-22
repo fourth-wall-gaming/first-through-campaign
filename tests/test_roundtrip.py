@@ -50,6 +50,17 @@ def test_cross_references_use_wiki_links_not_ids():
     assert linked > 10, f"only {linked} wiki links; the worldbook is not connected"
 
 
+# Every directory that carries prose a reader or a GM will follow a link in.
+# This used to be lore/ only, which hid dangling links everywhere else.
+PROSE_DIRS = ("lore", "beats", "guide", "facts", "agendas", "factions",
+              "characters", "locations")
+
+# Pre-existing dangling links found when the collection was widened (Task 6
+# fix round). Not fixed here: Task 11 inherits this list, and some may be
+# deliberate.
+DANGLING_ALLOWLIST = set()  # must stay empty unless a Task 11 entry is justified
+
+
 def test_every_wiki_link_resolves_to_something_real():
     """A [[Name]] link survives remapping because it is resolved by name -- which
     means a typo in one is a dead reference nothing else would catch."""
@@ -57,6 +68,8 @@ def test_every_wiki_link_resolves_to_something_real():
     for p in lore_files():
         meta, _ = parse_frontmatter(p.read_text())
         names.add(meta["title"])
+    for p in (ROOT / "beats").glob("*.md"):
+        names.add(parse_frontmatter(p.read_text())[0]["title"])
     for d, key in (("characters", "name"), ("locations", "name"),
                    ("factions", "name"), ("agendas", "title")):
         for p in (ROOT / d).rglob("*"):
@@ -65,11 +78,12 @@ def test_every_wiki_link_resolves_to_something_real():
             elif p.suffix == ".md":
                 names.add(parse_frontmatter(p.read_text())[0][key])
     dangling = {}
-    for p in lore_files():
-        _, body = parse_frontmatter(p.read_text())
-        for link in re.findall(r"\[\[([^\]]+)\]\]", body):
-            if link not in names:
-                dangling.setdefault(link, []).append(p.name)
+    for d in PROSE_DIRS:
+        for p in sorted((ROOT / d).rglob("*.md")):
+            rel = str(p.relative_to(ROOT))
+            for link in re.findall(r"\[\[([^\]]+)\]\]", p.read_text()):
+                if link not in names and (rel, link) not in DANGLING_ALLOWLIST:
+                    dangling.setdefault(link, []).append(rel)
     assert not dangling, f"dangling wiki links: {dangling}"
 
 
@@ -150,3 +164,8 @@ def test_the_campaign_is_actually_playable(tmp_path):
             )
     finally:
         _gm("delete-campaign", "--campaign", new_id, "--yes")
+
+
+def test_the_dangling_link_allowlist_is_empty():
+    """An allow-list nothing enforces fills up again."""
+    assert not DANGLING_ALLOWLIST

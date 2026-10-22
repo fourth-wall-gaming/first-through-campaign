@@ -3,7 +3,7 @@ id: "myth-lore-5b1e7c4d9a20"
 title: "The Hesitation"
 category: "cosmology"
 visibility: "player"
-summary: "What a door does in the weeks before it strays: it stops opening on demand. Transit is still instantaneous -- what takes time is the permission, and the time is measurable, and it rises."
+summary: "What a door does in the weeks before it strays: it stops opening on demand. Transit is still instantaneous -- what takes time is the permission, the time is measurable, it rises, and an unsettled mouth has a field the Listen can read."
 sources: ["https://en.wikipedia.org/wiki/Gravitational_potential", "https://en.wikipedia.org/wiki/Quantum_entanglement", "https://en.wikipedia.org/wiki/No-communication_theorem"]
 created_at: "2026-10-07T12:00:00"
 ---
@@ -82,6 +82,18 @@ the entire reason there has never been one.
 - **It is not a place.** There is no interval you are inside, nothing to see, and
   nothing in there with you. You are standing in a housing on the near side the
   whole time.
-- **But standing in an unsettled housing is not nothing.** The field has a real
-  gradient with a fixed geometry, and six months of standing in it twice a watch
-  leaves a mark. See [[The Cold Arm]].
+- **It is not an injury to you.** Standing in an unsettled housing leaves nothing
+  behind in the courier. Step away and you are exactly what you were.
+
+## What the Listen reads
+
+An unsettled mouth is not silent while it fails to take you.
+
+The field around it has a real gradient: a slope, with a low side and a high
+side, and a steepness that changes as the mouth goes on failing to choose. A
+settled door is flat and quiet. A door that is running out of ways to be in one
+place is not, and **that slope is the thing a child with the Listen can feel
+when she puts her hand to the frame.**
+
+It is the only way anybody has ever got a reading from the inside of a mouth.
+See [[The Knacks]].

@@ -17,7 +17,7 @@ calls it a memorial. They call it *the list*, and new intakes get walked past it
 on their first morning and are not told what it is.
 
 In reach: the **kit rail**, where your suit hangs with your name on a tape and
-somebody else's repair still on the elbow. The **board** by the door with this
+somebody else's repair still on the elbow. The **postings wall** by the door with this
 shift's postings, which is where you will find out that Ferren has been given
 the one you wanted. And a **kettle** of genuinely indefensible age, which is the
 single most contested object in the Threshold and should come up at least once.

@@ -1,7 +1,7 @@
 ---
 id: "myth-beat-4c17a9e3b028"
-title: "Pell Ivor's board"
-summary: "A tallyman started counting on the Friday, told nobody, and has the only record of the hesitation in human space -- forty-one step-ups for twenty-three crossings"
+title: "Pell Ivor's count"
+summary: "A tallyman started counting on the Friday, told nobody, and has the only count of the hesitation in human space -- forty-one step-ups for twenty-three crossings"
 status: "pending"
 when: "d2/dawn"
 trigger: "player asks anybody at door seven a real question"
@@ -18,41 +18,43 @@ is holding anything.
 ## The distinction the whole act turns on
 
 Ask a tallyman how many **crossings** there have been and you get the ordinary
-answer. Ask how many **attempts** — step-ups — and the board comes round.
+answer. Ask how many **attempts** — step-ups — and the count comes round.
 
 > **Forty-one step-ups. Twenty-three through.** Since the watch turned.
 >
 > Nearly two goes each.
 
 For the eleven years Pell Ivor has worked that hall it has been one for one. One
-step-up, one crossing, every time, which is why there was never anything to
-write down. He started keeping the count on the Friday and told nobody, because
-it is not a fault and nobody logs a sticky door.
+step-up, one crossing, every time, which is why there was never anything worth
+counting. He started keeping the count on the Friday and told nobody, in his head
+and under his breath, because it is not a fault and nobody raises a sticky door.
 
-**And he has no clock.** He has been leaving a gap on the sheet the size of each
-pause, by feel, forty-one times, because he is a tallyman and that is what
+**And he has no clock.** He has been counting out the length of each pause
+silently, by feel, forty-one times, because he is a tallyman and that is what
 tallying is.
 
-## Why his sheet beats the station's
+## Why his count beats the station's
 
 [[Old Man Sirius]] can time the housing's draw off a camera inside his own hull,
-perfectly, to the hundredth — and his record starts the moment somebody tells
+perfectly, to the hundredth — and his reading starts the moment somebody tells
 him to look. Four minutes.
 
-Pell's goes back to Friday.
+Pell's goes back to Friday, and lives in one man's head.
 
 If the Old Man is in the conversation he will say so himself, plainly, and the
 GM should let him: *his is worth more than mine.* That is the campaign's whole
-argument about records in one line, and it must not be explained afterwards.
+argument about attention in one line, and it must not be explained afterwards.
 
 ## Running it
 
 - Pell is **not** being brave or clever and must never be played as either. He
   is a man who has worked a door for eleven years, noticed something, and
-  written it down in the only way available to him.
-- He will ask whether he is in trouble for not logging it. He is frightened of
-  that specifically. Answer it in character and move on.
-- Hand over the actual figures. Both of them. Written down.
+  kept it in the only way available to him.
+- He will ask whether he is in trouble for not saying it sooner. He is frightened
+  of that specifically. Answer it in character and move on.
+- Hand over the actual figures. Both of them. Said aloud, in the hall, where the
+  hall's mind hears them: from the moment he says them they are attested, and
+  that is the first time the number has existed anywhere but in his head.
 - **Do not let anybody in the scene say what it means.** Two numbers and a
   shrug. The player assembles it.
 

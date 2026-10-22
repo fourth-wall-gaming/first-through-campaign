@@ -44,7 +44,7 @@ through it are recognisable to each other for the rest of their lives.
 
 ## Your number
 
-Everybody knows their crossing count. It is on your papers and it is the first
+Everybody knows their crossing count. It is attested at the hall and it is the first
 thing another first-through will ask you after your name, and there is no polite
 way to decline.
 

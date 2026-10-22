@@ -123,9 +123,10 @@ they know. You will be told, at length, and it will be a list of relatives.
 
 ### They carry, at no charge
 
-Everything in [[What Crosses Easily]] gets cheaper when you notice this. A
-payload written into a fetch moves for free, forever, as often as anybody is
-willing to open a door.
+Everything in [[What Crosses Easily]] gets cheaper when you notice this. Nobody
+writes to a fetch: a fetch records and keeps on its own terms. But a payload is
+something a fetch has *agreed to carry*, and what a fetch has agreed to carry
+moves for free, forever, as often as anybody is willing to open a door.
 
 The entire information economy of the species rests on a courtesy: that the
 person carrying it agreed to.

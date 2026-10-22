@@ -28,7 +28,7 @@ been arguing since before anyone's grandparents. Nothing is decided and
 everything works, which outsiders find intolerable and residents consider the
 point.
 
-**They want:** your manifest, your toll, and the news. The Nine runs on knowing
+**They want:** your lading, your say-so, and the news. The Nine runs on knowing
 things first.
 
 Every human culture that exists is in one room here at any given hour, and the
@@ -98,8 +98,8 @@ Four thousand people. One street with a roof over the middle. Grain under long
 low covers in permanent red afternoon, and meltwater running in a cut stone
 channel down one side of the road.
 
-**Run by:** five elected councillors and a board on the street wall where every
-order placed and not delivered is posted in public.
+**Run by:** five elected councillors and a list the holding's mind reads out each morning, where every
+order placed and not delivered is public.
 
 **They want:** their coupling assembly, which has been refused twice.
 
@@ -203,8 +203,8 @@ which is a quieter kind of power than tolls.
 **14.1 ly. The nearest lone white dwarf, visibly swallowing the wreckage of its
 own planets, throwing hard little shadows on everything.**
 
-Four rooms bolted to a rock. Two staff. No colony, no industry, no traffic.
+Three thousand people around a dead sun, asking fetches about doors. The Threshold's desk is four rooms at the cold end of it.
 
-**Run by:** Sep Anwar and Meriel Koll, in the sense that there is nobody else.
+**Run by:** Sep Anwar and Meriel Koll, in the sense that the town has never wanted the job.
 
-**They want:** a visitor. It has been a while.
+**They want:** a visitor who will carry something onward. It has been a while.

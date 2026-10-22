@@ -25,7 +25,7 @@ is not a plan, while nineteen children are still queued on an apron.
 
 So the correct feeling at the end of it is *this does not scale*, and the
 correct next thought belongs to the player and is
-[[How many of you are there?]] — four hundred first-throughs at the Nine, and
+[[How many of you are there]]? — four hundred first-throughs at the Nine, and
 nobody can tell them, because nothing crosses a door except a person who walks
 it.
 
@@ -47,4 +47,3 @@ because she is that kind of director.
 
 An adult carry costs the carrier real days off the end of a working life, and
 the player should be told the shape of that before the fourth one, not after.
-See [[The Cold Arm]].

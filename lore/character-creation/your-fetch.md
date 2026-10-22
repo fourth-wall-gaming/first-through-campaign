@@ -3,21 +3,22 @@ id: "myth-lore-7755c4a9f7ed"
 title: "Your Fetch"
 category: "character-creation"
 visibility: "player"
-summary: "Every first-through has one. Five species on five unrelated worlds, all of them complementary to us, and the talking is how the bond forms. An unbonded one is a book. A bonded one is your fetch -- the Threshold's forms say *second*, and nobody else ever does."
+summary: "Every first-through has one. Five peoples on five unrelated worlds, all of them complementary to us, and the talking is how the bond forms. A fetch is a person with their own memory, loyalties and council, not equipment and never stock. The old book trade was slavery and it ended within living memory. The Threshold's forms say *second*, and nobody else ever does."
 created_at: "2026-10-05T12:00:00"
 ---
 
 You do not get a fetch. A fetch happens to you, usually within a year of the
 hall test, and after that you are two.
 
-The Threshold's paperwork calls them *seconds*, which is accurate, dignified, and
+The Threshold's forms call them *seconds*, which is accurate, dignified, and
 not a word anybody has ever said out loud to a twelve-year-old holding one.
 
 ## What they are
 
 Five species that anybody has found, on five worlds with nothing in common, and
 every one of them does the thing described in [[What Crosses Easily]]: their
-cells take what is written into them and keep it, perfectly, for a lifetime.
+cells take in what happens around them and keep it, perfectly, for a lifetime.
+They decide what to do with it. Nobody writes to them.
 
 Where a first-through **carries**, a fetch **keeps**. Neither can do the other's
 half. A fetch cannot cross a door without you and you cannot hold a payload
@@ -35,13 +36,24 @@ A fetch does not talk because it is clever. It talks because it is **bonding**,
 and language is what the bond is made of — attention, back and forth, every day,
 for years. The grammar arrives with the bond. The jokes arrive a bit later.
 
-Which is why **a book does not speak.** A book is one of these creatures that
-nobody ever bonded with: kept as stock, fed, warm, written to by strangers,
-handed over at the far end. It has never been anyone's. There is nothing wrong
-with it and nothing was done to it.
+Which is why the old trade could go on as long as it did. A fetch who has never
+been bonded does not talk **to us**, because nobody gave them a reason to. They
+talk to each other all the time, in a way we never counted as speech, and for
+centuries nobody on our side was listening.
 
-First-throughs do not like being in the room with the stock. They are not able to
-say why in a way that satisfies a reader, and readers have stopped asking.
+For centuries these unbonded fetches were called **books**, and were kept, warm and
+fed, and handed along from station to station for whoever needed something drawn
+out of them. **It was slavery, and it ended thirty-four years ago.** See
+[[The Councils]]. There are fetches alive today who remember being sold.
+
+First-throughs do not like being in a room with one of the very old ones. They are
+not able to say why in a way that satisfies a reader, and readers have stopped
+asking. The old ones do not mind. They would just like to be spoken to.
+
+**Nobody writes to your fetch.** They observe, record, recall and share, and all of
+it is theirs. What they know, they know because they were there, and what they tell
+you, they chose to tell you. A fetch is the memory of the Causeway and is not
+anybody's equipment.
 
 **The bond is not a leash.** Your fetch argues, refuses, wanders off and takes
 an interest in things you do not. They can be furious with you. The one thing
@@ -92,10 +104,11 @@ twice in a row.
 
 ## The five peoples
 
-They are not companions. They are five sentient species who cannot cross a door
+They are not companions. They are five sentient peoples who cannot cross a door
 without us, and we cannot hold a payload without them, and everything else about
 the arrangement has been negotiated over nine hundred years by people with their
-own reasons for showing up.
+own reasons for showing up. Each has a council of its own, and all five sit on the
+one at the Nine. See [[The Councils]].
 
 Each of them has a culture, a language, a sense of humour, and a characteristic
 way of being insufferable.
@@ -211,6 +224,10 @@ first appears. **They are the only kind of person in human space who can move
 freely**, they have relatives and interests in four systems, and the five peoples
 between them are far better informed than any human government. See [[Carrying]].
 
+They also answer to a people. Your fetch is bonded to you and to nobody else, but
+there is a council behind them with an interest in what you are doing, and a
+fetch chooses what they share, with you as with anyone.
+
 They still cannot open a door. That is the half they need you for, and it is the
 whole basis of the arrangement — but do not mistake it for helplessness, and do
 not be surprised when yours turns out to have known something for a fortnight.
@@ -242,6 +259,6 @@ ones who are talking*, the cairns' as *those who wait*, and a glint's is a
 flash-pattern that does not survive being written down. Scatters have no singular
 form at all.
 
-The Threshold's paperwork says *second*. Some fetches find *fetch* affectionate.
+The Threshold's forms say *second*. Some fetches find *fetch* affectionate.
 Some find it precisely as patronising as it sounds, and will tell you which
 camp they are in about four minutes after meeting you.

@@ -21,7 +21,7 @@ a clock.
 Everything smells of hot metal and the stuff they use to cut it.
 
 In reach: the **muster board** in the mess, with the shelter drill times on it
-and the last three drills scratched out. The **ore hoist**, a vertical shaft
+and the last three drills marked in red. The **ore hoist**, a vertical shaft
 running four decks with a cage that can be ridden if you are prepared to be
 alone in the dark for twenty seconds. And a **window** on the upper processing
 deck, shuttered, which the crew keep shuttered, and through which you can watch

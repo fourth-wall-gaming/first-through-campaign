@@ -33,10 +33,10 @@ He is an exposition engine with a pleasant voice and perfect recall, and if you
 let him, he will answer everything, and the player will become a courier
 carrying his conclusions between adults.
 
-The guard is the second rule above and one more: **he cannot read a board a man
-is holding against his chest.** He has had cameras in that hall for nine
-centuries and he cannot see the spacing on Pell Ivor's sheet. The only way
-anybody gets that sheet is for a person to walk up and ask a man for it.
+The guard is the second rule above and one more: **he cannot hear a count a man
+is keeping under his breath.** He has had cameras in that hall for nine
+centuries and he cannot hear the spacing in Pell Ivor's count. The only way
+anybody gets that count is for a person to walk up and ask a man for it.
 
 Put that limit in front of the player early. It teaches them, in one scene,
 that the most knowledgeable thing in the building still needs somebody with

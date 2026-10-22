@@ -1,0 +1,79 @@
+{
+  "id": "myth-char-90574b6a0764",
+  "name": "Sabra Ode",
+  "type": "npc",
+  "status": "active",
+  "description": "Seventeen, the best the Yards have turned out in a generation, and nearly out of career. Leads the resistance to Sollen because she can go where the adults around her physically cannot.",
+  "narrative": "Sabra is two intakes above the player and one crossing closer to the end than she lets on. She is the reason the Yards have not simply been told what to do: when the assembly sent its offer, she was the one who read it out to the whole floor and then asked who wanted to answer.\n\nShe is not a general. She is a seventeen-year-old who is very good at one thing, and who has understood that the only people Sollen cannot reach are the ones who can leave the room.",
+  "characteristics": {
+    "STR": 11,
+    "CON": 12,
+    "SIZ": 9,
+    "DEX": 16,
+    "INT": 15,
+    "POW": 15,
+    "CHA": 14
+  },
+  "attributes": {
+    "action_points": 3,
+    "damage_modifier": "+0",
+    "experience_modifier": 0,
+    "healing_rate": 2,
+    "initiative_bonus": 16,
+    "luck_points": 3,
+    "magic_points": 15,
+    "movement": "6"
+  },
+  "skills": {
+    "Athletics": 80,
+    "Brawn": 40,
+    "Endurance": 62,
+    "Evade": 78,
+    "Willpower": 80,
+    "Conceal": 55,
+    "Deceit": 50,
+    "First Aid": 60,
+    "Influence": 72,
+    "Insight": 66,
+    "Locale": 70,
+    "Native Tongue": 68,
+    "Perception": 72,
+    "Stealth": 66,
+    "Unarmed": 62,
+    "Mechanisms": 60,
+    "Lore (Anchors)": 72,
+    "Lore (Threshold Procedure)": 62
+  },
+  "combat_styles": {
+    "Threshold Drill (stunner, baton, unarmed)": 70
+  },
+  "passions": {
+    "The Yards are ours": 85,
+    "Nobody gets sent where I would not go": 75,
+    "I am going to run out": 55
+  },
+  "powers": [
+    {
+      "name": "Savant",
+      "rule": "magic/power-savant",
+      "knack": "THE RECKONING -- she knows what a door will cost before she steps to it",
+      "boosts": [],
+      "limits": []
+    }
+  ],
+  "equipment": [
+    "Yards weave, patched at both elbows",
+    "A stunner she has fired twice",
+    "Her fetch's old harness, carried for a friend"
+  ],
+  "extras": {
+    "pronouns": "she/her",
+    "age": 17,
+    "character_type": "ally-resistance",
+    "trained_at": "61-cygni",
+    "faction": "sollens-faction",
+    "crossings": "very high for her age. She keeps her own count and tells nobody the number",
+    "game_system": "mythras"
+  },
+  "actor_notes": "CORE. She is the one the little ones look at in the corridor, and she has noticed that it is not going to be true for much longer. Whatever she is going to do, she has to do now.\n\nNATURE. Quick, dry and kind in a way she would deny. She is on the floor with the first-years more than she is in any office. She will tease you, once, then be completely serious about the thing you were actually afraid of.\n\nWOUND. Everybody who taught her has landlocked and stayed. They are good at being proud of her, and every one of them is standing on the near side of a door she goes through alone.\n\nWANTS. For the Yards to still belong to the children who are in them when she leaves. Not to win, exactly. To leave a place that can say no.\n\nPRESSURE. She gets very tidy and very polite, which is the opposite of her. A person she respects being wrong in public is what does it; she will not shout at them, she will explain, slowly, as if to a younger sibling, and it is hard to hear.\n\nWHAT SHE IS NOT. A general or a martyr. If the table starts treating her as the plan, give her a bad day. She is seventeen and she has a lot of people leaning on her, and the right answer to that is often to ask the player to carry one thing of hers, and mean it.\n\nSHE TREATS THE PLAYER AS A COLLEAGUE. Not a mascot and not a rescuer: someone the right age to be useful, whom she is slightly relieved to have found.\n\nKEY. \"Then ask them. Out loud, on the floor, and we will see who stays.\" "
+}

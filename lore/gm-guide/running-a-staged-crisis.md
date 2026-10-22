@@ -17,7 +17,7 @@ over as a posting.**
 
 Not because discovery is clever. Because of what it does to the evidence. A
 player who was told *sixty-one people, nineteen children, go and look* is
-executing a brief. A player who read a number off a board, asked a clerk a
+executing a brief. A player who read a number off the hall, asked a stranger a
 question, and worked out what it meant is holding something she assembled, and
 she will defend it, and she will carry it up two decks and say it to a
 director's face.
@@ -30,13 +30,13 @@ Same facts. Completely different player.
    and leave them. They are not waiting for anybody. `tick` moves the world
    whether the party is present or not, and `fire-beat --outcome narrated` is
    how a thing happens offscreen.
-2. **Give the crisis a history before first contact.** Not backstory — *records*.
-   Somebody wrote a report three years ago. Somebody killed a proposal four
-   times. Somebody measured a number at four in the morning and put it in a
-   queue. When the player finally arrives, the thing should have a paper trail
+2. **Give the crisis a history before first contact.** Not backstory — *testimony*.
+   Somebody got a finding out of the corpus three years ago. Somebody killed a proposal four
+   times. Somebody measured a number at four in the morning and sent it up the
+   line. When the player finally arrives, the thing should have a trail
    she can walk backwards along.
-3. **Put the evidence in public.** Not hidden, not gated behind a roll. On a
-   board in the hall, in an unopened file, in the mouth of a shift worker who is
+3. **Put the evidence in public.** Not hidden, not gated behind a roll. In the
+   hall's own numbers, in a summary nobody asked for, in the mouth of a shift worker who is
    frightened and talkative. The failure mode you are dramatising is nobody
    reading what is in front of them, and that only lands if it genuinely was.
 4. **Write several ways in, keyed to competence.** One per career if you can
@@ -89,8 +89,8 @@ honestly, and follow what the dice hand you.**
 
 Log the offscreen beats too, with `--visibility offscreen`. The player learns of
 them through consequences, never through a cutaway — but you need the record,
-because when they finally walk into the records office you want to be able to
-say exactly how long that report has been sitting there and who signed it.
+because when they finally walk into the reading room you want to be able to
+say exactly how long that finding has been sitting there and who attested it.
 
 See [[Entry Point: How Many]] for a worked example, and [[Playing the Old Man]]
 for the one NPC who will hand over every fact he has the moment somebody asks,
@@ -101,15 +101,15 @@ and who therefore has to be bounded by the hull rather than by coyness.
 The failure this campaign is most likely to fall into, because the setting
 rewards careful reading and the GM will enjoy it too much.
 
-A staged crisis leaves paper everywhere -- reports, minutes, stamps, registry
-extracts, positions recorded over somebody's name. All of that is good. It is
+A staged crisis leaves a trail everywhere -- findings, attestations, a mind's
+reply, positions attested over somebody's name. All of that is good. It is
 how the player gets traction on something too big to punch.
 
 **But paper is the key to a door. It is never the door.**
 
 The tell that you have drifted: two scenes in a row with no dice that mattered,
 no physical jeopardy, and nobody under forty driving the scene. If a negotiation
-has started to turn on authorship, standing, or whose name goes on a document,
+has started to turn on authorship, standing, or whose name is attested to a position,
 you have lost the thread.
 
 **Budget one talking-in-a-room scene, then cut.** Something happens, physically,

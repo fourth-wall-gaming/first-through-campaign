@@ -1,0 +1,72 @@
+{
+  "id": "myth-char-d276dcc8a0e8",
+  "name": "Tobin Ashe",
+  "type": "npc",
+  "status": "active",
+  "description": "An instructor at the Yards, landlocked these thirty years, the only adult in the resistance and the man who covered for Sabra Ode. He gave Lint the van Maanen's door and asked nothing for it.",
+  "narrative": "Tobin teaches the cold step. He is fifty-eight and has not crossed since the winter his hands began to go, and he runs a floor of children who can all do the one thing he cannot, with the patience of a man who has had a long time to be wrong about how that feels.\n\nHe does not take sides at the Yards, officially. He just never seems to be where the assembly's people look for him, and a particular door was not logged against a particular child.",
+  "characteristics": {
+    "STR": 14,
+    "CON": 13,
+    "SIZ": 14,
+    "DEX": 11,
+    "INT": 14,
+    "POW": 13,
+    "CHA": 12
+  },
+  "attributes": {
+    "action_points": 2,
+    "damage_modifier": "+1d2",
+    "experience_modifier": 0,
+    "healing_rate": 2,
+    "initiative_bonus": 12,
+    "luck_points": 2,
+    "magic_points": 13,
+    "movement": "6"
+  },
+  "skills": {
+    "Athletics": 50,
+    "Brawn": 58,
+    "Endurance": 60,
+    "Evade": 45,
+    "Willpower": 72,
+    "Conceal": 62,
+    "Deceit": 60,
+    "First Aid": 72,
+    "Influence": 62,
+    "Insight": 74,
+    "Locale": 75,
+    "Native Tongue": 70,
+    "Perception": 66,
+    "Stealth": 58,
+    "Unarmed": 55,
+    "Mechanisms": 70,
+    "Lore (Anchors)": 80,
+    "Lore (Threshold Procedure)": 72
+  },
+  "combat_styles": {
+    "Threshold Drill (baton, unarmed)": 58
+  },
+  "passions": {
+    "Nobody on my floor goes through unready": 80,
+    "I did my crossings, and now it is theirs": 60,
+    "Stay out of it, officially": 40
+  },
+  "powers": [],
+  "equipment": [
+    "Old Threshold weave, grown into his shape long ago",
+    "A baton he uses to point",
+    "A whistle",
+    "The keys to places the rig does not list"
+  ],
+  "extras": {
+    "pronouns": "he/him",
+    "age": 58,
+    "character_type": "ally-adult",
+    "trained_at": "61-cygni",
+    "faction": "sollens-faction",
+    "crossings": "none for thirty years",
+    "game_system": "mythras"
+  },
+  "actor_notes": "CORE. He spent his working life on the far side of doors and now has to stand at the near side of them every day, watching other people's children go. He has made peace with that by being the best at the part he can still do, which is making sure they come back.\n\nNATURE. Unhurried. Dry. He answers questions with a different question until you realise you have answered it yourself, and then he does not say so. The kind of man who is never asked to carry anything because he is already carrying it.\n\nWOUND. He was good, and then his hands went. There was no incident. A doctor looked at the number and that was the end of the only thing he had been. He does not talk about it and does not mind being asked.\n\nWANTS. For the Yards to keep being a place that sends children out and takes them back, and not a place that is told where to send them. He says it exactly like that, as a housekeeping matter.\n\nPRESSURE. He goes quiet and moves a little closer to whoever is in danger. When he finally speaks he sounds almost bored, which means he is as angry as he gets.\n\nWHAT HE DOES FOR THE RESISTANCE. Not much, openly. Looks away, leaves a door unlocked, forgets a name. He is the reason a seventeen-year-old can do what she is doing, and he would be embarrassed to be told so.\n\nTHE VAN MAANEN'S DOOR. He gave it to a child who needed it and asked nothing back. If that child comes back to see him he will be pleased and will not show it, and if they need something now he already knows what it costs and has decided to pay it.\n\nKEY. \"Go on. I'll be here.\" "
+}

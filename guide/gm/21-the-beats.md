@@ -23,8 +23,8 @@ being a lecture.
 interferes, and somebody is about to interfere.
 
 **Never narrate a beat the player is not in.** If an agenda advances offscreen,
-the player meets the *consequence* — a queue that has got longer, a sheet of
-paper in a drawer, somebody who has stopped being where they were.
+the player meets the *consequence* — a queue that has got longer, a question
+nobody asked, somebody who has stopped being where they were.
 
 **One talking-in-a-room scene, then cut.** The moment a beat becomes four
 adults agreeing about procedure, something physical happens instead. Paper is

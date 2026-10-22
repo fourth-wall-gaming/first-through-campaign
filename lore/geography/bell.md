@@ -38,12 +38,14 @@ Nobody has a good explanation for how a brain that size does that. The
 Threshold's xenobiology note on the subject is two pages long and the second
 page is questions.
 
-**And they are where books come from.**
+**And they are why the information economy of human space is in their hands.**
 
-A sixlimb's cells take a written payload and hold it, perfectly, for a lifetime.
-Every book in human space -- every placid palm-sized library a courier carries
-under their coat -- is a sixlimb, or bred from one, and the reader's trade has
-known it since the TRAPPIST-1 door opened.
+A sixlimb's cells take what it chooses to hold and keep it, perfectly, for a
+lifetime. For centuries humanity did not understand that a person was doing
+that. The old trade in them was slavery, and it ended
+within living memory. See [[The Councils]]. A sixlimb at the Nine today holds a
+great deal, shares it when it likes, and has views about the people who used to
+be on the other end.
 
 Here is the part nobody has a theory for.
 

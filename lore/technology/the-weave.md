@@ -3,12 +3,13 @@ id: "myth-lore-c594ab5a2972"
 title: "The Weave"
 category: "technology"
 visibility: "player"
-summary: "A living garment, grown rather than woven, and the only clothing that goes through a door. It is alive, which is the only reason it can go. The Threshold flash on the shoulder is the only part of it anybody regulates; the rest is yours, and most first-throughs dye theirs. It frays as you do, and the dye is what makes your mileage impossible to hide."
+summary: "A living garment, grown rather than woven, and yours: the one thing that follows a first-through through every door. It is alive, which is the only reason it can go, and the Threshold flash grows into it. The Threshold flash on the shoulder is the only part of it anybody regulates; the rest is yours, and most first-throughs dye theirs. It frays as you do, and the dye is what makes your mileage impossible to hide."
 created_at: "2026-10-06T12:00:00"
 ---
 
-Nothing dead crosses a door. So the one thing a first-through wears across is
-not made at all. It is **grown**.
+Nothing manufactured crosses a door. So the garment a first-through crosses in
+is not made at all. It is **grown**, it is alive, and it is the one thing that is
+yours and goes everywhere you do.
 
 ## What it is
 
@@ -23,13 +24,16 @@ hangs wrong on you and everybody can tell at a glance.
 
 It is not armour and it is not a pressure suit. What it does is hold your heat,
 keep you decent, seal a small cut, and -- the part that matters -- **be alive**,
-which is the only reason it is allowed through.
+which is the only reason it can go through. The pressure-skin, suit and hood are
+grown from the same stock, but those are the Threshold's and are issued; the
+weave is the one you keep. See [[A First-Through's Kit]].
 
 ## The flash, and everything else
 
 There is exactly one regulation part of a weave and it is the **Threshold flash
 at the left shoulder**: a small plain mark, grown into the cloth rather than
-sewn on, that cannot be faked because it cannot be attached. It is the thing a
+sewn on. The cloth is alive, so it takes the mark the way skin does, and it
+cannot be faked because it cannot be attached. It is the thing a
 tallyman looks at. It says this person is allowed through a door, and it is
 the same on a twelve-year-old at the Yards and on a courier of twenty-one with
 two thousand crossings.

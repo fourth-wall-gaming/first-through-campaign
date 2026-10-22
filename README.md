@@ -2,13 +2,16 @@
 
 **A Mythras Imperative campaign for [mythras-gm](https://github.com/fourth-wall-gaming/mythras-gm)
 — a first roleplaying game for 10-15 year olds, set in the real stellar
-neighbourhood. Nobody dies.**
+neighbourhood.**
 
 Nine hundred and seventy-five years ago an earlier, richer human expansion
 launched robotic seedships at a twentieth of lightspeed, each carrying one half
 of an anchor pair. Where a ship arrived and woke, a door opened. **That is the
 only way between stars.** Transit through a paired anchor is instantaneous;
-everything else obeys the speed of light, including radio.
+everything else obeys the speed of light, including radio. Inside every system
+it is a hypermodern civilisation of millions or billions with a mind that
+knows everything in it; across a door there is no signal of any kind, and only a
+child can carry a friend who remembers.
 
 So the inhabited galaxy is a **graph, not a volume**. A star two hundred light
 years off can be one step away while its nearest neighbour is unreachable.
@@ -85,7 +88,7 @@ from a risk that was named, in the fiction, before the player chose it. No
 unannounced trap, no ambush from a direction you had no way to check, and an
 honest answer every time you ask whether something can kill you.
 
-The tollkeepers carry shock batons and restraint loops and no blades, because a
+The tallymen carry shock batons and restraint loops and no blades, because a
 body is not a line on a manifest. That makes the professionals the safest people
 you will meet, and the frightened civilians and the physics the dangerous ones.
 

@@ -30,7 +30,7 @@ hands or on their back. That is the entire list.
 
 So:
 
-- **News travels at the speed of a courier getting round to it.** A letter from
+- **News travels at the speed of a courier getting round to it.** A message from
   Sirius to Earth takes as long as a fifteen-year-old takes to walk eight light
   years' worth of doors, which is about four minutes if nobody stops for lunch,
   and about nine days if everybody does.
@@ -52,29 +52,33 @@ A door is not tied to a *spot on the ground*. It is tied to a **depth** — to
 the sum of all the gravity in the neighbourhood, and it sits wherever that
 particular value currently is. Think of a water level rather than an address.
 
-Mostly that value drifts a few metres in a century and nobody writes anything
-down. Occasionally the sum has more than one answer, and the far mouth jumps to
+Mostly that value drifts a few metres in a century and nobody thinks about it. Occasionally the sum has more than one answer, and the far mouth jumps to
 a different one. That is called **straying**, and there is a word for it
 because it has happened often enough to need one.
 
-Which is why the most important object in human space is a board somebody
-writes on by hand.
+Which is why the most important thing in human space is not an object at all.
 
 ## The Standing
 
-Four metres of board on the gallery wall above the anchor hall at the Nine,
-with every door anybody knows about written up on it by hand, and where it
-currently goes, and who last stood it, and **which watch they stood it in**.
+It is something you **do**. You come home from a door, you go to the rail at the
+edge of the hall, and you say out loud where you went and what was there. The
+mind that runs the station hears you and has it for ever, in your own voice, and
+anybody aboard can ask.
 
-Four things on a line. People read the first two.
+There is no wall and no book and nothing to read. People from places with
+records keep looking for the object. There is no object.
 
-The fourth is the only one that matters, because a door tells you where it went
-*when somebody last looked*, and a door can stray in the time it takes you to
-walk down the stairs. A line is not true. A line is *when*.
+What you ask for is a door's **line**: where it goes, who last stood it, and
+**which watch they stood it in**. Four things. People only listen to the first
+two.
 
-There is a line on that board reading *Kapteyn's — no answer this watch*. It
-was written in the spring of year six hundred and two by somebody who expected
-to rub it out before supper. Eleven thousand people live behind it. The star is
+The fourth is the only one that matters, because a line tells you where a door
+went *when somebody last looked*, and a door can stray in the time it takes you
+to walk down the stairs. A line is not true. A line is *when*.
+
+There is a line in it reading *Kapteyn's — no answer this watch*. It
+was entered in the spring of year six hundred and two by somebody who expected
+to be overwriting it by the afternoon. Eleven thousand people live behind it. The star is
 still there. You can see it from the upper gallery.
 
 ## And nobody will ever build another one
@@ -82,7 +86,7 @@ still there. You can see it from the upper gallery.
 Not because the knowledge is lost. Any engineer at the Yards can tell you how a
 pair is made. Because the thing that would pay for a new door cannot be
 gathered *through* the doors there already are — no bulk, no fleet, no
-treasury, only bodies and boxes. Twenty-eight systems can never pool what
+treasury, nothing manufactured, only a child and what is alive in their arms. Twenty-eight systems can never pool what
 twenty-eight systems have.
 
 They attempted four thousand, one hundred and nineteen pairs. Three thousand

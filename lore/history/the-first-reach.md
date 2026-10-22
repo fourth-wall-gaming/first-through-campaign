@@ -73,8 +73,8 @@ who made it was nine centuries dead before it finished being kept.
 Here is the part that matters, and it is not a tragedy of lost knowledge. It is
 a trap in the shape of the network itself.
 
-**Only bodies and boxes cross a door.** Nothing else — no bulk, no fleet, no
-treasury. So twenty-eight systems can never pool what twenty-eight systems have.
+**Only a living thing crosses a door.** Nothing manufactured — no bulk, no fleet, no
+treasury, not a crate. So twenty-eight systems can never pool what twenty-eight systems have.
 Each one is as rich as it is and no richer, and the surplus required to make one
 anchor pair is larger than any single system has produced in nine hundred years.
 
@@ -92,3 +92,20 @@ reach, and it is nine hundred and seventy-five years old.
 Nobody says this out loud at a Threshold briefing, but every first-through works
 it out in their first year: we are not pioneers. We are the people living in the
 house, and the house was paid for by somebody who went without.
+
+## How the targets were chosen, and the shape of the mistake
+
+Three thousand ships, and somebody had to say where each one went.
+
+They aimed at what their instruments could see, which was big planets close in
+around bright stars. The small temperate worlds -- the ones with weather on
+them -- were the hardest thing in the sky to detect and most of them were
+simply not on anybody's list yet.
+
+So the Causeway is not a frontier anybody chose. It is the shape of
+twenty-first-century eyesight, frozen, and then built on for nine hundred
+years. See [[The Catalogue]].
+
+Nobody was careless and nobody was stupid. They spent everything they had,
+aiming as well as anybody could aim, and the aim was wrong in a way that only
+became visible long after every one of them was dead.

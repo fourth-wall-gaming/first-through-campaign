@@ -47,6 +47,16 @@
   "type": "npc",
   "status": "active",
   "combat_styles": {},
-  "powers": [],
+  "powers": [
+    {
+      "name": "Heightened Sense",
+      "rule": "magic/power-heightened-sense",
+      "knack": "THE LISTEN -- four years, four hundred crossings, and never once used for anything that mattered until d7",
+      "boosts": [],
+      "limits": [
+        "Never been checked against another Listen or any instrument. Nobody has ever been able to tell him whether he is right."
+      ]
+    }
+  ],
   "equipment": []
 }

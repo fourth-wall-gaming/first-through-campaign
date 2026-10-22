@@ -37,7 +37,7 @@ That is the thing Dray Enns felt as *two* and could not say.
 ## The number, and how it is built
 
 The number is the beat. It is not Vantage's alone and it must not be — it is
-three records that have never been in the same room:
+four readings that have never been in the same room:
 
 | Who | What they have |
 |---|---|
@@ -69,5 +69,5 @@ his card.
 
 Nothing yet. But the player now has a measurable quantity, a geometry, and a
 clock — and in a shed at the far end of that door there are two hundred years of
-the same measurement, kept by hand, filed and never read. See
+the same measurement, held by the keepers, never asked for. See
 [[Entry Point: How Many]] §3.

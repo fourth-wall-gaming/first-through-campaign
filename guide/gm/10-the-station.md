@@ -9,7 +9,7 @@ neighbours and the ninth is the Garden.
 
 Everything in Act One happens here or one step off it.
 
-<!-- illus: novels/first-through/illustrations/a-the-nine.jpg | Nine rings in the deck, eight queues moving, and the Standing on the gallery wall. -->
+<!-- illus: novels/first-through/illustrations/a-the-nine.jpg | Nine rings in the deck, eight queues moving, and the rail along the edge of the floor. -->
 
 ## How to run the hall
 
@@ -18,7 +18,7 @@ keep coming back.
 
 What makes it alive is **procedure happening around somebody who is not part of
 it**: nine queues, eight of them moving; a tallyman at the head of each with a
-board; a courier coming up out of a housing already peeling her weave off
+reader; a courier coming up out of a housing already peeling her weave off
 her forearms; two hall children at the bottom of a stair with a towel and a
 flask, because they know who is due.
 
@@ -40,10 +40,11 @@ stairs, a dim corner in every concourse, and duct grilles cut to scatter gauge
 on every deck — a mesh sized so a glint can pass and nothing larger can. There
 is a line in every budget argument about them and nobody has ever won it.
 
-**The Standing** is four metres of board on the gallery wall with every door in
-human space on it, kept by an eleven-year-old on a stool. Four things on a
-line; people read two; the fourth is the watch and it is the only one that
-matters.
+**The Standing** is not a thing, it is what a courier does on getting home: go
+to the rail, say out loud where you went. The station mind has it for ever in
+your own voice. An eleven-year-old sits the rail and asks the second question,
+and chases the doors nobody has reported on lately. Four things on a line; people
+listen to two; the fourth is the watch and it is the only one that matters.
 
 ## The entry on the station
 

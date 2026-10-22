@@ -5,7 +5,7 @@
 The job is simple to describe. You go first, and you come back and say what is
 there.
 
-Most days that means a parcel, a passenger, a tallyman's manifest and a
+Most days that means a lading, a passenger, a tallyman's say-so and a
 sandwich. Some days it means standing in front of a housing that has done
 something nobody has an explanation for, with four hundred people behind a
 cordon rope waiting to hear what you found.
@@ -17,14 +17,14 @@ disappointed by it.
 
 You step onto the plate. The air changes. You are somewhere else. There is no
 flash, no lurch, no tunnel, no noise. The only reason you know you crossed is
-that the smell is different and the boots you are wearing belong to a different
-station.
+that the smell is different and one of the boots you are wearing was grown at a
+different station.
 
-Nothing dead crosses with you — not clothes, not boots, not a bag — so you
-undress at one end and dress at the other, and every hall in human space has a
-rail of boots in it that nobody owns. The exception is your **weave**: a
-garment grown rather than made, close-fitting, long-sleeved, about the weight
-of a good shirt. It is alive, so it crosses.
+Nothing manufactured crosses with you — not a bag, not a tool, not a crate —
+so you cross in your **weave**: a garment grown rather than made,
+close-fitting, long-sleeved, about the weight of a good shirt. It is alive, so
+it crosses, and the Threshold's grown suit and hood go through on you the same
+way.
 
 One part of it is uniform and the rest is you. At the left shoulder is the
 Threshold flash, grown into the cloth, which cannot be faked because it cannot

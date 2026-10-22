@@ -59,3 +59,23 @@ answering, and eleven thousand people went with it, and the line on the board
 has never been changed.
 
 The star is still there. You can see it from a corridor.
+
+---
+
+## A note on the setting
+
+This book is a record of how sessions one to five were actually played, in
+2026, and it is left as it was played. The setting was substantially rewritten
+afterwards, so a few things here are no longer true of the world: couriers
+undress at a door and leave their boots in a locker, the Standing is a board on
+a wall, van Maanen's is a station with two staff on it, and there is a cold ache
+in a courier's arm that nobody can explain.
+
+None of those are true any more. The weave is the only thing you were ever
+issued that no station issued you and it crosses with you; the boots are grown
+and they come too; the Standing is alive; van Maanen's is a town of three
+thousand; and the ache in the arm turned out to be a door, which is a different
+book.
+
+Read this as what happened, not as how the world works. The worldbook in
+`lore/` is the world.

@@ -27,9 +27,9 @@ watch.
 
 ## Boots
 
-Nothing crosses a door, so everything you wear is issued on the far side and
-handed back when you leave — except that halls are chaotic and boots go missing,
-and over a career you accumulate a set from everywhere.
+Your boots are grown, like your weave, so they cross. Each station issues you a
+pair in its own cut and lets you keep them, and over a career you accumulate a
+set from everywhere.
 
 A first-through's boots are their whole record. Cut, stitch and sole say which
 systems, and anybody in the hall can read them at ten paces.
@@ -92,13 +92,14 @@ with a good one never buys their own supper.
   first-throughs use it like punctuation. Anybody old enough to have lost
   somebody behind a closed door will stop the conversation and say *language*,
   and mean it.
-- **Stood** — checked the Standing. *Have you stood this morning?* Asked the way
-  other people ask about the weather, because it matters more.
+- **Stood** — gone to the rail and said out loud where you went. *Have you stood
+  this morning?* Asked the way other people ask about the weather, because it
+  matters more. It is not a thing you read; there is nothing to read.
 
 ## Where you will be
 
-**Under the Standing**, because everybody ends up there and all the arguments
-start there. **The growing decks**, warm and green and smelling of soil, where
+**On the rail**, because everybody ends up there and all the arguments start
+there -- it is where you find out what everybody else found. **The growing decks**, warm and green and smelling of soil, where
 everybody sneaks and the growers pretend not to notice. **The upper gallery** when
 the shutters are open, which is rare and worth it. And the **bunkroom of whichever
 door-run you came up with**, which is your tribe, for life, and which has a

@@ -14,8 +14,8 @@ created_at: "2026-10-06T12:00:00"
 A routine run. Somebody needs a reader fetched from Procyon and brought back, and
 the player is on the rota.
 
-**Nothing goes wrong.** Play the crossing properly -- the dressing room, the
-moment the quiet goes out and comes back, the borrowed boots on the far side --
+**Nothing goes wrong.** Play the crossing properly -- the plate, the
+moment the quiet goes out and comes back, the different smell on the far side --
 and let it simply work.
 
 This beat exists so the player knows what the job feels like when it is good, and

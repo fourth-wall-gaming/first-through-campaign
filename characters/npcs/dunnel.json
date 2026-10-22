@@ -4,7 +4,7 @@
   "type": "npc",
   "status": "active",
   "description": "Calloway's deputy at the Nine. Runs the floor of an evacuation from a hall she cannot step into, calls the running total out loud so four hundred children know where they are, and tells people the cost of the job they just volunteered for before they do it.",
-  "narrative": "Thirty-eight. Aged out at twenty-one like everybody, took the desk, and has\nnever once been heard to be sentimental about either.\n\nWhat she is for is the floor. Calloway decides and Dunnel runs it: the order of\na queue, who is on which side, who has been through too many times in an hour\nand is going to be told to sit down. She is very good at it and the reason is\nunglamorous -- she keeps the count in her head and in writing, simultaneously,\nand she says it out loud at intervals whether or not anybody asked.\n\nIn a hall with four hundred first-throughs in it, the running total said loudly\nevery few minutes is the single most steadying thing available, and she worked\nthat out on her own years ago.",
+  "narrative": "Thirty-eight. Aged out at twenty-one like everybody, took the desk, and has\nnever once been heard to be sentimental about either.\n\nWhat she is for is the floor. Calloway decides and Dunnel runs it: the order of\na queue, who is on which side, who has been through too many times in an hour\nand is going to be told to sit down. She is very good at it and the reason is\nunglamorous -- she keeps the count in her head and in her fetch, simultaneously,\nand she says it out loud at intervals whether or not anybody asked.\n\nIn a hall with four hundred first-throughs in it, the running total said loudly\nevery few minutes is the single most steadying thing available, and she worked\nthat out on her own years ago.",
   "characteristics": {
     "STR": 10,
     "CON": 12,
@@ -51,8 +51,8 @@
   },
   "powers": [],
   "equipment": [
-    "A board with the running total on it",
-    "A pen she does not lend"
+    "A hand display with the running total on it",
+    "A watch she does not lend"
   ],
   "fatigue": "Fresh",
   "luck_current": 3,

@@ -15,7 +15,7 @@ So: you are standing at the Nine. Your handler is three metres away. You step
 through to a station ten light years off. You are now, in every sense that
 matters, **ten years away from the sound of their voice**. Shout into the radio
 and they will hear you in a decade. There is no relay, no repeater, no clever
-trick — the trick was the door, and the door only takes bodies and boxes.
+trick — the trick was the door, and the door only takes the living.
 
 Could you not simply walk back and ask? Yes. That is exactly what people do,
 and it is why couriers exist and why a first-through's debrief is a formal

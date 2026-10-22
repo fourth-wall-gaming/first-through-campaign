@@ -14,7 +14,7 @@ created_at: "2026-10-08T12:00:00"
 The cheapest way into the whole act, available to any character who will talk to
 a stranger, and it costs the player nothing but a question.
 
-Two Wolf Gate loaders go past with crates, mid-grumble: *it's sticky again, I
+Two Wolf Gate loaders go past with a loaded sled, mid-grumble: *it's sticky again, I
 stood there like an idiot.* Follow them and they are delighted to explain, at
 length, because they are loaders with a grievance and somebody is actually
 asking.
@@ -52,11 +52,11 @@ ominous, and the GM must not put a significant pause anywhere in it.
 
 The player should walk away from this beat **feeling better** about a door they
 were not worried about. That is the correct outcome and it is what makes
-[[Pell Ivor's board]] land when it comes.
+[[Pell Ivor's count]] land when it comes.
 
 ## The one that matters later
 
-The older loader is on the stair again at dawn the next day, with a crate on his
+The older loader is on the stair again at dawn the next day, with a sack on his
 shoulder and a queue of twenty people going nowhere behind him, and all he says
 is *sticky*, and goes back to waiting.
 

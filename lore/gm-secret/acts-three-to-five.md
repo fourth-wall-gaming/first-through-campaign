@@ -3,7 +3,7 @@ id: "myth-lore-d486f7ce9720"
 title: "Acts Three to Five"
 category: "gm-secret"
 visibility: "gm"
-summary: "The arc beyond v1, documented so the release is finishable and the shape is on record. NOT IMPLEMENTED -- no agendas, beats or facts exist for any of this."
+summary: "The arc beyond v1, documented so the release is finishable and the shape is on record: a race for the science of closing doors, with the Quorum suppressing it, the Second Hand fronting for him, and the Late doing his walking. NOT IMPLEMENTED -- no agendas, beats or facts exist for any of this."
 created_at: "2026-10-05T12:00:00"
 ---
 
@@ -11,20 +11,31 @@ created_at: "2026-10-05T12:00:00"
 locations in this repository for anything on this page. It is here so the arc is
 on record and so a GM who runs Acts 1-2 knows what they are setting up.
 
+**The shape of the back half is a race, not an atrocity.** Nobody is closing
+doors. Nobody can; see [[The Open Problem]]. What is happening is that the
+science that would let somebody do it is being worked on in twenty-eight places
+at once by people who cannot meet, and one man is trying to make sure it never
+arrives, or arrives in his hands. See `lore/gm-secret/the-quorum.md`.
+
 ## Act 3 -- the frontier
 
-[[TRAPPIST-1]] and the newest doors. Somebody is running **pattern transfer**
-as contraband -- the Second Hand, who are the Quorum's franchise. It still needs
-an anchor, because the classical channel it depends on has to cross one; what it
-bypasses is the **checkpoint**, since what steps through the door is data rather
-than a person on a manifest.
+[[TRAPPIST-1]] and the newest doors. The Second Hand is the Quorum's
+franchise, and in this act it gets a **face that is not his**: a living,
+frightened, local boss at a frontier berth who is genuinely a criminal, genuinely
+good at it, and has no idea whose money she is spending. She is who the player
+finds first. She is the person who can be arrested.
 
-It is illegal for good reasons and the reasons are the scenario. They keep
-copies.
+Behind her, taken people. The Second Hand also holds people, and some of
+them are taken into a room and do not come out as themselves. It is illegal for good
+reasons and the reasons are the scenario. What the player is looking for is
+a person who has been overwritten, and the physical tells that give it away. If the table asks why he doesn't simply ride a
+fetch, see the ruling in `lore/gm-secret/the-quorum.md`: nobody writes to a
+fetch, and his pattern travels only with those that agreed to carry it.
 
-This is also the act in which the player meets the Quorum: a tired, courteous
-man in his sixties, physically unremarkable, who offers them a job and is not
-lying about any of it.
+This is also the act in which the player meets the Quorum, or one of him: a
+tired, courteous man in his sixties, physically unremarkable, who offers them a
+job and is not lying about any of it. And it is the act in which **the Late
+first arrive**, one at a time, with nothing to deliver. See `lore/gm-secret/the-late.md`.
 
 And the thread on what [[Tolk]] is opens properly. See
 `lore/gm-secret/what-tolk-is.md`.
@@ -35,9 +46,15 @@ And the thread on what [[Tolk]] is opens properly. See
 one anchor everybody has waited nine hundred and seventy-five years for, and
 [[Ferren]] has had his name in for the posting since before the player qualified.
 
+The race for the science tightens with it. Somebody inside a housing at the new
+door will have the best reading of the inside of a mouth anybody has ever taken,
+and the data is worth killing for in one direction and burying in the other.
+The Quorum suppresses what he can reach and sends the Late for what he cannot.
+
 The player works out how many of him there are -- and that two of them are
 giving contradictory orders, because they have been out of contact for three
-years.
+years. They can also work out, from records the Tally already holds, the shape
+of the network. And they can tell a Late the truth about promotion.
 
 ## Act 5 -- through
 

@@ -14,12 +14,12 @@ Sirius itself comes through the viewports as a hard blue-white that the filters
 never quite tame, with a small mean white point beside it that everybody has
 been told not to look at.
 
-<!-- illus: novels/first-through/illustrations/a-the-nine.jpg | Nine doors, eight queues moving, and the Standing on the gallery wall. -->
+<!-- illus: novels/first-through/illustrations/a-the-nine.jpg | Nine doors, eight queues moving, and the rail along the edge of the floor. -->
 
 ## The hall
 
 Nine housings in a ring in the floor, nine queues, hot metal, and a tallyman at
-the head of every line with a board. The decks are named for their doors and
+the head of every line with a reader. The decks are named for their doors and
 each one smells like the place it goes:
 
 - **The Procyon Stair** is a suburb. Five light years, the shortest hop on the
@@ -29,8 +29,9 @@ each one smells like the place it goes:
 - **The Wolf Gate** queue is shift workers, the roughest line in the hall, and
   — everybody agrees furiously — the best food on the station.
 
-Above it all, on the gallery wall, is the Standing, kept by a child on a stool
-who will tell you off if you read it wrong.
+At the edge of the floor is the rail, where couriers coming off a plate say out
+loud where they went, with a child sitting it who will tell you off if you only
+listen to half of what she gives you.
 
 ## The architecture is built for five peoples
 

@@ -1,7 +1,7 @@
 ---
 id: "myth-beat-7f20c5d84a13"
 title: "Somebody with the Listen"
-summary: "A knack that reads a door from outside it, used on an unsettled housing for the first time, and the two words it costs him to get out"
+summary: "A knack that reads a door from outside it, used on an unsettled housing for the first time, and the eight words it costs him to get out"
 status: "pending"
 when: "d2/day"
 trigger: "player sends for a knack rather than stepping up themselves"
@@ -42,12 +42,12 @@ progress and he is the first person in nine centuries to have put a hand on one
 while it was happening. See [[The Hesitation]] and [[Straying]].
 
 He does not know any of that. Nobody in the hall does. The player is holding
-three words and a man with a nosebleed.
+eight words and a man with a nosebleed.
 
 ## Do not
 
 - Do not have him recover and explain it. The whole value of the beat is that
-  the best instrument available produced three words and a casualty.
+  the best instrument available produced eight words and a casualty.
 - Do not have anybody in the hall interpret it out loud. Somebody will *guess*,
   loudly and wrongly, and that is good.
 - Do not make him pitiable. He went because he was asked, he would go again, and

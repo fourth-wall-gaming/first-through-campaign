@@ -15,7 +15,9 @@
     "opened_years_ago": null,
     "sources": [
       "https://en.wikipedia.org/wiki/Sun"
-    ]
+    ],
+    "population": 11000000000,
+    "doors": 7
   },
   "alpha-centauri": {
     "name": "Alpha Centauri",
@@ -38,7 +40,9 @@
     "sources": [
       "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Cen%20A",
       "https://en.wikipedia.org/wiki/Alpha_Centauri"
-    ]
+    ],
+    "population": 4000000000,
+    "doors": 4
   },
   "barnards-star": {
     "name": "Barnard's Star",
@@ -60,7 +64,9 @@
     "sources": [
       "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=NAME%20Barnard%27s%20star",
       "https://en.wikipedia.org/wiki/Barnard%27s_Star"
-    ]
+    ],
+    "population": 180000000,
+    "doors": 2
   },
   "luhman-16": {
     "name": "Luhman 16",
@@ -78,7 +84,9 @@
     "sources": [
       "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=NAME%20Luhman%2016",
       "https://en.wikipedia.org/wiki/Luhman_16"
-    ]
+    ],
+    "population": 90000,
+    "doors": 1
   },
   "wise-0855": {
     "name": "WISE 0855-0714",
@@ -90,12 +98,17 @@
       "WISE 0855-0714"
     ],
     "planets": [],
-    "note": "The coldest known object outside the solar system, about 270 K and a few Jupiter masses, with water-ice clouds. A dark drifter.",
+    "note": "The coldest known object outside the solar system: about 250 K, best-fit 225-260 K, and between two and ten Jupiter masses depending on its age -- which means nobody can say whether it is a brown dwarf or a gas giant thrown out of somewhere else. Third-highest proper motion in the sky after Barnard's Star and Kapteyn's Star. A dark drifter, and it is running.",
     "opened_years_ago": 826,
     "sources": [
+      "https://arxiv.org/pdf/1404.6501",
+      "https://en.wikipedia.org/wiki/WISE_0855%E2%88%920714",
+      "https://en.wikipedia.org/wiki/WISE_0855-0714",
       "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=WISEA%20J085510.74-071442.5",
-      "https://en.wikipedia.org/wiki/WISE_0855-0714"
-    ]
+      "https://www.sci.news/astronomy/science-wise08550714-fourth-closest-star-system-01886.html"
+    ],
+    "population": 40000,
+    "doors": 1
   },
   "wolf-359": {
     "name": "Wolf 359",
@@ -115,7 +128,9 @@
     "sources": [
       "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=Wolf%20359",
       "https://en.wikipedia.org/wiki/Wolf_359"
-    ]
+    ],
+    "population": 150000000,
+    "doors": 1
   },
   "lalande-21185": {
     "name": "Lalande 21185",
@@ -135,7 +150,9 @@
     "sources": [
       "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=HD%2095735",
       "https://en.wikipedia.org/wiki/Lalande_21185"
-    ]
+    ],
+    "population": 700000000,
+    "doors": 1
   },
   "sirius": {
     "name": "Sirius",
@@ -153,7 +170,9 @@
     "sources": [
       "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20CMa",
       "https://en.wikipedia.org/wiki/Sirius"
-    ]
+    ],
+    "population": 40000,
+    "doors": 9
   },
   "gliese-65": {
     "name": "Gliese 65",
@@ -176,7 +195,9 @@
     ],
     "orbital_period_years": 26.5,
     "eccentricity": 0.62,
-    "semimajor_axis_au": 5.5
+    "semimajor_axis_au": 5.5,
+    "population": 12061,
+    "doors": 2
   },
   "epsilon-eridani": {
     "name": "Epsilon Eridani",
@@ -195,7 +216,9 @@
     "sources": [
       "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Eri",
       "https://en.wikipedia.org/wiki/Epsilon_Eridani"
-    ]
+    ],
+    "population": 1000000000,
+    "doors": 2
   },
   "gliese-887": {
     "name": "Gliese 887",
@@ -217,7 +240,9 @@
     "sources": [
       "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=HD%20217987",
       "https://en.wikipedia.org/wiki/Gliese_887"
-    ]
+    ],
+    "population": 4000,
+    "doors": 1
   },
   "ross-128": {
     "name": "Ross 128",
@@ -236,7 +261,9 @@
     "sources": [
       "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=Ross%20128",
       "https://en.wikipedia.org/wiki/Ross_128"
-    ]
+    ],
+    "population": 600000000,
+    "doors": 1
   },
   "61-cygni": {
     "name": "61 Cygni",
@@ -254,7 +281,9 @@
     "sources": [
       "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%2061%20Cyg%20A",
       "https://en.wikipedia.org/wiki/61_Cygni"
-    ]
+    ],
+    "population": 2000000000,
+    "doors": 4
   },
   "procyon": {
     "name": "Procyon",
@@ -272,7 +301,9 @@
     "sources": [
       "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20CMi",
       "https://en.wikipedia.org/wiki/Procyon"
-    ]
+    ],
+    "population": 1200000000,
+    "doors": 1
   },
   "gl-725": {
     "name": "Gl 725 (Struve 2398)",
@@ -293,7 +324,9 @@
     "sources": [
       "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=HD%20173739",
       "https://en.wikipedia.org/wiki/Struve_2398"
-    ]
+    ],
+    "population": 200000000,
+    "doors": 1
   },
   "epsilon-indi": {
     "name": "Epsilon Indi",
@@ -314,7 +347,9 @@
     "sources": [
       "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Ind",
       "https://en.wikipedia.org/wiki/Epsilon_Indi"
-    ]
+    ],
+    "population": 800000000,
+    "doors": 1
   },
   "tau-ceti": {
     "name": "Tau Ceti",
@@ -336,7 +371,9 @@
     "sources": [
       "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tau%20Cet",
       "https://en.wikipedia.org/wiki/Tau_Ceti"
-    ]
+    ],
+    "population": 3000000000,
+    "doors": 3
   },
   "yz-ceti": {
     "name": "YZ Ceti",
@@ -357,7 +394,9 @@
     "sources": [
       "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=V%2A%20YZ%20Cet",
       "https://en.wikipedia.org/wiki/YZ_Ceti"
-    ]
+    ],
+    "population": 300000000,
+    "doors": 1
   },
   "teegardens-star": {
     "name": "Teegarden's Star",
@@ -373,12 +412,14 @@
       "Teegarden c",
       "Teegarden d"
     ],
-    "note": "A very quiet M-dwarf with two Earth-mass planets, both possibly habitable.",
+    "note": "A very quiet M-dwarf with two Earth-mass planets, both possibly habitable. Its single door strayed into rock about three centuries ago and strayed back out within living memory. Its god is its own system mind: see The Theocracy.",
     "opened_years_ago": 725,
     "sources": [
       "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=NAME%20Teegarden%27s%20Star",
       "https://en.wikipedia.org/wiki/Teegarden%27s_Star"
-    ]
+    ],
+    "population": 250000000,
+    "doors": 1
   },
   "van-maanens-star": {
     "name": "van Maanen's Star",
@@ -395,7 +436,9 @@
     "sources": [
       "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=Wolf%2028",
       "https://en.wikipedia.org/wiki/Van_Maanen_2"
-    ]
+    ],
+    "population": 3000,
+    "doors": 2
   },
   "gliese-876": {
     "name": "Gliese 876",
@@ -417,7 +460,9 @@
     "sources": [
       "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=BD-15%206290",
       "https://en.wikipedia.org/wiki/Gliese_876"
-    ]
+    ],
+    "population": 450000000,
+    "doors": 1
   },
   "40-eridani": {
     "name": "40 Eridani",
@@ -436,7 +481,9 @@
     "sources": [
       "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20omi02%20Eri",
       "https://en.wikipedia.org/wiki/40_Eridani"
-    ]
+    ],
+    "population": 900000000,
+    "doors": 1
   },
   "trappist-1": {
     "name": "TRAPPIST-1",
@@ -461,7 +508,9 @@
     "sources": [
       "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=TRAPPIST-1",
       "https://en.wikipedia.org/wiki/TRAPPIST-1"
-    ]
+    ],
+    "population": 60000000,
+    "doors": 1
   },
   "hd-69830": {
     "name": "HD 69830",
@@ -482,7 +531,9 @@
     "sources": [
       "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=HD%2069830",
       "https://en.wikipedia.org/wiki/HD_69830"
-    ]
+    ],
+    "population": 350000000,
+    "doors": 1
   },
   "55-cancri": {
     "name": "55 Cancri",
@@ -506,7 +557,9 @@
     "sources": [
       "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20rho01%20Cnc",
       "https://en.wikipedia.org/wiki/55_Cancri"
-    ]
+    ],
+    "population": 500000000,
+    "doors": 1
   },
   "hd-40307": {
     "name": "HD 40307",
@@ -530,7 +583,9 @@
     "sources": [
       "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=HD%2040307",
       "https://en.wikipedia.org/wiki/HD_40307"
-    ]
+    ],
+    "population": 400000000,
+    "doors": 1
   },
   "gj-1214": {
     "name": "GJ 1214",
@@ -549,7 +604,9 @@
     "sources": [
       "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=G%20139-21",
       "https://en.wikipedia.org/wiki/GJ_1214"
-    ]
+    ],
+    "population": 120000000,
+    "doors": 1
   },
   "lhs-1140": {
     "name": "LHS 1140",
@@ -569,7 +626,9 @@
     "sources": [
       "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=G%20268-38",
       "https://en.wikipedia.org/wiki/LHS_1140"
-    ]
+    ],
+    "population": 0,
+    "doors": 0
   },
   "kapteyns-star": {
     "name": "Kapteyn's Star",
@@ -588,6 +647,8 @@
       "https://en.wikipedia.org/wiki/Kapteyn%27s_Star",
       "https://arxiv.org/abs/2103.02709"
     ],
-    "dark_since": 602
+    "dark_since": 602,
+    "population": 11000,
+    "doors": 1
   }
 }

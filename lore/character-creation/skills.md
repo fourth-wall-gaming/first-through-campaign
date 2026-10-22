@@ -75,16 +75,17 @@ Chosen three at a time, from Culture and from Career.
 | Navigation | INT+POW | in-system, and across a strayed world's surface |
 | Oratory | POW+CHA | |
 | Pilot | DEX+INT | torch craft, tugs, aerostats |
-| **Reading** | **INT+POW** | the book trade: writing a payload into a genome and getting it out again |
+| **Reading** | **INT+POW** | asking a fetch for what it holds, and telling what the answer is worth |
 | Science (…) | INT×2 | specify: physics, biology, xenobiology, statistics |
 | Sleight | DEX+CHA | |
 | Streetwise | POW+CHA | |
 | Survival | CON+POW | |
 | Track | INT+CON | |
 
-**Reading** is the one that only exists here. A reader can write into a fetch who
-consents and get it back out at the far end, and the trade of writing and the
-trade of reading dislike each other on principle.
+**Reading** is the one that only exists here. A reader knows how to ask a fetch
+for what it holds, how to tell when the answer is the whole of it, and how to
+read the drift in what comes back. Nobody writes to a fetch; a reader is the
+best person alive at requesting, and fetches who like one will say so.
 
 No Magic skill. Nothing in this setting is magic, and the knacks are not a skill
 — see [[The Knacks]].

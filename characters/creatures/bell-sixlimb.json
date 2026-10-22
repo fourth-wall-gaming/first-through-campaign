@@ -3,8 +3,8 @@
   "name": "Bell Sixlimb",
   "type": "npc",
   "status": "active",
-  "description": "Tolk's species: cat-sized, six-limbed, four-handed, from the terminator band of a TRAPPIST-1 world. Wild, not made. Their cells keep a written payload for a lifetime, which is the same strangeness that lets a human child open a door.",
-  "narrative": "Invented life, placed under the constraint in the gm-secret notes: the terminator\nband of a tidally-locked TRAPPIST-1 world is a real environment with real\nperpetual wind and a real survivable temperature ring, and nobody has observed\nits surface.\n\nSixlimbs brachiate, nest in wind-shadow, and are social in groups of five to\nnine. They acquire language -- actual syntax, not mimicry -- from whoever is\naround.\n\nAnd their cells hold what is written into them, perfectly, for life. Which is\nthe same impossible housekeeping a first-through's body performs on the damage a\ncrossing does. Two species, forty light years apart, no common ancestor.\n\nNobody engineered this. That is the part that keeps people awake.",
+  "description": "Tolk's species: cat-sized, six-limbed, four-handed, from the terminator band of a TRAPPIST-1 world. Wild, not made. Their cells keep what they choose to hold for a lifetime, which is the same strangeness that lets a human child open a door.",
+  "narrative": "Invented life, placed under the constraint in the gm-secret notes: the terminator\nband of a tidally-locked TRAPPIST-1 world is a real environment with real\nperpetual wind and a real survivable temperature ring, and nobody has observed\nits surface.\n\nSixlimbs brachiate, nest in wind-shadow, and are social in groups of five to\nnine. They acquire language -- actual syntax, not mimicry -- from whoever is\naround.\n\nAnd their cells hold what they choose to hold, perfectly, for life. Which is\nthe same impossible housekeeping a first-through's body performs on the damage a\ncrossing does. Two species, forty light years apart, no common ancestor.\n\nNobody engineered this. That is the part that keeps people awake.",
   "characteristics": {
     "STR": 5,
     "CON": 11,

@@ -22,7 +22,7 @@ places say a date.
 
 In reach: the **market roof**, climbable, and the whole settlement visible from
 it. The **water channel**, which the children use as a road and which goes under
-the street twice. And the **requisition board** outside the holding office,
-where the list of things ordered and not arrived is pinned up in full public
+the street twice. And the **requisition list** outside the holding office,
+where the things ordered and not arrived are shown in full public
 view — a local custom, and the fastest way for a visitor to learn exactly how
 thin the margin here has become.

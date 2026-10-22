@@ -5,7 +5,7 @@ category: "geography"
 visibility: "player"
 system: "sirius"
 sources: ["https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20CMa", "https://en.wikipedia.org/wiki/Sirius"]
-summary: "Two kilometres of turning cylinder at Sirius, 8.6 light years out: forty thousand people, nine doors, no ground, and a board on the wall that is the most important object in human space."
+summary: "Two kilometres of turning cylinder at Sirius, 8.6 light years out: forty thousand people, nine doors, no ground, and a rail at the edge of the hall where couriers say out loud where they have been."
 created_at: "2026-10-06T12:00:00"
 ---
 
@@ -32,17 +32,20 @@ It never closes. There is no hour at which the hall is empty, and the sound of i
 peoples all talking at once — is the first thing a visitor notices and the last
 thing they stop hearing.
 
-Over the hall, on the gallery wall, is **the Standing**: a board four metres
-wide on which every door in human space is written up with where it currently
-goes. It is
-updated whenever a courier comes in with better information. It is the single most
-important object in the Causeway and it is written by hand, because a line can
-be corrected in eleven seconds by somebody standing on a stool -- and because
-[[Old Man Sirius]] is not permitted to write on it. A door's far side is
-courier testimony, and a mind may not enter testimony it does not have.
+At the edge of the hall floor is a length of rail, and the rail is where **the
+Standing** happens: a courier comes off a plate, goes to it, and says out loud
+where they have been. There is nothing there to look at. The mind that runs the
+station hears it and has it for ever, in that courier's own voice, and the
+**line** on that door -- where it goes, who stood it, which watch -- is
+superseded in the time it takes to say a sentence. See [[The Standing]].
 
-People stop under it without meaning to. Arguments start there. The Threshold's
-ready room has a window onto it.
+Somebody is on the rail at every hour to ask the second question, because a
+courier off a hard crossing will give you four words and go to bed. At the Nine
+that is an eleven-year-old.
+
+People stop at the rail without meaning to. Arguments start there, because it is
+where everybody finds out what everybody else found. The Threshold's ready room
+has a window onto it.
 
 ## The Old Man
 

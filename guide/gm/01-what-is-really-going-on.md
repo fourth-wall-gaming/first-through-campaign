@@ -41,13 +41,15 @@ and entirely avoidable and both of those are true.
 
 **Act Three — the Quorum.** The villain, the temptation, and the answer. He is
 courteous, tired, physically unremarkable, and in more than one place. He does
-not want to rule anything. He wants to keep travelling, and he found the only
-way, and it cost him being a person.
+not want to rule anything. He wants the Causeway small enough to hold himself
+together across, and he has spent sixty years making sure nobody learns how to
+move a door before he does. He found the only way to be in more than one place,
+and it cost him being a person.
 
 The climax is a race. LHS 1140's door arrives — the first new door in
-twenty-five years and the first in history to open onto a living world. He
-intends to be the first mind through it. A fifteen-year-old with a fetch
-intends otherwise.
+twenty-five years and the first in history to open onto a living world. A
+bigger Causeway is one he cannot keep in step with himself, so he needs it late,
+shut, or in his hands. A fifteen-year-old with a fetch intends otherwise.
 
 It ends with a door opening, honestly, with a child standing in it.
 
@@ -63,15 +65,15 @@ potential reshapes with the orbits around it, and orbits are the most
 predictable things in the universe. Anywhere somebody has kept a long enough
 record, the pattern is sitting in it, unread.
 
-The reason nobody knows is not conspiracy. It is that nobody logs a sticky
+The reason nobody knows is not conspiracy. It is that nobody raises a sticky
 door, because an inconvenience that resolves itself is the definition of the
-thing nobody writes down — and the only people who keep records long enough to
-show the cycle are people nobody has ever asked for them.
+thing nobody mentions — and the only people who hold a record long enough to
+show the cycle are people nobody has ever asked.
 
 Which is also what the campaign is *about*, underneath: **information that
-exists, is available, and goes unread.** Pell Ivor's board. Sep Anwar's four
-reports. A child teaching herself to read flash off a stool. Two hundred years
-of handwriting in a shed at Ladder.
+exists, is available, and goes unread.** Pell Ivor's count. Sep Anwar's four
+findings. A child teaching herself to read flash off a stool. Two hundred years
+of testimony grown in a shed at Ladder.
 
 If a player ever picks one of those up and reads it, give them everything. That
 is the game working.

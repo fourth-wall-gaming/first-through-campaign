@@ -53,7 +53,7 @@ used to be and why it did not work.
 - **Ladder is in danger.** Sixty-one people, a welded roof, no hardened shelter,
   and the worst flare season in the binary's cycle arriving. They have been lucky
   for two hundred years and they know precisely how lucky, because they are the
-  ones keeping the record.
+  ones watching the twins.
 
 **And the shift is the only reason they can be saved at all.** Sixty-one people
 who could never have been evacuated -- no door, a hundred and ninety million
@@ -78,7 +78,7 @@ player is looking; the player's choices decide which ones they are *present* for
 | d1 | **Sling in the dead watch**, **Have you stood this morning** | be sociable |
 | d1/dawn | **Seven goes sticky** | nothing. It happens in public and may be missed |
 | d2/dawn | **Sticky in the stairwell** | follow somebody who is complaining |
-| d2/dawn | **Pell Ivor's board** | ask a tallyman for *attempts*, not crossings |
+| d2/dawn | **Pell Ivor's count** | ask a tallyman for *attempts*, not crossings |
 | d2/day | **Somebody with the Listen** | send for a knack instead of testing it yourself |
 | d2/day | **Vantage reads the rim** | ask a fathom to read a door |
 | d2/day | **Calloway says the numbers out loud** | the fallback, on a timer, if they found nothing |
@@ -118,13 +118,14 @@ Set these up in the save and let them tick whether or not the player goes near
 them:
 
 - The Wolf Gate door has been stuttering for two days. Transit is supposed to be
-  **zero**; it is not, and the number is rising. Measure it, write it down in the
-  hall where anybody could read it, and never point at it.
+  **zero**; it is not, and the number is rising. The hall mind will give the number to
+  anybody who asks, and nobody has. Never point at it.
 - **Ladder** is behind that door. Sixty-one people, nineteen of them children, on
   a rock with no air of its own.
-- Sep Anwar has sent four reports from van Maanen's in three years, all stamped
-  WITHIN TOLERANCE and filed. [[Old Man Sirius]] has read them, attached his own
-  summary, and nobody has opened it.
+- Sep Anwar has sent four findings from van Maanen's in three years, each one
+  answered by the anchor corpus with WITHIN TOLERANCE and never carried onward.
+  [[Old Man Sirius]] has read them, attached his own summary, and nobody has
+  asked for it.
 - Councillor Hale has killed the funded-study proposal four times, on the grounds
   that there is no evidence of a pattern.
 - The Wolf Gate queue has not had a courier through since the early watch, and
@@ -142,7 +143,7 @@ of them live; they only need one.
 
 | If they are good at | How they find it |
 |---|---|
-| Reading, records, Lore | The watch reports, Anwar's four, and the Old Man's unopened summary. A clerk will be astonished anybody came |
+| Reading, Lore | The hall's transit numbers, Anwar's four findings, and the Old Man's unasked-for summary. A reader will be astonished anybody came |
 | Anchor hardware, Mechanisms | The housing's own draw times. A Doorwright reads a stutter off the instrumentation before anybody says a word |
 | People, Influence, Insight | The Wolf Gate queue — roughest line on the station, and nobody has come through it since the early watch. Somebody there is frightened and chatty |
 | Bodies, First Aid, Healing | The hall doctor. Three first-throughs came off that door this morning saying it felt *long*, and one of them asked whether that was normal |
@@ -169,7 +170,7 @@ Not offering is not the same as nothing happening. The clock protects you:
 
 | When | What happens whether or not the player is looking |
 |---|---|
-| Each watch | Transit time rises again, measurably. Write the new number up in the hall |
+| Each watch | Transit time rises again, measurably. The hall's number is higher for anyone who asks |
 | First watch missed | The Wolf Gate queue is shut. A deck's worth of shift workers now has an opinion, loudly |
 | Second watch | Ladder's supply run does not go. Sixty-one people start counting food |
 | Third watch | **It comes to them.** Calloway puts them on it in the ready room, with the number and the stakes in one breath, exactly as described below |
@@ -225,32 +226,34 @@ year.
 The player needs **three** things. None of them requires cleverness; all of them
 require asking somebody who has had no reason to volunteer it.
 
-**One: when.** Ladder's whole purpose for two hundred years has been watching the
-twins and keeping a record, by hand, in a shed. It is the only long-baseline
-observation of that binary in human space and nobody at the Nine has ever asked
-for a line of it.
+**One: when.** Ladder's whole purpose for two hundred years has been watching
+the twins and telling the rock's mind what they saw, watch after watch, as each
+keeper handed on. It is the only long-baseline observation of that binary in
+human space and nobody at the Nine has ever asked for any of it. The drift
+between what Ladder's mind holds and what Sirius's does is two hundred years,
+and it is two hundred years because an attestation does not cross a door and no
+fetch has ever been asked to carry this.
 
 That record gives a **date and a severity** for closest approach. It turns *soon*
 into a number, which turns a panic into a plan, and a plan is the only thing four
 hundred children can act on.
 
-**Two: how many, and which.** [[Tace Orun]] is the foreman and she has the shift
-board with sixty-one names on it, crossed and re-entered in a different hand.
-The Nine's own manifest is forty-one days old, says fifty-eight, and dates
-nineteen people as under sixteen -- a number that ages on its own. Only Tace has
-the real list, and she has had two days to decide an order, and she will not
-explain it, and the player can ask.
+**Two: how many, and which.** [[Tace Orun]] is the foreman and her fetch holds the shift's sixty-one names,
+with the order changed twice. The Nine's own count of Ladder is forty-one days
+old, says fifty-eight, and dates nineteen people as under sixteen -- a drift that
+ages on its own. Only Tace has the real list, and she has had two days to decide
+an order, and she will not explain it, and the player can ask.
 
 **Three: the thing nobody is looking for.** The potential reshapes *with the
 orbit*. So the record that predicts the flare **predicts the door** -- and
 Ladder has been sitting on the proof that strays are forecastable for two
-hundred years, filed and never read.
+hundred years, held and never asked for.
 
 That is the campaign's central established lie
 (`facts/straying-is-random-and-cannot-be-predicted.md`) broken in Act I, by a
 fifteen-year-old, because she went through a door to find out where it went. Do
-not have anybody at Ladder point it out. Let the player hold two documents and
-notice.
+not have anybody at Ladder point it out. Let the player's fetch hold two entries
+and notice.
 
 ## 4. The turn
 
@@ -358,7 +361,8 @@ Then the two things that open the rest of the campaign, and neither is a hint:
 - Somebody -- a twenty-one, probably, on the gallery afterwards -- says it.
   *That is what six-oh-two was. Eleven thousand of them, and nobody got there in
   time.* See [[The Nine Hundred Years]].
-- And the player is holding two documents from a shed on a rock: a flare record
-  and a door record, in the same hand, in the same ledger, for two hundred years.
+- And the player's fetch is holding two lines from a shed on a rock: a flare entry
+  and a door entry, in the same keepers' testimony, in the same archive, for two
+  hundred years.
 
 Then run **Kapteyn's**.

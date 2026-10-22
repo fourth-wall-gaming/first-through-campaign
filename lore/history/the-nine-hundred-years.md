@@ -71,7 +71,7 @@ service was chartered.
 
 ### Year ~400 — the Tally
 
-Somebody had to write down where the doors currently went, or everybody would be
+Somebody had to keep track of where the doors currently went, or everybody would be
 guessing. The clearing house that did it charged a little for the service, and
 then stood at every door in human space, and then was a government.
 
@@ -109,7 +109,9 @@ whoever is there now is nobody's cousin exactly, and is still ours.
 The Threshold keeps a watch on that housing. It has been kept for three hundred and
 seventy-three years, it has never once reported anything, and the rota has never been cut.
 
-**The map has twenty-eight systems on it. It used to have twenty-nine.**
+**The map has twenty-eight systems and twenty-seven doors, and one of those doors
+is dark. Kapteyn's is still on it: drawn in, counted, and not answering.** LHS 1140
+is drawn in as well, a twenty-ninth name with no door yet.
 
 ### Year 741 — the Carrying Sickness
 

@@ -25,7 +25,7 @@ nobody has a word for is it happening all week.
 ## How it presents, in order
 
 1. **First watch.** One courier stands there a moment too long and is annoyed
-   about it. Nobody writes anything down, because nobody logs a sticky door.
+   about it. Nobody mentions it to the hall, because nobody raises a sticky door.
 2. **By mid-morning** the queue at seven has stopped moving at the pace a queue
    moves. It is longer than it should be for the hour and the people in it are
    standing about rather than shuffling forward.
@@ -38,7 +38,7 @@ nobody has a word for is it happening all week.
 That explanation is true about the last twelve springs and false about this one,
 and the player should be allowed to accept it and walk away. Let them. The clock
 keeps running whether they looked or not, and the beat that catches it is
-[[Pell Ivor's board]].
+[[Pell Ivor's count]].
 
 A player who believes the loaders and goes off to have a good day has not failed
 at anything. They have been told a sensible thing by a competent adult, and the

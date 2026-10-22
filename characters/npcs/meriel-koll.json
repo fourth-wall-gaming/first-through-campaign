@@ -3,8 +3,8 @@
   "name": "Meriel Koll",
   "type": "npc",
   "status": "active",
-  "description": "The other half of the van Maanen's Star office. Keeps the station alive, keeps Sep fed, and has decided the reports are a bad idea.",
-  "narrative": "An engineer by trade who took the posting for the quiet and got more of it than\nshe bargained for. Meriel runs the station -- the air, the power, the single\nageing anchor -- and has done for six years with parts she requisitions twice and\nreceives once.\n\nShe has read Sep's reports. She thinks they are correct. She also thinks that\nthe fourth one going out was the reason their resupply slipped two quarters, and\nshe has not been able to prove that to herself or to anybody else.\n\nShe would like Sep to stop. She has not said so in those words.",
+  "description": "The other half of the Threshold's desk at van Maanen's Star. Keeps the station alive, keeps Sep fed, and has decided carrying the findings onward is a bad idea.",
+  "narrative": "An engineer by trade who took the posting for the quiet and got more of it than\nshe bargained for. Meriel runs the Threshold's hall -- the housing, the power, the\nsingle ageing anchor -- and has done for six years with parts she requisitions twice and\nreceives once.\n\nShe has read Sep's findings. She thinks they are correct. She also thinks that\nthe fourth one going out was the reason their resupply slipped two quarters, and\nshe has not been able to prove that to herself or to anybody else.\n\nShe would like Sep to stop. She has not said so in those words.",
   "characteristics": {
     "STR": 12,
     "CON": 13,
@@ -56,7 +56,7 @@
   "powers": [],
   "equipment": [
     "Toolroll, comprehensive",
-    "A requisition log she reads too often"
+    "A requisition queue she checks too often"
   ],
   "extras": {
     "pronouns": "she/her",
@@ -65,5 +65,5 @@
     "character_type": "witness",
     "station": "van-maanens-star"
   },
-  "actor_notes": "The counterweight to Sep, and the more interesting half. Meriel is not obstructing out of loyalty to the Threshold -- she is frightened in a specific, evidenced way, and her fear is correct. If the player takes the reports, she asks them, once, quietly, whether they understand what they are carrying. Do not have her win the argument and do not have her lose it."
+  "actor_notes": "The counterweight to Sep, and the more interesting half. Meriel is not obstructing out of loyalty to the Threshold -- she is frightened in a specific, evidenced way, and her fear is correct. If the player takes the findings, she asks them, once, quietly, whether they understand what they are carrying. Do not have her win the argument and do not have her lose it."
 }

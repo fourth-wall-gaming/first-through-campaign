@@ -4,7 +4,7 @@
   "type": "npc",
   "status": "active",
   "description": "Holds the Wolf Gate berth on the Nine Council. Does not want stray forecasting made public, because a berth whose door might move is worth a great deal less than a berth whose door might not.",
-  "narrative": "Hale is not wicked and is not hiding a crime. Hale is a berth-holder with four\ngenerations of family money tied up in a door, who has understood for some years\nthat if anybody ever publishes a reliable way of predicting strays, every berth\non the Causeway is repriced overnight and some of them are worth nothing.\n\nSo Hale is quietly, persistently against the whole idea. Studies are not funded.\nClerks at van Maanen's do not get the courier slots they ask for. Nothing is\nsuppressed, exactly. Things simply do not happen, for ordinary reasons, one\ncommittee at a time.\n\nHe would be genuinely wounded to be told this makes him dangerous.",
+  "narrative": "Hale is not wicked and is not hiding a crime. Hale is a berth-holder with four\ngenerations of family money tied up in a door, who has understood for some years\nthat if anybody ever publishes a reliable way of predicting strays, every berth\non the Causeway is repriced overnight and some of them are worth nothing.\n\nSo Hale is quietly, persistently against the whole idea. Studies are not funded.\nThe desk at van Maanen's does not get the courier slots it asks for. Nothing is\nsuppressed, exactly. Things simply do not happen, for ordinary reasons, one\ncommittee at a time.\n\nHe would be genuinely wounded to be told this makes him dangerous.",
   "characteristics": {
     "STR": 9,
     "CON": 10,
@@ -53,7 +53,7 @@
   "powers": [],
   "equipment": [
     "Forty years of suppressed projections",
-    "A signature worth a great deal"
+    "An attestation worth a great deal"
   ],
   "extras": {
     "pronouns": "they/them",

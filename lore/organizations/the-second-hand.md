@@ -37,7 +37,7 @@ is convenient for somebody. Usually couriers. Usually children.
 
 Because nothing crosses faster than a walking child. A warrant issued at the Nine
 arrives at Barnard's in somebody's coat pocket a fortnight later, by which time
-the crew it names has moved three doors on under different paperwork.
+the crew it names has moved three doors on under different names.
 
 They are not clever. They are just faster than the law can be in a galaxy where
 the law walks.
